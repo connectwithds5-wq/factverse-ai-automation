@@ -1,0 +1,160 @@
+name: FACTVERSE Daily Automation
+
+on:
+
+  workflow_dispatch:
+
+  schedule:
+    # 7:00 PM IST
+    - cron: "30 13 * * *"
+
+permissions:
+  contents: read
+
+jobs:
+
+  factverse:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      # =========================
+      # CHECKOUT
+      # =========================
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+
+      # =========================
+      # PYTHON
+      # =========================
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+
+        with:
+          python-version: "3.11"
+
+
+      # =========================
+      # FFMPEG
+      # =========================
+
+      - name: Install FFmpeg
+        run: |
+
+          sudo apt-get update
+
+          sudo apt-get install -y ffmpeg
+
+
+      # =========================
+      # DEPENDENCIES
+      # =========================
+
+      - name: Install dependencies
+        run: |
+
+          python -m pip install --upgrade pip
+
+          pip install -r requirements.txt
+
+
+      # =========================
+      # GENERATE FACT VIDEO
+      # =========================
+
+      - name: Generate FACTVERSE video
+        env:
+
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+          GEMINI_MODEL: gemini-3.6-flash
+
+        run: |
+
+          python src/factverse_generate.py
+
+
+      # =========================
+      # CHECK FILES
+      # =========================
+
+      - name: Check output
+        run: |
+
+          echo "=============================="
+          echo "FACTVERSE OUTPUT"
+          echo "=============================="
+
+          ls -lah output/
+
+          ls -lh output/factverse.mp4
+
+          ls -lh output/metadata.json
+
+
+      # =========================
+      # VIDEO ARTIFACT
+      # =========================
+
+      - name: Upload video artifact
+        uses: actions/upload-artifact@v4
+
+        with:
+
+          name: factverse-video
+
+          path: output/factverse.mp4
+
+          retention-days: 7
+
+
+      # =========================
+      # METADATA ARTIFACT
+      # =========================
+
+      - name: Upload metadata
+        uses: actions/upload-artifact@v4
+
+        with:
+
+          name: factverse-metadata
+
+          path: output/metadata.json
+
+          retention-days: 7
+
+
+      # =========================
+      # SUCCESS
+      # =========================
+
+      - name: FACTVERSE Success
+        if: success()
+
+        run: |
+
+          echo "======================================"
+
+          echo "      FACTVERSE AUTOMATION SUCCESS"
+
+          echo "======================================"
+
+          echo ""
+
+          echo "AI fact generated."
+
+          echo "Video generated."
+
+          echo "SEO metadata generated."
+
+          echo "Video artifact created."
+
+          echo ""
+
+          echo "Next step: YouTube upload."
+
+          echo "======================================"
