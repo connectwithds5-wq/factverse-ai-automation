@@ -1,46 +1,50 @@
-name: FACTVERSE AI Automation
+name: FACTVERSE
 
 on:
   workflow_dispatch:
-
   schedule:
-    # Daily at 07:00 UTC
-    # Change if required
-    - cron: "0 7 * * *"
+    # Daily at 08:00 UTC
+    - cron: "0 8 * * *"
 
 permissions:
   contents: read
 
 jobs:
-
   factverse:
-
-    name: FACTVERSE
+    name: FACTVERSE AI Video
     runs-on: ubuntu-latest
+
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_MODEL: gemini-2.5-flash
+
+      # IMPORTANT:
+      # These 3 secrets must belong to the YouTube channel
+      # where FACTVERSE videos should be uploaded.
+      YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+      YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
 
     steps:
 
-      # =====================================================
-      # 1. CHECKOUT
-      # =====================================================
-
+      # ==========================================
+      # CHECKOUT
+      # ==========================================
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
-      # =====================================================
-      # 2. PYTHON
-      # =====================================================
-
+      # ==========================================
+      # PYTHON
+      # ==========================================
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-          cache: pip
+          cache: "pip"
 
-      # =====================================================
-      # 3. FFMPEG
-      # =====================================================
-
+      # ==========================================
+      # FFMPEG
+      # ==========================================
       - name: Install FFmpeg
         run: |
           sudo apt-get update
@@ -49,230 +53,40 @@ jobs:
           echo "FFmpeg version:"
           ffmpeg -version | head -n 1
 
-      # =====================================================
-      # 4. INSTALL PYTHON DEPENDENCIES
-      # =====================================================
-
+      # ==========================================
+      # DEPENDENCIES
+      # ==========================================
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip setuptools wheel
+          python -m pip install --upgrade pip
 
           if [ -f requirements.txt ]; then
             pip install -r requirements.txt
           fi
 
-          # IMPORTANT:
-          # Explicit Piper installation
-          pip install --upgrade piper-tts
+          pip install \
+            google-genai \
+            Pillow \
+            requests \
+            google-api-python-client \
+            google-auth \
+            google-auth-oauthlib \
+            google-auth-httplib2 \
+            pydantic
 
-          echo "Installed packages:"
-          pip list
-
-      # =====================================================
-      # 5. VERIFY PIPER
-      # =====================================================
-
-      - name: Verify Piper TTS
+      # ==========================================
+      # CHECK REQUIRED SECRETS
+      # ==========================================
+      - name: Check required secrets
         run: |
-          echo "Checking Piper..."
+          echo "========================================"
+          echo "CHECKING FACTVERSE CONFIGURATION"
+          echo "========================================"
 
-          python -c "import piper; print('Piper Python module OK')"
-
-          piper --help | head -n 10
-
-      # =====================================================
-      # 6. DOWNLOAD PIPER VOICE
-      # =====================================================
-
-      - name: Download Piper Voice
-        run: |
-          mkdir -p output/voices
-
-          python -m piper.download_voices \
-            --data-dir output/voices \
-            en_US-lessac-medium
-
-          echo "Downloaded Piper voice files:"
-          find output/voices -maxdepth 3 -type f -print
-
-      # =====================================================
-      # 7. CHECK GEMINI SECRET
-      # =====================================================
-
-      - name: Check Gemini configuration
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: |
           if [ -z "$GEMINI_API_KEY" ]; then
-            echo "ERROR: GEMINI_API_KEY secret is missing."
+            echo "ERROR: GEMINI_API_KEY secret missing."
             exit 1
           fi
-
-          echo "Gemini API key is configured."
-
-      # =====================================================
-      # 8. GENERATE FACTVERSE VIDEO
-      # =====================================================
-
-      - name: Generate FACTVERSE AI Video
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-
-          # Stable model.
-          # Can be overridden in GitHub Variables.
-          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
-
-        run: |
-
-          echo "======================================"
-          echo "GENERATING FACTVERSE AI VIDEO"
-          echo "======================================"
-
-          # If GitHub Variable is empty, use fallback model
-          if [ -z "$GEMINI_MODEL" ]; then
-            export GEMINI_MODEL="gemini-3.6-flash"
-          fi
-
-          echo "Gemini model: $GEMINI_MODEL"
-
-          python src/factverse_generate.py
-
-      # =====================================================
-      # 9. VERIFY AI OUTPUT
-      # =====================================================
-
-      - name: Check AI generated files
-        run: |
-
-          echo "======================================"
-          echo "CHECKING GENERATED FILES"
-          echo "======================================"
-
-          if [ ! -f output/factverse.mp4 ]; then
-            echo "ERROR: factverse.mp4 was not generated."
-            exit 1
-          fi
-
-          if [ ! -f output/metadata.json ]; then
-            echo "ERROR: metadata.json was not generated."
-            exit 1
-          fi
-
-          echo "AI video exists."
-          echo "Metadata exists."
-
-          ls -lh output/
-
-      # =====================================================
-      # 10. NATURAL VOICE + MUSIC
-      # =====================================================
-
-      - name: Add Natural Voice and Music
-        env:
-          PIPER_DATA_DIR: ${{ github.workspace }}/output/voices
-        run: |
-
-          echo "======================================"
-          echo "FACTVERSE AUDIO ENGINE"
-          echo "======================================"
-
-          echo "Piper data directory:"
-          echo "$PIPER_DATA_DIR"
-
-          echo "Available voice files:"
-          find "$PIPER_DATA_DIR" -type f -print
-
-          echo "Running audio engine..."
-
-          python src/add_audio.py
-
-      # =====================================================
-      # 11. VERIFY FINAL VIDEO
-      # =====================================================
-
-      - name: Verify final video
-        run: |
-
-          echo "======================================"
-          echo "VERIFYING FINAL VIDEO"
-          echo "======================================"
-
-          if [ ! -f output/factverse.mp4 ]; then
-            echo "ERROR: Final video missing."
-            exit 1
-          fi
-
-          FILE_SIZE=$(stat -c%s output/factverse.mp4)
-
-          echo "Final video size:"
-          echo "$FILE_SIZE bytes"
-
-          if [ "$FILE_SIZE" -lt 10000 ]; then
-            echo "ERROR: Video file appears invalid."
-            exit 1
-          fi
-
-          ffprobe \
-            -v error \
-            -show_entries format=duration \
-            -of default=noprint_wrappers=1 \
-            output/factverse.mp4
-
-          echo "Final video verified."
-
-      # =====================================================
-      # 12. UPLOAD VIDEO ARTIFACT
-      # =====================================================
-
-      - name: Upload FACTVERSE Video
-        uses: actions/upload-artifact@v4
-        with:
-          name: factverse-video
-          path: output/factverse.mp4
-          if-no-files-found: error
-          retention-days: 7
-
-      # =====================================================
-      # 13. UPLOAD METADATA
-      # =====================================================
-
-      - name: Upload FACTVERSE Metadata
-        uses: actions/upload-artifact@v4
-        with:
-          name: factverse-metadata
-          path: output/metadata.json
-          if-no-files-found: error
-          retention-days: 7
-
-      # =====================================================
-      # 14. UPLOAD VOICE FOR TESTING
-      # =====================================================
-
-      - name: Upload Voice for Testing
-        uses: actions/upload-artifact@v4
-        with:
-          name: factverse-voice
-          path: |
-            output/voice.wav
-            output/final_voice.wav
-          if-no-files-found: ignore
-          retention-days: 3
-
-      # =====================================================
-      # 15. YOUTUBE UPLOAD
-      # =====================================================
-
-      - name: Upload FACTVERSE to YouTube
-        env:
-          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
-          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
-          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
-
-        run: |
-
-          echo "======================================"
-          echo "UPLOADING FACTVERSE TO YOUTUBE"
-          echo "======================================"
 
           if [ -z "$YOUTUBE_CLIENT_ID" ]; then
             echo "ERROR: YOUTUBE_CLIENT_ID secret missing."
@@ -289,53 +103,175 @@ jobs:
             exit 1
           fi
 
+          echo "GEMINI_API_KEY: OK"
+          echo "YOUTUBE_CLIENT_ID: OK"
+          echo "YOUTUBE_CLIENT_SECRET: OK"
+          echo "YOUTUBE_REFRESH_TOKEN: OK"
+          echo "========================================"
+
+      # ==========================================
+      # GENERATE VIDEO
+      # ==========================================
+      - name: Generate FACTVERSE AI Video
+        run: |
+          echo "========================================"
+          echo "GENERATING FACTVERSE AI VIDEO"
+          echo "========================================"
+
+          python src/factverse_generate.py
+
+      # ==========================================
+      # CHECK GENERATED FILES
+      # ==========================================
+      - name: Check AI generated files
+        run: |
+          echo "========================================"
+          echo "CHECKING GENERATED FILES"
+          echo "========================================"
+
           if [ ! -f output/factverse.mp4 ]; then
-            echo "ERROR: Video not found."
+            echo "ERROR: output/factverse.mp4 not found."
             exit 1
           fi
 
           if [ ! -f output/metadata.json ]; then
-            echo "ERROR: Metadata not found."
+            echo "ERROR: output/metadata.json not found."
+            exit 1
+          fi
+
+          echo "Video found:"
+          ls -lh output/factverse.mp4
+
+          echo "Metadata found:"
+          ls -lh output/metadata.json
+
+          echo "========================================"
+
+      # ==========================================
+      # NATURAL VOICE + MUSIC
+      # ==========================================
+      - name: Add Natural Voice and Music
+        run: |
+          echo "========================================"
+          echo "ADDING NATURAL VOICE + MUSIC"
+          echo "========================================"
+
+          python src/add_audio.py
+
+      # ==========================================
+      # VERIFY FINAL VIDEO
+      # ==========================================
+      - name: Verify final video
+        run: |
+          echo "========================================"
+          echo "VERIFYING FINAL VIDEO"
+          echo "========================================"
+
+          if [ ! -f output/factverse.mp4 ]; then
+            echo "ERROR: Final video not found."
+            exit 1
+          fi
+
+          ffprobe \
+            -v error \
+            -show_entries format=duration,size \
+            -show_entries stream=codec_name \
+            -of default=noprint_wrappers=1 \
+            output/factverse.mp4
+
+          echo "========================================"
+          echo "FINAL VIDEO VERIFIED"
+          echo "========================================"
+
+      # ==========================================
+      # UPLOAD VIDEO ARTIFACT
+      # ==========================================
+      - name: Upload FACTVERSE Video
+        uses: actions/upload-artifact@v4
+        with:
+          name: factverse-video
+          path: output/factverse.mp4
+          if-no-files-found: error
+
+      # ==========================================
+      # UPLOAD METADATA ARTIFACT
+      # ==========================================
+      - name: Upload FACTVERSE Metadata
+        uses: actions/upload-artifact@v4
+        with:
+          name: factverse-metadata
+          path: output/metadata.json
+          if-no-files-found: error
+
+      # ==========================================
+      # UPLOAD VOICE TEST ARTIFACT
+      # ==========================================
+      - name: Upload Voice for Testing
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: factverse-voice
+          path: output/voice.wav
+          if-no-files-found: ignore
+
+      # ==========================================
+      # YOUTUBE UPLOAD
+      # ==========================================
+      - name: Upload FACTVERSE to YouTube
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+        run: |
+          echo "========================================"
+          echo "UPLOADING FACTVERSE TO YOUTUBE"
+          echo "========================================"
+
+          if [ ! -f output/factverse.mp4 ]; then
+            echo "ERROR: Video file missing."
+            exit 1
+          fi
+
+          if [ ! -f output/metadata.json ]; then
+            echo "ERROR: Metadata file missing."
             exit 1
           fi
 
           python src/upload_youtube.py
 
-      # =====================================================
-      # 16. SUCCESS
-      # =====================================================
+          echo "========================================"
+          echo "YOUTUBE UPLOAD COMPLETED"
+          echo "========================================"
 
+      # ==========================================
+      # SUCCESS
+      # ==========================================
       - name: FACTVERSE Success
         if: success()
         run: |
-
           echo ""
-          echo "======================================"
+          echo "========================================"
           echo "       FACTVERSE SUCCESS"
-          echo "======================================"
+          echo "========================================"
           echo ""
-          echo "AI video generated."
+          echo "AI video generated successfully."
           echo "Natural voice added."
-          echo "Final video verified."
-          echo "Metadata generated."
+          echo "Video verified."
           echo "YouTube upload completed."
           echo ""
-          echo "FACTVERSE AUTOMATION COMPLETE."
-          echo "======================================"
+          echo "========================================"
 
-      # =====================================================
-      # 17. FAILURE
-      # =====================================================
-
+      # ==========================================
+      # FAILURE
+      # ==========================================
       - name: FACTVERSE Failure
         if: failure()
         run: |
-
           echo ""
-          echo "======================================"
+          echo "========================================"
           echo "       FACTVERSE AUTOMATION FAILED"
-          echo "======================================"
+          echo "========================================"
           echo ""
           echo "Check the failed step above."
           echo ""
-          echo "======================================"
+          echo "========================================"
