@@ -2,7 +2,6 @@ name: FACTVERSE AI Automation
 
 on:
 
-  # Manual Run
   workflow_dispatch:
 
   # Every day at 6:30 UTC = 12:00 PM IST
@@ -24,7 +23,7 @@ jobs:
     steps:
 
       # ==========================================================
-      # 1. CHECKOUT REPOSITORY
+      # 1. CHECKOUT
       # ==========================================================
 
       - name: Checkout repository
@@ -32,19 +31,18 @@ jobs:
 
 
       # ==========================================================
-      # 2. SETUP PYTHON
+      # 2. PYTHON
       # ==========================================================
 
       - name: Setup Python
         uses: actions/setup-python@v5
-
         with:
           python-version: "3.11"
           cache: "pip"
 
 
       # ==========================================================
-      # 3. INSTALL FFMPEG
+      # 3. FFMPEG
       # ==========================================================
 
       - name: Install FFmpeg
@@ -56,7 +54,7 @@ jobs:
 
 
       # ==========================================================
-      # 4. INSTALL PYTHON DEPENDENCIES
+      # 4. DEPENDENCIES
       # ==========================================================
 
       - name: Install dependencies
@@ -68,7 +66,7 @@ jobs:
 
 
       # ==========================================================
-      # 5. GENERATE FACTVERSE VIDEO
+      # 5. TRENDING FACT + VIDEO
       # ==========================================================
 
       - name: Generate FACTVERSE AI Video
@@ -76,19 +74,20 @@ jobs:
 
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
-          GEMINI_MODEL: gemini-3.6-flash
+          GEMINI_MODEL: gemini-3.7-flash
 
         run: |
 
           echo "======================================"
-          echo "GENERATING FACTVERSE AI VIDEO"
+          echo "FACTVERSE 2.0"
+          echo "TRENDING TOPIC + VERIFIED FACT"
           echo "======================================"
 
           python src/factverse_generate.py
 
 
       # ==========================================================
-      # 6. CHECK AI OUTPUT
+      # 6. CHECK GENERATED FILES
       # ==========================================================
 
       - name: Check AI generated files
@@ -101,15 +100,16 @@ jobs:
           ls -lah output/
 
           test -f output/factverse.mp4
+
           test -f output/metadata.json
 
           echo ""
-          echo "Video generated successfully."
-          echo "Metadata generated successfully."
+          echo "Video: OK"
+          echo "Metadata: OK"
 
 
       # ==========================================================
-      # 7. ADD NATURAL VOICE + MUSIC
+      # 7. NATURAL VOICE + MUSIC
       # ==========================================================
 
       - name: Add Natural Voice and Music
@@ -120,7 +120,7 @@ jobs:
         run: |
 
           echo "======================================"
-          echo "ADDING VOICE + MUSIC"
+          echo "ADDING NATURAL VOICE + MUSIC"
           echo "======================================"
 
           python src/add_audio.py
@@ -137,8 +137,6 @@ jobs:
           echo "VERIFYING FINAL VIDEO"
           echo "======================================"
 
-          ls -lah output/
-
           test -f output/factverse.mp4
 
           ffprobe \
@@ -148,11 +146,11 @@ jobs:
             output/factverse.mp4
 
           echo ""
-          echo "FINAL VIDEO READY."
+          echo "FINAL VIDEO READY"
 
 
       # ==========================================================
-      # 9. UPLOAD VIDEO ARTIFACT
+      # 9. VIDEO ARTIFACT
       # ==========================================================
 
       - name: Upload FACTVERSE Video
@@ -169,7 +167,7 @@ jobs:
 
 
       # ==========================================================
-      # 10. UPLOAD METADATA ARTIFACT
+      # 10. METADATA ARTIFACT
       # ==========================================================
 
       - name: Upload FACTVERSE Metadata
@@ -186,7 +184,7 @@ jobs:
 
 
       # ==========================================================
-      # 11. UPLOAD VOICE FILE FOR TESTING
+      # 11. VOICE ARTIFACT
       # ==========================================================
 
       - name: Upload Voice for Testing
@@ -205,7 +203,7 @@ jobs:
 
 
       # ==========================================================
-      # 12. UPLOAD FACTVERSE TO YOUTUBE
+      # 12. YOUTUBE UPLOAD
       # ==========================================================
 
       - name: Upload FACTVERSE to YouTube
@@ -214,10 +212,6 @@ jobs:
         env:
 
           YOUTUBE_OAUTH_JSON: ${{ secrets.YOUTUBE_OAUTH_JSON }}
-
-          # public = automatically publish
-          # private = upload privately
-          # unlisted = upload as unlisted
 
           YOUTUBE_PRIVACY_STATUS: public
 
@@ -231,44 +225,47 @@ jobs:
 
 
       # ==========================================================
-      # 13. SUCCESS SUMMARY
+      # 13. SUCCESS
       # ==========================================================
 
       - name: FACTVERSE Success
         if: success()
+
         run: |
 
           echo ""
           echo "======================================"
-          echo "       FACTVERSE AUTOMATION SUCCESS"
+          echo "     FACTVERSE AUTOMATION SUCCESS"
           echo "======================================"
           echo ""
-          echo "AI Fact              : DONE"
-          echo "Video                : DONE"
-          echo "Voice                : DONE"
+          echo "Trending Topic       : DONE"
+          echo "Fact Verification    : DONE"
+          echo "AI Video             : DONE"
+          echo "Natural Voice        : DONE"
           echo "Music                : DONE"
           echo "SEO Metadata         : DONE"
           echo "Video Artifact       : DONE"
           echo "YouTube Upload       : DONE"
-          echo "Privacy Status       : PUBLIC"
+          echo "Privacy              : PUBLIC"
           echo ""
-          echo "FACTVERSE AUTOMATION IS LIVE 🚀"
+          echo "FACTVERSE 2.0 IS LIVE 🚀"
           echo "======================================"
 
 
       # ==========================================================
-      # 14. FAILURE SUMMARY
+      # 14. FAILURE
       # ==========================================================
 
       - name: FACTVERSE Failure
         if: failure()
+
         run: |
 
           echo ""
           echo "======================================"
-          echo "      FACTVERSE AUTOMATION FAILED"
+          echo "    FACTVERSE AUTOMATION FAILED"
           echo "======================================"
           echo ""
-          echo "Check the failed step above."
+          echo "Please check the failed step above."
           echo ""
           echo "======================================"
