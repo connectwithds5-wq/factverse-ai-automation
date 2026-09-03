@@ -2,17 +2,33 @@ name: FACTVERSE Daily Automation
 
 on:
 
+  # ==========================================================
+  # MANUAL RUN
+  # ==========================================================
+
   workflow_dispatch:
 
+
+  # ==========================================================
+  # DAILY AUTOMATION
+  # 13:30 UTC = 19:00 IST
+  # ==========================================================
+
   schedule:
-    # Every day at 7:00 PM IST
-    # 13:30 UTC = 19:00 IST
     - cron: "30 13 * * *"
 
+
+# ==========================================================
+# PERMISSIONS
+# ==========================================================
 
 permissions:
   contents: read
 
+
+# ==========================================================
+# JOB
+# ==========================================================
 
 jobs:
 
@@ -23,17 +39,17 @@ jobs:
     steps:
 
 
-      # ==========================================================
-      # 1. CHECKOUT
-      # ==========================================================
+      # ======================================================
+      # 1. CHECKOUT REPOSITORY
+      # ======================================================
 
       - name: Checkout repository
         uses: actions/checkout@v4
 
 
-      # ==========================================================
-      # 2. PYTHON
-      # ==========================================================
+      # ======================================================
+      # 2. SETUP PYTHON
+      # ======================================================
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -42,9 +58,9 @@ jobs:
           python-version: "3.11"
 
 
-      # ==========================================================
-      # 3. FFMPEG
-      # ==========================================================
+      # ======================================================
+      # 3. INSTALL FFMPEG
+      # ======================================================
 
       - name: Install FFmpeg
         run: |
@@ -54,9 +70,9 @@ jobs:
           sudo apt-get install -y ffmpeg
 
 
-      # ==========================================================
-      # 4. PYTHON DEPENDENCIES
-      # ==========================================================
+      # ======================================================
+      # 4. INSTALL PYTHON DEPENDENCIES
+      # ======================================================
 
       - name: Install Python dependencies
         run: |
@@ -66,81 +82,144 @@ jobs:
           pip install -r requirements.txt
 
 
-      # ==========================================================
-      # 5. GENERATE FACT VIDEO
-      # ==========================================================
+      # ======================================================
+      # 5. SHOW INSTALLED VERSIONS
+      # ======================================================
+
+      - name: Check installed tools
+        run: |
+
+          echo "======================================"
+          echo "CHECKING INSTALLATION"
+          echo "======================================"
+
+          python --version
+
+          pip --version
+
+          ffmpeg -version | head -n 1
+
+          python -m piper --help | head -n 10
+
+          echo "======================================"
+
+
+      # ======================================================
+      # 6. GENERATE AI FACT VIDEO
+      # ======================================================
 
       - name: Generate FACTVERSE AI Video
         env:
 
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
-          GEMINI_MODEL: gemini-3.8-flash
+          # Keep the currently working Gemini model
+          GEMINI_MODEL: gemini-3.6-flash
 
         run: |
 
           python src/factverse_generate.py
 
 
-      # ==========================================================
-      # 6. ADD PIPER NEURAL VOICE + MUSIC
-      # ==========================================================
+      # ======================================================
+      # 7. DOWNLOAD PIPER VOICE MODEL
+      # ======================================================
 
-      - name: Add Natural Voice and Music
+      - name: Download Piper Voice
         run: |
+
+          echo "======================================"
+          echo "DOWNLOADING PIPER VOICE"
+          echo "======================================"
+
+          mkdir -p voices
+
+          python -m piper.download_voices \
+            --data-dir voices \
+            en_US-lessac-medium
+
+          echo ""
+          echo "VOICE FILES:"
+          ls -lah voices/
+
+          echo "======================================"
+
+
+      # ======================================================
+      # 8. GENERATE NATURAL VOICE + MUSIC
+      # ======================================================
+
+      - name: Add Natural Voice and Instrumental Music
+        run: |
+
+          echo "======================================"
+          echo "ADDING VOICE + MUSIC"
+          echo "======================================"
 
           python src/add_audio.py
 
+          echo "======================================"
 
-      # ==========================================================
-      # 7. CHECK OUTPUT
-      # ==========================================================
+
+      # ======================================================
+      # 9. CHECK FINAL OUTPUT
+      # ======================================================
 
       - name: Check generated files
         run: |
 
           echo "======================================"
-
-          echo "FACTVERSE OUTPUT"
-
+          echo "FACTVERSE FINAL OUTPUT"
           echo "======================================"
 
           echo ""
-
+          echo "OUTPUT DIRECTORY:"
           ls -lah output/
 
           echo ""
-
-          echo "FINAL VIDEO"
-
+          echo "FINAL VIDEO:"
           ls -lh output/factverse.mp4
 
           echo ""
-
-          echo "METADATA"
-
+          echo "METADATA:"
           ls -lh output/metadata.json
 
           echo ""
-
-          echo "VOICE"
-
+          echo "VOICE:"
           ls -lh output/voice.wav
 
           echo ""
-
-          echo "MUSIC"
-
+          echo "MUSIC:"
           ls -lh output/music.wav
 
           echo ""
+          echo "======================================"
+
+
+      # ======================================================
+      # 10. CHECK VIDEO WITH FFMPEG
+      # ======================================================
+
+      - name: Validate final video
+        run: |
+
+          echo "======================================"
+          echo "VALIDATING FINAL VIDEO"
+          echo "======================================"
+
+          ffprobe \
+            -v error \
+            -show_entries format=duration \
+            -show_entries stream=codec_type \
+            -of default=noprint_wrappers=1 \
+            output/factverse.mp4
 
           echo "======================================"
 
 
-      # ==========================================================
-      # 8. VIDEO ARTIFACT
-      # ==========================================================
+      # ======================================================
+      # 11. UPLOAD VIDEO ARTIFACT
+      # ======================================================
 
       - name: Upload FACTVERSE Video
         if: always()
@@ -156,9 +235,9 @@ jobs:
           retention-days: 7
 
 
-      # ==========================================================
-      # 9. METADATA ARTIFACT
-      # ==========================================================
+      # ======================================================
+      # 12. UPLOAD METADATA ARTIFACT
+      # ======================================================
 
       - name: Upload FACTVERSE Metadata
         if: always()
@@ -174,43 +253,70 @@ jobs:
           retention-days: 7
 
 
-      # ==========================================================
-      # 10. SUCCESS
-      # ==========================================================
+      # ======================================================
+      # 13. UPLOAD VOICE ARTIFACT
+      # ======================================================
+
+      - name: Upload Voice for Testing
+        if: always()
+
+        uses: actions/upload-artifact@v4
+
+        with:
+
+          name: factverse-voice
+
+          path: output/voice.wav
+
+          retention-days: 3
+
+
+      # ======================================================
+      # 14. UPLOAD TO YOUTUBE
+      # ======================================================
+
+      - name: Upload FACTVERSE to YouTube
+        if: success()
+
+        env:
+
+          YOUTUBE_OAUTH_JSON: ${{ secrets.YOUTUBE_OAUTH_JSON }}
+
+          # Automatically publish video
+          YOUTUBE_PRIVACY_STATUS: public
+
+        run: |
+
+          python src/upload_youtube.py
+
+
+      # ======================================================
+      # 15. SUCCESS SUMMARY
+      # ======================================================
 
       - name: FACTVERSE Success
         if: success()
 
         run: |
 
+          echo ""
           echo "======================================"
-
-          echo "     FACTVERSE V3 SUCCESS"
-
+          echo "       FACTVERSE AUTOMATION SUCCESS"
           echo "======================================"
-
           echo ""
 
-          echo "AI fact generated."
-
-          echo "Video generated."
-
-          echo "Natural neural voice generated."
-
+          echo "AI fact generated successfully."
+          echo "Video generated successfully."
+          echo "Piper neural voice generated successfully."
           echo "Voice cleaned and normalized."
-
-          echo "Instrumental music added."
-
+          echo "Instrumental background music added."
           echo "SEO metadata generated."
-
-          echo "Final MP4 created."
-
-          echo ""
-
-          echo "FACTVERSE IS READY! 🚀"
+          echo "Final MP4 validated."
+          echo "Video artifact uploaded."
+          echo "Metadata artifact uploaded."
+          echo "YouTube upload completed."
 
           echo ""
-
-          echo "Next: YouTube + Instagram automation."
-
+          echo "======================================"
+          echo "       FACTVERSE IS LIVE 🚀"
           echo "======================================"
