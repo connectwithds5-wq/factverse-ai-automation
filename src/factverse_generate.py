@@ -2,24 +2,17 @@ import json
 import os
 import random
 import subprocess
-import time
-import urllib.request
-import xml.etree.ElementTree as ET
-
+import re
 from PIL import Image, ImageDraw, ImageFont
 from google import genai
 from google.genai import types
 
+# ============================================================
+# FACTVERSE 4.0
+# AI FACT CONTENT + VERTICAL SHORT VIDEO
+# ============================================================
 
-# ==========================================================
-# FACTVERSE 3.0
-# ==========================================================
-
-ROOT = os.path.dirname(
-    os.path.dirname(
-        os.path.abspath(__file__)
-    )
-)
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 OUTPUT = os.path.join(ROOT, "output")
 VIDEO = os.path.join(OUTPUT, "factverse.mp4")
@@ -34,572 +27,504 @@ DURATION = 15
 os.makedirs(OUTPUT, exist_ok=True)
 os.makedirs(FRAMES, exist_ok=True)
 
+# ============================================================
+# GEMINI
+# ============================================================
 
-# ==========================================================
-# VERIFIED FALLBACK FACTS
-# Used automatically if Gemini quota/API fails
-# ==========================================================
+api_key = os.environ.get("GEMINI_API_KEY")
+
+if not api_key:
+    raise RuntimeError(
+        "GEMINI_API_KEY GitHub Secret is missing."
+    )
+
+client = genai.Client(api_key=api_key)
+
+# Use a stable model.
+# Can be overridden from GitHub Variables with GEMINI_MODEL.
+MODEL_CANDIDATES = [
+    os.environ.get("GEMINI_MODEL", "gemini-3.6-flash"),
+    "gemini-3.5-flash",
+    "gemini-2.5-flash",
+    "gemini-2.5-flash-lite",
+]
+
+# remove duplicates while preserving order
+MODEL_CANDIDATES = list(dict.fromkeys(MODEL_CANDIDATES))
+
+# ============================================================
+# TRENDING / HIGH RETENTION CATEGORIES
+# ============================================================
+
+categories = [
+    "mind blowing science facts",
+    "mystery and unexplained facts",
+    "space and universe facts",
+    "psychology and human behavior",
+    "strange animal facts",
+    "history mysteries",
+    "technology and AI facts",
+    "ocean and deep sea mysteries",
+    "weird but true facts",
+    "human body facts",
+]
+
+category = random.choice(categories)
+
+# ============================================================
+# PROMPT
+# ============================================================
+
+prompt = f"""
+You are the senior content creator for FACTVERSE.
+
+Create ONE highly engaging YouTube Short for the category:
+
+{category}
+
+GOAL:
+Create a fact that makes viewers stop scrolling, watch until the
+end, and want to comment/share.
+
+VIDEO:
+- Exactly 15 seconds
+- English
+- General audience
+- Highly fascinating
+- Natural spoken English
+- Short sentences
+- Strong curiosity gap
+- Strong ending
+- No boring introduction
+
+FACT QUALITY:
+- NEVER invent facts.
+- NEVER invent statistics.
+- NEVER make unsupported claims.
+- Prefer well-established scientific, historical or factual information.
+- If something is debated, say it is a theory or debated.
+- No medical advice.
+- No politics.
+- No dangerous instructions.
+- No graphic content.
+
+RETENTION STRUCTURE:
+
+HOOK:
+Maximum 10 words.
+Must immediately create curiosity.
+
+FACT:
+Maximum 45 words.
+Explain the fact clearly and naturally.
+
+TWIST:
+Maximum 15 words.
+The final line should create surprise and encourage viewers to
+keep watching or comment.
+
+SEO:
+Create a clickable YouTube Shorts title.
+Description should naturally include relevant search keywords.
+Do not keyword stuff.
+
+RETURN ONLY VALID JSON.
+NO markdown.
+NO code fences.
+
+JSON FORMAT:
+
+{{
+  "hook": "Short curiosity hook",
+  "fact": "Clear factual explanation",
+  "twist": "Surprising ending",
+  "title": "SEO optimized YouTube Shorts title",
+  "description": "SEO optimized description",
+  "keywords": [
+    "facts",
+    "did you know",
+    "amazing facts",
+    "interesting facts",
+    "mind blowing facts",
+    "science facts",
+    "shorts"
+  ],
+  "hashtags": [
+    "#facts",
+    "#didyouknow",
+    "#amazingfacts",
+    "#interestingfacts",
+    "#shorts",
+    "#factverse"
+  ]
+}}
+"""
+
+# ============================================================
+# SAFE JSON PARSER
+# ============================================================
+
+def clean_json(text):
+
+    if not text:
+        return None
+
+    text = text.strip()
+
+    # Remove markdown fences
+    text = re.sub(
+        r"^```(?:json)?\s*",
+        "",
+        text,
+        flags=re.IGNORECASE
+    )
+
+    text = re.sub(
+        r"\s*```$",
+        "",
+        text
+    )
+
+    # Find JSON object if extra text exists
+    start = text.find("{")
+    end = text.rfind("}")
+
+    if start == -1 or end == -1:
+        return None
+
+    text = text[start:end + 1]
+
+    try:
+        return json.loads(text)
+    except Exception:
+        return None
+
+
+# ============================================================
+# VERIFIED FALLBACK CONTENT
+# ============================================================
 
 FALLBACK_FACTS = [
-
     {
-        "trend_topic": "space",
-        "topic": "A day on Venus is longer than its year",
-        "category": "Space Facts",
-        "hook": "Did you know a day on Venus lasts longer than its year?",
-        "fact": (
-            "Venus takes about 243 Earth days to rotate once, "
-            "but only about 225 Earth days to orbit the Sun."
-        ),
-        "twist": (
-            "So on Venus, one day is actually longer than one year."
-        ),
-        "source_urls": [
-            "https://science.nasa.gov/venus/venus-facts/"
+        "hook": "Your brain can create memories that never happened.",
+        "fact": "Memory is reconstructive. When you remember an event, your brain rebuilds parts of it, which means details can sometimes change without you realizing it.",
+        "twist": "So a vivid memory isn't always a perfect recording.",
+        "title": "Your Brain Can Create Fake Memories 🤯",
+        "description": "Did you know your brain can create memories that never happened? Learn this fascinating psychology fact about human memory in this short.",
+        "keywords": [
+            "facts",
+            "did you know",
+            "psychology facts",
+            "brain facts",
+            "human brain",
+            "memory facts",
+            "interesting facts",
+            "shorts"
+        ],
+        "hashtags": [
+            "#facts",
+            "#didyouknow",
+            "#psychology",
+            "#brainfacts",
+            "#interestingfacts",
+            "#shorts",
+            "#factverse"
         ]
     },
-
     {
-        "trend_topic": "ocean",
-        "topic": "Earth's deep ocean remains difficult to explore",
-        "category": "Ocean Facts",
-        "hook": "We still know surprisingly little about the deep ocean.",
-        "fact": (
-            "The deep ocean is difficult to study because it is dark, "
-            "cold and under enormous pressure."
-        ),
-        "twist": (
-            "Some of Earth's biggest mysteries are underwater."
-        ),
-        "source_urls": [
-            "https://oceanservice.noaa.gov/facts/exploration.html"
+        "hook": "There is a planet where it may rain glass sideways.",
+        "fact": "On the exoplanet HD 189733 b, scientists have found evidence of extreme winds and silicate particles. Under those conditions, researchers think glass-like particles could be blown sideways.",
+        "twist": "Imagine weather made of glass moving at extreme speed.",
+        "title": "A Planet Where It May Rain Glass 😳",
+        "description": "A fascinating space fact about HD 189733 b and its extreme atmosphere. Could glass-like particles really blow sideways on another planet?",
+        "keywords": [
+            "space facts",
+            "planet facts",
+            "amazing facts",
+            "science facts",
+            "universe",
+            "astronomy",
+            "did you know",
+            "shorts"
+        ],
+        "hashtags": [
+            "#space",
+            "#spacefacts",
+            "#science",
+            "#universe",
+            "#astronomy",
+            "#didyouknow",
+            "#shorts",
+            "#factverse"
         ]
     },
-
     {
-        "trend_topic": "animal",
-        "topic": "Octopuses have three hearts",
-        "category": "Animal Facts",
-        "hook": "An octopus has three hearts. Here's why.",
-        "fact": (
-            "Two hearts pump blood toward the gills, "
-            "while a third pumps blood around the body."
-        ),
-        "twist": (
-            "Their circulatory system is seriously unusual."
-        ),
-        "source_urls": [
-            "https://oceanservice.noaa.gov/facts/octopus.html"
+        "hook": "Octopuses have three hearts.",
+        "fact": "An octopus has three hearts. Two pump blood toward its gills, while the third pumps blood through the rest of its body.",
+        "twist": "And swimming temporarily changes how one of those hearts works.",
+        "title": "Octopuses Have THREE Hearts 🐙",
+        "description": "Did you know octopuses have three hearts? Discover one of the strangest and most amazing animal facts in this quick FACTVERSE Short.",
+        "keywords": [
+            "animal facts",
+            "octopus facts",
+            "amazing facts",
+            "did you know",
+            "ocean facts",
+            "interesting facts",
+            "shorts"
+        ],
+        "hashtags": [
+            "#animalfacts",
+            "#octopus",
+            "#ocean",
+            "#didyouknow",
+            "#amazingfacts",
+            "#shorts",
+            "#factverse"
         ]
     },
-
     {
-        "trend_topic": "mars",
-        "topic": "Mars has the largest volcano in the solar system",
-        "category": "Space Facts",
-        "hook": "Mars has a volcano bigger than Earth's tallest mountains.",
-        "fact": (
-            "Olympus Mons is the largest known volcano in the solar system, "
-            "rising roughly 22 kilometers above the surrounding plains."
-        ),
-        "twist": (
-            "Mars has a truly gigantic volcano."
-        ),
-        "source_urls": [
-            "https://science.nasa.gov/mars/facts/"
-        ]
-    },
-
-    {
-        "trend_topic": "brain",
-        "topic": "Your brain uses a surprising amount of energy",
-        "category": "Science Facts",
-        "hook": "Your brain is small, but its energy demand is huge.",
-        "fact": (
-            "The adult human brain is only a small fraction of body mass, "
-            "yet it uses roughly 20 percent of the body's resting energy."
-        ),
-        "twist": (
-            "Small organ. Huge energy demand."
-        ),
-        "source_urls": [
-            "https://www.ncbi.nlm.nih.gov/books/NBK279388/"
-        ]
-    },
-
-    {
-        "trend_topic": "moon",
-        "topic": "The Moon is slowly moving away from Earth",
-        "category": "Space Facts",
-        "hook": "The Moon is slowly drifting away from Earth.",
-        "fact": (
-            "The Moon is gradually moving away from Earth by about "
-            "3.8 centimeters per year."
-        ),
-        "twist": (
-            "Our Moon is slowly getting farther away."
-        ),
-        "source_urls": [
-            "https://science.nasa.gov/moon/"
+        "hook": "Space is completely silent.",
+        "fact": "Sound needs a medium such as air, water, or another material to travel. Most of outer space is an extremely thin vacuum, so ordinary sound waves cannot travel through it.",
+        "twist": "So explosions in space wouldn't sound like movies.",
+        "title": "Why Space Is Completely Silent 🚀",
+        "description": "Why is space silent? Discover the science behind sound, vacuum, and outer space in this fascinating FACTVERSE Short.",
+        "keywords": [
+            "space facts",
+            "science facts",
+            "sound in space",
+            "universe facts",
+            "astronomy",
+            "did you know",
+            "shorts"
+        ],
+        "hashtags": [
+            "#spacefacts",
+            "#sciencefacts",
+            "#space",
+            "#astronomy",
+            "#universe",
+            "#didyouknow",
+            "#shorts",
+            "#factverse"
         ]
     }
 ]
 
 
-# ==========================================================
-# GOOGLE TRENDS INDIA
-# ==========================================================
+def verified_fallback():
 
-def get_google_trends():
+    # Choose a random verified fallback.
+    item = random.choice(FALLBACK_FACTS)
 
-    url = "https://trends.google.com/trending/rss?geo=IN"
+    return dict(item)
+
+
+# ============================================================
+# GENERATE AI CONTENT
+# ============================================================
+
+data = None
+used_model = None
+
+print("====================================")
+print("FACTVERSE 4.0")
+print("CATEGORY:", category)
+print("====================================")
+
+for model in MODEL_CANDIDATES:
 
     try:
 
-        request = urllib.request.Request(
-            url,
-            headers={
-                "User-Agent": "Mozilla/5.0"
-            }
+        print("Trying Gemini model:", model)
+
+        response = client.models.generate_content(
+            model=model,
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                response_mime_type="application/json",
+                temperature=0.8,
+            )
         )
 
-        with urllib.request.urlopen(
-            request,
-            timeout=15
-        ) as response:
+        parsed = clean_json(response.text)
 
-            xml_data = response.read()
+        if parsed and all(
+            key in parsed
+            for key in [
+                "hook",
+                "fact",
+                "twist",
+                "title",
+                "description",
+                "keywords",
+                "hashtags"
+            ]
+        ):
 
-        root = ET.fromstring(xml_data)
+            data = parsed
+            used_model = model
 
-        trends = []
-        seen = set()
+            print("Gemini generation successful.")
+            print("MODEL:", model)
 
-        for item in root.findall(".//item"):
+            break
 
-            title = item.find("title")
-
-            if title is None:
-                continue
-
-            if not title.text:
-                continue
-
-            topic = title.text.strip()
-
-            key = topic.lower()
-
-            if key in seen:
-                continue
-
-            seen.add(key)
-
-            trends.append(topic)
-
-        print("Google Trends found:", len(trends))
-
-        return trends[:20]
+        print(
+            "Gemini returned invalid/incomplete JSON:",
+            model
+        )
 
     except Exception as error:
 
         print(
-            "Google Trends unavailable:",
-            repr(error)
+            "Gemini model failed:",
+            model
         )
 
-        return []
-
-
-# ==========================================================
-# FALLBACK SELECTION
-# ==========================================================
-
-def get_fallback(trends):
-
-    trend_text = " ".join(
-        trends
-    ).lower()
-
-    scored = []
-
-    for item in FALLBACK_FACTS:
-
-        score = 0
-
-        keywords = (
-            item["trend_topic"]
-            .lower()
-            .split()
+        print(
+            "Reason:",
+            str(error)[:500]
         )
 
-        for word in keywords:
+        continue
 
-            if word in trend_text:
-                score += 1
 
-        scored.append(
-            (
-                score,
-                item
-            )
-        )
+# ============================================================
+# FINAL FALLBACK
+# ============================================================
 
-    scored.sort(
-        key=lambda x: x[0],
-        reverse=True
-    )
+if data is None:
 
-    # If no trend matches, choose randomly
-    if scored[0][0] == 0:
+    print("====================================")
+    print("USING VERIFIED FALLBACK")
+    print("====================================")
 
-        return dict(
-            random.choice(FALLBACK_FACTS)
-        )
+    data = verified_fallback()
+    used_model = "verified-fallback"
 
-    return dict(
-        scored[0][1]
-    )
 
+# ============================================================
+# GUARANTEE REQUIRED FIELDS
+# ============================================================
 
-# ==========================================================
-# CLEAN GEMINI JSON
-# ==========================================================
+fallback = verified_fallback()
 
-def clean_json(text):
+for field in [
+    "hook",
+    "fact",
+    "twist",
+    "title",
+    "description",
+    "keywords",
+    "hashtags"
+]:
 
-    text = text.strip()
+    if field not in data:
+        data[field] = fallback[field]
 
-    if text.startswith("```json"):
 
-        text = text[7:]
+# Make sure strings are strings
+data["hook"] = str(data["hook"]).strip()
+data["fact"] = str(data["fact"]).strip()
+data["twist"] = str(data["twist"]).strip()
+data["title"] = str(data["title"]).strip()
+data["description"] = str(data["description"]).strip()
 
-    elif text.startswith("```"):
+# Guarantee lists
+if not isinstance(data["keywords"], list):
+    data["keywords"] = fallback["keywords"]
 
-        text = text[3:]
+if not isinstance(data["hashtags"], list):
+    data["hashtags"] = fallback["hashtags"]
 
-    if text.endswith("```"):
 
-        text = text[:-3]
-
-    return json.loads(
-        text.strip()
-    )
-
-
-# ==========================================================
-# GEMINI CONTENT GENERATION
-# ==========================================================
-
-def generate_content(trends):
-
-    api_key = os.environ.get(
-        "GEMINI_API_KEY"
-    )
-
-    use_gemini = os.environ.get(
-        "USE_GEMINI",
-        "true"
-    ).lower() == "true"
-
-    if not api_key:
-
-        print("Gemini API key missing.")
-        print("Using verified fallback.")
-
-        return get_fallback(trends)
-
-    if not use_gemini:
-
-        print("Gemini disabled.")
-        print("Using verified fallback.")
-
-        return get_fallback(trends)
-
-    model = os.environ.get(
-        "GEMINI_MODEL",
-        "gemini-2.5-flash-lite"
-    )
-
-    trend_text = "\n".join(
-        f"- {trend}"
-        for trend in trends
-    )
-
-    if not trend_text:
-
-        trend_text = "- No live trend data available"
-
-    prompt = f"""
-You are the viral short-form fact editor
-for a YouTube Shorts channel called FACTVERSE.
-
-LIVE INDIA TRENDING SEARCHES:
-
-{trend_text}
-
-Create ONE highly engaging 15-second
-YouTube Short.
-
-Choose a topic connected to current interest
-when possible, but factual accuracy is more
-important than trend matching.
-
-STRICT FACT RULES:
-
-- Never invent facts.
-- Never invent statistics.
-- Never present rumors as facts.
-- Never create fake mysteries.
-- Prefer NASA, NOAA, universities, museums,
-  government and scientific sources.
-- Avoid politics.
-- Avoid medical advice.
-- Avoid dangerous instructions.
-- Avoid graphic content.
-
-RETENTION STRUCTURE:
-
-0-2 seconds:
-Create an extremely strong curiosity hook.
-
-2-7 seconds:
-Reveal the main fact.
-
-7-11 seconds:
-Explain it simply.
-
-11-14 seconds:
-Give a surprising twist.
-
-14-15 seconds:
-End naturally so the video can loop.
-
-VOICE STYLE:
-
-Natural spoken English.
-Very clear pronunciation.
-Short spoken sentences.
-No greeting.
-No filler.
-No robotic wording.
-
-SEO:
-
-Create:
-- Clickable truthful YouTube Shorts title
-- SEO optimized natural description
-- 8-12 keywords
-- 5-7 hashtags
-
-Return ONLY valid JSON.
-
-JSON FORMAT:
-
-{{
-  "trend_topic": "...",
-  "topic": "...",
-  "category": "...",
-  "hook": "...",
-  "fact": "...",
-  "twist": "...",
-  "title": "...",
-  "description": "...",
-  "keywords": [],
-  "hashtags": [],
-  "source_urls": []
-}}
-"""
-
-    try:
-
-        client = genai.Client(
-            api_key=api_key
-        )
-
-        print("Generating verified FACTVERSE content...")
-
-        # ONE Gemini request
-        response = client.models.generate_content(
-
-            model=model,
-
-            contents=prompt,
-
-            config=types.GenerateContentConfig(
-
-                response_mime_type="application/json",
-
-                max_output_tokens=1400
-            )
-        )
-
-        if not response.text:
-
-            raise RuntimeError(
-                "Gemini returned empty response."
-            )
-
-        data = clean_json(
-            response.text
-        )
-
-        required = [
-            "trend_topic",
-            "topic",
-            "category",
-            "hook",
-            "fact",
-            "twist",
-            "title",
-            "description",
-            "keywords",
-            "hashtags"
-        ]
-
-        for field in required:
-
-            if field not in data:
-
-                raise ValueError(
-                    f"Missing Gemini field: {field}"
-                )
-
-        print("Gemini generation SUCCESS.")
-
-        return data
-
-    except Exception as error:
-
-        print("Gemini unavailable:")
-        print(repr(error))
-        print("Using verified fallback.")
-
-        return get_fallback(trends)
-
-
-# ==========================================================
+# ============================================================
 # METADATA
-# ==========================================================
+# ============================================================
 
-def save_metadata(data, trends):
+data["channel"] = "FACTVERSE"
+data["category"] = category
+data["model"] = used_model
+data["duration"] = DURATION
+data["language"] = "English"
 
-    data["channel"] = "FACTVERSE"
+with open(
+    METADATA,
+    "w",
+    encoding="utf-8"
+) as file:
 
-    data["duration"] = DURATION
-
-    data["generated_at"] = time.strftime(
-        "%Y-%m-%d %H:%M:%S UTC",
-        time.gmtime()
+    json.dump(
+        data,
+        file,
+        ensure_ascii=False,
+        indent=2
     )
 
-    data["live_trends_checked"] = trends[:20]
 
-    if not data.get("title"):
-
-        data["title"] = (
-            f"{data['topic']} | "
-            f"Did You Know? #Shorts"
-        )
-
-    if not data.get("description"):
-
-        data["description"] = (
-            f"Discover the truth about "
-            f"{data['topic']} in this quick "
-            f"FACTVERSE Short. "
-            f"Follow for amazing facts, "
-            f"science, mysteries and discoveries."
-        )
-
-    if not data.get("keywords"):
-
-        data["keywords"] = [
-            "facts",
-            "did you know",
-            "amazing facts",
-            "interesting facts",
-            "science facts",
-            "mystery facts",
-            "space facts",
-            "animal facts",
-            "viral facts",
-            "youtube shorts",
-            "shorts",
-            "factverse"
-        ]
-
-    if not data.get("hashtags"):
-
-        data["hashtags"] = [
-            "#facts",
-            "#didyouknow",
-            "#amazingfacts",
-            "#science",
-            "#mystery",
-            "#shorts",
-            "#factverse"
-        ]
-
-    with open(
-        METADATA,
-        "w",
-        encoding="utf-8"
-    ) as file:
-
-        json.dump(
-            data,
-            file,
-            ensure_ascii=False,
-            indent=2
-        )
-
-    print("Metadata saved.")
-
-
-# ==========================================================
+# ============================================================
 # FONTS
-# ==========================================================
+# ============================================================
 
 FONT_BOLD = (
-    "/usr/share/fonts/truetype/"
-    "dejavu/DejaVuSans-Bold.ttf"
+    "/usr/share/fonts/truetype/dejavu/"
+    "DejaVuSans-Bold.ttf"
 )
 
 FONT_REGULAR = (
-    "/usr/share/fonts/truetype/"
-    "dejavu/DejaVuSans.ttf"
+    "/usr/share/fonts/truetype/dejavu/"
+    "DejaVuSans.ttf"
+)
+
+font_hook = ImageFont.truetype(
+    FONT_BOLD,
+    76
+)
+
+font_fact = ImageFont.truetype(
+    FONT_BOLD,
+    60
+)
+
+font_twist = ImageFont.truetype(
+    FONT_BOLD,
+    64
+)
+
+font_brand = ImageFont.truetype(
+    FONT_BOLD,
+    36
+)
+
+font_small = ImageFont.truetype(
+    FONT_REGULAR,
+    30
 )
 
 
-def get_font(path, size):
+# ============================================================
+# TEXT WRAPPING
+# ============================================================
 
-    return ImageFont.truetype(
-        path,
-        size
+def wrap_text(text, font, max_width):
+
+    dummy = Image.new(
+        "RGB",
+        (WIDTH, HEIGHT)
     )
 
-
-# ==========================================================
-# TEXT WRAPPING
-# ==========================================================
-
-def wrap_text(
-    draw,
-    text,
-    font,
-    max_width
-):
+    draw = ImageDraw.Draw(dummy)
 
     words = text.split()
 
     lines = []
-
     current = ""
 
     for word in words:
 
         test = (
-            f"{current} {word}"
+            current + " " + word
             if current
             else word
         )
@@ -610,36 +535,64 @@ def wrap_text(
             font=font
         )
 
-        width = (
-            box[2] - box[0]
-        )
-
-        if width <= max_width:
+        if box[2] - box[0] <= max_width:
 
             current = test
 
         else:
 
             if current:
-
-                lines.append(
-                    current
-                )
+                lines.append(current)
 
             current = word
 
     if current:
-
-        lines.append(
-            current
-        )
+        lines.append(current)
 
     return lines
 
 
-# ==========================================================
+hook_lines = wrap_text(
+    data["hook"],
+    font_hook,
+    850
+)
+
+fact_lines = wrap_text(
+    data["fact"],
+    font_fact,
+    850
+)
+
+twist_lines = wrap_text(
+    data["twist"],
+    font_twist,
+    850
+)
+
+
+# ============================================================
+# STAR FIELD
+# ============================================================
+
+random.seed()
+
+stars = []
+
+for i in range(120):
+
+    stars.append(
+        (
+            random.randint(20, WIDTH - 20),
+            random.randint(20, HEIGHT - 20),
+            random.randint(1, 4)
+        )
+    )
+
+
+# ============================================================
 # CENTERED TEXT
-# ==========================================================
+# ============================================================
 
 def draw_centered(
     draw,
@@ -650,14 +603,10 @@ def draw_centered(
 ):
 
     total_height = (
-        len(lines)
-        * spacing
+        len(lines) * spacing
     )
 
-    y = (
-        center_y
-        - total_height // 2
-    )
+    y = center_y - total_height // 2
 
     for line in lines:
 
@@ -667,9 +616,7 @@ def draw_centered(
             font=font
         )
 
-        width = (
-            box[2] - box[0]
-        )
+        width = box[2] - box[0]
 
         x = (
             WIDTH - width
@@ -677,10 +624,7 @@ def draw_centered(
 
         # Shadow
         draw.text(
-            (
-                x + 5,
-                y + 6
-            ),
+            (x + 5, y + 6),
             line,
             font=font,
             fill=(0, 0, 0)
@@ -688,10 +632,7 @@ def draw_centered(
 
         # Main text
         draw.text(
-            (
-                x,
-                y
-            ),
+            (x, y),
             line,
             font=font,
             fill=(245, 245, 250)
@@ -700,59 +641,44 @@ def draw_centered(
         y += spacing
 
 
-# ==========================================================
-# CREATE FRAME
-# ==========================================================
+# ============================================================
+# FRAME GENERATOR
+# ============================================================
 
-def create_frame(
-    frame_number,
-    data,
-    hook_lines,
-    fact_lines,
-    twist_lines,
-    stars,
-    fonts
-):
-
-    font_hook = fonts["hook"]
-    font_fact = fonts["fact"]
-    font_twist = fonts["twist"]
-    font_brand = fonts["brand"]
-    font_small = fonts["small"]
+def create_frame(frame_number):
 
     img = Image.new(
         "RGB",
-        (
-            WIDTH,
-            HEIGHT
-        ),
+        (WIDTH, HEIGHT),
         (8, 10, 25)
     )
 
     draw = ImageDraw.Draw(img)
 
     # Animated stars
-    for x, y, radius in stars:
+    for x, y, r in stars:
 
         yy = int(
             (
-                y
-                + frame_number * 0.4
-            )
-            % HEIGHT
+                y +
+                frame_number * 0.4
+            ) % HEIGHT
         )
 
         draw.ellipse(
             (
-                x - radius,
-                yy - radius,
-                x + radius,
-                yy + radius
+                x - r,
+                yy - r,
+                x + r,
+                yy + r
             ),
             fill=(120, 125, 155)
         )
 
-    # Brand
+    # ========================================================
+    # BRAND
+    # ========================================================
+
     brand = "FACTVERSE"
 
     box = draw.textbbox(
@@ -775,7 +701,10 @@ def create_frame(
         fill=(245, 200, 80)
     )
 
-    # Label
+    # ========================================================
+    # LABEL
+    # ========================================================
+
     label = "DID YOU KNOW?"
 
     box = draw.textbbox(
@@ -798,7 +727,10 @@ def create_frame(
         fill=(180, 185, 205)
     )
 
+    # ========================================================
     # HOOK
+    # ========================================================
+
     if frame_number < FPS * 4:
 
         draw_centered(
@@ -809,7 +741,10 @@ def create_frame(
             105
         )
 
+    # ========================================================
     # FACT
+    # ========================================================
+
     elif frame_number < FPS * 11:
 
         draw_centered(
@@ -817,10 +752,13 @@ def create_frame(
             fact_lines,
             font_fact,
             900,
-            82
+            88
         )
 
+    # ========================================================
     # TWIST
+    # ========================================================
+
     else:
 
         draw_centered(
@@ -853,13 +791,14 @@ def create_frame(
             fill=(180, 185, 205)
         )
 
-    # Progress bar
+    # ========================================================
+    # PROGRESS BAR
+    # ========================================================
+
     progress = int(
-        WIDTH
-        * (
-            (frame_number + 1)
-            / (FPS * DURATION)
-        )
+        WIDTH *
+        (frame_number + 1) /
+        (FPS * DURATION)
     )
 
     draw.rectangle(
@@ -875,213 +814,100 @@ def create_frame(
     return img
 
 
-# ==========================================================
-# RENDER VIDEO
-# ==========================================================
+# ============================================================
+# CLEAN OLD FRAMES
+# ============================================================
 
-def render_video(data):
+for filename in os.listdir(FRAMES):
 
-    fonts = {
+    if filename.endswith(".png"):
 
-        "hook": get_font(
-            FONT_BOLD,
-            72
-        ),
-
-        "fact": get_font(
-            FONT_BOLD,
-            55
-        ),
-
-        "twist": get_font(
-            FONT_BOLD,
-            62
-        ),
-
-        "brand": get_font(
-            FONT_BOLD,
-            36
-        ),
-
-        "small": get_font(
-            FONT_REGULAR,
-            30
-        )
-    }
-
-    dummy = Image.new(
-        "RGB",
-        (
-            WIDTH,
-            HEIGHT
-        )
-    )
-
-    draw = ImageDraw.Draw(
-        dummy
-    )
-
-    hook_lines = wrap_text(
-        draw,
-        data["hook"],
-        fonts["hook"],
-        850
-    )
-
-    fact_lines = wrap_text(
-        draw,
-        data["fact"],
-        fonts["fact"],
-        850
-    )
-
-    twist_lines = wrap_text(
-        draw,
-        data["twist"],
-        fonts["twist"],
-        850
-    )
-
-    random.seed(
-        sum(
-            ord(char)
-            for char in data["topic"]
-        )
-    )
-
-    stars = []
-
-    for _ in range(140):
-
-        stars.append(
-            (
-                random.randint(
-                    20,
-                    WIDTH - 20
-                ),
-
-                random.randint(
-                    20,
-                    HEIGHT - 20
-                ),
-
-                random.randint(
-                    1,
-                    4
+        try:
+            os.remove(
+                os.path.join(
+                    FRAMES,
+                    filename
                 )
             )
+
+        except Exception:
+            pass
+
+
+# ============================================================
+# GENERATE FRAMES
+# ============================================================
+
+print("Generating FACTVERSE video...")
+
+total_frames = FPS * DURATION
+
+for i in range(total_frames):
+
+    frame = create_frame(i)
+
+    frame.save(
+        os.path.join(
+            FRAMES,
+            f"frame_{i:05d}.png"
         )
-
-    total_frames = (
-        FPS * DURATION
-    )
-
-    print(
-        "Rendering FACTVERSE video..."
-    )
-
-    for frame_number in range(
-        total_frames
-    ):
-
-        frame = create_frame(
-            frame_number,
-            data,
-            hook_lines,
-            fact_lines,
-            twist_lines,
-            stars,
-            fonts
-        )
-
-        frame.save(
-            os.path.join(
-                FRAMES,
-                f"frame_{frame_number:05d}.png"
-            )
-        )
-
-    print(
-        "Encoding MP4..."
-    )
-
-    subprocess.run(
-        [
-            "ffmpeg",
-            "-y",
-            "-framerate",
-            str(FPS),
-            "-i",
-            os.path.join(
-                FRAMES,
-                "frame_%05d.png"
-            ),
-            "-c:v",
-            "libx264",
-            "-pix_fmt",
-            "yuv420p",
-            "-r",
-            str(FPS),
-            "-movflags",
-            "+faststart",
-            VIDEO
-        ],
-        check=True
-    )
-
-    print(
-        "Video rendering SUCCESS."
     )
 
 
-# ==========================================================
-# MAIN
-# ==========================================================
+# ============================================================
+# FFMPEG
+# ============================================================
 
-def main():
+subprocess.run(
+    [
+        "ffmpeg",
+        "-y",
+        "-framerate",
+        str(FPS),
+        "-i",
+        os.path.join(
+            FRAMES,
+            "frame_%05d.png"
+        ),
+        "-c:v",
+        "libx264",
+        "-preset",
+        "medium",
+        "-crf",
+        "20",
+        "-pix_fmt",
+        "yuv420p",
+        "-r",
+        str(FPS),
+        "-movflags",
+        "+faststart",
+        VIDEO
+    ],
+    check=True
+)
 
-    print("")
-    print("====================================")
-    print("FACTVERSE 3.0")
-    print("====================================")
 
-    trends = get_google_trends()
+# ============================================================
+# FINAL CHECK
+# ============================================================
 
-    print("")
-    print("LIVE TREND TOPICS:")
-    print(trends[:10])
-
-    data = generate_content(
-        trends
+if not os.path.exists(VIDEO):
+    raise RuntimeError(
+        "FACTVERSE video was not generated."
     )
 
-    print("")
-    print("SELECTED TOPIC:")
-    print(data["topic"])
-
-    print("")
-    print("TITLE:")
-    print(data["title"])
-
-    save_metadata(
-        data,
-        trends
+if not os.path.exists(METADATA):
+    raise RuntimeError(
+        "FACTVERSE metadata was not generated."
     )
 
-    render_video(
-        data
-    )
 
-    print("")
-    print("====================================")
-    print("FACTVERSE VIDEO GENERATED")
-    print("====================================")
-    print("Video:", VIDEO)
-    print("Metadata:", METADATA)
-    print("Topic:", data["topic"])
-    print("====================================")
-
-
-if __name__ == "__main__":
-
-    main()
+print("====================================")
+print("FACTVERSE VIDEO GENERATED")
+print("====================================")
+print("Category:", category)
+print("Model:", used_model)
+print("Title:", data["title"])
+print("Video:", VIDEO)
+print("Metadata:", METADATA)
+print("====================================")
