@@ -2,11 +2,19 @@ import json
 import os
 import random
 import subprocess
+import time
+
 from PIL import Image, ImageDraw, ImageFont
 from google import genai
 from google.genai import types
 
+
+# ==========================================================
+# PATHS
+# ==========================================================
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 OUTPUT = os.path.join(ROOT, "output")
 VIDEO = os.path.join(OUTPUT, "factverse.mp4")
 METADATA = os.path.join(OUTPUT, "metadata.json")
@@ -20,17 +28,47 @@ DURATION = 15
 os.makedirs(OUTPUT, exist_ok=True)
 os.makedirs(FRAMES, exist_ok=True)
 
+
+# ==========================================================
+# GEMINI API
+# ==========================================================
+
 api_key = os.environ.get("GEMINI_API_KEY")
 
 if not api_key:
-    raise RuntimeError("GEMINI_API_KEY GitHub Secret is missing.")
+    raise RuntimeError(
+        "GEMINI_API_KEY GitHub Secret is missing."
+    )
 
 client = genai.Client(api_key=api_key)
 
-model = os.environ.get(
+
+# ==========================================================
+# GEMINI MODELS
+# ==========================================================
+# Primary model first.
+# If overloaded/unavailable, automatically try the next one.
+
+requested_model = os.environ.get(
     "GEMINI_MODEL",
-    "gemini-3.6-flash"
+    "gemini-3.8-flash"
 )
+
+fallback_models = [
+    requested_model,
+    "gemini-3.8-flash",
+    "gemini-3.7-flash",
+    "gemini-3.6-flash",
+    "gemini-3.5-flash-lite",
+]
+
+# Remove duplicates while preserving order
+models = list(dict.fromkeys(fallback_models))
+
+
+# ==========================================================
+# CATEGORY
+# ==========================================================
 
 categories = [
     "mind blowing facts",
@@ -44,6 +82,11 @@ categories = [
 ]
 
 category = random.choice(categories)
+
+
+# ==========================================================
+# PROMPT
+# ==========================================================
 
 prompt = f"""
 You are the content creator for FACTVERSE.
@@ -97,15 +140,114 @@ Return ONLY valid JSON:
 }}
 """
 
-response = client.models.generate_content(
-    model=model,
-    contents=prompt,
-    config=types.GenerateContentConfig(
-        response_mime_type="application/json"
-    )
-)
 
-text = response.text.strip()
+# ==========================================================
+# GEMINI REQUEST WITH RETRY + FALLBACK
+# ==========================================================
+
+def generate_with_fallback():
+
+    last_error = None
+
+    for model in models:
+
+        print("")
+        print("====================================")
+        print("Trying Gemini model:", model)
+        print("====================================")
+
+        for attempt in range(1, 4):
+
+            try:
+
+                print(
+                    f"Attempt {attempt}/3 using {model}"
+                )
+
+                response = client.models.generate_content(
+                    model=model,
+                    contents=prompt,
+                    config=types.GenerateContentConfig(
+                        response_mime_type="application/json"
+                    )
+                )
+
+                if not response.text:
+                    raise RuntimeError(
+                        "Gemini returned an empty response."
+                    )
+
+                print(
+                    "SUCCESS with model:",
+                    model
+                )
+
+                return response.text
+
+            except Exception as error:
+
+                last_error = error
+
+                error_text = str(error)
+
+                print("")
+                print("Gemini request failed:")
+                print(error_text)
+                print("")
+
+                # Retry temporary server/rate-limit errors
+                temporary_error = any(
+                    code in error_text
+                    for code in [
+                        "503",
+                        "UNAVAILABLE",
+                        "429",
+                        "RESOURCE_EXHAUSTED",
+                        "500",
+                        "INTERNAL",
+                        "502",
+                        "504",
+                        "DEADLINE_EXCEEDED"
+                    ]
+                )
+
+                if temporary_error and attempt < 3:
+
+                    wait_seconds = 10 * attempt
+
+                    print(
+                        f"Temporary error. "
+                        f"Waiting {wait_seconds} seconds..."
+                    )
+
+                    time.sleep(wait_seconds)
+
+                else:
+
+                    print(
+                        "Moving to next Gemini model..."
+                    )
+
+                    break
+
+    raise RuntimeError(
+        "All Gemini models failed. "
+        f"Last error: {last_error}"
+    )
+
+
+# ==========================================================
+# GET GEMINI RESPONSE
+# ==========================================================
+
+text = generate_with_fallback()
+
+text = text.strip()
+
+
+# ==========================================================
+# CLEAN JSON MARKDOWN
+# ==========================================================
 
 if text.startswith("```json"):
     text = text[7:]
@@ -116,7 +258,30 @@ if text.startswith("```"):
 if text.endswith("```"):
     text = text[:-3]
 
-data = json.loads(text.strip())
+text = text.strip()
+
+
+# ==========================================================
+# PARSE JSON
+# ==========================================================
+
+try:
+
+    data = json.loads(text)
+
+except json.JSONDecodeError as error:
+
+    print("Gemini returned invalid JSON:")
+    print(text)
+
+    raise RuntimeError(
+        f"Could not parse Gemini JSON: {error}"
+    )
+
+
+# ==========================================================
+# VALIDATE METADATA
+# ==========================================================
 
 required = [
     "hook",
@@ -129,13 +294,21 @@ required = [
 ]
 
 for field in required:
+
     if field not in data:
+
         raise RuntimeError(
             f"Missing metadata field: {field}"
         )
 
+
 data["channel"] = "FACTVERSE"
 data["category"] = category
+
+
+# ==========================================================
+# SAVE METADATA
+# ==========================================================
 
 with open(
     METADATA,
@@ -151,8 +324,19 @@ with open(
     )
 
 
-FONT_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
-FONT_REGULAR = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+# ==========================================================
+# FONTS
+# ==========================================================
+
+FONT_BOLD = (
+    "/usr/share/fonts/truetype/dejavu/"
+    "DejaVuSans-Bold.ttf"
+)
+
+FONT_REGULAR = (
+    "/usr/share/fonts/truetype/dejavu/"
+    "DejaVuSans.ttf"
+)
 
 font_hook = ImageFont.truetype(
     FONT_BOLD,
@@ -179,6 +363,10 @@ font_small = ImageFont.truetype(
     30
 )
 
+
+# ==========================================================
+# TEXT WRAPPING
+# ==========================================================
 
 def wrap_text(text, font, max_width):
 
@@ -244,6 +432,10 @@ twist_lines = wrap_text(
 )
 
 
+# ==========================================================
+# STAR BACKGROUND
+# ==========================================================
+
 random.seed(42)
 
 stars = []
@@ -258,6 +450,10 @@ for i in range(100):
         )
     )
 
+
+# ==========================================================
+# CENTER TEXT
+# ==========================================================
 
 def draw_centered(
     draw,
@@ -283,7 +479,7 @@ def draw_centered(
 
         x = (WIDTH - width) // 2
 
-        # shadow
+        # Shadow
         draw.text(
             (x + 5, y + 6),
             line,
@@ -291,6 +487,7 @@ def draw_centered(
             fill=(0, 0, 0)
         )
 
+        # Main text
         draw.text(
             (x, y),
             line,
@@ -300,6 +497,10 @@ def draw_centered(
 
         y += spacing
 
+
+# ==========================================================
+# FRAME CREATION
+# ==========================================================
 
 def create_frame(frame_number):
 
@@ -311,7 +512,7 @@ def create_frame(frame_number):
 
     draw = ImageDraw.Draw(img)
 
-    # animated stars
+    # Animated stars
     for x, y, r in stars:
 
         yy = int(
@@ -329,7 +530,10 @@ def create_frame(frame_number):
             fill=(120, 125, 155)
         )
 
-    # Brand
+    # ------------------------------------------------------
+    # BRAND
+    # ------------------------------------------------------
+
     brand = "FACTVERSE"
 
     box = draw.textbbox(
@@ -350,7 +554,10 @@ def create_frame(frame_number):
         fill=(245, 200, 80)
     )
 
-    # DID YOU KNOW
+    # ------------------------------------------------------
+    # LABEL
+    # ------------------------------------------------------
+
     label = "DID YOU KNOW?"
 
     box = draw.textbbox(
@@ -371,7 +578,10 @@ def create_frame(frame_number):
         fill=(180, 185, 205)
     )
 
-    # 0-4 seconds
+    # ------------------------------------------------------
+    # HOOK
+    # ------------------------------------------------------
+
     if frame_number < FPS * 4:
 
         draw_centered(
@@ -382,7 +592,10 @@ def create_frame(frame_number):
             105
         )
 
-    # 4-11 seconds
+    # ------------------------------------------------------
+    # FACT
+    # ------------------------------------------------------
+
     elif frame_number < FPS * 11:
 
         draw_centered(
@@ -393,7 +606,10 @@ def create_frame(frame_number):
             88
         )
 
-    # 11-15 seconds
+    # ------------------------------------------------------
+    # TWIST
+    # ------------------------------------------------------
+
     else:
 
         draw_centered(
@@ -424,7 +640,9 @@ def create_frame(frame_number):
             fill=(180, 185, 205)
         )
 
-    # progress bar
+    # ------------------------------------------------------
+    # PROGRESS BAR
+    # ------------------------------------------------------
 
     progress = int(
         WIDTH *
@@ -445,9 +663,17 @@ def create_frame(frame_number):
     return img
 
 
+# ==========================================================
+# GENERATE VIDEO
+# ==========================================================
+
+print("")
+print("====================================")
 print("Generating FACTVERSE video...")
+print("====================================")
 
 total_frames = FPS * DURATION
+
 
 for i in range(total_frames):
 
@@ -460,6 +686,10 @@ for i in range(total_frames):
         )
     )
 
+
+# ==========================================================
+# FFMPEG
+# ==========================================================
 
 subprocess.run(
     [
@@ -486,11 +716,18 @@ subprocess.run(
 )
 
 
+# ==========================================================
+# SUCCESS
+# ==========================================================
+
+print("")
 print("====================================")
 print("FACTVERSE VIDEO GENERATED")
 print("====================================")
+
 print("Category:", category)
 print("Title:", data["title"])
 print("Video:", VIDEO)
 print("Metadata:", METADATA)
+
 print("====================================")
