@@ -1,11 +1,11 @@
 name: FACTVERSE AI Automation
 
 on:
-
   workflow_dispatch:
 
-  # Every day at 6:30 UTC = 12:00 PM IST
   schedule:
+    # Every day at 12:00 PM IST
+    # 06:30 UTC
     - cron: "30 6 * * *"
 
 
@@ -22,30 +22,34 @@ jobs:
 
     steps:
 
-      # ==========================================================
-      # 1. CHECKOUT
-      # ==========================================================
+      # ==================================================
+      # CHECKOUT
+      # ==================================================
 
       - name: Checkout repository
+
         uses: actions/checkout@v4
 
 
-      # ==========================================================
-      # 2. PYTHON
-      # ==========================================================
+      # ==================================================
+      # PYTHON
+      # ==================================================
 
       - name: Setup Python
+
         uses: actions/setup-python@v5
+
         with:
           python-version: "3.11"
-          cache: "pip"
+          cache: pip
 
 
-      # ==========================================================
-      # 3. FFMPEG
-      # ==========================================================
+      # ==================================================
+      # FFMPEG
+      # ==================================================
 
       - name: Install FFmpeg
+
         run: |
 
           sudo apt-get update
@@ -53,11 +57,12 @@ jobs:
           sudo apt-get install -y ffmpeg
 
 
-      # ==========================================================
-      # 4. DEPENDENCIES
-      # ==========================================================
+      # ==================================================
+      # PYTHON DEPENDENCIES
+      # ==================================================
 
       - name: Install dependencies
+
         run: |
 
           python -m pip install --upgrade pip
@@ -65,77 +70,72 @@ jobs:
           pip install -r requirements.txt
 
 
-      # ==========================================================
-      # 5. TRENDING FACT + VIDEO
-      # ==========================================================
+      # ==================================================
+      # GENERATE VIDEO
+      # ==================================================
 
       - name: Generate FACTVERSE AI Video
+
         env:
 
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
-          GEMINI_MODEL: gemini-3.7-flash
+          GEMINI_MODEL: gemini-2.5-flash-lite
+
+          USE_GEMINI: "true"
 
         run: |
 
           echo "======================================"
-          echo "FACTVERSE 2.0"
-          echo "TRENDING TOPIC + VERIFIED FACT"
+
+          echo "FACTVERSE 3.0"
+
+          echo "ONE GEMINI REQUEST"
+
+          echo "429 FALLBACK ENABLED"
+
           echo "======================================"
 
           python src/factverse_generate.py
 
 
-      # ==========================================================
-      # 6. CHECK GENERATED FILES
-      # ==========================================================
+      # ==================================================
+      # CHECK VIDEO
+      # ==================================================
 
-      - name: Check AI generated files
+      - name: Check generated files
+
         run: |
-
-          echo "======================================"
-          echo "CHECKING GENERATED FILES"
-          echo "======================================"
-
-          ls -lah output/
 
           test -f output/factverse.mp4
 
           test -f output/metadata.json
 
-          echo ""
-          echo "Video: OK"
-          echo "Metadata: OK"
+          echo "Generated files:"
+
+          ls -lh output/factverse.mp4
+
+          ls -lh output/metadata.json
 
 
-      # ==========================================================
-      # 7. NATURAL VOICE + MUSIC
-      # ==========================================================
+      # ==================================================
+      # VOICE + MUSIC
+      # ==================================================
 
       - name: Add Natural Voice and Music
-        env:
-
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
         run: |
-
-          echo "======================================"
-          echo "ADDING NATURAL VOICE + MUSIC"
-          echo "======================================"
 
           python src/add_audio.py
 
 
-      # ==========================================================
-      # 8. VERIFY FINAL VIDEO
-      # ==========================================================
+      # ==================================================
+      # VERIFY FINAL VIDEO
+      # ==================================================
 
       - name: Verify final video
-        run: |
 
-          echo "======================================"
-          echo "VERIFYING FINAL VIDEO"
-          echo "======================================"
+        run: |
 
           test -f output/factverse.mp4
 
@@ -145,16 +145,15 @@ jobs:
             -of default=noprint_wrappers=1 \
             output/factverse.mp4
 
-          echo ""
-          echo "FINAL VIDEO READY"
 
-
-      # ==========================================================
-      # 9. VIDEO ARTIFACT
-      # ==========================================================
+      # ==================================================
+      # UPLOAD VIDEO ARTIFACT
+      # ==================================================
 
       - name: Upload FACTVERSE Video
+
         if: success()
+
         uses: actions/upload-artifact@v4
 
         with:
@@ -166,12 +165,14 @@ jobs:
           retention-days: 7
 
 
-      # ==========================================================
-      # 10. METADATA ARTIFACT
-      # ==========================================================
+      # ==================================================
+      # UPLOAD METADATA
+      # ==================================================
 
       - name: Upload FACTVERSE Metadata
+
         if: success()
+
         uses: actions/upload-artifact@v4
 
         with:
@@ -183,12 +184,14 @@ jobs:
           retention-days: 7
 
 
-      # ==========================================================
-      # 11. VOICE ARTIFACT
-      # ==========================================================
+      # ==================================================
+      # UPLOAD VOICE TEST
+      # ==================================================
 
       - name: Upload Voice for Testing
+
         if: always()
+
         uses: actions/upload-artifact@v4
 
         with:
@@ -202,11 +205,12 @@ jobs:
           retention-days: 3
 
 
-      # ==========================================================
-      # 12. YOUTUBE UPLOAD
-      # ==========================================================
+      # ==================================================
+      # YOUTUBE UPLOAD
+      # ==================================================
 
       - name: Upload FACTVERSE to YouTube
+
         if: success()
 
         env:
@@ -218,54 +222,65 @@ jobs:
         run: |
 
           echo "======================================"
+
           echo "UPLOADING FACTVERSE TO YOUTUBE"
+
           echo "======================================"
 
           python src/upload_youtube.py
 
 
-      # ==========================================================
-      # 13. SUCCESS
-      # ==========================================================
+      # ==================================================
+      # SUCCESS
+      # ==================================================
 
       - name: FACTVERSE Success
+
         if: success()
 
         run: |
 
-          echo ""
           echo "======================================"
-          echo "     FACTVERSE AUTOMATION SUCCESS"
+
+          echo "FACTVERSE AUTOMATION SUCCESS"
+
           echo "======================================"
-          echo ""
-          echo "Trending Topic       : DONE"
-          echo "Fact Verification    : DONE"
-          echo "AI Video             : DONE"
-          echo "Natural Voice        : DONE"
-          echo "Music                : DONE"
-          echo "SEO Metadata         : DONE"
-          echo "Video Artifact       : DONE"
-          echo "YouTube Upload       : DONE"
-          echo "Privacy              : PUBLIC"
-          echo ""
-          echo "FACTVERSE 2.0 IS LIVE 🚀"
+
+          echo "Google Trends    : DONE"
+
+          echo "Gemini            : ONE REQUEST"
+
+          echo "429 fallback      : READY"
+
+          echo "Fact              : DONE"
+
+          echo "SEO               : DONE"
+
+          echo "Video             : DONE"
+
+          echo "Voice + Music     : DONE"
+
+          echo "YouTube Upload    : DONE"
+
           echo "======================================"
 
 
-      # ==========================================================
-      # 14. FAILURE
-      # ==========================================================
+      # ==================================================
+      # FAILURE
+      # ==================================================
 
       - name: FACTVERSE Failure
+
         if: failure()
 
         run: |
 
-          echo ""
           echo "======================================"
-          echo "    FACTVERSE AUTOMATION FAILED"
+
+          echo "FACTVERSE AUTOMATION FAILED"
+
           echo "======================================"
-          echo ""
-          echo "Please check the failed step above."
-          echo ""
+
+          echo "Check the failed step above."
+
           echo "======================================"
