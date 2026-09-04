@@ -1,11 +1,10 @@
 name: FACTVERSE
-
 on:
   workflow_dispatch:
 
   schedule:
-    # Daily at 08:00 UTC
-    - cron: "0 8 * * *"
+    - cron: "30 6 * * *"
+    - cron: "30 12 * * *"
 
 permissions:
   contents: read
