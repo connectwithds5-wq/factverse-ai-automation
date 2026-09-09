@@ -66,20 +66,24 @@ print("")
 
 
 # ==========================================================
-# DOWNLOAD PIPER VOICE MODEL
+# DOWNLOAD PIPER VOICE MODEL IF NEEDED
 # ==========================================================
 
-print("Downloading Piper voice model...")
-print(VOICE_NAME)
+if os.path.exists(VOICE_MODEL):
+    print("Piper voice model already exists. Skipping download.")
+    print(VOICE_MODEL)
+else:
+    print("Downloading Piper voice model...")
+    print(VOICE_NAME)
 
-run([
-    sys.executable,
-    "-m",
-    "piper.download_voices",
-    "--data-dir",
-    VOICE_DIR,
-    VOICE_NAME
-])
+    run([
+        sys.executable,
+        "-m",
+        "piper.download_voices",
+        "--data-dir",
+        VOICE_DIR,
+        VOICE_NAME
+    ])
 
 
 if not os.path.exists(VOICE_MODEL):
