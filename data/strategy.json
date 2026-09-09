@@ -1,21 +1,42 @@
 {
   "confidence": "MEDIUM",
-  "data_points": 89,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "data_points": 107,
+  "overall_summary": "The channel's top-performing content centers on cosmic scale anomalies and bizarre sensory-based space facts, alongside highly counter-intuitive animal biology. Conversely, repetitive psychology and brain-related topics underperform, indicating audience fatigue with generic self-help or mind-trick concepts. Additionally, re-uploading identical or highly similar concepts shows diminishing returns.",
+  "winning_patterns": [
+    {
+      "pattern": "Cosmic Scale & Sensory Space Anomalies",
+      "evidence": "'The Largest Ocean in Space Will Mind-Blow You!' (460 views) and 'What Does Outer Space Actually Smell Like?' (368 views) are the channel's top performers.",
+      "action": "Produce more content focusing on extreme cosmic environments, planetary anomalies, and sensory experiences in space (e.g., sounds, smells, temperatures)."
+    },
+    {
+      "pattern": "Counter-Intuitive Animal Biology",
+      "evidence": "'Sharks Are Older Than Trees?' (301 views) and 'This Animal Literally Dies Every Winter!' (179 views) show strong engagement and view velocity.",
+      "action": "Create content highlighting bizarre survival mechanisms or historical timeline paradoxes involving well-known animals."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Repetitive Brain & Psychology Concepts",
+      "evidence": "'Your Brain Is Hiding This From You' (39 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently underperform.",
+      "action": "Pivot away from generic cognitive psychology facts unless they can be framed with a highly shocking, visual hook."
+    },
+    {
+      "pattern": "Direct Concept Duplication",
+      "evidence": "Re-uploading 'Your Brain Can Create Fake Memories' yielded only 5 and 54 views, while repeating 'Octopuses Have THREE Hearts' dropped from 183 to 118 views.",
+      "action": "Avoid posting identical titles and concepts within a short window; prioritize unique angles or entirely fresh scripts."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "category": "Space",
+    "hook_style": "Temporal Paradox Hook",
+    "concept": "A mind-bending look at how time behaves on Venus, where a day is longer than a year.",
+    "opening_direction": "Start with: 'You could celebrate your birthday twice in a single day on this planet...'",
+    "twist_direction": "Reveal that Venus rotates so slowly that its day lasts 243 Earth days, while its year is only 225 days, meaning you'd age a year before the sun even sets.",
     "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "posting_window": "20:00 - 21:00 UTC",
+    "reason": "Leverages the highly successful space category, matches the 15-16 second sweet spot of your top videos, and uses a temporal paradox hook similar to the high-performing 'Sharks Are Older Than Trees' timeline comparison."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-09T22:35:13.543750+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-09T22:35:13.543767+00:00"
+  "experiment": "Test a 'Sensory Space' series (e.g., 'What does a black hole sound like?' or 'The planet made of burning ice') against standard scale facts to see if sensory curiosity drives higher retention rates.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-09T23:34:40.731864+00:00"
 }
