@@ -1,6 +1,6 @@
 {
   "confidence": "MEDIUM",
-  "data_points": 71,
+  "data_points": 89,
   "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories and hooks before making strong conclusions.",
   "winning_patterns": [],
   "weak_patterns": [],
@@ -15,7 +15,7 @@
     "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
   "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-09T21:36:26.246827+00:00",
+  "updated_at": "2026-09-09T22:35:13.543750+00:00",
   "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-09T21:36:26.246846+00:00"
+  "generated_at": "2026-09-09T22:35:13.543767+00:00"
 }
