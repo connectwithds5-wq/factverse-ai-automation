@@ -1,42 +1,21 @@
 {
   "confidence": "MEDIUM",
-  "data_points": 35,
-  "overall_summary": "The channel is experiencing low baseline views (mostly under 500), but clear outliers indicate that cosmic anomalies with sensory hooks and counter-intuitive animal comparisons perform significantly better than generic brain/psychology facts. There is also a highly detrimental trend of uploading duplicate concepts and identical titles within short timeframes, which is suppressing algorithmic reach.",
-  "winning_patterns": [
-    {
-      "pattern": "Sensory & Scale-Based Space Anomalies",
-      "evidence": "'The Largest Ocean in Space Will Mind-Blow You!' (460 views, 5 likes) and 'What Does Outer Space Actually Smell Like?' (368 views, 4 likes) are the channel's top performers.",
-      "action": "Focus on cosmic topics that challenge everyday human senses, scale, or physical expectations."
-    },
-    {
-      "pattern": "Counter-Intuitive Animal Paradoxes",
-      "evidence": "'Sharks Are Older Than Trees?' (301 views, 3 likes) and 'This Animal Literally Dies Every Winter!' (179 views, 3 likes) outperformed standard trivia.",
-      "action": "Frame biological facts as historical or physical contradictions rather than simple encyclopedic statements."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Saturated Brain & Psychology Tropes",
-      "evidence": "'Your Brain Is Hiding This From You' (39 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) failed to gain traction.",
-      "action": "Pivot away from generic 'your brain' hooks, which are highly saturated and fail to stand out in the Shorts feed."
-    },
-    {
-      "pattern": "Identical Title Re-uploading",
-      "evidence": "Re-uploading 'Your Brain Can Create Fake Memories' resulted in a drop from 54 views to 5 views. 'Octopuses Have THREE Hearts' was also uploaded twice, splitting potential reach.",
-      "action": "Establish a strict content calendar to prevent duplicate uploads and title cannibalization."
-    }
-  ],
+  "data_points": 53,
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space & Physics",
-    "hook_style": "Sensory Paradox",
-    "concept": "The Planet Made of Burning Ice (Gliese 436 b)",
-    "opening_direction": "There is a planet in our galaxy where ice is literally on fire—and it never melts.",
-    "twist_direction": "It's not magic; the gravity is so intense it packs water molecules into solid ice, despite temperatures reaching 800 degrees.",
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
     "duration_seconds": 15,
-    "posting_window": "18:00 - 20:00 UTC",
-    "reason": "Capitalizes on the proven success of extreme space anomalies (like the space ocean and space smell videos) by introducing a highly visual, contradictory physical phenomenon."
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'Historical Time-Dilation' paradox format (e.g., 'Cleopatra lived closer to the creation of the iPhone than the building of the Great Pyramid') to see if historical scale matches the high performance of cosmic scale videos.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-09T19:34:37.378009+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-09T20:37:13.406171+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-09T20:37:13.406194+00:00"
 }
