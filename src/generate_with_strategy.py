@@ -35,9 +35,6 @@ def main():
 
     source = GENERATOR.read_text(encoding="utf-8")
 
-    # The existing generator is deliberately kept intact. We adapt its
-    # category and prompt at runtime so the proven rendering/fallback code
-    # continues to be used.
     target = "category = random.choice(categories)"
     if category:
         if target not in source:
@@ -80,6 +77,8 @@ def main():
 
     globals_for_generator = {
         "__name__": "__main__",
+        "__file__": str(GENERATOR),
+        "__package__": None,
         "strategy_context": strategy_context,
         "strategy_context_text": context_json,
     }
