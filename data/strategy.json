@@ -1,37 +1,42 @@
 {
-  "confidence": "HIGH",
-  "data_points": 427,
-  "overall_summary": "Space-themed anomalies and extreme cosmic physics are the clear growth drivers for FACTVERSE, with the latest space upload ('The Planet of Burning Ice') rapidly becoming the top-performing video. Conversely, abstract psychology and brain-fact videos consistently underperform, struggling to capture initial viewer interest.",
+  "confidence": "MEDIUM",
+  "data_points": 447,
+  "overall_summary": "The channel is experiencing its highest traction with extreme space anomalies and mind-bending animal biology facts. Standard psychology and repetitive brain-related content are underperforming, indicating audience fatigue with generic self-help or cognitive trivia. Short, punchy videos of 15-16 seconds with high sensory or contradictory hooks are driving the best engagement.",
   "winning_patterns": [
     {
-      "pattern": "Sensory and Extreme Cosmic Anomalies",
-      "evidence": "'The Planet of Burning Ice' (678 views, 8 likes), 'The Largest Ocean in Space' (460 views, 5 likes), and 'What Does Outer Space Actually Smell Like?' (368 views, 4 likes) represent the channel's highest-performing tier.",
-      "action": "Produce highly visual, sensory-focused space content (extreme temperatures, smells, tastes, and weather in space) using high-contrast cosmic imagery."
+      "pattern": "Extreme Space Anomalies with Sensory Paradoxes",
+      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' reached 678 views and 7 likes rapidly. 'What Does Outer Space Actually Smell Like?' achieved 368 views, and 'The Largest Ocean in Space...' reached 460 views.",
+      "action": "Double down on cosmic physics anomalies, focusing on extreme temperatures, unexpected smells, or bizarre weather conditions in deep space."
     },
     {
-      "pattern": "Counter-Intuitive Biological & Time Paradoxes",
-      "evidence": "'Sharks Are Older Than Trees?' (302 views) and 'This Animal Literally Dies Every Winter!' (179 views) maintain strong baseline viewership compared to other non-space topics.",
-      "action": "Create content comparing biological timelines or extreme animal survival mechanisms that defy common sense."
+      "pattern": "Cognitive Dissonance in Animal Biology",
+      "evidence": "'Sharks Are Older Than Trees?' (302 views), 'Octopuses Have THREE Hearts' (183 views), and 'This Animal Literally Dies Every Winter!' (179 views) perform consistently above the channel average.",
+      "action": "Produce content highlighting survival mechanisms or evolutionary timelines that sound fake but are scientifically true."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Psychology and Brain Hacks",
-      "evidence": "'Your Brain Can Create Fake Memories' (5 views and 54 views across uploads) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction.",
-      "action": "Avoid passive, explanatory psychology facts. If exploring the mind, pivot to interactive 'test your brain' styles that force viewer participation."
+      "pattern": "Repetitive Brain & Memory Trivia",
+      "evidence": "'Your Brain Can Create Fake Memories' stalled at 54 views (and 5 views on a duplicate upload). 'The Real Reason Songs Get Stuck In Your Head' got only 17 views.",
+      "action": "Pivot away from generic 'your brain' hooks unless they are tied to a highly visual or newly discovered scientific phenomenon."
+    },
+    {
+      "pattern": "Niche Tech/AI News",
+      "evidence": "'AI Recreates Pink Floyd Song From Brain Waves!' flatlined at 38 views.",
+      "action": "Avoid abstract tech achievements that lack a direct, easily visualizable hook for a general audience."
     }
   ],
   "next_video": {
-    "category": "Space",
-    "hook_style": "Sensory Juxtaposition",
-    "concept": "The planet WASP-76b where it literally rains molten iron at night.",
-    "opening_direction": "Imagine a world where the evening weather forecast is a literal storm of boiling, liquid metal.",
-    "twist_direction": "But the craziest part? During the day, winds are so violent they vaporize iron into the atmosphere, carrying it to the dark side where it condenses and rains down as molten iron droplets.",
+    "category": "Space & Science",
+    "hook_style": "Cognitive Dissonance",
+    "concept": "A planet where it rains liquid iron at night.",
+    "opening_direction": "Start with a high-contrast visual cue: 'There is a giant planet in our galaxy where the nights are so terrifying, it literally rains molten iron.'",
+    "twist_direction": "Reveal that the daytime temperature is so hot it vaporizes metal, which then condenses and falls as metallic rain on the cooler night side.",
     "duration_seconds": 16,
-    "posting_window": "12:00 PM - 2:00 PM",
-    "reason": "Aligns with the top-performing 16-second format and leverages the highly successful 'extreme planetary weather' theme established by the burning ice and glass rain concepts."
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Capitalizes on the proven success of extreme space weather/planet concepts (like the 'Burning Ice' and 'Glass Sideways' videos) using a highly visual, terrifying sensory hook."
   },
-  "experiment": "Test an interactive 'optical illusion' or 'brain test' Short to see if active viewer participation can rescue the underperforming psychology category.",
+  "experiment": "Test a 'Time Paradox' history-meets-science concept (e.g., Cleopatra lived closer to the iPhone than the building of the Great Pyramid) to see if historical timeline dissonance matches the performance of cosmic anomalies.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-10T16:36:28.005285+00:00"
+  "generated_at": "2026-09-10T17:35:12.921547+00:00"
 }
