@@ -1,42 +1,37 @@
 {
   "confidence": "MEDIUM",
-  "data_points": 507,
-  "overall_summary": "Analysis of 20 unique Shorts across 100 data points indicates that cosmic anomalies featuring sensory paradoxes (e.g., burning ice, space oceans) and mind-bending timeline comparisons (e.g., sharks older than trees) are the channel's primary growth drivers. Conversely, generic psychology topics and duplicate uploads struggle to gain traction, showing flatlined reach.",
+  "data_points": 527,
+  "overall_summary": "The channel is experiencing its highest engagement and view velocity with extreme cosmic anomalies and mind-bending space facts, while psychology, brain hacks, and repetitive re-uploads of memory-related content are severely underperforming. Space-themed videos average significantly higher views than any other category.",
   "winning_patterns": [
     {
-      "pattern": "Sensory & Physical Paradoxes in Space",
-      "evidence": "'The Planet of Burning Ice' reached 811 views and 'The Largest Ocean in Space' achieved 460 views, leading the channel's performance.",
-      "action": "Prioritize cosmic phenomena that defy everyday physics, focusing on extreme temperatures, weird weather, and unexpected chemistry."
+      "pattern": "Extreme Cosmic Anomalies & Sensory Mismatches",
+      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' reached 874 views, 'The Largest Ocean in Space' reached 460 views, and 'What Does Outer Space Actually Smell Like?' reached 368 views.",
+      "action": "Double down on space concepts that present a physical paradox or sensory mismatch (e.g., hot ice, space smells, liquid metal rain)."
     },
     {
-      "pattern": "Timeline Disruption & Mind-Bending Comparisons",
-      "evidence": "'Sharks Are Older Than Trees?' gained 302 views, showing strong engagement for facts that challenge the viewer's perception of history.",
-      "action": "Develop more comparison-based hooks that contrast two familiar concepts in an unexpected chronological or physical way."
+      "pattern": "Counter-Intuitive Animal Biology",
+      "evidence": "'Sharks Are Older Than Trees' reached 302 views, 'Octopuses Have THREE Hearts' reached 183 views, and 'This Animal Literally Dies Every Winter!' reached 179 views.",
+      "action": "Produce highly visual, short-form animal facts focusing on survival mechanisms or ancient evolutionary anomalies."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Brain & Psychology Trivia",
-      "evidence": "'Your Brain Is Hiding This From You' (39 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently underperformed.",
-      "action": "Pause generic cognitive psychology facts unless they can be framed with a high-stakes, survival, or evolutionary angle."
-    },
-    {
-      "pattern": "Identical Topic Re-runs",
-      "evidence": "Re-uploading 'Your Brain Can Create Fake Memories' yielded only 5 views compared to the original 54 views, showing zero algorithmic benefit.",
-      "action": "Avoid re-uploading identical titles or concepts; instead, write a completely fresh hook and script if revisiting a topic."
+      "pattern": "Repetitive Brain & Psychology Concepts",
+      "evidence": "'Your Brain Can Create Fake Memories' stalled at 54 views (and 5 views on a duplicate upload), while 'The Real Reason Songs Get Stuck In Your Head' stalled at 17 views.",
+      "action": "Pause production on generic brain/psychology facts and avoid direct re-uploads of identical titles, as they fail to trigger the Shorts algorithm."
     }
   ],
   "next_video": {
-    "category": "Space & Astronomy",
-    "hook_style": "Sensory Paradox",
-    "concept": "The planet WASP-76b where it literally rains molten iron at night.",
-    "opening_direction": "Start with: 'There is a planet in our galaxy where the rain won't wet you... it will melt you.'",
-    "twist_direction": "Explain that daytime temperatures are so extreme they vaporize metal, which winds then blow to the cooler night side where it condenses and rains down as liquid iron.",
-    "duration_seconds": 16,
-    "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Capitalizes on the proven success of space weather anomalies ('Burning Ice' at 811 views) using a highly visual, terrifying, and retention-friendly hook."
+    "category": "Space",
+    "hook_style": "Physical Paradox",
+    "concept": "The Planet Where It Rains Molten Iron",
+    "opening_direction": "There is a giant planet in our galaxy where the weather forecast is literally a downpour of liquid iron.",
+    "twist_direction": "But it only rains at night, because the daytime is so hot it vaporizes metal into clouds.",
+    "duration_seconds": 15,
+    "posting_window": "12:00 PM - 2:00 PM",
+    "reason": "Leverages the proven high performance of extreme planetary weather conditions (like the burning ice and glass rain videos) using a highly visual, terrifying cosmic concept."
   },
-  "experiment": "Test a 'Time Dilation' physics short (e.g., 'Why Time Moves Slower at the Pyramids') to see if Earth-based physics paradoxes can replicate the high performance of space-themed anomalies.",
+  "experiment": "Test a 'Space vs. Earth' comparison format (e.g., comparing Earth's most extreme environment to a cosmic equivalent) to bridge the gap between earth science and space enthusiasts.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-10T20:35:50.108545+00:00"
+  "generated_at": "2026-09-10T21:34:37.721264+00:00"
 }
