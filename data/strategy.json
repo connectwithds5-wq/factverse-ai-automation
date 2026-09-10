@@ -1,32 +1,37 @@
 {
   "confidence": "MEDIUM",
-  "data_points": 547,
-  "overall_summary": "Space-themed content focusing on extreme cosmic anomalies and sensory contradictions (e.g., burning ice, space smells, floating oceans) is driving the highest engagement and views. Conversely, internal psychological concepts and brain-related facts are struggling to capture initial viewer interest, resulting in low baseline performance.",
+  "data_points": 567,
+  "overall_summary": "Space anomalies and extreme natural phenomena are currently driving the highest engagement and views on the channel, led by 'The Planet of Burning Ice' (1,053 views) and 'The Largest Ocean in Space' (460 views). Conversely, cognitive psychology and brain-related facts are underperforming, with multiple uploads failing to cross the 100-view threshold. Sensory-driven hooks that challenge physical intuition (e.g., smells, extreme temperatures, physical states) significantly outperform abstract concepts.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Cosmic Anomalies & Sensory Contradictions",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' reached 874 views, 'The Largest Ocean in Space' hit 460 views, and 'What Does Outer Space Actually Smell Like?' reached 368 views.",
-      "action": "Double down on space facts that present physical impossibilities or bizarre sensory details (smell, taste, touch) to instantly hook the viewer's imagination."
+      "pattern": "Extreme Space Anomalies with Sensory Hooks",
+      "evidence": "'The Planet of Burning Ice' reached 1,053 views and 'What Does Outer Space Actually Smell Like?' reached 368 views, showing a strong response to tactile, visceral cosmic concepts.",
+      "action": "Prioritize space topics that contrast opposing physical states (e.g., hot/cold, liquid/gas) or introduce unexpected sensory details."
+    },
+    {
+      "pattern": "Bizarre Animal Survival & Evolutionary Anomalies",
+      "evidence": "'Sharks Are Older Than Trees' (302 views) and 'This Animal Literally Dies Every Winter!' (179 views) outperformed standard anatomical trivia.",
+      "action": "Focus animal content on extreme survival mechanisms, evolutionary paradoxes, and high-stakes biological feats."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Academic Brain & Psychology Explanations",
-      "evidence": "'The Real Reason Songs Get Stuck In Your Head' stalled at 17 views, and 'Your Brain Can Create Fake Memories' struggled with only 5 to 54 views across multiple uploads.",
-      "action": "Pivot away from abstract internal psychology and cognitive biases unless they can be framed with a highly dramatic, externalized visual hook."
+      "pattern": "Repetitive Cognitive Psychology & Brain Tricks",
+      "evidence": "'Your Brain Can Create Fake Memories' (54 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) struggled to gain traction.",
+      "action": "Avoid generic self-help or common psychological observations; pivot psychology content toward high-stakes historical mysteries or bizarre clinical syndromes."
     }
   ],
   "next_video": {
-    "category": "Space",
-    "hook_style": "Visual Contradiction",
-    "concept": "TrES-2b, the pitch-black planet that absorbs 99% of light but burns hotter than lava.",
-    "opening_direction": "Start with a completely black screen and the hook: 'This planet is blacker than coal, and it literally eats light.'",
-    "twist_direction": "Reveal that despite absorbing almost all light, it burns at 1,800°F, making it glow a ghostly, demonic red.",
+    "category": "Space & Science",
+    "hook_style": "Sensory Disruption",
+    "concept": "The planet where it rains boiling liquid iron.",
+    "opening_direction": "Start with: 'Imagine a world where the clouds are made of metal, and the rain can literally melt your face off.'",
+    "twist_direction": "Reveal that on WASP-76b, temperatures are so extreme that iron vaporizes on the day side and condenses into metallic rain on the night side.",
     "duration_seconds": 16,
-    "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Leverages the highly successful cosmic anomaly theme with a strong visual contrast (pitch black vs. glowing red) and aligns with the channel's top-performing 16-second duration."
+    "posting_window": "12:00 PM - 1:00 PM UTC",
+    "reason": "Aligns directly with the top-performing space anomaly pattern, utilizing a highly visual, terrifying sensory hook to maximize early viewer retention."
   },
-  "experiment": "Test a 'Space vs. Earth' comparison format (similar to the successful 'Sharks Are Older Than Trees' which got 302 views) comparing a bizarre cosmic timeline to a well-known historical event on Earth.",
+  "experiment": "Test a 15-second Short comparing the physical scale of the largest known star to a grain of sand, utilizing a continuous zoom-out visual style to maximize retention.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-10T22:34:56.316280+00:00"
+  "generated_at": "2026-09-10T23:33:34.807685+00:00"
 }
