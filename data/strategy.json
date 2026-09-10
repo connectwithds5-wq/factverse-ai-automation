@@ -1,42 +1,37 @@
 {
   "confidence": "MEDIUM",
-  "data_points": 197,
-  "overall_summary": "The channel is in an early growth phase with views ranging from double digits to under 500. Space-themed content and highly contrasting animal/nature facts are currently driving the highest engagement, whereas generic brain/psychology facts are underperforming.",
+  "data_points": 215,
+  "overall_summary": "The channel is in an early-stage testing phase with views ranging from double-digits to under 500. Cosmic anomalies, space science, and counter-intuitive natural history are currently driving the highest relative views and engagement. Conversely, abstract cognitive psychology and brain-related facts are struggling to gain initial traction.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Cosmic Scale & Sensory Curiosity",
-      "evidence": "'The Largest Ocean in Space Will Mind-Blow You!' (460 views) and 'What Does Outer Space Actually Smell Like?' (368 views) are the channel's top-performing videos.",
-      "action": "Produce space content that connects abstract cosmic phenomena to human senses (smell, sound, touch) or unimaginable physical scales."
+      "pattern": "Cosmic Scale & Sensory Space Anomalies",
+      "evidence": "'The Largest Ocean in Space Will Mind-Blow You!' (460 views, 5 likes) and 'What Does Outer Space Actually Smell Like?' (368 views, 4 likes) are the channel's top-performing videos.",
+      "action": "Produce more content focusing on extreme cosmic environments, planetary weather, and sensory-based space facts."
     },
     {
-      "pattern": "Contrasting Biological Anomalies",
-      "evidence": "'Sharks Are Older Than Trees?' (302 views) and 'This Animal Literally Dies Every Winter!' (179 views) outperform standard animal trivia.",
-      "action": "Frame zoological facts around stark, seemingly impossible comparisons or extreme survival mechanisms."
+      "pattern": "Shocking Temporal & Survival Comparisons in Nature",
+      "evidence": "'Sharks Are Older Than Trees?' (302 views, 3 likes) and 'This Animal Literally Dies Every Winter!' (179 views, 3 likes) show strong relative performance.",
+      "action": "Frame biology and history videos around mind-bending timeline clashes or extreme evolutionary survival mechanisms."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Brain & Psychology Hooks",
-      "evidence": "'Your Brain Is Hiding This From You' (39 views) and 'Your Brain Can Create Fake Memories' (54 views) fail to capture initial viewer interest.",
-      "action": "Steer away from overused, abstract psychological tropes. If covering psychology, ground it in a highly specific, bizarre historical experiment."
-    },
-    {
-      "pattern": "Identical Topic Re-uploading",
-      "evidence": "Re-uploading 'Your Brain Can Create Fake Memories' dropped from 54 to 5 views, and 'Octopuses Have THREE Hearts' dropped from 183 to 118 views.",
-      "action": "Avoid re-uploading identical concepts and titles. Instead, iterate on successful topics by changing the hook, visual assets, and narrative angle."
+      "pattern": "Abstract Cognitive Psychology & Brain Quirks",
+      "evidence": "'The Real Reason Songs Get Stuck In Your Head' (17 views), 'Your Brain Is Hiding This From You' (39 views), and 'Your Brain Can Create Fake Memories' (54 views) consistently underperform.",
+      "action": "Pivot away from internal cognitive processes unless they can be tied to a shocking physical manifestation or cutting-edge technology."
     }
   ],
   "next_video": {
-    "category": "Space & Astronomy",
-    "hook_style": "Physical Paradox",
-    "concept": "Gliese 436 b, the planet of burning ice.",
-    "opening_direction": "Imagine a planet where ice is constantly on fire, but it never melts.",
-    "twist_direction": "The planet's gravity is so intense that it forces water molecules into a solid state, despite temperatures reaching a scorching 800 degrees Fahrenheit.",
-    "duration_seconds": 15,
-    "posting_window": "19:00 - 21:00 UTC",
-    "reason": "Leverages the highly successful space category (top videos at 460 and 368 views) using a strong physical paradox hook within the optimal 15-second retention window."
+    "category": "Space",
+    "hook_style": "Sensory Contradiction",
+    "concept": "The planet where ice is on fire but never melts (Gliese 436b).",
+    "opening_direction": "Imagine a world where ice is literally burning at eight hundred degrees.",
+    "twist_direction": "It is not a magic trick—the planet's gravity is so immense it compresses water molecules into solid ice, despite the scorching heat.",
+    "duration_seconds": 16,
+    "posting_window": "20:00 - 21:00 UTC",
+    "reason": "Combines the winning space anomaly theme with a powerful sensory contradiction hook, keeping the duration at the optimal 16-second mark established by the channel's top videos."
   },
-  "experiment": "Run an A/B topic test by publishing one short about the terrifying sound of a black hole (sensory space) and another about an animal that is biologically immortal (contrasting nature) to determine which sub-niche yields a higher baseline click-through and swipe-away rate.",
+  "experiment": "Test a 'Temporal Clashing' historical short (e.g., comparing the timeline of the Pyramids to the Woolly Mammoth) to see if historical scale anomalies replicate the high performance of cosmic scale anomalies.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-10T04:38:06.365725+00:00"
+  "generated_at": "2026-09-10T05:36:29.106420+00:00"
 }
