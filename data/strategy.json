@@ -1,37 +1,37 @@
 {
   "confidence": "MEDIUM",
-  "data_points": 387,
-  "overall_summary": "Space anomalies and mind-bending physical comparisons drive the highest engagement and views, whereas internal psychological facts and brain-related topics consistently struggle to capture immediate viewer interest.",
+  "data_points": 407,
+  "overall_summary": "Analysis of 20 unique Shorts reveals that cosmic anomalies and bizarre animal biology are the primary growth drivers for FACTVERSE. Space-themed videos featuring sensory or physical paradoxes (e.g., burning ice, space oceans) consistently capture the highest views, while cognitive psychology and brain-related facts struggle to generate initial traction.",
   "winning_patterns": [
     {
-      "pattern": "Cosmic Scale and Sensory Paradoxes",
-      "evidence": "'The Largest Ocean in Space' (460 views), 'What Does Outer Space Actually Smell Like?' (368 views), and 'The Planet of Burning Ice' (270 views) are the channel's top performers.",
-      "action": "Double down on space concepts that contrast extreme physical properties (e.g., fire, ice, smells, oceans) to trigger high curiosity."
+      "pattern": "Cosmic Paradoxes & Extreme Space Environments",
+      "evidence": "'The Planet of Burning Ice' achieved 577 views and 'The Largest Ocean in Space' hit 460 views, showing strong audience pull for extreme physics.",
+      "action": "Double down on space topics that present a physical impossibility or sensory contradiction in the hook."
     },
     {
-      "pattern": "Time-Bending Historical and Biological Comparisons",
-      "evidence": "'Sharks Are Older Than Trees?' generated 302 views by challenging intuitive timelines.",
-      "action": "Create content comparing the age of modern things to ancient prehistoric survivors to disrupt the viewer's sense of time."
+      "pattern": "Bizarre Animal Biology & Evolutionary Anomalies",
+      "evidence": "'Sharks Are Older Than Trees' reached 302 views and 'This Animal Literally Dies Every Winter' hit 179 views.",
+      "action": "Create content around shocking animal survival mechanisms and historical biological timelines."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Cognitive Psychology and Brain Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' (5-54 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) failed to gain traction.",
-      "action": "Pivot away from abstract cognitive psychology and focus on tangible, external physical mysteries."
+      "pattern": "Cognitive Psychology & Brain Functions",
+      "evidence": "'Your Brain Can Create Fake Memories' (5 and 54 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) underperformed significantly.",
+      "action": "Pivot away from abstract mental processes and reframe brain facts around tangible physical effects or technology."
     }
   ],
   "next_video": {
-    "category": "Space & Astronomy",
-    "hook_style": "Sensory Shock & Extreme Weather",
-    "concept": "A planet where the atmosphere is so extreme that it rains molten iron instead of water.",
-    "opening_direction": "Show a hyper-realistic animation of a dark storm, asking: 'What if a single raindrop could melt right through your skull?'",
-    "twist_direction": "Reveal that on planet WASP-76b, it literally rains liquid iron, and the winds blow this metallic rain sideways at 10,000 miles per hour.",
-    "duration_seconds": 16,
-    "posting_window": "20:00 - 21:00 UTC",
-    "reason": "Leverages the highly successful space category, uses a sensory/physical paradox hook similar to 'burning ice' and 'glass sideways', and targets the peak historic upload window."
+    "category": "Space",
+    "hook_style": "Sensory paradox & visual intrigue",
+    "concept": "The pitch-black planet TrES-2b that swallows 99% of light",
+    "opening_direction": "Show a completely black screen and say: 'This is not a loading error. This is a real planet in our galaxy.'",
+    "twist_direction": "Explain that it is blacker than coal, yet hotter than lava, glowing with a faint, ghostly red light.",
+    "duration_seconds": 15,
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Leverages the high-performing 'Space Paradox' formula seen in the channel's top video (Planet of Burning Ice, 577 views) using a strong visual hook to boost retention."
   },
-  "experiment": "Test a 15-second Short comparing the age of a common cosmic feature (like Saturn's rings) to something unexpected on Earth (like sharks or trees) to replicate the 'Sharks vs. Trees' success.",
+  "experiment": "Compare a visual-first hook (starting with 2 seconds of pure black screen and silence) against standard voiceover-first hooks to measure its impact on the 3-second view-vs-swipe-away ratio.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-10T14:38:18.568790+00:00"
+  "generated_at": "2026-09-10T15:37:45.149069+00:00"
 }
