@@ -1,42 +1,42 @@
 {
   "confidence": "MEDIUM",
-  "data_points": 487,
-  "overall_summary": "The channel is finding its strongest initial traction with extreme cosmic anomalies and sensory-based space facts (e.g., burning ice, space oceans, space smells). Conversely, abstract cognitive psychology and repetitive brain-related topics consistently struggle to capture viewer interest.",
+  "data_points": 507,
+  "overall_summary": "Analysis of 20 unique Shorts across 100 data points indicates that cosmic anomalies featuring sensory paradoxes (e.g., burning ice, space oceans) and mind-bending timeline comparisons (e.g., sharks older than trees) are the channel's primary growth drivers. Conversely, generic psychology topics and duplicate uploads struggle to gain traction, showing flatlined reach.",
   "winning_patterns": [
     {
-      "pattern": "Sensory Cosmic Paradoxes",
-      "evidence": "'The Planet of Burning Ice' (811 views), 'The Largest Ocean in Space' (460 views), and 'What Does Outer Space Actually Smell Like?' (368 views) are the channel's top-performing concepts.",
-      "action": "Prioritize space anomalies that challenge basic physics or sensory expectations (e.g., hot ice, cosmic smells, liquid oceans in a vacuum)."
+      "pattern": "Sensory & Physical Paradoxes in Space",
+      "evidence": "'The Planet of Burning Ice' reached 811 views and 'The Largest Ocean in Space' achieved 460 views, leading the channel's performance.",
+      "action": "Prioritize cosmic phenomena that defy everyday physics, focusing on extreme temperatures, weird weather, and unexpected chemistry."
     },
     {
-      "pattern": "Shocking Biological & Historical Comparisons",
-      "evidence": "'Sharks Are Older Than Trees' (302 views) and 'This Animal Literally Dies Every Winter!' (179 views) significantly outperform standard psychology content.",
-      "action": "Create comparison-based biological hooks that sound impossible but are scientifically accurate."
+      "pattern": "Timeline Disruption & Mind-Bending Comparisons",
+      "evidence": "'Sharks Are Older Than Trees?' gained 302 views, showing strong engagement for facts that challenge the viewer's perception of history.",
+      "action": "Develop more comparison-based hooks that contrast two familiar concepts in an unexpected chronological or physical way."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Cognitive Psychology",
-      "evidence": "'The Real Reason Songs Get Stuck In Your Head' (17 views) and 'Your Brain Is Hiding This From You' (39 views) fail to gain traction.",
-      "action": "Pivot away from generic 'your brain' hooks, as they feel overdone and lack visual urgency."
+      "pattern": "Repetitive Brain & Psychology Trivia",
+      "evidence": "'Your Brain Is Hiding This From You' (39 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently underperformed.",
+      "action": "Pause generic cognitive psychology facts unless they can be framed with a high-stakes, survival, or evolutionary angle."
     },
     {
-      "pattern": "Direct Topic Repetition",
-      "evidence": "Duplicate uploads of 'Your Brain Can Create Fake Memories' (5 and 54 views) and 'Octopuses Have THREE Hearts' (183 and 118 views) show flat or declining performance.",
-      "action": "Avoid uploading identical concepts within short windows; instead, explore fresh angles or different niches."
+      "pattern": "Identical Topic Re-runs",
+      "evidence": "Re-uploading 'Your Brain Can Create Fake Memories' yielded only 5 views compared to the original 54 views, showing zero algorithmic benefit.",
+      "action": "Avoid re-uploading identical titles or concepts; instead, write a completely fresh hook and script if revisiting a topic."
     }
   ],
   "next_video": {
-    "category": "Space",
+    "category": "Space & Astronomy",
     "hook_style": "Sensory Paradox",
-    "concept": "The pitch-black planet that literally swallows light (TrES-2b).",
-    "opening_direction": "There is a planet in our galaxy so dark, it literally swallows 99% of all light...",
-    "twist_direction": "...making it blacker than coal, yet it burns at a scorching 1,800 degrees, glowing a faint, eerie red like a hot ember.",
+    "concept": "The planet WASP-76b where it literally rains molten iron at night.",
+    "opening_direction": "Start with: 'There is a planet in our galaxy where the rain won't wet you... it will melt you.'",
+    "twist_direction": "Explain that daytime temperatures are so extreme they vaporize metal, which winds then blow to the cooler night side where it condenses and rains down as liquid iron.",
     "duration_seconds": 16,
-    "posting_window": "18:00 - 20:00 UTC",
-    "reason": "Leverages the highly successful cosmic paradox theme (similar to 'burning ice' and 'space oceans') using a proven 16-second retention-friendly structure."
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Capitalizes on the proven success of space weather anomalies ('Burning Ice' at 811 views) using a highly visual, terrifying, and retention-friendly hook."
   },
-  "experiment": "Test a 'Space vs. Earth' comparison format (e.g., comparing Earth's deepest trench to a massive cosmic equivalent) to merge the high performance of space topics with relatable Earth geography.",
+  "experiment": "Test a 'Time Dilation' physics short (e.g., 'Why Time Moves Slower at the Pyramids') to see if Earth-based physics paradoxes can replicate the high performance of space-themed anomalies.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-10T19:32:53.370937+00:00"
+  "generated_at": "2026-09-10T20:35:50.108545+00:00"
 }
