@@ -1,37 +1,21 @@
 {
   "confidence": "MEDIUM",
-  "data_points": 647,
-  "overall_summary": "The channel is finding its strongest traction with extreme space phenomena and sensory cosmic facts (e.g., burning ice, space oceans, space smells), while abstract cognitive psychology and brain-related videos consistently underperform. Leveraging high-concept cosmic paradoxes with sensory hooks is the clearest path to growth.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Cosmic Phenomena & Sensory Space Facts",
-      "evidence": "'The Planet of Burning Ice' reached 1,053 views, 'The Largest Ocean in Space' hit 460 views, and 'What Does Outer Space Actually Smell Like?' reached 368 views.",
-      "action": "Double down on space topics that challenge physical intuition or involve unexpected sensory details (smell, taste, extreme temperatures)."
-    },
-    {
-      "pattern": "Counter-Intuitive Natural Paradoxes",
-      "evidence": "'Sharks Are Older Than Trees?' achieved 302 views, and 'This Animal Literally Dies Every Winter!' reached 179 views.",
-      "action": "Create content comparing biological timelines or extreme animal survival mechanisms using simple, contrasting imagery."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Abstract Cognitive Psychology & Brain Tricks",
-      "evidence": "'Your Brain Can Create Fake Memories' (54 views), 'The Real Reason Songs Get Stuck In Your Head' (17 views), and 'Your Brain Is Hiding This From You' (39 views) failed to capture audience interest.",
-      "action": "Pivot away from generic brain/psychology facts unless they can be framed as a physical, mind-bending mystery with high visual potential."
-    }
-  ],
+  "data_points": 667,
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space",
-    "hook_style": "Sensory Paradox",
-    "concept": "The planet where it literally snows sunscreen and rains liquid metal.",
-    "opening_direction": "Start with a visual hook: 'There is a planet in our galaxy where it literally snows sunscreen...'",
-    "twist_direction": "Reveal that the 'sunscreen' is actually titanium oxide in the atmosphere of exoplanet Kepler-13Ab, which is so hot it vaporizes rock and rains liquid titanium.",
-    "duration_seconds": 16,
-    "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Capitalizes on the highly successful 'extreme space' pattern established by the burning ice video (1,053 views) and uses sensory, relatable concepts (sunscreen, snow) to hook viewers instantly."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 14-second ultra-fast-paced format comparing the age of two completely unrelated things (e.g., 'Saturn's Rings are younger than Dinosaurs') to replicate the success of the 'Sharks older than trees' paradox.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-11T03:37:12.895884+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-11T04:37:16.094606+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-11T04:37:16.094627+00:00"
 }
