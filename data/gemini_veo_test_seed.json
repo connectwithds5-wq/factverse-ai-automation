@@ -1,0 +1,7 @@
+{
+  "purpose": "isolated Gemini Veo production test",
+  "duration": 15,
+  "language": "English",
+  "visual_style": "premium photorealistic science documentary",
+  "caption_safe_zone": "center-lower, above Shorts UI"
+}
