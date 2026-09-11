@@ -24,13 +24,13 @@ NEGATIVE = (
     "unreadable symbols, floating objects, unrealistic anatomy"
 )
 
-# Pixazo jobs are asynchronous and can occasionally sit in PROCESSING for many minutes.
-# Render all storyboard shots concurrently so one slow shot does not consume the whole
-# GitHub Actions budget before the remaining shots even start.
+# Pixazo LTX Free is a shared asynchronous service. Keep generation sequential so a
+# slow queued job does not leave several orphaned server-side jobs running after one
+# client-side timeout. The GitHub job has a 120-minute budget.
 POLL_SECONDS = 8
-SHOT_TIMEOUT_SECONDS = 20 * 60
+SHOT_TIMEOUT_SECONDS = 30 * 60
 SUBMIT_RETRIES = 4
-MAX_WORKERS = 4
+MAX_WORKERS = 1
 
 
 def run(cmd):
@@ -212,8 +212,6 @@ def process_shot(spec, cached_record=None):
     processed_clip = CLIPS / f"shot_{index:02d}.mp4"
     raw = CLIPS / f"shot_{index:02d}_raw.mp4"
 
-    # Reuse a completed clip from a previous attempt. This is important because a
-    # later-shot timeout should never force already-paid successful generations again.
     if processed_clip.exists() and processed_clip.stat().st_size > 0:
         print(f"Shot {index}: reusing cached processed clip")
         return {
@@ -294,8 +292,8 @@ def main():
             pending.append(spec)
 
     if pending:
-        print(f"Starting {len(pending)} Pixazo shots concurrently (max_workers={MAX_WORKERS})")
-        with concurrent.futures.ThreadPoolExecutor(max_workers=min(MAX_WORKERS, len(pending))) as executor:
+        print("Starting Pixazo shots sequentially to avoid free-tier queue contention")
+        with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
             future_map = {executor.submit(process_shot, spec): spec for spec in pending}
             for future in concurrent.futures.as_completed(future_map):
                 spec = future_map[future]
