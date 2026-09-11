@@ -14,8 +14,11 @@ VOICE = os.path.join(OUTPUT, "voice.wav")
 MUSIC = os.path.join(OUTPUT, "music.wav")
 FINAL = os.path.join(OUTPUT, "factverse_final.mp4")
 
-VOICE_NAME = "en_US-lessac-medium"
-VOICE_MODEL = os.path.join(VOICE_DIR, VOICE_NAME + ".onnx")
+# Ryan High is a clearer, more natural documentary-style male voice than the
+# previous medium model. Keep a medium fallback so the pipeline remains robust.
+VOICE_CANDIDATES = ["en_US-ryan-high", "en_US-lessac-medium"]
+VOICE_NAME = None
+VOICE_MODEL = None
 
 
 def run(command):
@@ -40,7 +43,7 @@ def probe_duration(path):
 
 
 def atempo_filter(speed):
-    speed = max(0.5, min(1.15, speed))
+    speed = max(0.5, min(1.08, speed))
     return f"atempo={speed:.6f}"
 
 
@@ -63,23 +66,37 @@ if os.path.exists(STORYBOARD):
 else:
     shots = []
 
-if os.path.exists(VOICE_MODEL):
-    print("Piper voice model already exists. Skipping download.")
-else:
-    print("Downloading Piper voice model...")
-    run([
-        sys.executable,
-        "-m",
-        "piper.download_voices",
-        "--data-dir",
-        VOICE_DIR,
-        VOICE_NAME,
-    ])
+# Prefer a high-quality male documentary voice, but automatically fall back to
+# the already-used Lessac medium model if the high model cannot be downloaded.
+for candidate in VOICE_CANDIDATES:
+    candidate_model = os.path.join(VOICE_DIR, candidate + ".onnx")
+    if os.path.exists(candidate_model):
+        VOICE_NAME, VOICE_MODEL = candidate, candidate_model
+        break
 
-if not os.path.exists(VOICE_MODEL):
-    raise RuntimeError(f"Piper voice model was not downloaded: {VOICE_MODEL}")
+if VOICE_MODEL is None:
+    for candidate in VOICE_CANDIDATES:
+        try:
+            print(f"Trying Piper voice: {candidate}")
+            run([
+                sys.executable,
+                "-m",
+                "piper.download_voices",
+                "--data-dir",
+                VOICE_DIR,
+                candidate,
+            ])
+            candidate_model = os.path.join(VOICE_DIR, candidate + ".onnx")
+            if os.path.exists(candidate_model):
+                VOICE_NAME, VOICE_MODEL = candidate, candidate_model
+                break
+        except subprocess.CalledProcessError as exc:
+            print(f"Voice download failed for {candidate}: {exc}")
 
-print("Piper voice model ready.")
+if VOICE_MODEL is None:
+    raise RuntimeError("No usable Piper voice model could be installed")
+
+print(f"Piper voice model ready: {VOICE_NAME}")
 
 if shots:
     print("Using storyboard-aligned narration.")
@@ -114,10 +131,11 @@ if shots:
             "piper",
             "--model", VOICE_MODEL,
             "--output_file", raw,
-            # Slightly slower than Piper's default so words remain clear.
-            "--length_scale", "1.08",
-            "--noise_scale", "0.55",
-            "--noise_w_scale", "0.65",
+            # Deliberately slower for clear documentary narration.
+            "--length_scale", "1.14",
+            "--noise_scale", "0.48",
+            "--noise_w_scale", "0.55",
+            "--sentence_silence", "0.08",
             "--",
             narration,
         ])
@@ -125,18 +143,17 @@ if shots:
         raw_duration = probe_duration(raw)
         print(f"Shot {index}: raw narration {raw_duration:.3f}s; target {duration:.3f}s")
 
-        # Never aggressively speed up speech. A small fit (up to 1.15x) is
-        # acceptable; anything beyond that means the storyboard narration is
-        # too verbose and should be regenerated shorter instead.
+        # Never squeeze speech hard enough to sound rushed. If the storyboard
+        # sentence is too long, fail instead of creating unintelligible audio.
         if raw_duration > duration + 0.08:
             speed = raw_duration / duration
-            if speed > 1.15:
+            if speed > 1.08:
                 raise RuntimeError(
                     f"Storyboard shot {index} narration is too verbose for natural speech: "
                     f"{raw_duration:.2f}s audio for {duration:.2f}s shot. "
-                    "Regenerate the storyboard with shorter narration."
+                    "Regenerate the storyboard with fewer words."
                 )
-            print(f"Shot {index}: small timing fit with atempo={speed:.3f}x")
+            print(f"Shot {index}: tiny timing fit with atempo={speed:.3f}x")
             run([
                 "ffmpeg", "-y", "-i", raw,
                 "-af", atempo_filter(speed),
@@ -182,9 +199,10 @@ else:
         "piper",
         "--model", VOICE_MODEL,
         "--output_file", VOICE,
-        "--length_scale", "1.08",
-        "--noise_scale", "0.55",
-        "--noise_w_scale", "0.65",
+        "--length_scale", "1.14",
+        "--noise_scale", "0.48",
+        "--noise_w_scale", "0.55",
+        "--sentence_silence", "0.08",
         "--",
         script,
     ])
@@ -197,27 +215,35 @@ run([
     "-af", (
         "highpass=f=70,"
         "lowpass=f=12000,"
-        "acompressor=threshold=-18dB:ratio=2.5:attack=5:release=80,"
-        "loudnorm=I=-16:TP=-1.5:LRA=11"
+        "acompressor=threshold=-20dB:ratio=2.2:attack=8:release=100,"
+        "loudnorm=I=-16:TP=-1.5:LRA=9"
     ),
     "-ar", "44100", "-ac", "2", VOICE_CLEAN,
 ])
 os.replace(VOICE_CLEAN, VOICE)
 
-print(f"Creating soft background instrumental ({total_duration:.2f}s)...")
+print(f"Creating soft cinematic background bed ({total_duration:.2f}s)...")
+# A layered synthetic pad is intentionally used instead of a raw single sine:
+# it sounds like a quiet documentary bed while requiring no copyrighted asset.
 run([
     "ffmpeg", "-y",
     "-f", "lavfi",
-    "-i", f"sine=frequency=196:duration={total_duration:.3f}:sample_rate=44100",
-    "-af", (
-        "volume=0.025,"
-        f"afade=t=in:st=0:d=2,"
+    "-i", (
+        f"sine=frequency=196:duration={total_duration:.3f}:sample_rate=44100," 
+        "volume=0.32[a];"
+        f"sine=frequency=261.63:duration={total_duration:.3f}:sample_rate=44100," 
+        "volume=0.20[b];"
+        f"sine=frequency=329.63:duration={total_duration:.3f}:sample_rate=44100," 
+        "volume=0.12[c];"
+        "[a][b][c]amix=inputs=3:normalize=0,"
+        "lowpass=f=1800,highpass=f=90,"
+        "afade=t=in:st=0:d=2,"
         f"afade=t=out:st={max(0.1, total_duration - 3):.3f}:d=3"
     ),
     "-ar", "44100", "-ac", "2", MUSIC,
 ])
 
-print("Mixing voice + instrumental...")
+print("Mixing voice + cinematic bed...")
 run([
     "ffmpeg", "-y",
     "-i", VIDEO,
@@ -226,7 +252,7 @@ run([
     "-filter_complex",
     (
         "[1:a]volume=1.0,aresample=44100[voice];"
-        "[2:a]volume=0.18,aresample=44100[music];"
+        "[2:a]volume=0.10,aresample=44100[music];"
         "[voice][music]amix=inputs=2:duration=first:dropout_transition=2[audio]"
     ),
     "-map", "0:v:0",
@@ -246,8 +272,9 @@ print("")
 print("======================================")
 print("FACTVERSE AUDIO COMPLETE")
 print("======================================")
+print(f"Voice: {VOICE_NAME}")
 print("Natural neural voice: READY")
 print("Storyboard timing: ALIGNED")
-print("Instrumental music: READY")
+print("Cinematic background bed: READY")
 print("Final video:", VIDEO)
 print("======================================")
