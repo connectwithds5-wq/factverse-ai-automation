@@ -31,6 +31,13 @@ def extract_video(result):
     raise RuntimeError(f"No video path returned by Wan 2.2: {result!r}")
 
 
+def generate(client, image, prompt, negative):
+    return client.predict(
+        handle_file(image), prompt, 6, negative, DURATION, 1.0, 1.0, 22026, False,
+        api_name="/generate_video"
+    )
+
+
 def main():
     image = os.getenv("WAN22_TEST_IMAGE")
     if not image or not Path(image).is_file():
@@ -47,10 +54,17 @@ logos or watermarks.
     negative = "text, letters, subtitles, logo, watermark, UI, blurry, low quality, flicker, jitter, camera shake, morphing, deformed anatomy, duplicate subject, unstable colors"
 
     client = Client(SPACE, token=HF_TOKEN) if HF_TOKEN else Client(SPACE)
-    result = client.predict(
-        handle_file(image), prompt, 6, negative, DURATION, 1.0, 1.0, 22026, False,
-        api_name="/generate_video"
-    )
+    try:
+        result = generate(client, image, prompt, negative)
+    except Exception as exc:
+        message = str(exc).lower()
+        quota_error = "exceeded your zerogpu" in message or "zerogpu quota" in message or "quota" in message and "zerogpu" in message
+        if not quota_error or not HF_TOKEN:
+            raise
+        print("Authenticated ZeroGPU quota is exhausted; retrying once without a token using the guest/shared pool.")
+        guest_client = Client(SPACE)
+        result = generate(guest_client, image, prompt, negative)
+
     source = Path(extract_video(result))
     if not source.is_file():
         raise FileNotFoundError(source)
