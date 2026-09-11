@@ -1,37 +1,37 @@
 {
   "confidence": "MEDIUM",
-  "data_points": 749,
-  "overall_summary": "Space anomalies and extreme cosmic environments drastically outperform abstract psychological concepts. Audiences respond strongly to highly visual, mind-bending physical paradoxes (e.g., burning ice, space oceans) over internal cognitive facts.",
+  "data_points": 770,
+  "overall_summary": "The channel's top-performing content leverages extreme cosmic anomalies and paradoxical science facts (e.g., burning ice, space smells, ancient sharks) to trigger high curiosity. Conversely, abstract psychology and generic brain facts struggle to gain traction. Maintaining a consistent 16-second duration with highly sensory, counter-intuitive hooks is currently the most reliable path to maximizing views.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Cosmic Paradoxes & Sensory Space Facts",
-      "evidence": "'The Planet of Burning Ice' (1,053 views), 'The Largest Ocean in Space' (460 views), and 'What Does Outer Space Actually Smell Like?' (368 views) lead the channel's performance.",
-      "action": "Double down on extreme planetary conditions, cosmic anomalies, and sensory-based space facts using high-contrast visual hooks."
+      "pattern": "Sensory and Paradoxical Cosmic Phenomena",
+      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' (1,053 views), 'The Largest Ocean in Space Will Mind-Blow You!' (460 views), and 'What Does Outer Space Actually Smell Like?' (368 views) are the channel's top performers.",
+      "action": "Double down on space facts that feature extreme physical contrasts, unusual sensory details (smells, tastes), or seemingly impossible physics."
     },
     {
-      "pattern": "Mind-Bending Biological & Historical Scale Comparisons",
-      "evidence": "'Sharks Are Older Than Trees?' (302 views) and 'Octopuses Have THREE Hearts' (183 views) perform significantly better than average.",
-      "action": "Create content comparing evolutionary timelines or bizarre biological traits using simple, shocking comparisons."
+      "pattern": "Counter-Intuitive Animal Timelines & Biology",
+      "evidence": "'Sharks Are Older Than Trees?' (302 views) and 'This Animal Literally Dies Every Winter!' (179 views) outperform standard animal trivia.",
+      "action": "Frame biological facts around shocking timeline comparisons or extreme survival mechanisms that challenge common assumptions."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Vague Psychology & Internal Brain Mechanics",
-      "evidence": "Videos about fake memories (5 views), songs stuck in your head (17 views), and brain secrets (38 views) consistently fail to gain traction.",
-      "action": "Avoid abstract cognitive topics unless they can be framed with an immediate, shocking physical consequence or visual metaphor."
+      "pattern": "Vague & Abstract Psychology Hooks",
+      "evidence": "'Your Brain Is Hiding This From You' (38 views) and 'Your Brain Can Create Fake Memories' (54 views) consistently underperform.",
+      "action": "Avoid generic 'your brain' hooks. If presenting psychology, anchor the hook in a highly specific, relatable behavior rather than abstract neuroscience."
     }
   ],
   "next_video": {
-    "category": "Space & Astronomy",
-    "hook_style": "Visual Paradox / Extreme Environment",
-    "concept": "The Pitch Black Planet That Devours Light (TrES-2b)",
-    "opening_direction": "Start with a pitch-black screen: 'This planet is darker than coal, absorbing 99% of all light...'",
-    "twist_direction": "'But because it is a scorching 1,800 degrees, it actually glows a demonic, faint red.'",
+    "category": "Space & Science",
+    "hook_style": "Paradoxical Sensory Contrast",
+    "concept": "The exoplanet where it literally rains liquid iron at night.",
+    "opening_direction": "Start with: 'There is a giant planet in space where it literally rains molten iron from the sky...'",
+    "twist_direction": "Explain that on WASP-76b, daytime temperatures are so extreme they vaporize metal, which then condenses and falls as iron rain on the cooler night side.",
     "duration_seconds": 16,
     "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Aligns with the highly successful 'Planet of Burning Ice' (1,053 views, posted at 12:44 PM UTC) by leveraging extreme planetary physics and a strong visual hook."
+    "reason": "This concept perfectly mirrors the 'extreme cosmic paradox' formula of the channel's top-performing video ('The Planet of Burning Ice') by using strong sensory imagery (iron rain) to drive immediate retention."
   },
-  "experiment": "Test a 15-second 'History vs. Science' comparison format (e.g., 'Sharks are older than Saturn's rings') to see if historical-cosmic scale comparisons replicate the success of 'Sharks Are Older Than Trees' (302 views).",
+  "experiment": "Test a 15-second historical timeline paradox video (e.g., comparing the construction of the Pyramids to the existence of Woolly Mammoths) to see if history-based timeline anomalies can replicate the high engagement of cosmic anomaly videos.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-11T08:38:58.827622+00:00"
+  "generated_at": "2026-09-11T09:36:55.560906+00:00"
 }
