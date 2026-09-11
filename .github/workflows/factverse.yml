@@ -17,7 +17,7 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   factverse:
@@ -76,6 +76,9 @@ jobs:
 
       - name: Generate FACTVERSE story and metadata
         run: python src/generate_with_strategy.py
+
+      - name: Reject duplicate published topic
+        run: python src/duplicate_guard.py
 
       - name: Check generated metadata
         run: |
@@ -143,11 +146,7 @@ jobs:
           if actual < expected - 0.08 or actual > expected + 0.20:
               raise SystemExit("ERROR: Pixazo video duration does not match storyboard")
           PY
-          ffprobe -v error \
-            -show_entries format=duration,size \
-            -show_entries stream=codec_name,width,height,r_frame_rate \
-            -of default=noprint_wrappers=1 \
-            output/factverse.mp4
+          ffprobe -v error -show_entries format=duration,size -show_entries stream=codec_name,width,height,r_frame_rate -of default=noprint_wrappers=1 output/factverse.mp4
 
       - name: Add Natural Voice and Music
         run: python src/add_audio.py
@@ -167,11 +166,7 @@ jobs:
           if actual < expected - 0.08 or actual > expected + 0.20:
               raise SystemExit("ERROR: final video duration does not match storyboard; refusing upload")
           PY
-          ffprobe -v error \
-            -show_entries format=duration,size \
-            -show_entries stream=codec_name,width,height,r_frame_rate \
-            -of default=noprint_wrappers=1 \
-            output/factverse.mp4
+          ffprobe -v error -show_entries format=duration,size -show_entries stream=codec_name,width,height,r_frame_rate -of default=noprint_wrappers=1 output/factverse.mp4
 
       - name: Upload FACTVERSE Video Artifact
         uses: actions/upload-artifact@v4
@@ -213,6 +208,16 @@ jobs:
         if: github.event_name == 'schedule' || inputs.upload_to_youtube == true
         run: python src/upload_youtube.py
 
+      - name: Record published topic
+        if: success() && (github.event_name == 'schedule' || inputs.upload_to_youtube == true)
+        run: |
+          python src/record_published.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/published_history.json
+          git diff --cached --quiet || git commit -m "Record FACTVERSE publication history"
+          git push
+
       - name: FACTVERSE Success
         if: success()
         run: |
@@ -225,7 +230,7 @@ jobs:
           echo "Natural voice + music added."
           echo "Video generated and verified."
           if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.upload_to_youtube }}" = "true" ]; then
-            echo "YouTube upload completed."
+            echo "YouTube upload completed and publication history recorded."
           else
             echo "Manual test mode: YouTube upload skipped."
           fi
