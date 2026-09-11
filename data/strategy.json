@@ -1,32 +1,42 @@
 {
-  "confidence": "MEDIUM",
-  "data_points": 833,
-  "overall_summary": "Space-themed content, particularly videos focusing on extreme planetary conditions and sensory cosmic anomalies, significantly outperforms psychology and cognitive science topics. The top-performing video, 'The Planet of Burning Ice Will Break Your Brain!', achieved over 1,000 views, whereas psychology-focused videos consistently struggle to cross the 100-view threshold.",
+  "confidence": "HIGH",
+  "data_points": 855,
+  "overall_summary": "Space-themed videos featuring extreme, mind-bending physical paradoxes or sensory contrasts (like burning ice or smelling like steak) are the clear drivers of high engagement and views. Meanwhile, repetitive psychology and brain-related facts struggle to capture attention, indicating audience fatigue or weak visual hooks in that niche.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Cosmic Paradoxes",
-      "evidence": "'The Planet of Burning Ice' (1,053 views), 'The Largest Ocean in Space' (460 views), and 'What Does Outer Space Actually Smell Like?' (368 views) are the channel's top performers.",
-      "action": "Double down on space anomalies that present a physical, visual, or sensory contradiction (e.g., cold stars, dark planets, metallic rain)."
+      "pattern": "Extreme Space Paradoxes & Sensory Hooks",
+      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' reached 1,053 views (the highest in the set), followed by 'The Largest Ocean in Space' (460 views) and 'What Does Outer Space Actually Smell Like?' (368 views).",
+      "action": "Double down on astronomical anomalies that present extreme physical contrasts (e.g., burning ice, metal rain, diamond oceans) and use sensory-rich hooks."
+    },
+    {
+      "pattern": "Counter-intuitive Nature Facts",
+      "evidence": "'Sharks Are Older Than Trees?' (302 views) and 'This Animal Literally Dies Every Winter!' (179 views) performed well above the channel average.",
+      "action": "Create content around shocking biological survival mechanisms or historical timelines of animals that defy common sense."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Cognitive Psychology",
-      "evidence": "'Your Brain Can Create Fake Memories' (5 and 54 views), 'The Real Reason Songs Get Stuck In Your Head' (17 views), and 'Your Brain Is Hiding This From You' (38 views) consistently underperform.",
-      "action": "De-prioritize internal cognitive psychology topics unless they can be paired with a highly visual, external, or shocking physical manifestation."
+      "pattern": "Repetitive Brain & Psychology Facts",
+      "evidence": "'Your Brain Is Hiding This From You' got only 38 views, and 'Your Brain Can Create Fake Memories' struggled with 54 and 5 views across duplicate uploads.",
+      "action": "Pivot away from generic brain/psychology facts unless they can be tied to a highly unusual, specific historical mystery or scientific anomaly."
+    },
+    {
+      "pattern": "Identical Duplicate Uploads",
+      "evidence": "Uploading the exact same video title and concept within days (e.g., 'Your Brain Can Create Fake Memories' or 'Why Space Is Completely Silent') consistently yields lower or split performance.",
+      "action": "Avoid immediate re-uploading of underperforming concepts; instead, re-edit the hook and change the title entirely before trying again."
     }
   ],
   "next_video": {
     "category": "Space",
-    "hook_style": "Paradoxical Contrast",
-    "concept": "A star in our universe that is actually colder than an ice cube.",
-    "opening_direction": "Start with a visual of a freezing star and the hook: 'There is a star in deep space that is actually colder than ice.'",
-    "twist_direction": "Reveal that despite being sub-zero temperature, its intense gravity would still crush you instantly if you got too close.",
-    "duration_seconds": 15,
+    "hook_style": "Sensory Contrast & Physical Threat",
+    "concept": "The planet where it rains boiling iron instead of water.",
+    "opening_direction": "Show a dramatic graphic of metallic rain with the hook: 'Imagine a world where the rain doesn't wet you—it literally melts you.'",
+    "twist_direction": "Explain that on exoplanet WASP-76b, it gets so hot that iron vaporizes into clouds, blowing to the night side where it condenses and rains down as liquid metal.",
+    "duration_seconds": 16,
     "posting_window": "12:00 PM - 1:00 PM UTC",
-    "reason": "Leverages the highly successful 'extreme cosmic paradox' theme established by the 'Burning Ice' video (1,053 views) and fits the optimal 15-16 second duration."
+    "reason": "Matches the highly successful 16-second format and aligns with the posting time of the top-performing 'Burning Ice' video (12:44 PM UTC)."
   },
-  "experiment": "Test whether introducing a 'Time Paradox' space concept (e.g., how time slows down near a black hole) performs as well as 'Physical Paradox' space concepts (like burning ice).",
+  "experiment": "Test a 15-second video on a space anomaly using a 'What if you stood on...' perspective to increase immediate personal relevance and viewer retention.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-11T12:40:58.621736+00:00"
+  "generated_at": "2026-09-11T13:37:03.358156+00:00"
 }
