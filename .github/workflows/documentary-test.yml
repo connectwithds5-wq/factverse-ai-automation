@@ -1,0 +1,87 @@
+name: FACTVERSE Documentary Test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  documentary-test:
+    name: Documentary Style Test
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_MODEL: gemini-2.5-flash
+
+    steps:
+      - name: Checkout experimental branch
+        uses: actions/checkout@v4
+        with:
+          ref: experimental/documentary-test
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          ffmpeg -version | head -n 1
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Validate required secret
+        run: |
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo "ERROR: GEMINI_API_KEY secret is missing"
+            exit 1
+          fi
+          echo "GEMINI_API_KEY: configured"
+
+      - name: Generate FACTVERSE content
+        run: python src/generate_with_strategy.py
+
+      - name: Generate voice and music
+        run: python src/add_audio.py
+
+      - name: Build documentary visuals
+        run: python src/documentary_test.py
+
+      - name: Mix documentary video with voice and music
+        run: |
+          ffmpeg -y \
+            -i output/factverse_documentary_test.mp4 \
+            -i output/voice.wav \
+            -i output/music.wav \
+            -filter_complex "[1:a]volume=1.0,aresample=44100[voice];[2:a]volume=0.10,aresample=44100[music];[voice][music]amix=inputs=2:duration=first:dropout_transition=2[a]" \
+            -map 0:v:0 -map "[a]" \
+            -c:v copy -c:a aac -b:a 160k -ar 44100 \
+            -t 15 -movflags +faststart \
+            output/factverse_documentary_test_final.mp4
+
+      - name: Verify final output
+        run: |
+          test -s output/factverse_documentary_test_final.mp4
+          ffprobe -v error \
+            -show_entries format=duration,size \
+            -show_entries stream=codec_name,width,height,r_frame_rate \
+            -of default=noprint_wrappers=1 \
+            output/factverse_documentary_test_final.mp4
+
+      - name: Upload documentary test artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: factverse-documentary-test
+          path: |
+            output/factverse_documentary_test_final.mp4
+            output/metadata.json
+            output/documentary_plan.json
+          if-no-files-found: error
