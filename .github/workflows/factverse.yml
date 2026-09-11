@@ -125,9 +125,24 @@ jobs:
       - name: Generate documentary visuals with Pixazo LTX Free
         run: python src/pixazo_documentary.py
 
+      - name: Normalize Pixazo video to storyboard timing
+        run: python src/normalize_video_duration.py
+
       - name: Check Pixazo video
         run: |
           test -f output/factverse.mp4 || { echo "ERROR: Pixazo video not found"; exit 1; }
+          python - <<'PY'
+          import json, subprocess
+          board = json.load(open("output/storyboard.json", encoding="utf-8"))
+          expected = float(board["shots"][-1]["end"])
+          actual = float(subprocess.check_output([
+              "ffprobe", "-v", "error", "-show_entries", "format=duration",
+              "-of", "default=noprint_wrappers=1:nokey=1", "output/factverse.mp4"
+          ], text=True).strip())
+          print(f"Pixazo duration: {actual:.3f}s; storyboard: {expected:.3f}s")
+          if actual < expected - 0.08 or actual > expected + 0.20:
+              raise SystemExit("ERROR: Pixazo video duration does not match storyboard")
+          PY
           ffprobe -v error \
             -show_entries format=duration,size \
             -show_entries stream=codec_name,width,height,r_frame_rate \
@@ -140,6 +155,18 @@ jobs:
       - name: Verify final video
         run: |
           test -f output/factverse.mp4 || { echo "ERROR: Final video not found"; exit 1; }
+          python - <<'PY'
+          import json, subprocess
+          board = json.load(open("output/storyboard.json", encoding="utf-8"))
+          expected = float(board["shots"][-1]["end"])
+          actual = float(subprocess.check_output([
+              "ffprobe", "-v", "error", "-show_entries", "format=duration",
+              "-of", "default=noprint_wrappers=1:nokey=1", "output/factverse.mp4"
+          ], text=True).strip())
+          print(f"Final duration: {actual:.3f}s; storyboard: {expected:.3f}s")
+          if actual < expected - 0.08 or actual > expected + 0.20:
+              raise SystemExit("ERROR: final video duration does not match storyboard; refusing upload")
+          PY
           ffprobe -v error \
             -show_entries format=duration,size \
             -show_entries stream=codec_name,width,height,r_frame_rate \
