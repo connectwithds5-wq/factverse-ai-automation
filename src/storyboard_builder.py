@@ -16,36 +16,45 @@ def fallback_storyboard(data, reason=""):
     fact = str(data.get("fact", "")).strip()
     twist = str(data.get("twist", "")).strip()
 
-    def concise(text, max_words):
-        words = text.replace("\n", " ").split()
-        return " ".join(words[:max_words]).rstrip(" ,.;:")
+    def words(text):
+        return text.replace("\n", " ").split()
+
+    def concise(text, max_words, start=0):
+        ws = words(text)
+        return " ".join(ws[start:start + max_words]).rstrip(" ,.;:")
+
+    fact_words = words(fact)
+    fact_a = concise(fact, 8)
+    fact_b = concise(fact, 8, min(8, max(0, len(fact_words) // 2)))
+    if not fact_b or fact_b == fact_a:
+        fact_b = "The same process creates the key effect."
 
     shots = [
         {
             "start": 0,
             "end": 4.5,
-            "narration": concise(hook, 9),
+            "narration": concise(hook, 8),
             "caption": "The surprising fact",
             "visual_prompt": f"Open on a premium cinematic documentary visualization of this exact idea: {hook}. Show the real subject clearly in the first second, then make the key phenomenon visually obvious. Photorealistic, scientifically believable, dramatic natural lighting, slow controlled camera movement, vertical 9:16, no text, subtitles, logos or watermark.",
         },
         {
             "start": 4.5,
             "end": 9.0,
-            "narration": concise(fact, 9),
-            "caption": "How it happens",
-            "visual_prompt": f"Create a concrete cinematic visual explanation of this exact scientific fact: {fact}. Show the actual physical objects, environment, scale difference, motion or process described, rather than an unrelated person or generic science imagery. Premium photorealistic documentary style, clear subject, smooth camera movement, vertical 9:16, no written text, subtitles, logos or watermark.",
+            "narration": fact_a,
+            "caption": "What is happening",
+            "visual_prompt": f"Create a concrete cinematic visual explanation of this exact scientific fact: {fact_a}. Show the actual physical objects, environment, scale difference, motion or process described, rather than an unrelated person or generic science imagery. Premium photorealistic documentary style, clear subject, smooth camera movement, vertical 9:16, no written text, subtitles, logos or watermark.",
         },
         {
             "start": 9.0,
             "end": 13.5,
-            "narration": concise(fact, 9),
+            "narration": fact_b,
             "caption": "The key mechanism",
-            "visual_prompt": f"Visually demonstrate the mechanism behind this statement: {fact}. Use a close, easy-to-understand physical demonstration or cinematic scientific visualization that directly corresponds to the words being spoken. Keep the main subject centered and readable, premium photorealistic documentary cinematography, vertical 9:16, controlled motion, no text, subtitles, logos or watermark.",
+            "visual_prompt": f"Visually demonstrate this next part of the fact: {fact_b}. Use a close, easy-to-understand physical demonstration or cinematic scientific visualization that directly corresponds to the words being spoken. Keep the main subject centered and readable, premium photorealistic documentary cinematography, vertical 9:16, controlled motion, no text, subtitles, logos or watermark.",
         },
         {
             "start": 13.5,
             "end": 18.0,
-            "narration": concise(twist, 9),
+            "narration": concise(twist, 8),
             "caption": "The surprising result",
             "visual_prompt": f"Create the final memorable documentary reveal for this exact conclusion: {twist}. Show the consequence or result literally and clearly, with a strong visual payoff rather than a generic abstract image. Premium photorealistic cinematic science documentary, subtle atmospheric motion, slow forward camera push, vertical 9:16, no text, subtitles, logos or watermark.",
         },
@@ -84,9 +93,9 @@ def validate_board(board):
         if len(str(shot["caption"]).split()) > 8:
             raise ValueError(f"Shot {i + 1} caption exceeds 8 words")
 
-        # Keep spoken delivery around 2 words/sec or slower. This prevents
-        # dense TTS that sounds rushed even when the audio technically fits.
-        max_words = max(6, int(round(duration * 2.0)))
+        # Keep narration around 1.6-1.8 spoken words/sec. This is deliberately
+        # slower than the previous 2 words/sec ceiling so the TTS remains clear.
+        max_words = max(6, int(round(duration * 1.8)))
         word_count = len(str(shot["narration"]).split())
         if word_count > max_words:
             raise ValueError(
@@ -158,9 +167,9 @@ Use exactly 4 shots unless the story genuinely needs 5. Each shot must be 3-5 se
 Shots MUST be contiguous: shot 1 starts at 0, and each next shot starts exactly where the previous ends.
 The final end time must be between 18 and 22 seconds.
 
-MOST IMPORTANT: narration must be easy to understand at a calm documentary pace.
-Aim for about 1.7-2.0 spoken words per second. For a 4.5 second shot, use at most 9 words.
-Do NOT cram multiple clauses into one shot. Use short, natural sentences with pauses.
+MOST IMPORTANT: narration must be slow, calm and easy to understand.
+Aim for about 1.6-1.8 spoken words per second. For a 4.5 second shot, use at most 8 words.
+Do NOT cram multiple clauses into one shot. Use short natural sentences and leave room for breathing.
 Every shot MUST be semantically aligned with its narration.
 The visual must literally show the subject, action, object, process, or comparison being described.
 Never use generic filler or repeat the same generic visual across shots.
@@ -168,7 +177,7 @@ Never use generic filler or repeat the same generic visual across shots.
 For every shot return:
 - start: number in seconds
 - end: number in seconds
-- narration: short natural spoken English for that exact shot, max about 2 words per second
+- narration: short natural spoken English for that exact shot, max about 1.8 words per second
 - caption: maximum 8 words, a concise key phrase from the narration
 - visual_prompt: exact visual subject/action, premium photorealistic documentary style, vertical 9:16, cinematic but scientifically believable, smooth controlled camera movement
 
@@ -190,7 +199,7 @@ Return ONLY valid JSON:
         print(f"Gemini storyboard validated: {len(board['shots'])} shots, {duration:.2f}s")
     except Exception as exc:
         print(f"WARNING: Gemini storyboard unavailable or invalid: {exc}")
-        print("Using deterministic aligned fallback storyboard; continuing to Pixazo.")
+        print("Using deterministic aligned fallback storyboard; continuing.")
         board = fallback_storyboard(data, str(exc))
         duration = validate_board(board)
         print(f"Fallback storyboard validated: {len(board['shots'])} shots, {duration:.2f}s")
