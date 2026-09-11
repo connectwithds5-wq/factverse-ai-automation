@@ -1,21 +1,37 @@
 {
   "confidence": "MEDIUM",
-  "data_points": 877,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "data_points": 899,
+  "overall_summary": "The channel's performance is heavily driven by Space and Astronomy topics featuring extreme, paradoxical hooks (e.g., 'Burning Ice' or 'Ocean in Space'), which yield the highest views and engagement. Conversely, abstract psychology and brain-related facts are consistently underperforming, struggling to cross double-digit views.",
+  "winning_patterns": [
+    {
+      "pattern": "Paradoxical Space Anomalies",
+      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' led performance with 1,053 views, followed by 'The Largest Ocean in Space' with 460 views and 'What Does Outer Space Actually Smell Like?' with 368 views.",
+      "action": "Produce more content focusing on extreme, counter-intuitive cosmic phenomena, using high-contrast hooks that challenge common sense."
+    },
+    {
+      "pattern": "Survival-Oriented Animal Trivia",
+      "evidence": "'Sharks Are Older Than Trees?' achieved 302 views, and 'This Animal Literally Dies Every Winter!' secured 179 views.",
+      "action": "Create shorts about extreme animal adaptation and evolutionary anomalies, framing them as life-or-death survival feats."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Abstract Brain & Psychology Concepts",
+      "evidence": "'Your Brain Can Create Fake Memories' (5 and 54 views), 'The Real Reason Songs Get Stuck In Your Head' (17 views), and 'Your Brain Is Hiding This From You' (38 views) consistently failed to capture viewer interest.",
+      "action": "Pause production on internal cognitive psychology topics, as they lack the immediate visual appeal and curiosity-driven urgency of external physical mysteries."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space",
+    "hook_style": "Paradoxical Contrast",
+    "concept": "A star in deep space that is colder than an ice cube.",
+    "opening_direction": "Start with: 'There is a star in deep space that won't burn you... it will freeze you solid.'",
+    "twist_direction": "Reveal that scientists discovered 'Y-dwarfs'—stars with temperatures colder than a block of ice, where it might even snow water.",
+    "duration_seconds": 16,
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Leverages the highly successful 'paradoxical space' formula established by the 'Burning Ice' video (1,053 views, posted at 12:44 UTC), utilizing a strong curiosity hook that defies basic physics assumptions."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-11T14:37:32.330620+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-11T14:37:32.330640+00:00"
+  "experiment": "Test a 16-second Short comparing the extreme weather of two different planets (e.g., raining diamonds vs. raining glass sideways) to see if side-by-side comparisons drive higher retention than single-subject videos.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-11T15:37:04.655384+00:00"
 }
