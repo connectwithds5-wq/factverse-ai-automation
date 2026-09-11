@@ -27,7 +27,7 @@ def run(cmd):
 
 
 def wrap_caption(text: str, width: int = 24) -> str:
-    words = str(text).replace("\\n", " ").split()
+    words = str(text).replace("\n", " ").split()
     lines, line = [], ""
     for word in words:
         candidate = word if not line else line + " " + word
@@ -38,7 +38,7 @@ def wrap_caption(text: str, width: int = 24) -> str:
             line = candidate
     if line:
         lines.append(line)
-    return "\\n".join(lines[:3])
+    return "\n".join(lines[:3])
 
 
 def request_clip(prompt: str, num_frames: int, seed: int):
@@ -117,7 +117,7 @@ def main():
         if not prompt:
             raise SystemExit(f"Shot {index} has no visual prompt")
 
-        print(f"\\n=== Shot {index}: {start:.2f}s-{end:.2f}s ({shot_duration:.2f}s) ===")
+        print(f"\n=== Shot {index}: {start:.2f}s-{end:.2f}s ({shot_duration:.2f}s) ===")
         print(f"VISUAL PROMPT: {prompt}")
         print(f"CAPTION: {caption_text}")
 
@@ -165,7 +165,7 @@ def main():
 
     REQUESTS_FILE.write_text(json.dumps(records, indent=2), encoding="utf-8")
     concat_file = CLIPS / "concat.txt"
-    concat_file.write_text("\\n".join(f"file '{p.resolve()}'" for p in processed) + "\\n", encoding="utf-8")
+    concat_file.write_text("\n".join(f"file '{p.resolve()}'" for p in processed) + "\n", encoding="utf-8")
 
     run([
         "ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(concat_file),
