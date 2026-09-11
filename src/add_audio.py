@@ -40,9 +40,7 @@ def probe_duration(path):
 
 
 def atempo_filter(speed):
-    # ffmpeg atempo accepts 0.5-2.0 per filter. Keep the narration natural and
-    # split extreme values into safe stages rather than failing the workflow.
-    speed = max(0.5, min(2.0, speed))
+    speed = max(0.5, min(1.15, speed))
     return f"atempo={speed:.6f}"
 
 
@@ -116,7 +114,8 @@ if shots:
             "piper",
             "--model", VOICE_MODEL,
             "--output_file", raw,
-            "--length_scale", "0.95",
+            # Slightly slower than Piper's default so words remain clear.
+            "--length_scale", "1.08",
             "--noise_scale", "0.55",
             "--noise_w_scale", "0.65",
             "--",
@@ -126,17 +125,18 @@ if shots:
         raw_duration = probe_duration(raw)
         print(f"Shot {index}: raw narration {raw_duration:.3f}s; target {duration:.3f}s")
 
-        # Storyboard narration can occasionally be longer than Gemini's nominal
-        # word budget. Fit it to the visual shot rather than aborting the whole
-        # production run. Up to 1.6x remains understandable for short-form speech.
+        # Never aggressively speed up speech. A small fit (up to 1.15x) is
+        # acceptable; anything beyond that means the storyboard narration is
+        # too verbose and should be regenerated shorter instead.
         if raw_duration > duration + 0.08:
             speed = raw_duration / duration
-            if speed > 1.6:
+            if speed > 1.15:
                 raise RuntimeError(
-                    f"Storyboard shot {index} narration is far too long: "
-                    f"{raw_duration:.2f}s audio for {duration:.2f}s shot (required speed {speed:.2f}x)"
+                    f"Storyboard shot {index} narration is too verbose for natural speech: "
+                    f"{raw_duration:.2f}s audio for {duration:.2f}s shot. "
+                    "Regenerate the storyboard with shorter narration."
                 )
-            print(f"Shot {index}: fitting narration with atempo={speed:.3f}x")
+            print(f"Shot {index}: small timing fit with atempo={speed:.3f}x")
             run([
                 "ffmpeg", "-y", "-i", raw,
                 "-af", atempo_filter(speed),
@@ -182,14 +182,13 @@ else:
         "piper",
         "--model", VOICE_MODEL,
         "--output_file", VOICE,
-        "--length_scale", "0.95",
+        "--length_scale", "1.08",
         "--noise_scale", "0.55",
         "--noise_w_scale", "0.65",
         "--",
         script,
     ])
     total_duration = probe_duration(VOICE)
-
 
 VOICE_CLEAN = os.path.join(OUTPUT, "voice_clean.wav")
 print("Cleaning voice...")
