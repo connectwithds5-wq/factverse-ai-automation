@@ -4,25 +4,29 @@
       "start": 0,
       "end": 4,
       "visual_query": "Did you know your head is older than your feet?",
-      "caption": "Did you know your head is older than your feet?"
+      "visual_prompt": "Cinematic documentary shot of a real adult standing naturally outdoors on Earth, full body visible from feet to head, camera begins with a close low-angle view of the feet and slowly tilts upward toward the head, subtle realistic precision-clock and time-dilation visual cues integrated naturally, photorealistic, premium science documentary, natural lighting, smooth camera motion, no text, no subtitles, no watermark",
+      "caption": "Your head is\nslightly older than\nyour feet."
     },
     {
       "start": 4,
       "end": 8,
       "visual_query": "Einstein proved gravity bends time. Because your feet are closer to Earth, gravity slows time down for them.",
-      "caption": "THE FACT"
+      "visual_prompt": "Premium cinematic science documentary visualization of Earth from near space with a realistic curved spacetime grid bending around the planet, a precision atomic clock near the surface visibly running slightly slower, elegant scientific visualization blended with photorealistic Earth imagery, slow orbital camera movement, dramatic but realistic lighting, no text, no subtitles, no watermark",
+      "caption": "Gravity can\nslow down time."
     },
     {
       "start": 8,
       "end": 12,
       "visual_query": "Einstein proved gravity bends time. Because your feet are closer to Earth, gravity slows time down for them.",
-      "caption": "LOOK CLOSER"
+      "visual_prompt": "Photorealistic cinematic close-up of a standing person's lower body and upper body represented in one continuous vertical composition, two identical precision clocks positioned naturally at foot level and head level, subtle difference in clock speed showing gravitational time dilation, rack focus from feet clock to head clock, premium educational documentary style, realistic optics, smooth controlled camera movement, no split screen, no text, no subtitles, no watermark",
+      "caption": "Your feet feel\nslightly stronger\ngravity."
     },
     {
       "start": 12,
       "end": 15,
       "visual_query": "This means your brain is literally living slightly ahead in the future.",
-      "caption": "This means your brain is literally living slightly ahead in the future."
+      "visual_prompt": "Premium cinematic macro documentary shot of a realistic human brain inside a translucent head silhouette, a precision clock and subtle flowing time particles surrounding the brain, visual suggestion that the brain is fractionally ahead in time, elegant scientific realism, slow forward camera push, dark cinematic background with natural highlights, photorealistic, no text, no subtitles, no watermark",
+      "caption": "Your brain is\nliving slightly\nahead in time."
     }
   ]
 }
