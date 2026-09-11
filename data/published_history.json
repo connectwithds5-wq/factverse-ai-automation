@@ -1,3 +1,11 @@
 {
-  "videos": []
+  "videos": [
+    {
+      "published_at": "2026-09-11T20:11:02.674296+00:00",
+      "title": "The Planet Where It Rains Molten Iron!",
+      "hook": "This planet literally rains boiling metal at night.",
+      "fact": "On WASP-76b, extreme day heat vaporizes iron. Winds blow it to the freezing night side. Unlike Earth's water rain, this vapor condenses into liquid iron droplets.",
+      "category": "Space & Astronomy"
+    }
+  ]
 }
