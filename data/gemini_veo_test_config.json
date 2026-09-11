@@ -1,0 +1,7 @@
+{
+  "video_model": "veo-3.1-generate-preview",
+  "text_model": "gemini-3.6-flash",
+  "resolution": "720p",
+  "aspect_ratio": "9:16",
+  "target_seconds": 15
+}
