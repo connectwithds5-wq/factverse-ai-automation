@@ -10,16 +10,16 @@ jobs:
   documentary-test:
     name: Documentary Style Test
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     env:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       GEMINI_MODEL: gemini-2.5-flash
-      YOUTUBE_OAUTH_JSON: ${{ secrets.YOUTUBE_OAUTH_JSON }}
-      YOUTUBE_PRIVACY_STATUS: private
 
     steps:
       - name: Checkout experimental branch
         uses: actions/checkout@v4
+        with:
+          ref: experimental/documentary-test
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -38,19 +38,24 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Check Gemini secret
-        run: test -n "$GEMINI_API_KEY" || { echo "ERROR: GEMINI_API_KEY missing"; exit 1; }
+      - name: Validate required secret
+        run: |
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo "ERROR: GEMINI_API_KEY secret is missing"
+            exit 1
+          fi
+          echo "GEMINI_API_KEY: configured"
 
-      - name: Generate normal FACTVERSE content
+      - name: Generate FACTVERSE content
         run: python src/generate_with_strategy.py
 
-      - name: Generate improved voice and music
+      - name: Generate voice and music
         run: python src/add_audio.py
 
       - name: Build documentary visuals
         run: python src/documentary_test.py
 
-      - name: Add the generated voice/music to documentary video
+      - name: Mix documentary video with voice and music
         run: |
           ffmpeg -y \
             -i output/factverse_documentary_test.mp4 \
@@ -58,13 +63,18 @@ jobs:
             -i output/music.wav \
             -filter_complex "[1:a]volume=1.0,aresample=44100[voice];[2:a]volume=0.10,aresample=44100[music];[voice][music]amix=inputs=2:duration=first:dropout_transition=2[a]" \
             -map 0:v:0 -map "[a]" \
-            -c:v copy -c:a aac -b:a 160k -ar 44100 -shortest -movflags +faststart \
+            -c:v copy -c:a aac -b:a 160k -ar 44100 \
+            -t 15 -movflags +faststart \
             output/factverse_documentary_test_final.mp4
 
-      - name: Verify test output
+      - name: Verify final output
         run: |
-          test -f output/factverse_documentary_test_final.mp4
-          ffprobe -v error -show_entries format=duration,size -show_entries stream=codec_name,width,height,r_frame_rate -of default=noprint_wrappers=1 output/factverse_documentary_test_final.mp4
+          test -s output/factverse_documentary_test_final.mp4
+          ffprobe -v error \
+            -show_entries format=duration,size \
+            -show_entries stream=codec_name,width,height,r_frame_rate \
+            -of default=noprint_wrappers=1 \
+            output/factverse_documentary_test_final.mp4
 
       - name: Upload documentary test artifact
         uses: actions/upload-artifact@v4
