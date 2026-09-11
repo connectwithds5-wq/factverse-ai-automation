@@ -23,7 +23,7 @@ jobs:
   factverse:
     name: FACTVERSE AI Video
     runs-on: ubuntu-latest
-    timeout-minutes: 35
+    timeout-minutes: 120
     env:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       GEMINI_MODEL: gemini-3.5-flash
