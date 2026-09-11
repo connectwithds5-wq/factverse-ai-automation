@@ -1,21 +1,42 @@
 {
   "confidence": "MEDIUM",
-  "data_points": 1012,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "data_points": 1036,
+  "overall_summary": "Space and cosmic anomalies featuring physical paradoxes or sensory-driven hooks (e.g., burning ice, space smells, massive oceans) are the primary growth drivers for FACTVERSE. Conversely, abstract cognitive psychology and brain-related facts consistently underperform, indicating that the audience prefers grand, visual, and mind-bending physical phenomena over internal mental mechanics.",
+  "winning_patterns": [
+    {
+      "pattern": "Cosmic Paradoxes & Extreme Space Environments",
+      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' achieved 1,053 views, and 'The Largest Ocean in Space Will Mind-Blow You!' reached 460 views.",
+      "action": "Double down on astronomical anomalies that present an immediate physical contradiction or extreme scale."
+    },
+    {
+      "pattern": "Counter-Intuitive Chronological Comparisons",
+      "evidence": "'Sharks Are Older Than Trees?' reached 302 views, outperforming most standard animal facts.",
+      "action": "Create content comparing the lifespans, origins, or existence of two familiar things where the timeline is highly unexpected."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Abstract Cognitive Psychology & Earworms",
+      "evidence": "'Your Brain Is Hiding This From You' (38 views) and 'Your Brain Can Create Fake Memories' (52 views) struggled to gain any traction.",
+      "action": "Avoid internal psychology topics unless they are paired with a highly visual or physical real-world consequence."
+    },
+    {
+      "pattern": "Generic Mind-Blow Emojis without Physical Hooks",
+      "evidence": "'Your Brain Can Create Fake Memories 🤯' failed to perform, whereas 'The Planet of Burning Ice Will Break Your Brain! 🤯' succeeded.",
+      "action": "Ensure the core concept itself is a paradox; do not rely on clickbait titles or emojis to carry a mundane fact."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "category": "Space",
+    "hook_style": "Physical Paradox",
+    "concept": "A planet where it literally snows sunscreen.",
+    "opening_direction": "There is a giant planet in our galaxy where it literally snows sunscreen.",
+    "twist_direction": "Explain that Kepler-13Ab is so hot that titanium dioxide—the active ingredient in sunscreen—vaporizes in the atmosphere, gets blown to the colder night side, and falls as reflective white snow.",
     "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "posting_window": "18:00 - 20:00 UTC",
+    "reason": "Aligns with the highly successful space category by introducing a bizarre, sensory, and highly original physical paradox that triggers immediate curiosity."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-11T20:35:39.353249+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-11T20:35:39.353273+00:00"
+  "experiment": "Test if framing animal biology facts as historical anomalies (e.g., 'Octopuses existed before Saturn had rings') outperforms standard biological trivia.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-11T21:32:52.702963+00:00"
 }
