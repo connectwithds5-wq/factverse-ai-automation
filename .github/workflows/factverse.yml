@@ -2,6 +2,12 @@ name: FACTVERSE
 
 on:
   workflow_dispatch:
+    inputs:
+      upload_to_youtube:
+        description: "Upload this generated video to YouTube"
+        required: false
+        type: boolean
+        default: false
   schedule:
     - cron: "30 6 * * *"
     - cron: "30 12 * * *"
@@ -138,6 +144,7 @@ jobs:
           if-no-files-found: ignore
 
       - name: Upload FACTVERSE to YouTube
+        if: github.event_name == 'schedule' || inputs.upload_to_youtube == true
         run: python src/upload_youtube.py
 
       - name: FACTVERSE Success
@@ -150,4 +157,8 @@ jobs:
           echo "Pixazo documentary visuals generated."
           echo "Natural voice + music added."
           echo "Video generated and verified."
-          echo "YouTube upload completed."
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.upload_to_youtube }}" = "true" ]; then
+            echo "YouTube upload completed."
+          else
+            echo "Manual test mode: YouTube upload skipped."
+          fi
