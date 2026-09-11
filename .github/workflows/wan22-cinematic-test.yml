@@ -13,7 +13,7 @@ jobs:
     env:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       GEMINI_MODEL: gemini-3.5-flash
-      GEMINI_IMAGE_MODEL: gemini-2.5-flash-image
+      GEMINI_IMAGE_MODEL: gemini-3.1-flash-image
       HF_TOKEN: ${{ secrets.HF_TOKEN }}
       HF_WAN_SPACE: zerogpu-aoti/wan2-2-fp8da-aoti-faster
       VIDEO_CLIP_DIR: output/wan22_clips
