@@ -1,0 +1,22 @@
+{
+  "hook": "Did you know your head is older than your feet?",
+  "fact": "Einstein proved gravity bends time. Because your feet are closer to Earth, gravity slows time down for them.",
+  "twist": "This means your brain is literally living slightly ahead in the future.",
+  "title": "Why Your Head Is Older Than Your Feet 🤯",
+  "description": "Did you know that time doesn't flow at the same speed for your entire body? Thanks to Einstein's theory of relativity and gravitational time dilation, gravity actually bends time. Because your feet are closer to the Earth's center, they experience stronger gravity, which slows time down. This mind blowing science fact means your brain is aging faster than your toes!",
+  "keywords": ["facts", "did you know", "amazing facts", "interesting facts", "mind blowing facts", "science facts", "shorts", "einstein relativity", "time dilation", "physics facts"],
+  "hashtags": ["#facts", "#didyouknow", "#amazingfacts", "#interestingfacts", "#shorts", "#factverse", "#sciencefacts", "#physics"],
+  "channel": "FACTVERSE",
+  "category": "mind blowing science facts",
+  "strategy_used": {
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "experiment": "Test a non-generic science hook against the previous category and compare views and engagement."
+  },
+  "model": "fixed-prompt-test",
+  "duration": 15,
+  "language": "English"
+}
