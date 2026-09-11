@@ -7,7 +7,7 @@ from google import genai
 
 STORYBOARD = Path("output/storyboard.json")
 OUT = Path("output/wan22_images")
-MODEL = os.getenv("GEMINI_IMAGE_MODEL", "gemini-2.5-flash-image")
+MODEL = os.getenv("GEMINI_IMAGE_MODEL", "gemini-3.1-flash-image")
 
 
 def main():
