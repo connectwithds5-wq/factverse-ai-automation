@@ -54,9 +54,10 @@ for index, (name, text) in enumerate(segments, start=1):
         "--output_file", raw, "--length_scale", "0.95",
         "--noise_scale", "0.55", "--noise_w_scale", "0.65", "--", text
     ])
+    # Piper emits 22050 Hz audio; keep the low-pass safely below Nyquist before resampling.
     run([
         "ffmpeg", "-y", "-i", raw,
-        "-af", "highpass=f=70,lowpass=f=12000,acompressor=threshold=-18dB:ratio=2.5:attack=5:release=80,loudnorm=I=-16:TP=-1.5:LRA=11",
+        "-af", "highpass=f=70,lowpass=f=10000,acompressor=threshold=-18dB:ratio=2.5:attack=5:release=80,loudnorm=I=-16:TP=-1.5:LRA=11",
         "-ar", "44100", "-ac", "2", clean
     ])
     segment_files.append(clean)
