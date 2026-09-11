@@ -64,7 +64,7 @@ jobs:
             -i output/factverse_pixazo_documentary.mp4 \
             -i output/voice.wav \
             -i output/music.wav \
-            -filter_complex "[1:a]volume=1.0,aresample=44100[voice];[2:a]volume=0.10,aresample=44100[music];[voice][music]amix=inputs=2:duration=first:dropout_transition=2[a]" \
+            -filter_complex "[1:a]volume=1.0,aresample=44100[voice];[2:a]volume=0.10,aresample=44100[music];[voice][music]amix=inputs=2:duration=longest:dropout_transition=2[a]" \
             -map 0:v:0 -map "[a]" \
             -c:v copy -c:a aac -b:a 160k -ar 44100 \
             -t 15 -movflags +faststart \
@@ -87,5 +87,6 @@ jobs:
             output/factverse_pixazo_documentary_final.mp4
             output/metadata.json
             output/documentary_plan.json
+            output/documentary_timing.json
             output/pixazo_requests.json
           if-no-files-found: error
