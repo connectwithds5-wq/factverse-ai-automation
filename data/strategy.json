@@ -1,21 +1,42 @@
 {
-  "confidence": "MEDIUM",
-  "data_points": 667,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "confidence": "HIGH",
+  "data_points": 687,
+  "overall_summary": "Space-themed content featuring extreme sensory paradoxes (e.g., burning ice, space smelling like steak, oceans in space) dominates the channel's performance. Conversely, generic psychology facts and repetitive brain-related hooks struggle to gain traction.",
+  "winning_patterns": [
+    {
+      "pattern": "Sensory Contradictions in Space",
+      "evidence": "'The Planet of Burning Ice' (1,053 views) and 'The Largest Ocean in Space' (460 views) are the top performers.",
+      "action": "Double down on cosmic anomalies that challenge basic physics or everyday sensory experiences."
+    },
+    {
+      "pattern": "Shocking Animal Survival Mechanics",
+      "evidence": "'Sharks Are Older Than Trees' (302 views) and 'This Animal Literally Dies Every Winter' (179 views) outperform standard biology facts.",
+      "action": "Frame animal facts around historical anomalies or extreme survival states."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Vague Psychology & Brain Hooks",
+      "evidence": "'Your Brain Is Hiding This From You' (38 views) and 'The Real Reason Songs Get Stuck...' (17 views) fail to engage.",
+      "action": "Avoid abstract brain facts; replace with highly specific, actionable psychological phenomena if covered."
+    },
+    {
+      "pattern": "Immediate Concept Duplication",
+      "evidence": "'Your Brain Can Create Fake Memories' got 5 views on the first upload and only 54 on the second.",
+      "action": "Avoid re-uploading identical concepts within a short window; pivot the angle instead."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "category": "Space & Cosmic Anomalies",
+    "hook_style": "Sensory Paradox",
+    "concept": "The Star That Is Colder Than Ice",
+    "opening_direction": "Start with a visual of a star, then reveal you could touch it without getting burned.",
+    "twist_direction": "Explain Y-dwarfs, stars that are literally colder than a human body, challenging the definition of a star.",
     "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "posting_window": "12:00 PM - 1:00 PM UTC",
+    "reason": "Leverages the massive success of 'The Planet of Burning Ice' by using another temperature-based cosmic paradox, which triggers high curiosity and retention."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-11T04:37:16.094606+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-11T04:37:16.094627+00:00"
+  "experiment": "Test a 'Cosmic Contradiction' mini-series, comparing extreme temperatures or weather in space (e.g., cold stars vs. hot ice) to establish a repeatable, high-performing format.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-11T05:36:05.489995+00:00"
 }
