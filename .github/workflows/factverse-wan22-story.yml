@@ -1,0 +1,116 @@
+name: FactVerse Wan 2.2 Story Video
+
+on:
+  workflow_dispatch:
+    inputs:
+      category:
+        description: "FactVerse category"
+        required: true
+        default: "science"
+        type: string
+      concept:
+        description: "Optional story concept"
+        required: false
+        default: ""
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  generate-story-video:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_MODEL: gemini-3.5-flash
+      GEMINI_IMAGE_MODEL: gemini-3.1-flash-image
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      HF_WAN_SPACE: zerogpu-aoti/wan2-2-fp8da-aoti-faster
+      VIDEO_CLIP_DIR: output/wan22_clips
+      VIDEO_FINAL_PATH: output/factverse.mp4
+      VIDEO_ENGINE_LABEL: Wan2.2
+
+    steps:
+      - name: Checkout isolated Wan 2.2 story branch
+        uses: actions/checkout@v4
+        with:
+          ref: factverse-wan22-story
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          ffmpeg -version | head -n 1
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt gradio_client
+
+      - name: Validate secrets
+        run: |
+          test -n "$GEMINI_API_KEY" || { echo "ERROR: GEMINI_API_KEY is missing"; exit 1; }
+          test -n "$HF_TOKEN" || { echo "ERROR: HF_TOKEN is missing"; exit 1; }
+
+      - name: Apply story input
+        env:
+          STORY_CATEGORY: ${{ inputs.category }}
+          STORY_CONCEPT: ${{ inputs.concept }}
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          p = Path("data/strategy.json")
+          data = json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
+          data.setdefault("next_video", {})
+          data["next_video"]["category"] = os.environ["STORY_CATEGORY"].strip()
+          concept = os.environ.get("STORY_CONCEPT", "").strip()
+          if concept:
+              data["next_video"]["concept"] = concept
+          p.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+          print(json.dumps(data["next_video"], indent=2, ensure_ascii=False))
+          PY
+
+      - name: Generate FACTVERSE story and metadata
+        run: python src/generate_with_strategy.py
+
+      - name: Build aligned storyboard
+        run: python src/storyboard_builder.py
+
+      - name: Generate cinematic storyboard keyframes
+        run: python src/generate_storyboard_images.py
+
+      - name: Generate Wan 2.2 cinematic shots
+        run: python src/wan22_documentary.py
+
+      - name: Normalize Wan 2.2 clips to storyboard timing
+        run: python src/normalize_video_duration.py
+
+      - name: Generate narration, music, SFX and final audio mix
+        run: python src/add_audio.py
+
+      - name: Verify final video has video and audio
+        run: |
+          test -s output/factverse.mp4
+          ffprobe -v error -select_streams v:0 -show_entries stream=codec_name,width,height -of default=noprint_wrappers=1 output/factverse.mp4
+          ffprobe -v error -select_streams a:0 -show_entries stream=codec_name,sample_rate,channels -of default=noprint_wrappers=1 output/factverse.mp4
+
+      - name: Upload FactVerse video
+        uses: actions/upload-artifact@v4
+        with:
+          name: factverse-wan22-story
+          path: |
+            output/factverse.mp4
+            output/metadata.json
+            output/storyboard.json
+            output/wan22_manifest.json
+            output/storyboard_audio
+          if-no-files-found: error
+          retention-days: 7
