@@ -1,42 +1,32 @@
 {
-  "confidence": "MEDIUM",
-  "data_points": 1036,
-  "overall_summary": "Space and cosmic anomalies featuring physical paradoxes or sensory-driven hooks (e.g., burning ice, space smells, massive oceans) are the primary growth drivers for FACTVERSE. Conversely, abstract cognitive psychology and brain-related facts consistently underperform, indicating that the audience prefers grand, visual, and mind-bending physical phenomena over internal mental mechanics.",
+  "confidence": "HIGH",
+  "data_points": 1060,
+  "overall_summary": "Space-themed content focusing on extreme planetary conditions and sensory paradoxes (e.g., burning ice, smelling like steak) drives the highest engagement and views. Conversely, cognitive psychology and brain-related facts consistently struggle to gain traction, often stalling below 100 views.",
   "winning_patterns": [
     {
-      "pattern": "Cosmic Paradoxes & Extreme Space Environments",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' achieved 1,053 views, and 'The Largest Ocean in Space Will Mind-Blow You!' reached 460 views.",
-      "action": "Double down on astronomical anomalies that present an immediate physical contradiction or extreme scale."
-    },
-    {
-      "pattern": "Counter-Intuitive Chronological Comparisons",
-      "evidence": "'Sharks Are Older Than Trees?' reached 302 views, outperforming most standard animal facts.",
-      "action": "Create content comparing the lifespans, origins, or existence of two familiar things where the timeline is highly unexpected."
+      "pattern": "Sensory & Paradoxical Space Anomalies",
+      "evidence": "'The Planet of Burning Ice' reached 1,053 views (the channel's top performer), while 'The Largest Ocean in Space' achieved 460 views, and 'What Does Outer Space Actually Smell Like?' hit 368 views.",
+      "action": "Double down on extreme cosmic environments that defy earthly physics, specifically using sensory hooks (smell, taste, temperature paradoxes)."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Cognitive Psychology & Earworms",
-      "evidence": "'Your Brain Is Hiding This From You' (38 views) and 'Your Brain Can Create Fake Memories' (52 views) struggled to gain any traction.",
-      "action": "Avoid internal psychology topics unless they are paired with a highly visual or physical real-world consequence."
-    },
-    {
-      "pattern": "Generic Mind-Blow Emojis without Physical Hooks",
-      "evidence": "'Your Brain Can Create Fake Memories 🤯' failed to perform, whereas 'The Planet of Burning Ice Will Break Your Brain! 🤯' succeeded.",
-      "action": "Ensure the core concept itself is a paradox; do not rely on clickbait titles or emojis to carry a mundane fact."
+      "pattern": "Generic Brain & Cognitive Psychology Facts",
+      "evidence": "'The Real Reason Songs Get Stuck In Your Head' stalled at 17 views, and 'Your Brain Is Hiding This From You' reached only 38 views.",
+      "action": "Pivot away from standard cognitive psychology topics unless they can be framed through a highly dramatic historical or technological lens."
     }
   ],
   "next_video": {
-    "category": "Space",
-    "hook_style": "Physical Paradox",
-    "concept": "A planet where it literally snows sunscreen.",
-    "opening_direction": "There is a giant planet in our galaxy where it literally snows sunscreen.",
-    "twist_direction": "Explain that Kepler-13Ab is so hot that titanium dioxide—the active ingredient in sunscreen—vaporizes in the atmosphere, gets blown to the colder night side, and falls as reflective white snow.",
-    "duration_seconds": 15,
+    "category": "Space & Astronomy",
+    "hook_style": "Sensory Paradox",
+    "concept": "TrES-2b, the pitch-black planet that absorbs 99% of light.",
+    "opening_direction": "Show a pitch-black screen and say: 'This is not a blank screen. This is a real planet that literally eats light.'",
+    "twist_direction": "Reveal that despite being darker than coal, it burns at almost 1,800 degrees Fahrenheit, glowing a faint, eerie red like a burning ember.",
+    "duration_seconds": 16,
     "posting_window": "18:00 - 20:00 UTC",
-    "reason": "Aligns with the highly successful space category by introducing a bizarre, sensory, and highly original physical paradox that triggers immediate curiosity."
+    "reason": "Leverages the proven high performance of extreme planetary anomalies (like the burning ice video) with a strong visual and sensory hook."
   },
-  "experiment": "Test if framing animal biology facts as historical anomalies (e.g., 'Octopuses existed before Saturn had rings') outperforms standard biological trivia.",
+  "experiment": "Test a 'Space vs. Earth' comparison format (e.g., comparing Earth's quietest room to the absolute silence of space) to bridge the gap between space facts and relatable human experiences.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-11T21:32:52.702963+00:00"
+  "generated_at": "2026-09-11T22:34:51.836203+00:00"
 }
