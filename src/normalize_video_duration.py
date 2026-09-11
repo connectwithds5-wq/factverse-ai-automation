@@ -5,9 +5,10 @@ import tempfile
 from pathlib import Path
 
 OUTPUT = Path("output")
-CLIPS = OUTPUT / "pixazo_clips"
+CLIPS = Path(os.getenv("VIDEO_CLIP_DIR", str(OUTPUT / "pixazo_clips")))
 STORYBOARD = OUTPUT / "storyboard.json"
-FINAL = OUTPUT / "factverse.mp4"
+FINAL = Path(os.getenv("VIDEO_FINAL_PATH", str(OUTPUT / "factverse.mp4")))
+LABEL = os.getenv("VIDEO_ENGINE_LABEL", "video")
 
 
 def probe(path):
@@ -35,13 +36,13 @@ def main():
     for index, target in enumerate(durations, 1):
         path = CLIPS / f"shot_{index:02d}.mp4"
         if not path.exists() or path.stat().st_size == 0:
-            raise SystemExit(f"Missing Pixazo clip: {path}")
+            raise SystemExit(f"Missing {LABEL} clip: {path}")
         actual = probe(path)
-        print(f"Shot {index}: Pixazo={actual:.3f}s target={target:.3f}s")
+        print(f"Shot {index}: {LABEL}={actual:.3f}s target={target:.3f}s")
 
         if actual < target - 0.03:
             pad = target - actual
-            print(f"Shot {index}: padding final frame for {pad:.3f}s to preserve storyboard timing")
+            print(f"Shot {index}: padding final frame for {pad:.3f}s")
             fd, tmp_name = tempfile.mkstemp(suffix=".mp4", dir=str(CLIPS))
             os.close(fd)
             tmp = Path(tmp_name)
@@ -57,19 +58,23 @@ def main():
                 if tmp.exists():
                     tmp.unlink()
         elif actual > target + 0.03:
+            trimmed = path.with_suffix(".trim.mp4")
             run([
                 "ffmpeg", "-y", "-i", str(path),
                 "-t", f"{target:.3f}", "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
-                "-pix_fmt", "yuv420p", "-r", "30", str(path.with_suffix(".trim.mp4")),
+                "-pix_fmt", "yuv420p", "-r", "30", str(trimmed),
             ])
-            os.replace(path.with_suffix(".trim.mp4"), path)
+            os.replace(trimmed, path)
 
         final_actual = probe(path)
         if final_actual < target - 0.05:
             raise SystemExit(f"Shot {index} remains too short: {final_actual:.3f}s < {target:.3f}s")
 
     concat = CLIPS / "normalized_concat.txt"
-    concat.write_text("\n".join(f"file '{(CLIPS / f'shot_{i:02d}.mp4').resolve()}'" for i in range(1, len(shots) + 1)) + "\n", encoding="utf-8")
+    concat.write_text(
+        "\n".join(f"file '{(CLIPS / f'shot_{i:02d}.mp4').resolve()}'" for i in range(1, len(shots) + 1)) + "\n",
+        encoding="utf-8",
+    )
     run([
         "ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(concat),
         "-c:v", "libx264", "-preset", "veryfast", "-crf", "19", "-pix_fmt", "yuv420p", "-r", "30", "-an",
@@ -77,9 +82,9 @@ def main():
     ])
 
     actual_final = probe(FINAL)
-    print(f"Normalized Pixazo video: {actual_final:.3f}s; storyboard target: {expected:.3f}s")
+    print(f"Normalized {LABEL} video: {actual_final:.3f}s; storyboard target: {expected:.3f}s")
     if actual_final < expected - 0.08 or actual_final > expected + 0.20:
-        raise SystemExit(f"Final Pixazo duration mismatch: {actual_final:.3f}s vs {expected:.3f}s")
+        raise SystemExit(f"Final {LABEL} duration mismatch: {actual_final:.3f}s vs {expected:.3f}s")
 
 
 if __name__ == "__main__":
