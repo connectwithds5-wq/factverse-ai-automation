@@ -52,8 +52,8 @@ jobs:
           cp data/documentary_pixazo_test_plan.json output/documentary_plan.json
           echo "Using the exact prompt/metadata from the successful Gemini test; Gemini will NOT be called."
 
-      - name: Generate voice and music locally
-        run: python src/add_audio.py
+      - name: Generate test audio locally
+        run: python src/generate_test_audio.py
 
       - name: Generate documentary clips with Pixazo LTX Free
         run: python src/pixazo_documentary_test.py
