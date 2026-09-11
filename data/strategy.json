@@ -1,32 +1,21 @@
 {
-  "confidence": "HIGH",
-  "data_points": 1060,
-  "overall_summary": "Space-themed content focusing on extreme planetary conditions and sensory paradoxes (e.g., burning ice, smelling like steak) drives the highest engagement and views. Conversely, cognitive psychology and brain-related facts consistently struggle to gain traction, often stalling below 100 views.",
-  "winning_patterns": [
-    {
-      "pattern": "Sensory & Paradoxical Space Anomalies",
-      "evidence": "'The Planet of Burning Ice' reached 1,053 views (the channel's top performer), while 'The Largest Ocean in Space' achieved 460 views, and 'What Does Outer Space Actually Smell Like?' hit 368 views.",
-      "action": "Double down on extreme cosmic environments that defy earthly physics, specifically using sensory hooks (smell, taste, temperature paradoxes)."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Generic Brain & Cognitive Psychology Facts",
-      "evidence": "'The Real Reason Songs Get Stuck In Your Head' stalled at 17 views, and 'Your Brain Is Hiding This From You' reached only 38 views.",
-      "action": "Pivot away from standard cognitive psychology topics unless they can be framed through a highly dramatic historical or technological lens."
-    }
-  ],
+  "confidence": "MEDIUM",
+  "data_points": 1084,
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space & Astronomy",
-    "hook_style": "Sensory Paradox",
-    "concept": "TrES-2b, the pitch-black planet that absorbs 99% of light.",
-    "opening_direction": "Show a pitch-black screen and say: 'This is not a blank screen. This is a real planet that literally eats light.'",
-    "twist_direction": "Reveal that despite being darker than coal, it burns at almost 1,800 degrees Fahrenheit, glowing a faint, eerie red like a burning ember.",
-    "duration_seconds": 16,
-    "posting_window": "18:00 - 20:00 UTC",
-    "reason": "Leverages the proven high performance of extreme planetary anomalies (like the burning ice video) with a strong visual and sensory hook."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'Space vs. Earth' comparison format (e.g., comparing Earth's quietest room to the absolute silence of space) to bridge the gap between space facts and relatable human experiences.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-11T22:34:51.836203+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-11T23:33:57.059541+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-11T23:33:57.059563+00:00"
 }
