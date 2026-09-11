@@ -25,19 +25,6 @@ def run(cmd):
     subprocess.run(cmd, check=True)
 
 
-def duration(path):
-    result = subprocess.run(
-        ["ffprobe", "-v", "error", "-show_entries", "format=duration",
-         "-of", "default=noprint_wrappers=1:nokey=1", str(path)],
-        capture_output=True, text=True, check=True,
-    )
-    return float(result.stdout.strip())
-
-
-def esc_drawtext(text: str) -> str:
-    return (text.replace("\\", "\\\\").replace(":", "\\:").replace("'", "\\'").replace("%", "\\%"))
-
-
 def wrap_caption(text: str, width: int = 30) -> str:
     words = text.split()
     lines, line = [], ""
@@ -50,7 +37,7 @@ def wrap_caption(text: str, width: int = 30) -> str:
             line = candidate
     if line:
         lines.append(line)
-    return "\\n".join(lines[:4])
+    return "\n".join(lines[:4])
 
 
 def request_clip(prompt: str, num_frames: int, seed: int):
@@ -120,14 +107,8 @@ def main():
     if not shots or len(shots) != len(segments):
         raise SystemExit("Plan/timing segment count mismatch")
 
-    # Captions are synchronized to the exact spoken segments rather than arbitrary 4s blocks.
     metadata = json.loads((OUTPUT / "metadata.json").read_text(encoding="utf-8"))
-    captions = [
-        metadata["hook"],
-        metadata["fact"],
-        "Here's the surprising part...",
-        metadata["twist"],
-    ]
+    captions = [metadata["hook"], metadata["fact"], "Here's the surprising part...", metadata["twist"]]
 
     records, processed = [], []
     for index, (shot, seg, caption_text) in enumerate(zip(shots, segments, captions), start=1):
@@ -138,14 +119,14 @@ def main():
         print(f"\n=== Shot {index}: {start:.2f}s-{end:.2f}s ({shot_duration:.2f}s) ===")
         print(f"EXACT PROMPT: {prompt}")
 
-        # LTX free accepts frame counts; use enough frames for the narration-aligned duration.
         frames = max(25, round(shot_duration * 24) + 1)
         request_id, media_url = request_clip(prompt, frames, 4200 + index)
         raw_clip = CLIPS / f"shot_{index:02d}_raw.mp4"
         download(media_url, raw_clip)
 
         processed_clip = CLIPS / f"shot_{index:02d}.mp4"
-        caption = esc_drawtext(wrap_caption(caption_text))
+        caption_file = CLIPS / f"caption_{index:02d}.txt"
+        caption_file.write_text(wrap_caption(caption_text), encoding="utf-8")
         vf = (
             "scale=1080:1920:force_original_aspect_ratio=increase,"
             "crop=1080:1920,setsar=1,"
@@ -154,7 +135,7 @@ def main():
             "text='FACTVERSE  •  DOCUMENTARY TEST':fontcolor=white:fontsize=42:"
             "x=54:y=48:shadowcolor=black@0.7:shadowx=2:shadowy=2,"
             "drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf:"
-            f"text='{caption}':fontcolor=white:fontsize=50:line_spacing=12:"
+            f"textfile='{caption_file.resolve()}':fontcolor=white:fontsize=50:line_spacing=12:"
             "x=(w-text_w)/2:y=h-300:box=1:boxcolor=black@0.48:boxborderw=26:"
             "shadowcolor=black@0.8:shadowx=2:shadowy=2"
         )
@@ -176,7 +157,6 @@ def main():
     concat_file = CLIPS / "concat.txt"
     concat_file.write_text("\n".join(f"file '{p.resolve()}'" for p in processed) + "\n", encoding="utf-8")
 
-    # The four narration-aligned clips cover 14.7s. Hold the last frame for the final 0.3s.
     run([
         "ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(concat_file),
         "-c:v", "libx264", "-preset", "veryfast", "-crf", "19",
