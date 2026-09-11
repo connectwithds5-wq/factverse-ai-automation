@@ -1,21 +1,37 @@
 {
-  "confidence": "MEDIUM",
-  "data_points": 707,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "confidence": "HIGH",
+  "data_points": 728,
+  "overall_summary": "Space anomalies featuring extreme physical or sensory contradictions (such as burning ice, space oceans, and space smells) are the clear drivers of high engagement and views on the channel. Conversely, abstract psychology and brain-related facts struggle to gain traction, showing significantly lower view counts.",
+  "winning_patterns": [
+    {
+      "pattern": "Extreme Space Anomalies with Sensory/Physical Contradictions",
+      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' achieved 1,053 views, while 'The Largest Ocean in Space' reached 460 views and 'What Does Outer Space Actually Smell Like?' got 368 views.",
+      "action": "Double down on cosmic anomalies that challenge basic physics or feature strong sensory hooks (smell, taste, extreme temperature contradictions)."
+    },
+    {
+      "pattern": "Bizarre Animal Survival and Historical Facts",
+      "evidence": "'Sharks Are Older Than Trees?' reached 302 views and 'This Animal Literally Dies Every Winter!' got 179 views.",
+      "action": "Create content around shocking, counter-intuitive facts about well-known animals or ancient species."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Abstract Psychology and Brain Functions",
+      "evidence": "'The Real Reason Songs Get Stuck In Your Head' (17 views) and 'Your Brain Is Hiding This From You' (38 views) are among the lowest-performing videos.",
+      "action": "Pivot away from internal cognitive processes and abstract psychology, as they fail to capture immediate interest in the Shorts feed."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space",
+    "hook_style": "Sensory/Physical Contradiction",
+    "concept": "A planet where it literally rains molten iron at night.",
+    "opening_direction": "Imagine a world where the rain doesn't wet you—it melts you.",
+    "twist_direction": "Explain how extreme temperatures vaporize metal on the day side, only for it to condense and fall as liquid iron rain on the freezing night side.",
+    "duration_seconds": 16,
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Leverages the highly successful 'extreme space anomaly' theme established by the top-performing burning ice planet video, utilizing a strong sensory hook to maximize retention."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-11T06:40:29.902883+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-11T06:40:29.902899+00:00"
+  "experiment": "Test a space-themed video that directly compares a cosmic anomaly to an everyday household object to see if relatable physical scaling increases shareability.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-11T07:38:24.987700+00:00"
 }
