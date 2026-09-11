@@ -1,0 +1,69 @@
+name: FACTVERSE Gemini Veo Production Test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  gemini-veo-test:
+    name: Gemini Veo Documentary Production Test
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      VEO_MODEL: veo-3.1-generate-preview
+      GEMINI_MODEL: gemini-3.6-flash
+
+    steps:
+      - name: Checkout experimental Gemini Veo branch
+        uses: actions/checkout@v4
+        with:
+          ref: experimental/gemini-veo-production-test
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Validate Gemini key
+        run: |
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo "GEMINI_API_KEY GitHub Secret is missing."
+            exit 1
+          fi
+
+      - name: Generate Gemini + Veo documentary short
+        run: python src/gemini_veo_documentary_test.py
+
+      - name: Verify final MP4
+        run: |
+          test -s output/factverse_gemini_veo.mp4
+          ffprobe -v error -select_streams v:0 \
+            -show_entries stream=codec_name,width,height,r_frame_rate \
+            -show_entries format=duration \
+            -of default=noprint_wrappers=1 \
+            output/factverse_gemini_veo.mp4
+
+      - name: Upload Gemini Veo test artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: factverse-gemini-veo-production-test
+          path: |
+            output/factverse_gemini_veo.mp4
+            output/metadata.json
+            output/gemini_veo_plan.json
+            output/gemini_veo_requests.json
+            output/gemini_veo_timing.json
+          if-no-files-found: error
+          retention-days: 7
