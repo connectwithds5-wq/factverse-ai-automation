@@ -90,6 +90,38 @@ jobs:
           PY
           cat output/metadata.json
 
+      - name: Build aligned documentary storyboard
+        run: python src/storyboard_builder.py
+
+      - name: Check storyboard
+        run: |
+          test -f output/storyboard.json || { echo "ERROR: output/storyboard.json not found"; exit 1; }
+          python - <<'PY'
+          import json
+          board = json.load(open("output/storyboard.json", encoding="utf-8"))
+          shots = board.get("shots", [])
+          if not 4 <= len(shots) <= 5:
+              raise SystemExit("ERROR: storyboard must contain 4 or 5 shots")
+          previous_end = 0.0
+          for i, shot in enumerate(shots, 1):
+              start = float(shot["start"])
+              end = float(shot["end"])
+              duration = end - start
+              if i == 1 and abs(start) > 0.01:
+                  raise SystemExit("ERROR: storyboard must start at 0")
+              if abs(start - previous_end) > 0.01:
+                  raise SystemExit(f"ERROR: shot {i} is not contiguous")
+              if not 3.0 <= duration <= 5.0:
+                  raise SystemExit(f"ERROR: shot {i} duration is {duration:.2f}s")
+              if len(str(shot["caption"]).split()) > 8:
+                  raise SystemExit(f"ERROR: shot {i} caption exceeds 8 words")
+              previous_end = end
+          if not 18.0 <= previous_end <= 22.0:
+              raise SystemExit(f"ERROR: storyboard duration {previous_end:.2f}s is outside 18-22s")
+          print(f"Storyboard validated: {len(shots)} shots, {previous_end:.2f}s")
+          PY
+          cat output/storyboard.json
+
       - name: Generate documentary visuals with Pixazo LTX Free
         run: python src/pixazo_documentary.py
 
@@ -128,6 +160,13 @@ jobs:
           path: output/metadata.json
           if-no-files-found: error
 
+      - name: Upload Storyboard Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: factverse-storyboard
+          path: output/storyboard.json
+          if-no-files-found: error
+
       - name: Upload Pixazo Request Log
         uses: actions/upload-artifact@v4
         with:
@@ -154,6 +193,7 @@ jobs:
           echo "       FACTVERSE SUCCESS"
           echo "========================================"
           echo "Gemini story/metadata generated."
+          echo "Aligned storyboard generated."
           echo "Pixazo documentary visuals generated."
           echo "Natural voice + music added."
           echo "Video generated and verified."
