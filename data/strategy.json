@@ -1,42 +1,21 @@
 {
-  "confidence": "HIGH",
-  "data_points": 855,
-  "overall_summary": "Space-themed videos featuring extreme, mind-bending physical paradoxes or sensory contrasts (like burning ice or smelling like steak) are the clear drivers of high engagement and views. Meanwhile, repetitive psychology and brain-related facts struggle to capture attention, indicating audience fatigue or weak visual hooks in that niche.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Space Paradoxes & Sensory Hooks",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' reached 1,053 views (the highest in the set), followed by 'The Largest Ocean in Space' (460 views) and 'What Does Outer Space Actually Smell Like?' (368 views).",
-      "action": "Double down on astronomical anomalies that present extreme physical contrasts (e.g., burning ice, metal rain, diamond oceans) and use sensory-rich hooks."
-    },
-    {
-      "pattern": "Counter-intuitive Nature Facts",
-      "evidence": "'Sharks Are Older Than Trees?' (302 views) and 'This Animal Literally Dies Every Winter!' (179 views) performed well above the channel average.",
-      "action": "Create content around shocking biological survival mechanisms or historical timelines of animals that defy common sense."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Repetitive Brain & Psychology Facts",
-      "evidence": "'Your Brain Is Hiding This From You' got only 38 views, and 'Your Brain Can Create Fake Memories' struggled with 54 and 5 views across duplicate uploads.",
-      "action": "Pivot away from generic brain/psychology facts unless they can be tied to a highly unusual, specific historical mystery or scientific anomaly."
-    },
-    {
-      "pattern": "Identical Duplicate Uploads",
-      "evidence": "Uploading the exact same video title and concept within days (e.g., 'Your Brain Can Create Fake Memories' or 'Why Space Is Completely Silent') consistently yields lower or split performance.",
-      "action": "Avoid immediate re-uploading of underperforming concepts; instead, re-edit the hook and change the title entirely before trying again."
-    }
-  ],
+  "confidence": "MEDIUM",
+  "data_points": 877,
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space",
-    "hook_style": "Sensory Contrast & Physical Threat",
-    "concept": "The planet where it rains boiling iron instead of water.",
-    "opening_direction": "Show a dramatic graphic of metallic rain with the hook: 'Imagine a world where the rain doesn't wet you—it literally melts you.'",
-    "twist_direction": "Explain that on exoplanet WASP-76b, it gets so hot that iron vaporizes into clouds, blowing to the night side where it condenses and rains down as liquid metal.",
-    "duration_seconds": 16,
-    "posting_window": "12:00 PM - 1:00 PM UTC",
-    "reason": "Matches the highly successful 16-second format and aligns with the posting time of the top-performing 'Burning Ice' video (12:44 PM UTC)."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 15-second video on a space anomaly using a 'What if you stood on...' perspective to increase immediate personal relevance and viewer retention.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-11T13:37:03.358156+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-11T14:37:32.330620+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-11T14:37:32.330640+00:00"
 }
