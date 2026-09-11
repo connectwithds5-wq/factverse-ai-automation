@@ -17,7 +17,8 @@ TIMING_FILE = OUTPUT / "documentary_timing.json"
 FINAL = OUTPUT / "factverse_pixazo_documentary.mp4"
 REQUESTS_FILE = OUTPUT / "pixazo_requests.json"
 
-NEGATIVE = "blurry, low quality, distorted, worst quality, jpeg artifacts, text, subtitles, watermark, logo, UI, split screen"
+NEGATIVE = "blurry, low quality, distorted, worst quality, jpeg artifacts, text, subtitles, watermark, logo, UI, split screen, duplicate person, deformed hands, distorted face"
+FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
 
 def run(cmd):
@@ -25,8 +26,8 @@ def run(cmd):
     subprocess.run(cmd, check=True)
 
 
-def wrap_caption(text: str, width: int = 30) -> str:
-    words = text.split()
+def wrap_caption(text: str, width: int = 24) -> str:
+    words = str(text).replace("\\n", " ").split()
     lines, line = [], ""
     for word in words:
         candidate = word if not line else line + " " + word
@@ -37,11 +38,10 @@ def wrap_caption(text: str, width: int = 30) -> str:
             line = candidate
     if line:
         lines.append(line)
-    return "\n".join(lines[:4])
+    return "\\n".join(lines[:3])
 
 
 def request_clip(prompt: str, num_frames: int, seed: int):
-    # IMPORTANT: prompt is passed exactly as supplied by the fixed test plan.
     payload = {
         "prompt": prompt,
         "negative": NEGATIVE,
@@ -107,17 +107,19 @@ def main():
     if not shots or len(shots) != len(segments):
         raise SystemExit("Plan/timing segment count mismatch")
 
-    metadata = json.loads((OUTPUT / "metadata.json").read_text(encoding="utf-8"))
-    captions = [metadata["hook"], metadata["fact"], "Here's the surprising part...", metadata["twist"]]
-
     records, processed = [], []
-    for index, (shot, seg, caption_text) in enumerate(zip(shots, segments, captions), start=1):
+    for index, (shot, seg) in enumerate(zip(shots, segments), start=1):
         start = float(seg["start"])
         end = float(seg["end"])
         shot_duration = end - start
-        prompt = str(shot["visual_query"]).strip()
-        print(f"\n=== Shot {index}: {start:.2f}s-{end:.2f}s ({shot_duration:.2f}s) ===")
-        print(f"EXACT PROMPT: {prompt}")
+        prompt = str(shot.get("visual_prompt") or shot.get("visual_query") or "").strip()
+        caption_text = str(shot.get("caption") or "").strip()
+        if not prompt:
+            raise SystemExit(f"Shot {index} has no visual prompt")
+
+        print(f"\\n=== Shot {index}: {start:.2f}s-{end:.2f}s ({shot_duration:.2f}s) ===")
+        print(f"VISUAL PROMPT: {prompt}")
+        print(f"CAPTION: {caption_text}")
 
         frames = max(25, round(shot_duration * 24) + 1)
         request_id, media_url = request_clip(prompt, frames, 4200 + index)
@@ -127,17 +129,18 @@ def main():
         processed_clip = CLIPS / f"shot_{index:02d}.mp4"
         caption_file = CLIPS / f"caption_{index:02d}.txt"
         caption_file.write_text(wrap_caption(caption_text), encoding="utf-8")
+
+        # Important text sits in the middle/lower safe area, well above Shorts/Reels UI.
         vf = (
             "scale=1080:1920:force_original_aspect_ratio=increase,"
             "crop=1080:1920,setsar=1,"
-            "drawbox=x=0:y=0:w=iw:h=140:color=black@0.22:t=fill,"
-            "drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf:"
-            "text='FACTVERSE  •  DOCUMENTARY TEST':fontcolor=white:fontsize=42:"
-            "x=54:y=48:shadowcolor=black@0.7:shadowx=2:shadowy=2,"
-            "drawtext=fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf:"
-            f"textfile='{caption_file.resolve()}':fontcolor=white:fontsize=50:line_spacing=12:"
-            "x=(w-text_w)/2:y=h-300:box=1:boxcolor=black@0.48:boxborderw=26:"
-            "shadowcolor=black@0.8:shadowx=2:shadowy=2"
+            "drawbox=x=0:y=0:w=iw:h=130:color=black@0.18:t=fill,"
+            f"drawtext=fontfile={FONT}:text='FACTVERSE':fontcolor=white:fontsize=38:"
+            "x=54:y=42:shadowcolor=black@0.75:shadowx=2:shadowy=2,"
+            f"drawtext=fontfile={FONT}:textfile='{caption_file.resolve()}':"
+            "fontcolor=white:fontsize=58:line_spacing=10:"
+            "x=(w-text_w)/2:y=1180:box=1:boxcolor=black@0.46:boxborderw=22:"
+            "shadowcolor=black@0.85:shadowx=2:shadowy=2"
         )
         run([
             "ffmpeg", "-y", "-i", str(raw_clip), "-vf", vf,
@@ -147,15 +150,22 @@ def main():
         ])
         processed.append(processed_clip)
         records.append({
-            "shot": index, "start": start, "end": end, "duration": shot_duration,
-            "prompt": prompt, "caption": caption_text, "request_id": request_id,
-            "media_url": media_url, "frames_requested": frames,
+            "shot": index,
+            "start": start,
+            "end": end,
+            "duration": shot_duration,
+            "prompt": prompt,
+            "source_visual_query": shot.get("visual_query", ""),
+            "caption": caption_text,
+            "request_id": request_id,
+            "media_url": media_url,
+            "frames_requested": frames,
             "model": "ltx-video (Pixazo LTX Free)",
         })
 
     REQUESTS_FILE.write_text(json.dumps(records, indent=2), encoding="utf-8")
     concat_file = CLIPS / "concat.txt"
-    concat_file.write_text("\n".join(f"file '{p.resolve()}'" for p in processed) + "\n", encoding="utf-8")
+    concat_file.write_text("\\n".join(f"file '{p.resolve()}'" for p in processed) + "\\n", encoding="utf-8")
 
     run([
         "ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(concat_file),
@@ -165,7 +175,8 @@ def main():
     ])
     held = OUTPUT / "factverse_pixazo_documentary_15s.mp4"
     run([
-        "ffmpeg", "-y", "-i", str(FINAL), "-vf", "tpad=stop_mode=clone:stop_duration=0.3",
+        "ffmpeg", "-y", "-i", str(FINAL),
+        "-vf", "tpad=stop_mode=clone:stop_duration=0.3",
         "-t", "15", "-an", "-c:v", "libx264", "-preset", "veryfast", "-crf", "19",
         "-pix_fmt", "yuv420p", "-r", "30", "-movflags", "+faststart", str(held),
     ])
