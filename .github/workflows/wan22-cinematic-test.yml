@@ -1,0 +1,92 @@
+name: Wan 2.2 Cinematic Test
+
+on:
+  workflow_dispatch:
+    inputs:
+      prompt:
+        description: "Cinematic shot prompt"
+        required: false
+        default: "Premium cinematic documentary-style shot of a dramatic ancient Earth landscape under a vast stormy sky, atmospheric depth, realistic clouds moving naturally, subtle dust in the foreground, slow controlled cinematic push-in, photorealistic detail, believable physics, stable geometry, strong foreground midground background separation, vertical 9:16 composition, no text, captions, logos or watermarks."
+      duration:
+        description: "Video duration in seconds"
+        required: false
+        default: "5"
+
+permissions:
+  contents: read
+
+jobs:
+  wan22-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      WAN22_TEST_PROMPT: ${{ inputs.prompt }}
+      WAN22_TEST_DURATION: ${{ inputs.duration }}
+      WAN22_TEST_IMAGE: output/wan22_reference.png
+      WAN22_TEST_OUTPUT: output/wan22_cinematic_test.mp4
+    steps:
+      - name: Checkout Wan 2.2 test branch
+        uses: actions/checkout@v4
+        with:
+          ref: test/wan22-cinematic
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install FFmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip && pip install -r requirements.txt gradio_client
+
+      - name: Create cinematic reference image
+        run: |
+          python - <<'PY'
+          from PIL import Image, ImageDraw, ImageFilter
+          import random
+          from pathlib import Path
+          random.seed(22026)
+          w, h = 720, 1280
+          img = Image.new("RGB", (w, h))
+          p = img.load()
+          for y in range(h):
+              t = y / (h - 1)
+              for x in range(w):
+                  glow = max(0, 1 - ((x-w*0.58)**2/(w*w*0.55) + (y-h*0.30)**2/(h*h*0.25)))
+                  p[x,y] = (int(18+38*(1-t)+55*glow), int(24+34*(1-t)+42*glow), int(42+48*(1-t)+28*glow))
+          d = ImageDraw.Draw(img, "RGBA")
+          for _ in range(90):
+              x = random.randint(-100, w+100); y = random.randint(180, 720)
+              rx = random.randint(80, 260); ry = random.randint(25, 90)
+              d.ellipse((x-rx,y-ry,x+rx,y+ry), fill=(20,25,35,random.randint(25,75)))
+          img = img.filter(ImageFilter.GaussianBlur(12))
+          d = ImageDraw.Draw(img, "RGBA")
+          d.polygon([(0,850),(170,720),(330,820),(500,690),(720,790),(720,1280),(0,1280)], fill=(20,22,20,255))
+          d.polygon([(0,1000),(210,850),(410,940),(600,820),(720,900),(720,1280),(0,1280)], fill=(10,12,10,255))
+          Path("output").mkdir(exist_ok=True)
+          img.save("output/wan22_reference.png")
+          PY
+
+      - name: Generate Wan 2.2 cinematic shot
+        run: python src/wan22_cinematic_test.py
+
+      - name: Verify output
+        run: |
+          test -s output/wan22_cinematic_test.mp4
+          echo "Duration:"
+          ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 output/wan22_cinematic_test.mp4
+          echo "Video stream:"
+          ffprobe -v error -show_entries stream=codec_name,width,height,r_frame_rate -of default=noprint_wrappers=1 output/wan22_cinematic_test.mp4
+
+      - name: Upload cinematic test artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: wan22-cinematic-test
+          path: |
+            output/wan22_cinematic_test.mp4
+            output/wan22_reference.png
+          if-no-files-found: error
+          retention-days: 7
