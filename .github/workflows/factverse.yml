@@ -17,10 +17,11 @@ jobs:
   factverse:
     name: FACTVERSE AI Video
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     env:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       GEMINI_MODEL: gemini-2.5-flash
+      PIXAZO_API_KEY: ${{ secrets.PIXAZO_API_KEY }}
       YOUTUBE_OAUTH_JSON: ${{ secrets.YOUTUBE_OAUTH_JSON }}
       YOUTUBE_PRIVACY_STATUS: public
 
@@ -53,6 +54,7 @@ jobs:
       - name: Check required secrets
         run: |
           test -n "$GEMINI_API_KEY" || { echo "ERROR: GEMINI_API_KEY missing"; exit 1; }
+          test -n "$PIXAZO_API_KEY" || { echo "ERROR: PIXAZO_API_KEY missing"; exit 1; }
           test -n "$YOUTUBE_OAUTH_JSON" || { echo "ERROR: YOUTUBE_OAUTH_JSON missing"; exit 1; }
           python - <<'PY'
           import json, os
@@ -62,17 +64,37 @@ jobs:
           if missing:
               raise SystemExit("Missing OAuth fields: " + ", ".join(missing))
           print("GEMINI_API_KEY: OK")
+          print("PIXAZO_API_KEY: OK")
           print("YOUTUBE_OAUTH_JSON: OK")
           PY
 
-      - name: Generate FACTVERSE AI Video
+      - name: Generate FACTVERSE story and metadata
         run: python src/generate_with_strategy.py
 
-      - name: Check generated files
+      - name: Check generated metadata
         run: |
-          test -f output/factverse.mp4 || { echo "ERROR: output/factverse.mp4 not found"; exit 1; }
           test -f output/metadata.json || { echo "ERROR: output/metadata.json not found"; exit 1; }
-          ls -lh output/factverse.mp4 output/metadata.json
+          python - <<'PY'
+          import json
+          data = json.load(open("output/metadata.json", encoding="utf-8"))
+          for key in ("hook", "fact", "twist"):
+              if not str(data.get(key, "")).strip():
+                  raise SystemExit(f"ERROR: metadata field missing: {key}")
+          print("Metadata validated.")
+          PY
+          cat output/metadata.json
+
+      - name: Generate documentary visuals with Pixazo LTX Free
+        run: python src/pixazo_documentary.py
+
+      - name: Check Pixazo video
+        run: |
+          test -f output/factverse.mp4 || { echo "ERROR: Pixazo video not found"; exit 1; }
+          ffprobe -v error \
+            -show_entries format=duration,size \
+            -show_entries stream=codec_name,width,height,r_frame_rate \
+            -of default=noprint_wrappers=1 \
+            output/factverse.mp4
 
       - name: Add Natural Voice and Music
         run: python src/add_audio.py
@@ -100,6 +122,13 @@ jobs:
           path: output/metadata.json
           if-no-files-found: error
 
+      - name: Upload Pixazo Request Log
+        uses: actions/upload-artifact@v4
+        with:
+          name: factverse-pixazo-log
+          path: output/pixazo_requests.json
+          if-no-files-found: error
+
       - name: Upload Voice Artifact
         if: always()
         uses: actions/upload-artifact@v4
@@ -117,6 +146,8 @@ jobs:
           echo "========================================"
           echo "       FACTVERSE SUCCESS"
           echo "========================================"
-          echo "AI strategy consumed."
+          echo "Gemini story/metadata generated."
+          echo "Pixazo documentary visuals generated."
+          echo "Natural voice + music added."
           echo "Video generated and verified."
           echo "YouTube upload completed."
