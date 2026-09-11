@@ -1,37 +1,21 @@
 {
   "confidence": "MEDIUM",
-  "data_points": 988,
-  "overall_summary": "The channel is experiencing highly polarized performance, with space-themed anomalies and extreme cosmic concepts driving the highest engagement and views. Specifically, 'The Planet of Burning Ice' is the standout performer with over 1,000 views, while abstract psychological topics and brain-related facts consistently struggle to gain traction, often stalling under 100 views.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Space Anomalies & Cosmic Paradoxes",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' achieved 1,053 views, 8 likes, and 3 comments. 'The Largest Ocean in Space' reached 460 views, and 'What Does Outer Space Actually Smell Like?' reached 368 views.",
-      "action": "Double down on highly visual, extreme planetary conditions and bizarre cosmic phenomena, using strong sensory hooks (smell, taste, burning ice)."
-    },
-    {
-      "pattern": "Biological Counter-Intuitive Facts",
-      "evidence": "'Sharks Are Older Than Trees?' reached 302 views, and 'This Animal Literally Dies Every Winter!' reached 179 views.",
-      "action": "Create content around shocking survival mechanisms or historical biological anomalies that challenge common timelines."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Internal Brain & Memory Psychology",
-      "evidence": "'Your Brain Can Create Fake Memories' stalled at 52 views, 'Your Brain Is Hiding This From You' got 38 views, and 'The Real Reason Songs Get Stuck In Your Head' got only 17 views.",
-      "action": "Pivot away from internal cognitive functions unless they can be framed as an external, highly visual threat or mystery."
-    }
-  ],
+  "data_points": 1012,
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space & Astronomy",
-    "hook_style": "Sensory Paradox / Extreme Environment",
-    "concept": "A planet where it rains molten iron at night.",
-    "opening_direction": "Start with: 'This planet is so hot, it literally rains boiling metal at night.'",
-    "twist_direction": "Explain that the daytime side vaporizes iron, which winds then blow to the freezing night side, causing it to condense and rain down as liquid iron.",
-    "duration_seconds": 16,
-    "posting_window": "17:00 - 19:00 UTC",
-    "reason": "Capitalizes on the proven success of 'The Planet of Burning Ice' by using a similar mind-bending planetary weather concept, keeping the duration at the optimal 16-second mark."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'Space vs. Earth' comparison format (e.g., comparing Earth's mildest weather to the most violent cosmic weather) to see if grounding the cosmic scale increases viewer retention.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-11T19:34:06.166286+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-11T20:35:39.353249+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-11T20:35:39.353273+00:00"
 }
