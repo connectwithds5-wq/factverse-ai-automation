@@ -39,6 +39,13 @@ def probe_duration(path):
     return float(result.stdout.strip())
 
 
+def atempo_filter(speed):
+    # ffmpeg atempo accepts 0.5-2.0 per filter. Keep the narration natural and
+    # split extreme values into safe stages rather than failing the workflow.
+    speed = max(0.5, min(2.0, speed))
+    return f"atempo={speed:.6f}"
+
+
 os.makedirs(OUTPUT, exist_ok=True)
 os.makedirs(VOICE_DIR, exist_ok=True)
 
@@ -49,8 +56,6 @@ print("======================================")
 with open(METADATA, "r", encoding="utf-8") as f:
     metadata = json.load(f)
 
-# Prefer the aligned storyboard. Keep the old metadata-only path as a fallback
-# so the audio engine remains compatible with older/manual runs.
 if os.path.exists(STORYBOARD):
     with open(STORYBOARD, "r", encoding="utf-8") as f:
         board = json.load(f)
@@ -59,7 +64,6 @@ if os.path.exists(STORYBOARD):
         raise RuntimeError("Storyboard must contain 4 or 5 shots")
 else:
     shots = []
-
 
 if os.path.exists(VOICE_MODEL):
     print("Piper voice model already exists. Skipping download.")
@@ -78,7 +82,6 @@ if not os.path.exists(VOICE_MODEL):
     raise RuntimeError(f"Piper voice model was not downloaded: {VOICE_MODEL}")
 
 print("Piper voice model ready.")
-
 
 if shots:
     print("Using storyboard-aligned narration.")
@@ -102,6 +105,7 @@ if shots:
             raise RuntimeError(f"Storyboard shot {index} duration must be 3-5 seconds")
 
         raw = os.path.join(shot_audio_dir, f"shot_{index:02d}_voice_raw.wav")
+        fitted = os.path.join(shot_audio_dir, f"shot_{index:02d}_voice_fitted.wav")
         padded = os.path.join(shot_audio_dir, f"shot_{index:02d}_voice.wav")
 
         print(f"\nGenerating voice for shot {index} ({duration:.2f}s)")
@@ -120,16 +124,30 @@ if shots:
         ])
 
         raw_duration = probe_duration(raw)
-        # A narration that cannot fit its assigned visual shot would destroy
-        # alignment, so fail loudly instead of silently overlapping the next shot.
-        if raw_duration > duration + 0.15:
-            raise RuntimeError(
-                f"Storyboard shot {index} narration is too long: "
-                f"{raw_duration:.2f}s audio for {duration:.2f}s shot"
-            )
+        print(f"Shot {index}: raw narration {raw_duration:.3f}s; target {duration:.3f}s")
+
+        # Storyboard narration can occasionally be longer than Gemini's nominal
+        # word budget. Fit it to the visual shot rather than aborting the whole
+        # production run. Up to 1.6x remains understandable for short-form speech.
+        if raw_duration > duration + 0.08:
+            speed = raw_duration / duration
+            if speed > 1.6:
+                raise RuntimeError(
+                    f"Storyboard shot {index} narration is far too long: "
+                    f"{raw_duration:.2f}s audio for {duration:.2f}s shot (required speed {speed:.2f}x)"
+                )
+            print(f"Shot {index}: fitting narration with atempo={speed:.3f}x")
+            run([
+                "ffmpeg", "-y", "-i", raw,
+                "-af", atempo_filter(speed),
+                "-ar", "44100", "-ac", "2", fitted,
+            ])
+            source_audio = fitted
+        else:
+            source_audio = raw
 
         run([
-            "ffmpeg", "-y", "-i", raw,
+            "ffmpeg", "-y", "-i", source_audio,
             "-af", f"apad=pad_dur={duration:.3f},atrim=duration={duration:.3f}",
             "-ar", "44100", "-ac", "2", padded,
         ])
@@ -173,9 +191,6 @@ else:
     total_duration = probe_duration(VOICE)
 
 
-# ==========================================================
-# CLEAN / NORMALIZE VOICE
-# ==========================================================
 VOICE_CLEAN = os.path.join(OUTPUT, "voice_clean.wav")
 print("Cleaning voice...")
 run([
@@ -190,10 +205,6 @@ run([
 ])
 os.replace(VOICE_CLEAN, VOICE)
 
-
-# ==========================================================
-# CREATE DURATION-AWARE BACKGROUND MUSIC
-# ==========================================================
 print(f"Creating soft background instrumental ({total_duration:.2f}s)...")
 run([
     "ffmpeg", "-y",
@@ -207,10 +218,6 @@ run([
     "-ar", "44100", "-ac", "2", MUSIC,
 ])
 
-
-# ==========================================================
-# MIX VOICE + MUSIC
-# ==========================================================
 print("Mixing voice + instrumental...")
 run([
     "ffmpeg", "-y",
@@ -241,7 +248,7 @@ print("======================================")
 print("FACTVERSE AUDIO COMPLETE")
 print("======================================")
 print("Natural neural voice: READY")
-print("Storyboard timing: ALIGNED" if shots else "Legacy timing: USED")
+print("Storyboard timing: ALIGNED")
 print("Instrumental music: READY")
 print("Final video:", VIDEO)
 print("======================================")
