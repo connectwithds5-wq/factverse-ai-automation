@@ -1,42 +1,21 @@
 {
-  "confidence": "HIGH",
-  "data_points": 1471,
-  "overall_summary": "Space anomalies and sensory-driven cosmic facts (e.g., burning ice, molten iron rain, space smells) are the primary growth drivers for FACTVERSE, significantly outperforming abstract psychology and brain-related topics. Duplicate uploads of the same concept show diminishing returns and split audience reach.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Cosmic Anomalies with High-Contrast Sensory Hooks",
-      "evidence": "'The Planet of Burning Ice' achieved 1,053 views, 'The Largest Ocean in Space' got 460 views, and 'What Does Outer Space Actually Smell Like?' reached 368 views.",
-      "action": "Double down on space topics that pair extreme physical conditions with familiar sensory experiences (smells, temperatures, weather)."
-    },
-    {
-      "pattern": "Mind-Bending Historical/Biological Comparisons",
-      "evidence": "'Sharks Are Older Than Trees?' generated 302 views, demonstrating strong curiosity-driven engagement.",
-      "action": "Create more 'X is older/larger than Y' comparison videos using highly recognizable subjects."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Abstract Psychology and Brain Functions",
-      "evidence": "'Your Brain Can Create Fake Memories' (5 and 52 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently underperformed.",
-      "action": "Pivot away from general cognitive psychology unless it can be framed with an extreme, high-stakes hook."
-    },
-    {
-      "pattern": "Exact Title Re-uploads / Duplication",
-      "evidence": "Re-uploading 'Your Brain Can Create Fake Memories' resulted in a drop from 52 views to 5 views. 'Octopuses Have THREE Hearts' split views between 118 and 183.",
-      "action": "Avoid publishing duplicate concepts or identical titles within short windows; focus on unique angles instead."
-    }
-  ],
+  "confidence": "MEDIUM",
+  "data_points": 1496,
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space & Astronomy",
-    "hook_style": "High-contrast visual paradox",
-    "concept": "TrES-2b, the pitch-black planet that absorbs 99% of light and glows a ghostly red.",
-    "opening_direction": "Start with: 'There is a planet in our galaxy so dark, it literally swallows light like a black hole.'",
-    "twist_direction": "Reveal that despite being darker than coal, it actually glows a faint, eerie red, like a hot ember.",
-    "duration_seconds": 16,
-    "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Leverages the highly successful 'extreme planet anomaly' formula established by the burning ice and molten iron videos."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 16-second Short comparing the age of two highly familiar things (e.g., 'Trees are younger than Saturn's rings?') to replicate the success of the Sharks vs. Trees video.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-12T15:34:11.392376+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-12T16:35:57.418459+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-12T16:35:57.418488+00:00"
 }
