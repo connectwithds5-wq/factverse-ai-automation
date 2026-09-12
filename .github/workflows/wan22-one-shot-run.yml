@@ -1,0 +1,74 @@
+name: Wan 2.2 One Shot Run
+
+on:
+  push:
+    branches:
+      - test/wan22-cinematic
+
+permissions:
+  contents: read
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_MODEL: gemini-3.5-flash
+      GEMINI_IMAGE_MODEL: gemini-3.1-flash-image
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      HF_WAN_SPACE: zerogpu-aoti/wan2-2-fp8da-aoti-faster
+      VIDEO_CLIP_DIR: output/wan22_clips
+      VIDEO_FINAL_PATH: output/factverse.mp4
+      VIDEO_ENGINE_LABEL: Wan2.2
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: test/wan22-cinematic
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt gradio_client
+      - name: Validate secrets
+        run: |
+          test -n "$GEMINI_API_KEY"
+          test -n "$HF_TOKEN" || echo "WARNING: HF_TOKEN missing"
+      - name: Generate story
+        run: python src/generate_with_strategy.py
+      - name: Build storyboard
+        run: python src/storyboard_builder.py
+      - name: Generate keyframes
+        run: python src/generate_storyboard_images.py
+      - name: Generate Wan 2.2 shots
+        run: python src/wan22_documentary.py
+      - name: Normalize clips
+        run: python src/normalize_video_duration.py
+      - name: Generate audio mix
+        run: python src/add_audio.py
+      - name: Verify final video
+        run: |
+          test -s output/factverse.mp4
+          ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 output/factverse.mp4
+          ffprobe -v error -show_entries stream=codec_name,width,height,r_frame_rate -of default=noprint_wrappers=1 output/factverse.mp4
+          ffprobe -v error -select_streams a:0 -show_entries stream=codec_name,sample_rate,channels -of default=noprint_wrappers=1 output/factverse.mp4
+      - name: Upload test video
+        uses: actions/upload-artifact@v4
+        with:
+          name: factverse-wan22-one-shot
+          path: |
+            output/factverse.mp4
+            output/metadata.json
+            output/storyboard.json
+            output/wan22_images
+            output/wan22_manifest.json
+            output/storyboard_audio
+          if-no-files-found: error
+          retention-days: 7
