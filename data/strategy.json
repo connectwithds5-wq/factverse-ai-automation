@@ -1,21 +1,32 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Space-related content, particularly focusing on extreme cosmic environments, sensory anomalies, and planetary paradoxes (e.g., 'Planet of Burning Ice', 'Largest Ocean in Space'), significantly outperforms psychology and brain-related content. Cognitive psychology topics struggle to gain traction, while animal survival and biological paradoxes show moderate, steady interest.",
+  "winning_patterns": [
+    {
+      "pattern": "Cosmic Paradoxes & Extreme Planetary Environments",
+      "evidence": "'The Planet of Burning Ice' achieved 1,053 views (the highest in the dataset), 'The Largest Ocean in Space' reached 460 views, and 'The Planet Where It Rains Molten Iron' secured 328 views with a high like-to-view ratio.",
+      "action": "Double down on extreme space anomalies, using high-contrast sensory hooks (e.g., temperature, weather, smell) and keeping the duration under 18 seconds for rapid pacing."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Internal Brain & Cognitive Psychology Explanations",
+      "evidence": "'Your Brain Is Hiding This From You' (38 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) failed to capture viewer interest.",
+      "action": "Pivot away from abstract cognitive psychology and instead frame human biology through an evolutionary, survival, or historical storytelling lens."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space",
+    "hook_style": "Sensory Paradox",
+    "concept": "The Planet Where It Snows Sunscreen",
+    "opening_direction": "Show a cinematic AI-generated visual of a scorching hot planet, with the voiceover: 'There is a planet in our galaxy where it literally snows sunscreen...'",
+    "twist_direction": "...but the temperature is a blistering 5,000 degrees, and the snow is actually vaporized titanium dioxide falling on the dark side of Kepler-13Ab.",
+    "duration_seconds": 16,
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Capitalizes on the highly successful 'extreme planetary weather/paradox' formula that drove over 1,000 views on the Burning Ice video, keeping the duration short (16s) to maximize completion rate."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-12T21:34:34.830262+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-12T21:34:34.830284+00:00"
+  "experiment": "Test a 15-second cinematic micro-story about a real historical space mystery (e.g., the Apollo astronaut who heard unexplained 'music' on the far side of the moon) to bridge the gap between space facts and high-retention storytelling.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-12T22:33:50.649672+00:00"
 }
