@@ -1,21 +1,42 @@
 {
   "confidence": "MEDIUM",
-  "data_points": 1396,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "data_points": 1421,
+  "overall_summary": "Space-themed content focusing on extreme planetary anomalies and sensory paradoxes (e.g., burning ice, molten iron, smelling like steak) significantly outperforms psychology and animal facts. Standard brain/psychology facts struggle to gain traction, indicating a clear audience preference for cosmic wonder over cognitive trivia.",
+  "winning_patterns": [
+    {
+      "pattern": "Extreme Planetary Paradoxes & Sensory Space Facts",
+      "evidence": "'The Planet of Burning Ice' achieved 1,053 views, 'The Largest Ocean in Space' got 460 views, and 'What Space Smells Like' reached 368 views.",
+      "action": "Double down on space anomalies that challenge common sense or involve unexpected physical properties (e.g., temperature, weather, smell)."
+    },
+    {
+      "pattern": "High-Contrast/Brain-Teasing Hooks",
+      "evidence": "Titles using 'Break Your Brain', 'Mind-Blow', or pairing contradictory terms like 'Burning Ice' and 'Molten Iron' yield the highest view velocity.",
+      "action": "Structure hooks around physical impossibilities or extreme contrasts that force the viewer to stop scrolling to resolve the cognitive dissonance."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Repetitive Cognitive & Psychology Trivia",
+      "evidence": "'Your Brain Can Create Fake Memories' (5 and 52 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently underperform.",
+      "action": "Pivot away from generic brain and memory psychology facts, or reframe them through a more mysterious, high-stakes lens."
+    },
+    {
+      "pattern": "Low-Impact Animal Anatomy Facts",
+      "evidence": "'Octopuses Have THREE Hearts' plateaued at 118 and 183 views across multiple uploads, showing limited viral potential.",
+      "action": "Avoid basic 'did you know' animal facts unless they involve an extreme survival mechanism or mind-bending evolutionary twist."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space & Science",
+    "hook_style": "Paradoxical Contrast",
+    "concept": "The pitch-black planet that glows like a burning ember (TrES-2b).",
+    "opening_direction": "Start with: 'There is a planet in our galaxy so pitch-black, it absorbs 99% of all light—making it darker than coal.'",
+    "twist_direction": "Reveal: 'But because it's boiling hot, it actually glows a ghostly, dim red, looking like a giant hot coal floating in the dark.'",
+    "duration_seconds": 16,
+    "posting_window": "18:00 - 20:00 UTC",
+    "reason": "Leverages the proven 'extreme space anomaly' theme of the channel's top performer ('Burning Ice') by combining extreme darkness with extreme heat to create instant visual curiosity."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-12T12:40:20.295935+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-12T12:40:20.295956+00:00"
+  "experiment": "Test a 15-second ultra-fast-paced comparison video comparing the darkest planet in the universe to Vantablack on Earth to see if real-world physical comparisons increase retention.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-12T13:33:50.102939+00:00"
 }
