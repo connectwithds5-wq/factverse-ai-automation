@@ -1,21 +1,42 @@
 {
-  "confidence": "MEDIUM",
-  "data_points": 1084,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "confidence": "HIGH",
+  "data_points": 1108,
+  "overall_summary": "The channel's highest-performing content centers on extreme, mind-bending space phenomena, specifically those featuring sensory contradictions or bizarre planetary physics (e.g., 'Planet of Burning Ice' with 1,053 views and 'Largest Ocean in Space' with 460 views). Conversely, abstract psychology and brain-related topics consistently underperform, often struggling to break 50 views. Additionally, uploading duplicate concepts or re-uploading identical shorts within short timeframes (e.g., 'Your Brain Can Create Fake Memories' and 'Why Space Is Completely Silent') is diluting performance.",
+  "winning_patterns": [
+    {
+      "pattern": "Sensory Contradictions in Space",
+      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' (1,053 views), 'What Does Outer Space Actually Smell Like? (Steak/Space)' (368 views), and 'The Planet Where It Rains Molten Iron!' (213 views and growing rapidly) are the top-performing concepts.",
+      "action": "Double down on cosmic anomalies that challenge everyday sensory experiences (smell, temperature, weather) and use high-contrast imagery."
+    },
+    {
+      "pattern": "High-Urgency, Mind-Bending Hooks",
+      "evidence": "Videos using 'Will Break Your Brain' or 'Will Mind-Blow You' in the title paired with extreme physical facts average 3x higher views than standard educational titles.",
+      "action": "Incorporate cognitive-dissonance framing in the first 3 seconds of the Short to force immediate viewer pause."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Abstract Psychology & Brain Mechanics",
+      "evidence": "'Your Brain Is Hiding This From You' (38 views), 'Your Brain Can Create Fake Memories' (5 views), and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction.",
+      "action": "Pivot away from generic internal brain/psychology facts unless they can be tied to an extreme, highly visual physical consequence."
+    },
+    {
+      "pattern": "Rapid Concept Re-uploading / Duplication",
+      "evidence": "Uploading 'Why Space Is Completely Silent' twice on the same day split the audience (195 views vs 54 views). 'Octopuses Have THREE Hearts' also saw split performance.",
+      "action": "Maintain a strict 14-day minimum window before revisiting similar concepts, and avoid uploading duplicate video files entirely."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "category": "Space & Extreme Science",
+    "hook_style": "Sensory Paradox",
+    "concept": "The Planet with Black Ice Hotter Than Fire",
+    "opening_direction": "Show a visual of pitch-black ice glowing red-hot, with the voiceover: 'There is a planet where ice is actually hotter than fire, and it's completely black.'",
+    "twist_direction": "Explain that 'Ice XIX' is created not by freezing temperatures, but by gravitational pressure so intense it forces water molecules into a solid state at 1,000 degrees.",
     "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "posting_window": "12:00 PM - 1:00 PM",
+    "reason": "Leverages the proven 'burning ice/space anomaly' theme which generated the channel's peak performance, keeping the duration under 16 seconds to optimize retention."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-11T23:33:57.059541+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-11T23:33:57.059563+00:00"
+  "experiment": "Test a 'Space vs. Earth' comparison format (e.g., comparing Earth's mildest weather to a planet where it rains liquid gemstones) to see if local contrast increases shareability.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-12T00:40:20.871810+00:00"
 }
