@@ -1,37 +1,21 @@
 {
   "confidence": "MEDIUM",
-  "data_points": 1372,
-  "overall_summary": "Space-themed content focusing on extreme cosmic paradoxes and mind-bending planetary conditions significantly outperforms psychology, animal, and history topics. The breakout hit 'The Planet of Burning Ice Will Break Your Brain!' (1,053 views) highlights a strong audience preference for oxymoronic or highly contrasting hooks over abstract internal brain mechanics.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Cosmic Paradoxes & Hostile Environments",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' reached 1,053 views, 'The Largest Ocean in Space' achieved 460 views, and 'The Planet Where It Rains Molten Iron!' secured 322 views with high relative engagement (12 likes).",
-      "action": "Double down on space concepts that present an impossible-sounding physical paradox (e.g., burning ice, raining iron, space smelling like steak) and use high-contrast visual hooks."
-    },
-    {
-      "pattern": "Biological Anomalies Challenging Time or Survival",
-      "evidence": "'Sharks Are Older Than Trees?' reached 302 views, and 'This Animal Literally Dies Every Winter!' reached 179 views, outperforming standard animal trivia.",
-      "action": "Produce content focusing on biological anomalies that challenge common perceptions of time, age, or survival limits."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Abstract Internal Psychology & Memory Mechanics",
-      "evidence": "'Your Brain Is Hiding This From You' (38 views), 'Your Brain Can Create Fake Memories' (52 views), and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently underperformed.",
-      "action": "Pivot away from generic cognitive psychology facts, or reframe them with highly specific, externalized real-world consequences rather than abstract internal processes."
-    }
-  ],
+  "data_points": 1396,
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space & Cosmic Anomalies",
-    "hook_style": "Oxymoronic Paradox",
-    "concept": "The Star That Is Colder Than Ice 🥶🌌",
-    "opening_direction": "Show a blazing star, then instantly transition to a thermometer dropping below freezing, stating: 'There is a star in space that you could actually touch without getting burned.'",
-    "twist_direction": "Reveal that this brown dwarf star is colder than a block of ice, explaining how its atmosphere forms water-ice clouds instead of nuclear fire.",
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
     "duration_seconds": 15,
-    "posting_window": "18:00 - 20:00 UTC",
-    "reason": "Capitalizes on the proven success of extreme space paradoxes (similar to the burning ice video) while maintaining a tight, high-retention 15-second format."
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'Time Paradox' history/science crossover (e.g., 'Why Cleopatra Lived Closer to the iPhone Than the Pyramids') to see if cognitive dissonance hooks translate well outside of pure space science.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-12T11:33:48.990753+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-12T12:40:20.295935+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-12T12:40:20.295956+00:00"
 }
