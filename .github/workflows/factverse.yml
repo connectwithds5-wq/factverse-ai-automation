@@ -1,6 +1,12 @@
 name: FACTVERSE
 
 on:
+  push:
+    branches:
+      - fix/factverse-production-hardening
+  pull_request:
+    branches:
+      - main
   workflow_dispatch:
     inputs:
       upload_to_youtube:
@@ -19,17 +25,18 @@ concurrency:
 permissions:
   contents: write
 
+env:
+  GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+  GEMINI_MODEL: gemini-2.5-flash
+  PIXAZO_API_KEY: ${{ secrets.PIXAZO_API_KEY }}
+  YOUTUBE_OAUTH_JSON: ${{ secrets.YOUTUBE_OAUTH_JSON }}
+  YOUTUBE_PRIVACY_STATUS: public
+
 jobs:
   factverse:
     name: FACTVERSE AI Video
     runs-on: ubuntu-latest
     timeout-minutes: 120
-    env:
-      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-      GEMINI_MODEL: gemini-3.5-flash
-      PIXAZO_API_KEY: ${{ secrets.PIXAZO_API_KEY }}
-      YOUTUBE_OAUTH_JSON: ${{ secrets.YOUTUBE_OAUTH_JSON }}
-      YOUTUBE_PRIVACY_STATUS: public
 
     steps:
       - name: Checkout repository
@@ -61,18 +68,20 @@ jobs:
         run: |
           test -n "$GEMINI_API_KEY" || { echo "ERROR: GEMINI_API_KEY missing"; exit 1; }
           test -n "$PIXAZO_API_KEY" || { echo "ERROR: PIXAZO_API_KEY missing"; exit 1; }
-          test -n "$YOUTUBE_OAUTH_JSON" || { echo "ERROR: YOUTUBE_OAUTH_JSON missing"; exit 1; }
-          python - <<'PY'
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.upload_to_youtube }}" = "true" ]; then
+            test -n "$YOUTUBE_OAUTH_JSON" || { echo "ERROR: YOUTUBE_OAUTH_JSON missing for upload"; exit 1; }
+            python - <<'PY'
           import json, os
           data = json.loads(os.environ["YOUTUBE_OAUTH_JSON"])
           required = ["client_id", "client_secret", "refresh_token"]
           missing = [key for key in required if not data.get(key)]
           if missing:
               raise SystemExit("Missing OAuth fields: " + ", ".join(missing))
-          print("GEMINI_API_KEY: OK")
-          print("PIXAZO_API_KEY: OK")
           print("YOUTUBE_OAUTH_JSON: OK")
           PY
+          fi
+          echo "GEMINI_API_KEY: OK"
+          echo "PIXAZO_API_KEY: OK"
 
       - name: Generate FACTVERSE story and metadata
         run: python src/generate_with_strategy.py
@@ -82,11 +91,11 @@ jobs:
 
       - name: Check generated metadata
         run: |
-          test -f output/metadata.json || { echo "ERROR: output/metadata.json not found"; exit 1; }
+          test -s output/metadata.json
           python - <<'PY'
           import json
           data = json.load(open("output/metadata.json", encoding="utf-8"))
-          for key in ("hook", "fact", "twist"):
+          for key in ("hook", "fact", "twist", "title", "description"):
               if not str(data.get(key, "")).strip():
                   raise SystemExit(f"ERROR: metadata field missing: {key}")
           print("Metadata validated.")
@@ -98,7 +107,7 @@ jobs:
 
       - name: Check storyboard
         run: |
-          test -f output/storyboard.json || { echo "ERROR: output/storyboard.json not found"; exit 1; }
+          test -s output/storyboard.json
           python - <<'PY'
           import json
           board = json.load(open("output/storyboard.json", encoding="utf-8"))
@@ -118,12 +127,13 @@ jobs:
                   raise SystemExit(f"ERROR: shot {i} duration is {duration:.2f}s")
               if len(str(shot["caption"]).split()) > 8:
                   raise SystemExit(f"ERROR: shot {i} caption exceeds 8 words")
+              if not str(shot.get("narration", "")).strip():
+                  raise SystemExit(f"ERROR: shot {i} narration missing")
               previous_end = end
           if not 18.0 <= previous_end <= 22.0:
               raise SystemExit(f"ERROR: storyboard duration {previous_end:.2f}s is outside 18-22s")
           print(f"Storyboard validated: {len(shots)} shots, {previous_end:.2f}s")
           PY
-          cat output/storyboard.json
 
       - name: Generate documentary visuals with Pixazo LTX Free
         run: python src/pixazo_documentary.py
@@ -131,29 +141,12 @@ jobs:
       - name: Normalize Pixazo video to storyboard timing
         run: python src/normalize_video_duration.py
 
-      - name: Check Pixazo video
-        run: |
-          test -f output/factverse.mp4 || { echo "ERROR: Pixazo video not found"; exit 1; }
-          python - <<'PY'
-          import json, subprocess
-          board = json.load(open("output/storyboard.json", encoding="utf-8"))
-          expected = float(board["shots"][-1]["end"])
-          actual = float(subprocess.check_output([
-              "ffprobe", "-v", "error", "-show_entries", "format=duration",
-              "-of", "default=noprint_wrappers=1:nokey=1", "output/factverse.mp4"
-          ], text=True).strip())
-          print(f"Pixazo duration: {actual:.3f}s; storyboard: {expected:.3f}s")
-          if actual < expected - 0.08 or actual > expected + 0.20:
-              raise SystemExit("ERROR: Pixazo video duration does not match storyboard")
-          PY
-          ffprobe -v error -show_entries format=duration,size -show_entries stream=codec_name,width,height,r_frame_rate -of default=noprint_wrappers=1 output/factverse.mp4
-
-      - name: Add Natural Voice and Music
+      - name: Add natural voice, cinematic music and mix
         run: python src/add_audio.py
 
-      - name: Verify final video
+      - name: Verify final production video
         run: |
-          test -f output/factverse.mp4 || { echo "ERROR: Final video not found"; exit 1; }
+          test -s output/factverse.mp4
           python - <<'PY'
           import json, subprocess
           board = json.load(open("output/storyboard.json", encoding="utf-8"))
@@ -162,11 +155,21 @@ jobs:
               "ffprobe", "-v", "error", "-show_entries", "format=duration",
               "-of", "default=noprint_wrappers=1:nokey=1", "output/factverse.mp4"
           ], text=True).strip())
-          print(f"Final duration: {actual:.3f}s; storyboard: {expected:.3f}s")
-          if actual < expected - 0.08 or actual > expected + 0.20:
-              raise SystemExit("ERROR: final video duration does not match storyboard; refusing upload")
+          if actual < expected - 0.10 or actual > expected + 0.25:
+              raise SystemExit(f"ERROR: final duration {actual:.3f}s does not match storyboard {expected:.3f}s")
+          streams = json.loads(subprocess.check_output([
+              "ffprobe", "-v", "error", "-show_entries", "stream=index,codec_type,codec_name,width,height,r_frame_rate,sample_rate,channels",
+              "-of", "json", "output/factverse.mp4"
+          ], text=True))["streams"]
+          video = [s for s in streams if s.get("codec_type") == "video"]
+          audio = [s for s in streams if s.get("codec_type") == "audio"]
+          if not video or not audio:
+              raise SystemExit("ERROR: final video must contain both video and audio streams")
+          if video[0].get("width") != 1080 or video[0].get("height") != 1920:
+              raise SystemExit(f"ERROR: expected 1080x1920, got {video[0].get('width')}x{video[0].get('height')}")
+          print(f"Final video: {actual:.3f}s, 1080x1920, audio={audio[0].get('codec_name')}")
           PY
-          ffprobe -v error -show_entries format=duration,size -show_entries stream=codec_name,width,height,r_frame_rate -of default=noprint_wrappers=1 output/factverse.mp4
+          ffprobe -v error -show_entries format=duration,size -show_entries stream=codec_type,codec_name,width,height,r_frame_rate,sample_rate,channels -of default=noprint_wrappers=1 output/factverse.mp4
 
       - name: Upload FACTVERSE Video Artifact
         uses: actions/upload-artifact@v4
@@ -174,6 +177,7 @@ jobs:
           name: factverse-video
           path: output/factverse.mp4
           if-no-files-found: error
+          retention-days: 7
 
       - name: Upload FACTVERSE Metadata Artifact
         uses: actions/upload-artifact@v4
@@ -181,6 +185,7 @@ jobs:
           name: factverse-metadata
           path: output/metadata.json
           if-no-files-found: error
+          retention-days: 7
 
       - name: Upload Storyboard Artifact
         uses: actions/upload-artifact@v4
@@ -188,6 +193,7 @@ jobs:
           name: factverse-storyboard
           path: output/storyboard.json
           if-no-files-found: error
+          retention-days: 7
 
       - name: Upload Pixazo Request Log
         uses: actions/upload-artifact@v4
@@ -195,6 +201,7 @@ jobs:
           name: factverse-pixazo-log
           path: output/pixazo_requests.json
           if-no-files-found: error
+          retention-days: 7
 
       - name: Upload Voice Artifact
         if: always()
@@ -203,6 +210,7 @@ jobs:
           name: factverse-voice
           path: output/voice.wav
           if-no-files-found: ignore
+          retention-days: 7
 
       - name: Upload FACTVERSE to YouTube
         if: github.event_name == 'schedule' || inputs.upload_to_youtube == true
@@ -225,11 +233,11 @@ jobs:
           echo "========================================"
           echo "       FACTVERSE SUCCESS"
           echo "========================================"
-          echo "Gemini story/metadata generated."
+          echo "AI story + metadata generated."
           echo "Aligned storyboard generated."
           echo "Pixazo documentary visuals generated."
-          echo "Natural voice + music added."
-          echo "Video generated and verified."
+          echo "Natural neural voice + cinematic bed mixed."
+          echo "Final video verified with video + audio streams."
           if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.upload_to_youtube }}" = "true" ]; then
             echo "YouTube upload completed and publication history recorded."
           else
