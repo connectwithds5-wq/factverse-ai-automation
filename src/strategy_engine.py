@@ -24,7 +24,7 @@ def fallback(data):
     return {
         "confidence": "LOW" if len(data) < 10 else "MEDIUM",
         "data_points": len(data),
-        "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories and hooks before making strong conclusions.",
+        "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
         "winning_patterns": [],
         "weak_patterns": [],
         "next_video": {
@@ -48,7 +48,7 @@ def main():
     if not data:
         result = fallback(data)
     else:
-        prompt = f'''You are the senior growth strategist for FACTVERSE, an English YouTube Shorts channel about facts, mysteries, science, space, psychology, animals, history and technology.\n\nAnalyze these YouTube observations. They may contain repeated observations of the same video, so reason from latest performance and trends rather than counting duplicates as separate videos.\n\nDATA:\n{json.dumps(data[-120:], ensure_ascii=False)}\n\nReturn ONLY valid JSON with this schema:\n{{\n "confidence":"LOW/MEDIUM/HIGH", "data_points":0, "overall_summary":"",\n "winning_patterns":[{{"pattern":"","evidence":"","action":""}}],\n "weak_patterns":[{{"pattern":"","evidence":"","action":""}}],\n "next_video":{{"category":"","hook_style":"","concept":"","opening_direction":"","twist_direction":"","duration_seconds":15,"posting_window":"","reason":""}},\n "experiment":""\n}}\n\nRules: never claim a winner from tiny samples; prioritize retention-friendly curiosity, factual accuracy, originality and category diversity; do not invent performance metrics; next_video must be actionable for the generator.''' 
+        prompt = f'''You are the senior growth strategist for FACTVERSE, an English YouTube Shorts channel about facts, mysteries, science, space, psychology, animals, history, technology, cinematic animal survival, horror/mystery micro-stories, geography, country mysteries, what-if scenarios, historical storytelling, AI micro-drama and cinematic cars/luxury.\n\nAnalyze these YouTube observations. They may contain repeated observations of the same video, so reason from latest performance and trends rather than counting duplicates as separate videos.\n\nDATA:\n{json.dumps(data[-120:], ensure_ascii=False)}\n\nReturn ONLY valid JSON with this schema:\n{{\n "confidence":"LOW/MEDIUM/HIGH", "data_points":0, "overall_summary":"",\n "winning_patterns":[{{"pattern":"","evidence":"","action":""}}],\n "weak_patterns":[{{"pattern":"","evidence":"","action":""}}],\n "next_video":{{"category":"","hook_style":"","concept":"","opening_direction":"","twist_direction":"","duration_seconds":15,"posting_window":"","reason":""}},\n "experiment":""\n}}\n\nRules: never claim a winner from tiny samples; prioritize retention-friendly curiosity, factual accuracy, originality, strong visual storytelling and category diversity; do not invent performance metrics; next_video must be actionable for the generator. For fictional micro-stories, never present fiction as a real event. Prefer the new story-first niches when they have a stronger fit with observed performance, but keep the existing high-performing categories available.''' 
         result = None
         key = os.environ.get("GEMINI_API_KEY")
         if key:
