@@ -1,42 +1,37 @@
 {
   "confidence": "MEDIUM",
-  "data_points": 1421,
-  "overall_summary": "Space-themed content focusing on extreme planetary anomalies and sensory paradoxes (e.g., burning ice, molten iron, smelling like steak) significantly outperforms psychology and animal facts. Standard brain/psychology facts struggle to gain traction, indicating a clear audience preference for cosmic wonder over cognitive trivia.",
+  "data_points": 1446,
+  "overall_summary": "FACTVERSE's audience shows a strong preference for extreme, counter-intuitive space and cosmic phenomena over abstract psychology or basic animal facts. Videos featuring physical paradoxes (e.g., burning ice, molten iron rain, oceans in space) drive the highest engagement and views, whereas 'your brain' psychology concepts struggle to gain traction.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Planetary Paradoxes & Sensory Space Facts",
-      "evidence": "'The Planet of Burning Ice' achieved 1,053 views, 'The Largest Ocean in Space' got 460 views, and 'What Space Smells Like' reached 368 views.",
-      "action": "Double down on space anomalies that challenge common sense or involve unexpected physical properties (e.g., temperature, weather, smell)."
+      "pattern": "Cosmic Physical Paradoxes",
+      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' (vWd0uYcEGh4) achieved 1,053 views, and 'The Largest Ocean in Space Will Mind-Blow You!' (6ji74JeS4nE) reached 460 views.",
+      "action": "Double down on space concepts that present an immediate physical contradiction or extreme planetary condition."
     },
     {
-      "pattern": "High-Contrast/Brain-Teasing Hooks",
-      "evidence": "Titles using 'Break Your Brain', 'Mind-Blow', or pairing contradictory terms like 'Burning Ice' and 'Molten Iron' yield the highest view velocity.",
-      "action": "Structure hooks around physical impossibilities or extreme contrasts that force the viewer to stop scrolling to resolve the cognitive dissonance."
+      "pattern": "Surprising Timeline/Biological Anomalies",
+      "evidence": "'Sharks Are Older Than Trees?' (bfT7qzZ6aJQ) generated 302 views, and 'This Animal Literally Dies Every Winter!' (CKI5FRreguM) reached 179 views.",
+      "action": "Frame historical and biological facts around mind-bending timeline comparisons or survival extremes."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Cognitive & Psychology Trivia",
-      "evidence": "'Your Brain Can Create Fake Memories' (5 and 52 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently underperform.",
-      "action": "Pivot away from generic brain and memory psychology facts, or reframe them through a more mysterious, high-stakes lens."
-    },
-    {
-      "pattern": "Low-Impact Animal Anatomy Facts",
-      "evidence": "'Octopuses Have THREE Hearts' plateaued at 118 and 183 views across multiple uploads, showing limited viral potential.",
-      "action": "Avoid basic 'did you know' animal facts unless they involve an extreme survival mechanism or mind-bending evolutionary twist."
+      "pattern": "Abstract Brain & Psychology Facts",
+      "evidence": "'The Real Reason Songs Get Stuck In Your Head' (Jc04LVKNd2s) got only 17 views, and 'Your Brain Can Create Fake Memories' (2fqaGqfsR4A) got 5 views.",
+      "action": "Avoid generic psychological advice or abstract brain functions unless they can be tied to a highly dramatic, tangible consequence."
     }
   ],
   "next_video": {
-    "category": "Space & Science",
-    "hook_style": "Paradoxical Contrast",
-    "concept": "The pitch-black planet that glows like a burning ember (TrES-2b).",
-    "opening_direction": "Start with: 'There is a planet in our galaxy so pitch-black, it absorbs 99% of all light—making it darker than coal.'",
-    "twist_direction": "Reveal: 'But because it's boiling hot, it actually glows a ghostly, dim red, looking like a giant hot coal floating in the dark.'",
+    "category": "Space & Astronomy",
+    "hook_style": "Visual Cognitive Dissonance",
+    "concept": "The pitch-black planet that eats light but glows like a hot coal (TrES-2b).",
+    "opening_direction": "Start with: 'There is a planet in our galaxy so black, it literally swallows 99% of all light.'",
+    "twist_direction": "Reveal that despite being darker than coal, it actually glows a dull, burning red, making it look like a floating ember in deep space.",
     "duration_seconds": 16,
     "posting_window": "18:00 - 20:00 UTC",
-    "reason": "Leverages the proven 'extreme space anomaly' theme of the channel's top performer ('Burning Ice') by combining extreme darkness with extreme heat to create instant visual curiosity."
+    "reason": "Mimics the highly successful 'burning ice' paradox formula by combining extreme darkness with extreme heat, a proven retention driver for this channel."
   },
-  "experiment": "Test a 15-second ultra-fast-paced comparison video comparing the darkest planet in the universe to Vantablack on Earth to see if real-world physical comparisons increase retention.",
+  "experiment": "Test a 'Scale Comparison' format where the first 3 seconds visually compare an everyday Earth object (like a charcoal lump or a cup of water) directly to a cosmic anomaly to instantly hook viewers who prefer physical, tangible comparisons.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-12T13:33:50.102939+00:00"
+  "generated_at": "2026-09-12T14:36:15.501242+00:00"
 }
