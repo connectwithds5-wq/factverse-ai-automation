@@ -1,6 +1,9 @@
 name: FACTVERSE
 
 on:
+  push:
+    branches:
+      - fix/factverse-production-hardening
   workflow_dispatch:
     inputs:
       upload_to_youtube:
