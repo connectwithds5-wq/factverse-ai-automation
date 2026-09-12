@@ -1,32 +1,37 @@
 {
-  "confidence": "MEDIUM",
-  "data_points": 1324,
-  "overall_summary": "Space and cosmic anomalies, particularly those featuring extreme planetary conditions (e.g., burning ice, molten iron, oceans in space) or sensory paradoxes (e.g., what space smells like), significantly outperform abstract psychology and generic brain facts. Shorter, highly visual concepts of 15-16 seconds yield the highest engagement and views.",
+  "confidence": "HIGH",
+  "data_points": 1348,
+  "overall_summary": "Space anomalies and extreme cosmic paradoxes (e.g., burning ice, space oceans, smelling like steak) are the clear drivers of growth for FACTVERSE, with 'The Planet of Burning Ice' leading at 1,053 views. In contrast, abstract psychological topics and internal brain facts consistently underperform, struggling to capture immediate viewer interest in the Shorts feed.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Planetary Conditions & Sensory Paradoxes",
-      "evidence": "'The Planet of Burning Ice' (1,053 views), 'The Largest Ocean in Space' (460 views), and 'What Does Outer Space Actually Smell Like?' (368 views) are the channel's top performers.",
-      "action": "Double down on highly visual, extreme cosmic phenomena, focusing on sensory descriptions (smell, taste, extreme touch like burning ice)."
+      "pattern": "Extreme Space & Cosmic Paradoxes",
+      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' (1,053 views), 'The Largest Ocean in Space Will Mind-Blow You!' (460 views), and 'What Does Outer Space Actually Smell Like?' (368 views) represent the channel's top tier of performance.",
+      "action": "Double down on cosmic anomalies, planetary weather extremes, and sensory paradoxes in space. Use high-contrast, curiosity-inducing titles."
+    },
+    {
+      "pattern": "Bizarre Animal Adaptations & Evolutionary Facts",
+      "evidence": "'Sharks Are Older Than Trees?' (302 views) and 'This Animal Literally Dies Every Winter!' (179 views) show solid baseline traction compared to psychological topics.",
+      "action": "Incorporate mind-bending evolutionary biology facts, focusing on survival extremes and historical timelines."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Psychology and Brain Mechanics",
-      "evidence": "'Your Brain Can Create Fake Memories' (5 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) failed to gain traction.",
-      "action": "Pivot away from generic brain/psychology facts unless they can be tied to a shocking, highly visual, or historical mystery."
+      "pattern": "Abstract Internal Psychology & Brain Mechanics",
+      "evidence": "'Your Brain Is Hiding This From You' (38 views), 'The Real Reason Songs Get Stuck In Your Head' (17 views), and 'Your Brain Can Create Fake Memories' (5 views) failed to gain traction.",
+      "action": "Avoid introspective or purely educational brain facts. If covering psychology, frame it through an external, bizarre behavioral anomaly rather than internal mechanics."
     }
   ],
   "next_video": {
-    "category": "Space",
+    "category": "Space / Astronomy",
     "hook_style": "Sensory Paradox",
-    "concept": "The Planet Where It Snows Sunscreen",
-    "opening_direction": "Start with a visual of a blazing hot planet and the hook: 'This planet is so hot it literally snows sunscreen...'",
-    "twist_direction": "Reveal that the 'snow' is actually titanium dioxide—the main ingredient in sunscreen—but at 3,000 degrees, it would vaporize a human instantly.",
+    "concept": "A planet where it snows sunscreen upside down.",
+    "opening_direction": "Start with: 'There is a giant planet in space where it literally snows sunscreen... but it falls upward.'",
+    "twist_direction": "Reveal that the planet's scorching daytime temperatures vaporize titanium dioxide, which gets blown to the cold night side and precipitates upward due to extreme atmospheric updrafts.",
     "duration_seconds": 15,
     "posting_window": "18:00 - 20:00 UTC",
-    "reason": "Combines the proven 'extreme planet' theme with a highly relatable, sensory hook ('sunscreen') that fits the successful 15-second duration pattern."
+    "reason": "Appeals directly to the proven audience appetite for extreme planetary weather and chemical paradoxes, matching the success of the 'Burning Ice' and 'Molten Iron' videos."
   },
-  "experiment": "Test a 15-second Short comparing the scale of the largest known star to a black hole, using a 'size comparison' visual style to see if high-scale cosmic comparisons replicate the success of planetary extremes.",
+  "experiment": "Test a 'Space vs. Deep Ocean' comparison format, pitting a bizarre cosmic anomaly against an equally alien deep-sea creature to bridge the two most successful content categories on the channel.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-12T09:34:55.288267+00:00"
+  "generated_at": "2026-09-12T10:34:26.908200+00:00"
 }
