@@ -1,37 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Space anomalies featuring extreme environmental paradoxes (such as burning ice, molten iron rain, and oceans in space) consistently drive the highest views and engagement on the channel. Conversely, generic psychology facts and brain-related content underperform significantly, likely due to oversaturation and a lack of strong visual hooks.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Cosmic Paradoxes & Environmental Anomalies",
-      "evidence": "'The Planet of Burning Ice...' achieved 1,053 views, 'The Largest Ocean in Space...' got 460 views, and 'The Planet Where It Rains Molten Iron!' secured 322 views with 12 likes.",
-      "action": "Double down on space paradoxes that pair contradictory concepts (e.g., hot/cold, wet/dry in space) and use highly visual, sensory-driven titles."
-    },
-    {
-      "pattern": "Sensory-Driven Space Curiosities",
-      "evidence": "'What Does Outer Space Actually Smell Like?' generated 368 views and 4 likes.",
-      "action": "Create content that translates abstract cosmic concepts into familiar human senses (smell, taste, touch)."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Generic Brain & Psychology Explanations",
-      "evidence": "'Your Brain Is Hiding This From You' (38 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) failed to gain traction.",
-      "action": "Pivot away from generic cognitive psychology unless it can be framed as an active, mind-bending illusion or survival paradox."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space & Astronomy",
-    "hook_style": "Paradoxical Cosmic Phenomenon",
-    "concept": "The Planet Where It Snows Sunscreen",
-    "opening_direction": "Start with a close-up visual of falling white snow, then zoom out to reveal a pitch-black, scorching gas giant.",
-    "twist_direction": "Reveal that the 'snow' is actually titanium dioxide—the active ingredient in sunscreen—but the planet is so hot it would instantly vaporize a human.",
-    "duration_seconds": 16,
-    "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Aligns with the highly successful 'extreme weather/planet environment' pattern of the top-performing Burning Ice and Molten Iron videos."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 16-second Short comparing the scale of the largest known black hole to our solar system using a 'nested doll' visual metaphor to capture the high-retention space audience.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-12T18:36:06.988497+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-12T19:34:32.850085+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-12T19:34:32.850106+00:00"
 }
