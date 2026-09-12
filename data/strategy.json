@@ -1,42 +1,32 @@
 {
   "confidence": "MEDIUM",
-  "data_points": 1300,
-  "overall_summary": "Space-themed anomalies and physical paradoxes (e.g., burning ice, molten iron, space oceans) are driving the highest views and engagement on the channel. Conversely, generic psychology facts and repetitive animal trivia are failing to capture audience interest, indicating a clear viewer preference for mind-bending cosmic content.",
+  "data_points": 1324,
+  "overall_summary": "Space and cosmic anomalies, particularly those featuring extreme planetary conditions (e.g., burning ice, molten iron, oceans in space) or sensory paradoxes (e.g., what space smells like), significantly outperform abstract psychology and generic brain facts. Shorter, highly visual concepts of 15-16 seconds yield the highest engagement and views.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Cosmic Paradoxes",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' achieved 1,053 views, and 'The Largest Ocean in Space Will Mind-Blow You!' reached 460 views.",
-      "action": "Focus content production on exoplanets, cosmic anomalies, and extreme space environments that defy earthly physics."
-    },
-    {
-      "pattern": "Sensory and Physical Hooks",
-      "evidence": "'What Does Outer Space Actually Smell Like?' (368 views) and 'The Planet Where It Rains Molten Iron!' (320 views) outperformed standard factual titles.",
-      "action": "Frame space facts around human senses (smell, touch, sight) or familiar concepts behaving in impossible ways."
+      "pattern": "Extreme Planetary Conditions & Sensory Paradoxes",
+      "evidence": "'The Planet of Burning Ice' (1,053 views), 'The Largest Ocean in Space' (460 views), and 'What Does Outer Space Actually Smell Like?' (368 views) are the channel's top performers.",
+      "action": "Double down on highly visual, extreme cosmic phenomena, focusing on sensory descriptions (smell, taste, extreme touch like burning ice)."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Brain & Psychology Facts",
-      "evidence": "'Your Brain Is Hiding This From You' (38 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently underperformed.",
-      "action": "Pause production on soft psychology and cognitive science topics unless they feature a highly dramatic, counter-intuitive twist."
-    },
-    {
-      "pattern": "Repetitive Concept Testing",
-      "evidence": "Re-uploading 'Your Brain Can Create Fake Memories' and 'Octopuses Have THREE Hearts' under different video IDs showed highly volatile and generally low baseline reach.",
-      "action": "Avoid near-identical re-uploads; instead, iterate on successful concepts by changing the visual hook or presenting a new angle."
+      "pattern": "Generic Psychology and Brain Mechanics",
+      "evidence": "'Your Brain Can Create Fake Memories' (5 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) failed to gain traction.",
+      "action": "Pivot away from generic brain/psychology facts unless they can be tied to a shocking, highly visual, or historical mystery."
     }
   ],
   "next_video": {
-    "category": "Space & Astronomy",
-    "hook_style": "Paradoxical Weather Phenomenon",
-    "concept": "The exoplanet Kepler-13Ab where it literally snows sunscreen (titanium dioxide).",
-    "opening_direction": "Start with: 'There is a giant planet in our galaxy where it literally snows sunscreen...'",
-    "twist_direction": "Reveal: '...but instead of protecting you, this snow is made of boiling titanium heavy enough to crush you instantly.'",
-    "duration_seconds": 16,
-    "posting_window": "19:00 - 21:00 UTC",
-    "reason": "Capitalizes on the highly successful exoplanet weather theme ('Burning Ice', 'Molten Iron') using a highly relatable sensory hook (sunscreen) with a deadly cosmic twist."
+    "category": "Space",
+    "hook_style": "Sensory Paradox",
+    "concept": "The Planet Where It Snows Sunscreen",
+    "opening_direction": "Start with a visual of a blazing hot planet and the hook: 'This planet is so hot it literally snows sunscreen...'",
+    "twist_direction": "Reveal that the 'snow' is actually titanium dioxide—the main ingredient in sunscreen—but at 3,000 degrees, it would vaporize a human instantly.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 20:00 UTC",
+    "reason": "Combines the proven 'extreme planet' theme with a highly relatable, sensory hook ('sunscreen') that fits the successful 15-second duration pattern."
   },
-  "experiment": "Test a 15-second 'Earth vs. Space' comparison format, pitting Earth's most extreme weather (like Antarctic storms) against an exoplanet's average day to leverage relatable scaling.",
+  "experiment": "Test a 15-second Short comparing the scale of the largest known star to a black hole, using a 'size comparison' visual style to see if high-scale cosmic comparisons replicate the success of planetary extremes.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-12T08:35:51.311194+00:00"
+  "generated_at": "2026-09-12T09:34:55.288267+00:00"
 }
