@@ -1,37 +1,42 @@
 {
-  "confidence": "MEDIUM",
-  "data_points": 1228,
-  "overall_summary": "Space-themed content focusing on extreme, paradoxical physical phenomena (e.g., burning ice, space oceans, smelling like steak) is the primary growth driver for FACTVERSE. In contrast, abstract psychology topics and generic brain facts struggle to gain traction, consistently underperforming.",
+  "confidence": "HIGH",
+  "data_points": 1252,
+  "overall_summary": "Space-themed content featuring extreme physical paradoxes and sensory anomalies (e.g., burning ice, smelling space, molten iron rain) vastly outperforms standard biology, psychology, and cognitive science topics. Additionally, re-uploading identical concepts within short windows yields diminishing algorithmic returns.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Space Paradoxes & Anomalies",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' achieved 1,053 views, 'The Largest Ocean in Space' reached 460 views, and 'What Does Outer Space Actually Smell Like?' hit 368 views.",
-      "action": "Double down on space anomalies that present physical contradictions (e.g., cold stars, liquid metal rains) using highly visual, paradoxical hooks."
+      "pattern": "Sensory & Physical Paradoxes in Space",
+      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' achieved 1,053 views, 'The Largest Ocean in Space' reached 460 views, and 'What Does Outer Space Actually Smell Like?' secured 368 views.",
+      "action": "Double down on space anomalies that challenge common sense, focusing on extreme weather, unexpected smells, or impossible chemistry."
     },
     {
-      "pattern": "Anachronistic & Surprising Biological Comparisons",
-      "evidence": "'Sharks Are Older Than Trees?' generated 302 views, significantly outperforming standard animal facts like 'Octopuses Have THREE Hearts' (183 views).",
-      "action": "Create comparison-based shorts that challenge the viewer's understanding of historical timelines or evolutionary biology."
+      "pattern": "Mind-Bending Historical/Natural Timeline Clashes",
+      "evidence": "'Sharks Are Older Than Trees?' reached 302 views, showing strong engagement for historical/biological timeline comparisons.",
+      "action": "Create content comparing the lifespans of species or ancient structures to modern concepts to trigger cognitive dissonance."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Brain & Psychology Facts",
-      "evidence": "'Your Brain Is Hiding This From You' (38 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) failed to capture audience interest.",
-      "action": "Avoid abstract psychological concepts; if covering human biology, pivot to bizarre medical anomalies or historical mysteries instead."
+      "pattern": "Generic Brain & Cognitive Psychology Facts",
+      "evidence": "'Your Brain Is Hiding This From You' (38 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently underperformed.",
+      "action": "Pivot away from abstract internal psychology and focus on external, highly visual cosmic or natural mysteries."
+    },
+    {
+      "pattern": "Rapid Concept Duplication / Re-uploading",
+      "evidence": "'Your Brain Can Create Fake Memories' got 5 views on Sep 4 and only 52 views when re-uploaded on Sep 7. 'Why Space Is Completely Silent' dropped from 205 views to 61 views on its second posting.",
+      "action": "Avoid posting identical scripts or highly similar titles within a 7-day window to prevent algorithmic suppression."
     }
   ],
   "next_video": {
-    "category": "Space & Science",
-    "hook_style": "Paradoxical Comparison",
-    "concept": "A star that is colder than ice.",
-    "opening_direction": "Show a close-up of an ice cube melting, then instantly cut to a massive cosmic star glowing in deep space.",
-    "twist_direction": "Reveal that this star, a brown dwarf named WISE 0855, is actually minus 10 degrees Fahrenheit—colder than your home freezer.",
-    "duration_seconds": 16,
-    "posting_window": "12:00 PM - 1:00 PM UTC",
-    "reason": "Leverages the highly successful 'cognitive dissonance' formula of 'The Planet of Burning Ice' (1,053 views) within a tight, high-retention 16-second window."
+    "category": "Space & Extreme Science",
+    "hook_style": "Sensory Paradox Hook",
+    "concept": "The planet where it literally rains rocks and snows metal (CoRoT-7b).",
+    "opening_direction": "Start with: 'Imagine a planet where the weather forecast calls for a literal rock shower.' accompanied by high-contrast CGI of stone rain.",
+    "twist_direction": "Reveal that the planet is so close to its star that rocks vaporize on the day side, rise into the atmosphere, and condense into solid stone rain on the freezing night side.",
+    "duration_seconds": 15,
+    "posting_window": "19:00 - 21:00 UTC",
+    "reason": "Aligns with the highly successful 'extreme space weather' theme (like the burning ice and molten iron videos) and fits the optimal 15-second high-retention format."
   },
-  "experiment": "Test a 'Time-Scale Comparison' short (e.g., comparing the construction of the Pyramids to the lifespan of Woolly Mammoths) to see if historical timeline paradoxes can replicate the high engagement of space anomalies.",
+  "experiment": "Test a 'Time Paradox' short comparing the age of a modern object/species to an ancient cosmic event (e.g., 'Why Saturn's Rings are Younger than the Dinosaurs') to see if it captures the same audience as the shark/tree video.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-12T05:34:58.603660+00:00"
+  "generated_at": "2026-09-12T06:39:03.840117+00:00"
 }
