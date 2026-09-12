@@ -1,42 +1,42 @@
 {
-  "confidence": "HIGH",
-  "data_points": 1252,
-  "overall_summary": "Space-themed content featuring extreme physical paradoxes and sensory anomalies (e.g., burning ice, smelling space, molten iron rain) vastly outperforms standard biology, psychology, and cognitive science topics. Additionally, re-uploading identical concepts within short windows yields diminishing algorithmic returns.",
+  "confidence": "MEDIUM",
+  "data_points": 1276,
+  "overall_summary": "Space-themed content focusing on extreme cosmic anomalies, sensory paradoxes, and mind-bending comparisons significantly outperforms abstract psychology and repetitive animal facts. Shorter, punchier durations of 15-16 seconds yield the highest engagement and views.",
   "winning_patterns": [
     {
-      "pattern": "Sensory & Physical Paradoxes in Space",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' achieved 1,053 views, 'The Largest Ocean in Space' reached 460 views, and 'What Does Outer Space Actually Smell Like?' secured 368 views.",
-      "action": "Double down on space anomalies that challenge common sense, focusing on extreme weather, unexpected smells, or impossible chemistry."
+      "pattern": "Extreme Cosmic Paradoxes & Sensory Space Facts",
+      "evidence": "'The Planet of Burning Ice' achieved 1,053 views, 'The Largest Ocean in Space' reached 460 views, and 'What Does Outer Space Actually Smell Like?' hit 368 views.",
+      "action": "Double down on space anomalies that challenge basic physics or human senses, utilizing high-contrast visual hooks in the first 3 seconds."
     },
     {
-      "pattern": "Mind-Bending Historical/Natural Timeline Clashes",
-      "evidence": "'Sharks Are Older Than Trees?' reached 302 views, showing strong engagement for historical/biological timeline comparisons.",
-      "action": "Create content comparing the lifespans of species or ancient structures to modern concepts to trigger cognitive dissonance."
+      "pattern": "Chronological & Biological Juxtaposition",
+      "evidence": "'Sharks Are Older Than Trees?' generated 302 views, showing strong curiosity-driven CTR.",
+      "action": "Create content comparing historical timelines or biological facts that sound impossible but are scientifically true."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Brain & Cognitive Psychology Facts",
-      "evidence": "'Your Brain Is Hiding This From You' (38 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently underperformed.",
-      "action": "Pivot away from abstract internal psychology and focus on external, highly visual cosmic or natural mysteries."
+      "pattern": "Abstract Psychology & Brain Mechanics",
+      "evidence": "'Your Brain Can Create Fake Memories' (max 52 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently underperformed.",
+      "action": "Pivot away from generic psychological advice or internal brain functions unless they can be framed with a highly dramatic, externalized visual hook."
     },
     {
-      "pattern": "Rapid Concept Duplication / Re-uploading",
-      "evidence": "'Your Brain Can Create Fake Memories' got 5 views on Sep 4 and only 52 views when re-uploaded on Sep 7. 'Why Space Is Completely Silent' dropped from 205 views to 61 views on its second posting.",
-      "action": "Avoid posting identical scripts or highly similar titles within a 7-day window to prevent algorithmic suppression."
+      "pattern": "Direct Concept Duplication",
+      "evidence": "Duplicate uploads like 'Octopuses Have THREE Hearts' (118 vs 183 views) and 'Your Brain Can Create Fake Memories' (5 vs 52 views) show highly volatile and generally low baseline performance.",
+      "action": "Avoid re-uploading identical concepts; instead, iterate on successful angles by changing the core subject or introducing a new twist."
     }
   ],
   "next_video": {
-    "category": "Space & Extreme Science",
-    "hook_style": "Sensory Paradox Hook",
-    "concept": "The planet where it literally rains rocks and snows metal (CoRoT-7b).",
-    "opening_direction": "Start with: 'Imagine a planet where the weather forecast calls for a literal rock shower.' accompanied by high-contrast CGI of stone rain.",
-    "twist_direction": "Reveal that the planet is so close to its star that rocks vaporize on the day side, rise into the atmosphere, and condense into solid stone rain on the freezing night side.",
+    "category": "Space & Astronomy",
+    "hook_style": "Visual Paradox",
+    "concept": "TrES-2b, the pitch-black planet that glows like a burning ember.",
+    "opening_direction": "Show a pitch-black screen with the hook: 'This planet is blacker than coal, absorbing 99% of all light...'",
+    "twist_direction": "...but it's actually a burning hellscape, glowing with a ghostly, silent red light.",
     "duration_seconds": 15,
     "posting_window": "19:00 - 21:00 UTC",
-    "reason": "Aligns with the highly successful 'extreme space weather' theme (like the burning ice and molten iron videos) and fits the optimal 15-second high-retention format."
+    "reason": "Leverages the proven success of extreme planetary anomalies (like the 1,053-view 'Burning Ice' video) using a high-contrast visual paradox that fits the optimal 15-second retention sweet spot."
   },
-  "experiment": "Test a 'Time Paradox' short comparing the age of a modern object/species to an ancient cosmic event (e.g., 'Why Saturn's Rings are Younger than the Dinosaurs') to see if it captures the same audience as the shark/tree video.",
+  "experiment": "Test a 15-second 'Impossible History' Short comparing the age of two highly recognizable historical elements (e.g., Cleopatra lived closer to the iPhone than the building of the Great Pyramid) to see if chronological juxtaposition can replicate the success of the 'Sharks vs. Trees' video.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-12T06:39:03.840117+00:00"
+  "generated_at": "2026-09-12T07:34:23.164034+00:00"
 }
