@@ -1,32 +1,32 @@
 {
   "confidence": "MEDIUM",
-  "data_points": 1156,
-  "overall_summary": "Space anomalies, particularly extreme planetary conditions and sensory-focused cosmic facts, are driving the highest engagement and view counts (e.g., 'Burning Ice' at 1,053 views). Conversely, abstract psychology and brain-related facts are underperforming, struggling to capture immediate swipe-by attention, and suffering from low view velocity.",
+  "data_points": 1180,
+  "overall_summary": "Space anomalies and extreme planetary conditions drive the highest engagement and view counts on the channel, whereas abstract psychology and brain-related facts consistently struggle to gain traction.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Planetary Conditions & Sensory Space Facts",
-      "evidence": "'The Planet of Burning Ice' reached 1,053 views, 'Largest Ocean in Space' hit 460 views, and 'What Does Outer Space Actually Smell Like?' reached 368 views.",
-      "action": "Double down on extreme space anomalies, using physical, sensory, or highly visual descriptions (burning ice, molten iron, smells, oceans) in the titles and hooks."
+      "pattern": "Extreme Cosmic & Planetary Anomalies",
+      "evidence": "'The Planet of Burning Ice' (1,053 views), 'The Largest Ocean in Space' (460 views), and 'What Does Outer Space Actually Smell Like?' (368 views) are the top-performing videos.",
+      "action": "Double down on extreme space paradoxes, focusing on highly visual, tactile, or sensory descriptions (e.g., smells, extreme temperatures, physical states of matter)."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Psychology & Brain Tricks",
-      "evidence": "Videos like 'Your Brain Can Create Fake Memories' (5 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction.",
-      "action": "Pivot away from generic brain/psychology facts unless they can be framed with a high-stakes, highly visual, or shocking historical hook."
+      "pattern": "Abstract Psychology and Brain Functions",
+      "evidence": "'Your Brain Can Create Fake Memories' (5 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) failed to capture audience interest.",
+      "action": "Pivot away from generic cognitive psychology facts unless they can be tied to a highly dramatic, tangible real-world mystery."
     }
   ],
   "next_video": {
     "category": "Space & Astronomy",
-    "hook_style": "Cosmic Horror / Physical Destruction",
-    "concept": "WASP-12b, the egg-shaped planet being actively consumed and stretched by its parent star.",
-    "opening_direction": "Show a distorted, egg-shaped planet with the hook: 'This planet is actively being eaten alive right now.'",
-    "twist_direction": "Reveal that the star's extreme gravity has stretched the planet into a football shape, and it is losing 189 quadrillion tons of mass every single year.",
-    "duration_seconds": 15,
+    "hook_style": "Sensory Paradox",
+    "concept": "TrES-2b, the pitch-black planet that absorbs 99% of light.",
+    "opening_direction": "Start with: 'This planet is darker than coal, absorbing almost 99% of all light...'",
+    "twist_direction": "Reveal that despite being pitch black, it actually glows a faint, ghostly red, like a hot ember burning in the dark.",
+    "duration_seconds": 16,
     "posting_window": "18:00 - 20:00 UTC",
-    "reason": "Leverages the proven high-performance space anomaly trend, uses a highly visual physical distortion hook, and maintains a tight 15-second duration to maximize completion rate."
+    "reason": "Leverages the highly successful formula of extreme cosmic anomalies with strong sensory details (darkness, glowing heat) that performed best in the 'Burning Ice' and 'Largest Ocean' videos."
   },
-  "experiment": "Test a 'Cosmic Comparison' format (e.g., comparing a bizarre space scale to an everyday object) to see if grounding abstract cosmic sizes increases retention among casual viewers.",
+  "experiment": "Test a space-themed video comparing Earth's extreme weather to a planet where it rains rocks or glass, using a split-screen visual style to maximize retention.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-12T02:36:17.626446+00:00"
+  "generated_at": "2026-09-12T03:36:29.615819+00:00"
 }
