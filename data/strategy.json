@@ -1,37 +1,32 @@
 {
   "confidence": "MEDIUM",
-  "data_points": 1132,
-  "overall_summary": "Space-themed content focusing on extreme planetary anomalies and bizarre cosmic phenomena significantly outperforms psychology and animal facts. The channel's top-performing video is 'The Planet of Burning Ice Will Break Your Brain!' with 1,053 views, indicating a strong audience appetite for mind-bending astronomical anomalies that challenge common sense.",
+  "data_points": 1156,
+  "overall_summary": "Space anomalies, particularly extreme planetary conditions and sensory-focused cosmic facts, are driving the highest engagement and view counts (e.g., 'Burning Ice' at 1,053 views). Conversely, abstract psychology and brain-related facts are underperforming, struggling to capture immediate swipe-by attention, and suffering from low view velocity.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Planetary Anomalies & Sensory Space Facts",
-      "evidence": "'The Planet of Burning Ice' (1,053 views), 'The Largest Ocean in Space' (460 views), and 'What Does Outer Space Actually Smell Like?' (368 views) represent the highest tier of performance.",
-      "action": "Double down on space topics that feature extreme physics, using high-contrast imagery and sensory-focused hooks (smell, taste, temperature paradoxes)."
-    },
-    {
-      "pattern": "High-Contrast Historical & Biological Comparisons",
-      "evidence": "'Sharks Are Older Than Trees?' reached 302 views, showing that simple, high-contrast comparative facts perform well.",
-      "action": "Create more 'X is older than Y' or 'X is larger than Y' comparison shorts using highly familiar subjects."
+      "pattern": "Extreme Planetary Conditions & Sensory Space Facts",
+      "evidence": "'The Planet of Burning Ice' reached 1,053 views, 'Largest Ocean in Space' hit 460 views, and 'What Does Outer Space Actually Smell Like?' reached 368 views.",
+      "action": "Double down on extreme space anomalies, using physical, sensory, or highly visual descriptions (burning ice, molten iron, smells, oceans) in the titles and hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Psychology & Brain Functions",
-      "evidence": "'Your Brain Is Hiding This From You' (38 views), 'The Real Reason Songs Get Stuck In Your Head' (17 views), and 'Your Brain Can Create Fake Memories' (5 views) consistently underperform.",
-      "action": "Pivot away from abstract neurological concepts unless they can be framed with a highly visual, high-stakes external mystery."
+      "pattern": "Generic Psychology & Brain Tricks",
+      "evidence": "Videos like 'Your Brain Can Create Fake Memories' (5 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction.",
+      "action": "Pivot away from generic brain/psychology facts unless they can be framed with a high-stakes, highly visual, or shocking historical hook."
     }
   ],
   "next_video": {
     "category": "Space & Astronomy",
-    "hook_style": "Visual Paradox Hook",
-    "concept": "The planet with metal clouds that acts as a giant cosmic mirror.",
-    "opening_direction": "Start with: 'Astronomers found a planet that shouldn't exist because it acts like a giant disco ball...'",
-    "twist_direction": "Reveal that the planet's clouds are made of titanium and silicate, meaning it literally rains liquid metal.",
+    "hook_style": "Cosmic Horror / Physical Destruction",
+    "concept": "WASP-12b, the egg-shaped planet being actively consumed and stretched by its parent star.",
+    "opening_direction": "Show a distorted, egg-shaped planet with the hook: 'This planet is actively being eaten alive right now.'",
+    "twist_direction": "Reveal that the star's extreme gravity has stretched the planet into a football shape, and it is losing 189 quadrillion tons of mass every single year.",
     "duration_seconds": 15,
-    "posting_window": "12:00 PM - 1:00 PM",
-    "reason": "Aligns with the highly successful 'Planet of Burning Ice' (1,053 views, posted at 12:44 PM) by utilizing extreme planetary physics, sensory-rich descriptions, and a short, high-retention 15-second format."
+    "posting_window": "18:00 - 20:00 UTC",
+    "reason": "Leverages the proven high-performance space anomaly trend, uses a highly visual physical distortion hook, and maintains a tight 15-second duration to maximize completion rate."
   },
-  "experiment": "Test a 'Cosmic Scale Comparison' series (e.g., comparing the size of the largest known black hole to our solar system) to leverage the high-performing space affinity while introducing a highly visual zoom-out format.",
+  "experiment": "Test a 'Cosmic Comparison' format (e.g., comparing a bizarre space scale to an everyday object) to see if grounding abstract cosmic sizes increases retention among casual viewers.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-12T01:34:00.707514+00:00"
+  "generated_at": "2026-09-12T02:36:17.626446+00:00"
 }
