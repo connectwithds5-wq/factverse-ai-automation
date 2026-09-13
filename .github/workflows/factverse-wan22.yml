@@ -64,23 +64,40 @@ jobs:
           file output/avatar_reference.jpg
           test -s output/avatar_reference.jpg
 
+      - name: Restore Wan checkpoint from this workflow run
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: factverse-wan22-checkpoint-${{ github.run_id }}
+          path: output
+
       - name: Zero-cost Wan 2.2 preflight
         run: python src/wan22_preflight.py
 
       - name: Generate FACTVERSE story and metadata
+        if: ${{ hashFiles('output/storyboard.json') == '' }}
         run: python src/generate_with_strategy.py
 
       - name: Reject duplicate published topic
+        if: ${{ hashFiles('output/storyboard.json') == '' }}
         run: python src/duplicate_guard.py
 
       - name: Build aligned storyboard
+        if: ${{ hashFiles('output/storyboard.json') == '' }}
         run: python src/storyboard_builder.py
 
       - name: Generate cinematic storyboard keyframes with avatar
+        if: ${{ hashFiles('output/storyboard.json') == '' }}
         run: python src/generate_storyboard_images.py
 
       - name: Zero-cost preflight before Wan generation
         run: python src/wan22_preflight.py
+
+      - name: Show Wan resume state
+        run: |
+          echo "Storyboard: $(test -s output/storyboard.json && echo restored || echo generated)"
+          echo "Cached clips:"
+          ls -lh output/wan22_clips 2>/dev/null || true
 
       - name: Generate Wan 2.2 cinematic shots
         run: python src/wan22_documentary.py
