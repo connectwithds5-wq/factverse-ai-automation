@@ -1,21 +1,37 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Space and cosmic anomalies, specifically those featuring extreme physical paradoxes (e.g., burning ice, molten iron rain, and giant space oceans), are the primary growth drivers for FACTVERSE. Meanwhile, cognitive psychology and brain-related facts are severely underperforming, failing to capture immediate viewer interest in the highly competitive Shorts feed.",
+  "winning_patterns": [
+    {
+      "pattern": "Extreme Planetary Anomalies & Sensory Space Facts",
+      "evidence": "'The Planet of Burning Ice' achieved 1,053 views, 'The Largest Ocean in Space' reached 460 views, and 'The Planet Where It Rains Molten Iron' secured 331 views.",
+      "action": "Double down on extreme exoplanet environments, focusing on visceral, high-contrast visual concepts (e.g., raining precious gems, supersonic winds, or extreme temperatures)."
+    },
+    {
+      "pattern": "Mind-Bending Historical & Natural Comparisons",
+      "evidence": "'Sharks Are Older Than Trees' reached 302 views, showing strong baseline interest for counter-intuitive comparative facts.",
+      "action": "Incorporate more 'clash of timelines' or comparative scale facts that challenge common sense assumptions."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Abstract Brain & Psychology Concepts",
+      "evidence": "'Your Brain Can Create Fake Memories' (5-52 views), 'The Real Reason Songs Get Stuck In Your Head' (17 views), and 'Your Brain Is Hiding This From You' (38 views) consistently failed to gain traction.",
+      "action": "Pivot away from generic psychological facts, or re-frame them using high-stakes historical or survival storytelling rather than dry scientific explanations."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space / Planet Anomalies",
+    "hook_style": "Visceral, high-value paradox hook",
+    "concept": "The Planet Where It Rains Rubies and Sapphires (Exoplanet HAT-P-7b)",
+    "opening_direction": "Show a visually stunning, cinematic zoom-in on a dark gas giant with shimmering, sparkling red and blue storms.",
+    "twist_direction": "Reveal that the clouds are made of vaporized corundum—the exact mineral that forms rubies and sapphires—meaning a single storm is worth trillions, but the supersonic winds would instantly shred any spacecraft.",
+    "duration_seconds": 18,
+    "posting_window": "18:00 - 20:00 UTC",
+    "reason": "Directly leverages the proven success of 'rains [material]' and extreme planetary environment concepts (like the molten iron and burning ice videos) while adding a high-curiosity wealth angle (rubies/sapphires) to maximize CTR and retention."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-13T06:41:37.321983+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-13T06:41:37.322008+00:00"
+  "experiment": "Test a 'What-If' cosmic survival scenario (e.g., 'What if you fell into a planet made of diamonds?') to combine the high-performing exoplanet niche with interactive, second-person storytelling ('you') to boost audience retention.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-13T07:35:44.185031+00:00"
 }
