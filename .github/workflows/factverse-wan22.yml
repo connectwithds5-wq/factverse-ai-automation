@@ -71,23 +71,33 @@ jobs:
           name: factverse-wan22-checkpoint-${{ github.run_id }}
           path: output
 
+      - name: Detect Wan resume state
+        run: |
+          if test -s output/storyboard.json && test -d output/wan22_clips; then
+            echo "WAN_RESUME=true" >> "$GITHUB_ENV"
+            echo "Checkpoint restored: resuming existing storyboard/clips."
+          else
+            echo "WAN_RESUME=false" >> "$GITHUB_ENV"
+            echo "No usable checkpoint: starting a fresh story."
+          fi
+
       - name: Zero-cost Wan 2.2 preflight
         run: python src/wan22_preflight.py
 
       - name: Generate FACTVERSE story and metadata
-        if: ${{ hashFiles('output/storyboard.json') == '' }}
+        if: env.WAN_RESUME != 'true'
         run: python src/generate_with_strategy.py
 
       - name: Reject duplicate published topic
-        if: ${{ hashFiles('output/storyboard.json') == '' }}
+        if: env.WAN_RESUME != 'true'
         run: python src/duplicate_guard.py
 
       - name: Build aligned storyboard
-        if: ${{ hashFiles('output/storyboard.json') == '' }}
+        if: env.WAN_RESUME != 'true'
         run: python src/storyboard_builder.py
 
       - name: Generate cinematic storyboard keyframes with avatar
-        if: ${{ hashFiles('output/storyboard.json') == '' }}
+        if: env.WAN_RESUME != 'true'
         run: python src/generate_storyboard_images.py
 
       - name: Zero-cost preflight before Wan generation
@@ -95,7 +105,8 @@ jobs:
 
       - name: Show Wan resume state
         run: |
-          echo "Storyboard: $(test -s output/storyboard.json && echo restored || echo generated)"
+          echo "WAN_RESUME=$WAN_RESUME"
+          echo "Storyboard: $(test -s output/storyboard.json && echo present || echo missing)"
           echo "Cached clips:"
           ls -lh output/wan22_clips 2>/dev/null || true
 
