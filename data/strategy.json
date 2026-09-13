@@ -1,42 +1,37 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Space and cosmic anomaly facts consistently outperform psychology and brain-related topics. Videos focusing on sensory paradoxes (e.g., burning ice, space smelling like steak, or molten iron rain) generate significantly higher views and engagement compared to abstract cognitive science content.",
+  "overall_summary": "Space-themed content, specifically focusing on extreme planetary anomalies, bizarre cosmic chemistry, and sensory space facts, significantly outperforms cognitive psychology and brain-related trivia. Short, punchy videos around 15-16 seconds with high-arousal curiosity hooks are driving the most engagement.",
   "winning_patterns": [
     {
-      "pattern": "Sensory Paradoxes & Extreme Cosmic Phenomena",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' achieved 1,053 views (the highest in the dataset), while 'The Planet Where It Rains Molten Iron!' secured 326 views and 12 likes.",
-      "action": "Prioritize space facts that present a physical or sensory contradiction (e.g., hot ice, metal rain, sweet-smelling clouds) to trigger immediate curiosity."
+      "pattern": "Extreme Exoplanet Weather & Sensory Space Facts",
+      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' achieved 1,053 views, while 'What Does Outer Space Actually Smell Like?' reached 368 views, and 'The Planet Where It Rains Molten Iron!' secured 328 views with high relative like counts.",
+      "action": "Produce a series focusing on extreme exoplanet environments, cosmic anomalies, and sensory descriptions of space (smell, taste, touch) using vivid, high-contrast visual hooks."
     },
     {
-      "pattern": "Mind-Bending Timeline Comparisons",
-      "evidence": "'Sharks Are Older Than Trees?' secured 302 views, showing strong curiosity-driven traffic for unexpected chronological comparisons.",
-      "action": "Create content comparing evolutionary timelines or historical eras that defy common intuition."
+      "pattern": "Bizarre Animal Survival Adaptations",
+      "evidence": "'Sharks Are Older Than Trees?' (302 views) and 'This Animal Literally Dies Every Winter!' (179 views) show solid baseline performance compared to standard trivia.",
+      "action": "Incorporate mind-bending evolutionary paradoxes and extreme survival stories in the animal kingdom, emphasizing life-or-death stakes."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Internal Psychology & Cognitive Mechanics",
-      "evidence": "'Your Brain Is Hiding This From You' (38 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) struggled to capture immediate interest.",
-      "action": "Pivot away from abstract cognitive science or internal brain mechanisms unless framed through an extreme, externalized mystery."
-    },
-    {
-      "pattern": "Repetitive Uploads of Low-Performing Concepts",
-      "evidence": "'Your Brain Can Create Fake Memories' received only 5 views on its first upload and 52 views on its second, showing that repeating weak concepts yields minimal improvement.",
-      "action": "Retire low-performing concepts immediately rather than attempting multiple re-uploads."
+      "pattern": "Generic Cognitive Psychology & Brain Hacks",
+      "evidence": "'Your Brain Is Hiding This From You' (38 views), 'The Real Reason Songs Get Stuck In Your Head' (17 views), and 'Your Brain Can Create Fake Memories' (max 52 views) consistently struggle to gain traction.",
+      "action": "De-prioritize standard psychological facts and brain hacks. If covering brain science, pivot to extreme anomalies or sci-fi adjacent topics like AI brain-wave reconstruction."
     }
   ],
   "next_video": {
-    "category": "Space",
-    "hook_style": "Sensory Conflict / Paradox",
-    "concept": "The Planet Where It Snows Sunscreen",
-    "opening_direction": "Start with a high-contrast visual of a scorching hot exoplanet, then drop the hook: 'This planet is so hot it literally snows sunscreen.'",
-    "twist_direction": "Reveal that the 'snow' is actually titanium dioxide—the active ingredient in sunscreen—vaporized in the atmosphere and falling as metallic snow.",
+    "category": "Space / What-if Scenario",
+    "hook_style": "Sensory Curiosity & High-Value Contrast",
+    "concept": "The Planet Where It Rains Liquid Sapphires and Rubies",
+    "opening_direction": "Show a stunning visual of sparkling red and blue gems falling from a dark sky with the voiceover: 'There is a giant planet in our galaxy where it literally rains precious gems...'",
+    "twist_direction": "'...but you would never survive to collect them, because the winds blow these liquid jewels at 5,000 miles per hour, shredding anything in their path.'",
     "duration_seconds": 16,
-    "posting_window": "12:00 PM - 1:00 PM",
-    "reason": "Leverages the highly successful cosmic anomaly theme with a strong sensory hook ('snows sunscreen') that matches the performance profile of 'burning ice' and 'molten iron rain'."
+    "posting_window": "19:00 - 21:00 UTC",
+    "reason": "Leverages the highly successful exoplanet weather pattern ('rains molten iron', 'rains glass sideways') by using high-value assets (rubies/sapphires) as a visual and psychological hook."
   },
-  "experiment": "Test a 'What-If Scenario' combined with cosmic physics, such as 'What if a black hole the size of a coin appeared in your pocket?' to see if the highly engaging space theme can successfully cross over into hypothetical storytelling.",
+  "experiment": "Test a 'What-If' space survival micro-narrative: 'What would happen to your body if you stepped onto the Planet of Burning Ice without a spacesuit?' to bridge the gap between space facts and cinematic survival storytelling.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-12T23:33:09.870093+00:00"
+  "generated_at": "2026-09-13T00:41:49.975163+00:00"
 }
