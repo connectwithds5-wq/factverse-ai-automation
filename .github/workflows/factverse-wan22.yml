@@ -25,6 +25,7 @@ jobs:
       GEMINI_IMAGE_MODEL: gemini-3.1-flash-image
       HF_TOKEN: ${{ secrets.HF_TOKEN }}
       HF_WAN_SPACE: zerogpu-aoti/wan2-2-fp8da-aoti-faster
+      AVATAR_IMAGE_URL: ${{ secrets.AVATAR_IMAGE_URL }}
       VIDEO_ENGINE_LABEL: Wan2.2
 
     steps:
@@ -52,6 +53,14 @@ jobs:
         run: |
           test -n "$GEMINI_API_KEY" || { echo "ERROR: GEMINI_API_KEY is missing"; exit 1; }
           test -n "$HF_TOKEN" || echo "WARNING: HF_TOKEN is missing; Wan Space access may fail or be rate-limited."
+          test -n "$AVATAR_IMAGE_URL" || { echo "ERROR: AVATAR_IMAGE_URL is missing. Add your private avatar image URL as a GitHub Actions secret."; exit 1; }
+
+      - name: Download private avatar reference
+        run: |
+          mkdir -p output
+          curl -fL --retry 3 --connect-timeout 20 "$AVATAR_IMAGE_URL" -o output/avatar_reference.jpg
+          file output/avatar_reference.jpg
+          test -s output/avatar_reference.jpg
 
       - name: Generate FACTVERSE story and metadata
         run: python src/generate_with_strategy.py
@@ -62,7 +71,7 @@ jobs:
       - name: Build aligned storyboard
         run: python src/storyboard_builder.py
 
-      - name: Generate cinematic storyboard keyframes with Gemini
+      - name: Generate cinematic storyboard keyframes with Gemini + avatar
         run: python src/generate_storyboard_images.py
 
       - name: Generate Wan 2.2 cinematic shots
