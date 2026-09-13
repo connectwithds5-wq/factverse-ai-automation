@@ -1,0 +1,56 @@
+name: FACTVERSE Wan 2.2 Preflight
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  preflight:
+    name: FACTVERSE Wan 2.2 Zero-Cost Preflight
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_MODEL: gemini-2.5-flash
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      HF_WAN_SPACE: zerogpu-aoti/wan2-2-fp8da-aoti-faster
+      AVATAR_DRIVE_FILE_ID: ${{ secrets.AVATAR_DRIVE_FILE_ID }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Install preflight dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt gradio_client
+
+      - name: Validate required secrets
+        run: |
+          test -n "$GEMINI_API_KEY" || { echo "ERROR: GEMINI_API_KEY is missing"; exit 1; }
+          test -n "$AVATAR_DRIVE_FILE_ID" || { echo "ERROR: AVATAR_DRIVE_FILE_ID is missing"; exit 1; }
+          test -n "$HF_TOKEN" || echo "WARNING: HF_TOKEN is missing; private/rate-limited Wan access may fail."
+
+      - name: Download avatar reference
+        run: |
+          mkdir -p output
+          curl -fL --retry 3 --connect-timeout 20 \
+            "https://drive.usercontent.google.com/download?id=${AVATAR_DRIVE_FILE_ID}&export=download&confirm=t" \
+            -o output/avatar_reference.jpg
+          test -s output/avatar_reference.jpg
+
+      - name: Run zero-cost preflight
+        run: python src/wan22_preflight.py
