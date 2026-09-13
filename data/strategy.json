@@ -1,21 +1,32 @@
 {
   "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "The channel's performance is heavily driven by extreme space anomalies and planetary physics, with 'The Planet of Burning Ice' leading performance at over 1,000 views. Conversely, abstract psychology and brain-related topics consistently underperform, struggle to capture initial interest, and fail to cross double-digit views in multiple instances.",
+  "winning_patterns": [
+    {
+      "pattern": "Extreme Space Anomalies & Sensory Cosmic Facts",
+      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' (1,053 views), 'The Largest Ocean in Space Will Mind-Blow You!' (460 views), and 'What Does Outer Space Actually Smell Like?' (368 views) represent the top tier of performance.",
+      "action": "Double down on cosmic anomalies, extreme planetary environments, and bizarre physical laws of the universe, using high-contrast sensory hooks."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Abstract Psychology and Internal Brain Functions",
+      "evidence": "'Your Brain Can Create Fake Memories' (5 views), 'The Real Reason Songs Get Stuck In Your Head' (17 views), and 'Your Brain Is Hiding This From You' (38 views) show very low viewer interest.",
+      "action": "Pause production on generic psychological facts and brain tricks, or reframe them entirely through high-stakes survival or historical mystery lenses."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space",
+    "hook_style": "Sensory Paradox Hook",
+    "concept": "The Planet Where Snow is Pitch Black and Hotter Than Fire",
+    "opening_direction": "Show a high-contrast visual of pitch-black snow falling onto a glowing, volcanic surface with a sizzling sound effect.",
+    "twist_direction": "Reveal that this 'snow' is actually a toxic rock vapor condensed by extreme atmospheric pressure, creating a literal cosmic furnace.",
+    "duration_seconds": 16,
+    "posting_window": "12:00 PM - 2:00 PM",
+    "reason": "Capitalizes on the proven success of extreme planetary conditions (similar to the burning ice video) by using a strong sensory contradiction in the hook to maximize retention."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-13T04:36:09.266303+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-13T04:36:09.266325+00:00"
+  "experiment": "Test a 20-second 'What-If' space survival scenario (e.g., 'What if you fell into the largest ocean in space?') to determine if combining the high-performing space theme with a narrative survival hook increases viewer retention and engagement.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-13T05:34:59.049895+00:00"
 }
