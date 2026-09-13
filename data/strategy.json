@@ -1,42 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "The channel's performance is heavily driven by Space and Cosmic Mystery content, with videos focusing on extreme planetary conditions and mind-bending space facts consistently securing the highest views and engagement. Conversely, general psychology and brain-related facts are underperforming, struggling to break past double-digit views.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Planetary Conditions & Cosmic Paradoxes",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' achieved 1,053 views, 'The Largest Ocean in Space' reached 460 views, and 'The Planet Darker Than Coal' secured 388 views with 21 likes.",
-      "action": "Double down on space anomalies, focusing on extreme physics, bizarre planetary weather, and cosmic scale comparisons."
-    },
-    {
-      "pattern": "High-Contrast, Mind-Bending Hooks",
-      "evidence": "Titles featuring stark contradictions like 'Burning Ice', 'Darker Than Coal', and 'Rains Molten Iron' (335 views, 16 likes) outperform standard factual titles.",
-      "action": "Structure all future hooks around a visual or conceptual paradox that immediately disrupts the viewer's expectations."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Generic Brain & Psychology Facts",
-      "evidence": "'Your Brain Is Hiding This From You' (38 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently underperform.",
-      "action": "Pivot away from basic cognitive trivia unless it can be framed as a dark mystery or an existential 'what-if' scenario."
-    },
-    {
-      "pattern": "Repetitive Topic Re-uploads",
-      "evidence": "Uploading duplicate concepts under different video IDs (e.g., 'Your Brain Can Create Fake Memories' getting 52 and 5 views) yields diminishing returns and dilutes reach.",
-      "action": "Avoid near-identical re-uploads; instead, iterate on successful concepts by changing the angle, visual hook, or specific case study."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space & What-If Scenarios",
-    "hook_style": "Conceptual Paradox / Time Dilation",
-    "concept": "The real-life planet where time dilutes so extremely that stepping on it means leaving everyone you know behind.",
-    "opening_direction": "Show a cinematic render of an astronaut stepping onto a dark shore with the hook: 'If you spent just one hour on this planet, everyone you love on Earth would already be dead.'",
-    "twist_direction": "Reveal that this isn't science fiction, but the actual physics of planet TOI-849b orbiting dangerously close to a remnant stellar core, warping the fabric of time itself.",
-    "duration_seconds": 18,
-    "posting_window": "18:00 - 20:00 UTC",
-    "reason": "Combines the high-performing space category with the existential intrigue of time dilation, leveraging the success of 'The Planet of Burning Ice' and 'Why Your Head Is Older Than Your Feet' (232 views)."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'Space Horror' micro-story format, presenting real astronomical anomalies (like rogue planets or magnetars) through a cinematic, suspenseful narrative lens to increase viewer retention.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-13T16:36:02.776938+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-13T17:33:46.516266+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-13T17:33:46.516291+00:00"
 }
