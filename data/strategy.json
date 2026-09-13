@@ -1,42 +1,32 @@
 {
   "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "The channel is experiencing a strong performance bias toward extreme cosmic anomalies and counter-intuitive space physics (e.g., burning ice, molten iron rain, space oceans), while standard biological trivia (e.g., octopus hearts) and repetitive psychological facts (e.g., songs stuck in your head, fake memories) are underperforming. Audiences are highly receptive to mind-bending, sensory-focused space concepts.",
+  "overall_summary": "Space-themed content focusing on extreme planetary conditions, sensory cosmic anomalies, and paradoxical physics significantly outperforms abstract brain psychology and complex astronomical paradoxes. The top-performing video, 'The Planet of Burning Ice Will Break Your Brain!', achieved over 1,000 views, indicating a strong audience appetite for high-contrast, mind-bending space concepts.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Cosmic Anomalies & Counter-Intuitive Space Weather",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' achieved 1,053 views (top performer), followed by 'The Planet Where It Rains Molten Iron!' with 332 views and 14 likes, and 'The Largest Ocean in Space' with 460 views.",
-      "action": "Double down on extreme planetary conditions, bizarre cosmic weather, and massive scale anomalies in space. Use strong sensory hooks (smell, taste, extreme temperatures)."
-    },
-    {
-      "pattern": "Mind-Bending Time & Age Paradoxes",
-      "evidence": "'Sharks Are Older Than Trees?' reached 302 views and 'Why Your Head Is Older Than Your Feet' gained 142 views quickly.",
-      "action": "Create more 'temporal comparison' videos that contrast human perception of time/history with scientific reality."
+      "pattern": "Sensory and Paradoxical Space Anomalies",
+      "evidence": "Videos like 'The Planet of Burning Ice...' (1,053 views), 'The Largest Ocean in Space...' (460 views), 'What Does Outer Space Actually Smell Like?' (368 views), and 'The Planet Where It Rains Molten Iron!' (333 views) consistently lead the channel in views and engagement.",
+      "action": "Produce more Shorts focusing on extreme planetary weather, cosmic smells, tastes, or paradoxical environments, using high-contrast visual hooks in the first 3 seconds."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Overused Psychology & Brain Trivia",
-      "evidence": "'Your Brain Can Create Fake Memories' (5 to 52 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently struggle to gain traction.",
-      "action": "Pivot away from generic cognitive bias or memory facts unless they can be framed through a highly dramatic, narrative-driven micro-story."
-    },
-    {
-      "pattern": "Basic Animal Facts",
-      "evidence": "'Octopuses Have THREE Hearts' (118 views) and 'The Only Animal That Can Live Forever' (69 views) underperform compared to cosmic topics.",
-      "action": "Avoid elementary school biology facts. If featuring animals, focus on bizarre survival mechanisms or cinematic, high-stakes predator-prey scenarios."
+      "pattern": "Abstract Brain Psychology and Non-Visual Space Paradoxes",
+      "evidence": "Videos like 'Your Brain Can Create Fake Memories' (5 views), 'The Real Reason Songs Get Stuck In Your Head' (17 views), and 'This Star Is Older Than the Universe!' (11 views) struggle to gain traction.",
+      "action": "Avoid generic psychological facts and overly abstract astronomical concepts that lack immediate sensory appeal or clear visual representation."
     }
   ],
   "next_video": {
-    "category": "Space & Cosmic Anomalies",
-    "hook_style": "Sensory Paradox",
-    "concept": "The Planet Where It Rains Rocks and Snows Sunscreen",
-    "opening_direction": "Start with a high-contrast visual of a rocky storm: 'There is a planet in our galaxy where the weather forecast is literally raining rocks.'",
-    "twist_direction": "Reveal that because of extreme tidal locking, the boiling rock vapor condenses on the freezing dark side, causing it to literally snow titanium dioxide—the active ingredient in sunscreen.",
-    "duration_seconds": 18,
-    "posting_window": "18:00 - 20:00 UTC",
-    "reason": "Directly leverages the proven success of 'The Planet of Burning Ice' and 'The Planet Where It Rains Molten Iron' by focusing on bizarre, extreme planetary weather conditions with a highly visual, shocking twist."
+    "category": "Space",
+    "hook_style": "Paradoxical Sensory Hook",
+    "concept": "The Planet Where It Rains Boiling Rubies",
+    "opening_direction": "Show a stunning, sparkling red storm on a distant exoplanet with the hook: 'There is a planet in our galaxy where it literally rains priceless red gems.'",
+    "twist_direction": "Reveal that these gorgeous 'rubies' are actually liquid corundum, and the storm is hot enough to melt titanium, making it a beautiful but deadly cosmic furnace.",
+    "duration_seconds": 16,
+    "posting_window": "12:00 PM - 1:00 PM UTC",
+    "reason": "Leverages the highly successful formula of extreme space environments combined with sensory/visual paradoxes (gems vs. deadly heat), matching the performance profile of the channel's top videos."
   },
-  "experiment": "Test a 'What-If' scenario focusing on geography/space: 'What If the Moon Was Only 100 Miles Away?' to see if extreme physical proximity scenarios capture the same audience interest as cosmic weather.",
+  "experiment": "Test a 'What-If' scenario combining space and survival, such as 'What If You Fell Into a Planet of Liquid Diamonds?', to see if combining the high-performing space category with cinematic survival storytelling increases viewer retention.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-13T10:01:58.039616+00:00"
+  "generated_at": "2026-09-13T10:36:37.327938+00:00"
 }
