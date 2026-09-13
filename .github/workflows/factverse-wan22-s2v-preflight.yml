@@ -1,0 +1,38 @@
+name: FACTVERSE Wan 2.2 S2V Preflight
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  preflight:
+    name: Wan 2.2 S2V capability check
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      HF_TOKEN_2: ${{ secrets.HF_TOKEN_2 }}
+      HF_S2V_SPACE: mjinabq/Wan2.2-S2V
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install gradio_client
+
+      - name: Validate Hugging Face token
+        run: |
+          test -n "$HF_TOKEN_2" || { echo "ERROR: HF_TOKEN_2 is missing"; exit 1; }
+
+      - name: Inspect S2V endpoints without generation
+        run: python src/wan22_s2v_preflight.py
