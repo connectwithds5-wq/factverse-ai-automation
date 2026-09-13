@@ -1,6 +1,7 @@
 import json
 import os
 import shutil
+import subprocess
 from pathlib import Path
 
 from gradio_client import Client, handle_file
@@ -36,6 +37,19 @@ def extract_video(result):
     if isinstance(result, str) and result:
         return result
     raise RuntimeError(f"Wan 2.2 returned no video path: {result!r}")
+
+
+def probe_video(path):
+    result = subprocess.run(
+        ["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=codec_name,width,height", "-of", "json", str(path)],
+        capture_output=True, text=True,
+    )
+    if result.returncode != 0:
+        raise RuntimeError(f"Generated clip is not readable: {path}: {result.stderr[:300]}")
+    data = json.loads(result.stdout or "{}")
+    if not data.get("streams"):
+        raise RuntimeError(f"Generated clip has no video stream: {path}")
+    return data["streams"][0]
 
 
 def load_board():
@@ -95,16 +109,9 @@ def main():
     IMAGE_DIR.mkdir(exist_ok=True)
     CLIPS.mkdir(exist_ok=True)
 
-    missing = [
-        str(IMAGE_DIR / f"shot_{i:02d}.jpg")
-        for i in range(1, len(shots) + 1)
-        if not (IMAGE_DIR / f"shot_{i:02d}.jpg").exists()
-    ]
+    missing = [str(IMAGE_DIR / f"shot_{i:02d}.jpg") for i in range(1, len(shots) + 1) if not (IMAGE_DIR / f"shot_{i:02d}.jpg").exists()]
     if missing:
-        raise SystemExit(
-            "Missing Wan 2.2 reference images. Run src/generate_storyboard_images.py first: "
-            + ", ".join(missing)
-        )
+        raise SystemExit("Missing Wan 2.2 reference images. Run src/generate_storyboard_images.py first: " + ", ".join(missing))
 
     client = Client(SPACE, token=HF_TOKEN) if HF_TOKEN else Client(SPACE)
     manifest = {}
@@ -117,12 +124,22 @@ def main():
     for index, shot in enumerate(shots, 1):
         clip = CLIPS / f"shot_{index:02d}.mp4"
         if clip.exists() and clip.stat().st_size > 0:
-            print(f"Shot {index}: reusing cached clip")
-            continue
+            try:
+                stream = probe_video(clip)
+                print(f"Shot {index}: reusing validated cached clip ({stream.get('width')}x{stream.get('height')}, {stream.get('codec_name')})")
+                continue
+            except Exception as exc:
+                print(f"Shot {index}: cached clip is invalid; regenerating: {exc}")
+                clip.unlink(missing_ok=True)
 
         image_path = IMAGE_DIR / f"shot_{index:02d}.jpg"
         source = generate_shot(client, index, shot, image_path)
+        if not source.exists() or source.stat().st_size == 0:
+            raise RuntimeError(f"Wan 2.2 returned a missing/empty video for shot {index}: {source}")
+        stream = probe_video(source)
+        print(f"Shot {index}: generated {stream.get('width')}x{stream.get('height')} {stream.get('codec_name')}")
         shutil.copy2(source, clip)
+        probe_video(clip)
         manifest[str(index)] = {
             "model": "Wan 2.2 I2V A14B FP8 AOTI",
             "space": SPACE,
@@ -132,17 +149,18 @@ def main():
         MANIFEST.write_text(json.dumps(manifest, indent=2), encoding="utf-8")
         print(f"Shot {index}: saved and checkpointed")
 
+    required = [CLIPS / f"shot_{i:02d}.mp4" for i in range(1, len(shots) + 1)]
+    if not all(path.exists() and path.stat().st_size > 0 for path in required):
+        raise SystemExit("Not all Wan 2.2 clips exist after generation; refusing to concatenate partial output")
+
     concat = CLIPS / "concat.txt"
-    concat.write_text(
-        "\n".join(f"file '{(CLIPS / f'shot_{i:02d}.mp4').resolve()}'" for i in range(1, len(shots) + 1)) + "\n",
-        encoding="utf-8",
-    )
-    import subprocess
+    concat.write_text("\n".join(f"file '{path.resolve()}'" for path in required) + "\n", encoding="utf-8")
     subprocess.run([
         "ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(concat),
         "-c:v", "libx264", "-preset", "veryfast", "-crf", "19", "-pix_fmt", "yuv420p", "-r", "30",
         "-an", "-movflags", "+faststart", str(FINAL),
     ], check=True)
+    probe_video(FINAL)
     print(f"Wan 2.2 documentary video created: {FINAL}")
 
 
