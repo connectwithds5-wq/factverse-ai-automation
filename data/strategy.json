@@ -1,37 +1,32 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Space-themed content, specifically focusing on extreme planetary anomalies, bizarre cosmic chemistry, and sensory space facts, significantly outperforms cognitive psychology and brain-related trivia. Short, punchy videos around 15-16 seconds with high-arousal curiosity hooks are driving the most engagement.",
+  "overall_summary": "Cosmic anomalies and extreme planetary weather are the primary growth drivers for FACTVERSE, with 'The Planet of Burning Ice' leading at over 1,000 views. Conversely, cognitive psychology and brain-related facts struggle to gain traction, typically stalling under 100 views. Shorter, high-impact sensory hooks (smells, tastes, extreme temperatures) in space themes yield the highest retention and engagement.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanet Weather & Sensory Space Facts",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' achieved 1,053 views, while 'What Does Outer Space Actually Smell Like?' reached 368 views, and 'The Planet Where It Rains Molten Iron!' secured 328 views with high relative like counts.",
-      "action": "Produce a series focusing on extreme exoplanet environments, cosmic anomalies, and sensory descriptions of space (smell, taste, touch) using vivid, high-contrast visual hooks."
-    },
-    {
-      "pattern": "Bizarre Animal Survival Adaptations",
-      "evidence": "'Sharks Are Older Than Trees?' (302 views) and 'This Animal Literally Dies Every Winter!' (179 views) show solid baseline performance compared to standard trivia.",
-      "action": "Incorporate mind-bending evolutionary paradoxes and extreme survival stories in the animal kingdom, emphasizing life-or-death stakes."
+      "pattern": "Extreme Cosmic Anomalies & Sensory Space Facts",
+      "evidence": "'The Planet of Burning Ice' (1,053 views), 'The Largest Ocean in Space' (460 views), 'What Does Outer Space Actually Smell Like?' (368 views), and 'The Planet Where It Rains Molten Iron!' (329 views) are the top performers.",
+      "action": "Double down on space-themed videos focusing on extreme physics, bizarre planetary weather, and cosmic sensory comparisons (smell, taste, sound)."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Cognitive Psychology & Brain Hacks",
-      "evidence": "'Your Brain Is Hiding This From You' (38 views), 'The Real Reason Songs Get Stuck In Your Head' (17 views), and 'Your Brain Can Create Fake Memories' (max 52 views) consistently struggle to gain traction.",
-      "action": "De-prioritize standard psychological facts and brain hacks. If covering brain science, pivot to extreme anomalies or sci-fi adjacent topics like AI brain-wave reconstruction."
+      "pattern": "Abstract Brain & Cognitive Psychology Facts",
+      "evidence": "'The Real Reason Songs Get Stuck In Your Head' (17 views), 'Your Brain Is Hiding This From You' (38 views), and 'Your Brain Can Create Fake Memories' (52 views) consistently underperform.",
+      "action": "Pivot away from internal cognitive psychology and brain mechanics unless framed through a highly dramatic, external sci-fi or historical lens."
     }
   ],
   "next_video": {
-    "category": "Space / What-if Scenario",
-    "hook_style": "Sensory Curiosity & High-Value Contrast",
-    "concept": "The Planet Where It Rains Liquid Sapphires and Rubies",
-    "opening_direction": "Show a stunning visual of sparkling red and blue gems falling from a dark sky with the voiceover: 'There is a giant planet in our galaxy where it literally rains precious gems...'",
-    "twist_direction": "'...but you would never survive to collect them, because the winds blow these liquid jewels at 5,000 miles per hour, shredding anything in their path.'",
-    "duration_seconds": 16,
-    "posting_window": "19:00 - 21:00 UTC",
-    "reason": "Leverages the highly successful exoplanet weather pattern ('rains molten iron', 'rains glass sideways') by using high-value assets (rubies/sapphires) as a visual and psychological hook."
+    "category": "Space",
+    "hook_style": "Sensory Paradox & Extreme Weather",
+    "concept": "The Planet Where It Rains Liquid Rubies and Sapphires",
+    "opening_direction": "There is a giant planet in deep space where it literally rains precious gemstones...",
+    "twist_direction": "...but the winds are so violent, these liquid rubies fly sideways at 5,000 miles per hour, shredding anything in their path.",
+    "duration_seconds": 15,
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Space anomalies with extreme weather and high-value visual hooks (gems, rain, extreme speed) perfectly match the profile of our top-performing Shorts."
   },
-  "experiment": "Test a 'What-If' space survival micro-narrative: 'What would happen to your body if you stepped onto the Planet of Burning Ice without a spacesuit?' to bridge the gap between space facts and cinematic survival storytelling.",
+  "experiment": "Test a 14-second Short on a historical space mystery (e.g., the 1977 Wow! Signal or a lost astronaut transmission) to see if combining historical storytelling with cosmic themes can replicate the high engagement of planetary facts.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-13T00:41:49.975163+00:00"
+  "generated_at": "2026-09-13T01:36:21.839833+00:00"
 }
