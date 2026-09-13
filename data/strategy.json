@@ -1,21 +1,42 @@
 {
   "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "The channel is experiencing a strong performance bias toward extreme cosmic anomalies and counter-intuitive space physics (e.g., burning ice, molten iron rain, space oceans), while standard biological trivia (e.g., octopus hearts) and repetitive psychological facts (e.g., songs stuck in your head, fake memories) are underperforming. Audiences are highly receptive to mind-bending, sensory-focused space concepts.",
+  "winning_patterns": [
+    {
+      "pattern": "Extreme Cosmic Anomalies & Counter-Intuitive Space Weather",
+      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' achieved 1,053 views (top performer), followed by 'The Planet Where It Rains Molten Iron!' with 332 views and 14 likes, and 'The Largest Ocean in Space' with 460 views.",
+      "action": "Double down on extreme planetary conditions, bizarre cosmic weather, and massive scale anomalies in space. Use strong sensory hooks (smell, taste, extreme temperatures)."
+    },
+    {
+      "pattern": "Mind-Bending Time & Age Paradoxes",
+      "evidence": "'Sharks Are Older Than Trees?' reached 302 views and 'Why Your Head Is Older Than Your Feet' gained 142 views quickly.",
+      "action": "Create more 'temporal comparison' videos that contrast human perception of time/history with scientific reality."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Overused Psychology & Brain Trivia",
+      "evidence": "'Your Brain Can Create Fake Memories' (5 to 52 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently struggle to gain traction.",
+      "action": "Pivot away from generic cognitive bias or memory facts unless they can be framed through a highly dramatic, narrative-driven micro-story."
+    },
+    {
+      "pattern": "Basic Animal Facts",
+      "evidence": "'Octopuses Have THREE Hearts' (118 views) and 'The Only Animal That Can Live Forever' (69 views) underperform compared to cosmic topics.",
+      "action": "Avoid elementary school biology facts. If featuring animals, focus on bizarre survival mechanisms or cinematic, high-stakes predator-prey scenarios."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space & Cosmic Anomalies",
+    "hook_style": "Sensory Paradox",
+    "concept": "The Planet Where It Rains Rocks and Snows Sunscreen",
+    "opening_direction": "Start with a high-contrast visual of a rocky storm: 'There is a planet in our galaxy where the weather forecast is literally raining rocks.'",
+    "twist_direction": "Reveal that because of extreme tidal locking, the boiling rock vapor condenses on the freezing dark side, causing it to literally snow titanium dioxide—the active ingredient in sunscreen.",
+    "duration_seconds": 18,
+    "posting_window": "18:00 - 20:00 UTC",
+    "reason": "Directly leverages the proven success of 'The Planet of Burning Ice' and 'The Planet Where It Rains Molten Iron' by focusing on bizarre, extreme planetary weather conditions with a highly visual, shocking twist."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-13T08:37:06.345560+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-13T08:37:06.345581+00:00"
+  "experiment": "Test a 'What-If' scenario focusing on geography/space: 'What If the Moon Was Only 100 Miles Away?' to see if extreme physical proximity scenarios capture the same audience interest as cosmic weather.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-13T10:01:58.039616+00:00"
 }
