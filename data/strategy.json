@@ -1,42 +1,32 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Space and cosmic anomaly content is the dominant growth driver for FACTVERSE, consistently securing the highest view counts and engagement metrics. In contrast, repetitive psychology facts and generic animal trivia are underperforming, indicating that the audience craves high-concept, visually spectacular cosmic paradoxes over standard text-on-screen facts.",
+  "overall_summary": "Space-themed shorts focusing on extreme, paradoxical, or sensory cosmic phenomena (e.g., burning ice, coal-dark planets, molten iron rain) are the clear drivers of high engagement and views on the channel. Conversely, abstract brain psychology and dry astronomical facts struggle to capture viewer attention.",
   "winning_patterns": [
     {
-      "pattern": "Cosmic Extremes & Planetary Paradoxes",
-      "evidence": "'The Planet of Burning Ice' (1,054 views), 'The Planet Darker Than Coal' (766 views, 34 likes), and 'The Planet Where It Rains Molten Iron' (343 views, 17 likes) represent the channel's top tier of performance.",
-      "action": "Pivot content strategy to focus heavily on extreme space phenomena, cosmic anomalies, and terrifying planetary environments using cinematic visual storytelling."
-    },
-    {
-      "pattern": "Sensory and Physical Cognitive Dissonance",
-      "evidence": "Concepts that challenge basic physical senses, such as 'What Does Outer Space Actually Smell Like?' (368 views) and 'Why Your Head Is Older Than Your Feet' (262 views), outperform standard trivia.",
-      "action": "Frame science and physics concepts around mind-bending physical paradoxes that directly affect the viewer's perception of reality."
+      "pattern": "Extreme Cosmic Paradoxes & Sensory Space Facts",
+      "evidence": "'The Planet of Burning Ice' achieved 1,054 views, and 'The Planet Darker Than Coal' reached 888 views with high like ratios.",
+      "action": "Double down on extreme exoplanet features, focusing on paradoxical physics (e.g., hot ice, metal rain, dark planets) using sensory-rich language."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Brain & Psychology Trivia",
-      "evidence": "'The Real Reason Songs Get Stuck In Your Head' (17 views) and 'Your Brain Is Hiding This From You' (38 views) struggle to gain traction.",
-      "action": "Phase out soft psychology facts unless they can be framed as high-stakes mysteries or survival scenarios."
-    },
-    {
-      "pattern": "Repetitive Concept Re-uploading",
-      "evidence": "Multiple uploads of 'Your Brain Can Create Fake Memories' (52 views and 5 views) and 'Octopuses Have THREE Hearts' (118 views and 183 views) yield flatlined reach.",
-      "action": "Avoid posting identical or near-identical concepts within short windows; prioritize unique, high-effort scripts over quick-turnaround duplicates."
+      "pattern": "Abstract Brain & Psychology Explanations",
+      "evidence": "'Your Brain Can Create Fake Memories' and 'The Real Reason Songs Get Stuck In Your Head' struggled, averaging under 50 views.",
+      "action": "Pivot away from generic cognitive psychology facts unless they can be framed with a highly dramatic, cinematic narrative hook."
     }
   ],
   "next_video": {
-    "category": "Space / What-If Scenario",
-    "hook_style": "Doom-Laden Paradox",
+    "category": "Space",
+    "hook_style": "Sensory Paradox / Cosmic Terror",
     "concept": "The Egg-Shaped Planet Being Eaten Alive (WASP-12b)",
-    "opening_direction": "Show a cinematic, distorted egg-shaped planet stretching in agony, with the hook: 'This planet is literally being eaten alive by its own star...'",
-    "twist_direction": "Reveal that the star's gravity is pulling the planet apart so violently that it has deformed into an egg, and it only has a fraction of its life left before complete consumption.",
-    "duration_seconds": 20,
-    "posting_window": "12:00 PM - 2:00 PM EST",
-    "reason": "Capitalizes on the high performance of cosmic extreme videos (like TrES-2b and Burning Ice) while utilizing a strong visual paradox (an egg-shaped planet) to maximize early retention."
+    "opening_direction": "Start with a high-contrast visual of a distorted, egg-shaped planet stretching toward a massive star.",
+    "twist_direction": "Reveal that the star is literally stripping the planet's atmosphere away, consuming it piece by piece until nothing remains.",
+    "duration_seconds": 18,
+    "posting_window": "13:00 - 15:00 UTC",
+    "reason": "Leverages the proven high-performance space niche, using a strong visual hook ('egg-shaped planet') and a dramatic cosmic event ('eaten alive') to maximize retention."
   },
-  "experiment": "Test a 20-second cinematic micro-story format focusing on 'The Planet Where It Rains Rocks' (CoRoT-7b) to see if the 'extreme weather' angle continues to outperform static space facts.",
+  "experiment": "Test a 'What-If' space scenario, such as 'What If You Fell Into a Planet of Liquid Diamonds?', to bridge the gap between high-performing exoplanet facts and highly engaging hypothetical storytelling.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-13T21:34:45.098816+00:00"
+  "generated_at": "2026-09-13T22:36:32.759020+00:00"
 }
