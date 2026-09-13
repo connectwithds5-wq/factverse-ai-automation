@@ -1,0 +1,109 @@
+name: FACTVERSE Wan 2.2
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: factverse-wan22
+  cancel-in-progress: false
+
+jobs:
+  wan22:
+    name: FACTVERSE Wan 2.2 Video
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+      GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
+      GEMINI_API_KEY_4: ${{ secrets.GEMINI_API_KEY_4 }}
+      GEMINI_API_KEY_5: ${{ secrets.GEMINI_API_KEY_5 }}
+      GEMINI_MODEL: gemini-2.5-flash
+      GEMINI_IMAGE_MODEL: gemini-3.1-flash-image
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      HF_WAN_SPACE: zerogpu-aoti/wan2-2-fp8da-aoti-faster
+      VIDEO_ENGINE_LABEL: Wan2.2
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          ffmpeg -version | head -n 1
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt gradio_client
+
+      - name: Validate secrets
+        run: |
+          test -n "$GEMINI_API_KEY" || { echo "ERROR: GEMINI_API_KEY is missing"; exit 1; }
+          test -n "$HF_TOKEN" || echo "WARNING: HF_TOKEN is missing; Wan Space access may fail or be rate-limited."
+
+      - name: Generate FACTVERSE story and metadata
+        run: python src/generate_with_strategy.py
+
+      - name: Reject duplicate published topic
+        run: python src/duplicate_guard.py
+
+      - name: Build aligned storyboard
+        run: python src/storyboard_builder.py
+
+      - name: Generate cinematic storyboard keyframes with Gemini
+        run: python src/generate_storyboard_images.py
+
+      - name: Generate Wan 2.2 cinematic shots
+        run: python src/wan22_documentary.py
+
+      - name: Normalize Wan 2.2 clips to storyboard timing
+        run: python src/normalize_video_duration.py
+
+      - name: Generate narration, music and final audio mix
+        run: python src/add_audio.py
+
+      - name: Verify final video
+        run: |
+          test -s output/factverse.mp4
+          python - <<'PY'
+          import json, subprocess
+          board = json.load(open("output/storyboard.json", encoding="utf-8"))
+          expected = float(board["shots"][-1]["end"])
+          actual = float(subprocess.check_output([
+              "ffprobe", "-v", "error", "-show_entries", "format=duration",
+              "-of", "default=noprint_wrappers=1:nokey=1", "output/factverse.mp4"
+          ], text=True).strip())
+          print(f"Final duration: {actual:.3f}s; storyboard: {expected:.3f}s")
+          if actual < expected - 0.08 or actual > expected + 0.25:
+              raise SystemExit("ERROR: final video duration does not match storyboard")
+          PY
+          echo "Video stream:"
+          ffprobe -v error -show_entries stream=codec_name,width,height,r_frame_rate -of default=noprint_wrappers=1 output/factverse.mp4
+          echo "Audio stream:"
+          ffprobe -v error -select_streams a:0 -show_entries stream=codec_name,sample_rate,channels -of default=noprint_wrappers=1 output/factverse.mp4
+
+      - name: Upload Wan 2.2 artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: factverse-wan22-video
+          path: |
+            output/factverse.mp4
+            output/metadata.json
+            output/storyboard.json
+            output/wan22_images
+            output/wan22_clips
+            output/wan22_manifest.json
+          if-no-files-found: error
+          retention-days: 7
