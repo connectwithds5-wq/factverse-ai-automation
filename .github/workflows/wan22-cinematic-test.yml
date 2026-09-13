@@ -12,6 +12,10 @@ jobs:
     timeout-minutes: 90
     env:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+      GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
+      GEMINI_API_KEY_4: ${{ secrets.GEMINI_API_KEY_4 }}
+      GEMINI_API_KEY_5: ${{ secrets.GEMINI_API_KEY_5 }}
       GEMINI_MODEL: gemini-3.5-flash
       GEMINI_IMAGE_MODEL: gemini-3.1-flash-image
       HF_TOKEN: ${{ secrets.HF_TOKEN }}
@@ -46,6 +50,10 @@ jobs:
         run: |
           test -n "$GEMINI_API_KEY" || { echo "ERROR: GEMINI_API_KEY is missing"; exit 1; }
           test -n "$HF_TOKEN" || echo "WARNING: HF_TOKEN is missing; Space access will be unauthenticated."
+          echo "Gemini image fallback keys configured:"
+          for key in GEMINI_API_KEY GEMINI_API_KEY_2 GEMINI_API_KEY_3 GEMINI_API_KEY_4 GEMINI_API_KEY_5; do
+            if [ -n "${!key}" ]; then echo "  $key: configured"; else echo "  $key: not configured"; fi
+          done
 
       - name: Generate FACTVERSE story and metadata
         run: python src/generate_with_strategy.py
