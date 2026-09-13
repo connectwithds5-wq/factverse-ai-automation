@@ -1,32 +1,32 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Space-themed shorts focusing on extreme, paradoxical, or sensory cosmic phenomena (e.g., burning ice, coal-dark planets, molten iron rain) are the clear drivers of high engagement and views on the channel. Conversely, abstract brain psychology and dry astronomical facts struggle to capture viewer attention.",
+  "overall_summary": "The channel's performance is heavily driven by extreme space anomalies and bizarre planetary phenomena, which consistently capture the highest views and engagement. Conversely, psychology, brain facts, and self-help-style content struggle to gain traction, indicating a clear audience preference for cosmic wonder over human biology.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Cosmic Paradoxes & Sensory Space Facts",
-      "evidence": "'The Planet of Burning Ice' achieved 1,054 views, and 'The Planet Darker Than Coal' reached 888 views with high like ratios.",
-      "action": "Double down on extreme exoplanet features, focusing on paradoxical physics (e.g., hot ice, metal rain, dark planets) using sensory-rich language."
+      "pattern": "Extreme Space & Planetary Anomalies",
+      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' achieved 1,054 views, and 'The Planet Darker Than Coal: TrES-2b' reached 909 views with high relative engagement (34 likes, 2 comments). 'The Largest Ocean in Space' also performed strongly with 460 views.",
+      "action": "Double down on extreme cosmic environments, focusing on mind-bending physics, terrifying planetary conditions, and cosmic scale comparisons."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Brain & Psychology Explanations",
-      "evidence": "'Your Brain Can Create Fake Memories' and 'The Real Reason Songs Get Stuck In Your Head' struggled, averaging under 50 views.",
-      "action": "Pivot away from generic cognitive psychology facts unless they can be framed with a highly dramatic, cinematic narrative hook."
+      "pattern": "Psychology & Brain Mechanics",
+      "evidence": "'Your Brain Can Create Fake Memories' (52 views), 'Your Brain Is Hiding This From You' (38 views), and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently underperformed.",
+      "action": "Pivot away from standard cognitive science facts unless they can be framed through a highly dramatic, cinematic mystery lens."
     }
   ],
   "next_video": {
-    "category": "Space",
-    "hook_style": "Sensory Paradox / Cosmic Terror",
-    "concept": "The Egg-Shaped Planet Being Eaten Alive (WASP-12b)",
-    "opening_direction": "Start with a high-contrast visual of a distorted, egg-shaped planet stretching toward a massive star.",
-    "twist_direction": "Reveal that the star is literally stripping the planet's atmosphere away, consuming it piece by piece until nothing remains.",
+    "category": "Space & Cosmic Mysteries",
+    "hook_style": "Visual paradox with high-stakes cosmic doom",
+    "concept": "The planet that is literally being eaten alive by its own star (WASP-12b).",
+    "opening_direction": "Start with a dramatic, high-contrast visual of an egg-shaped planet stretching toward a massive star. Voiceover: 'Right now, there is a planet in our galaxy that is literally being eaten alive.'",
+    "twist_direction": "Reveal that the star's gravity is so intense it has distorted the planet into a football shape, and it is devouring 189 quadrillion tons of its mass every single year.",
     "duration_seconds": 18,
-    "posting_window": "13:00 - 15:00 UTC",
-    "reason": "Leverages the proven high-performance space niche, using a strong visual hook ('egg-shaped planet') and a dramatic cosmic event ('eaten alive') to maximize retention."
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Leverages the proven success of extreme planetary anomalies (like TrES-2b and Gliese 436b) while utilizing a highly visual, high-stakes hook to maximize early retention."
   },
-  "experiment": "Test a 'What-If' space scenario, such as 'What If You Fell Into a Planet of Liquid Diamonds?', to bridge the gap between high-performing exoplanet facts and highly engaging hypothetical storytelling.",
+  "experiment": "Test a 'Cinematic Space Survival' narrative style for cosmic anomalies, shifting from a list of facts to a dramatic, second-person perspective ('If you stood on this planet, you would...') to see if it boosts average view duration.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-13T22:36:32.759020+00:00"
+  "generated_at": "2026-09-13T23:34:14.402980+00:00"
 }
