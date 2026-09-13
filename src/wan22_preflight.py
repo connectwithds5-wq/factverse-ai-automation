@@ -1,7 +1,6 @@
 import json
 import os
 import subprocess
-import sys
 from pathlib import Path
 
 import requests
@@ -16,6 +15,13 @@ def fail(message):
     raise SystemExit(f"PREFLIGHT FAILED: {message}")
 
 
+def set_env(name, value):
+    env_path = os.environ.get("GITHUB_ENV")
+    if env_path:
+        with open(env_path, "a", encoding="utf-8") as env:
+            env.write(f"{name}={value}\n")
+
+
 def check_binary(name):
     result = subprocess.run(["bash", "-lc", f"command -v {name}"], capture_output=True, text=True)
     if result.returncode != 0:
@@ -27,11 +33,7 @@ def check_avatar():
     if not AVATAR.exists() or AVATAR.stat().st_size < 1000:
         fail(f"avatar reference missing or empty: {AVATAR}")
     probe = subprocess.run(
-        [
-            "ffprobe", "-v", "error", "-select_streams", "v:0",
-            "-show_entries", "stream=codec_name,width,height",
-            "-of", "json", str(AVATAR),
-        ],
+        ["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=codec_name,width,height", "-of", "json", str(AVATAR)],
         capture_output=True, text=True,
     )
     if probe.returncode != 0:
@@ -50,13 +52,23 @@ def check_gemini_model():
     if not key:
         fail("GEMINI_API_KEY is missing")
 
-    url = "https://generativelanguage.googleapis.com/v1beta/models"
     try:
-        response = requests.get(url, params={"key": key, "pageSize": 1000}, timeout=30)
+        response = requests.get(
+            "https://generativelanguage.googleapis.com/v1beta/models",
+            params={"key": key, "pageSize": 1000},
+            timeout=30,
+        )
+        if response.status_code in {401, 403, 429}:
+            print(f"WARNING: Gemini model-list returned HTTP {response.status_code}; disabling Gemini storyboard generation to avoid wasted requests.")
+            set_env("GEMINI_STORYBOARD_ENABLED", "0")
+            return
         response.raise_for_status()
         payload = response.json()
     except Exception as exc:
-        fail(f"Gemini model-list preflight could not complete: {exc}")
+        print(f"WARNING: Gemini model-list preflight could not complete: {exc}")
+        print("WARNING: disabling Gemini storyboard generation; deterministic fallback will be used.")
+        set_env("GEMINI_STORYBOARD_ENABLED", "0")
+        return
 
     available = {}
     for model in payload.get("models", []):
@@ -67,18 +79,15 @@ def check_gemini_model():
 
     if configured and configured in available:
         print(f"OK: Gemini storyboard model available: {configured}")
-        print("GEMINI_STORYBOARD_ENABLED=1")
-        with open(os.environ.get("GITHUB_ENV", "/tmp/factverse_env"), "a", encoding="utf-8") as env:
-            env.write("GEMINI_STORYBOARD_ENABLED=1\n")
+        set_env("GEMINI_STORYBOARD_ENABLED", "1")
         return
 
     print(f"WARNING: configured Gemini storyboard model is unavailable: {configured or '<empty>'}")
-    print("WARNING: storyboard generation will use the deterministic fallback; no Gemini generation request will be attempted.")
     candidates = [name for name in available if "flash" in name.lower() and "image" not in name.lower()]
     if candidates:
         print("Available text-generation candidates:", ", ".join(sorted(candidates)[:20]))
-    with open(os.environ.get("GITHUB_ENV", "/tmp/factverse_env"), "a", encoding="utf-8") as env:
-        env.write("GEMINI_STORYBOARD_ENABLED=0\n")
+    print("WARNING: storyboard generation will use the deterministic fallback; no Gemini generation request will be attempted.")
+    set_env("GEMINI_STORYBOARD_ENABLED", "0")
 
 
 def check_storyboard_and_images():
@@ -104,8 +113,7 @@ def check_storyboard_and_images():
         fail(f"storyboard duration is {previous:.2f}s; expected 18-22s")
     print(f"OK: storyboard {len(shots)} shots / {previous:.2f}s")
 
-    missing = [str(IMAGE_DIR / f"shot_{i:02d}.jpg") for i in range(1, len(shots) + 1)
-               if not (IMAGE_DIR / f"shot_{i:02d}.jpg").exists()]
+    missing = [str(IMAGE_DIR / f"shot_{i:02d}.jpg") for i in range(1, len(shots) + 1) if not (IMAGE_DIR / f"shot_{i:02d}.jpg").exists()]
     if missing:
         fail("missing Wan reference images: " + ", ".join(missing))
     print(f"OK: {len(shots)} Wan reference images present")
