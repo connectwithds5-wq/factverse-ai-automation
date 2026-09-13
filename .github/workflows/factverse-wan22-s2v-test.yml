@@ -1,0 +1,84 @@
+name: FACTVERSE Wan 2.2 S2V Test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  s2v-test:
+    name: One-shot S2V quality test
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+      GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
+      GEMINI_API_KEY_4: ${{ secrets.GEMINI_API_KEY_4 }}
+      GEMINI_API_KEY_5: ${{ secrets.GEMINI_API_KEY_5 }}
+      GEMINI_MODEL: gemini-2.5-flash
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      HF_TOKEN_2: ${{ secrets.HF_TOKEN_2 }}
+      HF_S2V_SPACE: Wan-AI/Wan2.2-S2V
+      AVATAR_DRIVE_FILE_ID: ${{ secrets.AVATAR_DRIVE_FILE_ID }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install FFmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt gradio_client
+
+      - name: Validate secrets
+        run: |
+          test -n "$GEMINI_API_KEY" || { echo "ERROR: GEMINI_API_KEY missing"; exit 1; }
+          test -n "$AVATAR_DRIVE_FILE_ID" || { echo "ERROR: AVATAR_DRIVE_FILE_ID missing"; exit 1; }
+          test -n "$HF_TOKEN_2" || { echo "ERROR: HF_TOKEN_2 missing"; exit 1; }
+
+      - name: Download avatar
+        run: |
+          mkdir -p output
+          curl -fL --retry 3 --connect-timeout 20 \
+            "https://drive.usercontent.google.com/download?id=${AVATAR_DRIVE_FILE_ID}&export=download&confirm=t" \
+            -o output/avatar_reference.jpg
+          test -s output/avatar_reference.jpg
+
+      - name: Build one storyboard (no video generation)
+        run: |
+          python src/generate_with_strategy.py
+          python src/duplicate_guard.py
+          python src/storyboard_builder.py
+
+      - name: Run one-shot S2V generation
+        run: python src/wan22_s2v_test.py
+
+      - name: Verify output
+        run: |
+          test -s output/s2v_test.mp4
+          ffprobe -v error -show_entries stream=codec_name,width,height,r_frame_rate -of default=noprint_wrappers=1 output/s2v_test.mp4
+          ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 output/s2v_test.mp4
+
+      - name: Upload S2V test
+        uses: actions/upload-artifact@v4
+        with:
+          name: factverse-wan22-s2v-test-${{ github.run_id }}
+          path: |
+            output/s2v_test.mp4
+            output/s2v_test_voice.wav
+            output/storyboard.json
+            output/metadata.json
+          retention-days: 7
