@@ -1,32 +1,21 @@
 {
   "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Space-themed extreme phenomena and mind-bending cosmic anomalies (such as burning ice, coal-dark planets, and molten iron rain) are the primary drivers of engagement and viewership on FACTVERSE. Conversely, cognitive psychology and brain-related facts consistently struggle to gain traction, indicating that the audience prefers grand, visual cosmic mysteries over internal neurological trivia.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Cosmic Anomalies with Sensory/Contrasting Hooks",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' (1,054 views), 'The Planet Darker Than Coal: TrES-2b' (514 views, 34 likes), and 'The Largest Ocean in Space Will Mind-Blow You!' (460 views) lead the channel's performance.",
-      "action": "Focus on extreme space environments, using highly contrasting or paradoxical concepts (e.g., hot ice, dark light, diamond rain) in the titles and hooks."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Neurological & Cognitive Psychology Trivia",
-      "evidence": "'The Real Reason Songs Get Stuck In Your Head' (17 views), 'Your Brain Is Hiding This From You' (38 views), and 'Your Brain Can Create Fake Memories' (max 52 views) consistently fail to capture viewer interest.",
-      "action": "Pivot away from internal brain mechanics and general cognitive psychology unless framed through a highly dramatic, cinematic micro-story or what-if scenario."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "space",
-    "hook_style": "Paradoxical sensory contrast",
-    "concept": "A planet where it snows sunscreen (titanium dioxide) and has a temperature hot enough to melt steel, highlighting the extreme and bizarre nature of exoplanet weather.",
-    "opening_direction": "Start with a high-contrast visual hook: 'There is a planet in our galaxy where it literally snows sunscreen...'",
-    "twist_direction": "Reveal that this 'sunscreen' is actually titanium dioxide, the same chemical used in white paint, and it only snows on the freezing night side of a tidally locked world.",
-    "duration_seconds": 18,
-    "posting_window": "19:00 - 21:00 UTC",
-    "reason": "Capitalizes on the proven success of extreme exoplanet weather and sensory paradoxes (like burning ice or molten iron rain) which have driven the channel's highest views and engagement."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a cinematic 'What-If' space scenario, such as 'What If the Moon Was Made of Dark Matter?', to see if combining space facts with hypothetical storytelling can bridge the gap between pure facts and high-retention narrative content.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-13T19:33:24.956699+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-13T20:35:44.367161+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-13T20:35:44.367181+00:00"
 }
