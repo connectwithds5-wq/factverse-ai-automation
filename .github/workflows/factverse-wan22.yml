@@ -64,6 +64,9 @@ jobs:
           file output/avatar_reference.jpg
           test -s output/avatar_reference.jpg
 
+      - name: Zero-cost Wan 2.2 preflight
+        run: python src/wan22_preflight.py
+
       - name: Generate FACTVERSE story and metadata
         run: python src/generate_with_strategy.py
 
@@ -76,8 +79,26 @@ jobs:
       - name: Generate cinematic storyboard keyframes with avatar
         run: python src/generate_storyboard_images.py
 
+      - name: Zero-cost preflight before Wan generation
+        run: python src/wan22_preflight.py
+
       - name: Generate Wan 2.2 cinematic shots
         run: python src/wan22_documentary.py
+
+      - name: Preserve Wan checkpoints even if a later step fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: factverse-wan22-checkpoint-${{ github.run_id }}
+          path: |
+            output/storyboard.json
+            output/metadata.json
+            output/avatar_reference.jpg
+            output/wan22_images
+            output/wan22_clips
+            output/wan22_manifest.json
+          if-no-files-found: warn
+          retention-days: 7
 
       - name: Normalize Wan 2.2 clips to storyboard timing
         run: python src/normalize_video_duration.py
