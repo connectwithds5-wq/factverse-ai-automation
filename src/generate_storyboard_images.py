@@ -7,17 +7,15 @@ from google import genai
 
 STORYBOARD = Path("output/storyboard.json")
 OUT = Path("output/wan22_images")
+AVATAR = Path("output/avatar_reference.jpg")
 MODEL = os.getenv("GEMINI_IMAGE_MODEL", "gemini-3.1-flash-image")
 
 
 def load_api_keys():
     keys = []
     for name in (
-        "GEMINI_API_KEY",
-        "GEMINI_API_KEY_2",
-        "GEMINI_API_KEY_3",
-        "GEMINI_API_KEY_4",
-        "GEMINI_API_KEY_5",
+        "GEMINI_API_KEY", "GEMINI_API_KEY_2", "GEMINI_API_KEY_3",
+        "GEMINI_API_KEY_4", "GEMINI_API_KEY_5",
     ):
         value = os.getenv(name, "").strip()
         if value and value not in keys:
@@ -29,20 +27,10 @@ def load_api_keys():
 
 def is_key_related_error(exc):
     text = str(exc).lower()
-    return any(
-        marker in text
-        for marker in (
-            "429",
-            "quota",
-            "rate limit",
-            "resource_exhausted",
-            "too many requests",
-            "401",
-            "403",
-            "unauthorized",
-            "forbidden",
-        )
-    )
+    return any(marker in text for marker in (
+        "429", "quota", "rate limit", "resource_exhausted", "too many requests",
+        "401", "403", "unauthorized", "forbidden",
+    ))
 
 
 def generate_with_fallback(keys, key_index, prompt):
@@ -50,19 +38,13 @@ def generate_with_fallback(keys, key_index, prompt):
     total = len(keys)
     for offset in range(total):
         idx = (key_index + offset) % total
-        label = idx + 1
         try:
-            print(f"Trying Gemini image key {label}/{total}")
+            print(f"Trying Gemini image key {idx + 1}/{total}")
             client = genai.Client(api_key=keys[idx])
             interaction = client.interactions.create(
                 model=MODEL,
                 input=prompt,
-                response_format={
-                    "type": "image",
-                    "mime_type": "image/jpeg",
-                    "aspect_ratio": "9:16",
-                    "image_size": "1K",
-                },
+                response_format={"type": "image", "mime_type": "image/jpeg", "aspect_ratio": "9:16", "image_size": "1K"},
             )
             image = getattr(interaction, "output_image", None)
             data = getattr(image, "data", None) if image else None
@@ -70,11 +52,10 @@ def generate_with_fallback(keys, key_index, prompt):
                 raise RuntimeError("Gemini image generation returned no image")
             return base64.b64decode(data), idx
         except Exception as exc:
-            errors.append(f"key {label}: {exc}")
+            errors.append(f"key {idx + 1}: {exc}")
             if not is_key_related_error(exc):
                 raise
-            print(f"Gemini key {label} unavailable; rotating to next key")
-
+            print(f"Gemini key {idx + 1} unavailable; rotating to next key")
     raise RuntimeError("All configured Gemini API keys failed:\n" + "\n".join(errors))
 
 
@@ -82,7 +63,6 @@ def main():
     keys = load_api_keys()
     if not STORYBOARD.exists():
         raise SystemExit("output/storyboard.json is required")
-
     board = json.loads(STORYBOARD.read_text(encoding="utf-8"))
     shots = board.get("shots", [])
     if not 4 <= len(shots) <= 5:
@@ -98,6 +78,14 @@ def main():
             continue
 
         visual = str(shot["visual_prompt"]).strip()
+        if index == 1 and AVATAR.exists() and AVATAR.stat().st_size > 0:
+            # Keep the user's supplied avatar as the actual first-frame identity.
+            # Wan 2.2 I2V will animate this frame; other shots remain Gemini B-roll.
+            import shutil
+            shutil.copy2(AVATAR, target)
+            print(f"Shot 1: using avatar reference {AVATAR} -> {target}")
+            continue
+
         prompt = (
             "Create a single premium photorealistic vertical 9:16 documentary keyframe for a video shot. "
             "This image will be animated by Wan 2.2 image-to-video. Show exactly the subject, environment, "
