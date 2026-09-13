@@ -1,6 +1,7 @@
 import base64
 import json
 import os
+import shutil
 from pathlib import Path
 
 from google import genai
@@ -20,8 +21,6 @@ def load_api_keys():
         value = os.getenv(name, "").strip()
         if value and value not in keys:
             keys.append(value)
-    if not keys:
-        raise SystemExit("At least one Gemini API key is required")
     return keys
 
 
@@ -60,7 +59,6 @@ def generate_with_fallback(keys, key_index, prompt):
 
 
 def main():
-    keys = load_api_keys()
     if not STORYBOARD.exists():
         raise SystemExit("output/storyboard.json is required")
     board = json.loads(STORYBOARD.read_text(encoding="utf-8"))
@@ -69,23 +67,30 @@ def main():
         raise SystemExit("Storyboard must contain 4 or 5 shots")
 
     OUT.mkdir(parents=True, exist_ok=True)
-    key_index = 0
 
+    # Avatar-first mode: when the private avatar reference is available, use
+    # the same source frame for every shot. This preserves identity and avoids
+    # making the whole production dependent on Gemini image-generation quota.
+    if AVATAR.exists() and AVATAR.stat().st_size > 0:
+        print(f"Avatar reference detected: {AVATAR}")
+        for index in range(1, len(shots) + 1):
+            target = OUT / f"shot_{index:02d}.jpg"
+            shutil.copy2(AVATAR, target)
+            print(f"Shot {index}: using avatar reference -> {target}")
+        print("Avatar-first mode complete; Gemini image generation skipped.")
+        return
+
+    keys = load_api_keys()
+    if not keys:
+        raise SystemExit("No Gemini image keys available and no avatar reference was downloaded")
+
+    key_index = 0
     for index, shot in enumerate(shots, 1):
         target = OUT / f"shot_{index:02d}.jpg"
         if target.exists() and target.stat().st_size > 0:
             print(f"Shot {index}: reusing {target}")
             continue
-
         visual = str(shot["visual_prompt"]).strip()
-        if index == 1 and AVATAR.exists() and AVATAR.stat().st_size > 0:
-            # Keep the user's supplied avatar as the actual first-frame identity.
-            # Wan 2.2 I2V will animate this frame; other shots remain Gemini B-roll.
-            import shutil
-            shutil.copy2(AVATAR, target)
-            print(f"Shot 1: using avatar reference {AVATAR} -> {target}")
-            continue
-
         prompt = (
             "Create a single premium photorealistic vertical 9:16 documentary keyframe for a video shot. "
             "This image will be animated by Wan 2.2 image-to-video. Show exactly the subject, environment, "
