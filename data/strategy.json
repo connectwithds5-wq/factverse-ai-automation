@@ -1,42 +1,37 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "The channel's highest-performing content centers on extreme space anomalies, cosmic physics paradoxes, and bizarre planetary conditions. Videos like 'The Planet of Burning Ice Will Break Your Brain!' (1,053 views) and 'The Planet Where It Rains Molten Iron!' (333 views) significantly outperform generic psychology and repetitive biology facts, indicating a strong audience appetite for mind-bending, highly visual cosmic phenomena.",
+  "overall_summary": "Space-themed cosmic paradoxes and extreme planetary environments (such as burning ice, molten iron, and cosmic oceans) are the clear driving force of the channel's performance. Conversely, repetitive psychological topics and basic animal facts suffer from low engagement and flatline views.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Cosmic & Planetary Paradoxes",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' achieved 1,053 views, and 'The Planet Where It Rains Molten Iron!' gained 333 views and 15 likes. 'The Largest Ocean in Space Will Mind-Blow You!' reached 460 views.",
-      "action": "Double down on extreme planetary climates, cosmic anomalies, and physics-defying space facts. Use highly sensory, contrasting hooks (e.g., 'burning ice', 'molten iron rain', 'ocean in space')."
+      "pattern": "Extreme Cosmic Environments & Planetary Paradoxes",
+      "evidence": "The Planet of Burning Ice (vWd0uYcEGh4) achieved 1,053 views, while The Planet Where It Rains Molten Iron (T7iJEp258M8) reached 335 views and 16 likes. The Planet Darker Than Coal (v1rrcZLdp4U) quickly gained 220 views and 15 likes.",
+      "action": "Double down on extreme planetary conditions, cosmic anomalies, and space physics paradoxes using highly descriptive, sensory-loaded titles."
     },
     {
-      "pattern": "Relatable Physics & Time Anomalies",
-      "evidence": "'Why Your Head Is Older Than Your Feet' generated 150 views, and 'Sharks Are Older Than Trees?' reached 302 views.",
-      "action": "Frame scientific and evolutionary facts as personal or historical paradoxes that challenge common sense."
+      "pattern": "Mind-Bending Time & Physics Paradoxes",
+      "evidence": "Why Your Head Is Older Than Your Feet (c_ya3kvpuoI) reached 210 views, and Sharks Are Older Than Trees (bfT7qzZ6aJQ) achieved 302 views.",
+      "action": "Produce content that challenges common sense using real physics, biological anomalies, or historical timeline overlaps."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Psychology & Brain Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' dropped to 5 views on its duplicate upload. 'The Real Reason Songs Get Stuck In Your Head' generated only 17 views.",
-      "action": "Avoid over-saturated, generic psychology facts. If covering the brain, frame it through a highly specific, bizarre clinical anomaly rather than common daily experiences."
-    },
-    {
-      "pattern": "Passive/Declarative Space Hooks",
-      "evidence": "'This Star Is Older Than the Universe!' generated only 11 views, and 'The Star Colder Than Ice' got 24 views.",
-      "action": "Avoid passive titles that state the fact immediately. Reframe them to build curiosity (e.g., instead of 'This Star Is Older Than the Universe', use 'The Star That Broke the Timeline of Physics')."
+      "pattern": "Repetitive Brain & Psychology Facts",
+      "evidence": "Your Brain Can Create Fake Memories (2fqaGqfsR4A) flatlined at 5 views, and The Real Reason Songs Get Stuck In Your Head (Jc04LVKNd2s) got only 17 views.",
+      "action": "Pivot away from generic cognitive psychology facts unless they can be framed as a terrifying mystery or high-stakes survival scenario."
     }
   ],
   "next_video": {
-    "category": "Space & Cosmic Mysteries",
-    "hook_style": "Sensory Paradox / Material Wonder",
-    "concept": "The Planet Where It Rains Rubies and Sapphires (HAT-P-7b)",
-    "opening_direction": "Start with a visual of liquid gemstones falling from a dark sky: 'Imagine a world where the clouds are made of metal, and it rains actual rubies and sapphires.'",
-    "twist_direction": "Reveal that the planet's atmosphere is so violently hot (over 4,000 degrees) that these gemstones vaporize, turning a beautiful sky into an instantly lethal, boiling jewel-storm.",
-    "duration_seconds": 16,
-    "posting_window": "18:00 - 20:00 UTC",
-    "reason": "Extreme planetary weather conditions and precious materials (like diamonds/rubies) combined with high-stakes survival elements consistently drive the highest views and engagement on this channel."
+    "category": "Space / What-If Scenarios",
+    "hook_style": "Mind-bending cosmic paradox",
+    "concept": "The planet where you could watch the end of the universe in a single afternoon due to extreme gravitational time dilation.",
+    "opening_direction": "Start with: 'If you landed on this planet, you would watch the entire universe age and die in just a few hours.'",
+    "twist_direction": "Reveal that while you experience only a few hours near this supermassive black hole, everyone you left behind on Earth has been dead for billions of years.",
+    "duration_seconds": 18,
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Capitalizes on the strong performance of extreme space physics and cosmic time paradoxes, matching the 16-21 second sweet spot of the channel's top-performing videos."
   },
-  "experiment": "Test a 15-second 'What-If' historical geography mystery (e.g., 'What If the Sahara Desert Suddenly Turned Green?') using cinematic AI visuals to see if the audience transitions well from space anomalies to earth-based speculative science.",
+  "experiment": "Test a 'Cosmic Survival' angle where we explain how a human would theoretically die under the extreme conditions of a specific exoplanet, blending space facts with cinematic survival storytelling.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-13T13:34:36.340505+00:00"
+  "generated_at": "2026-09-13T14:34:36.696041+00:00"
 }
