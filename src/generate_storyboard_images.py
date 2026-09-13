@@ -26,7 +26,7 @@ def main():
     client = genai.Client(api_key=key)
 
     for index, shot in enumerate(shots, 1):
-        target = OUT / f"shot_{index:02d}.png"
+        target = OUT / f"shot_{index:02d}.jpg"
         if target.exists() and target.stat().st_size > 0:
             print(f"Shot {index}: reusing {target}")
             continue
@@ -47,7 +47,7 @@ def main():
             input=prompt,
             response_format={
                 "type": "image",
-                "mime_type": "image/png",
+                "mime_type": "image/jpeg",
                 "aspect_ratio": "9:16",
                 "image_size": "1K",
             },
