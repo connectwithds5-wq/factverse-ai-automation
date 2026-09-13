@@ -2,9 +2,19 @@ name: FACTVERSE Wan 2.2
 
 on:
   workflow_dispatch:
+    inputs:
+      hf_account:
+        description: "Hugging Face account to use for Wan 2.2"
+        required: true
+        default: "2"
+        type: choice
+        options:
+          - "1"
+          - "2"
 
 permissions:
   contents: read
+  actions: read
 
 concurrency:
   group: factverse-wan22
@@ -23,7 +33,7 @@ jobs:
       GEMINI_API_KEY_5: ${{ secrets.GEMINI_API_KEY_5 }}
       GEMINI_MODEL: gemini-2.5-flash
       GEMINI_IMAGE_MODEL: gemini-3.1-flash-image
-      HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      HF_TOKEN: ${{ inputs.hf_account == '2' && secrets.HF_TOKEN_2 || secrets.HF_TOKEN }}
       HF_WAN_SPACE: zerogpu-aoti/wan2-2-fp8da-aoti-faster
       AVATAR_DRIVE_FILE_ID: ${{ secrets.AVATAR_DRIVE_FILE_ID }}
       VIDEO_ENGINE_LABEL: Wan2.2
@@ -53,7 +63,8 @@ jobs:
         run: |
           test -n "$GEMINI_API_KEY" || { echo "ERROR: GEMINI_API_KEY is missing"; exit 1; }
           test -n "$AVATAR_DRIVE_FILE_ID" || { echo "ERROR: AVATAR_DRIVE_FILE_ID is missing"; exit 1; }
-          test -n "$HF_TOKEN" || echo "WARNING: HF_TOKEN is missing; Wan Space access may fail or be rate-limited."
+          test -n "$HF_TOKEN" || { echo "ERROR: selected HF token is missing"; exit 1; }
+          echo "Using Hugging Face account selector: ${{ inputs.hf_account }}"
 
       - name: Download avatar from Google Drive
         run: |
@@ -64,12 +75,41 @@ jobs:
           file output/avatar_reference.jpg
           test -s output/avatar_reference.jpg
 
-      - name: Restore Wan checkpoint from this workflow run
-        uses: actions/download-artifact@v4
+      - name: Restore latest Wan checkpoint from previous run
+        id: restore_checkpoint
         continue-on-error: true
-        with:
-          name: factverse-wan22-checkpoint-${{ github.run_id }}
-          path: output
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "Looking for a previous FACTVERSE Wan 2.2 checkpoint..."
+          PREV_RUN_ID=$(gh api "repos/${GITHUB_REPOSITORY}/actions/workflows/factverse-wan22.yml/runs?status=completed&per_page=20" \
+            --jq '[.workflow_runs[] | select(.id != '${GITHUB_RUN_ID}') | .id] | .[0]')
+          if [ -z "$PREV_RUN_ID" ] || [ "$PREV_RUN_ID" = "null" ]; then
+            echo "No previous completed Wan run found."
+            exit 0
+          fi
+          echo "Previous run: $PREV_RUN_ID"
+          ARTIFACT_NAME=$(gh api "repos/${GITHUB_REPOSITORY}/actions/runs/${PREV_RUN_ID}/artifacts?per_page=100" \
+            --jq '[.artifacts[] | select(.expired == false and (.name | startswith("factverse-wan22-checkpoint-")))] | .[0].name')
+          if [ -z "$ARTIFACT_NAME" ] || [ "$ARTIFACT_NAME" = "null" ]; then
+            echo "No checkpoint artifact found in previous run."
+            exit 0
+          fi
+          echo "Checkpoint artifact: $ARTIFACT_NAME"
+          rm -rf /tmp/wan_checkpoint
+          mkdir -p /tmp/wan_checkpoint
+          gh run download "$PREV_RUN_ID" -n "$ARTIFACT_NAME" -D /tmp/wan_checkpoint
+          if test -s /tmp/wan_checkpoint/storyboard.json && test -d /tmp/wan_checkpoint/wan22_clips; then
+            cp -a /tmp/wan_checkpoint/storyboard.json output/
+            test -f /tmp/wan_checkpoint/metadata.json && cp -a /tmp/wan_checkpoint/metadata.json output/ || true
+            test -d /tmp/wan_checkpoint/wan22_images && cp -a /tmp/wan_checkpoint/wan22_images output/ || true
+            cp -a /tmp/wan_checkpoint/wan22_clips output/
+            test -f /tmp/wan_checkpoint/wan22_manifest.json && cp -a /tmp/wan_checkpoint/wan22_manifest.json output/ || true
+            echo "Checkpoint restored successfully."
+          else
+            echo "Checkpoint artifact exists but is incomplete."
+            exit 0
+          fi
 
       - name: Detect Wan resume state
         run: |
