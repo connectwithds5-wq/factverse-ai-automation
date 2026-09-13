@@ -96,9 +96,9 @@ def main():
     CLIPS.mkdir(exist_ok=True)
 
     missing = [
-        str(IMAGE_DIR / f"shot_{i:02d}.png")
+        str(IMAGE_DIR / f"shot_{i:02d}.jpg")
         for i in range(1, len(shots) + 1)
-        if not (IMAGE_DIR / f"shot_{i:02d}.png").exists()
+        if not (IMAGE_DIR / f"shot_{i:02d}.jpg").exists()
     ]
     if missing:
         raise SystemExit(
@@ -120,7 +120,7 @@ def main():
             print(f"Shot {index}: reusing cached clip")
             continue
 
-        image_path = IMAGE_DIR / f"shot_{index:02d}.png"
+        image_path = IMAGE_DIR / f"shot_{index:02d}.jpg"
         source = generate_shot(client, index, shot, image_path)
         shutil.copy2(source, clip)
         manifest[str(index)] = {
