@@ -1,42 +1,37 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Space anomalies and cosmic physics paradoxes are the dominant drivers of performance on FACTVERSE. Extreme planetary conditions (such as burning ice, coal-dark atmospheres, and molten iron rain) consistently outperform standard biological trivia and over-saturated psychology topics. Relatable but mind-bending physical paradoxes (like gravitational time dilation affecting head vs. feet aging) also show strong potential when framed around personal relevance.",
+  "overall_summary": "The channel's highest-performing content revolves around extreme cosmic anomalies and bizarre exoplanets, with videos like 'The Planet of Burning Ice' and 'The Planet Darker Than Coal' leading in views and engagement. Conversely, cognitive psychology, brain tricks, and general animal trivia are underperforming, indicating that the audience is highly receptive to grand, cinematic, and mind-bending space mysteries rather than micro-level human biology.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanet & Space Anomalies",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' (1,055 views), 'The Planet Darker Than Coal: TrES-2b' (963 views), and 'The Planet Where It Rains Molten Iron!' (353 views) represent the channel's highest-performing tier.",
-      "action": "Double down on bizarre cosmic phenomena and exoplanets with extreme, highly visual weather or physical properties."
+      "pattern": "Extreme Exoplanets & Cosmic Anomalies",
+      "evidence": "'The Planet of Burning Ice' (vWd0uYcEGh4) secured 1,055 views, and 'The Planet Darker Than Coal: TrES-2b' (v1rrcZLdp4U) achieved 963 views with 34 likes.",
+      "action": "Prioritize a dedicated series focusing on the most extreme, terrifying, and bizarre planets discovered in the deep universe."
     },
     {
-      "pattern": "Relatable Physics & Relativity Paradoxes",
-      "evidence": "'Why Your Head Is Older Than Your Feet' achieved 262 views by framing gravitational time dilation as a personal, mind-bending biological fact.",
-      "action": "Produce content that explains complex physics or cosmic laws using the human body or daily life as a reference point."
+      "pattern": "Mind-Bending Scale & Time Comparisons",
+      "evidence": "'Sharks Are Older Than Trees' (bfT7qzZ6aJQ) reached 302 views, and 'Why Your Head Is Older Than Your Feet' (c_ya3kvpuoI) reached 262 views.",
+      "action": "Develop content that contrasts everyday human perception with shocking geological, biological, or physics-based realities."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Over-Saturated Psychology & Brain Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' (5 views / 53 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views / 71 views) consistently fail to capture audience interest.",
-      "action": "Avoid generic self-help or basic cognitive psychology facts unless they can be tied to a shocking historical mystery or a high-stakes survival scenario."
-    },
-    {
-      "pattern": "Static Biological Trivia",
-      "evidence": "'Octopuses Have THREE Hearts' (118 views / 183 views) and 'The Only Animal That Can Live Forever' (69 views) underperform compared to cosmic topics.",
-      "action": "Pivot animal content away from simple textbook facts and toward cinematic survival narratives or bizarre evolutionary anomalies."
+      "pattern": "Cognitive Psychology & Brain Hacks",
+      "evidence": "'Your Brain Can Create Fake Memories' (5AN7LUgqarc) stalled at 53 views, and 'The Real Reason Songs Get Stuck In Your Head' (Jc04LVKNd2s) generated only 17 views.",
+      "action": "Deprioritize standard self-help or cognitive psychology facts, as they lack the high-stakes curiosity gap needed for Shorts."
     }
   ],
   "next_video": {
-    "category": "Space / Cosmic Paradox",
-    "hook_style": "Relatable Time-Dilation Paradox",
-    "concept": "The Planet Where You Age in Reverse (The physics of time dilation near a black hole)",
-    "opening_direction": "Show a ticking clock melting into a black hole with the voiceover: 'If you spent just one hour on this planet, everyone you have ever loved on Earth would already be dead.'",
-    "twist_direction": "Reveal that this isn't science fiction, but a real consequence of Einstein's relativity near supermassive black holes where gravity literally stretches time like rubber.",
+    "category": "Space Mysteries",
+    "hook_style": "Visual Paradox Hook",
+    "concept": "The Egg-Shaped Planet Being Eaten Alive (WASP-12b)",
+    "opening_direction": "Show a cinematic render of a pitch-black, egg-shaped planet being stretched apart, starting with: 'This planet is actively being eaten alive by its own star.'",
+    "twist_direction": "Explain that the star's extreme gravity is pulling the planet into an egg shape, stripping its atmosphere, and giving it a remaining lifespan of only 3 million years.",
     "duration_seconds": 18,
-    "posting_window": "18:00 - 20:00 UTC",
-    "reason": "Combines the high-performing 'space anomaly' theme with the successful 'time paradox' framing of the head-vs-feet aging video."
+    "posting_window": "13:00 - 15:00 UTC",
+    "reason": "Capitalizes on the proven high performance of extreme exoplanet topics (like TrES-2b and Gliese 436b) while using a highly visual, high-stakes hook."
   },
-  "experiment": "Test a cinematic historical storytelling Short focusing on a bizarre, unsolved historical mystery (e.g., the Dancing Plague or the Voynich Manuscript) using AI-generated cinematic visuals to see if history can match the high retention of space anomalies.",
+  "experiment": "Test a 'Cosmic Horror' narrative tone on the next space video to determine if framing scientific space facts with cinematic tension increases retention and comment engagement.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-14T11:38:28.387463+00:00"
+  "generated_at": "2026-09-14T12:42:47.762714+00:00"
 }
