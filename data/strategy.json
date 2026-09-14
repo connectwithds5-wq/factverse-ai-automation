@@ -1,21 +1,42 @@
 {
   "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Space and cosmic anomaly topics are the clear drivers of reach and engagement on the channel, with videos about extreme planetary conditions (burning ice, coal-dark planets, supersonic rubies) consistently outperforming psychology and basic animal trivia. Viewers are highly attracted to extreme, sensory-driven cosmic facts, whereas standard brain facts and common animal trivia fail to capture interest.",
+  "winning_patterns": [
+    {
+      "pattern": "Extreme Cosmic Anomalies & Sensory Exoplanets",
+      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (971 views), and 'This Planet Rains Supersonic Rubies!' (536 views) are the top-performing videos.",
+      "action": "Focus heavily on bizarre exoplanets, cosmic weather, and extreme space phenomena. Use highly sensory hooks (smell, color, extreme heat/cold) to spark immediate curiosity."
+    },
+    {
+      "pattern": "Mind-Bending Time & Biological Paradoxes",
+      "evidence": "'Sharks Are Older Than Trees?' (302 views) and 'Why Your Head Is Older Than Your Feet' (262 views) show solid mid-tier performance.",
+      "action": "Frame historical, geographical, or biological facts as impossible timelines or physical paradoxes that challenge common sense."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Generic Psychology & Brain Mechanics",
+      "evidence": "'Your Brain Can Create Fake Memories' (3-53 views across multiple uploads) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently underperform.",
+      "action": "Avoid standard textbook psychology facts. If covering mind/brain topics, frame them as high-stakes mysteries, survival scenarios, or dark psychological phenomena."
+    },
+    {
+      "pattern": "Common Animal Trivia",
+      "evidence": "'Octopuses Have THREE Hearts' (183 views) and 'The Only Animal That Can Live Forever' (69 views) struggle to gain traction.",
+      "action": "Steer clear of widely known animal facts. Pivot to cinematic animal survival stories or highly unusual, lesser-known evolutionary adaptations."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space",
+    "hook_style": "High-Stakes Cosmic Threat",
+    "concept": "The egg-shaped planet being eaten alive by its own star (WASP-12b).",
+    "opening_direction": "Show a hyper-realistic cinematic render of a pitch-black, egg-shaped planet being violently stretched as its atmosphere is sucked into a giant star.",
+    "twist_direction": "Reveal that the planet is being distorted by intense gravity and has less than 10 million years left before it is completely consumed and erased.",
+    "duration_seconds": 18,
+    "posting_window": "12:30 PM - 1:30 PM",
+    "reason": "Capitalizes on the highly successful exoplanet theme (similar to TrES-2b and the Planet of Burning Ice) by combining extreme cosmic conditions with a high-stakes, time-sensitive threat."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-14T17:36:35.291027+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-14T17:36:35.291050+00:00"
+  "experiment": "Test a 'What-If' space scenario, such as 'What If the Moon Was Only 100 Miles Away?', to see if speculative cosmic physics can match the high performance of exoplanet facts.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-14T18:41:07.748547+00:00"
 }
