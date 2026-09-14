@@ -1,37 +1,32 @@
 {
   "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Space and cosmic anomaly content dominates the channel's performance, particularly extreme planetary environments (e.g., burning ice, coal-dark planets, molten iron rain). Conversely, generic brain and cognitive psychology facts struggle to gain traction, indicating that viewers prefer high-concept cosmic scale and physical paradoxes over internal mental mechanics.",
+  "overall_summary": "Space-themed content focusing on extreme cosmic anomalies, bizarre planetary environments, and mind-bending cosmic scale significantly outperforms general psychology and animal facts. Videos with durations between 16 to 21 seconds that leverage high-curiosity, sensory, or extreme hooks (e.g., burning ice, coal-dark planets) drive the highest engagement and view counts.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Cosmic Environments & Planetary Anomalies",
-      "evidence": "'The Planet of Burning Ice' (1,055 views) and 'The Planet Darker Than Coal' (909 views, 34 likes) are the top performers, showing strong engagement for extreme, hard-to-imagine space conditions.",
-      "action": "Double down on extreme exoplanets, cosmic anomalies, and sensory space facts (e.g., what space smells like) using highly descriptive, high-contrast imagery."
-    },
-    {
-      "pattern": "Temporal & Physical Paradoxes",
-      "evidence": "'Why Your Head Is Older Than Your Feet' (262 views) and 'Sharks Are Older Than Trees?' (302 views) perform well by challenging the viewer's perception of time and history.",
-      "action": "Frame scientific or historical facts as mind-bending timeline clashes or physical paradoxes."
+      "pattern": "Extreme Cosmic Anomalies & Planetary Weather",
+      "evidence": "'The Planet of Burning Ice' (1,055 views) and 'The Planet Darker Than Coal' (927 views) are the channel's top performers.",
+      "action": "Double down on extreme space conditions, bizarre planets, and cosmic mysteries, using vivid sensory descriptions (e.g., smell, taste, extreme temperature)."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Cognitive Psychology & Brain Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' (max 52 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently underperform.",
-      "action": "Avoid standard self-help or basic cognitive psychology facts; pivot to high-stakes mysteries or external cosmic phenomena."
+      "pattern": "Repetitive Psychology & Brain Trivia",
+      "evidence": "'The Real Reason Songs Get Stuck In Your Head' (17 views) and 'Your Brain Can Create Fake Memories' (52 views) consistently struggle to gain traction.",
+      "action": "Pivot away from generic 'Your Brain' psychology facts, or reframe them with highly dramatic, cinematic storytelling rather than simple trivia."
     }
   ],
   "next_video": {
-    "category": "Space Mysteries",
-    "hook_style": "High-stakes cosmic doom",
-    "concept": "WASP-12b, the egg-shaped planet being actively eaten by its parent star.",
-    "opening_direction": "Show a distorted, egg-shaped planet being violently stretched and stripped of its atmosphere by a glowing star.",
-    "twist_direction": "Reveal that this cosmic cannibalism is happening in real-time, and the planet has less than 10 million years before it is completely devoured.",
-    "duration_seconds": 18,
-    "posting_window": "19:00 - 21:00 UTC",
-    "reason": "Leverages the highly successful 'extreme space/planet' formula that drove top views for the burning ice and coal-dark planet videos, utilizing strong visual metaphors of cosmic destruction."
+    "category": "Space",
+    "hook_style": "Cosmic Terror / Extreme Gravity",
+    "concept": "WASP-12b: The Planet Being Eaten Alive",
+    "opening_direction": "Start with a visual of a distorted, egg-shaped planet stretching under immense gravity: 'This planet is actively being eaten alive by its own star.'",
+    "twist_direction": "Reveal that the star's extreme tidal forces are stretching the planet into a football shape, consuming its atmosphere until it completely vanishes in a cosmic blink of an eye.",
+    "duration_seconds": 20,
+    "posting_window": "13:00 - 15:00 UTC",
+    "reason": "Aligns with the highly successful 21-second format of TrES-2b (927 views) and leverages the proven 'extreme space anomaly' theme."
   },
-  "experiment": "Test a 'What-If' space scenario focusing on Earth (e.g., 'What If Earth Had Saturn's Rings?') to see if the cosmic anomaly audience translates to localized high-concept space scenarios.",
+  "experiment": "Test a 'What-If' cinematic space survival scenario (e.g., 'What if you fell into a planet of liquid iron?') to merge the high-performing space category with the channel's cinematic survival niche.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-14T00:42:40.297486+00:00"
+  "generated_at": "2026-09-14T01:36:00.492272+00:00"
 }
