@@ -101,33 +101,47 @@ def main():
     build_audio(narration, target)
     client = Client(space, token=TOKEN) if TOKEN else Client(space)
 
-    if name.startswith("LongCat"):
+    if name == "EchoMimicV3":
+        # EchoMimicV3-Demo uses @spaces.GPU(duration=120), safely below
+        # the current free-tier ZeroGPU request ceiling. Audio determines the
+        # final video length; keep the test shot short (3-5s).
         result = client.predict(
             handle_file(str(AVATAR)),
             handle_file(str(AUDIO)),
-            "A person is speaking naturally and expressively to camera, with realistic facial motion and subtle emotion.",
-            "480p",
-            42,
+            "A person talking naturally with clear expressions.",
+            "Gesture is bad, unclear. Strange, twisted, bad, blurry hands and fingers.",
+            -1,
+            20,
+            4.5,
+            2.5,
+            25,
+            113,
+            8,
+            1.5,
+            2,
+            True,
+            True,
+            "Flow_DPM++",
+            5.0,
+            1.0,
+            False,
+            True,
+            0.1,
+            True,
+            5,
+            False,
+            6,
             api_name=api_name,
         )
-    elif name == "EchoMimic":
-        # Shared ZeroGPU Space exposes the documented generate_video signature.
+    elif name == "SadTalker":
+        # Conservative 256px fallback. Public Space has no paid API key.
         result = client.predict(
             handle_file(str(AVATAR)),
             handle_file(str(AUDIO)),
-            512,
-            512,
-            120,
-            420,
-            0.1,
-            0.5,
-            12,
-            3,
-            2.5,
-            30,
-            16000,
-            24,
-            "cuda",
+            "crop",
+            False,
+            0,
+            1.0,
             api_name=api_name,
         )
     else:
