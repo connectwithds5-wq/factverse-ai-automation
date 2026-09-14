@@ -93,18 +93,36 @@ def main():
     space = choice["space"]
     api_name = choice["api_name"]
     name = choice["name"]
+    max_gpu = int(choice.get("max_gpu_seconds", 0))
     print(f"SELECTED FREE MODEL: {name}", flush=True)
     print(f"SPACE: {space}", flush=True)
     print(f"ENDPOINT: {api_name}", flush=True)
+    print(f"DECLARED GPU REQUEST CEILING: {max_gpu}s", flush=True)
     print("THIS STEP PERFORMS EXACTLY ONE VIDEO GENERATION. NO RETRIES.", flush=True)
 
     build_audio(narration, target)
     client = Client(space, token=TOKEN) if TOKEN else Client(space)
 
-    if name == "EchoMimicV3":
-        # EchoMimicV3-Demo uses @spaces.GPU(duration=120), safely below
-        # the current free-tier ZeroGPU request ceiling. Audio determines the
-        # final video length; keep the test shot short (3-5s).
+    if name == "LTX23Sync":
+        # LTX 2.3 Sync exposes image + optional override audio. Its current
+        # generation function is declared with @spaces.GPU(duration=100).
+        # We use a short 3-5s clip at the low 768x512 preset.
+        result = client.predict(
+            handle_file(str(AVATAR)),
+            None,
+            "The person speaks naturally to camera with subtle facial expressions and small natural hand gestures.",
+            target,
+            0.85,
+            False,
+            True,
+            42,
+            False,
+            512,
+            768,
+            handle_file(str(AUDIO)),
+            api_name=api_name,
+        )
+    elif name == "EchoMimicV3":
         result = client.predict(
             handle_file(str(AVATAR)),
             handle_file(str(AUDIO)),
@@ -131,17 +149,6 @@ def main():
             5,
             False,
             6,
-            api_name=api_name,
-        )
-    elif name == "SadTalker":
-        # Conservative 256px fallback. Public Space has no paid API key.
-        result = client.predict(
-            handle_file(str(AVATAR)),
-            handle_file(str(AUDIO)),
-            "crop",
-            False,
-            0,
-            1.0,
             api_name=api_name,
         )
     else:
