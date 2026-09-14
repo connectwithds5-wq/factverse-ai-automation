@@ -10,8 +10,9 @@ jobs:
   s2v-test:
     name: One-shot S2V quality test
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 30
     env:
+      PYTHONUNBUFFERED: "1"
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
       GEMINI_API_KEY_3: ${{ secrets.GEMINI_API_KEY_3 }}
@@ -20,7 +21,8 @@ jobs:
       GEMINI_MODEL: gemini-2.5-flash
       HF_TOKEN: ${{ secrets.HF_TOKEN }}
       HF_TOKEN_2: ${{ secrets.HF_TOKEN_2 }}
-      HF_S2V_SPACE: Wan-AI/Wan2.2-S2V
+      HF_S2V_SPACE: mjinabq/Wan2.2-S2V
+      HF_S2V_RESOLUTION: 480P
       AVATAR_DRIVE_FILE_ID: ${{ secrets.AVATAR_DRIVE_FILE_ID }}
 
     steps:
@@ -57,14 +59,19 @@ jobs:
             -o output/avatar_reference.jpg
           test -s output/avatar_reference.jpg
 
+      - name: Zero-cost S2V endpoint preflight
+        run: |
+          python src/wan22_s2v_preflight.py
+
       - name: Build one storyboard (no video generation)
         run: |
           python src/generate_with_strategy.py
           python src/duplicate_guard.py
           python src/storyboard_builder.py
 
-      - name: Run one-shot S2V generation
-        run: python src/wan22_s2v_test.py
+      - name: Run one-shot S2V generation (hard capped)
+        run: |
+          timeout --signal=TERM --kill-after=30s 15m python src/wan22_s2v_test.py
 
       - name: Verify output
         run: |
