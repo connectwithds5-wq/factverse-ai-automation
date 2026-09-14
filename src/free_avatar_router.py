@@ -58,8 +58,8 @@ def main():
         try:
             state = space_state(space)
             print(f"  HF SPACE STATE: {state}", flush=True)
-            if state in {"BUILD_ERROR", "RUNTIME_ERROR", "PAUSED", "STOPPED"}:
-                print("  SKIP: Space is not runnable", flush=True)
+            if state != "RUNNING":
+                print("  SKIP: Space is not currently RUNNING", flush=True)
                 continue
 
             client = Client(space, token=TOKEN) if TOKEN else Client(space)
@@ -76,7 +76,7 @@ def main():
                     **candidate,
                     "api_name": matches[0],
                     "space_state": state,
-                    "reason": "verified runnable free image+audio->video endpoint",
+                    "reason": "verified RUNNING free image+audio->video endpoint",
                 }
                 CHOICE.write_text(json.dumps(choice, indent=2), encoding="utf-8")
                 print(f"\nSELECTED: {choice['name']} ({choice['space']}) {choice['api_name']}", flush=True)
