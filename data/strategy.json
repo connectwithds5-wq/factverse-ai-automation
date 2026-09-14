@@ -1,32 +1,21 @@
 {
   "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Space-themed content focusing on extreme cosmic anomalies, bizarre planetary environments, and mind-bending cosmic scale significantly outperforms general psychology and animal facts. Videos with durations between 16 to 21 seconds that leverage high-curiosity, sensory, or extreme hooks (e.g., burning ice, coal-dark planets) drive the highest engagement and view counts.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Cosmic Anomalies & Planetary Weather",
-      "evidence": "'The Planet of Burning Ice' (1,055 views) and 'The Planet Darker Than Coal' (927 views) are the channel's top performers.",
-      "action": "Double down on extreme space conditions, bizarre planets, and cosmic mysteries, using vivid sensory descriptions (e.g., smell, taste, extreme temperature)."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Repetitive Psychology & Brain Trivia",
-      "evidence": "'The Real Reason Songs Get Stuck In Your Head' (17 views) and 'Your Brain Can Create Fake Memories' (52 views) consistently struggle to gain traction.",
-      "action": "Pivot away from generic 'Your Brain' psychology facts, or reframe them with highly dramatic, cinematic storytelling rather than simple trivia."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space",
-    "hook_style": "Cosmic Terror / Extreme Gravity",
-    "concept": "WASP-12b: The Planet Being Eaten Alive",
-    "opening_direction": "Start with a visual of a distorted, egg-shaped planet stretching under immense gravity: 'This planet is actively being eaten alive by its own star.'",
-    "twist_direction": "Reveal that the star's extreme tidal forces are stretching the planet into a football shape, consuming its atmosphere until it completely vanishes in a cosmic blink of an eye.",
-    "duration_seconds": 20,
-    "posting_window": "13:00 - 15:00 UTC",
-    "reason": "Aligns with the highly successful 21-second format of TrES-2b (927 views) and leverages the proven 'extreme space anomaly' theme."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'What-If' cinematic space survival scenario (e.g., 'What if you fell into a planet of liquid iron?') to merge the high-performing space category with the channel's cinematic survival niche.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-14T01:36:00.492272+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-14T02:37:20.908902+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-14T02:37:20.908919+00:00"
 }
