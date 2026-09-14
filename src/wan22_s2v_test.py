@@ -15,12 +15,13 @@ VOICE_MODEL = VOICE_DIR / "en_US-lessac-medium.onnx"
 SHOT_AUDIO = OUTPUT / "s2v_test_voice.wav"
 SHOT_VIDEO = OUTPUT / "s2v_test.mp4"
 
-SPACE = os.getenv("HF_S2V_SPACE", "Wan-AI/Wan2.2-S2V")
+SPACE = os.getenv("HF_S2V_SPACE", "mjinabq/Wan2.2-S2V")
+RESOLUTION = os.getenv("HF_S2V_RESOLUTION", "480P")
 TOKEN = os.getenv("HF_TOKEN_2") or os.getenv("HF_TOKEN") or None
 
 
 def run(cmd):
-    print("RUN:", " ".join(map(str, cmd)))
+    print("RUN:", " ".join(map(str, cmd)), flush=True)
     subprocess.run(cmd, check=True)
 
 
@@ -77,7 +78,7 @@ def main():
     if not VOICE_MODEL.exists():
         raise SystemExit("Piper voice model unavailable")
 
-    print(f"S2V test narration: {narration}")
+    print(f"S2V test narration: {narration}", flush=True)
     raw = OUTPUT / "s2v_test_voice_raw.wav"
     run([
         os.sys.executable, "-m", "piper", "--model", str(VOICE_MODEL),
@@ -93,19 +94,21 @@ def main():
     else:
         shutil.copy2(raw, SHOT_AUDIO)
 
+    print(f"Connecting to S2V Space: {SPACE}", flush=True)
     client = Client(SPACE, token=TOKEN) if TOKEN else Client(SPACE)
-    print(f"Calling verified S2V endpoint: {SPACE} /predict")
+    print(f"Calling /predict at {SPACE} ({RESOLUTION}) — this is the ONLY compute generation in this test.", flush=True)
     result = client.predict(
         handle_file(str(AVATAR)),
         handle_file(str(SHOT_AUDIO)),
-        "720P",
+        RESOLUTION,
         api_name="/predict",
     )
+    print("S2V endpoint returned; extracting video...", flush=True)
     source = Path(extract_video(result))
     if not source.exists() or source.stat().st_size == 0:
         raise RuntimeError(f"S2V returned missing/empty video: {source}")
     shutil.copy2(source, SHOT_VIDEO)
-    print(f"S2V TEST SUCCESS: {SHOT_VIDEO} ({duration(SHOT_VIDEO):.2f}s)")
+    print(f"S2V TEST SUCCESS: {SHOT_VIDEO} ({duration(SHOT_VIDEO):.2f}s)", flush=True)
 
 
 if __name__ == "__main__":
