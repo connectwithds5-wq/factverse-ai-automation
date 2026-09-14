@@ -1,32 +1,32 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Space and exoplanet anomalies are the clear drivers of growth for FACTVERSE, with videos about extreme planetary conditions (burning ice, coal-dark planets, ruby rain) consistently gaining the highest views and engagement. Conversely, cognitive psychology and brain-related facts struggle to capture audience interest, showing extremely low view counts.",
+  "overall_summary": "Space and planetary extreme anomalies are the clear performance drivers for FACTVERSE, with cosmic weather and hostile planets ('Burning Ice', 'Darker Than Coal', 'Supersonic Rubies') generating the highest views and engagement. Conversely, generic psychology facts and basic animal trivia are underperforming due to high saturation and low novelty.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanet Anomalies & Space Paradoxes",
-      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (971 views), and 'This Planet Rains Supersonic Rubies!' (598 views) represent the top tier of performance and engagement.",
-      "action": "Double down on bizarre celestial bodies, cosmic anomalies, and extreme space physics, using high-contrast sensory descriptions in titles."
+      "pattern": "Extreme Cosmic Environments & Hostile Planets",
+      "evidence": "Videos like 'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (971 views), and 'This Planet Rains Supersonic Rubies' (605 views) represent the top tier of performance.",
+      "action": "Double down on extreme space anomalies, focusing on hostile planets, bizarre cosmic weather, and mind-bending physics of the universe."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Cognitive Psychology & Brain Tricks",
-      "evidence": "'Your Brain Can Create Fake Memories' (max 53 views across multiple attempts) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction.",
-      "action": "Pivot away from general cognitive psychology and self-help brain facts, or reframe them through a historical mystery or sci-fi lens."
+      "pattern": "Generic Psychology & Overplayed Animal Trivia",
+      "evidence": "'Your Brain Can Create Fake Memories' struggled to exceed 53 views across multiple attempts, and 'The Real Reason Songs Get Stuck In Your Head' got only 17 views.",
+      "action": "Pivot away from basic psychology and common animal facts (like octopus hearts) unless they have a highly unusual, cinematic survival or horror angle."
     }
   ],
   "next_video": {
-    "category": "Space / Exoplanet Mystery",
-    "hook_style": "Visual & Physical Paradox",
-    "concept": "The Egg-Shaped Planet Being Eaten Alive (WASP-12b)",
-    "opening_direction": "Start with a high-contrast visual description: 'This planet isn't round—it's shaped like a giant egg, and it's actively being eaten alive by its own star.'",
-    "twist_direction": "Explain that the star's extreme gravitational pull is stretching the planet into an oval while stripping away its atmosphere at a rate of billions of tons per second.",
+    "category": "Space",
+    "hook_style": "Visual Paradox & Cosmic Terror",
+    "concept": "The Egg-Shaped Planet Being Devoured Alive (WASP-12b)",
+    "opening_direction": "Show a highly distorted, egg-shaped planet stretching and tearing apart as it gets sucked into a massive star.",
+    "twist_direction": "Explain that the star is literally eating the planet's atmosphere, and in cosmic terms, it will be completely gone in the blink of an eye.",
     "duration_seconds": 18,
     "posting_window": "19:00 - 21:00 UTC",
-    "reason": "Leverages the highly successful exoplanet anomaly trend by combining a bizarre physical shape (egg) with a dramatic cosmic event (being eaten alive)."
+    "reason": "Leverages the highly successful 'extreme space anomaly' formula while introducing a dramatic, time-sensitive cosmic event that triggers high retention."
   },
-  "experiment": "Test a 'What-If' cosmic scenario, such as 'What If the Moon Was Made of Dark Matter?', to see if the space audience responds to hypothetical physics storytelling.",
+  "experiment": "Test a 'What-If' space survival scenario (e.g., 'What If You Fell Into a Planet of Burning Ice?') to combine the winning space category with cinematic survival storytelling.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-14T22:37:47.190487+00:00"
+  "generated_at": "2026-09-14T23:33:28.980452+00:00"
 }
