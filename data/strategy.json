@@ -1,42 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "The channel's performance is heavily driven by extreme space anomalies and planetary facts (e.g., planets of burning ice, coal-dark atmospheres, and metallic rain), which consistently achieve the highest view counts (up to 1,055 views) and engagement. In contrast, psychology, brain hacks, and cognitive facts are severely underperforming, rarely breaking 100 views.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Space & Planetary Anomalies",
-      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (965 views), and 'The Planet Where It Rains Molten Iron' (353 views) represent the top tier of performance.",
-      "action": "Double down on extreme cosmic environments, bizarre planetary weather, and mind-bending space physics."
-    },
-    {
-      "pattern": "High-Curiosity Science Paradoxes",
-      "evidence": "'Sharks Are Older Than Trees' (302 views) and 'Why Your Head Is Older Than Your Feet' (262 views) show solid baseline performance.",
-      "action": "Incorporate comparative science facts that challenge common sense or time perception."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Psychology & Cognitive Hacks",
-      "evidence": "'Your Brain Is Hiding This From You' (38 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction.",
-      "action": "Pivot away from cognitive psychology and brain tricks to focus resources on cosmic and physical science."
-    },
-    {
-      "pattern": "Repetitive Re-uploading of Low-Performing Concepts",
-      "evidence": "Re-uploading 'Your Brain Can Create Fake Memories' multiple times resulted in extremely low views (5, 53, and 0 views).",
-      "action": "Avoid re-uploading concepts that fail to clear the initial view threshold; instead, iterate on the topic or change the niche entirely."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space",
-    "hook_style": "Extreme planetary paradox",
-    "concept": "The Planet Where It Rains Rocks: K2-141b",
-    "opening_direction": "Start with a dramatic visual hook: 'There is a planet in our galaxy where the sky literally rains giant rocks.'",
-    "twist_direction": "Explain that the planet is so close to its star that oceans of lava vaporize into rock clouds, which then rain solid stone on the freezing dark side.",
-    "duration_seconds": 18,
-    "posting_window": "13:00 - 15:00 UTC",
-    "reason": "Capitalizes on the proven success of extreme planetary weather conditions (like molten iron and burning ice) which drive the highest views and engagement on the channel."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a cinematic 'What-If' space scenario, such as 'What If the Earth Stopped Spinning for One Second?', to see if the space audience engages with high-stakes hypothetical storytelling.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-14T13:38:50.870231+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-14T14:39:15.082594+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-14T14:39:15.082619+00:00"
 }
