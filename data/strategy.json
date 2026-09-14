@@ -1,37 +1,32 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Space and cosmic anomalies featuring extreme planetary conditions and striking sensory paradoxes vastly outperform generic cognitive psychology and brain facts. Videos with durations between 16-21 seconds that challenge basic physics and use high-contrast visual hooks drive the highest views and engagement.",
+  "overall_summary": "Space-themed shorts, particularly those focusing on extreme exoplanet conditions, paradoxical physics, and bizarre cosmic weather, are the clear drivers of growth for FACTVERSE. Conversely, over-saturated psychology and brain trivia topics consistently underperform, failing to capture viewer attention in the first few seconds.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Cosmic Paradoxes",
-      "evidence": "'The Planet of Burning Ice' (1,055 views) and 'The Planet Darker Than Coal' (953 views) are the channel's top performers.",
-      "action": "Double down on extreme space anomalies, focusing on planets with physics-defying or highly contrasting features."
-    },
-    {
-      "pattern": "Sensory-Defying Cosmic Questions",
-      "evidence": "'What Does Outer Space Actually Smell Like?' achieved 368 views, showing strong audience interest in physical sensations applied to space.",
-      "action": "Incorporate sensory descriptions (smell, taste, touch) into cosmic storytelling to make abstract space concepts tangible."
+      "pattern": "Extreme Exoplanet Weather & Paradoxical Physics",
+      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' achieved 1,055 views, and 'The Planet Darker Than Coal: TrES-2b' secured 963 views and 34 likes, showing the highest engagement on the channel.",
+      "action": "Focus content production on bizarre cosmic anomalies, extreme planetary climates, and mind-bending space phenomena with highly visual, sensory-rich hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Brain & Psychology Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' (5 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction.",
-      "action": "Pivot away from generic cognitive psychology facts unless they can be framed with an intense, high-stakes mystery hook."
+      "pattern": "Over-saturated Psychology & Brain Trivia",
+      "evidence": "'Your Brain Can Create Fake Memories' generated only 5 to 53 views, and 'The Real Reason Songs Get Stuck In Your Head' stalled at 17 views.",
+      "action": "De-prioritize generic psychological facts. If psychology is covered, it must be framed through a cinematic, high-stakes micro-story rather than dry trivia."
     }
   ],
   "next_video": {
-    "category": "Space & Cosmic Mysteries",
-    "hook_style": "Sensory Paradox",
-    "concept": "A planet where ice exists at temperatures hotter than a furnace due to immense gravitational pressure.",
-    "opening_direction": "Start with a visual of blazing fire burning on a solid block of ice with the voiceover: 'This ice is hotter than a furnace, and it's not melting.'",
-    "twist_direction": "Reveal that the planet's gravity is so crushing it forces water into a solid state despite temperatures reaching 800 degrees.",
+    "category": "Space",
+    "hook_style": "Cosmic Cannibalism & Visual Distortion",
+    "concept": "The Egg-Shaped Planet Being Eaten Alive (WASP-12b)",
+    "opening_direction": "Show a realistic CGI render of a distorted, egg-shaped planet being stretched apart by a massive star with the hook: 'This planet is shaped like an egg because its own star is literally eating it alive.'",
+    "twist_direction": "Reveal that the planet is being devoured so rapidly that it loses 189 quadrillion tons of mass every year, meaning it will completely vanish in a cosmic blink of an eye.",
     "duration_seconds": 18,
-    "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Capitalizes on the massive success of 'The Planet of Burning Ice' by using a similar high-retention sensory paradox that challenges basic physics."
+    "posting_window": "17:00 - 20:00 UTC",
+    "reason": "Capitalizes on the proven success of extreme exoplanet conditions while utilizing a highly shocking visual hook (egg-shaped planet) and high-stakes cosmic destruction."
   },
-  "experiment": "Test a 3-part micro-series on 'Planets That Shouldn't Exist' to build viewer retention and encourage playlist-style binge-watching.",
+  "experiment": "Test a cinematic 'What-If' space disaster scenario, such as 'What If Earth Was Sucked Into a Wandering Rogue Planet?', to see if combining extreme space physics with catastrophic survival storytelling increases viewer retention.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-14T08:39:05.001737+00:00"
+  "generated_at": "2026-09-14T09:38:28.801228+00:00"
 }
