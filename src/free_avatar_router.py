@@ -1,24 +1,24 @@
 import json
-import os
 from pathlib import Path
 
 from gradio_client import Client
 
 OUTPUT = Path("output")
 CHOICE = OUTPUT / "free_avatar_choice.json"
-TOKEN = os.getenv("HF_TOKEN_2") or os.getenv("HF_TOKEN") or None
+TOKEN = __import__("os").getenv("HF_TOKEN_2") or __import__("os").getenv("HF_TOKEN") or None
 
-# Priority is deliberately conservative: only public ZeroGPU Spaces with verified
-# image+audio -> video implementations are candidates. No generation is done here.
+# Free-tier-safe order. LongCat-Video-Avatar-1.5 is intentionally excluded:
+# its public Space currently requests 480s GPU allocation while the free-tier
+# maximum is lower, so it fails before inference starts.
 CANDIDATES = [
     {
-        "name": "LongCat-Video-Avatar-1.5",
-        "space": "victor/LongCat-Video-Avatar-1.5",
+        "name": "EchoMimicV3",
+        "space": "artificialguybr/EchoMimicV3-Demo",
         "priority": 1,
     },
     {
-        "name": "EchoMimic",
-        "space": "fffiloni/EchoMimic",
+        "name": "SadTalker",
+        "space": "henrybit/SadTalker-Demo",
         "priority": 2,
     },
 ]
@@ -26,8 +26,8 @@ CANDIDATES = [
 
 def endpoint_is_avatar(endpoint):
     text = json.dumps(endpoint, ensure_ascii=False).lower()
-    has_image = any(x in text for x in ("image", "reference image", "portrait", "ref_img"))
-    has_audio = any(x in text for x in ("audio", "driving audio", "input audio"))
+    has_image = any(x in text for x in ("image", "reference image", "portrait", "source_image"))
+    has_audio = any(x in text for x in ("audio", "driving audio", "input audio", "driven_audio"))
     has_video = any(x in text for x in ("video", "output_video", "output video"))
     return has_image and has_audio and has_video
 
@@ -56,7 +56,7 @@ def main():
                 choice = {
                     **candidate,
                     "api_name": matches[0],
-                    "reason": "verified image+audio->video endpoint",
+                    "reason": "verified free image+audio->video endpoint",
                 }
                 CHOICE.write_text(json.dumps(choice, indent=2), encoding="utf-8")
                 print(f"\nSELECTED: {choice['name']} ({choice['space']}) {choice['api_name']}", flush=True)
