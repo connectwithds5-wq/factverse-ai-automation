@@ -1,32 +1,37 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Space-themed shorts, particularly those focusing on extreme exoplanet conditions, paradoxical physics, and bizarre cosmic weather, are the clear drivers of growth for FACTVERSE. Conversely, over-saturated psychology and brain trivia topics consistently underperform, failing to capture viewer attention in the first few seconds.",
+  "overall_summary": "The channel is experiencing its strongest traction with cosmic anomalies and extreme planetary physics (e.g., planets of burning ice, coal-dark atmospheres, and molten iron rain), which consistently outperform general psychology and biology facts. Mind-bending comparisons (e.g., sharks older than trees, head aging faster than feet) also show moderate success, while standard brain/psychology facts struggle to gain momentum.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanet Weather & Paradoxical Physics",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' achieved 1,055 views, and 'The Planet Darker Than Coal: TrES-2b' secured 963 views and 34 likes, showing the highest engagement on the channel.",
-      "action": "Focus content production on bizarre cosmic anomalies, extreme planetary climates, and mind-bending space phenomena with highly visual, sensory-rich hooks."
+      "pattern": "Extreme Space & Planetary Anomalies",
+      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (963 views, 34 likes), and 'The Planet Where It Rains Molten Iron' (353 views, 17 likes) are the top-performing videos.",
+      "action": "Double down on extreme space facts focusing on bizarre planetary conditions, cosmic structures, and mind-bending physics."
+    },
+    {
+      "pattern": "Counter-Intuitive Time & Age Comparisons",
+      "evidence": "'Sharks Are Older Than Trees?' (302 views) and 'Why Your Head Is Older Than Your Feet' (262 views) outperformed standard biology/psychology topics.",
+      "action": "Frame historical or scientific facts around shocking temporal paradoxes or unexpected age comparisons."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Over-saturated Psychology & Brain Trivia",
-      "evidence": "'Your Brain Can Create Fake Memories' generated only 5 to 53 views, and 'The Real Reason Songs Get Stuck In Your Head' stalled at 17 views.",
-      "action": "De-prioritize generic psychological facts. If psychology is covered, it must be framed through a cinematic, high-stakes micro-story rather than dry trivia."
+      "pattern": "Standard Brain & Memory Psychology",
+      "evidence": "'Your Brain Can Create Fake Memories' (53 views), 'Your Brain Is Hiding This From You' (38 views), and 'The Real Reason Songs Get Stuck In Your Head' (17 views) failed to capture audience interest.",
+      "action": "Pivot away from generic brain/psychology facts unless they can be framed with a high-stakes mystery or a shocking physical manifestation."
     }
   ],
   "next_video": {
-    "category": "Space",
-    "hook_style": "Cosmic Cannibalism & Visual Distortion",
-    "concept": "The Egg-Shaped Planet Being Eaten Alive (WASP-12b)",
-    "opening_direction": "Show a realistic CGI render of a distorted, egg-shaped planet being stretched apart by a massive star with the hook: 'This planet is shaped like an egg because its own star is literally eating it alive.'",
-    "twist_direction": "Reveal that the planet is being devoured so rapidly that it loses 189 quadrillion tons of mass every year, meaning it will completely vanish in a cosmic blink of an eye.",
+    "category": "Space & Cosmic Anomalies",
+    "hook_style": "Shocking Paradox",
+    "concept": "CoRoT-7b, the planet where it rains rocks instead of water, and the atmosphere is made of vaporized stone.",
+    "opening_direction": "Show a high-quality cinematic of a burning rocky planet with the voiceover: 'There is a planet in our galaxy where it literally rains rocks...'",
+    "twist_direction": "Reveal that the planet is so close to its star that rocks evaporate on the day side, condense in the atmosphere, and rain down as liquid stone on the freezing night side.",
     "duration_seconds": 18,
-    "posting_window": "17:00 - 20:00 UTC",
-    "reason": "Capitalizes on the proven success of extreme exoplanet conditions while utilizing a highly shocking visual hook (egg-shaped planet) and high-stakes cosmic destruction."
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Planetary weather anomalies are our highest-performing sub-niche (Burning Ice: 1,055 views, TrES-2b: 963 views). CoRoT-7b's rock rain fits this pattern perfectly and offers high visual potential."
   },
-  "experiment": "Test a cinematic 'What-If' space disaster scenario, such as 'What If Earth Was Sucked Into a Wandering Rogue Planet?', to see if combining extreme space physics with catastrophic survival storytelling increases viewer retention.",
+  "experiment": "Test a 3-part 'Space Anomalies That Defy Logic' mini-series, utilizing high-contrast cinematic visuals and a 15-18 second fast-paced delivery to maximize retention and capitalize on the channel's strongest niche.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-14T09:38:28.801228+00:00"
+  "generated_at": "2026-09-14T10:37:15.232378+00:00"
 }
