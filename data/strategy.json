@@ -1,32 +1,37 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "The channel's performance is heavily driven by extreme space anomalies and bizarre planetary phenomena, which consistently capture the highest views and engagement. Conversely, psychology, brain facts, and self-help-style content struggle to gain traction, indicating a clear audience preference for cosmic wonder over human biology.",
+  "overall_summary": "Space and cosmic anomaly content dominates the channel's performance, particularly extreme planetary environments (e.g., burning ice, coal-dark planets, molten iron rain). Conversely, generic brain and cognitive psychology facts struggle to gain traction, indicating that viewers prefer high-concept cosmic scale and physical paradoxes over internal mental mechanics.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Space & Planetary Anomalies",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' achieved 1,054 views, and 'The Planet Darker Than Coal: TrES-2b' reached 909 views with high relative engagement (34 likes, 2 comments). 'The Largest Ocean in Space' also performed strongly with 460 views.",
-      "action": "Double down on extreme cosmic environments, focusing on mind-bending physics, terrifying planetary conditions, and cosmic scale comparisons."
+      "pattern": "Extreme Cosmic Environments & Planetary Anomalies",
+      "evidence": "'The Planet of Burning Ice' (1,055 views) and 'The Planet Darker Than Coal' (909 views, 34 likes) are the top performers, showing strong engagement for extreme, hard-to-imagine space conditions.",
+      "action": "Double down on extreme exoplanets, cosmic anomalies, and sensory space facts (e.g., what space smells like) using highly descriptive, high-contrast imagery."
+    },
+    {
+      "pattern": "Temporal & Physical Paradoxes",
+      "evidence": "'Why Your Head Is Older Than Your Feet' (262 views) and 'Sharks Are Older Than Trees?' (302 views) perform well by challenging the viewer's perception of time and history.",
+      "action": "Frame scientific or historical facts as mind-bending timeline clashes or physical paradoxes."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Psychology & Brain Mechanics",
-      "evidence": "'Your Brain Can Create Fake Memories' (52 views), 'Your Brain Is Hiding This From You' (38 views), and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently underperformed.",
-      "action": "Pivot away from standard cognitive science facts unless they can be framed through a highly dramatic, cinematic mystery lens."
+      "pattern": "Generic Cognitive Psychology & Brain Facts",
+      "evidence": "'Your Brain Can Create Fake Memories' (max 52 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently underperform.",
+      "action": "Avoid standard self-help or basic cognitive psychology facts; pivot to high-stakes mysteries or external cosmic phenomena."
     }
   ],
   "next_video": {
-    "category": "Space & Cosmic Mysteries",
-    "hook_style": "Visual paradox with high-stakes cosmic doom",
-    "concept": "The planet that is literally being eaten alive by its own star (WASP-12b).",
-    "opening_direction": "Start with a dramatic, high-contrast visual of an egg-shaped planet stretching toward a massive star. Voiceover: 'Right now, there is a planet in our galaxy that is literally being eaten alive.'",
-    "twist_direction": "Reveal that the star's gravity is so intense it has distorted the planet into a football shape, and it is devouring 189 quadrillion tons of its mass every single year.",
+    "category": "Space Mysteries",
+    "hook_style": "High-stakes cosmic doom",
+    "concept": "WASP-12b, the egg-shaped planet being actively eaten by its parent star.",
+    "opening_direction": "Show a distorted, egg-shaped planet being violently stretched and stripped of its atmosphere by a glowing star.",
+    "twist_direction": "Reveal that this cosmic cannibalism is happening in real-time, and the planet has less than 10 million years before it is completely devoured.",
     "duration_seconds": 18,
-    "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Leverages the proven success of extreme planetary anomalies (like TrES-2b and Gliese 436b) while utilizing a highly visual, high-stakes hook to maximize early retention."
+    "posting_window": "19:00 - 21:00 UTC",
+    "reason": "Leverages the highly successful 'extreme space/planet' formula that drove top views for the burning ice and coal-dark planet videos, utilizing strong visual metaphors of cosmic destruction."
   },
-  "experiment": "Test a 'Cinematic Space Survival' narrative style for cosmic anomalies, shifting from a list of facts to a dramatic, second-person perspective ('If you stood on this planet, you would...') to see if it boosts average view duration.",
+  "experiment": "Test a 'What-If' space scenario focusing on Earth (e.g., 'What If Earth Had Saturn's Rings?') to see if the cosmic anomaly audience translates to localized high-concept space scenarios.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-13T23:34:14.402980+00:00"
+  "generated_at": "2026-09-14T00:42:40.297486+00:00"
 }
