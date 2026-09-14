@@ -1,37 +1,42 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "The channel's highest-performing content revolves around extreme cosmic anomalies and bizarre exoplanets, with videos like 'The Planet of Burning Ice' and 'The Planet Darker Than Coal' leading in views and engagement. Conversely, cognitive psychology, brain tricks, and general animal trivia are underperforming, indicating that the audience is highly receptive to grand, cinematic, and mind-bending space mysteries rather than micro-level human biology.",
+  "overall_summary": "The channel's performance is heavily driven by extreme space anomalies and planetary facts (e.g., planets of burning ice, coal-dark atmospheres, and metallic rain), which consistently achieve the highest view counts (up to 1,055 views) and engagement. In contrast, psychology, brain hacks, and cognitive facts are severely underperforming, rarely breaking 100 views.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanets & Cosmic Anomalies",
-      "evidence": "'The Planet of Burning Ice' (vWd0uYcEGh4) secured 1,055 views, and 'The Planet Darker Than Coal: TrES-2b' (v1rrcZLdp4U) achieved 963 views with 34 likes.",
-      "action": "Prioritize a dedicated series focusing on the most extreme, terrifying, and bizarre planets discovered in the deep universe."
+      "pattern": "Extreme Space & Planetary Anomalies",
+      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (965 views), and 'The Planet Where It Rains Molten Iron' (353 views) represent the top tier of performance.",
+      "action": "Double down on extreme cosmic environments, bizarre planetary weather, and mind-bending space physics."
     },
     {
-      "pattern": "Mind-Bending Scale & Time Comparisons",
-      "evidence": "'Sharks Are Older Than Trees' (bfT7qzZ6aJQ) reached 302 views, and 'Why Your Head Is Older Than Your Feet' (c_ya3kvpuoI) reached 262 views.",
-      "action": "Develop content that contrasts everyday human perception with shocking geological, biological, or physics-based realities."
+      "pattern": "High-Curiosity Science Paradoxes",
+      "evidence": "'Sharks Are Older Than Trees' (302 views) and 'Why Your Head Is Older Than Your Feet' (262 views) show solid baseline performance.",
+      "action": "Incorporate comparative science facts that challenge common sense or time perception."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Cognitive Psychology & Brain Hacks",
-      "evidence": "'Your Brain Can Create Fake Memories' (5AN7LUgqarc) stalled at 53 views, and 'The Real Reason Songs Get Stuck In Your Head' (Jc04LVKNd2s) generated only 17 views.",
-      "action": "Deprioritize standard self-help or cognitive psychology facts, as they lack the high-stakes curiosity gap needed for Shorts."
+      "pattern": "Psychology & Cognitive Hacks",
+      "evidence": "'Your Brain Is Hiding This From You' (38 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction.",
+      "action": "Pivot away from cognitive psychology and brain tricks to focus resources on cosmic and physical science."
+    },
+    {
+      "pattern": "Repetitive Re-uploading of Low-Performing Concepts",
+      "evidence": "Re-uploading 'Your Brain Can Create Fake Memories' multiple times resulted in extremely low views (5, 53, and 0 views).",
+      "action": "Avoid re-uploading concepts that fail to clear the initial view threshold; instead, iterate on the topic or change the niche entirely."
     }
   ],
   "next_video": {
-    "category": "Space Mysteries",
-    "hook_style": "Visual Paradox Hook",
-    "concept": "The Egg-Shaped Planet Being Eaten Alive (WASP-12b)",
-    "opening_direction": "Show a cinematic render of a pitch-black, egg-shaped planet being stretched apart, starting with: 'This planet is actively being eaten alive by its own star.'",
-    "twist_direction": "Explain that the star's extreme gravity is pulling the planet into an egg shape, stripping its atmosphere, and giving it a remaining lifespan of only 3 million years.",
+    "category": "Space",
+    "hook_style": "Extreme planetary paradox",
+    "concept": "The Planet Where It Rains Rocks: K2-141b",
+    "opening_direction": "Start with a dramatic visual hook: 'There is a planet in our galaxy where the sky literally rains giant rocks.'",
+    "twist_direction": "Explain that the planet is so close to its star that oceans of lava vaporize into rock clouds, which then rain solid stone on the freezing dark side.",
     "duration_seconds": 18,
     "posting_window": "13:00 - 15:00 UTC",
-    "reason": "Capitalizes on the proven high performance of extreme exoplanet topics (like TrES-2b and Gliese 436b) while using a highly visual, high-stakes hook."
+    "reason": "Capitalizes on the proven success of extreme planetary weather conditions (like molten iron and burning ice) which drive the highest views and engagement on the channel."
   },
-  "experiment": "Test a 'Cosmic Horror' narrative tone on the next space video to determine if framing scientific space facts with cinematic tension increases retention and comment engagement.",
+  "experiment": "Test a cinematic 'What-If' space scenario, such as 'What If the Earth Stopped Spinning for One Second?', to see if the space audience engages with high-stakes hypothetical storytelling.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-14T12:42:47.762714+00:00"
+  "generated_at": "2026-09-14T13:38:50.870231+00:00"
 }
