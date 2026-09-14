@@ -1,32 +1,37 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "The channel's growth is heavily driven by extreme space anomalies and cosmic mysteries, which consistently outperform other niches. Videos focusing on bizarre planetary conditions (e.g., burning ice, coal-dark planets, molten iron rain) generate the highest views, likes, and comments. Conversely, psychology and brain-related facts are severely underperforming, struggling to gain traction.",
+  "overall_summary": "The channel's highest-performing content centers on extreme cosmic anomalies and space paradoxes characterized by vivid, contrasting sensory imagery (e.g., 'Burning Ice', 'Darker Than Coal', 'Rains Molten Iron'). Conversely, generic psychology hacks and repetitive brain-related facts struggle to capture attention, showing significantly lower baseline views.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Space Anomalies & Cosmic Paradoxes",
-      "evidence": "'The Planet of Burning Ice' achieved 1,055 views, 'The Planet Darker Than Coal' reached 951 views with 35 likes, and 'The Planet Where It Rains Molten Iron' hit 353 views with 17 likes.",
-      "action": "Double down on highly visual, extreme planetary environments and cosmic anomalies. Keep the video length around 18-21 seconds to allow for deeper visual storytelling."
+      "pattern": "Extreme Cosmic Anomalies with Sensory Contrast",
+      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' (vWd0uYcEGh4) achieved 1,055 views, and 'The Planet Darker Than Coal: TrES-2b' (v1rrcZLdp4U) reached 953 views. These titles combine extreme physical properties with strong visual/sensory contrasts.",
+      "action": "Double down on space anomalies, focusing on planets or stars with physics-defying, highly visual characteristics."
+    },
+    {
+      "pattern": "Slightly Longer, Well-Paced Explanations",
+      "evidence": "'Why Your Head Is Older Than Your Feet' at 19 seconds (c_ya3kvpuoI) generated 262 views, whereas the shorter 13-second version (YBBjFLVhWSw) only managed 52 views. The extra time allows for a clearer, more satisfying scientific payoff.",
+      "action": "Target a 18-21 second duration for complex topics to ensure the explanation doesn't feel rushed, improving retention."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Psychology and Brain-Related Advice",
-      "evidence": "'The Real Reason Songs Get Stuck In Your Head' (17 views), 'Your Brain Is Hiding This From You' (38 views), and 'Your Brain Can Create Fake Memories' (52 views) consistently fail to capture audience interest.",
-      "action": "Pause production on standard brain facts and psychological tricks. If returning to psychology, frame it through a high-stakes historical mystery or a dark 'what-if' scenario rather than self-help style facts."
+      "pattern": "Repetitive Psychology & Brain Hacks",
+      "evidence": "'Your Brain Can Create Fake Memories' (2fqaGqfsR4A) got 5 views, and 'Your Brain Is Hiding This From You' (mGEgENcGcNE) got 38 views. These concepts are oversaturated and lack visual novelty.",
+      "action": "Pivot away from standard psychological tricks unless they can be framed through a dramatic, narrative-driven historical or medical mystery lens."
     }
   ],
   "next_video": {
-    "category": "Space Mystery",
-    "hook_style": "Visual Contrast & High-Value Gemstones",
-    "concept": "The planet where it literally rains rubies and sapphires (HAT-P-7b).",
-    "opening_direction": "Start with a stunning visual of sparkling red and blue gems falling from the sky: 'There is a planet in our galaxy where the clouds are made of metal, and it literally rains rubies and sapphires.'",
-    "twist_direction": "Reveal the terrifying catch: 'But you would never survive to collect them. The temperature is so extreme that these precious gems melt instantly, turning the beautiful landscape into a literal liquid hell.'",
-    "duration_seconds": 20,
+    "category": "Space/Astronomy",
+    "hook_style": "Visual Paradox & High-Stakes Cosmic Doom",
+    "concept": "The Planet That Is Being Eaten Alive",
+    "opening_direction": "Start with a hyper-realistic, high-contrast visual of an egg-shaped planet being actively stretched and stripped of its atmosphere by a massive star.",
+    "twist_direction": "Reveal that this is WASP-12b, a real planet being devoured by its own parent star so fast that it will be completely gone in a cosmic blink of an eye.",
+    "duration_seconds": 19,
     "posting_window": "18:00 - 20:00 UTC",
-    "reason": "Capitalizes on the proven success of extreme space weather/planet anomalies, utilizing high-value visual hooks (rubies/sapphires) to maximize early retention."
+    "reason": "Capitalizes on the proven success of extreme space anomalies, using high-contrast cosmic visuals and a strong existential hook to maximize retention."
   },
-  "experiment": "Test a slightly longer 20-second format for space anomalies to allow for cinematic pacing and sound design, comparing retention rates against the shorter 15-second space clips.",
+  "experiment": "Test a 'What-If' space scenario formatted as a cinematic micro-story (e.g., 'What If the Moon Was Only 100 Miles Away?') to see if narrative-driven geography/space crossovers can match the high performance of pure planetary facts.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-14T04:39:04.470644+00:00"
+  "generated_at": "2026-09-14T05:36:12.655921+00:00"
 }
