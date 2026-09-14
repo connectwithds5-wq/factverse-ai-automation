@@ -1,0 +1,32 @@
+name: FACTVERSE Replicate Wan 2.2 S2V Preflight
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  preflight:
+    name: Zero-cost Replicate S2V capability check
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      PYTHONUNBUFFERED: "1"
+      REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate Replicate secret
+        run: |
+          test -n "$REPLICATE_API_TOKEN" || { echo "ERROR: Add GitHub secret REPLICATE_API_TOKEN first"; exit 1; }
+
+      - name: Run zero-cost model preflight
+        run: python src/replicate_wan22_s2v_preflight.py
