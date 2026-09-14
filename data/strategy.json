@@ -1,21 +1,32 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "The channel's growth is heavily driven by extreme space anomalies and cosmic mysteries, which consistently outperform other niches. Videos focusing on bizarre planetary conditions (e.g., burning ice, coal-dark planets, molten iron rain) generate the highest views, likes, and comments. Conversely, psychology and brain-related facts are severely underperforming, struggling to gain traction.",
+  "winning_patterns": [
+    {
+      "pattern": "Extreme Space Anomalies & Cosmic Paradoxes",
+      "evidence": "'The Planet of Burning Ice' achieved 1,055 views, 'The Planet Darker Than Coal' reached 951 views with 35 likes, and 'The Planet Where It Rains Molten Iron' hit 353 views with 17 likes.",
+      "action": "Double down on highly visual, extreme planetary environments and cosmic anomalies. Keep the video length around 18-21 seconds to allow for deeper visual storytelling."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Psychology and Brain-Related Advice",
+      "evidence": "'The Real Reason Songs Get Stuck In Your Head' (17 views), 'Your Brain Is Hiding This From You' (38 views), and 'Your Brain Can Create Fake Memories' (52 views) consistently fail to capture audience interest.",
+      "action": "Pause production on standard brain facts and psychological tricks. If returning to psychology, frame it through a high-stakes historical mystery or a dark 'what-if' scenario rather than self-help style facts."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space Mystery",
+    "hook_style": "Visual Contrast & High-Value Gemstones",
+    "concept": "The planet where it literally rains rubies and sapphires (HAT-P-7b).",
+    "opening_direction": "Start with a stunning visual of sparkling red and blue gems falling from the sky: 'There is a planet in our galaxy where the clouds are made of metal, and it literally rains rubies and sapphires.'",
+    "twist_direction": "Reveal the terrifying catch: 'But you would never survive to collect them. The temperature is so extreme that these precious gems melt instantly, turning the beautiful landscape into a literal liquid hell.'",
+    "duration_seconds": 20,
+    "posting_window": "18:00 - 20:00 UTC",
+    "reason": "Capitalizes on the proven success of extreme space weather/planet anomalies, utilizing high-value visual hooks (rubies/sapphires) to maximize early retention."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-14T03:39:55.936753+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-14T03:39:55.936776+00:00"
+  "experiment": "Test a slightly longer 20-second format for space anomalies to allow for cinematic pacing and sound design, comparing retention rates against the shorter 15-second space clips.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-14T04:39:04.470644+00:00"
 }
