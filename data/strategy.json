@@ -1,21 +1,42 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "The channel is experiencing its strongest performance in the Space and Extreme Planetary Science niche. Videos detailing bizarre planetary conditions (such as burning ice, coal-dark planets, and ruby rain) consistently outperform psychology, brain facts, and animal facts. Repeatedly uploading low-performing concepts like 'Fake Memories' has failed to generate traction, indicating a need to pivot away from generic brain facts and double down on highly visual cosmic anomalies.",
+  "winning_patterns": [
+    {
+      "pattern": "Extreme Planetary Anomalies & Cosmic Paradoxes",
+      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (971 views), and 'This Planet Rains Supersonic Rubies' (586 views) represent the top tier of performance, showing strong viewer interest in extreme space environments.",
+      "action": "Produce a dedicated series focusing on the most terrifying and bizarre exoplanets in the known universe, using high-contrast cinematic visuals."
+    },
+    {
+      "pattern": "Sensory and Material Space Facts",
+      "evidence": "'What Does Outer Space Actually Smell Like?' (368 views) and 'The Largest Ocean in Space' (460 views) show that anchoring abstract space concepts to relatable sensory experiences (smell, oceans) drives curiosity.",
+      "action": "Frame future space videos around familiar earthly concepts applied to the cosmos (e.g., space weather, cosmic sounds, or space food)."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Repetitive Psychology & Brain Fact Uploads",
+      "evidence": "'Your Brain Can Create Fake Memories' was uploaded multiple times (IDs: r43-7nSn8SQ, 5AN7LUgqarc, 2fqaGqfsR4A) and consistently failed, peaking at only 53 views. 'Your Brain Is Hiding This From You' also stalled at 38 views.",
+      "action": "Halt the production of generic cognitive psychology facts and retire the practice of re-uploading identical low-performing titles."
+    },
+    {
+      "pattern": "Commonplace Animal Facts",
+      "evidence": "'Octopuses Have THREE Hearts' (118 and 183 views) and 'The Only Animal That Can Live Forever' (69 views) underperform compared to space content, likely due to high content saturation on these specific topics.",
+      "action": "Avoid entry-level animal facts; if covering biology, focus on highly cinematic, obscure survival mechanisms rather than common trivia."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space & Cosmic Mysteries",
+    "hook_style": "Visual Paradox Hook",
+    "concept": "A planet shaped like an egg that is actively being eaten by its parent star (WASP-12b).",
+    "opening_direction": "Start with a cinematic visual of a glowing, distorted football-shaped planet stretching out into a massive trail of hot gas.",
+    "twist_direction": "Reveal that this isn't a comet, but a giant planet being literally stretched apart and consumed by its own star, with only a few million years left to live.",
+    "duration_seconds": 18,
+    "posting_window": "18:00 - 20:00 UTC",
+    "reason": "Capitalizes on the high-performing 'extreme planet' trend. The egg-like shape and 'star eating a planet' concept provide a powerful visual hook that drives immediate retention."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-14T20:36:15.161276+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-14T20:36:15.161301+00:00"
+  "experiment": "Test a 'Cosmic Horror' storytelling tone for space facts, framing extreme planetary conditions as hostile environments to increase emotional engagement and watch time.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-14T21:36:56.359830+00:00"
 }
