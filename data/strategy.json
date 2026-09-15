@@ -1,32 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "The channel's highest-performing content consistently revolves around extreme space and exoplanet anomalies, particularly those featuring dramatic, high-contrast sensory paradoxes (e.g., burning ice, supersonic rubies, coal-dark planets). Conversely, psychology and brain-related facts, along with repetitive uploads of the same concepts, suffer from extremely low viewer interest and minimal engagement.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Exoplanet & Space Anomalies with Sensory Hooks",
-      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (987 views), and 'This Planet Rains Supersonic Rubies!' (644 views) represent the top tier of performance.",
-      "action": "Double down on space anomalies, specifically focusing on extreme environments, bizarre physical laws, and highly visual cosmic phenomena."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Repetitive Psychology & Brain Trivia",
-      "evidence": "Multiple uploads of 'Your Brain Can Create Fake Memories' generated only 5 to 53 views. Other brain-related topics like songs stuck in heads also struggled (under 80 views).",
-      "action": "Pause the production of basic psychology/brain facts and avoid re-uploading identical concepts, as the algorithm is actively flatlining these topics."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space / Exoplanet Anomalies",
-    "hook_style": "Cosmic Horror / Visual Paradox",
-    "concept": "The egg-shaped planet being slowly eaten alive by its own star (WASP-12b).",
-    "opening_direction": "Start with a high-impact visual: 'Right now, a giant planet is being stretched into the shape of an egg and eaten alive...'",
-    "twist_direction": "Reveal that the predator isn't a black hole, but its own home star, which will completely consume it in a cosmic blink of an eye.",
-    "duration_seconds": 16,
-    "posting_window": "12:00 PM - 1:30 PM UTC",
-    "reason": "Capitalizes on the highly successful space anomaly theme, using a high-stakes, dramatic visual hook ('eaten alive', 'egg-shaped') to maximize retention and CTR."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'What-If' space scenario with high visual stakes, such as 'What If the Moon Was Made of Solid Diamond?', to see if the diamond/gemstone hook from the ruby planet video can be translated into a hypothetical scenario format.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-15T12:41:15.937632+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-15T13:37:22.982581+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-15T13:37:22.982607+00:00"
 }
