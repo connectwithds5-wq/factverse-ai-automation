@@ -1,42 +1,21 @@
 {
   "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Space and cosmic anomalies (specifically extreme exoplanets with bizarre weather or physical properties) are the clear driving force of the channel's performance, yielding the highest views and engagement. Conversely, generic cognitive psychology, brain hacks, and basic animal trivia consistently underperform, indicating that the audience craves high-scale, mind-bending cosmic wonder over everyday human biology.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Exoplanet Weather & Cosmic Anomalies",
-      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (975 views, 35 likes), and 'This Planet Rains Supersonic Rubies!' (612 views, 21 likes) dominate the channel's top performance tier.",
-      "action": "Double down on extreme space science. Focus on planets with extreme physics, bizarre chemistry, or terrifying cosmic environments, using vivid, high-contrast imagery in the first 3 seconds."
-    },
-    {
-      "pattern": "Sensory-Familiar Cosmic Hooks",
-      "evidence": "'What Does Outer Space Actually Smell Like? (Smells like steak)' achieved 368 views, and 'The Largest Ocean in Space' achieved 460 views.",
-      "action": "Bridge abstract astronomical concepts with familiar human senses (smell, taste, touch) to make complex astrophysics instantly relatable and highly clickable."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Repetitive Brain & Memory Psychology",
-      "evidence": "'Your Brain Can Create Fake Memories' failed to gain traction across multiple re-uploads (averaging under 20 views), and 'The Real Reason Songs Get Stuck In Your Head' stalled at 17 views.",
-      "action": "De-prioritize generic cognitive psychology and self-help brain facts. If psychology is covered, pivot to high-stakes dark psychology or historical psychological experiments with a narrative arc."
-    },
-    {
-      "pattern": "Basic Animal Trivia",
-      "evidence": "'Octopuses Have THREE Hearts' (max 183 views) and 'The Only Animal That Can Live Forever' (69 views) underperform compared to space content.",
-      "action": "Avoid standard encyclopedia-style animal facts. Shift animal content toward high-stakes cinematic survival stories or terrifying prehistoric creatures (e.g., Megalodon, Titanoboa)."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space / Cosmic Anomalies",
-    "hook_style": "Cosmic Horror / High-Stakes Narrative",
-    "concept": "WASP-12b: The doomed egg-shaped planet being actively devoured by its parent star.",
-    "opening_direction": "Right now, a massive star is slowly eating its own planet alive.",
-    "twist_direction": "But the planet isn't just melting—the star's extreme gravity is stretching it into a giant, distorted egg, tearing it apart piece by piece.",
-    "duration_seconds": 18,
-    "posting_window": "18:00 - 20:00 UTC",
-    "reason": "Capitalizes on the high-performing space anomaly niche while introducing a dramatic, cinematic 'cosmic horror' angle to boost viewer retention and emotional engagement."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'What-If' cinematic historical scenario (e.g., 'What If the Asteroid That Killed the Dinosaurs Missed?') to see if the high-performing space audience can be successfully bridged into high-concept historical storytelling.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-15T03:39:07.929850+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-15T04:39:55.579196+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-15T04:39:55.579216+00:00"
 }
