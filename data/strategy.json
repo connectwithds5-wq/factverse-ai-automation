@@ -1,32 +1,42 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Space-themed content focusing on extreme planetary conditions and mind-bending cosmic anomalies consistently outperforms all other categories. Meanwhile, cognitive psychology and brain-related facts struggle to gain initial traction, even with repeated uploads.",
+  "overall_summary": "Space and extreme exoplanet content significantly outperforms psychology, brain facts, and animal trivia. Videos focusing on bizarre planetary weather, extreme cosmic environments, and visual paradoxes (e.g., burning ice, supersonic rubies) drive the highest view counts and engagement, while repetitive uploads of brain/memory topics consistently underperform.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Cosmic Anomalies & Bizarre Planetary Weather",
-      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (984 views), and 'This Planet Rains Supersonic Rubies!' (634 views) are the channel's top performers.",
-      "action": "Focus heavily on extreme space science, highlighting bizarre planetary environments, cosmic scale, and mind-bending physics with highly visual titles."
+      "pattern": "Extreme Exoplanet Weather & Cosmic Paradoxes",
+      "evidence": "The top-performing videos all focus on extreme space phenomena: 'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (984 views), and 'This Planet Rains Supersonic Rubies!' (634 views).",
+      "action": "Double down on astronomical anomalies and exoplanets with highly visual, paradoxical properties (e.g., glass rain, diamond oceans, giant rings)."
+    },
+    {
+      "pattern": "Sensory and High-Contrast Hooks",
+      "evidence": "Titles using vivid sensory contrasts like 'Burning Ice', 'Supersonic Rubies', and 'Darker Than Coal' achieved the highest engagement and views.",
+      "action": "Structure hooks around stark physical contradictions or extreme sensory descriptions that challenge common sense."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Cognitive Psychology & Memory Tricks",
-      "evidence": "'Your Brain Can Create Fake Memories' (max 53 views across multiple attempts) and 'Your Brain Is Hiding This From You' (38 views) consistently fail to capture viewer interest.",
-      "action": "Pause production on standard brain facts and memory tricks, redirecting resources to high-performing space and cosmic mystery niches."
+      "pattern": "Psychology and Brain Mechanics",
+      "evidence": "'Your Brain Can Create Fake Memories' failed to gain traction across multiple attempts (5, 6, and 53 views). 'Your Brain Is Hiding This From You' got only 38 views.",
+      "action": "Pivot away from abstract cognitive psychology and memory tricks unless they can be framed through a highly dramatic, narrative lens."
+    },
+    {
+      "pattern": "Repetitive Spamming of Failed Concepts",
+      "evidence": "Re-uploading the exact same 'Fake Memories' or 'Space Is Completely Silent' concepts multiple times within short intervals led to diminishing returns and flatlined reach.",
+      "action": "Avoid identical re-uploads of low-performing videos; instead, iterate on the hook or shift to a higher-performing category."
     }
   ],
   "next_video": {
-    "category": "Space",
-    "hook_style": "Extreme Cosmic Paradox",
-    "concept": "The Planet That Is Being Eaten Alive! 🪐",
-    "opening_direction": "Start with a hyper-realistic CGI animation of a planet being stretched into an egg shape by its host star's gravity.",
-    "twist_direction": "Reveal that this cosmic giant is literally being consumed piece by piece and has less than 10 million years left to live.",
+    "category": "Space & Astronomy",
+    "hook_style": "Visual Scale Paradox",
+    "concept": "The super-ring planet J1407b, whose ring system is so massive it would dwarf Saturn's and dominate Earth's sky.",
+    "opening_direction": "Show a simulation of Earth's night sky completely dominated by gigantic, golden rings, stating: 'If this planet replaced Saturn, its rings would look 100 times larger than the full moon.'",
+    "twist_direction": "Reveal that these rings are so dense they completely block out the planet's star for 56 days straight, and they are currently collapsing to form entirely new worlds.",
     "duration_seconds": 18,
-    "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Leverages the proven high-performance pattern of extreme planetary anomalies while introducing a dramatic, time-sensitive cosmic event to drive high retention."
+    "posting_window": "12:30 PM - 1:30 PM UTC",
+    "reason": "Leverages the highly successful 'extreme space anomaly' theme with a powerful visual hook, matching the 16-21s duration sweet spot of the channel's top-performing Shorts."
   },
-  "experiment": "Test a 'What-If' space scenario (e.g., 'What If the Moon Was Made of Glass?') to see if the high engagement of space facts translates to speculative cosmic storytelling.",
+  "experiment": "Test a 'What-If' cosmic scenario focusing on Earth's destruction or transformation (e.g., 'What If a Rogue Planet Entered Our Solar System?') to see if the exoplanet audience translates to hypothetical space disasters.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-15T09:41:16.875315+00:00"
+  "generated_at": "2026-09-15T10:37:46.827440+00:00"
 }
