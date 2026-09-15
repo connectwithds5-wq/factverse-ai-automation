@@ -1,42 +1,32 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Space-themed content focusing on extreme planetary anomalies and bizarre cosmic physics consistently outperforms other niches like psychology and general biology. Repetitive posting of identical brain-fact concepts leads to severe audience fatigue and algorithmic suppression.",
+  "overall_summary": "The channel's highest-performing content consistently revolves around extreme space and exoplanet anomalies, particularly those featuring dramatic, high-contrast sensory paradoxes (e.g., burning ice, supersonic rubies, coal-dark planets). Conversely, psychology and brain-related facts, along with repetitive uploads of the same concepts, suffer from extremely low viewer interest and minimal engagement.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Planetary Anomalies & Cosmic Physics",
-      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (987 views), and 'This Planet Rains Supersonic Rubies!' (634 views) represent the top tier of performance.",
-      "action": "Double down on extreme exoplanet characteristics, focusing on highly visual, mind-bending physical properties (extreme heat, bizarre rain, massive scale)."
-    },
-    {
-      "pattern": "Concrete Sensory Scale Comparisons",
-      "evidence": "'What Does Outer Space Actually Smell Like?' (368 views) and 'Sharks Are Older Than Trees?' (302 views) perform significantly better than abstract facts.",
-      "action": "Frame cosmic or historical facts using familiar sensory anchors (smell, taste, common objects like trees) to make the scale immediately relatable."
+      "pattern": "Extreme Exoplanet & Space Anomalies with Sensory Hooks",
+      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (987 views), and 'This Planet Rains Supersonic Rubies!' (644 views) represent the top tier of performance.",
+      "action": "Double down on space anomalies, specifically focusing on extreme environments, bizarre physical laws, and highly visual cosmic phenomena."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Psychology/Brain Fact Tropes",
-      "evidence": "'Your Brain Can Create Fake Memories' was posted three times, yielding only 5, 7, and 53 views respectively. 'The Real Reason Songs Get Stuck In Your Head' got only 17 views.",
-      "action": "Retire generic brain and memory facts. If psychology is used, it must feature a highly unusual historical experiment or a shocking, non-cliché phenomenon."
-    },
-    {
-      "pattern": "Abstract Cosmic Concepts Lacking Visual Contrast",
-      "evidence": "'This Star Is Older Than the Universe!' (11 views) and 'The Star Colder Than Ice' (79 views) failed to capture interest compared to physical planets.",
-      "action": "Avoid purely chronological or temperature-based abstract stellar facts unless they can be paired with a highly dramatic visual comparison."
+      "pattern": "Repetitive Psychology & Brain Trivia",
+      "evidence": "Multiple uploads of 'Your Brain Can Create Fake Memories' generated only 5 to 53 views. Other brain-related topics like songs stuck in heads also struggled (under 80 views).",
+      "action": "Pause the production of basic psychology/brain facts and avoid re-uploading identical concepts, as the algorithm is actively flatlining these topics."
     }
   ],
   "next_video": {
-    "category": "Space",
-    "hook_style": "Visual Scale Comparison",
-    "concept": "J1407b (Super Saturn) and what Earth's sky would look like if it replaced Saturn.",
-    "opening_direction": "If this planet replaced Saturn, its rings would look 100 times wider than the full moon in our night sky.",
-    "twist_direction": "But these rings are so massive they are actually a cosmic vacuum, violently pulling in nearby space debris to birth new moons.",
-    "duration_seconds": 18,
-    "posting_window": "12:30 PM - 1:30 PM",
-    "reason": "Leverages the highly successful exoplanet anomaly pattern. By focusing on J1407b's extreme ring scale and using a 'what-if' Earth comparison, it combines visual scale with cosmic physics, matching the performance profile of the channel's top-performing space videos."
+    "category": "Space / Exoplanet Anomalies",
+    "hook_style": "Cosmic Horror / Visual Paradox",
+    "concept": "The egg-shaped planet being slowly eaten alive by its own star (WASP-12b).",
+    "opening_direction": "Start with a high-impact visual: 'Right now, a giant planet is being stretched into the shape of an egg and eaten alive...'",
+    "twist_direction": "Reveal that the predator isn't a black hole, but its own home star, which will completely consume it in a cosmic blink of an eye.",
+    "duration_seconds": 16,
+    "posting_window": "12:00 PM - 1:30 PM UTC",
+    "reason": "Capitalizes on the highly successful space anomaly theme, using a high-stakes, dramatic visual hook ('eaten alive', 'egg-shaped') to maximize retention and CTR."
   },
-  "experiment": "Test a 'What-If' visual simulation format where we compare Earth's sky with different cosmic anomalies (e.g., if a black hole replaced the moon) to see if the visual comparison increases average view duration.",
+  "experiment": "Test a 'What-If' space scenario with high visual stakes, such as 'What If the Moon Was Made of Solid Diamond?', to see if the diamond/gemstone hook from the ruby planet video can be translated into a hypothetical scenario format.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-15T11:36:28.547295+00:00"
+  "generated_at": "2026-09-15T12:41:15.937632+00:00"
 }
