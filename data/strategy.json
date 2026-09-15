@@ -1,42 +1,32 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "The channel's growth is heavily driven by extreme exoplanet mysteries and sensory-focused space facts, which consistently outperform other niches. In contrast, generic psychology and brain-related facts are highly saturated and fail to gain traction, showing extremely low view counts.",
+  "overall_summary": "Space-themed content focusing on extreme planetary conditions and mind-bending cosmic anomalies consistently outperforms all other categories. Meanwhile, cognitive psychology and brain-related facts struggle to gain initial traction, even with repeated uploads.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanet & Space Paradoxes",
-      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (976 views), and 'This Planet Rains Supersonic Rubies' (623 views) represent the channel's top-performing tier.",
-      "action": "Double down on bizarre exoplanet conditions, utilizing highly visual and paradoxical hooks that challenge common understanding of physics."
-    },
-    {
-      "pattern": "Sensory-Linked Cosmic Facts",
-      "evidence": "'What Does Outer Space Actually Smell Like? (Steak/Space)' (368 views) and 'The Largest Ocean in Space' (460 views) show strong performance by linking abstract cosmic concepts to familiar sensory experiences.",
-      "action": "Frame complex astronomical phenomena using everyday sensory analogies (smell, taste, touch) to lower the cognitive barrier and increase curiosity."
+      "pattern": "Extreme Cosmic Anomalies & Bizarre Planetary Weather",
+      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (984 views), and 'This Planet Rains Supersonic Rubies!' (634 views) are the channel's top performers.",
+      "action": "Focus heavily on extreme space science, highlighting bizarre planetary environments, cosmic scale, and mind-bending physics with highly visual titles."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Psychology & Brain Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' (5 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to capture audience interest.",
-      "action": "Pivot away from standard psychology facts unless they can be framed with a highly dramatic, cinematic micro-story or a shocking visual hook."
-    },
-    {
-      "pattern": "Vague or Declarative Hooks",
-      "evidence": "'Sharks Are Older Than WHAT?!' (8 views) drastically underperformed 'Sharks Are Older Than Trees?' (302 views), and 'Your Head Is Aging Faster Than Your Feet!' (52 views) underperformed 'Why Your Head Is Older Than Your Feet' (262 views).",
-      "action": "Avoid clickbait questions that hide too much context, and prefer 'Why' hooks over declarative statements to establish a clear curiosity gap."
+      "pattern": "Cognitive Psychology & Memory Tricks",
+      "evidence": "'Your Brain Can Create Fake Memories' (max 53 views across multiple attempts) and 'Your Brain Is Hiding This From You' (38 views) consistently fail to capture viewer interest.",
+      "action": "Pause production on standard brain facts and memory tricks, redirecting resources to high-performing space and cosmic mystery niches."
     }
   ],
   "next_video": {
-    "category": "Space / Exoplanet Mystery",
-    "hook_style": "Paradoxical Sensory Contrast",
-    "concept": "The giant planet made of pink cotton candy that shouldn't exist (WASP-193b).",
-    "opening_direction": "Start with a close-up visual of fluffy pink cotton candy spinning in a machine, then zoom out to reveal it's a massive planet floating in deep space.",
-    "twist_direction": "Reveal that despite being 50% larger than Jupiter, this cosmic giant is so light and airy that it has the exact density of cotton candy, defying standard planetary physics.",
-    "duration_seconds": 16,
-    "posting_window": "18:00 - 21:00 UTC",
-    "reason": "Leverages the highly successful exoplanet mystery formula, utilizes a strong sensory hook (cotton candy), and maintains the optimal 16-second duration of our top-performing videos."
+    "category": "Space",
+    "hook_style": "Extreme Cosmic Paradox",
+    "concept": "The Planet That Is Being Eaten Alive! 🪐",
+    "opening_direction": "Start with a hyper-realistic CGI animation of a planet being stretched into an egg shape by its host star's gravity.",
+    "twist_direction": "Reveal that this cosmic giant is literally being consumed piece by piece and has less than 10 million years left to live.",
+    "duration_seconds": 18,
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Leverages the proven high-performance pattern of extreme planetary anomalies while introducing a dramatic, time-sensitive cosmic event to drive high retention."
   },
-  "experiment": "Test a cinematic historical storytelling Short focusing on a bizarre ancient mystery (e.g., the Antikythera mechanism or a strange historical event) using a story-first approach to see if it can match the high baseline of the space mystery videos.",
+  "experiment": "Test a 'What-If' space scenario (e.g., 'What If the Moon Was Made of Glass?') to see if the high engagement of space facts translates to speculative cosmic storytelling.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-15T08:40:14.134134+00:00"
+  "generated_at": "2026-09-15T09:41:16.875315+00:00"
 }
