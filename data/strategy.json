@@ -1,42 +1,21 @@
 {
   "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE achieves its strongest performance when focusing on extreme space anomalies and exoplanet paradoxes, with videos like 'The Planet of Burning Ice' and 'The Planet Darker Than Coal' leading in views and engagement. Conversely, cognitive psychology and brain-related facts (such as fake memories and earworms) consistently underperform, showing low viewer interest. To maximize growth, the channel should pivot heavily toward highly visual, mind-bending cosmic phenomena and physics paradoxes.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Exoplanet & Cosmic Anomalies",
-      "evidence": "'The Planet of Burning Ice' (1,055 views) and 'The Planet Darker Than Coal' (975 views, 36 likes) represent the channel's peak performance.",
-      "action": "Produce a dedicated series focusing on bizarre, extreme, and terrifying planets in the known universe, emphasizing sensory-defying characteristics."
-    },
-    {
-      "pattern": "Mind-Bending Physics & Time Dilation",
-      "evidence": "'Why Your Head Is Older Than Your Feet' achieved 262 views, outperforming general trivia and biology videos.",
-      "action": "Introduce more concepts that explain counterintuitive physics and relativity in simple, everyday terms."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Repetitive Brain & Cognitive Psychology",
-      "evidence": "'Your Brain Can Create Fake Memories' consistently flopped across multiple uploads, securing as low as 4 to 5 views.",
-      "action": "Phase out basic cognitive psychology facts and avoid re-uploading underperforming brain trivia."
-    },
-    {
-      "pattern": "Earworm & Auditory Psychology",
-      "evidence": "Videos about songs getting stuck in your head struggled to surpass 71 views.",
-      "action": "Avoid topics related to music psychology and auditory tricks, as they fail to capture the visual curiosity needed for Shorts."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space",
-    "hook_style": "Dramatic & Visual Paradox",
-    "concept": "WASP-12b: The egg-shaped planet being eaten alive by its own star.",
-    "opening_direction": "Right now, there is a pitch-black planet in deep space being literally eaten alive by its own star.",
-    "twist_direction": "The star's intense gravity has stretched this planet into the shape of a football, stripping away its atmosphere until it completely disappears.",
-    "duration_seconds": 18,
-    "posting_window": "18:00 - 20:00 UTC",
-    "reason": "Leverages the highly successful exoplanet anomaly trend. The concept of a planet shaped like a football being consumed by a star is highly visual, dramatic, and triggers immediate curiosity."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'Cosmic Horror' tone for space videos, using dark ambient soundscapes and dramatic narration to see if it increases average view duration compared to standard upbeat fact delivery.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-15T05:38:08.296237+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-15T06:42:58.065284+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-15T06:42:58.065304+00:00"
 }
