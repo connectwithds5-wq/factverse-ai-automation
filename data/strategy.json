@@ -1,32 +1,42 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Space and planetary extreme anomalies are the clear performance drivers for FACTVERSE, with cosmic weather and hostile planets ('Burning Ice', 'Darker Than Coal', 'Supersonic Rubies') generating the highest views and engagement. Conversely, generic psychology facts and basic animal trivia are underperforming due to high saturation and low novelty.",
+  "overall_summary": "Analysis of the latest performance trends reveals that cosmic anomalies and extreme exoplanet environments are the channel's primary growth drivers, consistently generating the highest views and engagement. Conversely, soft psychology and basic animal trivia struggle to capture audience attention. The channel should pivot toward highly visual, paradoxical space content and transition animal/history topics into high-stakes cinematic storytelling.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Cosmic Environments & Hostile Planets",
-      "evidence": "Videos like 'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (971 views), and 'This Planet Rains Supersonic Rubies' (605 views) represent the top tier of performance.",
-      "action": "Double down on extreme space anomalies, focusing on hostile planets, bizarre cosmic weather, and mind-bending physics of the universe."
+      "pattern": "Extreme Cosmic Anomalies & Exoplanet Weather",
+      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (975 views), and 'This Planet Rains Supersonic Rubies!' (610 views) represent the top-performing tier.",
+      "action": "Double down on extreme space environments, focusing on highly visual, paradoxical concepts (e.g., metal clouds, glass rain, burning ice) with vivid imagery."
+    },
+    {
+      "pattern": "Paradoxical Time & Physics Comparisons",
+      "evidence": "'Why Your Head Is Older Than Your Feet' (262 views) and 'Sharks Are Older Than Trees?' (302 views) significantly outperform standard trivia.",
+      "action": "Frame science and historical facts as mind-bending temporal or physical paradoxes in the first 3 seconds."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Psychology & Overplayed Animal Trivia",
-      "evidence": "'Your Brain Can Create Fake Memories' struggled to exceed 53 views across multiple attempts, and 'The Real Reason Songs Get Stuck In Your Head' got only 17 views.",
-      "action": "Pivot away from basic psychology and common animal facts (like octopus hearts) unless they have a highly unusual, cinematic survival or horror angle."
+      "pattern": "Generic Psychology & Brain Trivia",
+      "evidence": "'Your Brain Can Create Fake Memories' struggled to exceed 53 views across multiple uploads, and 'The Real Reason Songs Get Stuck In Your Head' generated only 17 views.",
+      "action": "Avoid soft psychology topics unless they can be reframed as high-stakes horror/mystery micro-stories."
+    },
+    {
+      "pattern": "Basic Animal Facts",
+      "evidence": "'Octopuses Have THREE Hearts' (183 views) and 'The Only Animal That Can Live Forever' (69 views) underperform compared to cosmic topics.",
+      "action": "Transition animal content into the 'Cinematic Animal Survival' niche, focusing on intense, dramatic narratives rather than static facts."
     }
   ],
   "next_video": {
-    "category": "Space",
-    "hook_style": "Visual Paradox & Cosmic Terror",
-    "concept": "The Egg-Shaped Planet Being Devoured Alive (WASP-12b)",
-    "opening_direction": "Show a highly distorted, egg-shaped planet stretching and tearing apart as it gets sucked into a massive star.",
-    "twist_direction": "Explain that the star is literally eating the planet's atmosphere, and in cosmic terms, it will be completely gone in the blink of an eye.",
+    "category": "Space / Exoplanet Mysteries",
+    "hook_style": "Paradoxical Visual Curiosity",
+    "concept": "LTT 9779 b, the giant titanium mirror planet.",
+    "opening_direction": "There is a planet in deep space that shouldn't exist because it is a giant, burning mirror.",
+    "twist_direction": "Its atmosphere is so hot it literally vaporizes titanium, creating metallic clouds that reflect 80% of its star's light like a cosmic disco ball.",
     "duration_seconds": 18,
-    "posting_window": "19:00 - 21:00 UTC",
-    "reason": "Leverages the highly successful 'extreme space anomaly' formula while introducing a dramatic, time-sensitive cosmic event that triggers high retention."
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Directly capitalizes on the high-performing exoplanet trend (burning ice, ruby rain) by introducing a highly visual, metallic mirror world that triggers immediate curiosity."
   },
-  "experiment": "Test a 'What-If' space survival scenario (e.g., 'What If You Fell Into a Planet of Burning Ice?') to combine the winning space category with cinematic survival storytelling.",
+  "experiment": "Test a 'Cinematic Animal Survival' micro-story focusing on extreme biological adaptation (e.g., the Wood Frog freezing solid in winter) using dramatic, high-stakes narration and sound design to see if cinematic storytelling can elevate animal content to match the performance of space anomalies.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-14T23:33:28.980452+00:00"
+  "generated_at": "2026-09-15T00:42:55.941759+00:00"
 }
