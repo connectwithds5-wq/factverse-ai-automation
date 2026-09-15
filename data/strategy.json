@@ -1,42 +1,32 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "The channel's growth is heavily driven by exotic space mysteries and extreme exoplanet physics, which consistently capture the highest views and engagement. Conversely, generic psychology and brain-fact videos are severely underperforming, with multiple re-uploads failing to gain traction, indicating audience fatigue or algorithmic suppression of these saturated topics.",
+  "overall_summary": "Space anomalies, specifically extreme exoplanets with dramatic environmental conditions (burning ice, dark coal, supersonic rubies), are the clear drivers of traffic and engagement on the channel, while brain/psychology facts and repetitive memory-related topics consistently underperform.",
   "winning_patterns": [
     {
-      "pattern": "Exotic Exoplanets & Extreme Cosmic Weather",
-      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (996 views), and 'This Planet Rains Supersonic Rubies!' (660 views) are the channel's top-performing videos.",
-      "action": "Produce a dedicated series focusing on the most extreme, terrifying, and bizarre exoplanets in the known universe, emphasizing highly visual weather and atmospheric anomalies."
-    },
-    {
-      "pattern": "Mind-Bending Relativity Applied to the Body",
-      "evidence": "'Why Your Head Is Older Than Your Feet' achieved 263 views, significantly outperforming standard anatomy or psychology content.",
-      "action": "Frame physics and time-dilation concepts through a personal, human-centric lens to make complex science immediately relatable and shocking."
+      "pattern": "Extreme Exoplanet Anomalies & Sensory Contrasts",
+      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (996 views), and 'This Planet Rains Supersonic Rubies' (660 views) achieved the highest views and engagement.",
+      "action": "Double down on extreme space phenomena, focusing on stark contrasts (e.g., hot ice, ruby rain, dark light) and highly visual cosmic mysteries."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Brain and Psychology Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' failed across three separate uploads (5, 8, and 53 views), and 'The Real Reason Songs Get Stuck In Your Head' stalled at 17 views.",
-      "action": "Halt production on generic cognitive psychology facts and redirect creative resources toward cosmic scale mysteries and physics paradoxes."
-    },
-    {
-      "pattern": "Repetitive Re-uploading of Failed Concepts",
-      "evidence": "Re-uploading the 'Fake Memories' short multiple times with minor tweaks yielded near-zero views each time.",
-      "action": "Establish a rule where a failed concept is completely rewritten with a new hook and visual style rather than re-uploading the same asset."
+      "pattern": "Abstract Brain & Memory Psychology",
+      "evidence": "'Your Brain Can Create Fake Memories' across multiple uploads struggled to exceed 53 views (getting as low as 5 and 8 views), and 'Your Brain Is Hiding This From You' got only 38 views.",
+      "action": "Pivot away from abstract psychological tricks and repetitive cognitive facts, or re-frame them with high-stakes visual storytelling rather than flat statements."
     }
   ],
   "next_video": {
-    "category": "Space / Exotic Planets",
-    "hook_style": "Paradoxical Weather Shock",
-    "concept": "The Planet Where It Rains Rocks: CoRoT-7b",
-    "opening_direction": "Imagine a world where the weather forecast calls for a literal storm of rocks.",
-    "twist_direction": "Because this planet is tidally locked, one side is a boiling ocean of liquid lava, while the other side is cold enough to snow solid sodium.",
-    "duration_seconds": 20,
-    "posting_window": "13:00 - 14:00 UTC",
-    "reason": "Leverages the proven high-performance pattern of extreme exoplanet weather (similar to the ruby and molten iron rain videos) and targets the successful early afternoon posting window."
+    "category": "Space",
+    "hook_style": "Visual Paradox & High Stakes",
+    "concept": "WASP-12b, the egg-shaped planet being actively devoured by its own star.",
+    "opening_direction": "There is a planet in our galaxy shaped like a giant egg, and it's currently being eaten alive.",
+    "twist_direction": "The star's extreme gravity is tearing the planet apart, stretching it into an oval, and devouring it piece by piece.",
+    "duration_seconds": 18,
+    "posting_window": "13:00 - 15:00 UTC",
+    "reason": "Capitalizes on the high-performing space anomaly niche using a strong visual hook (egg-shaped planet) and high-stakes narrative (being eaten alive) which matches the successful patterns of TrES-2b and the Burning Ice planet."
   },
-  "experiment": "Test a cinematic 'What-If' space survival scenario, such as 'What if you stood on the surface of a planet made of burning ice?', to merge the dominant exoplanet theme with immersive, first-person storytelling.",
+  "experiment": "Test a 3-part mini-series on 'Planets That Shouldn't Exist,' starting with WASP-12b, to leverage the high interest in cosmic anomalies and build viewer retention across sequential uploads.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-15T21:34:48.302890+00:00"
+  "generated_at": "2026-09-15T22:35:44.647485+00:00"
 }
