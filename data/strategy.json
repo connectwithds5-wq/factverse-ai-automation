@@ -1,47 +1,37 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "The channel's clear growth driver is extreme cosmic anomalies and exoplanet mysteries, particularly those featuring bizarre environmental conditions (e.g., burning ice, coal-dark atmospheres, ruby rain). Conversely, generic psychology facts and repetitive brain-related hooks are severely underperforming and suffering from audience fatigue.",
+  "overall_summary": "The channel's clear breakout category is extreme space and exoplanet anomalies, with videos focusing on bizarre cosmic weather (burning ice, ruby rain, coal-dark skies) consistently generating the highest views and engagement. Conversely, abstract psychology facts and repetitive brain-related topics struggle to gain traction, even when re-uploaded.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Cosmic Anomalies & Exoplanet Mysteries",
-      "evidence": "'The Planet Darker Than Coal: TrES-2b' achieved 1,007 views and 36 likes, 'The Planet of Burning Ice' reached 1,055 views, and 'This Planet Rains Supersonic Rubies!' gained 719 views.",
-      "action": "Double down on extreme space environments, focusing on exoplanets with mind-bending physics, weather, or chemistry."
+      "pattern": "Extreme Exoplanet Weather & Cosmic Anomalies",
+      "evidence": "Videos like 'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,007 views), and 'This Planet Rains Supersonic Rubies!' (719 views) represent the top tier of performance.",
+      "action": "Produce a dedicated series on extreme exoplanet environments, focusing on high-contrast visual concepts (e.g., glass rain, diamond oceans, metal clouds)."
     },
     {
-      "pattern": "Sensory and Survival-Based Curiosity Hooks",
-      "evidence": "Titles promising sensory experiences like 'What Does Outer Space Actually Smell Like?' (368 views) and 'The Giant Space Cloud That Tastes Like Raspberries' (135 views) outperform standard factual statements.",
-      "action": "Frame cosmic facts around human senses (smell, taste, touch) or survival scenarios to make abstract space concepts tangible."
-    },
-    {
-      "pattern": "Slightly Longer, High-Density Formats (19-21 Seconds)",
-      "evidence": "The transition from 15-16 second videos to 19-21 second videos (e.g., TrES-2b at 21S, Supersonic Rubies at 21S) correlates with higher view counts and significantly better like-to-view ratios.",
-      "action": "Adopt a standard 20-second duration to allow for a complete narrative arc: Hook, Mind-Bending Fact, Scientific Explanation, and a closing Twist."
+      "pattern": "Sensory-Shock Space Facts",
+      "evidence": "'What Does Outer Space Actually Smell Like?' achieved 368 views, outperforming standard space facts.",
+      "action": "Use sensory hooks (smell, taste, touch) to explain scientific phenomena in space to make abstract concepts tangible."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Brain & Psychology Hacks",
-      "evidence": "'Your Brain Can Create Fake Memories' flopped repeatedly across multiple uploads (5, 8, and 53 views), and 'The Real Reason Songs Get Stuck In Your Head' only got 17 views.",
-      "action": "Pivot away from generic cognitive psychology and brain hacks unless they can be tied to a larger historical or cosmic mystery."
-    },
-    {
-      "pattern": "Sensationalized but Vague Titles",
-      "evidence": "'Your Head Is Aging Faster Than Your Feet! 🤯' generated only 52 views, whereas the clearer, curiosity-driven 'Why Your Head Is Older Than Your Feet 🤯' pulled 263 views.",
-      "action": "Avoid purely sensationalized clickbait. Use 'Why' or 'What If' hooks that promise a logical explanation rather than just an exclamation."
+      "pattern": "Repetitive Psychology & Brain Tricks",
+      "evidence": "Multiple uploads of 'Your Brain Can Create Fake Memories' flatlined at 5 to 53 views. 'The Real Reason Songs Get Stuck In Your Head' only reached 17 views.",
+      "action": "Phase out text-heavy or abstract psychology facts. If covering biology, pivot to extreme animal survival mechanisms which perform better (e.g., 'This Animal Literally Dies Every Winter' with 179 views)."
     }
   ],
   "next_video": {
-    "category": "Space / What-If Scenario",
-    "hook_style": "Sensory Survival Threat",
-    "concept": "What would actually happen to a human body if they stepped onto HD 189733b, the planet where it rains glass sideways.",
-    "opening_direction": "If you visited this beautiful blue exoplanet, you wouldn't feel ocean breezes—you'd be instantly shredded by flying glass.",
-    "twist_direction": "Reveal that the planet's blue color isn't from water, but from silicate particles in the atmosphere that melt into glass and rain sideways at 5,400 miles per hour.",
-    "duration_seconds": 20,
-    "posting_window": "13:00 - 14:00 UTC",
-    "reason": "Combines the highly successful exoplanet mystery theme with a 'What If' survival angle, utilizing the proven 20-second high-density format."
+    "category": "Space Mysteries",
+    "hook_style": "Visual & Physical Terror",
+    "concept": "WASP-12b, the egg-shaped planet being actively consumed and stretched by its parent star.",
+    "opening_direction": "This planet is shaped like a giant egg because its own star is literally eating it alive.",
+    "twist_direction": "In less than 10 million years, it will be completely swallowed, leaving behind nothing but a trail of cosmic dust.",
+    "duration_seconds": 18,
+    "posting_window": "12:00 PM - 1:30 PM",
+    "reason": "Aligns with the highly successful exoplanet anomaly trend. The 'egg-shaped' visual and the concept of a planet being 'eaten' provide strong retention hooks."
   },
-  "experiment": "Test a 'What If' survival series focusing on extreme cosmic destinations, comparing its retention and engagement metrics directly against standard third-person space facts.",
+  "experiment": "Test a 'Space Horror' narrative style using cinematic, AI-generated visuals of cosmic destruction to see if it increases average view duration compared to standard educational slideshows.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-16T15:36:51.170057+00:00"
+  "generated_at": "2026-09-16T16:36:46.874537+00:00"
 }
