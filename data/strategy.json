@@ -1,42 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Space and extreme cosmic phenomena—specifically bizarre exoplanet weather and mind-bending planetary conditions—are the undisputed growth drivers for FACTVERSE, consistently pulling in the highest views and engagement. Conversely, psychology-based content and common animal trivia are failing to capture audience interest, indicating a need to pivot fully toward cosmic mysteries and high-concept physics.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Exoplanet Weather & Anomalies",
-      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,007 views), and 'This Planet Rains Supersonic Rubies!' (719 views) represent the channel's peak performance.",
-      "action": "Double down on extreme planetary conditions, focusing on highly visual, hostile environments in the universe."
-    },
-    {
-      "pattern": "Counter-Intuitive Time & Age Paradoxes",
-      "evidence": "'Why Your Head Is Older Than Your Feet' (263 views) and 'Sharks Are Older Than Trees' (302 views) outperformed standard trivia.",
-      "action": "Incorporate physics-based time dilation and evolutionary timeline anomalies into the content calendar."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Basic Psychology & Brain Tricks",
-      "evidence": "'Your Brain Can Create Fake Memories' (max 53 views across multiple uploads) and 'The Psychological Trick to Stop Songs...' (71 views) consistently flopped.",
-      "action": "Halt production on general cognitive psychology and brain hacks unless tied to a massive cosmic or sci-fi mystery."
-    },
-    {
-      "pattern": "Common Animal Trivia",
-      "evidence": "'Octopuses Have THREE Hearts' (183 views) and 'The Only Animal That Can Live Forever' (69 views) generated very low traction.",
-      "action": "Avoid entry-level animal facts that are already widely known on the internet; pivot instead to cinematic animal survival narratives if exploring biology."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space / Cosmic Mysteries",
-    "hook_style": "Extreme Environmental Shock",
-    "concept": "The Planet Where It Rains Actual Rocks (CoRoT-7b)",
-    "opening_direction": "Start with a cinematic visual of a molten sky and the hook: 'Imagine a world where the weather forecast doesn't call for water... but falling stones.'",
-    "twist_direction": "Reveal that the planet is so close to its star that rock literally vaporizes into clouds, condensing and raining down as solid pebbles.",
-    "duration_seconds": 18,
-    "posting_window": "12:00 PM - 1:30 PM",
-    "reason": "Aligns with the highly successful exoplanet weather trend ('Burning Ice' and 'Supersonic Rubies') and fits the optimal 18-second retention-friendly duration."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a high-stakes 'What-If' cosmic scenario short (e.g., 'What If a Speck of Dark Matter Hit Earth?') to see if the space audience's appetite for extreme physics can be successfully funneled into hypothetical narrative-driven storytelling.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-16T12:41:47.592434+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-16T13:38:25.056805+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-16T13:38:25.056826+00:00"
 }
