@@ -1,21 +1,32 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Space anomalies, particularly those focusing on extreme planetary conditions (burning ice, molten iron, ruby rain, coal-dark planets), consistently drive the highest views and engagement. Conversely, general psychology and repetitive brain facts struggle to find an audience.",
+  "winning_patterns": [
+    {
+      "pattern": "Extreme Planetary Conditions & Sensory Space Facts",
+      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,004 views), and 'This Planet Rains Supersonic Rubies!' (706 views) are the top performers.",
+      "action": "Double down on bizarre cosmic environments, focusing on mind-bending physical properties (extreme temperatures, exotic rains, impossible chemistry) with high visual potential."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Generic Brain & Psychology Facts",
+      "evidence": "'Your Brain Can Create Fake Memories' (multiple uploads, max 53 views) and 'Your Brain Is Hiding This From You' (38 views) consistently underperform.",
+      "action": "Pivot away from standard psychological trivia unless it can be framed as a high-stakes mystery or survival scenario."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space / What-If Scenario",
+    "hook_style": "Sensory Paradox Hook",
+    "concept": "A planet where ice is hotter than fire (Gliese 436b).",
+    "opening_direction": "Show a visual of blazing fire engulfing a block of ice with the hook: 'This planet is covered in ice... but it's burning at 800 degrees.'",
+    "twist_direction": "Explain that the planet's gravity is so immense it compresses water vapor into solid ice, preventing it from melting despite the scorching heat.",
+    "duration_seconds": 18,
+    "posting_window": "12:00 PM - 2:00 PM",
+    "reason": "Leverages the proven success of 'The Planet of Burning Ice' (1,055 views) by focusing on a highly visual, paradoxical cosmic anomaly."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-16T07:37:18.499720+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-16T07:37:18.499744+00:00"
+  "experiment": "Test a 'What-If' space survival scenario (e.g., 'What if you fell into a planet made of liquid diamond?') to combine the high-performing space theme with cinematic storytelling.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-16T08:39:00.297629+00:00"
 }
