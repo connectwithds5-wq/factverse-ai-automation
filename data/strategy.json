@@ -1,32 +1,37 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Space anomalies, particularly those focusing on extreme planetary conditions (burning ice, molten iron, ruby rain, coal-dark planets), consistently drive the highest views and engagement. Conversely, general psychology and repetitive brain facts struggle to find an audience.",
+  "overall_summary": "Space-themed shorts, specifically those focusing on extreme exoplanets and bizarre cosmic physics (e.g., burning ice, coal-dark planets, supersonic rubies, and molten iron), are the primary growth drivers for FACTVERSE, consistently achieving 300 to 1,000+ views. Conversely, psychology topics, brain hacks, and repetitive uploads of 'fake memories' or 'songs stuck in your head' consistently underperform, rarely clearing 100 views.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Planetary Conditions & Sensory Space Facts",
-      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,004 views), and 'This Planet Rains Supersonic Rubies!' (706 views) are the top performers.",
-      "action": "Double down on bizarre cosmic environments, focusing on mind-bending physical properties (extreme temperatures, exotic rains, impossible chemistry) with high visual potential."
+      "pattern": "Extreme Exoplanet Weather & Sensory Paradoxes",
+      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,004 views), and 'This Planet Rains Supersonic Rubies!' (706 views) represent the channel's peak performance.",
+      "action": "Focus production on extreme cosmic anomalies, utilizing high-contrast visual descriptions (e.g., raining gems, boiling ice, metal clouds) to capture immediate visual interest."
+    },
+    {
+      "pattern": "What-If Space Scenarios & Cosmic Scale",
+      "evidence": "'The Largest Ocean in Space' (460 views) and 'What Does Outer Space Actually Smell Like?' (368 views) show strong secondary performance.",
+      "action": "Incorporate relatable sensory questions (smell, taste, scale) applied to the vacuum of space to ground complex science in instant curiosity."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Brain & Psychology Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' (multiple uploads, max 53 views) and 'Your Brain Is Hiding This From You' (38 views) consistently underperform.",
-      "action": "Pivot away from standard psychological trivia unless it can be framed as a high-stakes mystery or survival scenario."
+      "pattern": "Repetitive Psychology & Brain Hacks",
+      "evidence": "Multiple uploads of 'Your Brain Can Create Fake Memories' (max 53 views) and 'Songs Stuck in Your Head' (max 71 views) failed to gain traction.",
+      "action": "De-prioritize generic brain facts and stop re-uploading identical concepts that fail to pass the initial algorithmic seed phase."
     }
   ],
   "next_video": {
-    "category": "Space / What-If Scenario",
+    "category": "Space / Extreme Planets",
     "hook_style": "Sensory Paradox Hook",
-    "concept": "A planet where ice is hotter than fire (Gliese 436b).",
-    "opening_direction": "Show a visual of blazing fire engulfing a block of ice with the hook: 'This planet is covered in ice... but it's burning at 800 degrees.'",
-    "twist_direction": "Explain that the planet's gravity is so immense it compresses water vapor into solid ice, preventing it from melting despite the scorching heat.",
+    "concept": "The Planet Where Nights Rain Liquid Iron (WASP-76b)",
+    "opening_direction": "Imagine a world where the night sky doesn't bring darkness, but a torrential downpour of boiling, liquid iron.",
+    "twist_direction": "But the real nightmare is the wind—gusts of 10,000 miles per hour that whip this molten metal sideways, tearing through anything in its path.",
     "duration_seconds": 18,
-    "posting_window": "12:00 PM - 2:00 PM",
-    "reason": "Leverages the proven success of 'The Planet of Burning Ice' (1,055 views) by focusing on a highly visual, paradoxical cosmic anomaly."
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Exoplanets with terrifying, extreme environmental conditions are our highest-converting concepts. WASP-76b perfectly matches the 'extreme weather' pattern of our top-performing ruby and molten iron videos."
   },
-  "experiment": "Test a 'What-If' space survival scenario (e.g., 'What if you fell into a planet made of liquid diamond?') to combine the high-performing space theme with cinematic storytelling.",
+  "experiment": "Test a 3-part micro-series on 'The Most Terrifying Planets in the Universe' using a unified visual template, keeping the duration under 20 seconds to maximize completion rate and trigger the Shorts feed algorithm.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-16T08:39:00.297629+00:00"
+  "generated_at": "2026-09-16T09:37:14.899511+00:00"
 }
