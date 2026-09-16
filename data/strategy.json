@@ -1,37 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "The channel's clear breakout category is extreme space and exoplanet anomalies, with videos focusing on bizarre cosmic weather (burning ice, ruby rain, coal-dark skies) consistently generating the highest views and engagement. Conversely, abstract psychology facts and repetitive brain-related topics struggle to gain traction, even when re-uploaded.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Exoplanet Weather & Cosmic Anomalies",
-      "evidence": "Videos like 'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,007 views), and 'This Planet Rains Supersonic Rubies!' (719 views) represent the top tier of performance.",
-      "action": "Produce a dedicated series on extreme exoplanet environments, focusing on high-contrast visual concepts (e.g., glass rain, diamond oceans, metal clouds)."
-    },
-    {
-      "pattern": "Sensory-Shock Space Facts",
-      "evidence": "'What Does Outer Space Actually Smell Like?' achieved 368 views, outperforming standard space facts.",
-      "action": "Use sensory hooks (smell, taste, touch) to explain scientific phenomena in space to make abstract concepts tangible."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Repetitive Psychology & Brain Tricks",
-      "evidence": "Multiple uploads of 'Your Brain Can Create Fake Memories' flatlined at 5 to 53 views. 'The Real Reason Songs Get Stuck In Your Head' only reached 17 views.",
-      "action": "Phase out text-heavy or abstract psychology facts. If covering biology, pivot to extreme animal survival mechanisms which perform better (e.g., 'This Animal Literally Dies Every Winter' with 179 views)."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space Mysteries",
-    "hook_style": "Visual & Physical Terror",
-    "concept": "WASP-12b, the egg-shaped planet being actively consumed and stretched by its parent star.",
-    "opening_direction": "This planet is shaped like a giant egg because its own star is literally eating it alive.",
-    "twist_direction": "In less than 10 million years, it will be completely swallowed, leaving behind nothing but a trail of cosmic dust.",
-    "duration_seconds": 18,
-    "posting_window": "12:00 PM - 1:30 PM",
-    "reason": "Aligns with the highly successful exoplanet anomaly trend. The 'egg-shaped' visual and the concept of a planet being 'eaten' provide strong retention hooks."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'Space Horror' narrative style using cinematic, AI-generated visuals of cosmic destruction to see if it increases average view duration compared to standard educational slideshows.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-16T16:36:46.874537+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-16T17:35:44.497185+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-16T17:35:44.497208+00:00"
 }
