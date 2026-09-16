@@ -1,42 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Space and cosmic anomaly topics are the clear growth drivers for FACTVERSE, with videos about extreme planets (e.g., TrES-2b, burning ice, supersonic rubies) consistently crossing the 500-1,000 views threshold and securing the highest engagement. Conversely, psychology, brain facts, and repetitive memory-related topics underperform significantly, rarely exceeding 100 views.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Cosmic Anomalies & Planetary Wonders",
-      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,003 views), and 'This Planet Rains Supersonic Rubies!' (664 views) are the top-performing videos.",
-      "action": "Double down on extreme space phenomena, focusing on highly visual, hostile, or bizarre planetary environments using high-contrast adjectives in titles."
-    },
-    {
-      "pattern": "Sensory and Physical Paradox Hooks",
-      "evidence": "Titles like 'Why Your Head Is Older Than Your Feet' (263 views) and 'What Does Outer Space Actually Smell Like?' (368 views) perform well by linking abstract physics/space to familiar human senses.",
-      "action": "Frame complex scientific facts through sensory paradoxes (smell, touch, aging) to make them instantly relatable."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Psychology and Brain Mechanism Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' (max 53 views across multiple uploads) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to capture audience interest.",
-      "action": "Pivot away from standard cognitive psychology facts unless they can be framed as a high-stakes mystery or horror micro-story."
-    },
-    {
-      "pattern": "Repetitive Concept Re-uploading",
-      "evidence": "Re-uploading 'Your Brain Can Create Fake Memories' multiple times resulted in extremely low views (5, 8, and 53 views), showing no positive algorithmic variance.",
-      "action": "Avoid direct re-uploads of underperforming concepts; instead, completely re-angle the hook or change the topic entirely."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space & Cosmic Anomalies",
-    "hook_style": "Cosmic Horror / Extreme Destruction",
-    "concept": "WASP-12b, the egg-shaped planet being slowly devoured and eaten alive by its host star.",
-    "opening_direction": "Show a hyper-realistic CGI animation of a distorted, egg-shaped planet stretching and tearing apart as glowing gas is sucked into a massive star.",
-    "twist_direction": "Reveal that this isn't sci-fi, but a real planet called WASP-12b that is literally being eaten alive right now, with only a fraction of its life left.",
-    "duration_seconds": 18,
-    "posting_window": "13:00 - 15:00 UTC",
-    "reason": "Capitalizes on the highly successful 'extreme planet' formula that drove over 1,000 views on similar videos, using a high-stakes 'devoured' hook to maximize early retention."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'What-If' scenario video focusing on Earth (e.g., 'What If the Moon Was Only 100 Miles Away?') to see if the high-performing space audience translates to catastrophic geography/what-if scenarios.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-16T00:41:14.481616+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-16T01:34:50.572348+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-16T01:34:50.572368+00:00"
 }
