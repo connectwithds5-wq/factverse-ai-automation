@@ -1,42 +1,42 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Space and extreme planetary science content significantly outperforms psychology and brain-related topics on FACTVERSE. Videos focusing on highly visual, paradoxical, or sensory cosmic phenomena (e.g., burning ice, coal-dark planets, ruby rain) capture much higher viewer interest and engagement, whereas psychology and brain facts consistently struggle to gain traction.",
+  "overall_summary": "Space and cosmic anomaly topics are the clear growth drivers for FACTVERSE, with videos about extreme planets (e.g., TrES-2b, burning ice, supersonic rubies) consistently crossing the 500-1,000 views threshold and securing the highest engagement. Conversely, psychology, brain facts, and repetitive memory-related topics underperform significantly, rarely exceeding 100 views.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Planetary & Cosmic Paradoxes",
-      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,003 views), and 'This Planet Rains Supersonic Rubies!' (660 views) represent the channel's top-performing tier.",
-      "action": "Double down on extreme space facts focusing on highly visual, sensory, or paradoxical concepts (e.g., extreme temperatures, weird rains, sensory anomalies in space)."
+      "pattern": "Extreme Cosmic Anomalies & Planetary Wonders",
+      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,003 views), and 'This Planet Rains Supersonic Rubies!' (664 views) are the top-performing videos.",
+      "action": "Double down on extreme space phenomena, focusing on highly visual, hostile, or bizarre planetary environments using high-contrast adjectives in titles."
     },
     {
-      "pattern": "21-Second Narrative Pace",
-      "evidence": "The highest-liked videos ('The Planet Darker Than Coal' with 36 likes and 'This Planet Rains Supersonic Rubies!' with 23 likes) both utilize a 21-second duration, allowing for a stronger hook-to-payoff narrative arc than the 12-15 second clips.",
-      "action": "Standardize space-themed Shorts to a 19-21 second duration to allow for a compelling setup, scientific explanation, and satisfying twist."
+      "pattern": "Sensory and Physical Paradox Hooks",
+      "evidence": "Titles like 'Why Your Head Is Older Than Your Feet' (263 views) and 'What Does Outer Space Actually Smell Like?' (368 views) perform well by linking abstract physics/space to familiar human senses.",
+      "action": "Frame complex scientific facts through sensory paradoxes (smell, touch, aging) to make them instantly relatable."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Psychology & Brain Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' (5-53 views across multiple uploads) and 'Your Brain Is Hiding This From You' (38 views) consistently fail to find an audience.",
-      "action": "Pause production on basic psychology and cognitive illusion facts, as they lack the high-stakes visual appeal of cosmic and animal survival content."
+      "pattern": "Psychology and Brain Mechanism Facts",
+      "evidence": "'Your Brain Can Create Fake Memories' (max 53 views across multiple uploads) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to capture audience interest.",
+      "action": "Pivot away from standard cognitive psychology facts unless they can be framed as a high-stakes mystery or horror micro-story."
     },
     {
-      "pattern": "Ultra-Short Durations (Under 15 Seconds)",
-      "evidence": "'Octopuses Have THREE Hearts' (12s, 118-183 views) and 'Your Head Is Aging Faster Than Your Feet!' (13s, 52 views) underperform compared to longer, more detailed narratives.",
-      "action": "Avoid cutting scripts too short; ensure every Short has enough time to build a cinematic atmosphere."
+      "pattern": "Repetitive Concept Re-uploading",
+      "evidence": "Re-uploading 'Your Brain Can Create Fake Memories' multiple times resulted in extremely low views (5, 8, and 53 views), showing no positive algorithmic variance.",
+      "action": "Avoid direct re-uploads of underperforming concepts; instead, completely re-angle the hook or change the topic entirely."
     }
   ],
   "next_video": {
-    "category": "Space",
-    "hook_style": "Paradoxical / Sensory Shock",
-    "concept": "The beautiful blue planet where it rains glass sideways at supersonic speeds.",
-    "opening_direction": "Start with a cinematic, deep-blue planet that looks exactly like a peaceful Earth twin, then instantly shatter the illusion with a sound effect of breaking glass.",
-    "twist_direction": "Reveal that the gorgeous blue color comes from silicate particles in the atmosphere, meaning it actually rains molten glass sideways at 5,400 miles per hour.",
-    "duration_seconds": 20,
+    "category": "Space & Cosmic Anomalies",
+    "hook_style": "Cosmic Horror / Extreme Destruction",
+    "concept": "WASP-12b, the egg-shaped planet being slowly devoured and eaten alive by its host star.",
+    "opening_direction": "Show a hyper-realistic CGI animation of a distorted, egg-shaped planet stretching and tearing apart as glowing gas is sucked into a massive star.",
+    "twist_direction": "Reveal that this isn't sci-fi, but a real planet called WASP-12b that is literally being eaten alive right now, with only a fraction of its life left.",
+    "duration_seconds": 18,
     "posting_window": "13:00 - 15:00 UTC",
-    "reason": "Leverages the highly successful 'extreme planetary weather' formula seen in the ruby and iron rain videos, using a strong visual contrast (peaceful blue Earth-lookalike vs. deadly glass storm) to maximize retention."
+    "reason": "Capitalizes on the highly successful 'extreme planet' formula that drove over 1,000 views on similar videos, using a high-stakes 'devoured' hook to maximize early retention."
   },
-  "experiment": "Test a cinematic 'What-If' space survival scenario (e.g., 'What If You Fell Into a White Hole?') to see if combining the high-performing space niche with a narrative, first-person survival perspective increases viewer share-rates.",
+  "experiment": "Test a 'What-If' scenario video focusing on Earth (e.g., 'What If the Moon Was Only 100 Miles Away?') to see if the high-performing space audience translates to catastrophic geography/what-if scenarios.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-15T23:34:22.253762+00:00"
+  "generated_at": "2026-09-16T00:41:14.481616+00:00"
 }
