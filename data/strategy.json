@@ -1,21 +1,32 @@
 {
   "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Cosmic anomalies and extreme planetary physics are the clear growth drivers for FACTVERSE, yielding the highest views and engagement. Conversely, generic psychology facts and overused animal trivia suffer from low reach and poor viewer retention, exacerbated by repetitive uploading of identical concepts.",
+  "winning_patterns": [
+    {
+      "pattern": "Extreme Cosmic Anomalies & Planetary Weather",
+      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,003 views, 36 likes), and 'This Planet Rains Supersonic Rubies!' (682 views, 25 likes) represent the channel's peak performance.",
+      "action": "Focus content production on bizarre, extreme, and visually spectacular space phenomena, utilizing high-contrast sensory hooks (e.g., burning ice, ruby rain)."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Repetitive Psychology & Commonplace Trivia",
+      "evidence": "'Your Brain Can Create Fake Memories' failed to gain traction across multiple uploads (max 53 views), and 'Octopuses Have THREE Hearts' (max 183 views) underperformed due to being highly saturated trivia.",
+      "action": "Phase out basic, widely known facts and avoid re-uploading identical scripts. Shift psychology content toward dark, mysterious, or counter-intuitive micro-stories."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space & Cosmic Mysteries",
+    "hook_style": "Sensory Paradox / Extreme Weather",
+    "concept": "The Planet Where It Rains Rocks and Snows Metal",
+    "opening_direction": "Imagine a world where the weather forecast calls for a literal rock shower.",
+    "twist_direction": "But it gets weirder: the planet is so close to its sun that the rocky crust literally vaporizes into the atmosphere, forming stone clouds that rain liquid lava.",
+    "duration_seconds": 18,
+    "posting_window": "18:00 - 20:00 UTC",
+    "reason": "Aligns directly with the proven high-performance pattern of extreme planetary conditions, using a strong visual hook to capture immediate viewer interest."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-16T02:36:34.975085+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-16T02:36:34.975108+00:00"
+  "experiment": "Test a cinematic 'What-If' space scenario (e.g., 'What If a Magnetar Entered Our Solar System?') to transition the high-performing space audience into longer-retention, story-driven cosmic horror.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-16T03:37:41.039340+00:00"
 }
