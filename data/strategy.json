@@ -1,32 +1,32 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Space-themed content, particularly focusing on extreme planetary environments and cosmic anomalies (e.g., TrES-2b, burning ice, supersonic rubies), drives the highest viewership and engagement. Conversely, cognitive psychology and brain-related facts consistently underperform, indicating a strong audience preference for grand, visually-evocative cosmic mysteries over internal human biology.",
+  "overall_summary": "Space and cosmic extremes—specifically exoplanets with bizarre, hostile environments (e.g., TrES-2b, burning ice, supersonic rubies)—are driving the highest view counts and engagement. Conversely, general psychology and brain-related facts are consistently failing to gain traction, indicating a clear audience preference for visual, mind-expanding cosmic mysteries over internal cognitive science.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Planetary Conditions & Cosmic Anomalies",
-      "evidence": "Videos like 'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,006 views), and 'This Planet Rains Supersonic Rubies!' (696 views) represent the channel's peak performance.",
-      "action": "Double down on extreme exoplanet characteristics, utilizing high-contrast visual descriptions ('burning ice', 'supersonic rubies') in the titles and hooks."
+      "pattern": "Exoplanets with Extreme Weather or Bizarre Composition",
+      "evidence": "The Planet of Burning Ice (1,055 views), The Planet Darker Than Coal (1,007 views), and This Planet Rains Supersonic Rubies (700 views) represent the channel's top-performing tier.",
+      "action": "Double down on extreme space geography and exoplanet anomalies. Use high-contrast sensory words in titles like 'Supersonic Rubies', 'Burning Ice', and 'Molten Iron'."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Cognitive Psychology & Brain Tricks",
-      "evidence": "Videos like 'Your Brain Can Create Fake Memories' (8 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) struggle to gain traction.",
-      "action": "Pivot away from generic brain/psychology facts, or reframe them through a high-stakes 'what-if' or survival lens rather than dry educational explanations."
+      "pattern": "Cognitive Psychology and Brain Tricks",
+      "evidence": "Videos like 'Your Brain Can Create Fake Memories' (max 53 views across multiple uploads) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently underperform.",
+      "action": "Pivot away from cognitive psychology and self-help brain hacks, or reframe them through a more cinematic, mysterious lens if attempted."
     }
   ],
   "next_video": {
-    "category": "Space & Astronomy",
-    "hook_style": "Sensory Paradox Hook",
-    "concept": "The Planet Where It Rains Rocks (CoRoT-7b)",
-    "opening_direction": "Show a cinematic simulation of liquid stone vaporizing into clouds, asking: 'What if rain could crush you instantly?'",
-    "twist_direction": "Explain that the planet is tidally locked, meaning one side melts rock into vapor while the other side freezes it back into solid stone rain.",
+    "category": "Space & Cosmic Extremes",
+    "hook_style": "Sensory Shock & Mind-Bending Visual",
+    "concept": "The Planet Where It Rains Rocks (Corot-7b)",
+    "opening_direction": "There is a planet in our galaxy where the weather forecast is literally a rain of solid rocks.",
+    "twist_direction": "But on the dark side of this planet, it is so cold that the vaporized rock condenses and falls as stone snow.",
     "duration_seconds": 18,
     "posting_window": "13:00 - 15:00 UTC",
-    "reason": "Aligns with the highly successful 16-21 second duration of top-performing space videos and leverages the proven 'extreme weather/material' theme."
+    "reason": "Leverages the proven exoplanet extreme weather formula that generated over 1k views on 'Burning Ice' and 'Darker Than Coal' videos."
   },
-  "experiment": "Test a 'What-If' cosmic survival scenario, such as 'What If You Fell Into a Planet Made of Diamond?', combining the high-performing space theme with an active, first-person narrative style to boost viewer retention.",
+  "experiment": "Test a 'What If' cosmic scenario focusing on Earth's survival (e.g., 'What If Earth Had Saturn's Rings?') to bridge the gap between space facts and cinematic storytelling.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-16T10:37:45.161284+00:00"
+  "generated_at": "2026-09-16T11:37:55.325920+00:00"
 }
