@@ -1,32 +1,42 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Space and cosmic extremes—specifically exoplanets with bizarre, hostile environments (e.g., TrES-2b, burning ice, supersonic rubies)—are driving the highest view counts and engagement. Conversely, general psychology and brain-related facts are consistently failing to gain traction, indicating a clear audience preference for visual, mind-expanding cosmic mysteries over internal cognitive science.",
+  "overall_summary": "Space and extreme cosmic phenomena—specifically bizarre exoplanet weather and mind-bending planetary conditions—are the undisputed growth drivers for FACTVERSE, consistently pulling in the highest views and engagement. Conversely, psychology-based content and common animal trivia are failing to capture audience interest, indicating a need to pivot fully toward cosmic mysteries and high-concept physics.",
   "winning_patterns": [
     {
-      "pattern": "Exoplanets with Extreme Weather or Bizarre Composition",
-      "evidence": "The Planet of Burning Ice (1,055 views), The Planet Darker Than Coal (1,007 views), and This Planet Rains Supersonic Rubies (700 views) represent the channel's top-performing tier.",
-      "action": "Double down on extreme space geography and exoplanet anomalies. Use high-contrast sensory words in titles like 'Supersonic Rubies', 'Burning Ice', and 'Molten Iron'."
+      "pattern": "Extreme Exoplanet Weather & Anomalies",
+      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,007 views), and 'This Planet Rains Supersonic Rubies!' (719 views) represent the channel's peak performance.",
+      "action": "Double down on extreme planetary conditions, focusing on highly visual, hostile environments in the universe."
+    },
+    {
+      "pattern": "Counter-Intuitive Time & Age Paradoxes",
+      "evidence": "'Why Your Head Is Older Than Your Feet' (263 views) and 'Sharks Are Older Than Trees' (302 views) outperformed standard trivia.",
+      "action": "Incorporate physics-based time dilation and evolutionary timeline anomalies into the content calendar."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Cognitive Psychology and Brain Tricks",
-      "evidence": "Videos like 'Your Brain Can Create Fake Memories' (max 53 views across multiple uploads) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently underperform.",
-      "action": "Pivot away from cognitive psychology and self-help brain hacks, or reframe them through a more cinematic, mysterious lens if attempted."
+      "pattern": "Basic Psychology & Brain Tricks",
+      "evidence": "'Your Brain Can Create Fake Memories' (max 53 views across multiple uploads) and 'The Psychological Trick to Stop Songs...' (71 views) consistently flopped.",
+      "action": "Halt production on general cognitive psychology and brain hacks unless tied to a massive cosmic or sci-fi mystery."
+    },
+    {
+      "pattern": "Common Animal Trivia",
+      "evidence": "'Octopuses Have THREE Hearts' (183 views) and 'The Only Animal That Can Live Forever' (69 views) generated very low traction.",
+      "action": "Avoid entry-level animal facts that are already widely known on the internet; pivot instead to cinematic animal survival narratives if exploring biology."
     }
   ],
   "next_video": {
-    "category": "Space & Cosmic Extremes",
-    "hook_style": "Sensory Shock & Mind-Bending Visual",
-    "concept": "The Planet Where It Rains Rocks (Corot-7b)",
-    "opening_direction": "There is a planet in our galaxy where the weather forecast is literally a rain of solid rocks.",
-    "twist_direction": "But on the dark side of this planet, it is so cold that the vaporized rock condenses and falls as stone snow.",
+    "category": "Space / Cosmic Mysteries",
+    "hook_style": "Extreme Environmental Shock",
+    "concept": "The Planet Where It Rains Actual Rocks (CoRoT-7b)",
+    "opening_direction": "Start with a cinematic visual of a molten sky and the hook: 'Imagine a world where the weather forecast doesn't call for water... but falling stones.'",
+    "twist_direction": "Reveal that the planet is so close to its star that rock literally vaporizes into clouds, condensing and raining down as solid pebbles.",
     "duration_seconds": 18,
-    "posting_window": "13:00 - 15:00 UTC",
-    "reason": "Leverages the proven exoplanet extreme weather formula that generated over 1k views on 'Burning Ice' and 'Darker Than Coal' videos."
+    "posting_window": "12:00 PM - 1:30 PM",
+    "reason": "Aligns with the highly successful exoplanet weather trend ('Burning Ice' and 'Supersonic Rubies') and fits the optimal 18-second retention-friendly duration."
   },
-  "experiment": "Test a 'What If' cosmic scenario focusing on Earth's survival (e.g., 'What If Earth Had Saturn's Rings?') to bridge the gap between space facts and cinematic storytelling.",
+  "experiment": "Test a high-stakes 'What-If' cosmic scenario short (e.g., 'What If a Speck of Dark Matter Hit Earth?') to see if the space audience's appetite for extreme physics can be successfully funneled into hypothetical narrative-driven storytelling.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-16T11:37:55.325920+00:00"
+  "generated_at": "2026-09-16T12:41:47.592434+00:00"
 }
