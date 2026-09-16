@@ -1,37 +1,32 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Space-themed shorts, specifically those focusing on extreme exoplanets and bizarre cosmic physics (e.g., burning ice, coal-dark planets, supersonic rubies, and molten iron), are the primary growth drivers for FACTVERSE, consistently achieving 300 to 1,000+ views. Conversely, psychology topics, brain hacks, and repetitive uploads of 'fake memories' or 'songs stuck in your head' consistently underperform, rarely clearing 100 views.",
+  "overall_summary": "Space-themed content, particularly focusing on extreme planetary environments and cosmic anomalies (e.g., TrES-2b, burning ice, supersonic rubies), drives the highest viewership and engagement. Conversely, cognitive psychology and brain-related facts consistently underperform, indicating a strong audience preference for grand, visually-evocative cosmic mysteries over internal human biology.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanet Weather & Sensory Paradoxes",
-      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,004 views), and 'This Planet Rains Supersonic Rubies!' (706 views) represent the channel's peak performance.",
-      "action": "Focus production on extreme cosmic anomalies, utilizing high-contrast visual descriptions (e.g., raining gems, boiling ice, metal clouds) to capture immediate visual interest."
-    },
-    {
-      "pattern": "What-If Space Scenarios & Cosmic Scale",
-      "evidence": "'The Largest Ocean in Space' (460 views) and 'What Does Outer Space Actually Smell Like?' (368 views) show strong secondary performance.",
-      "action": "Incorporate relatable sensory questions (smell, taste, scale) applied to the vacuum of space to ground complex science in instant curiosity."
+      "pattern": "Extreme Planetary Conditions & Cosmic Anomalies",
+      "evidence": "Videos like 'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,006 views), and 'This Planet Rains Supersonic Rubies!' (696 views) represent the channel's peak performance.",
+      "action": "Double down on extreme exoplanet characteristics, utilizing high-contrast visual descriptions ('burning ice', 'supersonic rubies') in the titles and hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Psychology & Brain Hacks",
-      "evidence": "Multiple uploads of 'Your Brain Can Create Fake Memories' (max 53 views) and 'Songs Stuck in Your Head' (max 71 views) failed to gain traction.",
-      "action": "De-prioritize generic brain facts and stop re-uploading identical concepts that fail to pass the initial algorithmic seed phase."
+      "pattern": "Cognitive Psychology & Brain Tricks",
+      "evidence": "Videos like 'Your Brain Can Create Fake Memories' (8 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) struggle to gain traction.",
+      "action": "Pivot away from generic brain/psychology facts, or reframe them through a high-stakes 'what-if' or survival lens rather than dry educational explanations."
     }
   ],
   "next_video": {
-    "category": "Space / Extreme Planets",
+    "category": "Space & Astronomy",
     "hook_style": "Sensory Paradox Hook",
-    "concept": "The Planet Where Nights Rain Liquid Iron (WASP-76b)",
-    "opening_direction": "Imagine a world where the night sky doesn't bring darkness, but a torrential downpour of boiling, liquid iron.",
-    "twist_direction": "But the real nightmare is the wind—gusts of 10,000 miles per hour that whip this molten metal sideways, tearing through anything in its path.",
+    "concept": "The Planet Where It Rains Rocks (CoRoT-7b)",
+    "opening_direction": "Show a cinematic simulation of liquid stone vaporizing into clouds, asking: 'What if rain could crush you instantly?'",
+    "twist_direction": "Explain that the planet is tidally locked, meaning one side melts rock into vapor while the other side freezes it back into solid stone rain.",
     "duration_seconds": 18,
-    "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Exoplanets with terrifying, extreme environmental conditions are our highest-converting concepts. WASP-76b perfectly matches the 'extreme weather' pattern of our top-performing ruby and molten iron videos."
+    "posting_window": "13:00 - 15:00 UTC",
+    "reason": "Aligns with the highly successful 16-21 second duration of top-performing space videos and leverages the proven 'extreme weather/material' theme."
   },
-  "experiment": "Test a 3-part micro-series on 'The Most Terrifying Planets in the Universe' using a unified visual template, keeping the duration under 20 seconds to maximize completion rate and trigger the Shorts feed algorithm.",
+  "experiment": "Test a 'What-If' cosmic survival scenario, such as 'What If You Fell Into a Planet Made of Diamond?', combining the high-performing space theme with an active, first-person narrative style to boost viewer retention.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-16T09:37:14.899511+00:00"
+  "generated_at": "2026-09-16T10:37:45.161284+00:00"
 }
