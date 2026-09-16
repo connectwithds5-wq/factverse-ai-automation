@@ -1,42 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Space and cosmic anomaly content is the primary driver of growth for FACTVERSE. Videos focusing on extreme planetary conditions (e.g., burning ice, coal-dark planets, supersonic rubies) consistently outperform all other categories, crossing the 500-1,000 view threshold. Conversely, generic psychology facts and repetitive brain-hack videos are severely underperforming, indicating strong audience fatigue and a clear need to pivot resources toward cinematic space and high-concept science storytelling.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Cosmic Anomalies & Paradoxical Space Facts",
-      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,003 views, 36 likes), and 'This Planet Rains Supersonic Rubies!' (684 views, 25 likes) represent the channel's peak performers.",
-      "action": "Double down on highly visual, extreme planetary phenomena. Use strong sensory paradoxes in titles and hooks (e.g., cold stars, burning ice, metallic rain)."
-    },
-    {
-      "pattern": "Sensory-Linked Curiosity Hooks",
-      "evidence": "'What Does Outer Space Actually Smell Like? 🥩🚀' achieved 368 views, demonstrating that linking abstract cosmic concepts to familiar sensory experiences (like the smell of steak) triggers high click-through rates.",
-      "action": "Frame complex astrophysical or scientific concepts through bizarre, everyday sensory analogies in the opening 3 seconds."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Repetitive Psychology & Brain Hacks",
-      "evidence": "'Your Brain Can Create Fake Memories' struggled across multiple uploads (peaking at only 53 views), and 'The Real Reason Songs Get Stuck In Your Head' stalled at 17 views.",
-      "action": "De-prioritize generic psychology and brain-hack content. Shift those production resources entirely into high-visual space or country mystery niches."
-    },
-    {
-      "pattern": "Low-Stakes Animal Biology Trivia",
-      "evidence": "'Octopuses Have THREE Hearts' (183 views) and 'The Only Animal That Can Live Forever' (69 views) underperform compared to cosmic topics.",
-      "action": "If covering animals, pivot from basic biology facts to high-stakes 'cinematic animal survival' or prehistoric monster narratives."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space / What-If Scenario",
-    "hook_style": "Paradoxical Visual Contrast",
-    "concept": "The planet where it snows titanium sunscreen and rains liquid iron (Kepler-13b).",
-    "opening_direction": "Start with a cinematic, pitch-black planetary zoom-in, with the voiceover: 'This planet has an atmosphere so hot, it literally snows sunscreen.'",
-    "twist_direction": "Reveal that Kepler-13b's extreme gravity traps titanium oxide in its upper atmosphere, creating heavy, dark snowstorms of actual paint and sunscreen pigment.",
-    "duration_seconds": 19,
-    "posting_window": "13:00 - 14:00 UTC",
-    "reason": "Leverages the proven success of extreme planetary weather conditions ('rains rubies', 'burning ice') while utilizing a highly unusual, scroll-stopping hook ('snowing sunscreen') to maximize retention."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'What-If' space survival scenario format (e.g., 'What if you spent 5 seconds on the planet of burning ice?') to evaluate if framing cosmic anomalies as active survival stories increases average viewer duration compared to passive fact-sharing.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-16T06:42:04.145287+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-16T07:37:18.499720+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-16T07:37:18.499744+00:00"
 }
