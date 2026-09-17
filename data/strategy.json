@@ -1,21 +1,32 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Extreme space anomalies and bizarre exoplanet conditions (burning ice, coal-dark planets, raining rubies, and space oceans) are the clear drivers of high performance on FACTVERSE. In contrast, psychology and brain-related facts (fake memories, songs stuck in head) consistently underperform, likely due to over-saturation and a lack of high-impact visual hooks.",
+  "winning_patterns": [
+    {
+      "pattern": "Extreme Exoplanet & Space Anomalies (21-Second Duration)",
+      "evidence": "The Planet Darker Than Coal (TrES-2b) achieved 1,014 views and 36 likes, and This Planet Rains Supersonic Rubies! achieved 721 views and 25 likes. Both utilized a 21-second duration, allowing for better pacing and retention compared to shorter 15-16s clips.",
+      "action": "Double down on highly visual, extreme cosmic phenomena. Standardize the duration to 19-21 seconds to maximize watch time and allow for a more structured narrative arc."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Saturated Psychology & Brain Facts",
+      "evidence": "Your Brain Can Create Fake Memories struggled across multiple uploads, peaking at only 53 views. The Real Reason Songs Get Stuck In Your Head flatlined at 17 views.",
+      "action": "Pivot away from generic cognitive psychology facts. If psychology is explored, it must be framed through an extreme survival, historical mystery, or horror/micro-story lens rather than basic brain functions."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space Mysteries",
+    "hook_style": "Visual Paradox & Doom",
+    "concept": "WASP-12b, the egg-shaped planet being actively devoured by its host star.",
+    "opening_direction": "Right now, there is a pitch-black planet in our galaxy shaped like a distorted egg because its own star is eating it alive.",
+    "twist_direction": "But the most terrifying part? It's spiraling inward so fast that scientists estimate it has less than 10 million years before it is completely swallowed.",
+    "duration_seconds": 21,
+    "posting_window": "13:00 - 14:00 UTC",
+    "reason": "Aligns with the highly successful exoplanet theme (TrES-2b, Supersonic Rubies) and utilizes the proven 21-second format. The 'egg-shaped planet being eaten' concept offers immense visual potential for AI-generated cinematic imagery."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-16T17:35:44.497185+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-16T17:35:44.497208+00:00"
+  "experiment": "Test a 'What-If' cinematic space scenario (e.g., 'What If a Rogue Planet Entered Our Solar System?') using the 21-second format to see if speculative space storytelling matches the high baseline of factual exoplanet anomalies.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-17T10:36:51.875415+00:00"
 }
