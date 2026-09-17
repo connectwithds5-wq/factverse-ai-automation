@@ -1,32 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "The channel's clear growth driver is extreme space and exoplanet anomalies. Videos featuring mind-bending cosmic phenomena (such as planets of burning ice, coal-dark worlds, and gemstone rain) consistently outperform other niches, achieving the channel's highest view counts (700 to 1,000+ views). Conversely, cognitive psychology, brain facts, and repetitive biology topics (like fake memories and octopus hearts) are severely underperforming, rarely breaking 100 views.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Exoplanet Paradoxes & Weather",
-      "evidence": "TrES-2b (Darker than Coal) achieved 1,016 views; Gliese 436b (Burning Ice) reached 1,055 views; and HAT-P-7b (Supersonic Rubies) secured 721 views.",
-      "action": "Double down on extreme exoplanet profiles, focusing on highly visual, paradoxical concepts (e.g., 'hot ice', 'glass rain', 'diamond oceans') in the 16-21 second duration range."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Repetitive Brain & Psychology Hacks",
-      "evidence": "'Your Brain Can Create Fake Memories' consistently stalled at 5 to 53 views across multiple uploads, and song-retention hacks struggled at 17 to 71 views.",
-      "action": "Pause production on generic cognitive psychology and brain facts unless they can be framed through a highly dramatic, cinematic storytelling lens."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space Mysteries",
-    "hook_style": "Visual Paradox / Doom Hook",
-    "concept": "WASP-12b, the egg-shaped planet being actively devoured by its host star.",
-    "opening_direction": "Show a distorted, egg-shaped planet with the hook: 'Right now, there is a doomed planet in our galaxy being eaten alive.'",
-    "twist_direction": "Reveal that the star's extreme gravity is stretching the planet into an oval, stripping its atmosphere, and it has less than 10 million years left to live.",
-    "duration_seconds": 19,
-    "posting_window": "12:30 PM - 1:30 PM",
-    "reason": "Exoplanet content is the channel's clear winner. A 19-second duration fits the high-retention sweet spot of recent top performers, and the mid-day posting window aligns with peak traffic times for the channel's best-performing videos."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'What-If' cosmic scenario using cinematic AI-generated visuals to bridge space facts with high-concept storytelling (e.g., 'What if a rogue black hole entered our solar system tomorrow?').",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-17T19:34:45.633589+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-17T20:35:37.374398+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-17T20:35:37.374417+00:00"
 }
