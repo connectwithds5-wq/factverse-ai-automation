@@ -1,42 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Space anomalies—specifically extreme exoplanets featuring paradoxical weather or physical conditions—are the channel's clear growth drivers, outperforming other subjects by up to 100x. Conversely, generic cognitive psychology and brain-hack content are heavily oversaturated and consistently fail to capture viewer interest.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Exoplanetary Anomalies & Weather Paradoxes",
-      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,014 views), and 'This Planet Rains Supersonic Rubies!' (721 views) represent the top tier of channel performance.",
-      "action": "Focus production on highly visual, extreme cosmic anomalies, emphasizing dramatic physical contrasts (e.g., burning ice, dark coal, ruby rain) in titles and hooks."
-    },
-    {
-      "pattern": "Slightly Longer, High-Density Fact Formats (19-21 Seconds)",
-      "evidence": "Recent videos with a duration of 19-21 seconds (such as 'TrES-2b' and 'Supersonic Rubies') achieved significantly higher view counts and engagement rates than older 12-16 second videos.",
-      "action": "Adopt 19-21 seconds as the standard duration to allow for a more compelling narrative setup and a stronger mid-video twist."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Oversaturated Psychology & Brain Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' (5 to 53 views across multiple uploads) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction.",
-      "action": "Pivot away from generic brain facts and cognitive psychology, as they lack the high-stakes visual hook required for Shorts feed retention."
-    },
-    {
-      "pattern": "Repetitive Concept Uploading",
-      "evidence": "Re-uploading 'Your Brain Can Create Fake Memories' multiple times resulted in a sharp decline in views (from 53 down to 5).",
-      "action": "Avoid exact topic duplication within short timeframes; prioritize unique angles or entirely fresh concepts to prevent feed fatigue."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space / What-If Scenario",
-    "hook_style": "Visual Paradox / High Stakes",
-    "concept": "The Egg-Shaped Planet Being Eaten Alive (WASP-12b)",
-    "opening_direction": "Show a distorted, glowing egg-shaped planet being stretched toward a massive star with the hook: 'This planet is shaped like a giant egg because its own star is literally eating it alive.'",
-    "twist_direction": "Reveal that the star's extreme gravity is stripping away 189 quadrillion tons of its atmosphere every year, giving this doomed world less than 10 million years left to exist.",
-    "duration_seconds": 20,
-    "posting_window": "13:00 - 14:00 UTC",
-    "reason": "Aligns with the highly successful exoplanet theme using a strong visual hook (egg-shaped planet) and high-stakes cosmic destruction, utilizing the optimal 20-second retention window."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Introduce a 'Cosmic Survival' mini-narrative format that simulates what would happen to a human body if dropped directly onto one of these extreme exoplanets, blending space facts with high-retention what-if storytelling.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-17T12:41:11.632995+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-17T13:37:43.512130+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-17T13:37:43.512150+00:00"
 }
