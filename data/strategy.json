@@ -1,42 +1,42 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Space anomalies and extreme exoplanets are driving the channel's highest engagement and views, with videos like 'The Planet of Burning Ice' and 'The Planet Darker Than Coal' consistently crossing 1,000 views. Conversely, psychology, brain facts, and basic animal trivia are severely underperforming, rarely exceeding 100 views.",
+  "overall_summary": "The channel's highest-performing Shorts focus on extreme, bizarre, and sensory-defying space and planetary phenomena (e.g., burning ice, coal-dark planets, and ruby rain), which consistently pull in 700 to 1,000+ views. Conversely, abstract science concepts, repetitive psychology tricks, and memory-related topics struggle to gain traction, often stalling below 100 views. Extending the video duration slightly to 19-21 seconds for space topics shows a positive correlation with higher engagement and view counts.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanets & Cosmic Weather",
-      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,014 views), and 'This Planet Rains Supersonic Rubies!' (721 views) represent the channel's top tier of performance.",
-      "action": "Double down on extreme exoplanet environments, using high-contrast visual hooks and sensory descriptions (e.g., raining glass, burning ice, ruby storms) in the first 3 seconds."
+      "pattern": "Extreme Planetary & Cosmic Anomalies",
+      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,015 views), and 'This Planet Rains Supersonic Rubies!' (721 views) represent the channel's top tier of performance.",
+      "action": "Double down on extreme exoplanet characteristics, focusing on visually evocative and physically impossible-sounding cosmic environments."
     },
     {
-      "pattern": "Mind-Bending Time & Age Paradoxes",
-      "evidence": "'Sharks Are Older Than Trees' (302 views) and 'Why Your Head Is Older Than Your Feet' (263 views) performed well above the channel's average baseline.",
-      "action": "Create content around counter-intuitive timeline comparisons, historical overlaps, and physics-based age paradoxes."
+      "pattern": "Sensory Paradox Hooks",
+      "evidence": "Titles combining contrasting sensory elements like 'Burning Ice' or 'Supersonic Rubies' outperform dry factual titles like 'Why Space Is Completely Silent' (87 views).",
+      "action": "Craft hooks that pair two conflicting concepts (e.g., cold stars, dark light, liquid metal) to trigger immediate cognitive curiosity."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Basic Psychology & Brain Tricks",
-      "evidence": "'Your Brain Can Create Fake Memories' (max 53 views across multiple uploads) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) failed to gain any traction.",
-      "action": "Pivot away from generic psychological advice or brain hacks, as they lack the visual and curiosity-driven appeal of cosmic content."
+      "pattern": "Repetitive Psychology & Brain Tricks",
+      "evidence": "'Your Brain Can Create Fake Memories' stalled at 11 views, and 'The Real Reason Songs Get Stuck In Your Head' got only 17 views.",
+      "action": "Pivot away from generic cognitive psychology and brain hacks unless they can be framed through a highly dramatic, cinematic narrative."
     },
     {
-      "pattern": "Over-saturated Animal Trivia",
-      "evidence": "'Octopuses Have THREE Hearts' (118 views) and 'The Only Animal That Can Live Forever' (69 views) underperformed.",
-      "action": "Avoid basic, textbook animal facts; if covering animals, shift to cinematic survival narratives or deep-sea mysteries."
+      "pattern": "Dry, Abstract Physics Facts",
+      "evidence": "'This Star Is Older Than the Universe!' generated only 11 views, and 'Why Space Is Completely Silent' underperformed compared to planetary extremes.",
+      "action": "Avoid purely theoretical or non-visual space facts; ensure every space topic has a strong, tangible, and visually dramatic focal point."
     }
   ],
   "next_video": {
-    "category": "space",
-    "hook_style": "Sensory Paradox",
-    "concept": "The planet where it snows actual metal and rains acid.",
-    "opening_direction": "Start with a cinematic visual of dark metallic flakes falling onto a scorched, glowing landscape, with the voiceover: 'There is a planet in our galaxy where the snow isn't cold—it's made of actual metal.'",
-    "twist_direction": "Reveal that this isn't a sci-fi world light-years away, but Venus, right in our own solar system, where mountain peaks are capped with metallic frost made of galena and bismuth.",
-    "duration_seconds": 18,
-    "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Leverages the highly successful exoplanet/cosmic weather trend while introducing a shocking twist about our own solar system, keeping the duration under 20 seconds for optimal completion rate."
+    "category": "Space Mysteries",
+    "hook_style": "Sensory Paradox / Doomed Planet",
+    "concept": "WASP-12b, the pitch-black, egg-shaped planet that is actively being stretched and eaten alive by its host star.",
+    "opening_direction": "Show a cinematic, distorted egg-shaped planet glowing with molten heat. 'This planet is shaped like a football because its star is literally eating it alive.'",
+    "twist_direction": "Reveal that because it absorbs 94% of light, it is as black as asphalt, and it has less than 10 million years before it is completely digested by its star.",
+    "duration_seconds": 20,
+    "posting_window": "13:00 - 15:00 UTC",
+    "reason": "Leverages the highly successful exoplanet sub-niche, utilizes a strong visual hook (egg-shaped, pitch-black planet), and matches the optimal 19-21 second duration of recent top-performing videos."
   },
-  "experiment": "Test a 3-part series on 'Cosmic Horrors' focusing on terrifying space phenomena (like rogue black holes or zombie stars) to bridge the gap between space facts and horror/mystery micro-stories.",
+  "experiment": "Test a 'What-If' cinematic scenario focusing on a luxury/technological disaster, such as 'What If You Bought a Yacht Made of Solid Gold?', to bridge the gap between our space audience and the high-CPM cinematic luxury niche.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-17T15:36:45.006159+00:00"
+  "generated_at": "2026-09-17T16:39:07.038436+00:00"
 }
