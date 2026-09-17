@@ -1,32 +1,32 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "The channel's highest-performing content heavily revolves around extreme space anomalies, bizarre exoplanets, and cosmic mysteries (e.g., TrES-2b, supersonic rubies, burning ice), which consistently generate 300 to 1,000+ views. Conversely, psychological and brain-related facts (e.g., fake memories, songs stuck in head) struggle to gain traction, often stalling under 100 views. Transitioning to slightly longer durations (18-21s) for space topics has also shown a positive correlation with higher engagement and likes.",
+  "overall_summary": "The channel's clear growth driver is extreme space and exoplanet anomalies. Videos featuring mind-bending cosmic phenomena (such as planets of burning ice, coal-dark worlds, and gemstone rain) consistently outperform other niches, achieving the channel's highest view counts (700 to 1,000+ views). Conversely, cognitive psychology, brain facts, and repetitive biology topics (like fake memories and octopus hearts) are severely underperforming, rarely breaking 100 views.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Cosmic Anomalies & Exoplanet Weather",
-      "evidence": "The Planet of Burning Ice (1,055 views), The Planet Darker Than Coal (1,014 views), and This Planet Rains Supersonic Rubies (721 views) represent the channel's top tier of performance and engagement.",
-      "action": "Double down on extreme space environments, focusing on mind-bending physical properties, strange rains, and unique exoplanets, utilizing high-contrast cosmic visuals."
+      "pattern": "Extreme Exoplanet Paradoxes & Weather",
+      "evidence": "TrES-2b (Darker than Coal) achieved 1,016 views; Gliese 436b (Burning Ice) reached 1,055 views; and HAT-P-7b (Supersonic Rubies) secured 721 views.",
+      "action": "Double down on extreme exoplanet profiles, focusing on highly visual, paradoxical concepts (e.g., 'hot ice', 'glass rain', 'diamond oceans') in the 16-21 second duration range."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Brain & Psychology Facts",
-      "evidence": "Multiple uploads of 'Your Brain Can Create Fake Memories' yielded only 5, 11, and 53 views, while 'The Real Reason Songs Get Stuck In Your Head' stalled at 17 views.",
-      "action": "Phase out soft psychology and cognitive tricks unless they can be framed through a highly dramatic, cinematic, or historical lens."
+      "pattern": "Repetitive Brain & Psychology Hacks",
+      "evidence": "'Your Brain Can Create Fake Memories' consistently stalled at 5 to 53 views across multiple uploads, and song-retention hacks struggled at 17 to 71 views.",
+      "action": "Pause production on generic cognitive psychology and brain facts unless they can be framed through a highly dramatic, cinematic storytelling lens."
     }
   ],
   "next_video": {
-    "category": "Space",
-    "hook_style": "Visual Contrast & Extreme Paradox",
-    "concept": "The planet where it rains liquid iron and has winds faster than sound.",
-    "opening_direction": "Start with a high-contrast, cinematic visual of a planet engulfed in dark red shadows, captioned: 'This planet is so hot, it literally rains liquid metal...'",
-    "twist_direction": "Reveal that the winds are so violent they blow this molten iron rain sideways at 5,000 miles per hour, turning the entire atmosphere into a flying shredder.",
-    "duration_seconds": 20,
-    "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Aligns with the highly successful exoplanet theme (TrES-2b and Supersonic Rubies) which drives the highest views and engagement on the channel."
+    "category": "Space Mysteries",
+    "hook_style": "Visual Paradox / Doom Hook",
+    "concept": "WASP-12b, the egg-shaped planet being actively devoured by its host star.",
+    "opening_direction": "Show a distorted, egg-shaped planet with the hook: 'Right now, there is a doomed planet in our galaxy being eaten alive.'",
+    "twist_direction": "Reveal that the star's extreme gravity is stretching the planet into an oval, stripping its atmosphere, and it has less than 10 million years left to live.",
+    "duration_seconds": 19,
+    "posting_window": "12:30 PM - 1:30 PM",
+    "reason": "Exoplanet content is the channel's clear winner. A 19-second duration fits the high-retention sweet spot of recent top performers, and the mid-day posting window aligns with peak traffic times for the channel's best-performing videos."
   },
-  "experiment": "Test a 21-second cinematic micro-story format about a real historical space mystery (e.g., the 'Wow! Signal' or the lost cosmonauts) to bridge the gap between space facts and cinematic storytelling.",
+  "experiment": "Test a 'What-If' cosmic scenario using cinematic AI-generated visuals to bridge space facts with high-concept storytelling (e.g., 'What if a rogue black hole entered our solar system tomorrow?').",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-17T18:40:07.159782+00:00"
+  "generated_at": "2026-09-17T19:34:45.633589+00:00"
 }
