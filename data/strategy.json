@@ -1,21 +1,42 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Extreme exoplanet anomalies and highly visual cosmic phenomena are the dominant growth drivers for FACTVERSE, with top performers like TrES-2b (1,016 views) and the Burning Ice planet (1,055 views) leading in reach and engagement. Conversely, repetitive psychology facts and abstract space concepts (like space silence or brain memory tricks) consistently underperform, indicating that the audience heavily favors high-stakes, visually rich, and mind-bending cosmic storytelling over generic trivia.",
+  "winning_patterns": [
+    {
+      "pattern": "Extreme Exoplanet Anomalies with High Visual Contrast",
+      "evidence": "TrES-2b (Planet Darker Than Coal) achieved 1,016 views and 36 likes, 'Burning Ice' achieved 1,055 views, and 'Supersonic Rubies' generated 721 views with 25 likes.",
+      "action": "Produce a dedicated series on extreme exoplanets, focusing on highly visual, hostile environments. Use strong sensory adjectives in titles (e.g., 'Eaten Alive', 'Acid Oceans', 'Glass Rain') and maintain a duration of 19 to 21 seconds to maximize retention."
+    },
+    {
+      "pattern": "Mind-Bending Comparative Space Facts",
+      "evidence": "'The Largest Ocean in Space' reached 460 views and 'What Space Smells Like' reached 368 views.",
+      "action": "Create content comparing massive cosmic structures or bizarre sensory realities of space to familiar Earth concepts to anchor the viewer's imagination."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Repetitive Brain & Psychology Trivia",
+      "evidence": "'Your Brain Can Create Fake Memories' flatlined across multiple uploads (5, 11, and 53 views), and 'Songs Stuck in Your Head' peaked at only 71 views.",
+      "action": "De-prioritize generic cognitive psychology and brain-hack content, as these topics lack the immediate visual curiosity needed to capture the Shorts feed."
+    },
+    {
+      "pattern": "Abstract / Non-Visual Space Concepts",
+      "evidence": "'This Star Is Older Than the Universe' generated only 11 views, and 'Why Space Is Completely Silent' struggled to gain traction compared to physical planet anomalies.",
+      "action": "Avoid concepts that rely purely on conceptual physics or lack concrete, dynamic visual representations."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space / Exoplanet Anomalies",
+    "hook_style": "Terrifying Cosmic Doom",
+    "concept": "WASP-12b: The egg-shaped planet being actively eaten alive by its parent star.",
+    "opening_direction": "Start with: 'This planet is actively being eaten alive right now.' Show a hyper-realistic, egg-shaped dark planet having its glowing atmosphere violently sucked away by a massive star.",
+    "twist_direction": "Reveal that the star's gravity is pulling so hard it has warped the planet's shape and heated its core to a melting 4,000 degrees, meaning it is literally cooking itself to death from the inside out.",
+    "duration_seconds": 20,
+    "posting_window": "13:00 - 14:00 UTC",
+    "reason": "Directly targets the proven exoplanet anomaly trend that drove over 1,000 views on similar videos, utilizing a high-stakes, highly visual hook that promises immediate payoff."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-17T21:35:47.494429+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-17T21:35:47.494451+00:00"
+  "experiment": "Test a hybrid 'What-If' exoplanet scenario (e.g., 'What If We Dropped the Diamond Planet Into a Black Hole?') to combine high-performing space anomalies with hypothetical storytelling.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-17T22:33:15.023783+00:00"
 }
