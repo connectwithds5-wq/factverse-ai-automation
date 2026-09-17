@@ -17,7 +17,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     env:
-      YOUTUBE_OAUTH_JSON: ${{ secrets.YOUTUBE_OAUTH_JSON }}
+      YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+      YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       GEMINI_MODEL: gemini-2.5-flash
 
@@ -38,15 +40,11 @@ jobs:
 
       - name: Validate secrets
         run: |
-          test -n "$YOUTUBE_OAUTH_JSON" || { echo "YOUTUBE_OAUTH_JSON missing"; exit 1; }
+          test -n "$YOUTUBE_CLIENT_ID" || { echo "YOUTUBE_CLIENT_ID missing"; exit 1; }
+          test -n "$YOUTUBE_CLIENT_SECRET" || { echo "YOUTUBE_CLIENT_SECRET missing"; exit 1; }
+          test -n "$YOUTUBE_REFRESH_TOKEN" || { echo "YOUTUBE_REFRESH_TOKEN missing"; exit 1; }
           test -n "$GEMINI_API_KEY" || { echo "GEMINI_API_KEY missing"; exit 1; }
-          python - <<'PY'
-          import json, os
-          d=json.loads(os.environ["YOUTUBE_OAUTH_JSON"])
-          missing=[k for k in ("client_id","client_secret","refresh_token") if not d.get(k)]
-          if missing: raise SystemExit("Missing OAuth fields: " + ", ".join(missing))
-          print("YouTube OAuth JSON: OK")
-          PY
+          echo "YouTube OAuth secrets: OK"
 
       - name: Collect YouTube analytics
         run: python src/youtube_analytics.py
@@ -68,10 +66,6 @@ jobs:
 
           git commit -m "Update FACTVERSE analytics and AI strategy"
 
-          # The repository can receive commits while this workflow is running
-          # (for example, a production-code update). Rebase our analytics
-          # commit onto the latest main before pushing instead of failing with
-          # a non-fast-forward rejection.
           for attempt in 1 2 3; do
             echo "Push attempt $attempt/3"
 
