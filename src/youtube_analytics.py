@@ -10,22 +10,30 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "data" / "analytics_history.json"
 
 SCOPES = ["https://www.googleapis.com/auth/youtube.readonly"]
+TOKEN_URI = "https://oauth2.googleapis.com/token"
 
 
 def load_oauth():
-    raw = os.environ.get("YOUTUBE_OAUTH_JSON", "")
-    if not raw:
-        raise RuntimeError("YOUTUBE_OAUTH_JSON is missing")
-    data = json.loads(raw)
-    missing = [k for k in ("client_id", "client_secret", "refresh_token") if not data.get(k)]
+    client_id = os.environ.get("YOUTUBE_CLIENT_ID", "")
+    client_secret = os.environ.get("YOUTUBE_CLIENT_SECRET", "")
+    refresh_token = os.environ.get("YOUTUBE_REFRESH_TOKEN", "")
+
+    missing = [
+        name for name, value in {
+            "YOUTUBE_CLIENT_ID": client_id,
+            "YOUTUBE_CLIENT_SECRET": client_secret,
+            "YOUTUBE_REFRESH_TOKEN": refresh_token,
+        }.items() if not value
+    ]
     if missing:
-        raise RuntimeError("YOUTUBE_OAUTH_JSON missing: " + ", ".join(missing))
+        raise RuntimeError("Missing YouTube OAuth GitHub Secrets: " + ", ".join(missing))
+
     return Credentials(
         token=None,
-        refresh_token=data["refresh_token"],
-        token_uri="https://oauth2.googleapis.com/token",
-        client_id=data["client_id"],
-        client_secret=data["client_secret"],
+        refresh_token=refresh_token,
+        token_uri=TOKEN_URI,
+        client_id=client_id,
+        client_secret=client_secret,
         scopes=SCOPES,
     )
 
@@ -84,7 +92,6 @@ def main():
 
     history = load_history()
     history.extend(records)
-    # Keep latest observation per video, while retaining collection history for learning.
     history = history[-1500:]
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(history, ensure_ascii=False, indent=2), encoding="utf-8")
