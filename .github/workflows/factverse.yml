@@ -28,7 +28,9 @@ jobs:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       GEMINI_MODEL: gemini-3.5-flash
       PIXAZO_API_KEY: ${{ secrets.PIXAZO_API_KEY }}
-      YOUTUBE_OAUTH_JSON: ${{ secrets.YOUTUBE_OAUTH_JSON }}
+      YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+      YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
       YOUTUBE_PRIVACY_STATUS: public
 
     steps:
@@ -61,18 +63,14 @@ jobs:
         run: |
           test -n "$GEMINI_API_KEY" || { echo "ERROR: GEMINI_API_KEY missing"; exit 1; }
           test -n "$PIXAZO_API_KEY" || { echo "ERROR: PIXAZO_API_KEY missing"; exit 1; }
-          test -n "$YOUTUBE_OAUTH_JSON" || { echo "ERROR: YOUTUBE_OAUTH_JSON missing"; exit 1; }
-          python - <<'PY'
-          import json, os
-          data = json.loads(os.environ["YOUTUBE_OAUTH_JSON"])
-          required = ["client_id", "client_secret", "refresh_token"]
-          missing = [key for key in required if not data.get(key)]
-          if missing:
-              raise SystemExit("Missing OAuth fields: " + ", ".join(missing))
-          print("GEMINI_API_KEY: OK")
-          print("PIXAZO_API_KEY: OK")
-          print("YOUTUBE_OAUTH_JSON: OK")
-          PY
+          test -n "$YOUTUBE_CLIENT_ID" || { echo "ERROR: YOUTUBE_CLIENT_ID missing"; exit 1; }
+          test -n "$YOUTUBE_CLIENT_SECRET" || { echo "ERROR: YOUTUBE_CLIENT_SECRET missing"; exit 1; }
+          test -n "$YOUTUBE_REFRESH_TOKEN" || { echo "ERROR: YOUTUBE_REFRESH_TOKEN missing"; exit 1; }
+          echo "GEMINI_API_KEY: OK"
+          echo "PIXAZO_API_KEY: OK"
+          echo "YOUTUBE_CLIENT_ID: OK"
+          echo "YOUTUBE_CLIENT_SECRET: OK"
+          echo "YOUTUBE_REFRESH_TOKEN: OK"
 
       - name: Generate FACTVERSE story and metadata
         run: python src/generate_with_strategy.py
@@ -138,10 +136,7 @@ jobs:
           import json, subprocess
           board = json.load(open("output/storyboard.json", encoding="utf-8"))
           expected = float(board["shots"][-1]["end"])
-          actual = float(subprocess.check_output([
-              "ffprobe", "-v", "error", "-show_entries", "format=duration",
-              "-of", "default=noprint_wrappers=1:nokey=1", "output/factverse.mp4"
-          ], text=True).strip())
+          actual = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "default=noprint_wrappers=1:nokey=1", "output/factverse.mp4"], text=True).strip())
           print(f"Pixazo duration: {actual:.3f}s; storyboard: {expected:.3f}s")
           if actual < expected - 0.08 or actual > expected + 0.20:
               raise SystemExit("ERROR: Pixazo video duration does not match storyboard")
@@ -158,10 +153,7 @@ jobs:
           import json, subprocess
           board = json.load(open("output/storyboard.json", encoding="utf-8"))
           expected = float(board["shots"][-1]["end"])
-          actual = float(subprocess.check_output([
-              "ffprobe", "-v", "error", "-show_entries", "format=duration",
-              "-of", "default=noprint_wrappers=1:nokey=1", "output/factverse.mp4"
-          ], text=True).strip())
+          actual = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "default=noprint_wrappers=1:nokey=1", "output/factverse.mp4"], text=True).strip())
           print(f"Final duration: {actual:.3f}s; storyboard: {expected:.3f}s")
           if actual < expected - 0.08 or actual > expected + 0.20:
               raise SystemExit("ERROR: final video duration does not match storyboard; refusing upload")
