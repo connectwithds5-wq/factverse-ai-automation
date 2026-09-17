@@ -1,42 +1,32 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "The channel's performance is heavily driven by extreme space anomalies and cosmic physics, with videos focusing on bizarre planetary conditions (e.g., burning ice, coal-dark planets, and ruby rain) consistently gaining the highest views and engagement. Conversely, cognitive psychology and brain-related facts are severely underperforming, indicating a clear audience preference for grand, visual cosmic mysteries over internal human biology.",
+  "overall_summary": "The channel's highest-performing content heavily revolves around extreme space anomalies, bizarre exoplanets, and cosmic mysteries (e.g., TrES-2b, supersonic rubies, burning ice), which consistently generate 300 to 1,000+ views. Conversely, psychological and brain-related facts (e.g., fake memories, songs stuck in head) struggle to gain traction, often stalling under 100 views. Transitioning to slightly longer durations (18-21s) for space topics has also shown a positive correlation with higher engagement and likes.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Cosmic Anomalies & Bizarre Planetary Weather",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' (1,055 views), 'The Planet Darker Than Coal: TrES-2b' (1,016 views, 36 likes), and 'This Planet Rains Supersonic Rubies!' (721 views, 25 likes) are the top-performing videos.",
-      "action": "Double down on space content focusing on extreme, hostile, and visually spectacular planetary environments, using sensory-rich keywords like 'burning', 'rubies', 'coal', and 'molten'."
-    },
-    {
-      "pattern": "High-Contrast Sensory Hooks",
-      "evidence": "Titles that pair contradictory or highly sensory concepts (e.g., 'Burning Ice', 'Rains Supersonic Rubies', 'Space Cloud That Tastes Like Raspberries') outperform standard factual titles.",
-      "action": "Frame future space facts around sensory paradoxes (e.g., what space smells like, tastes like, or extreme physical states that seem impossible)."
+      "pattern": "Extreme Cosmic Anomalies & Exoplanet Weather",
+      "evidence": "The Planet of Burning Ice (1,055 views), The Planet Darker Than Coal (1,014 views), and This Planet Rains Supersonic Rubies (721 views) represent the channel's top tier of performance and engagement.",
+      "action": "Double down on extreme space environments, focusing on mind-bending physical properties, strange rains, and unique exoplanets, utilizing high-contrast cosmic visuals."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Brain Tricks & Cognitive Psychology",
-      "evidence": "'Your Brain Can Create Fake Memories' consistently flopped across multiple uploads (5, 11, and 53 views), as did 'The Real Reason Songs Get Stuck In Your Head' (17 views).",
-      "action": "Pivot away from cognitive psychology, memory tricks, and brain functions, or completely reframe them through a high-stakes survival or mystery lens."
-    },
-    {
-      "pattern": "Rapid Concept Re-uploading",
-      "evidence": "Re-uploading 'Your Brain Can Create Fake Memories' and 'Why Space Is Completely Silent' multiple times with minor variations led to severe view dilution and flatlined reach.",
-      "action": "Avoid posting identical or near-identical concepts within a 7-day window. Ensure each upload has a distinct visual hook and unique metadata."
+      "pattern": "Repetitive Brain & Psychology Facts",
+      "evidence": "Multiple uploads of 'Your Brain Can Create Fake Memories' yielded only 5, 11, and 53 views, while 'The Real Reason Songs Get Stuck In Your Head' stalled at 17 views.",
+      "action": "Phase out soft psychology and cognitive tricks unless they can be framed through a highly dramatic, cinematic, or historical lens."
     }
   ],
   "next_video": {
-    "category": "Space & Cosmic Mysteries",
-    "hook_style": "Sensory Paradox / Visual Intrigue",
-    "concept": "The planet WASP-12b, which is shaped like an egg because it is literally being eaten alive by its parent star.",
-    "opening_direction": "Start with a high-contrast cinematic render of an egg-shaped planet stretching and tearing. Hook: 'This planet is shaped like an egg because it is literally being eaten alive.'",
-    "twist_direction": "Reveal that the star is sucking the planet's atmosphere away so fast that it will completely vanish in cosmic terms, leaving behind nothing but a naked core.",
-    "duration_seconds": 19,
-    "posting_window": "17:00 - 19:00 UTC",
-    "reason": "Capitalizes on the highly successful cosmic anomaly theme, uses a strong sensory/visual hook ('eaten alive', 'egg-shaped'), and fits the optimal 16-21 second duration of the channel's top performers."
+    "category": "Space",
+    "hook_style": "Visual Contrast & Extreme Paradox",
+    "concept": "The planet where it rains liquid iron and has winds faster than sound.",
+    "opening_direction": "Start with a high-contrast, cinematic visual of a planet engulfed in dark red shadows, captioned: 'This planet is so hot, it literally rains liquid metal...'",
+    "twist_direction": "Reveal that the winds are so violent they blow this molten iron rain sideways at 5,000 miles per hour, turning the entire atmosphere into a flying shredder.",
+    "duration_seconds": 20,
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Aligns with the highly successful exoplanet theme (TrES-2b and Supersonic Rubies) which drives the highest views and engagement on the channel."
   },
-  "experiment": "Test a 'What If' cosmic scenario focusing on a terrifying space event affecting Earth, such as 'What If a Rogue Star Entered Our Solar System?', to bridge the gap between pure space facts and high-stakes cinematic storytelling.",
+  "experiment": "Test a 21-second cinematic micro-story format about a real historical space mystery (e.g., the 'Wow! Signal' or the lost cosmonauts) to bridge the gap between space facts and cinematic storytelling.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-17T17:35:15.765575+00:00"
+  "generated_at": "2026-09-17T18:40:07.159782+00:00"
 }
