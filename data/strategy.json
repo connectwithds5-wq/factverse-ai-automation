@@ -1,21 +1,42 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "The channel's performance is heavily driven by extreme cosmic anomalies and exotic exoplanets, which consistently generate the highest views and engagement. Conversely, internal cognitive psychology, brain hacks, and repetitive re-uploads of low-performing concepts fail to capture audience interest. Transitioning to longer, highly visual, and sensory-driven space storytelling (19-21 seconds) yields significantly better retention and reach.",
+  "winning_patterns": [
+    {
+      "pattern": "Extreme Cosmic Environments & Exoplanets",
+      "evidence": "The Planet of Burning Ice (1,055 views), TrES-2b: The Planet Darker Than Coal (1,014 views), and the Supersonic Rubies planet (721 views) dominate the top tier of performance.",
+      "action": "Double down on extreme exoplanets, focusing on hostile environments, bizarre weather, and visual-first cosmic anomalies."
+    },
+    {
+      "pattern": "Sensory Space Translations",
+      "evidence": "What Does Outer Space Actually Smell Like? (368 views) and The Largest Ocean in Space (460 views) outperform standard space facts by linking abstract science to human senses.",
+      "action": "Frame cosmic facts using sensory hooks (smell, taste, touch, sound) to make the vastness of space feel tangible."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Internal Psychology & Brain Hacks",
+      "evidence": "Your Brain Can Create Fake Memories (5-11 views across multiple uploads) and Your Brain Is Hiding This From You (38 views) consistently fail to gain traction.",
+      "action": "Pivot away from cognitive psychology and self-help brain hacks, as the audience clearly prefers external, high-scale cosmic wonders."
+    },
+    {
+      "pattern": "Short-Duration Re-uploads of Dead Concepts",
+      "evidence": "Re-uploading identical 12-15s videos like 'Your Brain Can Create Fake Memories' multiple times yields near-zero growth.",
+      "action": "Stop re-uploading underperforming topics; instead, iterate on successful concepts with longer 19-21s durations to allow for better storytelling."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space",
+    "hook_style": "High-stakes cosmic doom combined with bizarre physical deformation",
+    "concept": "WASP-12b, the egg-shaped planet being actively devoured by its host star.",
+    "opening_direction": "Right now, this pitch-black planet is literally being eaten alive.",
+    "twist_direction": "The star's gravity is pulling the planet so hard it has deformed into a giant egg, and it only has a few million years left before it is completely swallowed.",
+    "duration_seconds": 20,
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Leverages the highly successful extreme exoplanet theme with a strong visual hook (egg-shaped planet) and high-stakes cosmic doom, matching the 20-second sweet spot of our top-performing videos."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-17T13:37:43.512130+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-17T13:37:43.512150+00:00"
+  "experiment": "Test a 'What-If' style comparative format where we compare the most hostile planet in the universe to Earth's worst environments, measuring if comparative scale increases viewer retention over single-planet showcases.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-17T14:37:25.911950+00:00"
 }
