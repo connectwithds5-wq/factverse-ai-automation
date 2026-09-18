@@ -1,37 +1,42 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Space anomalies, extreme planetary weather, and cosmic scale comparisons are the clear drivers of high engagement for FACTVERSE, with top videos consistently exceeding 1,000 views. Conversely, cognitive psychology and brain-fact videos consistently underperform, failing to capture viewer interest even with multiple re-upload attempts.",
+  "overall_summary": "The channel's clear breakout niche is extreme space phenomena, specifically exotic exoplanets with bizarre weather or physical properties (e.g., raining rubies, burning ice, coal-dark atmospheres). These videos consistently generate the highest view counts (700 to 1,000+ views) and engagement rates. Conversely, standard psychology and brain facts are severely underperforming, rarely crossing 100 views unless framed with a mind-bending physics twist (e.g., time dilation aging the head faster than feet). Visual, sensory-rich, and high-stakes cosmic concepts are driving the channel's current momentum.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Planetary Conditions & Cosmic Anomalies",
-      "evidence": "Videos like 'The Planet Darker Than Coal: TrES-2b' (1,016 views) and 'The Planet of Burning Ice Will Break Your Brain!' (1,055 views) vastly outperform other categories on the channel.",
-      "action": "Double down on extreme exoplanet characteristics, focusing on dramatic, high-contrast visual concepts (e.g., extreme temperatures, bizarre rain, or impossible physics)."
+      "pattern": "Extreme Exoplanet Weather & Sensory Space Anomalies",
+      "evidence": "'The Planet Darker Than Coal: TrES-2b' achieved 1,016 views and 36 likes. 'The Planet of Burning Ice' reached 1,055 views. 'This Planet Rains Supersonic Rubies!' generated 721 views and 25 likes.",
+      "action": "Double down on exoplanets with extreme, hostile environments, focusing on sensory descriptions (smell, sight, touch, weather) and high-contrast visuals."
     },
     {
-      "pattern": "Sensory & Scale Curiosity in Space",
-      "evidence": "'What Does Outer Space Actually Smell Like?' (368 views) and 'The Largest Ocean in Space Will Mind-Blow You!' (460 views) show strong performance by grounding abstract space concepts in sensory or scale-based terms.",
-      "action": "Frame cosmic facts around human senses (smell, taste, touch) or massive scale comparisons to make abstract space concepts highly relatable."
+      "pattern": "Mind-Bending Physics Framed as Personal Biology",
+      "evidence": "'Why Your Head Is Older Than Your Feet' (relativity/time dilation) achieved 263 views, vastly outperforming standard brain facts.",
+      "action": "When covering physics or space-time concepts, frame them using the human body or daily life as the reference point to increase immediate relatability."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Cognitive Psychology & Brain Tricks",
-      "evidence": "'Your Brain Can Create Fake Memories' (multiple uploads peaking at only 53 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently struggle to gain traction.",
-      "action": "Pivot away from generic brain/psychology facts, or reframe them through a more dramatic, mystery-driven storytelling lens rather than clinical explanations."
+      "pattern": "Generic Psychology & Brain Facts",
+      "evidence": "'Your Brain Can Create Fake Memories' struggled with multiple uploads getting between 5 and 53 views. 'The Real Reason Songs Get Stuck In Your Head' stalled at 17 views.",
+      "action": "Pivot away from textbook psychology facts. If covering the brain, it must connect to a shocking external mystery or cutting-edge technology (like the Pink Floyd brain wave recreation)."
+    },
+    {
+      "pattern": "Abstract or Non-Visual Cosmic Concepts",
+      "evidence": "'This Star Is Older Than the Universe!' got only 11 views, and 'The Star Colder Than Ice' got 82 views.",
+      "action": "Avoid purely mathematical or abstract astronomical facts that lack strong, immediate visual hooks or tangible environmental hazards."
     }
   ],
   "next_video": {
-    "category": "Space / Cosmic Extremes",
-    "hook_style": "Sensory Shock & Visual Contrast",
-    "concept": "The Planet Where It Rains Molten Iron and Snows Titanium",
-    "opening_direction": "Show a cinematic, dark alien sky with glowing red droplets falling onto a barren landscape, asking: 'What if it rained liquid metal instead of water?'",
-    "twist_direction": "Reveal that on WASP-76b, the daytime temperature is so extreme it vaporizes iron, which then condenses and falls as metallic rain on the freezing night side.",
-    "duration_seconds": 18,
-    "posting_window": "18:00 - 20:00 UTC",
-    "reason": "Leverages the highly successful 'extreme weather on exoplanets' formula that generated over 1,000 views on similar videos, using strong visual and sensory hooks."
+    "category": "Space / Exoplanets",
+    "hook_style": "Visual Curiosity & Existential Threat",
+    "concept": "WASP-12b, the pitch-black egg-shaped planet that is actively being stretched and devoured by its parent star.",
+    "opening_direction": "Start with a high-contrast visual of a distorted, egg-shaped planet glowing with molten heat: 'Right now, there is a pitch-black planet in our galaxy shaped like a giant egg because its own star is literally eating it alive.'",
+    "twist_direction": "Reveal that the planet is so dark it absorbs 94% of light, making it look like a cosmic void, and it only has a fraction of its life left before it is completely swallowed.",
+    "duration_seconds": 21,
+    "posting_window": "13:00 - 14:00 UTC",
+    "reason": "Aligns perfectly with the top-performing exoplanet trend (TrES-2b and burning ice). The 21-second format matches the duration of the channel's most successful recent uploads, allowing enough time to build a compelling narrative arc without losing retention."
   },
-  "experiment": "Test a 'What-If' scenario combining historical storytelling with space survival, such as 'What If We Sent a Victorian Explorer to the Moon?', to bridge the gap between history fans and space enthusiasts.",
+  "experiment": "Test a 'What If' scenario focusing on cinematic animal survival in extreme environments (e.g., 'What If You Were Trapped in a Pit with 1,000 Hibernating Wood Frogs?'), bridging the gap between the high-performing animal facts and high-stakes survival storytelling.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-18T06:40:33.114321+00:00"
+  "generated_at": "2026-09-18T07:36:31.202588+00:00"
 }
