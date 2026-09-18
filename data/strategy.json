@@ -1,42 +1,42 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "The channel's performance is heavily driven by extreme space anomalies and bizarre exoplanet characteristics, which consistently outperform psychology and brain-related content. Videos focusing on cosmic extremes (e.g., TrES-2b, Gliese 436b, and WASP-76b equivalents) generate the highest view counts (700 to 1,000+) and engagement. Conversely, psychology-themed shorts and repetitive re-uploads of the same concept (e.g., fake memories) suffer from severe audience fatigue, rarely breaking 100 views.",
+  "overall_summary": "The channel is experiencing its strongest performance when focusing on extreme space anomalies, particularly exoplanets with bizarre environmental characteristics (e.g., TrES-2b, burning ice, supersonic rubies). Conversely, psychology and brain-related facts are severely underperforming, especially when repeated or re-uploaded with minor title variations.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanet Environments & Cosmic Anomalies",
-      "evidence": "'The Planet Darker Than Coal: TrES-2b' achieved 1,016 views, 'The Planet of Burning Ice' achieved 1,055 views, and 'This Planet Rains Supersonic Rubies!' achieved 721 views.",
-      "action": "Double down on extreme space conditions, focusing on highly visual, hostile, and mind-bending planetary environments."
+      "pattern": "Extreme Exoplanet Weather & Cosmic Anomalies",
+      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,016 views, 36 likes), 'The Planet of Burning Ice...' (1,055 views, 8 likes), and 'This Planet Rains Supersonic Rubies!' (721 views, 25 likes) are the channel's top-performing videos.",
+      "action": "Double down on highly visual, extreme planetary conditions and space mysteries. Keep video durations for this category around 21 seconds to allow for detailed visual storytelling."
     },
     {
-      "pattern": "Sensory-Disruptive Space Facts",
-      "evidence": "'What Does Outer Space Actually Smell Like?' achieved 368 views and 'The Largest Ocean in Space' achieved 460 views.",
-      "action": "Frame cosmic facts around human senses (smell, taste, sound, touch) to make abstract space concepts tangible."
+      "pattern": "High-Contrast Sensory Hooks",
+      "evidence": "'What Does Outer Space Actually Smell Like?' (368 views) and 'The Planet Where It Rains Molten Iron!' (349 views) leverage sensory-driven curiosity (smell, touch, extreme temperature) to drive clicks.",
+      "action": "Structure hooks around sensory contradictions (e.g., tasting, smelling, or hearing things in space or extreme environments)."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Psychology & Brain Tricks",
-      "evidence": "'Your Brain Can Create Fake Memories' averaged under 25 views across multiple attempts, and 'The Real Reason Songs Get Stuck In Your Head' got only 17 views.",
-      "action": "Pivot away from generic psychology facts, as they lack the high-impact visual appeal required for immediate retention on Shorts."
+      "pattern": "Psychology & Brain Fact Fatigue",
+      "evidence": "'Your Brain Can Create Fake Memories' struggled across multiple attempts (ranging from 5 to 53 views), and 'The Real Reason Songs Get Stuck In Your Head' generated only 17 views.",
+      "action": "Pause the production of basic cognitive psychology facts. If psychology is revisited, frame it through a historical mystery or a high-stakes survival scenario rather than a generic text-on-screen fact."
     },
     {
-      "pattern": "Concept Duplication & Rapid Re-uploading",
-      "evidence": "Re-uploading 'Your Brain Can Create Fake Memories' multiple times resulted in a drop from 53 views to 11 views and finally 5 views.",
-      "action": "Avoid identical re-uploads of low-performing concepts; instead, iterate only on high-performing angles with entirely new visual hooks."
+      "pattern": "Abstract Cosmic Concepts",
+      "evidence": "'This Star Is Older Than the Universe!' generated only 11 views, showing that purely temporal or abstract space concepts lack the immediate visual hook of physical planetary environments.",
+      "action": "Avoid abstract astrophysics theories unless they can be tied directly to a tangible, highly visual object or a 'what-if' physical scenario."
     }
   ],
   "next_video": {
-    "category": "Space",
-    "hook_style": "Cosmic Horror & High-Stakes Tragedy",
-    "concept": "The tragic fate of WASP-12b, a planet being stretched into the shape of an egg and slowly eaten alive by its parent star.",
-    "opening_direction": "Show a high-contrast cinematic animation of a distorted, egg-shaped planet leaking superheated gas into a massive, glowing star.",
-    "twist_direction": "Reveal that the planet isn't just orbiting too close—it is actively being consumed, and in cosmic terms, it has less than a fraction of a second left to live.",
+    "category": "Space / What-If Scenarios",
+    "hook_style": "Sensory Shock & Visual Contradiction",
+    "concept": "The planet where the oceans are made of boiling lava and it rains solid rock.",
+    "opening_direction": "Start with a high-contrast visual of a spacecraft melting: 'There is a planet in our galaxy where the oceans are literally made of boiling, liquid rock...'",
+    "twist_direction": "...but the real nightmare is the weather. Because the lava evaporates, it condenses in the atmosphere and rains solid stones back down to the surface.",
     "duration_seconds": 21,
-    "posting_window": "07:00 AM - 08:00 AM",
-    "reason": "Aligns with the highly successful 21-second format of 'TrES-2b' and 'Supersonic Rubies', leveraging extreme planetary physics and a dramatic narrative hook to maximize viewer retention."
+    "posting_window": "Late Afternoon (13:00 - 15:00 UTC)",
+    "reason": "Aligns perfectly with the 21-second duration of our top-performing exoplanet videos and leverages the proven 'extreme weather/bizarre planet' formula that generated our highest view and engagement spikes."
   },
-  "experiment": "Test a 'Cosmic What-If' scenario comparing Earth to one of these extreme planets (e.g., 'What If Earth Rained Rubies Instead of Water?') to bridge high-performing exoplanet topics with relatable human-scale consequences.",
+  "experiment": "Test a 21-second Short on a cinematic animal survival story (e.g., 'The Only Animal That Can Survive a Volcanic Eruption') to see if the high-retention 'survival' storytelling format can replicate the success of the extreme space videos.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-18T12:39:57.708760+00:00"
+  "generated_at": "2026-09-18T13:35:40.395421+00:00"
 }
