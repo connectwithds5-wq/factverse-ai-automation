@@ -1,42 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "The channel shows a clear divergence in performance between categories. Space-themed content, particularly focusing on extreme exoplanets, cosmic anomalies, and mind-bending planetary conditions (e.g., TrES-2b, Gliese 436 b), consistently outperforms psychology, animal facts, and general science. Psychology and brain-related facts are struggling to gain traction, often stalling under 100 views.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Exoplanets & Cosmic Anomalies",
-      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,018 views), 'The Planet of Burning Ice Will Break Your Brain!' (1,055 views), and 'This Planet Rains Supersonic Rubies!' (721 views) represent the highest-performing tier of content.",
-      "action": "Double down on extreme space facts, focusing on visual descriptions of bizarre planetary physics, extreme weather, and cosmic threats."
-    },
-    {
-      "pattern": "16 to 21-Second High-Impact Narratives",
-      "evidence": "Top-performing videos are consistently in the 16-21s range, allowing enough time to build a solid hook, explain the anomaly, and deliver a satisfying twist without losing viewer retention.",
-      "action": "Maintain a strict 18-21 second duration limit, ensuring fast-paced editing and immediate visual payoff within the first 3 seconds."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Psychology & Brain Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' (max 53 views across multiple uploads), 'Your Brain Is Hiding This From You' (38 views), and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to capture audience interest.",
-      "action": "Pivot away from generic psychology facts or reframe them as high-stakes survival/mystery scenarios if attempted."
-    },
-    {
-      "pattern": "Repetitive Topic Uploads",
-      "evidence": "Uploading the exact same topic/title multiple times (e.g., 'Your Brain Can Create Fake Memories' uploaded on Sep 4, 7, and 14) leads to diminishing returns and extremely low view counts (5 to 53 views).",
-      "action": "Avoid direct duplicates or immediate re-uploads. Instead, iterate on successful angles with entirely new visual hooks and distinct cosmic subjects."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space / What-If Scenario",
-    "hook_style": "High-stakes curiosity and visual contrast",
-    "concept": "The Planet That Is Evaporating Into Space (HD 209458b / Osiris)",
-    "opening_direction": "Start with a high-contrast visual of a planet dragging a giant, glowing tail behind it like a dying star.",
-    "twist_direction": "Reveal that this cosmic giant is literally melting, losing 10,000 tons of its atmosphere every single second to its parent star.",
-    "duration_seconds": 20,
-    "posting_window": "12:00 PM - 2:00 PM",
-    "reason": "Leverages the highly successful 'extreme space/planet' formula that drove over 1,000 views on similar videos, utilizing a 20-second duration to maximize retention and completion rate."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'Cinematic Space Survival' micro-story format where the viewer is placed directly on the surface of an extreme planet (e.g., 'What if you spent 5 seconds on the planet of burning ice?'), bridging the gap between space facts and high-retention storytelling.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-18T18:38:01.597325+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-18T19:32:42.896341+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-18T19:32:42.896366+00:00"
 }
