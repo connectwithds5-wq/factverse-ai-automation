@@ -1,32 +1,37 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "The channel's performance is heavily driven by extreme space anomalies and exoplanet mysteries, particularly those featuring high-contrast sensory paradoxes (e.g., burning ice, ruby rain, coal-dark planets). Conversely, abstract psychological topics and brain tricks consistently underperform, indicating that the audience prefers grand, highly visual cosmic concepts over internal cognitive trivia.",
+  "overall_summary": "Space anomalies, extreme planetary weather, and cosmic scale comparisons are the clear drivers of high engagement for FACTVERSE, with top videos consistently exceeding 1,000 views. Conversely, cognitive psychology and brain-fact videos consistently underperform, failing to capture viewer interest even with multiple re-upload attempts.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanets & Sensory Paradoxes",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' (1,055 views), 'The Planet Darker Than Coal: TrES-2b' (1,016 views), and 'This Planet Rains Supersonic Rubies!' (721 views) represent the top-tier performance.",
-      "action": "Double down on extreme cosmic conditions, focusing on highly visual, paradoxical, or high-value materials (e.g., gold, iron, acid, glass) in space."
+      "pattern": "Extreme Planetary Conditions & Cosmic Anomalies",
+      "evidence": "Videos like 'The Planet Darker Than Coal: TrES-2b' (1,016 views) and 'The Planet of Burning Ice Will Break Your Brain!' (1,055 views) vastly outperform other categories on the channel.",
+      "action": "Double down on extreme exoplanet characteristics, focusing on dramatic, high-contrast visual concepts (e.g., extreme temperatures, bizarre rain, or impossible physics)."
+    },
+    {
+      "pattern": "Sensory & Scale Curiosity in Space",
+      "evidence": "'What Does Outer Space Actually Smell Like?' (368 views) and 'The Largest Ocean in Space Will Mind-Blow You!' (460 views) show strong performance by grounding abstract space concepts in sensory or scale-based terms.",
+      "action": "Frame cosmic facts around human senses (smell, taste, touch) or massive scale comparisons to make abstract space concepts highly relatable."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Cognitive & Psychological Tricks",
-      "evidence": "'Your Brain Can Create Fake Memories' (multiple uploads peaking at only 53 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) fail to capture audience interest.",
-      "action": "Phase out dry cognitive science and self-help brain hacks, or completely reframe them with cinematic, high-stakes storytelling."
+      "pattern": "Repetitive Cognitive Psychology & Brain Tricks",
+      "evidence": "'Your Brain Can Create Fake Memories' (multiple uploads peaking at only 53 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently struggle to gain traction.",
+      "action": "Pivot away from generic brain/psychology facts, or reframe them through a more dramatic, mystery-driven storytelling lens rather than clinical explanations."
     }
   ],
   "next_video": {
-    "category": "Space / What-If Scenarios",
-    "hook_style": "Cosmic Horror / High-Stakes Sensory Hook",
-    "concept": "WASP-12b, a pitch-black egg-shaped planet being actively devoured and stretched by its parent star.",
-    "opening_direction": "Right now, there is a planet in our galaxy being stretched and eaten alive.",
-    "twist_direction": "But the terrifying part isn't just that it's being consumed—it's so pitch black that it absorbs almost all light, meaning its final moments are happening in absolute, silent darkness.",
+    "category": "Space / Cosmic Extremes",
+    "hook_style": "Sensory Shock & Visual Contrast",
+    "concept": "The Planet Where It Rains Molten Iron and Snows Titanium",
+    "opening_direction": "Show a cinematic, dark alien sky with glowing red droplets falling onto a barren landscape, asking: 'What if it rained liquid metal instead of water?'",
+    "twist_direction": "Reveal that on WASP-76b, the daytime temperature is so extreme it vaporizes iron, which then condenses and falls as metallic rain on the freezing night side.",
     "duration_seconds": 18,
-    "posting_window": "17:00 - 20:00 UTC",
-    "reason": "Capitalizes on the proven success of extreme exoplanet facts (like TrES-2b and Burning Ice) by combining cosmic horror with a highly visual, tragic planetary fate."
+    "posting_window": "18:00 - 20:00 UTC",
+    "reason": "Leverages the highly successful 'extreme weather on exoplanets' formula that generated over 1,000 views on similar videos, using strong visual and sensory hooks."
   },
-  "experiment": "Test a 'Cinematic Space Survival' micro-story format (e.g., 'What if you fell into a planet that rains molten iron?') to combine the high-performing exoplanet niche with immersive, first-person narrative storytelling.",
+  "experiment": "Test a 'What-If' scenario combining historical storytelling with space survival, such as 'What If We Sent a Victorian Explorer to the Moon?', to bridge the gap between history fans and space enthusiasts.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-18T05:35:36.388384+00:00"
+  "generated_at": "2026-09-18T06:40:33.114321+00:00"
 }
