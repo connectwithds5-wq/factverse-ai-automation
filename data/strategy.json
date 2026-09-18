@@ -1,42 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE's audience is highly responsive to extreme space and exoplanet anomalies, particularly those showcasing bizarre physical conditions (e.g., burning ice, raining rubies, coal-dark atmospheres). Conversely, cognitive psychology topics and basic animal trivia consistently underperform, indicating a clear preference for high-concept, visually evocative cosmic mysteries over everyday science.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Exoplanet Anomalies",
-      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,016 views) and 'The Planet of Burning Ice...' (1,055 views) are the top-performing videos.",
-      "action": "Focus on bizarre exoplanets with extreme weather, strange compositions, and cosmic doom scenarios."
-    },
-    {
-      "pattern": "Vivid Sensory & Material Hooks",
-      "evidence": "'This Planet Rains Supersonic Rubies!' (721 views) and 'What Does Outer Space Actually Smell Like?' (368 views) significantly outperform abstract concepts.",
-      "action": "Use highly visual, tangible materials (rubies, coal, ice, smell) in titles and hooks to ground complex space science."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Cognitive Psychology & Brain Tricks",
-      "evidence": "'Your Brain Can Create Fake Memories' (max 53 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction.",
-      "action": "Pivot away from cognitive psychology, or reframe these topics through a high-stakes, cinematic lens."
-    },
-    {
-      "pattern": "Common Animal Trivia",
-      "evidence": "'Octopuses Have THREE Hearts' (183 views) and 'The Only Animal That Can Live Forever' (69 views) show mediocre performance.",
-      "action": "Avoid basic animal trivia; instead, focus on cinematic animal survival stories or highly unusual evolutionary mysteries."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space Mysteries",
-    "hook_style": "Visual Curiosity & Cosmic Doom",
-    "concept": "WASP-12b, the doomed egg-shaped planet being actively consumed by its host star.",
-    "opening_direction": "Start with a dramatic visual of a distorted, egg-shaped planet with a glowing stream of atmosphere being sucked into a massive star.",
-    "twist_direction": "Reveal that the star's intense gravity is actively eating the planet alive, leaving it with a terminal cosmic countdown of less than 10 million years.",
-    "duration_seconds": 20,
-    "posting_window": "13:00 - 15:00 UTC",
-    "reason": "Exoplanet doom concepts align perfectly with the channel's top-performing videos, and a 20-second duration fits the high-retention sweet spot observed in recent successful uploads."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'What-If' space scenario focusing on cosmic destruction, such as 'What If a Black Hole Entered Our Solar System?', to see if the cosmic doom angle translates to broader physics concepts.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-18T00:40:29.058577+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-18T01:34:02.567650+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-18T01:34:02.567673+00:00"
 }
