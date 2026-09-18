@@ -1,37 +1,42 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "The channel's performance is heavily driven by extreme space anomalies and bizarre exoplanet facts, which consistently capture the highest views and engagement. Conversely, generic psychological tricks and repetitive brain facts struggle to gain traction, indicating that the audience craves highly visual, mind-bending cosmic scale concepts over everyday human biology.",
+  "overall_summary": "FACTVERSE's audience is highly responsive to extreme space and exoplanet anomalies, particularly those showcasing bizarre physical conditions (e.g., burning ice, raining rubies, coal-dark atmospheres). Conversely, cognitive psychology topics and basic animal trivia consistently underperform, indicating a clear preference for high-concept, visually evocative cosmic mysteries over everyday science.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanets and Cosmic Anomalies",
-      "evidence": "Videos like 'The Planet Darker Than Coal' (1,016 views), 'The Planet of Burning Ice' (1,055 views), and 'This Planet Rains Supersonic Rubies!' (721 views) dominate the channel's top performance tier.",
-      "action": "Double down on extreme space conditions, focusing on highly visual, sensory-defying cosmic environments (e.g., extreme temperatures, bizarre rains, and massive scale)."
+      "pattern": "Extreme Exoplanet Anomalies",
+      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,016 views) and 'The Planet of Burning Ice...' (1,055 views) are the top-performing videos.",
+      "action": "Focus on bizarre exoplanets with extreme weather, strange compositions, and cosmic doom scenarios."
     },
     {
-      "pattern": "High-Contrast Visual Hooks in Space Titles",
-      "evidence": "Titles combining contrasting elements like 'Burning Ice' or 'Supersonic Rubies' with emojis generate significantly higher click-through rates and views.",
-      "action": "Structure future space titles around physical paradoxes (e.g., 'Liquid Metal Oceans' or 'Frozen Stars')."
+      "pattern": "Vivid Sensory & Material Hooks",
+      "evidence": "'This Planet Rains Supersonic Rubies!' (721 views) and 'What Does Outer Space Actually Smell Like?' (368 views) significantly outperform abstract concepts.",
+      "action": "Use highly visual, tangible materials (rubies, coal, ice, smell) in titles and hooks to ground complex space science."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Psychology and Brain Hacks",
-      "evidence": "Videos like 'Your Brain Can Create Fake Memories' (11 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently underperform.",
-      "action": "Pivot away from standard self-help or basic cognitive psychology, or reframe them through a more cinematic, mystery-driven lens."
+      "pattern": "Cognitive Psychology & Brain Tricks",
+      "evidence": "'Your Brain Can Create Fake Memories' (max 53 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction.",
+      "action": "Pivot away from cognitive psychology, or reframe these topics through a high-stakes, cinematic lens."
+    },
+    {
+      "pattern": "Common Animal Trivia",
+      "evidence": "'Octopuses Have THREE Hearts' (183 views) and 'The Only Animal That Can Live Forever' (69 views) show mediocre performance.",
+      "action": "Avoid basic animal trivia; instead, focus on cinematic animal survival stories or highly unusual evolutionary mysteries."
     }
   ],
   "next_video": {
-    "category": "space",
-    "hook_style": "Visual Paradox",
-    "concept": "The Zombie Planet that Refuses to Die (PSR B1257+12)",
-    "opening_direction": "Show a cinematic render of a dead, collapsed star suddenly blasting a nearby planet with lethal radiation.",
-    "twist_direction": "Reveal that this radiation actually created three brand new worlds from the ashes of the star's death, making them 'zombie' planets.",
+    "category": "Space Mysteries",
+    "hook_style": "Visual Curiosity & Cosmic Doom",
+    "concept": "WASP-12b, the doomed egg-shaped planet being actively consumed by its host star.",
+    "opening_direction": "Start with a dramatic visual of a distorted, egg-shaped planet with a glowing stream of atmosphere being sucked into a massive star.",
+    "twist_direction": "Reveal that the star's intense gravity is actively eating the planet alive, leaving it with a terminal cosmic countdown of less than 10 million years.",
     "duration_seconds": 20,
     "posting_window": "13:00 - 15:00 UTC",
-    "reason": "Leverages the highly successful cosmic anomaly theme while introducing a narrative 'zombie' hook to maximize retention."
+    "reason": "Exoplanet doom concepts align perfectly with the channel's top-performing videos, and a 20-second duration fits the high-retention sweet spot observed in recent successful uploads."
   },
-  "experiment": "Test a 'What-If' space survival scenario, such as 'What If You Fell Into a Planet Made of Diamond?', to combine the high-performing exoplanet theme with active, first-person hypothetical storytelling.",
+  "experiment": "Test a 'What-If' space scenario focusing on cosmic destruction, such as 'What If a Black Hole Entered Our Solar System?', to see if the cosmic doom angle translates to broader physics concepts.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-17T23:32:39.375436+00:00"
+  "generated_at": "2026-09-18T00:40:29.058577+00:00"
 }
