@@ -1,21 +1,42 @@
 {
   "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "The channel's performance is heavily driven by extreme space anomalies, particularly exotic exoplanets with dramatic, hostile environments (e.g., TrES-2b, Gliese 436b, and ruby-raining planets). Conversely, general psychology facts and brain tricks are underperforming significantly, even when re-uploaded. Shorter, high-impact space concepts between 16 and 21 seconds are currently the sweet spot for viewer retention and engagement.",
+  "winning_patterns": [
+    {
+      "pattern": "Extreme Exoplanets & Hostile Space Environments",
+      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' (1,055 views), 'The Planet Darker Than Coal: TrES-2b' (1,018 views), and 'This Planet Rains Supersonic Rubies!' (721 views) are the top-performing videos.",
+      "action": "Double down on extreme planetary conditions, using sensory-rich, paradoxical hooks ('burning ice', 'supersonic rubies', 'darker than coal') to trigger immediate curiosity."
+    },
+    {
+      "pattern": "Mind-Bending Space Physics & Cosmic Scale",
+      "evidence": "'The Largest Ocean in Space Will Mind-Blow You!' generated 460 views, and 'What Does Outer Space Actually Smell Like?' reached 368 views.",
+      "action": "Produce content focusing on unexpected sensory experiences in space or massive cosmic structures that challenge human perception of scale."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Generic Brain & Psychology Facts",
+      "evidence": "'Your Brain Can Create Fake Memories' struggled across multiple attempts (max 53 views), and 'The Real Reason Songs Get Stuck In Your Head' pulled only 17 views.",
+      "action": "Halt production on standard psychological trivia. If psychology is covered, it must be framed as a terrifying survival scenario or a high-stakes mystery rather than a textbook explanation."
+    },
+    {
+      "pattern": "Repetitive Re-uploads of Low-Performing Concepts",
+      "evidence": "Re-uploading 'Your Brain Can Create Fake Memories' multiple times failed to yield any significant algorithmic lift (ranging from 5 to 53 views).",
+      "action": "Instead of re-uploading underperforming topics, pivot resources to scripting fresh angles on proven space and cosmic mystery themes."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "space",
+    "hook_style": "Sensory Paradox",
+    "concept": "The evaporating planet with a giant comet-like tail (Osiris / HD 209458b)",
+    "opening_direction": "Start with a high-contrast visual of a planet screaming through space, leaving a massive, glowing blue tail behind it like a comet.",
+    "twist_direction": "Reveal that the planet is literally evaporating because its parent star is cooking it at 1,800 degrees Fahrenheit, stripping away 10,000 tons of atmosphere every single second.",
+    "duration_seconds": 18,
+    "posting_window": "12:00 PM - 2:00 PM",
+    "reason": "Capitalizes on the highly successful 'extreme exoplanet' formula that drove over 1,000 views on similar videos, utilizing a strong visual paradox (a planet with a comet tail) within the optimal 16-21 second duration window."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-18T21:34:47.382316+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-18T21:34:47.382335+00:00"
+  "experiment": "Test a 'What-If' space survival scenario (e.g., 'What If You Fell Into a Planet Made of Burning Ice?') to combine the high-performing exoplanet niche with interactive, high-stakes storytelling.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-18T22:35:08.058124+00:00"
 }
