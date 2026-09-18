@@ -1,21 +1,42 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "The channel's clear breakout hits are centered around extreme space phenomena, specifically bizarre exoplanets with sensory-rich, mind-bending characteristics (e.g., TrES-2b, burning ice, supersonic rubies). Conversely, cognitive psychology and brain-related facts consistently underperform. Additionally, re-uploading identical concepts (like fake memories) fails to generate traction, indicating a need for fresh, high-concept visual hooks.",
+  "winning_patterns": [
+    {
+      "pattern": "Extreme Exoplanet Weather & Sensory Paradoxes",
+      "evidence": "TrES-2b (Darker Than Coal) achieved 1,016 views, Burning Ice achieved 1,055 views, and Supersonic Rubies achieved 721 views.",
+      "action": "Double down on extreme cosmic environments, focusing on highly visual and sensory descriptions (e.g., smells, textures, extreme rain) in the first 3 seconds."
+    },
+    {
+      "pattern": "Mind-Bending Time & Physics Paradoxes",
+      "evidence": "Why Your Head Is Older Than Your Feet achieved 263 views, and Sharks Are Older Than Trees achieved 302 views.",
+      "action": "Create content around scientific anomalies that challenge common sense or linear time perception."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Repetitive Brain & Psychology Facts",
+      "evidence": "Your Brain Can Create Fake Memories was uploaded multiple times, yielding extremely low views (5, 11, and 53 views).",
+      "action": "Avoid re-uploading identical scripts and pivot away from standard cognitive psychology facts, which lack strong visual hooks."
+    },
+    {
+      "pattern": "Abstract Space Concepts Lacking Sensory Anchors",
+      "evidence": "This Star Is Older Than the Universe! got only 11 views, and The Planet Where It Rains Rock! got 45 views.",
+      "action": "Avoid purely mathematical or abstract astronomical facts; ground every space video in a tangible, relatable comparison."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space & Cosmic Mysteries",
+    "hook_style": "Sensory & Physical Paradox",
+    "concept": "WASP-193b: The Giant Planet Lighter Than Cotton Candy",
+    "opening_direction": "There is a giant planet in space that is actually lighter than cotton candy, and if you found a bathtub big enough, it would float.",
+    "twist_direction": "But despite its fluffy nature, its atmosphere is so bloated by its nearby star that it is literally boiling away into space.",
+    "duration_seconds": 18,
+    "posting_window": "13:00 - 15:00 UTC",
+    "reason": "Leverages the highly successful 'extreme exoplanet' formula with a strong sensory hook (cotton candy/floating) that immediately sparks curiosity and visual imagination."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-18T03:36:14.056192+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-18T03:36:14.056210+00:00"
+  "experiment": "Test a 3-part mini-series on 'Planets That Shouldn't Exist,' comparing WASP-193b, a planet made of solid diamond, and a planet with a comet-like tail, to build episodic viewer retention.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-18T04:36:45.792974+00:00"
 }
