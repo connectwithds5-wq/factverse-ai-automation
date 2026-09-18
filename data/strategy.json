@@ -1,32 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Space and exoplanet mysteries, particularly those featuring extreme planetary conditions (e.g., burning ice, coal-dark atmospheres, ruby rain), are the clear drivers of reach and engagement for FACTVERSE. Conversely, repetitive psychology and brain facts struggle to gain traction, showing a need to pivot away from generic brain trivia toward highly visual, extreme cosmic phenomena.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Exoplanet Phenomena with Sensory Contrast",
-      "evidence": "TrES-2b (Planet Darker Than Coal) achieved 1,017 views and 36 likes. Gliese 436b (Planet of Burning Ice) hit 1,055 views. HAT-P-7b (Supersonic Rubies) reached 721 views.",
-      "action": "Double down on extreme exoplanet profiles. Focus on shocking physical properties (temperature, rain composition, color) and use high-contrast sensory words in titles."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Repetitive Brain & Psychology Trivia",
-      "evidence": "Multiple uploads of 'Your Brain Can Create Fake Memories' yielded only 5, 11, and 53 views. 'Songs Stuck in Your Head' peaked at only 71 views.",
-      "action": "Pause generic brain/psychology facts. If revisited, they must be framed as a dark mystery or high-stakes survival scenario rather than standard trivia."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space Mysteries",
-    "hook_style": "Visual & Physical Paradox",
-    "concept": "WASP-12b, the egg-shaped planet being actively eaten and stretched by its parent star.",
-    "opening_direction": "Start with: 'This planet is shaped like an egg because it's being eaten alive...'",
-    "twist_direction": "Reveal that as it melts, it's turning pitch black, absorbing 94% of light, and has less than 10 million years left before it's completely swallowed.",
-    "duration_seconds": 20,
-    "posting_window": "13:00 - 14:00 UTC",
-    "reason": "Aligns with the highly successful 21-second exoplanet format (TrES-2b, Rubies) and leverages the proven 'eaten alive' hook concept which showed early momentum (99 views in under 2 hours for kRHg11K-xkw)."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'What-If' cosmic survival scenario: 'What if you fell into a planet made of solid diamond?' to bridge the gap between exoplanet facts and high-retention hypothetical storytelling.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-18T15:36:30.111202+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-18T16:37:13.680600+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-18T16:37:13.680621+00:00"
 }
