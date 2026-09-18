@@ -1,42 +1,32 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "The channel's clear breakout hits are centered around extreme space phenomena, specifically bizarre exoplanets with sensory-rich, mind-bending characteristics (e.g., TrES-2b, burning ice, supersonic rubies). Conversely, cognitive psychology and brain-related facts consistently underperform. Additionally, re-uploading identical concepts (like fake memories) fails to generate traction, indicating a need for fresh, high-concept visual hooks.",
+  "overall_summary": "The channel's performance is heavily driven by extreme space anomalies and exoplanet mysteries, particularly those featuring high-contrast sensory paradoxes (e.g., burning ice, ruby rain, coal-dark planets). Conversely, abstract psychological topics and brain tricks consistently underperform, indicating that the audience prefers grand, highly visual cosmic concepts over internal cognitive trivia.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanet Weather & Sensory Paradoxes",
-      "evidence": "TrES-2b (Darker Than Coal) achieved 1,016 views, Burning Ice achieved 1,055 views, and Supersonic Rubies achieved 721 views.",
-      "action": "Double down on extreme cosmic environments, focusing on highly visual and sensory descriptions (e.g., smells, textures, extreme rain) in the first 3 seconds."
-    },
-    {
-      "pattern": "Mind-Bending Time & Physics Paradoxes",
-      "evidence": "Why Your Head Is Older Than Your Feet achieved 263 views, and Sharks Are Older Than Trees achieved 302 views.",
-      "action": "Create content around scientific anomalies that challenge common sense or linear time perception."
+      "pattern": "Extreme Exoplanets & Sensory Paradoxes",
+      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' (1,055 views), 'The Planet Darker Than Coal: TrES-2b' (1,016 views), and 'This Planet Rains Supersonic Rubies!' (721 views) represent the top-tier performance.",
+      "action": "Double down on extreme cosmic conditions, focusing on highly visual, paradoxical, or high-value materials (e.g., gold, iron, acid, glass) in space."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Brain & Psychology Facts",
-      "evidence": "Your Brain Can Create Fake Memories was uploaded multiple times, yielding extremely low views (5, 11, and 53 views).",
-      "action": "Avoid re-uploading identical scripts and pivot away from standard cognitive psychology facts, which lack strong visual hooks."
-    },
-    {
-      "pattern": "Abstract Space Concepts Lacking Sensory Anchors",
-      "evidence": "This Star Is Older Than the Universe! got only 11 views, and The Planet Where It Rains Rock! got 45 views.",
-      "action": "Avoid purely mathematical or abstract astronomical facts; ground every space video in a tangible, relatable comparison."
+      "pattern": "Abstract Cognitive & Psychological Tricks",
+      "evidence": "'Your Brain Can Create Fake Memories' (multiple uploads peaking at only 53 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) fail to capture audience interest.",
+      "action": "Phase out dry cognitive science and self-help brain hacks, or completely reframe them with cinematic, high-stakes storytelling."
     }
   ],
   "next_video": {
-    "category": "Space & Cosmic Mysteries",
-    "hook_style": "Sensory & Physical Paradox",
-    "concept": "WASP-193b: The Giant Planet Lighter Than Cotton Candy",
-    "opening_direction": "There is a giant planet in space that is actually lighter than cotton candy, and if you found a bathtub big enough, it would float.",
-    "twist_direction": "But despite its fluffy nature, its atmosphere is so bloated by its nearby star that it is literally boiling away into space.",
+    "category": "Space / What-If Scenarios",
+    "hook_style": "Cosmic Horror / High-Stakes Sensory Hook",
+    "concept": "WASP-12b, a pitch-black egg-shaped planet being actively devoured and stretched by its parent star.",
+    "opening_direction": "Right now, there is a planet in our galaxy being stretched and eaten alive.",
+    "twist_direction": "But the terrifying part isn't just that it's being consumed—it's so pitch black that it absorbs almost all light, meaning its final moments are happening in absolute, silent darkness.",
     "duration_seconds": 18,
-    "posting_window": "13:00 - 15:00 UTC",
-    "reason": "Leverages the highly successful 'extreme exoplanet' formula with a strong sensory hook (cotton candy/floating) that immediately sparks curiosity and visual imagination."
+    "posting_window": "17:00 - 20:00 UTC",
+    "reason": "Capitalizes on the proven success of extreme exoplanet facts (like TrES-2b and Burning Ice) by combining cosmic horror with a highly visual, tragic planetary fate."
   },
-  "experiment": "Test a 3-part mini-series on 'Planets That Shouldn't Exist,' comparing WASP-193b, a planet made of solid diamond, and a planet with a comet-like tail, to build episodic viewer retention.",
+  "experiment": "Test a 'Cinematic Space Survival' micro-story format (e.g., 'What if you fell into a planet that rains molten iron?') to combine the high-performing exoplanet niche with immersive, first-person narrative storytelling.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-18T04:36:45.792974+00:00"
+  "generated_at": "2026-09-18T05:35:36.388384+00:00"
 }
