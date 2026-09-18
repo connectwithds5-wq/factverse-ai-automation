@@ -1,21 +1,42 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Analysis of 117 data points (representing 35 unique Shorts) reveals a strong viewer preference for extreme space anomalies and exoplanet facts, while cognitive psychology and brain-related facts consistently underperform. Longer Shorts (19-21 seconds) with high-contrast visual hooks (e.g., diamonds, rubies, dark coal) drive the highest engagement.",
+  "winning_patterns": [
+    {
+      "pattern": "Extreme Exoplanets & Space Anomalies",
+      "evidence": "Videos like 'The Planet Darker Than Coal: TrES-2b' (1,016 views) and 'This Planet Rains Supersonic Rubies!' (721 views) consistently generate the highest views and engagement.",
+      "action": "Double down on extreme space facts, focusing on bizarre weather, planetary composition, and cosmic threats."
+    },
+    {
+      "pattern": "Mind-Bending Time & Physics Paradoxes",
+      "evidence": "'Why Your Head Is Older Than Your Feet' (264 views) and 'Sharks Are Older Than Trees?' (302 views) perform moderately well compared to standard trivia.",
+      "action": "Incorporate physics-based anomalies that challenge common sense, using relatable reference points (like heads/feet or trees)."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Brain & Cognitive Psychology Facts",
+      "evidence": "Videos like 'Your Brain Is Hiding This From You' (38 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction.",
+      "action": "Phase out standard cognitive psychology facts unless they can be framed with a high-stakes mystery hook."
+    },
+    {
+      "pattern": "Repetitive Concept Re-uploading",
+      "evidence": "Re-uploading 'Your Brain Can Create Fake Memories' multiple times resulted in extremely low views (5, 11, and 53 views).",
+      "action": "Avoid direct re-uploads of underperforming concepts; instead, pivot to entirely new topics or radically change the hook."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space",
+    "hook_style": "Visual curiosity & high-stakes doom",
+    "concept": "The Planet Being Eaten Alive By Its Star (WASP-12b)",
+    "opening_direction": "Right now, there is a pitch-black planet in our galaxy being slowly eaten alive by its own star.",
+    "twist_direction": "The star's gravity is pulling the planet so hard it has warped into the shape of an egg, and it will be completely consumed in a few million years.",
+    "duration_seconds": 21,
+    "posting_window": "13:00 - 14:00 UTC",
+    "reason": "Exoplanets with extreme conditions and dramatic visual narratives (like TrES-2b and the supersonic ruby planet) are the channel's top performers, pulling in 700-1000+ views. A 21-second duration aligns with the top-performing formats."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-18T10:38:01.011007+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-18T10:38:01.011028+00:00"
+  "experiment": "Test a 'What-If' cinematic scenario combining space and geography, such as 'What If a Black Hole Entered Our Solar System?' or 'What If the Moon Was Replaced by Jupiter?' with high-quality AI-generated cinematic visuals to see if the space audience converts to high-retention visual storytelling.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-18T11:35:31.153848+00:00"
 }
