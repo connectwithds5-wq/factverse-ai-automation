@@ -1,42 +1,42 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Space and exoplanet mysteries featuring extreme environments, supersonic weather, and high-contrast sensory hooks (e.g., burning ice, liquid metal, supersonic rubies) consistently outperform general biology, psychology, or repetitive brain facts. Videos with a duration of 19-21 seconds perform better than shorter 12-15 second clips, likely due to better storytelling depth and retention-building explanations.",
+  "overall_summary": "The channel shows a clear divergence in performance between categories. Space-themed content, particularly focusing on extreme exoplanets, cosmic anomalies, and mind-bending planetary conditions (e.g., TrES-2b, Gliese 436 b), consistently outperforms psychology, animal facts, and general science. Psychology and brain-related facts are struggling to gain traction, often stalling under 100 views.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Space & Exoplanet Anomalies",
-      "evidence": "TrES-2b (1,018 views), Burning Ice (1,055 views), and Supersonic Rubies (721 views) are the channel's top performers.",
-      "action": "Double down on extreme space weather, bizarre planets, and cosmic anomalies using high-contrast visual descriptions."
+      "pattern": "Extreme Exoplanets & Cosmic Anomalies",
+      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,018 views), 'The Planet of Burning Ice Will Break Your Brain!' (1,055 views), and 'This Planet Rains Supersonic Rubies!' (721 views) represent the highest-performing tier of content.",
+      "action": "Double down on extreme space facts, focusing on visual descriptions of bizarre planetary physics, extreme weather, and cosmic threats."
     },
     {
-      "pattern": "Sensory & High-Contrast Hooks",
-      "evidence": "Titles with words like 'Burning Ice', 'Supersonic Rubies', and 'Molten Iron' generate significantly higher views.",
-      "action": "Frame future titles around extreme physical paradoxes (e.g., hot ice, metal rain, dark light)."
+      "pattern": "16 to 21-Second High-Impact Narratives",
+      "evidence": "Top-performing videos are consistently in the 16-21s range, allowing enough time to build a solid hook, explain the anomaly, and deliver a satisfying twist without losing viewer retention.",
+      "action": "Maintain a strict 18-21 second duration limit, ensuring fast-paced editing and immediate visual payoff within the first 3 seconds."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Concept Re-uploads",
-      "evidence": "'Fake Memories' was uploaded 3 times, dropping from 53 views to 5 views. 'Octopuses Have Three Hearts' dropped from 183 to 118 views.",
-      "action": "Avoid re-uploading identical concepts within short windows; space out topics and ensure unique angles if revisiting."
+      "pattern": "Psychology & Brain Facts",
+      "evidence": "'Your Brain Can Create Fake Memories' (max 53 views across multiple uploads), 'Your Brain Is Hiding This From You' (38 views), and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to capture audience interest.",
+      "action": "Pivot away from generic psychology facts or reframe them as high-stakes survival/mystery scenarios if attempted."
     },
     {
-      "pattern": "Clinical Brain & Psychology Trivia",
-      "evidence": "'Songs Stuck in Your Head' (17 views) and 'Your Brain Is Hiding This' (38 views) failed to gain traction.",
-      "action": "Pivot away from abstract psychological concepts unless they can be framed with a highly shocking, visual hook."
+      "pattern": "Repetitive Topic Uploads",
+      "evidence": "Uploading the exact same topic/title multiple times (e.g., 'Your Brain Can Create Fake Memories' uploaded on Sep 4, 7, and 14) leads to diminishing returns and extremely low view counts (5 to 53 views).",
+      "action": "Avoid direct duplicates or immediate re-uploads. Instead, iterate on successful angles with entirely new visual hooks and distinct cosmic subjects."
     }
   ],
   "next_video": {
-    "category": "Space & Exoplanets",
-    "hook_style": "Sensory Paradox & Gemstone Imagery",
-    "concept": "The Planet Where It Rains Liquid Sapphires (HAT-P-7b)",
-    "opening_direction": "Start with a close-up of a sparkling sapphire, then zoom out to reveal a raging, dark alien sky.",
-    "twist_direction": "Reveal that the sapphire rain is accompanied by 5,000 mph winds, turning the beautiful gems into deadly supersonic shrapnel.",
-    "duration_seconds": 21,
-    "posting_window": "12:30 PM - 1:30 PM UTC",
-    "reason": "Exoplanets with extreme weather and gemstone/sensory associations (like TrES-2b and Supersonic Rubies) are our top performers. A 21-second duration allows for a strong hook, scientific explanation, and a dramatic twist to maximize retention."
+    "category": "Space / What-If Scenario",
+    "hook_style": "High-stakes curiosity and visual contrast",
+    "concept": "The Planet That Is Evaporating Into Space (HD 209458b / Osiris)",
+    "opening_direction": "Start with a high-contrast visual of a planet dragging a giant, glowing tail behind it like a dying star.",
+    "twist_direction": "Reveal that this cosmic giant is literally melting, losing 10,000 tons of its atmosphere every single second to its parent star.",
+    "duration_seconds": 20,
+    "posting_window": "12:00 PM - 2:00 PM",
+    "reason": "Leverages the highly successful 'extreme space/planet' formula that drove over 1,000 views on similar videos, utilizing a 20-second duration to maximize retention and completion rate."
   },
-  "experiment": "Test 'What If' first-person hypothetical framing (e.g., 'What If You Visited the Sapphire Planet?') against the standard third-person factual framing ('This Planet Rains Sapphires') to measure the impact of personal stakes on audience retention.",
+  "experiment": "Test a 'Cinematic Space Survival' micro-story format where the viewer is placed directly on the surface of an extreme planet (e.g., 'What if you spent 5 seconds on the planet of burning ice?'), bridging the gap between space facts and high-retention storytelling.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-18T17:33:12.695047+00:00"
+  "generated_at": "2026-09-18T18:38:01.597325+00:00"
 }
