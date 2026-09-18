@@ -1,42 +1,32 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Space and extreme cosmic phenomena (specifically exoplanets with bizarre environmental conditions) are the clear channel drivers, frequently securing 700 to 1,000+ views. Conversely, psychology and cognitive brain facts (such as fake memories and songs stuck in your head) consistently underperform, rarely breaking 100 views even when re-uploaded with different durations.",
+  "overall_summary": "Space and exoplanet mysteries, particularly those featuring extreme planetary conditions (e.g., burning ice, coal-dark atmospheres, ruby rain), are the clear drivers of reach and engagement for FACTVERSE. Conversely, repetitive psychology and brain facts struggle to gain traction, showing a need to pivot away from generic brain trivia toward highly visual, extreme cosmic phenomena.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanet & Cosmic Anomalies",
-      "evidence": "Videos like 'The Planet Darker Than Coal' (1,017 views), 'The Planet of Burning Ice' (1,055 views), and 'This Planet Rains Supersonic Rubies!' (721 views) represent the highest tier of views and engagement on the channel.",
-      "action": "Double down on extreme space environments, focusing on mind-bending physical properties, extreme weather, and cosmic horror elements."
-    },
-    {
-      "pattern": "Intuition-Challenging Science Paradoxes",
-      "evidence": "'Sharks Are Older Than Trees' (302 views) and 'Why Your Head Is Older Than Your Feet' (264 views) perform significantly better than standard trivia.",
-      "action": "Frame historical or physical facts as direct contradictions to common sense in the first 2 seconds."
+      "pattern": "Extreme Exoplanet Phenomena with Sensory Contrast",
+      "evidence": "TrES-2b (Planet Darker Than Coal) achieved 1,017 views and 36 likes. Gliese 436b (Planet of Burning Ice) hit 1,055 views. HAT-P-7b (Supersonic Rubies) reached 721 views.",
+      "action": "Double down on extreme exoplanet profiles. Focus on shocking physical properties (temperature, rain composition, color) and use high-contrast sensory words in titles."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Psychology & Brain Tricks",
-      "evidence": "'Your Brain Can Create Fake Memories' was uploaded three times across different dates and lengths, peaking at only 53 views. 'The Psychological Trick to Stop Songs...' stalled at 71 views.",
-      "action": "Pivot away from cognitive biases and brain hacks unless they can be framed through a highly dramatic, cinematic storytelling lens."
-    },
-    {
-      "pattern": "Basic Animal Trivia",
-      "evidence": "'Octopuses Have THREE Hearts' (118-183 views) and 'The Only Animal That Can Live Forever' (69 views) fail to capture the viral velocity of cosmic topics.",
-      "action": "Avoid standard encyclopedia facts; instead, focus on cinematic animal survival narratives or extreme evolutionary defense mechanisms."
+      "pattern": "Repetitive Brain & Psychology Trivia",
+      "evidence": "Multiple uploads of 'Your Brain Can Create Fake Memories' yielded only 5, 11, and 53 views. 'Songs Stuck in Your Head' peaked at only 71 views.",
+      "action": "Pause generic brain/psychology facts. If revisited, they must be framed as a dark mystery or high-stakes survival scenario rather than standard trivia."
     }
   ],
   "next_video": {
-    "category": "Space / What-If Scenarios",
-    "hook_style": "Mind-Bending Time Paradox",
-    "concept": "The real-world science behind a planet orbiting close to a black hole where time dilation causes extreme aging differences compared to Earth.",
-    "opening_direction": "If you spent just one hour on this planet, everyone you love on Earth would already be dead.",
-    "twist_direction": "This isn't just a movie scene—it's a real cosmic phenomenon called gravitational time dilation, and it happens near supermassive black holes.",
-    "duration_seconds": 21,
-    "posting_window": "13:00 - 14:30 UTC",
-    "reason": "Leverages the high-performing space category with a cinematic, high-stakes 'what-if' hook. The 21-second format matches the duration of our top-performing exoplanet videos."
+    "category": "Space Mysteries",
+    "hook_style": "Visual & Physical Paradox",
+    "concept": "WASP-12b, the egg-shaped planet being actively eaten and stretched by its parent star.",
+    "opening_direction": "Start with: 'This planet is shaped like an egg because it's being eaten alive...'",
+    "twist_direction": "Reveal that as it melts, it's turning pitch black, absorbing 94% of light, and has less than 10 million years left before it's completely swallowed.",
+    "duration_seconds": 20,
+    "posting_window": "13:00 - 14:00 UTC",
+    "reason": "Aligns with the highly successful 21-second exoplanet format (TrES-2b, Rubies) and leverages the proven 'eaten alive' hook concept which showed early momentum (99 views in under 2 hours for kRHg11K-xkw)."
   },
-  "experiment": "Test a cinematic 'Survival Guide' format for extreme space environments (e.g., 'How to Survive 5 Seconds on the Planet of Burning Ice') to merge the high-performing exoplanet topic with active, high-retention storytelling.",
+  "experiment": "Test a 'What-If' cosmic survival scenario: 'What if you fell into a planet made of solid diamond?' to bridge the gap between exoplanet facts and high-retention hypothetical storytelling.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-18T14:36:34.442966+00:00"
+  "generated_at": "2026-09-18T15:36:30.111202+00:00"
 }
