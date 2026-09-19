@@ -1,32 +1,32 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Space and planetary mysteries showcasing extreme cosmic environments are the channel's clear primary growth driver, consistently generating the highest view counts and engagement. Conversely, cognitive psychology and brain-related facts underperform significantly, with repetitive uploads of the same concepts leading to severe audience fatigue and near-zero reach.",
+  "overall_summary": "The channel is experiencing a clear performance surge in the space and exoplanet mystery niche, with videos featuring extreme planetary conditions (e.g., burning ice, coal-dark planets, ruby rain) consistently gaining the highest views and engagement. Conversely, repetitive psychology and brain facts are failing to capture audience interest, showing extremely low view counts.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Cosmic & Planetary Anomalies (21-Second Format)",
-      "evidence": "The Planet Darker Than Coal (TrES-2b) achieved 1,018 views and 36 likes, This Planet Rains Supersonic Rubies reached 721 views and 25 likes, and The Planet of Burning Ice generated 1,055 views.",
-      "action": "Focus content production heavily on extreme exoplanets, bizarre space physics, and cosmic anomalies. Standardize the duration to 19-21 seconds to allow for deeper visual storytelling and build-up."
+      "pattern": "Extreme Exoplanet Anomalies & Paradoxical Weather",
+      "evidence": "Videos like 'The Planet of Burning Ice Will Break Your Brain!' (1,055 views) and 'The Planet Darker Than Coal: TrES-2b' (1,018 views) are the top performers, driven by high-contrast, mind-bending cosmic concepts.",
+      "action": "Focus content creation on highly visual, extreme space phenomena and bizarre exoplanets with paradoxical physical properties."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Brain & Cognitive Psychology Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' was uploaded three times across different dates, yielding only 53, 5, and 11 views respectively. 'Your Brain Is Hiding This From You' stagnated at 38 views.",
-      "action": "De-prioritize basic human psychology topics and strictly enforce a rule against re-uploading identical concepts or titles within a 30-day window."
+      "pattern": "Repetitive & Low-Stakes Brain/Psychology Facts",
+      "evidence": "Multiple uploads of 'Your Brain Can Create Fake Memories' yielded single-digit or low double-digit views (5, 11, 53 views), and 'The Real Reason Songs Get Stuck In Your Head' got only 17 views.",
+      "action": "Discontinue generic psychology facts and avoid re-uploading identical concepts without significant hook variations."
     }
   ],
   "next_video": {
-    "category": "Space / What-If Scenarios",
-    "hook_style": "Mind-bending time dilation paradox",
-    "concept": "The Planet Orbiting a Black Hole Where One Hour is 7 Years",
-    "opening_direction": "Imagine landing on a planet where taking a quick 10-minute walk means everyone you love back on Earth has been dead for decades.",
-    "twist_direction": "But the terrifying part isn't the lost time—it's that the black hole's gravity pulls the ocean into skyscraper-sized vertical walls of water.",
-    "duration_seconds": 21,
-    "posting_window": "13:00 - 14:00 UTC",
-    "reason": "Leverages the highly successful extreme space category using a proven 21-second format. It introduces a high-stakes 'what-if' survival element to maximize viewer retention from the very first second."
+    "category": "Space Mysteries",
+    "hook_style": "Extreme Temperature Paradox",
+    "concept": "The tidally locked planet where one half is a boiling lava ocean and the other half is a frozen wasteland of ice.",
+    "opening_direction": "Show a split screen of liquid fire and absolute-zero ice, asking: 'What if you lived on a planet where you could freeze and burn to death at the exact same time?'",
+    "twist_direction": "Reveal that the boundary line between these two halves creates a permanent, apocalyptic supersonic windstorm that rains vaporized rock.",
+    "duration_seconds": 20,
+    "posting_window": "12:30 PM - 1:30 PM UTC",
+    "reason": "Leverages the highly successful exoplanet anomaly trend, utilizing the same high-contrast, paradoxical hook style that made the 'Burning Ice' video a top performer."
   },
-  "experiment": "Test a cinematic space survival concept ('What If You Fell Into Jupiter's Liquid Metal Ocean?') to see if combining the high-performing space niche with cinematic survival storytelling yields higher average retention than standard exoplanet profiles.",
+  "experiment": "Test a 'What-If' scenario format applied to these extreme exoplanets (e.g., 'What If You Fell Into the Planet of Liquid Diamond?') to see if adding a hypothetical first-person narrative increases viewer retention compared to standard third-person fact delivery.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-19T04:35:35.169988+00:00"
+  "generated_at": "2026-09-19T05:34:54.230859+00:00"
 }
