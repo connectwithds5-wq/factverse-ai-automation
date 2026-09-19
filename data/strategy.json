@@ -1,42 +1,37 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is experiencing a massive surge in performance when focusing on extreme exoplanets, cosmic anomalies, and bizarre planetary weather (e.g., burning ice, supersonic rubies, and coal-dark worlds). Conversely, cognitive psychology and basic animal trivia are severely underperforming, indicating that the audience craves high-concept, visually spectacular cosmic mysteries over abstract human biology or common animal facts.",
+  "overall_summary": "Analysis of recent performance indicates a clear divergence in viewer interest: extreme cosmic anomalies, bizarre planetary weather, and high-value space 'What If' scenarios are driving the channel's peak views and engagement. Conversely, generic psychology facts and repetitive brain-related topics are severely underperforming, failing to generate initial click-through or retention.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanet Weather & Anomalies",
-      "evidence": "'The Planet of Burning Ice' reached 1,055 views, 'The Planet Darker Than Coal: TrES-2b' achieved 1,019 views, and 'This Planet Rains Supersonic Rubies!' reached 721 views.",
-      "action": "Double down on bizarre planetary conditions, focusing on extreme temperatures, strange rain (rubies, iron, glass), and visually striking cosmic anomalies."
+      "pattern": "Extreme Cosmic Anomalies & Planetary Weather",
+      "evidence": "The Planet of Burning Ice (vWd0uYcEGh4) achieved 1,055 views, TrES-2b Darker Than Coal (v1rrcZLdp4U) reached 1,019 views, and Supersonic Rubies (QXuqYERlqSo) hit 721 views.",
+      "action": "Prioritize space content that highlights extreme physical properties, bizarre weather (raining rubies, glass, iron), or massive scale differences, using highly descriptive and sensory-rich titles."
     },
     {
-      "pattern": "'What If' First-Person Cosmic Journeys",
-      "evidence": "'What If You Fell Into This $26 Nonillion Diamond Planet?' secured 339 views and 23 likes, showing high engagement.",
-      "action": "Frame astronomical facts as hypothetical, high-stakes first-person explorations to increase viewer immersion and retention."
+      "pattern": "High-Value 'What If' Space Scenarios",
+      "evidence": "What If You Fell Into This $26 Nonillion Diamond Planet? (6pwazIPnOHw) generated 357 views and a channel-high of 26 likes, showing strong audience engagement.",
+      "action": "Incorporate astronomical wealth, extreme danger, or cosmic survival elements into 'What If' hooks to drive higher like-to-view ratios."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Cognitive Psychology & Brain Tricks",
-      "evidence": "'Your Brain Can Create Fake Memories' failed to gain traction across multiple uploads (max 53 views), and 'The Real Reason Songs Get Stuck In Your Head' got only 17 views.",
-      "action": "Phase out abstract cognitive psychology topics unless they can be framed with a high-stakes sci-fi or survival hook."
-    },
-    {
-      "pattern": "Common Animal Trivia",
-      "evidence": "'The Only Animal That Can Live Forever' got 69 views, and 'Octopuses Have THREE Hearts' plateaued at 183 views.",
-      "action": "Avoid basic, widely known animal facts. Pivot animal content toward cinematic survival stories or extreme evolutionary mysteries."
+      "pattern": "Generic Brain & Cognitive Psychology Facts",
+      "evidence": "Multiple iterations of 'Your Brain Can Create Fake Memories' (r43-7nSn8SQ, 2fqaGqfsR4A, 5AN7LUgqarc) stalled below 55 views, and 'Songs Stuck in Your Head' (Jc04LVKNd2s) only reached 17 views.",
+      "action": "Pause production on standard cognitive psychology facts. If revisited, they must be framed through a high-stakes survival lens or cinematic mystery."
     }
   ],
   "next_video": {
-    "category": "Space & Cosmic Mysteries",
-    "hook_style": "Visual and physical impossibility hook",
-    "concept": "The Pink Planet That Shouldn't Exist (GJ 504b)",
-    "opening_direction": "Show a stunning, photorealistic magenta planet floating in the dark void, asking: 'What if a planet was completely pink—and defied the laws of physics?'",
-    "twist_direction": "Reveal that this beautiful pink world is actually a giant, superheated furnace of gas, glowing magenta from the residual heat of its violent birth.",
-    "duration_seconds": 18,
-    "posting_window": "12:00 PM - 1:00 PM",
-    "reason": "Leverages the highly successful extreme exoplanet theme with a strong visual hook (a pink planet) and a scientific mystery angle."
+    "category": "Space / What-If Scenario",
+    "hook_style": "Visual Paradox & Cosmic Terror",
+    "concept": "The Terrifying Eyeball Planet (Tidally Locked Worlds)",
+    "opening_direction": "Start with a hyper-realistic, high-contrast render of a planet in deep space that looks exactly like a giant, bloodshot eyeball staring back at the viewer.",
+    "twist_direction": "Reveal that the creepy 'pupil' is actually a massive, warm ocean of liquid water—the only habitable zone trapped between a scorching desert and a frozen wasteland.",
+    "duration_seconds": 20,
+    "posting_window": "13:00 - 15:00 UTC",
+    "reason": "Leverages the highly successful space anomaly trend while introducing a striking, slightly unsettling visual hook ('Eyeball Planet') to capture immediate feed attention."
   },
-  "experiment": "Test a 15-second high-tempo 'What If' scenario about surviving on WASP-76b (where it rains liquid iron) to see if first-person survival elements boost engagement rates even higher than standard facts.",
+  "experiment": "Introduce a 'Cinematic Animal Survival' micro-story focusing on an extreme deep-sea creature (e.g., the Goblin Shark or the Bobbit Worm) using dramatic, narrative-first scriptwriting to test if high-production animal content can replicate the success of space anomalies.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-19T17:32:47.955208+00:00"
+  "generated_at": "2026-09-19T18:36:49.405053+00:00"
 }
