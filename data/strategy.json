@@ -1,32 +1,32 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "The channel's clear performance leaders are extreme space anomalies and bizarre exoplanet conditions, particularly those highlighting extreme physics or weather (e.g., burning ice, coal-dark planets, and ruby rain). Conversely, generic psychology facts and repetitive brain-related topics consistently underperform, indicating audience fatigue with standard self-help or basic cognitive trivia.",
+  "overall_summary": "Space and planetary mysteries showcasing extreme cosmic environments are the channel's clear primary growth driver, consistently generating the highest view counts and engagement. Conversely, cognitive psychology and brain-related facts underperform significantly, with repetitive uploads of the same concepts leading to severe audience fatigue and near-zero reach.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Cosmic & Exoplanet Anomalies (21-second duration)",
-      "evidence": "TrES-2b ('The Planet Darker Than Coal') achieved 1,018 views and 36 likes. 'The Planet of Burning Ice' reached 1,055 views. 'Supersonic Rubies' hit 721 views and 25 likes. All leverage high-contrast, sensory-rich cosmic imagery.",
-      "action": "Double down on extreme space conditions, focusing on highly visual, hostile, or paradoxical environments (e.g., metal rain, evaporating planets) using a 19-21 second duration to maximize watch time."
+      "pattern": "Extreme Cosmic & Planetary Anomalies (21-Second Format)",
+      "evidence": "The Planet Darker Than Coal (TrES-2b) achieved 1,018 views and 36 likes, This Planet Rains Supersonic Rubies reached 721 views and 25 likes, and The Planet of Burning Ice generated 1,055 views.",
+      "action": "Focus content production heavily on extreme exoplanets, bizarre space physics, and cosmic anomalies. Standardize the duration to 19-21 seconds to allow for deeper visual storytelling and build-up."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Brain & Psychology Trivia",
-      "evidence": "'Your Brain Can Create Fake Memories' struggled across multiple uploads, peaking at only 53 views. 'The Real Reason Songs Get Stuck In Your Head' stalled at 17 views.",
-      "action": "Pivot away from generic cognitive facts. If psychology is explored, frame it through a high-stakes mystery or historical storytelling lens rather than clinical trivia."
+      "pattern": "Repetitive Brain & Cognitive Psychology Facts",
+      "evidence": "'Your Brain Can Create Fake Memories' was uploaded three times across different dates, yielding only 53, 5, and 11 views respectively. 'Your Brain Is Hiding This From You' stagnated at 38 views.",
+      "action": "De-prioritize basic human psychology topics and strictly enforce a rule against re-uploading identical concepts or titles within a 30-day window."
     }
   ],
   "next_video": {
-    "category": "Space & Science",
-    "hook_style": "Visual Paradox / Cosmic Threat",
-    "concept": "The evaporating planet HD 209458b (Osiris), which is literally bleeding its atmosphere into space.",
-    "opening_direction": "Show a cinematic render of a gas giant with a massive, glowing blue tail stretching millions of miles behind it.",
-    "twist_direction": "Reveal that this isn't a comet—it's a giant planet being slowly cooked and eaten alive by its own parent star.",
+    "category": "Space / What-If Scenarios",
+    "hook_style": "Mind-bending time dilation paradox",
+    "concept": "The Planet Orbiting a Black Hole Where One Hour is 7 Years",
+    "opening_direction": "Imagine landing on a planet where taking a quick 10-minute walk means everyone you love back on Earth has been dead for decades.",
+    "twist_direction": "But the terrifying part isn't the lost time—it's that the black hole's gravity pulls the ocean into skyscraper-sized vertical walls of water.",
     "duration_seconds": 21,
     "posting_window": "13:00 - 14:00 UTC",
-    "reason": "Aligns with the highly successful 21-second exoplanet format of TrES-2b and Supersonic Rubies, utilizing the proven 13:00 UTC upload window that drove peak engagement."
+    "reason": "Leverages the highly successful extreme space category using a proven 21-second format. It introduces a high-stakes 'what-if' survival element to maximize viewer retention from the very first second."
   },
-  "experiment": "Test a 21-second 'Cinematic Animal Survival' micro-story focusing on the extreme adaptation of the Wood Frog ('The frog that freezes solid and stops its own heart'), blending high-stakes survival narrative with extreme nature facts.",
+  "experiment": "Test a cinematic space survival concept ('What If You Fell Into Jupiter's Liquid Metal Ocean?') to see if combining the high-performing space niche with cinematic survival storytelling yields higher average retention than standard exoplanet profiles.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-19T03:36:07.643664+00:00"
+  "generated_at": "2026-09-19T04:35:35.169988+00:00"
 }
