@@ -1,32 +1,42 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "The channel is experiencing a clear performance surge in the space and exoplanet mystery niche, with videos featuring extreme planetary conditions (e.g., burning ice, coal-dark planets, ruby rain) consistently gaining the highest views and engagement. Conversely, repetitive psychology and brain facts are failing to capture audience interest, showing extremely low view counts.",
+  "overall_summary": "The channel's clear performance driver is extreme space anomalies and exotic exoplanets, specifically those featuring mind-bending physics, extreme weather, or sensory paradoxes (e.g., 'burning ice', 'darker than coal', 'supersonic rubies'). Conversely, general psychology facts and basic animal trivia are severely underperforming and failing to capture audience interest.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanet Anomalies & Paradoxical Weather",
-      "evidence": "Videos like 'The Planet of Burning Ice Will Break Your Brain!' (1,055 views) and 'The Planet Darker Than Coal: TrES-2b' (1,018 views) are the top performers, driven by high-contrast, mind-bending cosmic concepts.",
-      "action": "Focus content creation on highly visual, extreme space phenomena and bizarre exoplanets with paradoxical physical properties."
+      "pattern": "Exotic Exoplanet Anomalies with Sensory Paradoxes",
+      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,018 views), and 'This Planet Rains Supersonic Rubies!' (721 views) are the top-performing videos in the dataset.",
+      "action": "Double down on extreme space weather, bizarre planetary compositions, and cosmic anomalies using vivid, high-contrast sensory descriptions in titles and thumbnails."
+    },
+    {
+      "pattern": "16-21 Second Duration for Complex Cosmic Concepts",
+      "evidence": "The top 3 performing videos all fall within the 16-21 second range, providing just enough time to explain a single mind-bending cosmic fact without losing viewer retention.",
+      "action": "Keep script lengths strictly between 50-65 words to maintain a fast-paced, high-retention delivery within an 18-second window."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive & Low-Stakes Brain/Psychology Facts",
-      "evidence": "Multiple uploads of 'Your Brain Can Create Fake Memories' yielded single-digit or low double-digit views (5, 11, 53 views), and 'The Real Reason Songs Get Stuck In Your Head' got only 17 views.",
-      "action": "Discontinue generic psychology facts and avoid re-uploading identical concepts without significant hook variations."
+      "pattern": "Repetitive Brain & Psychology Myths",
+      "evidence": "'Your Brain Can Create Fake Memories' was uploaded multiple times and peaked at only 53 views. 'Your Brain Is Hiding This From You' got only 38 views.",
+      "action": "Pivot away from generic 'brain hacks' and psychological tricks, as the niche is highly saturated and lacks visual hook potential."
+    },
+    {
+      "pattern": "Basic Animal Trivia",
+      "evidence": "'Octopuses Have THREE Hearts' (183 views) and 'The Only Animal That Can Live Forever' (69 views) underperformed significantly compared to space content.",
+      "action": "Avoid standard animal facts unless they can be framed through a cinematic survival lens or a highly dramatic 'what-if' scenario."
     }
   ],
   "next_video": {
-    "category": "Space Mysteries",
-    "hook_style": "Extreme Temperature Paradox",
-    "concept": "The tidally locked planet where one half is a boiling lava ocean and the other half is a frozen wasteland of ice.",
-    "opening_direction": "Show a split screen of liquid fire and absolute-zero ice, asking: 'What if you lived on a planet where you could freeze and burn to death at the exact same time?'",
-    "twist_direction": "Reveal that the boundary line between these two halves creates a permanent, apocalyptic supersonic windstorm that rains vaporized rock.",
-    "duration_seconds": 20,
+    "category": "Space & What-If Scenarios",
+    "hook_style": "Visual Paradox",
+    "concept": "The Egg-Shaped Planet Being Eaten Alive",
+    "opening_direction": "Imagine a planet shaped like a giant egg, being slowly devoured by its own sun.",
+    "twist_direction": "But the real mind-blower? It's being stretched so violently by gravity that a single year there lasts only one Earth day.",
+    "duration_seconds": 18,
     "posting_window": "12:30 PM - 1:30 PM UTC",
-    "reason": "Leverages the highly successful exoplanet anomaly trend, utilizing the same high-contrast, paradoxical hook style that made the 'Burning Ice' video a top performer."
+    "reason": "Leverages the highly successful exoplanet theme (WASP-12b) using the proven 'Eaten Alive' hook angle, matching the 18-second sweet spot of previous top performers."
   },
-  "experiment": "Test a 'What-If' scenario format applied to these extreme exoplanets (e.g., 'What If You Fell Into the Planet of Liquid Diamond?') to see if adding a hypothetical first-person narrative increases viewer retention compared to standard third-person fact delivery.",
+  "experiment": "Test a cinematic 'What-If' space scenario focusing on Earth's destruction (e.g., 'What If a Rogue Planet Entered Our Solar System?') to see if the highly engaged exoplanet audience translates to apocalyptic space storytelling.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-19T05:34:54.230859+00:00"
+  "generated_at": "2026-09-19T06:38:55.745108+00:00"
 }
