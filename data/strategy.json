@@ -1,42 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "The channel's clear performance driver is extreme space anomalies and exotic exoplanets, specifically those featuring mind-bending physics, extreme weather, or sensory paradoxes (e.g., 'burning ice', 'darker than coal', 'supersonic rubies'). Conversely, general psychology facts and basic animal trivia are severely underperforming and failing to capture audience interest.",
-  "winning_patterns": [
-    {
-      "pattern": "Exotic Exoplanet Anomalies with Sensory Paradoxes",
-      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,018 views), and 'This Planet Rains Supersonic Rubies!' (721 views) are the top-performing videos in the dataset.",
-      "action": "Double down on extreme space weather, bizarre planetary compositions, and cosmic anomalies using vivid, high-contrast sensory descriptions in titles and thumbnails."
-    },
-    {
-      "pattern": "16-21 Second Duration for Complex Cosmic Concepts",
-      "evidence": "The top 3 performing videos all fall within the 16-21 second range, providing just enough time to explain a single mind-bending cosmic fact without losing viewer retention.",
-      "action": "Keep script lengths strictly between 50-65 words to maintain a fast-paced, high-retention delivery within an 18-second window."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Repetitive Brain & Psychology Myths",
-      "evidence": "'Your Brain Can Create Fake Memories' was uploaded multiple times and peaked at only 53 views. 'Your Brain Is Hiding This From You' got only 38 views.",
-      "action": "Pivot away from generic 'brain hacks' and psychological tricks, as the niche is highly saturated and lacks visual hook potential."
-    },
-    {
-      "pattern": "Basic Animal Trivia",
-      "evidence": "'Octopuses Have THREE Hearts' (183 views) and 'The Only Animal That Can Live Forever' (69 views) underperformed significantly compared to space content.",
-      "action": "Avoid standard animal facts unless they can be framed through a cinematic survival lens or a highly dramatic 'what-if' scenario."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space & What-If Scenarios",
-    "hook_style": "Visual Paradox",
-    "concept": "The Egg-Shaped Planet Being Eaten Alive",
-    "opening_direction": "Imagine a planet shaped like a giant egg, being slowly devoured by its own sun.",
-    "twist_direction": "But the real mind-blower? It's being stretched so violently by gravity that a single year there lasts only one Earth day.",
-    "duration_seconds": 18,
-    "posting_window": "12:30 PM - 1:30 PM UTC",
-    "reason": "Leverages the highly successful exoplanet theme (WASP-12b) using the proven 'Eaten Alive' hook angle, matching the 18-second sweet spot of previous top performers."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a cinematic 'What-If' space scenario focusing on Earth's destruction (e.g., 'What If a Rogue Planet Entered Our Solar System?') to see if the highly engaged exoplanet audience translates to apocalyptic space storytelling.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-19T06:38:55.745108+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-19T07:34:28.367634+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-19T07:34:28.367653+00:00"
 }
