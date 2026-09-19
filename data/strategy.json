@@ -1,42 +1,32 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "The channel's clear growth driver is extreme space anomalies and exoplanets with bizarre physical properties (e.g., TrES-2b, burning ice, ruby rain). These cosmic mystery topics consistently outperform generic animal facts, psychology tricks, and brain facts, driving the highest views and engagement. Additionally, slightly longer Shorts (16-21 seconds) perform significantly better than ultra-short 12-15 second clips.",
+  "overall_summary": "The channel's clear performance leaders are extreme space anomalies and bizarre exoplanet conditions, particularly those highlighting extreme physics or weather (e.g., burning ice, coal-dark planets, and ruby rain). Conversely, generic psychology facts and repetitive brain-related topics consistently underperform, indicating audience fatigue with standard self-help or basic cognitive trivia.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanets & Cosmic Weather",
-      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,018 views, 36 likes), 'The Planet of Burning Ice' (1,055 views, 8 likes), and 'This Planet Rains Supersonic Rubies!' (721 views, 25 likes) are the top-performing videos.",
-      "action": "Double down on extreme space science, focusing on planets with mind-bending weather, composition, or physical laws."
-    },
-    {
-      "pattern": "Sensory & Perspective-Shifting Space Hooks",
-      "evidence": "'What Does Outer Space Actually Smell Like?' (368 views) and 'The Largest Ocean in Space' (460 views) show strong baseline interest in sensory-based cosmic facts.",
-      "action": "Frame space topics around human senses or familiar concepts scaled to cosmic proportions."
+      "pattern": "Extreme Cosmic & Exoplanet Anomalies (21-second duration)",
+      "evidence": "TrES-2b ('The Planet Darker Than Coal') achieved 1,018 views and 36 likes. 'The Planet of Burning Ice' reached 1,055 views. 'Supersonic Rubies' hit 721 views and 25 likes. All leverage high-contrast, sensory-rich cosmic imagery.",
+      "action": "Double down on extreme space conditions, focusing on highly visual, hostile, or paradoxical environments (e.g., metal rain, evaporating planets) using a 19-21 second duration to maximize watch time."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Psychology & Brain Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' (multiple uploads, maxing out at 53 views) and 'Your Brain Is Hiding This From You' (38 views) consistently underperform.",
-      "action": "Pivot away from generic cognitive psychology facts unless they can be tied to a highly cinematic, historical, or mysterious narrative."
-    },
-    {
-      "pattern": "Basic Animal Trivia",
-      "evidence": "'Octopuses Have THREE Hearts' (183 views) and 'The Only Animal That Can Live Forever' (69 views) fail to capture the high-velocity curiosity of the space-themed content.",
-      "action": "Limit standard animal trivia; if covering animals, pivot to cinematic survival stories or ancient/prehistoric beasts."
+      "pattern": "Repetitive Brain & Psychology Trivia",
+      "evidence": "'Your Brain Can Create Fake Memories' struggled across multiple uploads, peaking at only 53 views. 'The Real Reason Songs Get Stuck In Your Head' stalled at 17 views.",
+      "action": "Pivot away from generic cognitive facts. If psychology is explored, frame it through a high-stakes mystery or historical storytelling lens rather than clinical trivia."
     }
   ],
   "next_video": {
-    "category": "Space / Planet Mystery",
-    "hook_style": "Extreme Cosmic Wealth & Danger",
-    "concept": "The Diamond Planet (55 Cancri e)",
-    "opening_direction": "There is a planet twice the size of Earth made entirely of solid diamond.",
-    "twist_direction": "But don't pack your bags yet—the surface temperature is a crushing 3,900 degrees, turning the diamond into a pressurized liquid nightmare.",
+    "category": "Space & Science",
+    "hook_style": "Visual Paradox / Cosmic Threat",
+    "concept": "The evaporating planet HD 209458b (Osiris), which is literally bleeding its atmosphere into space.",
+    "opening_direction": "Show a cinematic render of a gas giant with a massive, glowing blue tail stretching millions of miles behind it.",
+    "twist_direction": "Reveal that this isn't a comet—it's a giant planet being slowly cooked and eaten alive by its own parent star.",
     "duration_seconds": 21,
-    "posting_window": "18:00 - 21:00 UTC",
-    "reason": "Exoplanets with extreme, high-contrast conditions (like burning ice or ruby rain) are our top performers. A 21-second duration matches the exact length of our most successful uploads, allowing enough time to build tension and deliver a satisfying twist."
+    "posting_window": "13:00 - 14:00 UTC",
+    "reason": "Aligns with the highly successful 21-second exoplanet format of TrES-2b and Supersonic Rubies, utilizing the proven 13:00 UTC upload window that drove peak engagement."
   },
-  "experiment": "Test a 'What-If' space survival scenario (e.g., 'What If You Fell Into a Planet of Liquid Metal?') to merge the high-performing exoplanet category with cinematic storytelling.",
+  "experiment": "Test a 21-second 'Cinematic Animal Survival' micro-story focusing on the extreme adaptation of the Wood Frog ('The frog that freezes solid and stops its own heart'), blending high-stakes survival narrative with extreme nature facts.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-19T02:35:40.987594+00:00"
+  "generated_at": "2026-09-19T03:36:07.643664+00:00"
 }
