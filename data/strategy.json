@@ -1,32 +1,42 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "The channel's performance is heavily polarized. Extreme, sensory-rich exoplanet anomalies featuring bizarre physical properties (e.g., burning ice, supersonic rubies, coal-dark atmospheres) are driving the highest views and engagement. Conversely, repetitive cognitive psychology facts and abstract space theories are consistently underperforming, indicating that the audience craves high-impact visual and environmental storytelling over text-heavy cognitive trivia.",
+  "overall_summary": "The channel's performance is heavily driven by extreme space anomalies and bizarre exoplanet conditions, which consistently achieve the highest views and engagement. Conversely, generic brain, psychology, and memory facts are underperforming significantly. There is also a clear trend of diminishing returns when identical or highly similar concepts (like fake memories) are repeatedly uploaded.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Sensory Exoplanets",
-      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,018 views), and 'This Planet Rains Supersonic Rubies!' (721 views) are the top-performing videos.",
-      "action": "Produce a dedicated series focusing on bizarre exoplanets, using highly visual, high-contrast sensory hooks (extreme temperatures, precious gems, and impossible weather)."
+      "pattern": "Extreme Exoplanet & Space Anomalies",
+      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' (1,055 views), 'The Planet Darker Than Coal: TrES-2b' (1,018 views, 36 likes), and 'This Planet Rains Supersonic Rubies!' (721 views, 25 likes) are the top performers.",
+      "action": "Focus content production on highly visual, extreme, and hostile cosmic environments. Use sensory-rich descriptions like 'burning ice', 'supersonic rubies', and 'molten iron'."
+    },
+    {
+      "pattern": "Bizarre Physical & Temporal Paradoxes",
+      "evidence": "'Why Your Head Is Older Than Your Feet' (264 views) and 'Sharks Are Older Than Trees?' (302 views) perform moderately well compared to standard facts.",
+      "action": "Frame historical or scientific facts around mind-bending physical paradoxes that challenge common sense."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Cognitive Psychology Trivia",
-      "evidence": "Multiple iterations of 'Your Brain Can Create Fake Memories' stalled between 5 and 53 views, while 'The Real Reason Songs Get Stuck In Your Head' only achieved 17 views.",
-      "action": "Phase out generic psychological facts and brain hacks, as they lack the visual urgency and novelty required to capture immediate interest in the Shorts feed."
+      "pattern": "Generic Brain & Psychology Facts",
+      "evidence": "'Your Brain Can Create Fake Memories' (multiple uploads with 5, 11, and 53 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction.",
+      "action": "De-prioritize generic cognitive psychology facts unless they can be packaged with a high-stakes, cinematic mystery angle."
+    },
+    {
+      "pattern": "Repetitive Concept Re-uploading",
+      "evidence": "Re-uploading 'Your Brain Can Create Fake Memories' and 'Octopuses Have THREE Hearts' multiple times resulted in flat or declining view counts.",
+      "action": "Avoid publishing identical or slightly tweaked concepts within short windows. Prioritize topic diversity within high-performing niches."
     }
   ],
   "next_video": {
     "category": "Space / What-If Scenario",
-    "hook_style": "Extreme Wealth & Cosmic Anomaly",
-    "concept": "The 26-Nonillion-Dollar Diamond Planet (55 Cancri e)",
-    "opening_direction": "Show a hyper-realistic cinematic render of a sparkling diamond planet in space with a giant digital counter ticking up to $26.9 Nonillion.",
-    "twist_direction": "Reveal that this cosmic treasure is actually a pressurized hellscape where the oceans are molten lava and the atmosphere is thick with toxic carbon.",
-    "duration_seconds": 20,
-    "posting_window": "12:00 PM - 2:00 PM EST",
-    "reason": "Combines the proven high-performance exoplanet theme with an extreme wealth/luxury hook ('$26 Nonillion') to maximize initial CTR and retention."
+    "hook_style": "Temporal Paradox / Extreme Environment",
+    "concept": "A deep dive into a planet orbiting dangerously close to a supermassive black hole, where extreme time dilation occurs.",
+    "opening_direction": "Imagine stepping onto a planet where taking a single breath means everyone you've ever loved on Earth has been dead for a century.",
+    "twist_direction": "But the real nightmare isn't the time dilation—it's that the black hole's gravity is slowly tearing the planet's crust apart, turning it into a ring of hot dust.",
+    "duration_seconds": 21,
+    "posting_window": "12:30 PM - 1:30 PM",
+    "reason": "Aligns with the highly successful 21-second format of other top space videos. The 12:30 PM - 1:30 PM window matches the peak upload times of the channel's best-performing videos ('The Planet of Burning Ice' at 12:44 PM and 'TrES-2b' at 1:20 PM)."
   },
-  "experiment": "Test a 3-part micro-series focusing on 'The Deadliest Weather in the Universe', comparing different extreme exoplanets to establish a recurring format that encourages viewers to click through to the channel page.",
+  "experiment": "Test a 21-second Short on 'The Planet Made of Solid Diamond' (55 Cancri e), focusing heavily on the extreme pressure and value paradox of a planet worth $26.9 nonillion.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-19T00:40:07.702986+00:00"
+  "generated_at": "2026-09-19T01:35:45.870092+00:00"
 }
