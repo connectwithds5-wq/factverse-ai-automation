@@ -1,21 +1,42 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "FACTVERSE is experiencing a massive surge in performance when focusing on extreme exoplanets, cosmic anomalies, and bizarre planetary weather (e.g., burning ice, supersonic rubies, and coal-dark worlds). Conversely, cognitive psychology and basic animal trivia are severely underperforming, indicating that the audience craves high-concept, visually spectacular cosmic mysteries over abstract human biology or common animal facts.",
+  "winning_patterns": [
+    {
+      "pattern": "Extreme Exoplanet Weather & Anomalies",
+      "evidence": "'The Planet of Burning Ice' reached 1,055 views, 'The Planet Darker Than Coal: TrES-2b' achieved 1,019 views, and 'This Planet Rains Supersonic Rubies!' reached 721 views.",
+      "action": "Double down on bizarre planetary conditions, focusing on extreme temperatures, strange rain (rubies, iron, glass), and visually striking cosmic anomalies."
+    },
+    {
+      "pattern": "'What If' First-Person Cosmic Journeys",
+      "evidence": "'What If You Fell Into This $26 Nonillion Diamond Planet?' secured 339 views and 23 likes, showing high engagement.",
+      "action": "Frame astronomical facts as hypothetical, high-stakes first-person explorations to increase viewer immersion and retention."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Cognitive Psychology & Brain Tricks",
+      "evidence": "'Your Brain Can Create Fake Memories' failed to gain traction across multiple uploads (max 53 views), and 'The Real Reason Songs Get Stuck In Your Head' got only 17 views.",
+      "action": "Phase out abstract cognitive psychology topics unless they can be framed with a high-stakes sci-fi or survival hook."
+    },
+    {
+      "pattern": "Common Animal Trivia",
+      "evidence": "'The Only Animal That Can Live Forever' got 69 views, and 'Octopuses Have THREE Hearts' plateaued at 183 views.",
+      "action": "Avoid basic, widely known animal facts. Pivot animal content toward cinematic survival stories or extreme evolutionary mysteries."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space & Cosmic Mysteries",
+    "hook_style": "Visual and physical impossibility hook",
+    "concept": "The Pink Planet That Shouldn't Exist (GJ 504b)",
+    "opening_direction": "Show a stunning, photorealistic magenta planet floating in the dark void, asking: 'What if a planet was completely pink—and defied the laws of physics?'",
+    "twist_direction": "Reveal that this beautiful pink world is actually a giant, superheated furnace of gas, glowing magenta from the residual heat of its violent birth.",
+    "duration_seconds": 18,
+    "posting_window": "12:00 PM - 1:00 PM",
+    "reason": "Leverages the highly successful extreme exoplanet theme with a strong visual hook (a pink planet) and a scientific mystery angle."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-19T16:35:20.356123+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-19T16:35:20.356138+00:00"
+  "experiment": "Test a 15-second high-tempo 'What If' scenario about surviving on WASP-76b (where it rains liquid iron) to see if first-person survival elements boost engagement rates even higher than standard facts.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-19T17:32:47.955208+00:00"
 }
