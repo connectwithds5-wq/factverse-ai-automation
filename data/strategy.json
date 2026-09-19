@@ -1,32 +1,42 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "The channel's growth is heavily driven by space and cosmic anomaly content, specifically extreme exoplanets with mind-bending physical properties. In contrast, general psychology, brain trivia, and repetitive memory facts consistently underperform, failing to capture the audience's curiosity.",
+  "overall_summary": "Cosmic anomalies and extreme exoplanets are the undisputed growth drivers for FACTVERSE. Videos detailing bizarre planetary conditions (such as TrES-2b's coal-dark atmosphere or burning ice) consistently outperform generic psychology and basic animal trivia in both views and audience engagement. The audience is highly receptive to mind-bending physical paradoxes set in deep space.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanets & Cosmic Anomalies",
-      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,019 views), and 'This Planet Rains Supersonic Rubies!' (721 views) are the top-performing videos on the channel.",
-      "action": "Focus content production on extreme planetary environments, utilizing high-contrast visual imagery (e.g., burning ice, ruby rain, coal-dark) in titles and hooks."
+      "pattern": "Extreme Exoplanets & Cosmic Paradoxes",
+      "evidence": "'The Planet of Burning Ice' reached 1,055 views and 'The Planet Darker Than Coal: TrES-2b' achieved 1,019 views, leading the channel's performance.",
+      "action": "Prioritize exoplanet profiles focusing on extreme weather, bizarre compositions, and physics-defying environments."
+    },
+    {
+      "pattern": "Sensory & High-Value Material Hooks",
+      "evidence": "'This Planet Rains Supersonic Rubies!' (719 views) and 'What Does Outer Space Actually Smell Like?' (368 views) gained strong traction.",
+      "action": "Frame space hooks around familiar sensory experiences (smells, tastes) or precious materials (rubies, diamonds, gold) found in extreme cosmic environments."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Psychology & Brain Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' (max 53 views across multiple uploads) and 'Your Brain Is Hiding This From You' (38 views) consistently fail to gain traction.",
-      "action": "Pause the production of standard brain and psychology trivia, reallocating those resources to high-concept space and cosmic 'what-if' scenarios."
+      "pattern": "Generic Psychology & Brain Trivia",
+      "evidence": "'Your Brain Can Create Fake Memories' struggled to exceed 53 views across multiple uploads, and 'The Real Reason Songs Get Stuck In Your Head' got only 17 views.",
+      "action": "Phase out textbook psychological facts, or reframe them as high-stakes mysteries/survival scenarios."
+    },
+    {
+      "pattern": "Basic Animal Anatomy Facts",
+      "evidence": "'Octopuses Have THREE Hearts' (183 views) and 'The Only Animal That Can Live Forever' (69 views) underperformed compared to space content.",
+      "action": "Avoid simple biological trivia unless it can be presented as a cinematic animal survival narrative."
     }
   ],
   "next_video": {
-    "category": "space",
-    "hook_style": "Scale and existential dread",
-    "concept": "An ocean planet with waves larger than mountains and a core of hot ice.",
-    "opening_direction": "Imagine an ocean so deep that there is no ocean floor—just a core of burning ice.",
-    "twist_direction": "At the bottom, the pressure is so intense it forces water molecules into a solid state called Ice VII, which remains solid even at temperatures hotter than the sun.",
-    "duration_seconds": 20,
-    "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Leverages the proven high performance of extreme planetary physics and cosmic anomalies, similar to the burning ice planet video which achieved 1,055 views."
+    "category": "Space / What-If Scenario",
+    "hook_style": "Visual Paradox Hook",
+    "concept": "LTT 9779 b: The Giant Titanium Mirror Planet",
+    "opening_direction": "Show a giant, ultra-reflective mirror floating in deep space reflecting a blazing star, asking: 'What if a planet was a giant mirror?'",
+    "twist_direction": "Reveal that the reflective surface is actually made of metallic clouds of vaporized titanium, where it rains molten metal droplets.",
+    "duration_seconds": 18,
+    "posting_window": "13:00 - 15:00 UTC",
+    "reason": "Leverages the highly successful exoplanet trend by combining extreme cosmic environments with a highly visual, shiny metallic concept that triggers immediate curiosity."
   },
-  "experiment": "Test a 'What-If' space survival scenario, such as 'What If You Fell Into a Planet of Liquid Metal?', combining the high-performing exoplanet theme with cinematic storytelling to see if it increases viewer retention and engagement.",
+  "experiment": "Introduce a 'First-Person Cosmic Survival' narrative style for exoplanet videos, framing the fact-delivery as a hypothetical survival guide (e.g., 'How to survive 5 seconds on the Titanium Planet') to maximize audience retention.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-19T14:34:37.702832+00:00"
+  "generated_at": "2026-09-19T15:37:11.473149+00:00"
 }
