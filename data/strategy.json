@@ -1,32 +1,42 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Extreme space phenomena and bizarre exoplanet mysteries (such as TrES-2b, burning ice, and supersonic rubies) are the clear driving force of the channel's performance, capturing the highest views and engagement. Conversely, cognitive psychology and brain-related facts struggle heavily to capture initial viewer interest and suffer from low engagement.",
+  "overall_summary": "The channel is experiencing significant traction with extreme cosmic anomalies and space-themed mysteries, particularly those highlighting bizarre planetary conditions (e.g., TrES-2b, burning ice, supersonic rubies). Conversely, repetitive psychological facts (fake memories, songs stuck in head) and basic animal trivia (immortal jellyfish, octopus hearts) are severely underperforming and failing to capture viewer interest.",
   "winning_patterns": [
     {
-      "pattern": "Bizarre Exoplanets & Extreme Cosmic Weather",
-      "evidence": "The Planet of Burning Ice (1,055 views), TrES-2b: Planet Darker Than Coal (1,018 views, 36 likes), and Planet Rains Supersonic Rubies (721 views, 25 likes) are the channel's top-performing videos.",
-      "action": "Double down on a dedicated 'Terrifying Exoplanets' series, utilizing vivid visual descriptions of extreme weather, physical conditions, and cosmic anomalies."
+      "pattern": "Extreme Planetary & Cosmic Anomalies",
+      "evidence": "'The Planet Darker Than Coal: TrES-2b' achieved 1,019 views and 36 likes. 'The Planet of Burning Ice' reached 1,055 views. 'This Planet Rains Supersonic Rubies!' generated 721 views and 25 likes.",
+      "action": "Double down on extreme space science. Focus on highly visual, hostile exoplanets and cosmic paradoxes using dramatic, high-contrast imagery."
+    },
+    {
+      "pattern": "Mind-Bending Physics & Time Paradoxes",
+      "evidence": "'Why Your Head Is Older Than Your Feet' gained 264 views, showing strong performance compared to standard trivia.",
+      "action": "Produce content explaining counter-intuitive physics, relativity, and time dilation concepts using relatable human scales."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Cognitive Psychology & Brain Facts",
-      "evidence": "Videos like 'Your Brain Can Create Fake Memories' (5 to 11 views across uploads) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction.",
-      "action": "Pivot away from abstract brain functions, or reframe them as high-stakes survival scenarios or evolutionary mysteries rather than pure psychological trivia."
+      "pattern": "Repetitive Psychology/Brain Hacks",
+      "evidence": "'Your Brain Can Create Fake Memories' was posted multiple times across different dates and consistently failed to exceed 53 views. 'The Real Reason Songs Get Stuck In Your Head' stalled at 17 views.",
+      "action": "Pivot away from generic brain hacks and psychological tricks unless they are tied to a shocking, highly original case study."
+    },
+    {
+      "pattern": "Overplayed Animal Trivia",
+      "evidence": "'The Only Animal That Can Live Forever' (immortal jellyfish) generated only 69 views. 'Octopuses Have THREE Hearts' plateaued at 183 views.",
+      "action": "Avoid entry-level biology facts that are already saturated on YouTube Shorts. Replace with cinematic animal survival narratives."
     }
   ],
   "next_video": {
-    "category": "Space",
-    "hook_style": "Visual curiosity and extreme physical stakes",
-    "concept": "The planet where it literally rains glass sideways at 4,300 mph (HD 189733b), framed as a survival scenario.",
-    "opening_direction": "Show a cinematic, wind-swept cobalt-blue planet and say: 'This beautiful blue planet looks like a peaceful paradise, but if you stepped outside, you'd be instantly shredded by sideways glass rain.'",
-    "twist_direction": "Reveal that the planet's striking blue color isn't from oceans, but from light reflecting off silicate particles—meaning the atmosphere is literally made of flying melted glass.",
+    "category": "Space & Cosmic Mysteries",
+    "hook_style": "Visual Paradox & Hostile Environment",
+    "concept": "The Planet That Is Literally Evaporating Into Space (HD 209458b / Osiris)",
+    "opening_direction": "Show a dramatic rendering of a planet with a massive, glowing blue tail, stating: 'This planet is literally melting and leaving a giant tail behind it like a comet.'",
+    "twist_direction": "Reveal that the planet is so close to its sun that it's being slowly eaten alive, losing 10,000 tons of atmosphere every single second.",
     "duration_seconds": 21,
-    "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Exoplanet videos with 21-second durations and extreme weather hooks (like TrES-2b and Supersonic Rubies) have shown the highest viewer retention and engagement metrics on the channel."
+    "posting_window": "13:00 - 14:00 UTC",
+    "reason": "Aligns with the highly successful 21-second duration format of TrES-2b and Supersonic Rubies, leveraging the proven high-performing 'hostile planet' sub-niche."
   },
-  "experiment": "Introduce a cinematic 'What-If' space survival series (e.g., 'What if you fell into a planet made of burning ice?') to combine the high-performing exoplanet niche with high-stakes storytelling.",
+  "experiment": "Test a cinematic historical storytelling Short about a bizarre ancient mystery (e.g., the Antikythera mechanism or a lost city) to see if the high-retention storytelling style can replicate the success of the space anomaly videos.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-19T09:35:19.537820+00:00"
+  "generated_at": "2026-09-19T10:35:44.775594+00:00"
 }
