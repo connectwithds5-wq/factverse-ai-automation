@@ -1,42 +1,42 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "The channel's performance is heavily driven by extreme space anomalies and bizarre exoplanet conditions, which consistently achieve the highest views and engagement. Conversely, generic brain, psychology, and memory facts are underperforming significantly. There is also a clear trend of diminishing returns when identical or highly similar concepts (like fake memories) are repeatedly uploaded.",
+  "overall_summary": "The channel's clear growth driver is extreme space anomalies and exoplanets with bizarre physical properties (e.g., TrES-2b, burning ice, ruby rain). These cosmic mystery topics consistently outperform generic animal facts, psychology tricks, and brain facts, driving the highest views and engagement. Additionally, slightly longer Shorts (16-21 seconds) perform significantly better than ultra-short 12-15 second clips.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanet & Space Anomalies",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' (1,055 views), 'The Planet Darker Than Coal: TrES-2b' (1,018 views, 36 likes), and 'This Planet Rains Supersonic Rubies!' (721 views, 25 likes) are the top performers.",
-      "action": "Focus content production on highly visual, extreme, and hostile cosmic environments. Use sensory-rich descriptions like 'burning ice', 'supersonic rubies', and 'molten iron'."
+      "pattern": "Extreme Exoplanets & Cosmic Weather",
+      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,018 views, 36 likes), 'The Planet of Burning Ice' (1,055 views, 8 likes), and 'This Planet Rains Supersonic Rubies!' (721 views, 25 likes) are the top-performing videos.",
+      "action": "Double down on extreme space science, focusing on planets with mind-bending weather, composition, or physical laws."
     },
     {
-      "pattern": "Bizarre Physical & Temporal Paradoxes",
-      "evidence": "'Why Your Head Is Older Than Your Feet' (264 views) and 'Sharks Are Older Than Trees?' (302 views) perform moderately well compared to standard facts.",
-      "action": "Frame historical or scientific facts around mind-bending physical paradoxes that challenge common sense."
+      "pattern": "Sensory & Perspective-Shifting Space Hooks",
+      "evidence": "'What Does Outer Space Actually Smell Like?' (368 views) and 'The Largest Ocean in Space' (460 views) show strong baseline interest in sensory-based cosmic facts.",
+      "action": "Frame space topics around human senses or familiar concepts scaled to cosmic proportions."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Brain & Psychology Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' (multiple uploads with 5, 11, and 53 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction.",
-      "action": "De-prioritize generic cognitive psychology facts unless they can be packaged with a high-stakes, cinematic mystery angle."
+      "pattern": "Repetitive Psychology & Brain Facts",
+      "evidence": "'Your Brain Can Create Fake Memories' (multiple uploads, maxing out at 53 views) and 'Your Brain Is Hiding This From You' (38 views) consistently underperform.",
+      "action": "Pivot away from generic cognitive psychology facts unless they can be tied to a highly cinematic, historical, or mysterious narrative."
     },
     {
-      "pattern": "Repetitive Concept Re-uploading",
-      "evidence": "Re-uploading 'Your Brain Can Create Fake Memories' and 'Octopuses Have THREE Hearts' multiple times resulted in flat or declining view counts.",
-      "action": "Avoid publishing identical or slightly tweaked concepts within short windows. Prioritize topic diversity within high-performing niches."
+      "pattern": "Basic Animal Trivia",
+      "evidence": "'Octopuses Have THREE Hearts' (183 views) and 'The Only Animal That Can Live Forever' (69 views) fail to capture the high-velocity curiosity of the space-themed content.",
+      "action": "Limit standard animal trivia; if covering animals, pivot to cinematic survival stories or ancient/prehistoric beasts."
     }
   ],
   "next_video": {
-    "category": "Space / What-If Scenario",
-    "hook_style": "Temporal Paradox / Extreme Environment",
-    "concept": "A deep dive into a planet orbiting dangerously close to a supermassive black hole, where extreme time dilation occurs.",
-    "opening_direction": "Imagine stepping onto a planet where taking a single breath means everyone you've ever loved on Earth has been dead for a century.",
-    "twist_direction": "But the real nightmare isn't the time dilation—it's that the black hole's gravity is slowly tearing the planet's crust apart, turning it into a ring of hot dust.",
+    "category": "Space / Planet Mystery",
+    "hook_style": "Extreme Cosmic Wealth & Danger",
+    "concept": "The Diamond Planet (55 Cancri e)",
+    "opening_direction": "There is a planet twice the size of Earth made entirely of solid diamond.",
+    "twist_direction": "But don't pack your bags yet—the surface temperature is a crushing 3,900 degrees, turning the diamond into a pressurized liquid nightmare.",
     "duration_seconds": 21,
-    "posting_window": "12:30 PM - 1:30 PM",
-    "reason": "Aligns with the highly successful 21-second format of other top space videos. The 12:30 PM - 1:30 PM window matches the peak upload times of the channel's best-performing videos ('The Planet of Burning Ice' at 12:44 PM and 'TrES-2b' at 1:20 PM)."
+    "posting_window": "18:00 - 21:00 UTC",
+    "reason": "Exoplanets with extreme, high-contrast conditions (like burning ice or ruby rain) are our top performers. A 21-second duration matches the exact length of our most successful uploads, allowing enough time to build tension and deliver a satisfying twist."
   },
-  "experiment": "Test a 21-second Short on 'The Planet Made of Solid Diamond' (55 Cancri e), focusing heavily on the extreme pressure and value paradox of a planet worth $26.9 nonillion.",
+  "experiment": "Test a 'What-If' space survival scenario (e.g., 'What If You Fell Into a Planet of Liquid Metal?') to merge the high-performing exoplanet category with cinematic storytelling.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-19T01:35:45.870092+00:00"
+  "generated_at": "2026-09-19T02:35:40.987594+00:00"
 }
