@@ -1,42 +1,32 @@
 {
   "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is experiencing its strongest performance with extreme space anomalies, bizarre exoplanet weather, and cosmic 'What If' scenarios. Videos featuring highly visual, mind-bending space concepts (like burning ice, ruby rain, and coal-dark planets) consistently outperform generic psychology, brain facts, and repetitive animal trivia, which struggle to break double-digit views.",
+  "overall_summary": "FACTVERSE's audience shows a clear preference for extreme cosmic anomalies, particularly exoplanets with bizarre compositions or terrifying weather conditions (e.g., TrES-2b, burning ice, ruby rain). Conversely, generic psychology trivia and repetitive brain facts consistently underperform, indicating a need to pivot away from textbook facts toward cinematic, high-stakes cosmic mysteries.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanet Weather & Cosmic Anomalies",
-      "evidence": "'The Planet of Burning Ice' achieved 1,055 views, 'The Planet Darker Than Coal' reached 1,019 views, and 'This Planet Rains Supersonic Rubies!' gained 721 views.",
-      "action": "Focus heavily on bizarre planetary environments, extreme physics, and exotic rains (e.g., iron, glass, emeralds) using high-contrast, cinematic visuals."
-    },
-    {
-      "pattern": "Incomprehensible Scale & Financial 'What If' Hooks",
-      "evidence": "'What If You Fell Into This $26 Nonillion Diamond Planet?' generated 461 views with a high like-to-view ratio (22 likes).",
-      "action": "Frame space discoveries around massive, shocking numbers or hypothetical survival scenarios to immediately hook the viewer."
+      "pattern": "Extreme Cosmic Anomalies & Terrifying Exoplanets",
+      "evidence": "The Planet Darker Than Coal (1,019 views), The Planet of Burning Ice (1,055 views), and Supersonic Rubies (721 views) drove the highest engagement and view counts.",
+      "action": "Focus content production on extreme space weather, bizarre planetary compositions, and cosmic 'what-if' survival scenarios using highly cinematic visuals."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Overplayed Psychology & Brain Trivia",
-      "evidence": "'Your Brain Can Create Fake Memories' failed across multiple uploads (maxing at 53 views), and 'Your Brain Is Hiding This From You' got only 38 views.",
-      "action": "Phase out generic brain facts unless they can be framed as a dark, cinematic micro-story with a high-stakes hook."
-    },
-    {
-      "pattern": "Rapid Re-uploading of Identical Concepts",
-      "evidence": "Re-uploading identical titles like 'Your Brain Can Create Fake Memories' and 'Why Space Is Completely Silent' within a few days resulted in flatlined views.",
-      "action": "Enforce a minimum 14-day gap before re-testing a topic, and ensure the hook, visual style, and voiceover are completely redesigned."
+      "pattern": "Generic Psychology & Brain Trivia",
+      "evidence": "Videos like 'Your Brain Can Create Fake Memories' (multiple uploads, maxing at 53 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) failed to gain traction.",
+      "action": "Phase out standard textbook psychology facts. If covering human biology, reframe it through an extreme evolutionary or survival lens."
     }
   ],
   "next_video": {
-    "category": "Space & What-If Scenarios",
-    "hook_style": "Visual Paradox & Creepy Cosmic Mystery",
-    "concept": "The Eyeball Planet (Tidally-locked exoplanet)",
-    "opening_direction": "Show a hyper-realistic, cinematic render of a massive planet in deep space that looks exactly like a giant, bloodshot human eyeball staring back at the camera.",
-    "twist_direction": "Reveal that the creepy 'pupil' is actually a massive, boiling ocean of liquid water—the only habitable zone sandwiched between a frozen wasteland and a scorched desert.",
+    "category": "Space / What-If Scenario",
+    "hook_style": "Extreme Environmental Threat",
+    "concept": "What If You Fell Into the Planet of Screaming Glass?",
+    "opening_direction": "Show a cinematic render of an astronaut standing in a beautiful cobalt-blue atmosphere, suddenly getting pelted by horizontal shards.",
+    "twist_direction": "Explain that the gorgeous blue hue is actually silicate clouds, meaning it rains molten glass sideways at 4,500 miles per hour.",
     "duration_seconds": 18,
-    "posting_window": "12:30 PM - 2:00 PM UTC",
-    "reason": "Capitalizes on the high-performing space anomaly trend by introducing a highly visual, slightly creepy cosmic entity, which historically triggers high click-through rates and retention."
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Leverages the high-performing exoplanet weather theme (similar to TrES-2b and the burning ice planet) while using a highly visual, survival-focused 'what-if' hook."
   },
-  "experiment": "Test a dark, cinematic ambient soundscape and a deeper, more serious voiceover tone for space videos to see if it increases average view duration compared to standard high-energy narration.",
+  "experiment": "Test a 3-part micro-series focusing on 'The Most Terrifying Places in the Universe,' comparing extreme exoplanets to see if serialized cosmic horror driving curiosity can increase viewer return rates.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-19T21:34:17.014134+00:00"
+  "generated_at": "2026-09-19T22:34:27.403331+00:00"
 }
