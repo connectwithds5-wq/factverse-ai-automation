@@ -1,42 +1,32 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "The channel's performance is heavily driven by extreme space and exoplanet anomalies, which consistently outperform general psychology, biology, and animal facts. Videos focusing on highly visual, hostile, or paradoxical space environments (such as raining rubies, burning ice, or pitch-black planets) achieve the highest view counts and engagement rates. Conversely, generic brain facts and repetitive uploads of the same concept suffer from severe viewer fatigue and low reach.",
+  "overall_summary": "Extreme space phenomena and bizarre exoplanet mysteries (such as TrES-2b, burning ice, and supersonic rubies) are the clear driving force of the channel's performance, capturing the highest views and engagement. Conversely, cognitive psychology and brain-related facts struggle heavily to capture initial viewer interest and suffer from low engagement.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanet Weather & Sensory Paradoxes",
-      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,018 views), 'The Planet of Burning Ice' (1,055 views), and 'This Planet Rains Supersonic Rubies!' (721 views) are the top-performing videos.",
-      "action": "Double down on extreme cosmic environments, focusing on sensory-disrupting phenomena (rain, temperature, color, smell) with highly descriptive, high-contrast titles."
-    },
-    {
-      "pattern": "21-Second Retention-Optimized Duration",
-      "evidence": "The highest-performing videos in terms of both views and likes ('TrES-2b' and 'Supersonic Rubies') utilize a 21-second duration, allowing enough time to build a narrative without losing pacing.",
-      "action": "Standardize high-concept space content to a 19-21 second window, ensuring a rapid-fire delivery of 3 shocking facts."
+      "pattern": "Bizarre Exoplanets & Extreme Cosmic Weather",
+      "evidence": "The Planet of Burning Ice (1,055 views), TrES-2b: Planet Darker Than Coal (1,018 views, 36 likes), and Planet Rains Supersonic Rubies (721 views, 25 likes) are the channel's top-performing videos.",
+      "action": "Double down on a dedicated 'Terrifying Exoplanets' series, utilizing vivid visual descriptions of extreme weather, physical conditions, and cosmic anomalies."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Psychology & Brain Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' (multiple attempts yielding 5, 11, and 53 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction.",
-      "action": "Pivot away from textbook psychology facts unless they can be framed as a terrifying or highly relatable micro-mystery."
-    },
-    {
-      "pattern": "Identical Concept Re-uploading",
-      "evidence": "Re-uploading 'Your Brain Can Create Fake Memories' and 'Why Space Is Completely Silent' multiple times across different days resulted in flatlined views.",
-      "action": "Avoid direct re-uploads of underperforming concepts; instead, iterate only on winning concepts with entirely new visual hooks."
+      "pattern": "Abstract Cognitive Psychology & Brain Facts",
+      "evidence": "Videos like 'Your Brain Can Create Fake Memories' (5 to 11 views across uploads) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction.",
+      "action": "Pivot away from abstract brain functions, or reframe them as high-stakes survival scenarios or evolutionary mysteries rather than pure psychological trivia."
     }
   ],
   "next_video": {
-    "category": "Space Mysteries",
-    "hook_style": "Sensory Paradox",
-    "concept": "The planet where it rains sideways glass at supersonic speeds (HD 189733b), framed as a beautiful trap.",
-    "opening_direction": "Start with: 'This gorgeous blue planet looks exactly like Earth from space... but if you stepped onto it, you'd be shredded instantly.'",
-    "twist_direction": "Reveal that the beautiful blue color is actually light reflecting off of howling winds of melted glass blowing sideways at 5,400 miles per hour.",
+    "category": "Space",
+    "hook_style": "Visual curiosity and extreme physical stakes",
+    "concept": "The planet where it literally rains glass sideways at 4,300 mph (HD 189733b), framed as a survival scenario.",
+    "opening_direction": "Show a cinematic, wind-swept cobalt-blue planet and say: 'This beautiful blue planet looks like a peaceful paradise, but if you stepped outside, you'd be instantly shredded by sideways glass rain.'",
+    "twist_direction": "Reveal that the planet's striking blue color isn't from oceans, but from light reflecting off silicate particles—meaning the atmosphere is literally made of flying melted glass.",
     "duration_seconds": 21,
-    "posting_window": "Late Afternoon (13:00 - 15:00 UTC)",
-    "reason": "Leverages the proven success of the extreme weather/exoplanet formula ('rains rubies', 'burning ice') while utilizing the optimal 21-second format to maximize retention and engagement."
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Exoplanet videos with 21-second durations and extreme weather hooks (like TrES-2b and Supersonic Rubies) have shown the highest viewer retention and engagement metrics on the channel."
   },
-  "experiment": "Test a 'Cosmic Horror Storytelling' format by framing an exoplanet's environment through the perspective of an imaginary astronaut landing there, blending space facts with cinematic survival drama.",
+  "experiment": "Introduce a cinematic 'What-If' space survival series (e.g., 'What if you fell into a planet made of burning ice?') to combine the high-performing exoplanet niche with high-stakes storytelling.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-19T08:36:11.451315+00:00"
+  "generated_at": "2026-09-19T09:35:19.537820+00:00"
 }
