@@ -1,42 +1,37 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Space and cosmic extremes (exoplanets with bizarre rain, extreme temperatures, and sensory oddities) are the clear drivers of traffic and engagement for FACTVERSE, with videos like 'The Planet of Burning Ice' and 'TrES-2b' surpassing 1,000 views. Conversely, psychology and brain-related facts (e.g., fake memories, songs stuck in head) consistently underperform, rarely breaking 100 views.",
+  "overall_summary": "The channel's clear growth driver is space exploration and extreme exoplanet mysteries, which consistently generate the highest view counts and engagement metrics. Conversely, cognitive psychology and brain-related facts are underperforming, indicating that the audience prefers cosmic-scale wonder over internal human biology.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanet & Cosmic Oddities with Sensory Hooks",
-      "evidence": "'The Planet of Burning Ice' (1,055 views), 'TrES-2b: Darker Than Coal' (1,019 views), and 'This Planet Rains Supersonic Rubies!' (721 views) are the top performers.",
-      "action": "Double down on extreme space phenomena, focusing on vivid, sensory-rich descriptions (burning ice, rubies, coal, smell of space)."
+      "pattern": "Extreme Exoplanet Weather & Bizarre Cosmic Conditions",
+      "evidence": "Videos like 'The Planet Darker Than Coal: TrES-2b' (1,019 views, 36 likes), 'The Planet of Burning Ice' (1,055 views), and 'This Planet Rains Supersonic Rubies!' (721 views, 25 likes) are the top performers.",
+      "action": "Double down on highly visual, extreme planetary phenomena, focusing on exotic materials (rubies, diamonds, burning ice) and extreme environments."
     },
     {
-      "pattern": "Mind-Bending Comparative Paradoxes",
-      "evidence": "'Sharks Are Older Than Trees' (302 views) and 'Why Your Head Is Older Than Your Feet' (264 views) perform well above average.",
-      "action": "Create comparison-based hooks that challenge common sense or temporal understanding."
+      "pattern": "Sensory & Mind-Bending Space Curiosities",
+      "evidence": "'What Does Outer Space Actually Smell Like?' (368 views) and 'The Largest Ocean in Space' (460 views) show strong performance when space is framed through human senses or massive scale.",
+      "action": "Create content comparing cosmic scales or sensory experiences in space to familiar Earth concepts."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Psychology and Cognitive Quirks",
-      "evidence": "'Your Brain Can Create Fake Memories' (max 53 views across multiple uploads) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) fail to gain traction.",
-      "action": "Pause production on cognitive psychology and brain-trick content, as it lacks the immediate visual and curiosity appeal of cosmic extremes."
-    },
-    {
-      "pattern": "Abstract Space Facts Lacking Sensory/Visual Stakes",
-      "evidence": "'This Star Is Older Than the Universe!' (11 views) and 'The Planet Where It Rains Liquid Metal!' (3 views) underperformed significantly.",
-      "action": "Avoid purely mathematical or abstract space facts; always ground space topics in extreme, easy-to-visualize environments."
+      "pattern": "Cognitive Psychology & Brain Tricks",
+      "evidence": "'Your Brain Can Create Fake Memories' (max 53 views across multiple uploads), 'The Real Reason Songs Get Stuck In Your Head' (17 views), and 'Your Brain Is Hiding This From You' (38 views) consistently fail to gain traction.",
+      "action": "Pivot away from general cognitive psychology and brain hacks, or reframe them only if they directly connect to space or survival scenarios."
     }
   ],
   "next_video": {
-    "category": "Space / Astronomy",
-    "hook_style": "Mind-bending sensory paradox",
-    "concept": "The Planet Made of Solid Diamond (55 Cancri e)",
-    "opening_direction": "Start with a high-contrast visual of a sparkling planet and the hook: 'There is a planet in space made entirely of diamond, and it's twice the size of Earth.'",
-    "twist_direction": "Reveal that the intense heat and pressure make it completely uninhabitable, with temperatures so high that the diamond surface is covered in flowing rivers of lava.",
-    "duration_seconds": 18,
+    "category": "Space Mysteries",
+    "hook_style": "Mind-bending cosmic time dilation",
+    "concept": "The real-life 'Interstellar' planet orbiting a black hole where time dilation is extreme.",
+    "opening_direction": "Imagine stepping onto a planet where spending just one single hour...",
+    "twist_direction": "...means returning to an Earth where everyone you knew has been dead for 7 years.",
+    "duration_seconds": 20,
     "posting_window": "12:00 PM - 2:00 PM",
-    "reason": "Capitalizes on the highly successful 'extreme exoplanet' formula, combining high visual appeal (diamonds) with extreme cosmic conditions to drive high CTR and retention."
+    "reason": "Leverages the highly successful space mystery theme, utilizing a cinematic, high-stakes concept (time dilation/black holes) that naturally drives high retention and curiosity."
   },
-  "experiment": "Test a 'What-If' cosmic scenario (e.g., 'What If a Black Hole Entered Our Solar System?') using the same high-contrast, sensory-rich visual style of the successful exoplanet videos to see if the audience interest translates to speculative space physics.",
+  "experiment": "Test a 'What-If' scenario focusing on cosmic survival, such as 'What If You Fell Into a White Hole?', to see if combining space mysteries with survival storytelling increases engagement.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-19T12:39:42.203232+00:00"
+  "generated_at": "2026-09-19T13:34:40.244179+00:00"
 }
