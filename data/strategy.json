@@ -1,42 +1,42 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "The channel is experiencing significant traction with extreme cosmic anomalies and space-themed mysteries, particularly those highlighting bizarre planetary conditions (e.g., TrES-2b, burning ice, supersonic rubies). Conversely, repetitive psychological facts (fake memories, songs stuck in head) and basic animal trivia (immortal jellyfish, octopus hearts) are severely underperforming and failing to capture viewer interest.",
+  "overall_summary": "The channel's performance is heavily driven by extreme space and exoplanet anomalies, particularly those highlighting bizarre physical conditions (e.g., burning ice, raining rubies, or extreme darkness). In contrast, psychology-focused topics and abstract brain facts consistently underperform, indicating that the audience prefers high-concept cosmic visual storytelling over self-improvement or cognitive science.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Planetary & Cosmic Anomalies",
-      "evidence": "'The Planet Darker Than Coal: TrES-2b' achieved 1,019 views and 36 likes. 'The Planet of Burning Ice' reached 1,055 views. 'This Planet Rains Supersonic Rubies!' generated 721 views and 25 likes.",
-      "action": "Double down on extreme space science. Focus on highly visual, hostile exoplanets and cosmic paradoxes using dramatic, high-contrast imagery."
+      "pattern": "Extreme Exoplanet Anomalies & Sensory Weather",
+      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' (1,055 views), 'The Planet Darker Than Coal: TrES-2b' (1,019 views), and 'This Planet Rains Supersonic Rubies!' (721 views) are the top performers.",
+      "action": "Double down on exoplanets with extreme, visually dramatic characteristics (e.g., diamond planets, glass storms, ocean worlds) using sensory-rich keywords like 'burning', 'rubies', and 'darker than coal'."
     },
     {
-      "pattern": "Mind-Bending Physics & Time Paradoxes",
-      "evidence": "'Why Your Head Is Older Than Your Feet' gained 264 views, showing strong performance compared to standard trivia.",
-      "action": "Produce content explaining counter-intuitive physics, relativity, and time dilation concepts using relatable human scales."
+      "pattern": "Cosmic Scales and Mind-Bending Space Facts",
+      "evidence": "'The Largest Ocean in Space Will Mind-Blow You!' (460 views) and 'What Does Outer Space Actually Smell Like?' (368 views) show strong mid-tier performance.",
+      "action": "Frame space facts around relatable human senses (smell, taste) or unimaginable scales (oceans in space)."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Psychology/Brain Hacks",
-      "evidence": "'Your Brain Can Create Fake Memories' was posted multiple times across different dates and consistently failed to exceed 53 views. 'The Real Reason Songs Get Stuck In Your Head' stalled at 17 views.",
-      "action": "Pivot away from generic brain hacks and psychological tricks unless they are tied to a shocking, highly original case study."
+      "pattern": "Cognitive Psychology & Brain Tricks",
+      "evidence": "'Your Brain Can Create Fake Memories' (5 to 11 views across multiple uploads) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction.",
+      "action": "Pivot away from standard cognitive psychology and brain hacks unless they can be framed as a terrifying mystery or historical anomaly."
     },
     {
-      "pattern": "Overplayed Animal Trivia",
-      "evidence": "'The Only Animal That Can Live Forever' (immortal jellyfish) generated only 69 views. 'Octopuses Have THREE Hearts' plateaued at 183 views.",
-      "action": "Avoid entry-level biology facts that are already saturated on YouTube Shorts. Replace with cinematic animal survival narratives."
+      "pattern": "Abstract Cosmic Concepts Without Visual Anchors",
+      "evidence": "'This Star Is Older Than the Universe!' generated only 11 views, showing that purely temporal or abstract physics concepts lack the immediate visual hook of physical planets.",
+      "action": "Avoid purely theoretical astrophysics; ensure every space video has a tangible, highly visual element."
     }
   ],
   "next_video": {
-    "category": "Space & Cosmic Mysteries",
-    "hook_style": "Visual Paradox & Hostile Environment",
-    "concept": "The Planet That Is Literally Evaporating Into Space (HD 209458b / Osiris)",
-    "opening_direction": "Show a dramatic rendering of a planet with a massive, glowing blue tail, stating: 'This planet is literally melting and leaving a giant tail behind it like a comet.'",
-    "twist_direction": "Reveal that the planet is so close to its sun that it's being slowly eaten alive, losing 10,000 tons of atmosphere every single second.",
-    "duration_seconds": 21,
-    "posting_window": "13:00 - 14:00 UTC",
-    "reason": "Aligns with the highly successful 21-second duration format of TrES-2b and Supersonic Rubies, leveraging the proven high-performing 'hostile planet' sub-niche."
+    "category": "Space Mysteries",
+    "hook_style": "Sensory and Financial Shock",
+    "concept": "The Planet Made of Solid Diamond (55 Cancri e)",
+    "opening_direction": "Show a sparkling, hyper-realistic CGI diamond planet with the text overlay: 'This planet is worth 26.9 nonillion dollars...'",
+    "twist_direction": "Reveal that despite its beauty, the planet is a literal hellscape where the temperature is hot enough to melt steel, and it's covered in oceans of liquid carbon.",
+    "duration_seconds": 18,
+    "posting_window": "12:30 PM - 1:30 PM",
+    "reason": "Leverages the highly successful exoplanet formula, combining the financial curiosity hook of 'diamonds' with the extreme environment twist that worked for the 'Burning Ice' and 'Supersonic Rubies' videos."
   },
-  "experiment": "Test a cinematic historical storytelling Short about a bizarre ancient mystery (e.g., the Antikythera mechanism or a lost city) to see if the high-retention storytelling style can replicate the success of the space anomaly videos.",
+  "experiment": "Test a 'What-If' cinematic space survival scenario (e.g., 'What If You Fell Into a Planet of Liquid Diamond?') to bridge the gap between pure facts and high-retention storytelling.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-19T10:35:44.775594+00:00"
+  "generated_at": "2026-09-19T11:33:54.775473+00:00"
 }
