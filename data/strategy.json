@@ -1,21 +1,32 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Space and exoplanet mysteries are the clear driving force of the channel's performance, with extreme planetary conditions (such as burning ice, coal-dark atmospheres, and supersonic ruby rain) consistently generating the highest views and engagement. Conversely, psychology, brain facts, and repetitive uploads of identical concepts suffer from extremely low reach and engagement.",
+  "winning_patterns": [
+    {
+      "pattern": "Extreme Exoplanet Weather & Cosmic Anomalies",
+      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal: TrES-2b' (1,023 views), and 'This Planet Rains Supersonic Rubies!' (721 views) represent the channel's peak performance.",
+      "action": "Double down on highly visual, extreme space environments, focusing on mind-bending physical laws and bizarre planetary characteristics."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Repetitive Psychology & Brain Facts",
+      "evidence": "'Your Brain Can Create Fake Memories' was uploaded multiple times and flatlined (5, 10, and 53 views). 'Your Brain Is Hiding This From You' reached only 38 views.",
+      "action": "Phase out basic psychology and brain-related facts, and strictly avoid re-uploading identical concepts which trigger algorithmic suppression."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space & What-If Scenarios",
+    "hook_style": "Visual Curiosity & Scale",
+    "concept": "The evaporating planet HD 209458b (Osiris), which is boiling away and growing a massive comet-like tail.",
+    "opening_direction": "Start with a cinematic visual of a giant planet dragging a glowing blue tail across space, asking: 'Why is this planet growing a tail?'",
+    "twist_direction": "Reveal that it is actually evaporating, losing over 10,000 tons of its own atmosphere every single second due to its brutal host star.",
+    "duration_seconds": 18,
+    "posting_window": "12:30 PM - 1:30 PM",
+    "reason": "Leverages the highly successful exoplanet theme with a strong visual hook and a mind-bending cosmic scale fact, keeping duration in the optimal 16-21 second range."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-20T11:38:58.454971+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-20T11:38:58.454991+00:00"
+  "experiment": "Test a 'What-If' space scenario focusing on a cosmic threat (e.g., 'What If a Rogue Star Entered Our Solar System?') to combine the high-performing space theme with high-stakes storytelling.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-20T12:39:41.402868+00:00"
 }
