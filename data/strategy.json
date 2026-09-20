@@ -1,42 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "The channel's performance is heavily dominated by extreme space and exoplanet anomalies, particularly those highlighting bizarre weather (raining rubies, glass, or iron) or extreme physical conditions (burning ice, diamond planets, coal-dark planets). In contrast, cognitive psychology, brain tricks, and general biology facts struggle to gain significant traction, often stalling at double-digit views.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Exoplanet Weather & Composition",
-      "evidence": "'The Planet Darker Than Coal: TrES-2b' achieved 1,023 views, 'The Planet of Burning Ice' reached 1,055 views, and 'This Planet Rains Supersonic Rubies!' hit 721 views.",
-      "action": "Double down on highly visual, extreme cosmic environments. Focus on tactile, mind-bending materials (rubies, diamonds, burning ice, glass) in space."
-    },
-    {
-      "pattern": "Deep-Time Comparative History/Biology",
-      "evidence": "'Sharks Are Older Than Trees?' (302 views) and 'Sharks Are OLDER Than Saturn's Rings?' (200 views) show strong engagement relative to standard biology facts.",
-      "action": "Use the 'X is older than Y' framing to contrast well-known ancient biological entities with cosmic or geological structures."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Low-Stakes Cognitive Psychology & Brain Tricks",
-      "evidence": "'Your Brain Can Create Fake Memories' consistently underperformed across multiple uploads (stalling at 5, 10, and 53 views). 'The Real Reason Songs Get Stuck In Your Head' only reached 17 views.",
-      "action": "Pivot away from standard psychological phenomena unless they can be framed with an extreme, high-stakes survival or historical storytelling angle."
-    },
-    {
-      "pattern": "Vague or Low-Urgency Astro-Facts",
-      "evidence": "'The Eyeball Planet That Could Harbor Life!' (12 views) and 'This Star Is Older Than the Universe!' (11 views) failed to capture interest compared to more violent cosmic phenomena.",
-      "action": "Avoid passive or purely theoretical space concepts. Frame every space video around extreme danger, massive wealth (nonillion planets), or physical impossibility."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space & Exoplanet Mysteries",
-    "hook_style": "Extreme Physical Impossibility",
-    "concept": "A deep dive into KELT-9b, a planet so hot that it is literally tearing molecules apart and vaporizing itself.",
-    "opening_direction": "Show a cinematic render of a planet glowing brighter than most stars, with the voiceover: 'This planet is so hot, it is literally tearing its own molecules apart.'",
-    "twist_direction": "Reveal that KELT-9b's dayside is hotter than the surface of most stars, creating a terrifying cycle where molecules are ripped to shreds by day, only to reform as metallic snow on its nightside.",
-    "duration_seconds": 18,
-    "posting_window": "12:30 PM - 1:30 PM UTC",
-    "reason": "Aligns perfectly with the top-performing exoplanet videos ('Burning Ice', 'Supersonic Rubies') by focusing on extreme, hostile cosmic environments that defy earthly physics, while keeping the duration in the proven 16-21 second sweet spot."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'What If' survival scenario on an extreme exoplanet (e.g., 'What If You Spent 1 Second on the Metal-Snow Planet?') to merge exoplanet facts with high-retention hypothetical storytelling.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-20T15:35:22.484818+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-20T16:37:41.122435+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-20T16:37:41.122456+00:00"
 }
