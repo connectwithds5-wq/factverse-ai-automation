@@ -1,21 +1,42 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "The channel's audience has a massive preference for cosmic anomalies and extreme exoplanet conditions (e.g., burning ice, coal-dark planets, ruby rain), which consistently pull 500 to 1,000+ views and high engagement. Conversely, psychology and basic animal trivia are severely underperforming, rarely breaking 100 views. Future content should focus heavily on high-stakes, highly visual space mysteries and extreme planetary environments.",
+  "winning_patterns": [
+    {
+      "pattern": "Extreme Planetary Conditions & Cosmic Anomalies",
+      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,022 views, 36 likes), and 'This Planet Rains Supersonic Rubies!' (721 views, 25 likes) dominate the top spots.",
+      "action": "Double down on extreme exoplanet characteristics, bizarre cosmic weather, and 'What If' space exploration scenarios."
+    },
+    {
+      "pattern": "Curiosity-Gap Hooks with Specific Values & Tactile Visuals",
+      "evidence": "'What If You Fell Into This $26 Nonillion Diamond Planet?' (480 views, 22 likes) and 'A Planet Where It May Rain Glass' (372 views, 17 likes) show strong engagement.",
+      "action": "Use precise numbers (e.g., $26 Nonillion) and highly visual, tactile concepts (glass, rubies, coal, ice) in titles and hooks."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Generic Psychology & Brain Facts",
+      "evidence": "'Your Brain Can Create Fake Memories' (max 53 views across multiple attempts) and 'Your Brain Is Hiding This From You' (38 views) consistently fail to gain traction.",
+      "action": "Pivot away from generic cognitive psychology facts unless they can be framed with an extreme, high-stakes narrative."
+    },
+    {
+      "pattern": "Basic Animal Trivia",
+      "evidence": "'The Only Animal That Can Live Forever' (69 views) and 'Octopuses Have THREE Hearts' (183 views) perform poorly compared to cosmic content.",
+      "action": "Avoid common animal trivia that viewers likely already know; focus only on highly cinematic, unusual survival stories if returning to the animal niche."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space & Geography",
+    "hook_style": "Extreme Contrast / Visual Paradox",
+    "concept": "The Planet with 5,400 MPH Glass Winds (HD 189733b)",
+    "opening_direction": "Imagine being sliced to pieces by sideways-flying glass moving seven times faster than the speed of sound.",
+    "twist_direction": "But the real nightmare isn't the wind—it's the fact that this glass rain is actually molten silicate, meaning you're being pelted by boiling, liquid-hot glass.",
+    "duration_seconds": 19,
+    "posting_window": "12:00 PM - 2:00 PM",
+    "reason": "Exoplanets with extreme, hostile weather conditions consistently generate the highest view counts (700-1,000+ views) and engagement rates on the channel. HD 189733b combines the high-performing 'glass rain' concept with extreme wind speeds for maximum visual hook potential."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-20T01:34:53.067491+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-20T01:34:53.067509+00:00"
+  "experiment": "Test a 'What If' survival scenario on an extreme exoplanet (e.g., 'Could You Survive 5 Seconds on the Darkest Planet in the Universe?') to combine the high-performing exoplanet niche with interactive, high-stakes storytelling.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-20T02:36:02.666714+00:00"
 }
