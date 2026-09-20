@@ -1,42 +1,32 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE's audience shows a clear preference for extreme cosmic anomalies, planetary physics paradoxes, and mind-bending space-time comparisons. Standard psychology facts and basic animal trivia consistently underperform, indicating that the channel's growth engine lies in high-concept, visually dramatic space and physics content.",
+  "overall_summary": "Space anomalies, particularly those highlighting extreme planetary conditions, massive financial values, or bizarre cosmic physics (e.g., TrES-2b, burning ice, nonillion-dollar planets) are the primary drivers of views and engagement. Conversely, psychology and brain-related facts (fake memories, songs stuck in head) consistently underperform and fail to capture audience interest.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanet Anomalies & Weather",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' reached 1,055 views, 'The Planet Darker Than Coal: TrES-2b' reached 1,023 views, and 'This Planet Rains Supersonic Rubies!' hit 721 views.",
-      "action": "Double down on extreme planetary conditions, focusing on sensory-rich, highly visual concepts (e.g., iron rain, diamond oceans, extreme gravity) with dramatic, curiosity-inducing titles."
-    },
-    {
-      "pattern": "Mind-Bending Time & Evolutionary Comparisons",
-      "evidence": "'Sharks Are Older Than Trees?' achieved 302 views, 'Sharks Are OLDER Than Saturn's Rings?' reached 274 views, and 'Why Your Head Is Older Than Your Feet' hit 264 views.",
-      "action": "Create a recurring sub-series of 'Time Paradox' shorts that contrast human perception of history and physics against cosmic reality."
+      "pattern": "Extreme Cosmic Anomalies & Astronomical Wealth",
+      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal: TrES-2b' (1,023 views), 'Supersonic Rubies' (721 views), and the '$26 Nonillion Diamond Planet' (488 views) represent the channel's top tier of performance.",
+      "action": "Double down on extreme space phenomena, focusing on mind-bending physics, massive scale, and astronomical values."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Basic Psychology & Brain Trivia",
-      "evidence": "'Your Brain Can Create Fake Memories' struggled across multiple uploads, peaking at only 53 views, while 'The Real Reason Songs Get Stuck In Your Head' got only 17 views.",
-      "action": "Phase out standard psychological advice and brain hacks unless they can be framed with a massive evolutionary or sci-fi twist."
-    },
-    {
-      "pattern": "Generic Animal Facts",
-      "evidence": "'Octopuses Have THREE Hearts' peaked at 183 views, and 'The Only Animal That Can Live Forever' got only 69 views.",
-      "action": "Avoid basic biological trivia. If featuring animals, pivot to prehistoric beasts or cinematic survival stories."
+      "pattern": "Repetitive Psychology & Brain Trivia",
+      "evidence": "'Your Brain Can Create Fake Memories' (multiple uploads getting 5 to 53 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction.",
+      "action": "Pivot away from generic psychological trivia and brain mechanics, or reframe them through a high-stakes/survival lens if used."
     }
   ],
   "next_video": {
-    "category": "Space & Astronomy",
-    "hook_style": "Sensory Shock & Extreme Weather",
-    "concept": "WASP-76b: The Planet Where It Rains Molten Iron",
-    "opening_direction": "Start with a hyper-realistic visual of molten metal droplets falling onto a dark surface: 'On this planet, the evening forecast isn't rain... it's boiling iron.'",
-    "twist_direction": "Explain that the daytime side is so hot it vaporizes metal, which winds then sweep to the freezing night side, causing it to condense and rain down as liquid metal.",
-    "duration_seconds": 18,
-    "posting_window": "12:30 PM - 1:30 PM UTC",
-    "reason": "Leverages the highly successful 'extreme planetary weather' pattern (similar to the burning ice and ruby rain videos) while maintaining a tight, high-retention 18-second duration."
+    "category": "Space & What-If Scenarios",
+    "hook_style": "Extreme Value & Economic Irony",
+    "concept": "The $10 Quintillion Asteroid (Psyche 16)",
+    "opening_direction": "There is a giant space rock floating between Mars and Jupiter that is worth ten quintillion dollars.",
+    "twist_direction": "But if we actually brought it back to Earth, it would instantly crash the global economy, making gold completely worthless.",
+    "duration_seconds": 16,
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Leverages the high-performance pattern of astronomical wealth/value (similar to the $26 Nonillion Diamond Planet) combined with space science, packaged in a tight 16-second loop."
   },
-  "experiment": "Test a 'What If' scenario focusing on a cosmic threat to Earth, such as 'What If a Rogue Star Entered Our Solar System?', to see if existential space dread performs as well as exoplanet anomalies.",
+  "experiment": "Test a 'What-If' survival scenario on an extreme planet (e.g., surviving 5 seconds on Venus) to blend space facts with cinematic survival storytelling.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-20T21:34:37.792311+00:00"
+  "generated_at": "2026-09-20T22:34:48.783433+00:00"
 }
