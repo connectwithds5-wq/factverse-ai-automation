@@ -1,42 +1,42 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "The channel's performance is heavily driven by extreme space anomalies and exoplanet mysteries, which consistently outperform psychology and general biology topics. Videos focusing on bizarre planetary weather, extreme values (e.g., nonillion dollar planets), and mind-bending physics paradoxes generate the highest views and engagement. Conversely, repetitive psychology uploads and abstract concepts fail to capture viewer interest.",
+  "overall_summary": "The channel's performance is heavily dominated by extreme space and exoplanet anomalies, particularly those highlighting bizarre weather (raining rubies, glass, or iron) or extreme physical conditions (burning ice, diamond planets, coal-dark planets). In contrast, cognitive psychology, brain tricks, and general biology facts struggle to gain significant traction, often stalling at double-digit views.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanet Weather & Material Composition",
-      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,023 views), and 'This Planet Rains Supersonic Rubies!' (721 views) represent the channel's top-tier performance.",
-      "action": "Double down on extreme space facts, specifically targeting extreme planetary environments, cosmic anomalies, and mind-bending physics."
+      "pattern": "Extreme Exoplanet Weather & Composition",
+      "evidence": "'The Planet Darker Than Coal: TrES-2b' achieved 1,023 views, 'The Planet of Burning Ice' reached 1,055 views, and 'This Planet Rains Supersonic Rubies!' hit 721 views.",
+      "action": "Double down on highly visual, extreme cosmic environments. Focus on tactile, mind-bending materials (rubies, diamonds, burning ice, glass) in space."
     },
     {
-      "pattern": "High-Contrast, Paradoxical Hooks",
-      "evidence": "Titles combining opposing concepts like 'Burning Ice' or 'Supersonic Rubies' outperform straightforward titles like 'Why Space Is Completely Silent' (87 views).",
-      "action": "Structure hooks around visual contradictions or massive scale differences (e.g., 'colder than ice stars' or 'liquid metal rain')."
+      "pattern": "Deep-Time Comparative History/Biology",
+      "evidence": "'Sharks Are Older Than Trees?' (302 views) and 'Sharks Are OLDER Than Saturn's Rings?' (200 views) show strong engagement relative to standard biology facts.",
+      "action": "Use the 'X is older than Y' framing to contrast well-known ancient biological entities with cosmic or geological structures."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Psychology & Brain Tricks",
-      "evidence": "'Your Brain Can Create Fake Memories' was uploaded multiple times, yielding dismal results (5, 10, and 53 views).",
-      "action": "Avoid re-uploading identical concepts under slightly different titles; phase out low-performing psychology topics unless they have a massive visual hook."
+      "pattern": "Low-Stakes Cognitive Psychology & Brain Tricks",
+      "evidence": "'Your Brain Can Create Fake Memories' consistently underperformed across multiple uploads (stalling at 5, 10, and 53 views). 'The Real Reason Songs Get Stuck In Your Head' only reached 17 views.",
+      "action": "Pivot away from standard psychological phenomena unless they can be framed with an extreme, high-stakes survival or historical storytelling angle."
     },
     {
-      "pattern": "Vague or Low-Stakes Animal Facts",
-      "evidence": "'Octopuses Have THREE Hearts' (118 views) and 'The Only Animal That Can Live Forever' (69 views) struggle to compete with cosmic-scale mysteries.",
-      "action": "Pivot animal content towards 'cinematic survival' or deep-sea terrors rather than textbook trivia."
+      "pattern": "Vague or Low-Urgency Astro-Facts",
+      "evidence": "'The Eyeball Planet That Could Harbor Life!' (12 views) and 'This Star Is Older Than the Universe!' (11 views) failed to capture interest compared to more violent cosmic phenomena.",
+      "action": "Avoid passive or purely theoretical space concepts. Frame every space video around extreme danger, massive wealth (nonillion planets), or physical impossibility."
     }
   ],
   "next_video": {
-    "category": "Space / Exoplanet Mysteries",
-    "hook_style": "Mind-bending visual paradox",
-    "concept": "A deep dive into HD 189733b, the planet where it rains liquid glass sideways at supersonic speeds.",
-    "opening_direction": "Start with a high-contrast visual of a beautiful blue planet, immediately cutting to a graphic of howling winds: 'This beautiful blue planet looks like Earth... but it rains jagged glass, sideways, at 5,400 miles per hour.'",
-    "twist_direction": "Reveal that the planet's cobalt blue color doesn't come from oceans, but from light reflecting off a literal atmosphere of molten glass particles.",
+    "category": "Space & Exoplanet Mysteries",
+    "hook_style": "Extreme Physical Impossibility",
+    "concept": "A deep dive into KELT-9b, a planet so hot that it is literally tearing molecules apart and vaporizing itself.",
+    "opening_direction": "Show a cinematic render of a planet glowing brighter than most stars, with the voiceover: 'This planet is so hot, it is literally tearing its own molecules apart.'",
+    "twist_direction": "Reveal that KELT-9b's dayside is hotter than the surface of most stars, creating a terrifying cycle where molecules are ripped to shreds by day, only to reform as metallic snow on its nightside.",
     "duration_seconds": 18,
     "posting_window": "12:30 PM - 1:30 PM UTC",
-    "reason": "Aligns perfectly with the channel's highest-performing niche (extreme space weather) and mirrors the structure of the highly successful 'Burning Ice' and 'Supersonic Rubies' videos."
+    "reason": "Aligns perfectly with the top-performing exoplanet videos ('Burning Ice', 'Supersonic Rubies') by focusing on extreme, hostile cosmic environments that defy earthly physics, while keeping the duration in the proven 16-21 second sweet spot."
   },
-  "experiment": "Test a 'What-If' cinematic survival scenario on an extreme planet (e.g., 'What If You Spent 1 Second on the Planet of Liquid Glass?') to combine the high-performing exoplanet niche with cinematic storytelling.",
+  "experiment": "Test a 'What If' survival scenario on an extreme exoplanet (e.g., 'What If You Spent 1 Second on the Metal-Snow Planet?') to merge exoplanet facts with high-retention hypothetical storytelling.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-20T14:35:02.530080+00:00"
+  "generated_at": "2026-09-20T15:35:22.484818+00:00"
 }
