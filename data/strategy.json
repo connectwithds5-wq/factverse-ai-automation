@@ -1,32 +1,37 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Space anomalies, particularly those highlighting extreme planetary conditions, massive financial values, or bizarre cosmic physics (e.g., TrES-2b, burning ice, nonillion-dollar planets) are the primary drivers of views and engagement. Conversely, psychology and brain-related facts (fake memories, songs stuck in head) consistently underperform and fail to capture audience interest.",
+  "overall_summary": "FACTVERSE's audience is highly receptive to extreme space anomalies, exoplanet mysteries, and mind-bending cosmic comparisons, while psychological facts and basic animal trivia consistently underperform. Leveraging high-concept cosmic 'what-if' scenarios and extreme planetary weather yields the highest views and engagement.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Cosmic Anomalies & Astronomical Wealth",
-      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal: TrES-2b' (1,023 views), 'Supersonic Rubies' (721 views), and the '$26 Nonillion Diamond Planet' (488 views) represent the channel's top tier of performance.",
-      "action": "Double down on extreme space phenomena, focusing on mind-bending physics, massive scale, and astronomical values."
+      "pattern": "Extreme Exoplanet Anomalies & Cosmic Weather",
+      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,023 views), and 'This Planet Rains Supersonic Rubies!' (721 views) represent the channel's peak performers.",
+      "action": "Double down on extreme planetary conditions, using highly visual and evocative materials (e.g., rubies, burning ice, dark coal) in the titles and hooks."
+    },
+    {
+      "pattern": "Mind-Bending Temporal & Historical Comparisons",
+      "evidence": "'Sharks Are Older Than Saturn's Rings' (274 views) and 'Why Your Head Is Older Than Your Feet' (264 views) outperform standard trivia.",
+      "action": "Create comparison videos that pit well-known biological entities against massive cosmic or geological timelines to break the viewer's intuition."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Psychology & Brain Trivia",
-      "evidence": "'Your Brain Can Create Fake Memories' (multiple uploads getting 5 to 53 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction.",
-      "action": "Pivot away from generic psychological trivia and brain mechanics, or reframe them through a high-stakes/survival lens if used."
+      "pattern": "Psychological & Brain Trivia",
+      "evidence": "'Your Brain Can Create Fake Memories' (5-53 views across multiple uploads) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction.",
+      "action": "Phase out standard psychological advice and brain trivia, as the audience is seeking grander, more cinematic mysteries."
     }
   ],
   "next_video": {
     "category": "Space & What-If Scenarios",
-    "hook_style": "Extreme Value & Economic Irony",
-    "concept": "The $10 Quintillion Asteroid (Psyche 16)",
-    "opening_direction": "There is a giant space rock floating between Mars and Jupiter that is worth ten quintillion dollars.",
-    "twist_direction": "But if we actually brought it back to Earth, it would instantly crash the global economy, making gold completely worthless.",
-    "duration_seconds": 16,
+    "hook_style": "Paradoxical Question",
+    "concept": "The Planet with Three Suns Where Night Never Falls",
+    "opening_direction": "Start with a visual of three blazing suns in a single sky: 'Imagine living on a world where the sun never sets, and you have three different shadows.'",
+    "twist_direction": "Reveal that if you stood in the center, the chaotic gravitational pull of the three stars would slowly tear your body apart before you ever saw a sunset.",
+    "duration_seconds": 18,
     "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Leverages the high-performance pattern of astronomical wealth/value (similar to the $26 Nonillion Diamond Planet) combined with space science, packaged in a tight 16-second loop."
+    "reason": "Capitalizes on the high-performing space anomaly niche, using strong visual imagery (three suns, three shadows) and a deadly physical twist to maximize retention."
   },
-  "experiment": "Test a 'What-If' survival scenario on an extreme planet (e.g., surviving 5 seconds on Venus) to blend space facts with cinematic survival storytelling.",
+  "experiment": "Test a 'What If' cinematic micro-story format where the viewer is the protagonist exploring a real, terrifying exoplanet (e.g., HD 189733b) to combine the space niche with horror/mystery storytelling.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-20T22:34:48.783433+00:00"
+  "generated_at": "2026-09-20T23:33:44.337992+00:00"
 }
