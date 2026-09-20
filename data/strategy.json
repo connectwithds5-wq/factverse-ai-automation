@@ -1,21 +1,42 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Extreme space anomalies and cosmic 'What-If' scenarios are the channel's clear growth drivers, consistently generating the highest views and engagement. Conversely, generic psychology facts and basic animal trivia are underperforming and failing to capture audience interest.",
+  "winning_patterns": [
+    {
+      "pattern": "Extreme Space Anomalies & Bizarre Exoplanets",
+      "evidence": "Videos like 'The Planet Darker Than Coal: TrES-2b' (1,024 views, 36 likes), 'The Planet of Burning Ice...' (1,055 views, 8 likes), and 'This Planet Rains Supersonic Rubies!' (721 views, 25 likes) are the top performers.",
+      "action": "Double down on extreme cosmic environments, focusing on bizarre weather, extreme temperatures, and high-value planetary compositions (rubies, diamonds, molten iron)."
+    },
+    {
+      "pattern": "High-Stakes 'What-If' Physics Scenarios",
+      "evidence": "'What If You Fell Into This $26 Nonillion Diamond Planet?' achieved 480 views and 22 likes, showing strong engagement.",
+      "action": "Frame space facts as first-person survival scenarios ('What If you visited/fell into...') to increase viewer immersion and retention."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Generic Psychology & Brain Tricks",
+      "evidence": "'Your Brain Can Create Fake Memories' struggled across multiple uploads, peaking at only 53 views. 'The Real Reason Songs Get Stuck In Your Head' got only 17 views.",
+      "action": "Phase out low-stakes psychology facts unless they can be framed with a high-stakes mystery or horror/thriller narrative hook."
+    },
+    {
+      "pattern": "Basic Animal Trivia",
+      "evidence": "'The Only Animal That Can Live Forever' (69 views) and 'Octopuses Have THREE Hearts' (183 views) underperformed compared to space content.",
+      "action": "Pivot animal content away from basic encyclopedic facts and toward cinematic survival stories or bizarre evolutionary mysteries."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space / What-If Scenarios",
+    "hook_style": "High-stakes time dilation / survival hook",
+    "concept": "What If You Spent 1 Hour on the Planet Near a Black Hole?",
+    "opening_direction": "Show a hyper-realistic CGI render of a massive black hole warping light, with a clock spinning out of control. Voiceover: 'If you spend just one hour on this planet, everyone you know on Earth will already be dead.'",
+    "twist_direction": "Explain that this isn't science fiction—it's gravitational time dilation, and reveal how close a planet must be to a black hole's event horizon to experience this extreme time warp.",
+    "duration_seconds": 18,
+    "posting_window": "17:00 - 19:00 UTC",
+    "reason": "Leverages the proven high-performance of extreme space physics and the highly engaging 'What-If' format, utilizing a mind-bending concept (time dilation) that naturally drives high viewer retention."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-20T04:36:37.320267+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-20T04:36:37.320300+00:00"
+  "experiment": "Test a 'Space Survival' mini-series format where the viewer has to choose between surviving on two different extreme exoplanets (e.g., the planet of burning ice vs. the planet of supersonic rubies) to drive comments and community engagement.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-20T05:35:13.435933+00:00"
 }
