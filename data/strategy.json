@@ -1,42 +1,32 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Extreme space anomalies and cosmic 'What-If' scenarios are the channel's clear growth drivers, consistently generating the highest views and engagement. Conversely, generic psychology facts and basic animal trivia are underperforming and failing to capture audience interest.",
+  "overall_summary": "Space and extreme exoplanet topics are the clear growth drivers for FACTVERSE, consistently generating high views (up to 1,055) and strong engagement. Conversely, psychology and brain facts are underperforming significantly, indicating that the audience prefers cosmic, high-concept visual storytelling over cognitive trivia.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Space Anomalies & Bizarre Exoplanets",
-      "evidence": "Videos like 'The Planet Darker Than Coal: TrES-2b' (1,024 views, 36 likes), 'The Planet of Burning Ice...' (1,055 views, 8 likes), and 'This Planet Rains Supersonic Rubies!' (721 views, 25 likes) are the top performers.",
-      "action": "Double down on extreme cosmic environments, focusing on bizarre weather, extreme temperatures, and high-value planetary compositions (rubies, diamonds, molten iron)."
-    },
-    {
-      "pattern": "High-Stakes 'What-If' Physics Scenarios",
-      "evidence": "'What If You Fell Into This $26 Nonillion Diamond Planet?' achieved 480 views and 22 likes, showing strong engagement.",
-      "action": "Frame space facts as first-person survival scenarios ('What If you visited/fell into...') to increase viewer immersion and retention."
+      "pattern": "Extreme Exoplanet & Cosmic 'What-If' Scenarios",
+      "evidence": "Videos like 'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,024 views), and 'This Planet Rains Supersonic Rubies!' (721 views) dominate the channel's performance.",
+      "action": "Double down on extreme space anomalies, focusing on bizarre planetary environments, cosmic scale comparisons, and visual-first space facts."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Psychology & Brain Tricks",
-      "evidence": "'Your Brain Can Create Fake Memories' struggled across multiple uploads, peaking at only 53 views. 'The Real Reason Songs Get Stuck In Your Head' got only 17 views.",
-      "action": "Phase out low-stakes psychology facts unless they can be framed with a high-stakes mystery or horror/thriller narrative hook."
-    },
-    {
-      "pattern": "Basic Animal Trivia",
-      "evidence": "'The Only Animal That Can Live Forever' (69 views) and 'Octopuses Have THREE Hearts' (183 views) underperformed compared to space content.",
-      "action": "Pivot animal content away from basic encyclopedic facts and toward cinematic survival stories or bizarre evolutionary mysteries."
+      "pattern": "Repetitive Psychology & Brain Trivia",
+      "evidence": "'Your Brain Can Create Fake Memories' (5-53 views across multiple uploads) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction.",
+      "action": "Pivot away from generic brain facts and psychology hacks, or reframe them through a high-stakes 'What-If' or sci-fi lens to match the cosmic audience's expectations."
     }
   ],
   "next_video": {
     "category": "Space / What-If Scenarios",
-    "hook_style": "High-stakes time dilation / survival hook",
-    "concept": "What If You Spent 1 Hour on the Planet Near a Black Hole?",
-    "opening_direction": "Show a hyper-realistic CGI render of a massive black hole warping light, with a clock spinning out of control. Voiceover: 'If you spend just one hour on this planet, everyone you know on Earth will already be dead.'",
-    "twist_direction": "Explain that this isn't science fiction—it's gravitational time dilation, and reveal how close a planet must be to a black hole's event horizon to experience this extreme time warp.",
-    "duration_seconds": 18,
-    "posting_window": "17:00 - 19:00 UTC",
-    "reason": "Leverages the proven high-performance of extreme space physics and the highly engaging 'What-If' format, utilizing a mind-bending concept (time dilation) that naturally drives high viewer retention."
+    "hook_style": "Visual Paradox",
+    "concept": "The Eyeball Planet (LHS 1140 b) where tidal locking creates a giant frozen pupil and a boiling ocean.",
+    "opening_direction": "Imagine a planet in deep space that looks exactly like a giant, bloodshot eyeball staring directly at you.",
+    "twist_direction": "But the real mystery is the thin 'twilight zone' between the boiling ocean and the frozen wasteland—the only place where life could actually survive.",
+    "duration_seconds": 21,
+    "posting_window": "13:00 - 15:00 UTC",
+    "reason": "Leverages the highly successful extreme exoplanet formula, using a powerful visual hook ('Eyeball Planet') and a compelling survival twist to maximize retention."
   },
-  "experiment": "Test a 'Space Survival' mini-series format where the viewer has to choose between surviving on two different extreme exoplanets (e.g., the planet of burning ice vs. the planet of supersonic rubies) to drive comments and community engagement.",
+  "experiment": "A 3-video series comparing the most extreme 'weather' in the universe (e.g., glass rain, diamond rain, and iron rain) to test if themed exoplanet mini-series drive higher viewer return rates and playlisting.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-20T05:35:13.435933+00:00"
+  "generated_at": "2026-09-20T06:39:30.210100+00:00"
 }
