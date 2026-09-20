@@ -1,42 +1,42 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Extreme cosmic anomalies, bizarre exoplanet weather conditions, and high-stakes space 'what-if' scenarios are the primary growth drivers for FACTVERSE. Traditional cognitive psychology facts and basic animal trivia consistently underperform, indicating the audience craves highly visual, mind-bending cosmic scale concepts over everyday science.",
+  "overall_summary": "FACTVERSE's audience shows a clear preference for extreme cosmic anomalies, planetary physics paradoxes, and mind-bending space-time comparisons. Standard psychology facts and basic animal trivia consistently underperform, indicating that the channel's growth engine lies in high-concept, visually dramatic space and physics content.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanet Weather & Bizarre Compositions",
-      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,023 views), and 'This Planet Rains Supersonic Rubies!' (721 views) represent the channel's top tier of performance.",
-      "action": "Develop a recurring series focusing exclusively on the most hostile and physically impossible-sounding environments in the known universe, emphasizing sensory details (smell, touch, rain type)."
+      "pattern": "Extreme Exoplanet Anomalies & Weather",
+      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' reached 1,055 views, 'The Planet Darker Than Coal: TrES-2b' reached 1,023 views, and 'This Planet Rains Supersonic Rubies!' hit 721 views.",
+      "action": "Double down on extreme planetary conditions, focusing on sensory-rich, highly visual concepts (e.g., iron rain, diamond oceans, extreme gravity) with dramatic, curiosity-inducing titles."
     },
     {
-      "pattern": "Cosmic Scale 'What-If' Scenarios",
-      "evidence": "'What If You Fell Into This $26 Nonillion Diamond Planet?' (488 views) and 'What If You Visited the Sunscreen Planet?' (337 views) show strong viewer retention and curiosity.",
-      "action": "Frame exoplanet discoveries as hypothetical first-person survival scenarios rather than dry academic facts."
+      "pattern": "Mind-Bending Time & Evolutionary Comparisons",
+      "evidence": "'Sharks Are Older Than Trees?' achieved 302 views, 'Sharks Are OLDER Than Saturn's Rings?' reached 274 views, and 'Why Your Head Is Older Than Your Feet' hit 264 views.",
+      "action": "Create a recurring sub-series of 'Time Paradox' shorts that contrast human perception of history and physics against cosmic reality."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Cognitive Psychology & Brain Hacks",
-      "evidence": "'Your Brain Can Create Fake Memories' (max 53 views across multiple uploads) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) failed to gain any traction.",
-      "action": "Pause production on self-help and cognitive psychology content unless it can be framed as a dark, high-stakes mystery."
+      "pattern": "Basic Psychology & Brain Trivia",
+      "evidence": "'Your Brain Can Create Fake Memories' struggled across multiple uploads, peaking at only 53 views, while 'The Real Reason Songs Get Stuck In Your Head' got only 17 views.",
+      "action": "Phase out standard psychological advice and brain hacks unless they can be framed with a massive evolutionary or sci-fi twist."
     },
     {
-      "pattern": "Repetitive Topic Uploads with Minor Title Variations",
-      "evidence": "Uploading 'The Planet Where It Rains Liquid Metal!' (10 views) shortly after similar weather-based planet videos resulted in severe view suppression.",
-      "action": "Space out similar concepts by at least 5-7 days to prevent audience fatigue and algorithm cannibalization."
+      "pattern": "Generic Animal Facts",
+      "evidence": "'Octopuses Have THREE Hearts' peaked at 183 views, and 'The Only Animal That Can Live Forever' got only 69 views.",
+      "action": "Avoid basic biological trivia. If featuring animals, pivot to prehistoric beasts or cinematic survival stories."
     }
   ],
   "next_video": {
-    "category": "Space / What-If Scenarios",
-    "hook_style": "Visual Paradox",
-    "concept": "LTT 9779 b: The Giant Mirror Planet Made of Titanium",
-    "opening_direction": "Imagine a planet so shiny it acts like a giant cosmic mirror—but stepping on it would vaporize you instantly.",
-    "twist_direction": "Reveal that its ultra-reflective mirror finish is actually caused by screaming clouds of liquid metal and titanium rain.",
+    "category": "Space & Astronomy",
+    "hook_style": "Sensory Shock & Extreme Weather",
+    "concept": "WASP-76b: The Planet Where It Rains Molten Iron",
+    "opening_direction": "Start with a hyper-realistic visual of molten metal droplets falling onto a dark surface: 'On this planet, the evening forecast isn't rain... it's boiling iron.'",
+    "twist_direction": "Explain that the daytime side is so hot it vaporizes metal, which winds then sweep to the freezing night side, causing it to condense and rain down as liquid metal.",
     "duration_seconds": 18,
     "posting_window": "12:30 PM - 1:30 PM UTC",
-    "reason": "Leverages the highly successful 'extreme exoplanet composition' formula. The concept of a 'giant mirror planet' is highly visual, easy to conceptualize, and sets up an immediate curiosity gap."
+    "reason": "Leverages the highly successful 'extreme planetary weather' pattern (similar to the burning ice and ruby rain videos) while maintaining a tight, high-retention 18-second duration."
   },
-  "experiment": "Test a 'Cinematic Space Survival' micro-narrative format: 'Could You Survive 5 Seconds on the Planet of Burning Ice?' to merge the high-performing space niche with immersive, story-first survival elements.",
+  "experiment": "Test a 'What If' scenario focusing on a cosmic threat to Earth, such as 'What If a Rogue Star Entered Our Solar System?', to see if existential space dread performs as well as exoplanet anomalies.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-20T20:34:58.806141+00:00"
+  "generated_at": "2026-09-20T21:34:37.792311+00:00"
 }
