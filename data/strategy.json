@@ -1,42 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "The channel's performance is heavily dominated by Space and Cosmic Mystery content, specifically focusing on extreme, bizarre, or high-value exoplanets (e.g., TrES-2b, Gliese 436b, and diamond planets). These videos consistently cross the 300-1,000+ view threshold, while psychology, brain facts, and basic animal facts struggle to gain traction, often stalling under 100 views. Shorter, high-impact cosmic 'What-If' scenarios and extreme planetary weather concepts represent the clear path to growth.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Exoplanet Weather & Cosmic Anomalies",
-      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,021 views), and 'This Planet Rains Supersonic Rubies' (721 views) are the top-performing videos.",
-      "action": "Double down on extreme planetary conditions, using high-contrast visual hooks and emphasizing extreme temperatures, compositions, or weather."
-    },
-    {
-      "pattern": "High-Value & Mind-Bending 'What-If' Hooks",
-      "evidence": "'What If You Fell Into This $26 Nonillion Diamond Planet?' achieved 480 views and high engagement (22 likes, 2 comments).",
-      "action": "Frame cosmic facts as hypothetical survival scenarios or extreme wealth/danger situations to increase viewer investment."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Psychology & Brain Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' (multiple uploads peaking at 53 views) and 'Your Brain Is Hiding This From You' (38 views) consistently underperform.",
-      "action": "Pause production on generic psychology and brain hacks unless they can be tied to a massive historical mystery or cosmic phenomenon."
-    },
-    {
-      "pattern": "Basic Animal Facts",
-      "evidence": "'The Only Animal That Can Live Forever' (69 views) and 'Octopuses Have THREE Hearts' (118 views) fail to capture the same scale of curiosity as space content.",
-      "action": "Avoid standard trivia; only cover animals if the concept involves cinematic survival or prehistoric/alien-like adaptations."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space / What-If Scenario",
-    "hook_style": "Extreme Value / Survival Curiosity",
-    "concept": "What If You Landed on the Planet of Solid Gold?",
-    "opening_direction": "Start with a cinematic visual of a golden planet, hooking the viewer with: 'There is a planet in our galaxy made entirely of solid gold, worth octillions of dollars—but landing on it would instantly vaporize you.'",
-    "twist_direction": "Reveal that the 'gold' is actually a superheated metallic gas atmosphere where it rains molten iron and the surface temperature is hotter than most stars.",
-    "duration_seconds": 18,
-    "posting_window": "12:00 PM - 1:30 PM",
-    "reason": "Leverages the proven high-value exoplanet formula (similar to the $26 Nonillion Diamond Planet) combined with a highly engaging 'What-If' survival hook."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a cinematic 'What If' survival scenario about a prehistoric creature (e.g., 'What If You Were Trapped in an Ocean with a Megalodon?') to see if the cinematic survival niche can replicate the success of the space anomalies.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-20T00:41:51.163713+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-20T01:34:53.067491+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-20T01:34:53.067509+00:00"
 }
