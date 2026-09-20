@@ -1,21 +1,37 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "The channel's performance is heavily driven by extreme cosmic anomalies, particularly planets with bizarre, high-stakes weather conditions (e.g., burning ice, supersonic rubies, glass, molten iron) and massive wealth/value hooks (e.g., $26 nonillion diamond planet). Conversely, generic psychology facts and repetitive brain-related trivia consistently underperform, failing to capture the initial swipe-through rate.",
+  "winning_patterns": [
+    {
+      "pattern": "Extreme Cosmic Weather & Paradoxical Space Anomalies",
+      "evidence": "'The Planet of Burning Ice' achieved 1,055 views, 'The Planet Darker Than Coal' reached 1,023 views, and 'This Planet Rains Supersonic Rubies!' generated 721 views. These concepts leverage high visual imagination and extreme physical conditions.",
+      "action": "Double down on extreme exoplanet characteristics, focusing on highly visual, hostile environments (e.g., raining precious metals, extreme gravity, or temporal anomalies)."
+    },
+    {
+      "pattern": "Mind-Bending Scale Comparisons (Crossover Facts)",
+      "evidence": "'Sharks Are Older Than Trees?' (302 views) and 'Sharks Are OLDER Than Saturn's Rings?' (243 views) outperform standard animal trivia.",
+      "action": "Create more 'Time-Scale Collisions' where well-known earthly elements are compared against cosmic or evolutionary timelines to break the viewer's schema."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Oversaturated Psychology & Brain Trivia",
+      "evidence": "'Your Brain Can Create Fake Memories' struggled across multiple uploads, getting as low as 5 to 10 views. 'The Real Reason Songs Get Stuck In Your Head' only got 17 views.",
+      "action": "Phase out standard psychological trivia unless it can be framed with a high-stakes survival or horror/mystery micro-story angle."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space / What-if Scenarios",
+    "hook_style": "High-Value Paradox Hook",
+    "concept": "A planet where it literally snows gold but the environment is instantly lethal.",
+    "opening_direction": "Start with: 'There is a planet worth octillions of dollars where it literally snows gold...'",
+    "twist_direction": "Reveal that the 'gold' is actually molten iron-sulfide that would melt your spacesuit in milliseconds before you could touch it.",
+    "duration_seconds": 18,
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Combines the high-performing 'extreme weather/rain' theme with the 'extreme wealth' hook of the nonillion diamond planet, keeping the duration under 20 seconds for optimal retention."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-20T17:35:23.098974+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-20T17:35:23.098999+00:00"
+  "experiment": "Test a 'Cinematic Animal Survival' micro-story comparing a prehistoric shark's survival against a cosmic event (like a nearby supernova) to merge the animal and space audiences.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-20T18:37:12.240110+00:00"
 }
