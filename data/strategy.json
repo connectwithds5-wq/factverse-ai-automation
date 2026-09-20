@@ -1,42 +1,21 @@
 {
   "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "The channel's performance is heavily driven by extreme space and exoplanet concepts, particularly those featuring bizarre weather conditions (e.g., raining rubies, burning ice, molten iron) or mind-bending scale. Conversely, psychology facts and repetitive brain-related content consistently underperform, indicating a clear audience preference for high-concept, visually spectacular cosmic mysteries over internal human biology.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Cosmic Weather & Exoplanet Anomalies",
-      "evidence": "Videos like 'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,023 views), and 'This Planet Rains Supersonic Rubies' (721 views) represent the channel's top tier of performance and engagement.",
-      "action": "Double down on extreme space environments, focusing on sensory-rich descriptions (smell, taste, rain, temperature) of distant worlds."
-    },
-    {
-      "pattern": "Hypothetical 'What If' Space Scenarios",
-      "evidence": "'What If You Fell Into This $26 Nonillion Diamond Planet?' achieved 480 views and a high engagement ratio of 22 likes.",
-      "action": "Frame exoplanet facts as first-person survival or exploration scenarios to increase viewer immersion."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Psychology & Brain Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' (multiple uploads peaking at 53 views) and 'Your Brain Is Hiding This From You' (38 views) struggle to gain traction.",
-      "action": "Pause standard psychology facts; if psychology is used, frame it through a dark mystery or historical storytelling lens rather than clinical facts."
-    },
-    {
-      "pattern": "Repetitive Concept Uploads",
-      "evidence": "Re-uploading identical or slightly tweaked titles like 'Why Space Is Completely Silent' or 'Your Brain Can Create Fake Memories' within short timeframes leads to diminishing returns and low view counts.",
-      "action": "Maintain a strict content-calendar buffer to avoid repeating core concepts within a 14-day window."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space / What-If Scenario",
-    "hook_style": "Sensory Shock & Extreme Weather",
-    "concept": "The planet where it rains sideways glass at 5,000 miles per hour.",
-    "opening_direction": "Start with a high-velocity sound effect and the line: 'Imagine a world where the rain doesn't fall down—it flies sideways at seven times the speed of sound, and it's made of razor-sharp glass.'",
-    "twist_direction": "Reveal that despite this terrifying, shredding weather, the planet (HD 189733b) looks like a peaceful, beautiful blue oasis from space, perfectly mimicking Earth.",
-    "duration_seconds": 18,
-    "posting_window": "12:30 PM - 1:30 PM UTC",
-    "reason": "Leverages the highly successful 'extreme rain/weather on exoplanets' theme which generated the channel's best views and likes, utilizing a short, punchy 18-second structure to maximize retention."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'Cinematic Animal Survival' Short focusing on an extreme deep-sea creature (e.g., the Vampire Squid) using the same high-drama, hostile-environment narration style that succeeded in the space videos.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-20T10:34:57.862490+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-20T11:38:58.454971+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-20T11:38:58.454991+00:00"
 }
