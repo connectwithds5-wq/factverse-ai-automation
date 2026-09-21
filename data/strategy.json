@@ -1,42 +1,37 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "The channel's highest-performing content revolves around extreme cosmic anomalies, specifically 'hellfire' planets with bizarre weather patterns (e.g., burning ice, supersonic rubies, coal-dark atmospheres) and mind-bending comparative time paradoxes (e.g., sharks being older than Saturn's rings). Conversely, standard psychology hacks and generic brain facts consistently underperform, indicating that the audience craves high-stakes, visually spectacular cosmic and historical trivia over self-improvement or soft science.",
+  "overall_summary": "Space anomalies and extreme exoplanet mysteries (such as TrES-2b and the planet of burning ice) consistently drive the highest views and engagement on the channel. Conversely, repetitive psychology facts and duplicate uploads of brain-related content show severe performance decay and low audience interest.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Planetary Weather & High-Value Space Anomalies",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' achieved 1,055 views, 'The Planet Darker Than Coal: TrES-2b' hit 1,025 views, and 'This Planet Rains Supersonic Rubies!' reached 721 views.",
-      "action": "Double down on extreme exoplanet profiles, focusing on hostile environments, precious-gem rain, and massive financial valuations (e.g., nonillion-dollar planets)."
+      "pattern": "Extreme Exoplanet Weather & Composition Mysteries",
+      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,025 views, 36 likes) and 'The Planet of Burning Ice' (1,055 views, 8 likes) are the top performers, alongside 'This Planet Rains Supersonic Rubies!' (721 views).",
+      "action": "Produce a dedicated series focusing on the most extreme, terrifying, and bizarre exoplanets in the known universe, emphasizing high-contrast visual storytelling."
     },
     {
-      "pattern": "Deep-Time Biological vs. Cosmic Comparisons",
-      "evidence": "'Sharks Are Older Than Trees?' (302 views) and 'Sharks Are OLDER Than Saturn's Rings?' (294 views) outperformed general animal facts.",
-      "action": "Create a series comparing ancient Earth biology with major cosmic events to disrupt the viewer's sense of historical scale."
+      "pattern": "Mind-Bending Comparative Scale/Age Facts",
+      "evidence": "'Sharks Are Older Than Trees' (302 views) and 'Sharks Are OLDER Than Saturn's Rings?' (295 views) show strong baseline performance compared to standard facts.",
+      "action": "Create comparison-style shorts contrasting well-known Earth elements with cosmic timelines (e.g., comparing the age of trees, sharks, or oceans to celestial events)."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Brain & Memory Psychology Hacks",
-      "evidence": "Multiple uploads of 'Your Brain Can Create Fake Memories' flatlined at 5, 10, and 53 views. 'The Real Reason Songs Get Stuck In Your Head' only got 17 views.",
-      "action": "Phase out soft psychology and self-help brain hacks. If covering cognitive science, frame it as a terrifying mystery or a survival scenario."
-    },
-    {
-      "pattern": "Vague Cosmic Claims Without Visual Stakes",
-      "evidence": "'This Star Is Older Than the Universe!' got only 11 views, and 'The Eyeball Planet That Could Harbor Life!' got only 28 views.",
-      "action": "Avoid passive titles. Replace passive observational astronomy with active, high-stakes 'What If' survival hooks."
+      "pattern": "Repetitive Psychology & Brain Fact Re-uploads",
+      "evidence": "'Your Brain Can Create Fake Memories' generated near-zero views (5 to 53 views) across multiple duplicate uploads, while 'The Real Reason Songs Get Stuck In Your Head' stalled at 17 views.",
+      "action": "Cease the practice of re-uploading identical psychology scripts. Phase out generic brain facts in favor of high-concept cosmic or deep-sea mysteries."
     }
   ],
   "next_video": {
     "category": "Space / What-If Scenario",
-    "hook_style": "First-Person Cosmic Survival",
-    "concept": "What if you fell into the darkest planet in the universe (TrES-2b)?",
-    "opening_direction": "Start with a pitch-black screen and a heavy breathing sound effect: 'If you fell into TrES-2b, you would be blinder than in the deepest cave on Earth.'",
-    "twist_direction": "Reveal that despite being pitch black, the planet is actually a boiling-hot 1,800 degrees Fahrenheit, glowing with a faint, demonic red light like a burning coal.",
+    "hook_style": "High-Stakes Survival Question",
+    "concept": "What If You Spent 1 Second on the 'Hell' Planet?",
+    "opening_direction": "Open with a cinematic, high-contrast visual of 55 Cancri e's molten lava oceans with the voiceover: 'What would happen to your body if you spent just one second on the Hell Planet?'",
+    "twist_direction": "Reveal that beneath the 4,000-degree lava storms lies a thick crust made entirely of pressurized diamond, meaning you would disintegrate standing on a multi-nonillion-dollar fortune.",
     "duration_seconds": 19,
-    "posting_window": "12:30 PM - 1:30 PM",
-    "reason": "Leverages the proven success of TrES-2b (1,025 views) but reframes it as an active first-person survival scenario, which dramatically increases viewer retention in the first 3 seconds."
+    "posting_window": "12:30 PM - 1:30 PM UTC",
+    "reason": "Combines the proven high performance of extreme exoplanet topics (like the diamond planet and TrES-2b) with a high-retention 'What If' survival hook that keeps viewers watching until the twist."
   },
-  "experiment": "Test a 'Cosmic Scale' comparison Short comparing the size of the largest known black hole (TON 618) to our entire solar system, using a fast-paced zoom-out visual style.",
+  "experiment": "Test a 'Cinematic Animal Survival' micro-story (e.g., 'The Frog That Freezes Solid and Comes Back to Life') utilizing the same high-contrast editing style as the space videos to see if the audience's appetite for extreme environments translates to biology-based survival.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-21T04:38:42.179551+00:00"
+  "generated_at": "2026-09-21T05:36:51.895891+00:00"
 }
