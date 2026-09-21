@@ -1,42 +1,42 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Space and extreme exoplanet topics are the clear growth drivers for FACTVERSE, with concepts focusing on bizarre planetary weather (raining rubies, glass, or molten iron), extreme physics (burning ice, coal-dark planets), and high-value hypothetical scenarios ($26 nonillion diamond planet) generating the highest views and engagement. Conversely, general psychology facts and basic animal trivia consistently underperform, indicating the audience prefers mind-bending cosmic mysteries over everyday science.",
+  "overall_summary": "Extreme exoplanet phenomena (such as burning ice, coal-dark atmospheres, and ruby rain) and mind-bending comparative facts (like sharks being older than Saturn's rings) are the clear performance drivers for FACTVERSE. Conversely, generic psychology facts and low-stakes space trivia struggle to capture viewer attention, indicating that high-contrast visual concepts and extreme 'what-if' scenarios are essential for Shorts feed retention.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanet Weather & Sensory Anomalies",
-      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,025 views), and 'This Planet Rains Supersonic Rubies!' (721 views) are the top-performing videos.",
-      "action": "Double down on exoplanets with extreme, visually dramatic environmental conditions. Focus on sensory-rich descriptions like 'raining gems', 'screaming winds', or 'burning ice'."
+      "pattern": "Extreme Exoplanet Environments & 'What-If' Survival Scenarios",
+      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' achieved 1,055 views, 'The Planet Darker Than Coal: TrES-2b' secured 1,025 views, and 'This Planet Rains Supersonic Rubies!' reached 721 views.",
+      "action": "Double down on highly visual, hostile planetary environments. Frame titles and hooks around extreme physical hazards or 'What If You Fell Into...' survival scenarios."
     },
     {
-      "pattern": "Hypothetical 'What If' Space Exploration",
-      "evidence": "'What If You Fell Into This $26 Nonillion Diamond Planet?' (487 views) and 'What If You Visited the Sunscreen Planet?' (337 views) show strong viewer interest when abstract space facts are framed as personal, high-stakes journeys.",
-      "action": "Frame future space facts as immersive first-person hypothetical scenarios to boost viewer retention and emotional investment."
+      "pattern": "Mind-Bending Historical & Cosmic Juxtapositions",
+      "evidence": "'Sharks Are Older Than Trees?' (302 views) and 'Sharks Are OLDER Than Saturn's Rings?' (297 views) consistently outperform baseline uploads.",
+      "action": "Create more 'Time-Paradox' style comparisons that pit familiar earthly elements against cosmic or ancient history."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Psychology & Brain Mechanics Quirks",
-      "evidence": "'Your Brain Can Create Fake Memories' (max 53 views across multiple uploads) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) failed to capture audience interest.",
-      "action": "Pause production on general psychology and cognitive bias content, or strictly reframe them through a high-stakes survival or horror/mystery lens."
+      "pattern": "Generic Brain & Psychology Facts",
+      "evidence": "Multiple uploads of 'Your Brain Can Create Fake Memories' stalled at 5, 10, and 53 views. 'The Real Reason Songs Get Stuck In Your Head' only reached 17 views.",
+      "action": "Avoid abstract cognitive psychology topics that lack immediate, high-stakes visual hooks."
     },
     {
-      "pattern": "Short-Duration Basic Animal Trivia",
-      "evidence": "'Octopuses Have THREE Hearts' (12s, 183 views) and 'The Only Animal That Can Live Forever' (16s, 69 views) underperform compared to cosmic topics.",
-      "action": "Avoid common, easily searchable animal facts. If covering biology, pivot to cinematic animal survival narratives or bizarre evolutionary anomalies with longer, story-driven structures."
+      "pattern": "Low-Stakes or Non-Visual Space Trivia",
+      "evidence": "'The Planet Where It Rains Rock!' (49 views) and 'The Planet Where It Rains Liquid Metal!' (10 views) underperformed compared to visually striking ruby/glass rain concepts.",
+      "action": "Filter out space facts that sound like dry textbook definitions; only cover planets with extreme, sensational, or highly relatable elements (e.g., diamonds, ice, coal)."
     }
   ],
   "next_video": {
-    "category": "Space / What-If Scenarios",
-    "hook_style": "First-Person Immersive / High-Stakes Survival",
-    "concept": "What If You Fell Into Gliese 436b (The Planet of Burning Ice)?",
-    "opening_direction": "Imagine stepping onto a planet where the ice is literally on fire at 800 degrees Fahrenheit, but it never melts.",
-    "twist_direction": "The gravity is so incredibly intense that it forces water molecules to stay packed into a solid state, creating a scorching, gravity-defying paradox.",
+    "category": "Space / What-If Scenario",
+    "hook_style": "High-stakes survival hypothetical",
+    "concept": "What If You Fell Into the Pitch-Black Planet?",
+    "opening_direction": "Show a completely black screen, slowly revealing a faint, glowing red outline of TrES-2b, with the voiceover: 'This is TrES-2b, a planet so terrifyingly dark it eats 99% of all light.'",
+    "twist_direction": "Reveal that despite being blacker than coal, it isn't cold—it's a burning 1,800 degrees Fahrenheit, glowing with a dull, evil red heat like a giant space ember.",
     "duration_seconds": 19,
-    "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Gliese 436b ('burning ice') was the channel's top-performing concept (1,055 views). Transforming this proven topic into a high-retention 'What If' format—which also succeeded with the diamond planet—maximizes the probability of viral performance."
+    "posting_window": "12:30 PM - 1:30 PM",
+    "reason": "Leverages the proven success of TrES-2b (1,025 views) and the high-performing 'What If' format, utilizing a high-contrast visual hook that immediately triggers curiosity in the Shorts feed."
   },
-  "experiment": "Test a 'Cosmic Survival' 3-part mini-series using a unified visual style and a cliffhanger at the 12-second mark to drive viewers to click through to the next Short.",
+  "experiment": "Test a 'Time-Paradox' Short comparing the age of a common object to a cosmic entity (e.g., 'Why Tyrannosaurus Rex Lived Closer to the iPhone Than to the Stegosaurus') to see if historical time-warps replicate the success of the shark/Saturn's rings videos.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-21T06:43:29.401837+00:00"
+  "generated_at": "2026-09-21T07:38:14.483201+00:00"
 }
