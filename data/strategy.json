@@ -1,37 +1,42 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Space anomalies, particularly extreme exoplanets with bizarre environmental conditions (e.g., burning ice, coal-dark atmospheres, supersonic ruby rain) and high-concept 'What If' cosmic scenarios, consistently drive the highest engagement and views. Conversely, generic psychology and brain facts struggle to gain traction and suffer from low reach.",
+  "overall_summary": "Analysis of 40 unique Shorts reveals a clear audience preference for extreme, mind-bending space facts—specifically exoplanets with bizarre weather or materials (e.g., burning ice, diamond planets, and ruby rain). Conversely, psychology and brain-related facts consistently underperform, indicating a need to pivot fully into highly visual, cosmic curiosity concepts.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanet Anomalies & Bizarre Weather",
-      "evidence": "TrES-2b (1,023 views), Burning Ice (1,055 views), and Supersonic Rubies (721 views) represent the channel's peak performance.",
-      "action": "Produce a dedicated series focusing on the most hostile, bizarre, and terrifying planets in the known universe, emphasizing sensory-rich descriptions (e.g., what they smell like, what rains from their skies)."
+      "pattern": "Extreme Exoplanet Weather & Material Hooks",
+      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,023 views), and 'This Planet Rains Supersonic Rubies!' (721 views) are the top performers, showing high engagement when titles feature extreme physical properties.",
+      "action": "Double down on exoplanet profiles focusing on terrifying environments, precious materials, or impossible physics, using high-contrast visual descriptions."
     },
     {
-      "pattern": "Mind-Bending Cosmic Comparisons",
-      "evidence": "'Sharks Are Older Than Saturn's Rings' (294 views) and 'Sharks Are Older Than Trees' (302 views) significantly outperformed standard biology facts.",
-      "action": "Frame biological or historical facts by juxtaposing them against massive cosmic scales to trigger immediate cognitive dissonance in the hook."
+      "pattern": "Mind-Bending Comparative Questions",
+      "evidence": "'Sharks Are Older Than Saturn's Rings?' (294 views) and 'What If You Fell Into This $26 Nonillion Diamond Planet?' (488 views) outperform standard informational titles.",
+      "action": "Frame space facts as direct comparisons to familiar Earth elements or hypothetical 'what-if' scenarios to lower the barrier to entry."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Psychology & Brain Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' (10 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently failed to find an audience.",
-      "action": "Pivot away from standard self-help or common psychological trivia. If covering the brain, frame it as a dark mystery, an existential threat, or an AI-hybrid scenario."
+      "pattern": "Repetitive Brain & Psychology Facts",
+      "evidence": "Videos like 'Your Brain Can Create Fake Memories' (5-53 views across uploads) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction.",
+      "action": "Phase out general cognitive psychology and brain hacks unless they can be tied directly to a massive survival or evolutionary mystery."
+    },
+    {
+      "pattern": "Abstract or Low-Stakes Space Concepts",
+      "evidence": "'The Eyeball Planet That Could Harbor Life!' (28 views) and 'This Star Is Older Than the Universe!' (11 views) lack the immediate visual hook of extreme weather or materials.",
+      "action": "Avoid purely theoretical or slow-paced astronomical concepts; prioritize high-stakes, violent, or visually spectacular cosmic phenomena."
     }
   ],
   "next_video": {
-    "category": "Space / What-If",
-    "hook_style": "Sensory Paradox Hook",
-    "concept": "What If You Landed on WASP-76b, the Planet of Liquid Iron Rain?",
-    "opening_direction": "Imagine standing on a world where the daytime temperature is hot enough to literally vaporize metal...",
-    "twist_direction": "...but when night falls, the iron vapor condenses, raining molten metal from the sky in supersonic winds.",
-    "duration_seconds": 20,
-    "posting_window": "12:30 PM - 1:30 PM UTC",
-    "reason": "Leverages the proven high-performance pattern of extreme planetary weather (similar to the ruby and glass rain videos) and fits the optimal 19-21 second duration of the channel's top-performing content."
+    "category": "Space / Exoplanets",
+    "hook_style": "Extreme Material & Weather Contrast",
+    "concept": "CoRoT-7b, a planet where it is so hot that it literally rains rocks into oceans of boiling lava.",
+    "opening_direction": "Imagine a world where the oceans aren't made of water... but boiling, liquid lava.",
+    "twist_direction": "Because the atmosphere is made of vaporized rock, the clouds condense and literally rain solid stones back down.",
+    "duration_seconds": 18,
+    "posting_window": "12:30 PM - 1:30 PM",
+    "reason": "Leverages the highly successful exoplanet weather formula seen in the ruby rain and burning ice videos, keeping the duration under 20 seconds for optimal completion rate."
   },
-  "experiment": "Test a 'Cosmic Survival' micro-series (e.g., 'How long could you survive on [Planet X]?') using high-fidelity cinematic visuals and a countdown timer to maximize viewer retention.",
+  "experiment": "Test a 'What-If' space survival scenario focusing on an extreme planet to see if combining the 'What-If' format with exoplanet physics increases average viewer retention.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-21T01:36:17.465200+00:00"
+  "generated_at": "2026-09-21T02:37:14.872570+00:00"
 }
