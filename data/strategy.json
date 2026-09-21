@@ -1,21 +1,42 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "The channel's performance is heavily driven by extreme space anomalies and cosmic 'What-If' scenarios, particularly those that place the viewer in hypothetical, high-stakes situations (e.g., falling into extreme planets). Conversely, psychology and brain-related facts are severely underperforming, often failing to break double-digit views. Transitioning from passive fact-sharing to active, survival-oriented storytelling is yielding the highest viewer engagement and retention.",
+  "winning_patterns": [
+    {
+      "pattern": "Cosmic Survival & Extreme Planet 'What-If' Scenarios",
+      "evidence": "'What If You Fell Into the Planet of Burning Ice?' achieved 838 views, and 'What If You Fell Into This $26 Nonillion Diamond Planet?' hit 490 views, outperforming standard planet descriptions.",
+      "action": "Refine standard space facts into active 'What If You Fell Into...' or 'What If You Visited...' survival-style narratives."
+    },
+    {
+      "pattern": "Mind-Bending Cosmic Chronology & Comparisons",
+      "evidence": "'Sharks Are OLDER Than Saturn's Rings?' generated 297 views, and 'Sharks Are Older Than Trees?' hit 302 views.",
+      "action": "Create more comparison videos pitting ancient Earth biology against massive cosmic timelines."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Standard Brain & Psychology Facts",
+      "evidence": "'Your Brain Can Create Fake Memories' repeatedly flopped across multiple uploads, peaking at only 53 views. 'The Real Reason Songs Get Stuck In Your Head' stalled at 17 views.",
+      "action": "Pause the psychology/brain niche entirely and reallocate production resources to space and cosmic mysteries."
+    },
+    {
+      "pattern": "Repetitive 'Raining [X]' Planet Titles",
+      "evidence": "'The Planet Where It Rains Liquid Metal!' got only 10 views, and 'The Planet Where It Rains Rock!' got 49 views, showing fatigue compared to the high-performing 'Supersonic Rubies' (721 views).",
+      "action": "Avoid generic 'Raining' titles unless they feature highly exotic, high-value materials (rubies, diamonds) or are framed as a survival scenario."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space / What-If Scenario",
+    "hook_style": "Hypothetical Survival Threat",
+    "concept": "What If You Fell Into the Darkest Planet in the Universe?",
+    "opening_direction": "Show a pitch-black screen. 'If you fell into TrES-2b, the darkest planet in the universe, you wouldn't just be in the dark—you would be burning alive in complete blindness.'",
+    "twist_direction": "Reveal that the planet's atmosphere is hotter than lava, and it absorbs 99% of all light, meaning even if you turned on a flashlight, the darkness would literally swallow the beam.",
+    "duration_seconds": 21,
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "TrES-2b is already a proven high-performer on the channel (1,025 views). Reframing it from a passive fact into a high-stakes, first-person 'What If' survival scenario leverages the channel's strongest format."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-21T20:35:13.117791+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-21T20:35:13.117812+00:00"
+  "experiment": "Test a 3-part micro-series format where viewers vote in the comments on how to survive 10 seconds on different extreme planets, boosting the channel's historically low comment engagement.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-21T21:37:54.478691+00:00"
 }
