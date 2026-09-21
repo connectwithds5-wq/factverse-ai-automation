@@ -1,42 +1,37 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "The FACTVERSE channel sees its strongest performance when focusing on extreme cosmic anomalies, specifically exotic exoplanets with mind-bending weather patterns (e.g., burning ice, supersonic rubies, coal-dark atmospheres). Conversely, psychology and brain-related facts struggle to cross the 100-view threshold, indicating that the audience is highly primed for cosmic scale, visual wonder, and extreme 'what-if' scenarios rather than self-help or cognitive science.",
+  "overall_summary": "Space anomalies, particularly extreme exoplanets with bizarre environmental conditions (e.g., burning ice, coal-dark atmospheres, supersonic ruby rain) and high-concept 'What If' cosmic scenarios, consistently drive the highest engagement and views. Conversely, generic psychology and brain facts struggle to gain traction and suffer from low reach.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanet Weather & Exotic Materials",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' (1,055 views), 'The Planet Darker Than Coal: TrES-2b' (1,023 views), and 'This Planet Rains Supersonic Rubies!' (721 views) represent the channel's top performers.",
-      "action": "Double down on extreme space environments, focusing on high-value materials (rubies, diamonds, gold, sapphires) or terrifying physical conditions."
+      "pattern": "Extreme Exoplanet Anomalies & Bizarre Weather",
+      "evidence": "TrES-2b (1,023 views), Burning Ice (1,055 views), and Supersonic Rubies (721 views) represent the channel's peak performance.",
+      "action": "Produce a dedicated series focusing on the most hostile, bizarre, and terrifying planets in the known universe, emphasizing sensory-rich descriptions (e.g., what they smell like, what rains from their skies)."
     },
     {
-      "pattern": "Mind-Bending Scale & Historical Crossovers",
-      "evidence": "'The Largest Ocean in Space' (460 views) and 'Sharks Are Older Than Saturn's Rings' (294 views) perform well above average.",
-      "action": "Create unexpected comparison hooks that pit familiar terrestrial elements (animals, trees) against massive cosmic timelines or scales."
+      "pattern": "Mind-Bending Cosmic Comparisons",
+      "evidence": "'Sharks Are Older Than Saturn's Rings' (294 views) and 'Sharks Are Older Than Trees' (302 views) significantly outperformed standard biology facts.",
+      "action": "Frame biological or historical facts by juxtaposing them against massive cosmic scales to trigger immediate cognitive dissonance in the hook."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Psychology & Brain Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' (5-53 views across multiple uploads) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently underperform.",
-      "action": "Pivot away from standard cognitive psychology facts unless they can be framed with a highly cinematic, existential, or horror-mystery angle."
-    },
-    {
-      "pattern": "Low-Stakes Exoplanet Rain Variations",
-      "evidence": "'The Planet Where It Rains Rock!' (49 views) and 'The Planet Where It Rains Liquid Metal!' (10 views) failed to gain traction compared to 'Rubies' or 'Burning Ice'.",
-      "action": "Avoid mundane-sounding elements (rock, metal) in exoplanet titles. Frame the weather using high-contrast, sensationalized, or luxury-related materials."
+      "pattern": "Generic Psychology & Brain Facts",
+      "evidence": "'Your Brain Can Create Fake Memories' (10 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently failed to find an audience.",
+      "action": "Pivot away from standard self-help or common psychological trivia. If covering the brain, frame it as a dark mystery, an existential threat, or an AI-hybrid scenario."
     }
   ],
   "next_video": {
-    "category": "Space / Exoplanet Anomalies",
-    "hook_style": "High-value material contrast & extreme danger",
-    "concept": "The planet where it rains liquid sapphires and rubies at supersonic speeds (HAT-P-7b).",
-    "opening_direction": "Start with a close-up cinematic render of a sparkling blue storm: 'This planet literally rains liquid sapphires... but if you visited, it would shred you to pieces.'",
-    "twist_direction": "Reveal that because of 5,000 mph winds, these precious gems fly horizontally, turning the entire atmosphere into a supersonic cosmic blender.",
-    "duration_seconds": 18,
-    "posting_window": "12:30 PM - 1:30 PM",
-    "reason": "Leverages the proven success of 'Supersonic Rubies' (721 views) and 'Burning Ice' (1,055 views) by combining high-value gem imagery with extreme physical danger, keeping the duration under 20 seconds to maximize completion rate."
+    "category": "Space / What-If",
+    "hook_style": "Sensory Paradox Hook",
+    "concept": "What If You Landed on WASP-76b, the Planet of Liquid Iron Rain?",
+    "opening_direction": "Imagine standing on a world where the daytime temperature is hot enough to literally vaporize metal...",
+    "twist_direction": "...but when night falls, the iron vapor condenses, raining molten metal from the sky in supersonic winds.",
+    "duration_seconds": 20,
+    "posting_window": "12:30 PM - 1:30 PM UTC",
+    "reason": "Leverages the proven high-performance pattern of extreme planetary weather (similar to the ruby and glass rain videos) and fits the optimal 19-21 second duration of the channel's top-performing content."
   },
-  "experiment": "Test a 'Cosmic Horror' framing for space facts—such as 'The Planet That Is Literally Being Eaten Alive' or 'The Star That Shouldn't Exist'—to see if leaning into mystery/horror storytelling boosts retention over pure science explanations.",
+  "experiment": "Test a 'Cosmic Survival' micro-series (e.g., 'How long could you survive on [Planet X]?') using high-fidelity cinematic visuals and a countdown timer to maximize viewer retention.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-21T00:41:32.368201+00:00"
+  "generated_at": "2026-09-21T01:36:17.465200+00:00"
 }
