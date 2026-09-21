@@ -1,32 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Extreme space anomalies and exoplanet survival scenarios are the primary growth drivers for FACTVERSE, consistently generating 5x to 10x more views than other topics. Conversely, generic psychology and repetitive animal facts struggle to gain traction.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Exoplanet Weather & 'What If' Survival Scenarios",
-      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,025 views), 'The Planet of Burning Ice' (1,055 views), and 'What If You Fell Into the Planet of Burning Ice?' (643 views) are the top performers.",
-      "action": "Double down on highly visual, hostile planetary environments, framing them as hypothetical survival scenarios ('What If You Fell Into...')."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Repetitive Brain & Psychology Trivia",
-      "evidence": "'Your Brain Can Create Fake Memories' was uploaded multiple times, peaking at only 53 views. 'The Real Reason Songs Get Stuck In Your Head' generated only 17 views.",
-      "action": "Discontinue generic cognitive psychology facts and avoid recycling identical topics within short timeframes."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space / What-If Scenario",
-    "hook_style": "High-stakes hypothetical survival",
-    "concept": "What If You Fell Into the Darkest Planet in the Universe (TrES-2b)?",
-    "opening_direction": "Start with a pitch-black screen and a heavy heartbeat sound effect, stating: 'If you fell into this planet, you would be plunged into absolute, terrifying darkness.'",
-    "twist_direction": "Reveal that despite reflecting less than 1% of light, the planet is actually a boiling 1,800°F gas giant that glows a demonic, faint red like a hot ember.",
-    "duration_seconds": 21,
-    "posting_window": "12:30 PM - 1:30 PM",
-    "reason": "TrES-2b is a proven high-performing topic (1,025 views). Combining it with the highly successful 'What If You Fell Into...' format leverages our best-performing hook structure."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 21-second 'What If' survival short about the metal-rich asteroid Psyche 16 to see if asteroid-mining/wealth-based space concepts can replicate exoplanet success.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-21T13:37:47.806206+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-21T14:37:13.288413+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-21T14:37:13.288433+00:00"
 }
