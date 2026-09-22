@@ -1,21 +1,42 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Space and exoplanet mysteries, particularly those featuring extreme planetary conditions or 'What If' survival scenarios, are driving the highest views and engagement. Meanwhile, repetitive psychology and brain facts are underperforming and struggling to capture audience interest.",
+  "winning_patterns": [
+    {
+      "pattern": "Extreme Exoplanet Conditions & Cosmic Anomalies",
+      "evidence": "Videos like 'The Planet of Burning Ice Will Break Your Brain!' (1,055 views) and 'The Planet Darker Than Coal' (1,025 views) represent the channel's peak performance.",
+      "action": "Double down on extreme cosmic environments, focusing on bizarre weather, extreme temperatures, and terrifying planetary traits."
+    },
+    {
+      "pattern": "First-Person 'What If' Survival Framing",
+      "evidence": "'What If You Fell Into the Planet of Burning Ice?' achieved 946 views and 'What If You Fell Into This $26 Nonillion Diamond Planet?' hit 492 views.",
+      "action": "Frame cosmic facts as hypothetical survival scenarios, placing the viewer directly into the extreme environment to boost retention."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Repetitive Brain & Psychology Facts",
+      "evidence": "'Your Brain Can Create Fake Memories' repeatedly flopped with views as low as 5 to 10, and 'The Real Reason Songs Get Stuck In Your Head' only got 17 views.",
+      "action": "Pause generic cognitive psychology facts and pivot those resources toward high-performing space and animal survival niches."
+    },
+    {
+      "pattern": "Vague/Generic Science Questions",
+      "evidence": "'How Do Clouds Float If They Weigh THIS Much?' stalled at 77 views.",
+      "action": "Avoid passive, textbook-style questions; replace them with high-stakes, active hooks."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space / What-If Scenarios",
+    "hook_style": "What If You Fell Into...",
+    "concept": "What If You Fell Into the Planet of Sideways Glass Rain?",
+    "opening_direction": "Start with a beautiful, deep-blue planet visual: 'This planet looks exactly like Earth from space, but if you fell into it, you'd be shredded to pieces in seconds.'",
+    "twist_direction": "Reveal that the beautiful blue color is actually silicate particles reflecting light, whipped up by 5,400 mph supersonic winds that rain molten glass sideways.",
+    "duration_seconds": 21,
+    "posting_window": "13:00 - 14:00 UTC",
+    "reason": "Leverages the highly successful 'What If You Fell...' format combined with extreme planetary weather (HD 189733b), matching the 21-second duration of our best-performing space videos."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-22T06:41:09.610843+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-22T06:41:09.610861+00:00"
+  "experiment": "Test a 'Cinematic Animal Survival' Short comparing how a prehistoric shark would survive in modern oceans, bridging the gap between our successful shark facts and high-retention storytelling.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-22T07:37:49.399164+00:00"
 }
