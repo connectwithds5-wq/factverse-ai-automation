@@ -1,42 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Space-themed extreme scenarios, particularly 'What If' survival concepts and bizarre planetary weather, are the clear drivers of high engagement and views on FACTVERSE. Conversely, generic psychology facts and repetitive brain-related content consistently underperform. To maximize growth, the channel should pivot towards highly visual, terrifying planetary phenomena and extreme biological comparisons.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme 'What-If' Space Survival Scenarios",
-      "evidence": "'What If You Fell Into the Planet of Burning Ice?' (914 views, 17 likes) and 'What If You Fell Into This $26 Nonillion Diamond Planet?' (490 views, 23 likes) significantly outperformed standard descriptive titles.",
-      "action": "Frame space facts as active, dangerous survival scenarios using the 'What If You Fell Into...' hook format."
-    },
-    {
-      "pattern": "Highly Visual, Bizarre Planetary Weather",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' (1,055 views) and 'This Planet Rains Supersonic Rubies!' (721 views) dominated view counts.",
-      "action": "Focus on extreme weather concepts (rubies, glass, burning ice) that evoke immediate, strong mental imagery."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Repetitive Brain and Psychology Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' repeatedly flopped across multiple uploads (5 to 10 views), and 'The Real Reason Songs Get Stuck In Your Head' got only 17 views.",
-      "action": "Retire generic cognitive psychology facts and avoid re-uploading identical hooks that fail to gain initial traction."
-    },
-    {
-      "pattern": "Dry, Non-Visual Astronomical Facts",
-      "evidence": "'The Planet Where It Rains Liquid Metal!' (10 views) and 'This Star Is Older Than the Universe!' (11 views) failed to capture interest compared to more colorful space phenomena.",
-      "action": "Avoid purely technical or abstract space data that cannot be easily visualized or dramatized."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space / What-If Scenario",
-    "hook_style": "Terrifying survival hypothetical",
-    "concept": "What If You Fell Into the Planet of Supersonic Glass?",
-    "opening_direction": "If you stepped onto this beautiful blue planet, you would instantly be sliced into millions of pieces by glass raining sideways at 5,400 miles per hour.",
-    "twist_direction": "But the most shocking part? The planet's stunning blue color isn't from oceans—it's the light reflecting off those exact deadly glass shards.",
-    "duration_seconds": 19,
-    "posting_window": "12:30 PM - 1:30 PM UTC",
-    "reason": "Leverages the highly successful 'What If You Fell Into...' framing combined with the proven appeal of extreme planetary weather (glass rain) which previously gained solid traction."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 3-part micro-story series on 'The Most Terrifying Ways to Die in Space' to combine the cinematic space niche with horror/mystery micro-storytelling.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-22T01:35:33.036006+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-22T02:36:35.510403+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-22T02:36:35.510419+00:00"
 }
