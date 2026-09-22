@@ -1,42 +1,42 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "The channel's growth is heavily driven by extreme space anomalies, bizarre planetary conditions, and 'What If' first-person survival scenarios. Conversely, cognitive psychology, brain hacks, and passive or dry scientific facts struggle to capture viewer attention and yield very low engagement.",
+  "overall_summary": "The channel FACTVERSE sees its strongest performance when combining extreme space phenomena with high-stakes survival scenarios ('What If You Fell Into...') or highly visual, bizarre planetary conditions (e.g., burning ice, supersonic rubies, coal-dark planets). Conversely, generic psychology facts and repetitive brain-trick videos struggle heavily to gain traction, often stalling under 50 views.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Planetary Conditions & Cosmic Anomalies",
-      "evidence": "The Planet of Burning Ice (vWd0uYcEGh4) achieved 1,055 views, and TrES-2b: The Planet Darker Than Coal (v1rrcZLdp4U) achieved 1,025 views.",
-      "action": "Prioritize content featuring extreme celestial bodies, bizarre physics, and visually spectacular cosmic environments."
+      "pattern": "First-Person Survival in Extreme Space Environments ('What If You Fell Into...')",
+      "evidence": "Videos like 'What If You Fell Into the Planet of Burning Ice?' (949 views) and 'What If You Fell Into This $26 Nonillion Diamond Planet?' (492 views) significantly outperform standard factual statements.",
+      "action": "Frame future space facts as hypothetical, high-stakes survival scenarios where the viewer is the main character."
     },
     {
-      "pattern": "First-Person 'What If' Survival Hooks",
-      "evidence": "'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) generated 949 views, and 'What If You Fell Into This $26 Nonillion Diamond Planet?' (6pwazIPnOHw) reached 492 views.",
-      "action": "Reframe passive space facts into active, high-stakes hypothetical scenarios where the viewer is the main character."
+      "pattern": "Sensory-Shock Space Anomalies",
+      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' (1,055 views), 'The Planet Darker Than Coal' (1,025 views), and 'This Planet Rains Supersonic Rubies!' (721 views) show high view counts and strong engagement.",
+      "action": "Focus on extreme planetary physics, using highly contrasting sensory concepts (e.g., burning ice, dark light, supersonic gems) in the titles and hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Brain, Psychology & Cognitive Hacks",
-      "evidence": "'Your Brain Can Create Fake Memories' (r43-7nSn8SQ) got only 10 views, and 'The Real Reason Songs Get Stuck In Your Head' (Jc04LVKNd2s) got 17 views.",
-      "action": "De-prioritize psychology and cognitive science topics unless they can be framed as deep, unsettling mysteries."
+      "pattern": "Repetitive Brain & Psychology Tricks",
+      "evidence": "Multiple uploads of 'Your Brain Can Create Fake Memories' yielded only 5 to 53 views. 'The Real Reason Songs Get Stuck In Your Head' stalled at 17 views.",
+      "action": "Pause the production of generic cognitive psychology and brain-hack content unless it can be tied to a highly unusual neurological mystery."
     },
     {
-      "pattern": "Dry, Passive Fact-Sharing",
-      "evidence": "'This Star Is Older Than the Universe!' (vFXHTmYITp4) got 11 views, and 'The Planet Where It Rains Liquid Metal!' (endT2yIdieU) got 10 views.",
-      "action": "Avoid presenting facts as simple declarative statements; always inject a sense of danger, scale, or visual shock."
+      "pattern": "Passive Planetary Facts Without High Stakes",
+      "evidence": "'The Eyeball Planet That Could Harbor Life!' (31 views) and 'The Planet Where It Rains Liquid Metal!' (10 views) failed to capture interest compared to active survival framing.",
+      "action": "Avoid purely descriptive titles. Convert passive facts ('It rains metal') into active, dramatic scenarios ('What happens if you get caught in a liquid metal storm')."
     }
   ],
   "next_video": {
-    "category": "what-if scenarios",
-    "hook_style": "Hypothetical First-Person Survival",
-    "concept": "What If You Fell Into the Planet Darker Than Coal?",
-    "opening_direction": "Imagine falling into TrES-2b, a world so pitch black that it absorbs 99% of all light, plunging you into absolute, suffocating darkness.",
-    "twist_direction": "But the real nightmare isn't the dark—it's the friction of the atmosphere heating the air to a glowing, ghostly red of burning embers.",
+    "category": "Space / What-If Scenario",
+    "hook_style": "High-Stakes First-Person Survival",
+    "concept": "What If You Fell Into the Planet of Supersonic Ruby Rain?",
+    "opening_direction": "Start with a visual of falling through a glittering, beautiful sky: 'You are falling through clouds of pure, sparkling rubies. But this isn't a dream—it's a deadly trap.'",
+    "twist_direction": "Reveal that the winds on planet HAT-P-7b blow these gemstone shards at over 5,000 miles per hour, meaning you'd be shredded by supersonic jewelry before you even hit the ground.",
     "duration_seconds": 21,
-    "posting_window": "12:00 PM - 1:30 PM UTC",
-    "reason": "Combines the highly successful TrES-2b topic (1,025 views) with the top-performing 'What If You Fell Into...' first-person survival format (949 views)."
+    "posting_window": "12:30 PM - 1:30 PM",
+    "reason": "Combines the highly successful 'What If You Fell Into...' survival framing with the proven high-performance concept of supersonic gemstone rain (from the 721-view ruby planet video)."
   },
-  "experiment": "Test a cinematic AI-visualized historical storytelling Short about a real ancient mystery, like the Antikythera mechanism, but frame it as a high-stakes sci-fi discovery to see if history can match the performance of space content.",
+  "experiment": "Test a 'Cinematic Animal Survival' micro-story using the same first-person high-stakes framing (e.g., 'What If You Had to Survive a Night as a Tardigrade in Outer Space?') to see if the survival hook translates to biology.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-22T08:38:05.770692+00:00"
+  "generated_at": "2026-09-22T09:36:00.520098+00:00"
 }
