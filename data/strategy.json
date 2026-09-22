@@ -1,37 +1,37 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Space and exoplanet content, specifically extreme cosmic environments and 'What If' hypothetical scenarios, are the clear growth drivers for FACTVERSE. In contrast, generic psychology facts and brain-related content consistently underperform in both views and audience engagement.",
+  "overall_summary": "Space and exoplanet content, particularly extreme planetary conditions and 'What If' survival scenarios, vastly outperform psychology and basic biology facts. Viewers are highly responsive to vivid, extreme cosmic hazards and sensory curiosity in deep space.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanet Weather & 'What If' Immersive Scenarios",
-      "evidence": "Videos like 'The Planet of Burning Ice...' (1,055 views), 'What If You Fell Into the Planet of Burning Ice?' (951 views), and 'This Planet Rains Supersonic Rubies!' (721 views) dominate the channel's performance.",
-      "action": "Double down on extreme space environments, framing them as first-person hypothetical survival scenarios ('What If You Fell Into...')."
+      "pattern": "Extreme Exoplanet Survival Scenarios ('What If You Fell Into...')",
+      "evidence": "'What If You Fell Into the Planet of Burning Ice?' (951 views) and 'What If You Fell Into This $26 Nonillion Diamond Planet?' (492 views) show high traction and strong engagement.",
+      "action": "Create a dedicated series of high-stakes survival scenarios set on the universe's most hostile planets, using first-person perspective hooks."
     },
     {
-      "pattern": "Mind-Bending Cosmic Comparison Hooks",
-      "evidence": "Videos comparing space timelines or scales, such as 'Sharks Are OLDER Than Saturn's Rings?' (294 views, 18 likes) and 'The Largest Ocean in Space...' (460 views), show strong engagement ratios.",
-      "action": "Use historical or biological anomalies contrasted against cosmic scales as hook concepts."
+      "pattern": "Bizarre Space Phenomena & Sensory Anomalies",
+      "evidence": "'The Planet of Burning Ice...' (1,055 views), 'The Planet Darker Than Coal' (1,025 views), and 'What Does Outer Space Actually Smell Like?' (368 views) demonstrate strong baseline interest.",
+      "action": "Hook viewers with sensory anomalies (smells, tastes, extreme sights) in deep space to trigger immediate curiosity."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Psychology and Memory Tricks",
-      "evidence": "'Your Brain Can Create Fake Memories' struggled across multiple attempts (maxing out at 53 views), and 'The Real Reason Songs Get Stuck In Your Head' generated only 17 views.",
-      "action": "Pivot away from standard self-help or basic cognitive psychology facts unless they can be framed through a dark, mysterious, or cinematic lens."
+      "pattern": "Generic Brain & Cognitive Psychology Facts",
+      "evidence": "'Your Brain Can Create Fake Memories' (multiple uploads getting 5-10 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently underperform.",
+      "action": "Deprioritize general cognitive psychology facts unless they can be tied to a highly visual, shocking, or cinematic mystery."
     }
   ],
   "next_video": {
-    "category": "Space / What-If Scenario",
-    "hook_style": "Immersive, high-stakes hypothetical threat",
-    "concept": "What If You Fell Into the Planet That Rains Glass Sideways?",
-    "opening_direction": "Show a stunning, deep-blue alien world that looks exactly like Earth, only to reveal that stepping onto it means instant shredding by glass winds.",
-    "twist_direction": "Reveal that the planet's blue color isn't from water, but from silicate particles in the atmosphere that melt into liquid glass, raining down at 5,400 miles per hour.",
-    "duration_seconds": 21,
-    "posting_window": "13:00 - 15:00 UTC",
-    "reason": "Combines the proven 'What If You Fell Into...' format with the high-performing exoplanet topic (HD 189733b), leveraging the 21-second duration which matches the channel's top-performing space uploads."
+    "category": "what-if scenarios",
+    "hook_style": "High-stakes hypothetical survival",
+    "concept": "What If You Fell Into the Planet of Screaming Glass?",
+    "opening_direction": "Show a cinematic render of a beautiful deep blue planet, then immediately transition to a first-person POV of falling through a storm of razor-sharp shards.",
+    "twist_direction": "Reveal that the winds blow at 5,400 miles per hour, meaning the glass rain doesn't fall down—it slices horizontally at seven times the speed of sound, shredding anything in seconds.",
+    "duration_seconds": 20,
+    "posting_window": "13:00 - 14:00 UTC",
+    "reason": "Combines the highly successful 'What If You Fell Into...' format with the extreme planetary weather angle that generated over 1,000 views on similar concepts."
   },
-  "experiment": "Test a cinematic historical storytelling Short comparing a terrifying ancient Earth event to a cosmic threat, bridging the gap between history and space niches.",
+  "experiment": "Test a 'Cinematic Animal Survival' short comparing prehistoric ocean predators to modern ones, leveraging the moderate success of the shark facts (302 views) but applying a high-intensity narrative structure.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-22T10:37:27.002391+00:00"
+  "generated_at": "2026-09-22T11:37:23.251564+00:00"
 }
