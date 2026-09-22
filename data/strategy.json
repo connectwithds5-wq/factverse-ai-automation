@@ -1,42 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "The channel's clear growth driver is extreme space and exoplanet anomalies, particularly when framed as high-stakes 'What If' hypothetical scenarios or showcasing bizarre planetary weather (e.g., burning ice, supersonic rubies, and coal-dark planets). Conversely, general psychology facts and basic animal trivia underperform significantly, failing to capture viewer curiosity in the highly competitive Shorts feed.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Exoplanet Anomalies & Weather",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' (1,055 views), 'The Planet Darker Than Coal: TrES-2b' (1,025 views), and 'This Planet Rains Supersonic Rubies!' (721 views) are the channel's top performers.",
-      "action": "Double down on bizarre planetary conditions, focusing on extreme temperatures, rains of strange materials (glass, rubies, iron), and mind-bending physics."
-    },
-    {
-      "pattern": "High-Stakes 'What If' Space Scenarios",
-      "evidence": "'What If You Fell Into the Planet of Burning Ice?' achieved 951 views and 'What If You Fell Into This $26 Nonillion Diamond Planet?' secured 492 views with strong like ratios.",
-      "action": "Frame exoplanet facts as first-person hypothetical survival scenarios to immediately hook the viewer's imagination and boost retention."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Generic Brain & Psychology Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' (multiple uploads ranging from 5 to 53 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction.",
-      "action": "Phase out standard psychology facts unless they can be re-framed with a highly dramatic, cinematic, or survival-oriented hook."
-    },
-    {
-      "pattern": "Low-Context Animal Trivia",
-      "evidence": "'The Only Animal That Can Live Forever' (69 views) and 'Octopuses Have THREE Hearts' (118 views) underperform compared to the cosmic content.",
-      "action": "Avoid dry, textbook-style animal facts. If covering biology, shift to cinematic animal survival stories with high narrative stakes."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space / What-If Scenarios",
-    "hook_style": "First-person high-stakes survival question",
-    "concept": "What If You Fell Into the Planet of Molten Iron Rain?",
-    "opening_direction": "Start with a cinematic visual of a spaceship melting instantly in an atmosphere of liquid metal, with the voiceover: 'If you fell into WASP-76b, you wouldn't just drown—you would be pelted by supersonic drops of boiling iron.'",
-    "twist_direction": "Reveal that the night side of this planet is cold enough to turn the iron vapor back into liquid, creating a literal, deadly metallic monsoon.",
-    "duration_seconds": 21,
-    "posting_window": "Late afternoon (13:00 - 15:00 UTC) to capture peak active browsing times based on recent upload success.",
-    "reason": "Combines the proven 'What If' hypothetical format with the highly engaging theme of extreme exoplanet weather (WASP-76b), leveraging the exact 21-second duration of the channel's most consistent mid-tier successes."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'What If' survival scenario focused on a prehistoric ocean creature (e.g., 'What If You Were Trapped in the Ocean with a Megalodon?') to see if the high-performing 'What If' framing can successfully bridge into the cinematic animal/history niche.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-22T12:41:58.806569+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-22T13:37:17.744317+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-22T13:37:17.744338+00:00"
 }
