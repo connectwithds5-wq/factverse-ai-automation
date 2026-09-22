@@ -1,21 +1,42 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Extreme cosmic anomalies, exoplanet mysteries, and high-stakes 'What If' space survival scenarios are driving the highest views and engagement. Conversely, generic cognitive psychology facts and abstract stellar trivia consistently underperform and fail to capture audience interest.",
+  "winning_patterns": [
+    {
+      "pattern": "Extreme Exoplanet Environments & 'What If' Survival Scenarios",
+      "evidence": "Videos like 'The Planet of Burning Ice Will Break Your Brain!' (1,055 views), 'The Planet Darker Than Coal' (1,025 views), and 'What If You Fell Into the Planet of Burning Ice?' (946 views) are the channel's top performers.",
+      "action": "Double down on highly visual, extreme planetary phenomena (e.g., raining iron, diamond oceans) and frame them as first-person survival 'What If' scenarios."
+    },
+    {
+      "pattern": "Mind-Bending Mind/Body Paradoxes with Strong Hook Phrasing",
+      "evidence": "Videos like 'Why Your Head Is Older Than Your Feet' (265 views) and 'Sharks Are OLDER Than Saturn's Rings?' (294 views) perform significantly better than standard trivia.",
+      "action": "Use comparative hooks that contrast two seemingly unrelated concepts to create instant cognitive dissonance."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Generic Cognitive Psychology & Brain Facts",
+      "evidence": "Multiple uploads of 'Your Brain Can Create Fake Memories' generated extremely low views (ranging from 5 to 10 views), and 'The Real Reason Songs Get Stuck In Your Head' got only 17 views.",
+      "action": "Phase out standard cognitive psychology facts unless they can be framed as a high-stakes mystery or a terrifying psychological phenomenon."
+    },
+    {
+      "pattern": "Abstract or Low-Stakes Space Facts",
+      "evidence": "Videos like 'This Star Is Older Than the Universe!' (11 views) and 'The Eyeball Planet That Could Harbor Life!' (33 views) failed to gain traction.",
+      "action": "Avoid purely theoretical or static space facts that lack extreme physical conditions, danger, or sensory-rich descriptions."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space / What-If Scenario",
+    "hook_style": "Sensory-driven survival curiosity",
+    "concept": "What If You Fell Into the Planet Where It Rains Liquid Iron?",
+    "opening_direction": "Imagine falling through clouds that don't rain water... but molten iron at 4,000 degrees Fahrenheit.",
+    "twist_direction": "But the heat isn't what kills you first—it's the supersonic winds carrying metal droplets sideways faster than a speeding bullet.",
+    "duration_seconds": 21,
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Capitalizes on the highly successful 'What If You Fell Into...' format and extreme planetary weather patterns which have historically driven the highest views on the channel."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-22T22:34:58.402135+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-22T22:34:58.402155+00:00"
+  "experiment": "Test a cinematic 'What-If' crossover combining ancient history and extreme geography: 'What If You Were Trapped Inside the Sahara Desert When It Was a Lush Ocean?' to see if historical-geographical survival stories can match the performance of space survival stories.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-22T23:34:28.754713+00:00"
 }
