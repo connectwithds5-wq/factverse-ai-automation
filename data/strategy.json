@@ -1,21 +1,37 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "The channel's growth is heavily driven by extreme space and planetary anomalies, particularly those framed around 'What If' survival scenarios or mind-bending cosmic physics (e.g., burning ice, diamond planets, and supersonic rubies). Conversely, psychology and brain-related facts consistently underperform, showing very low views and engagement. Repeatedly posting identical concepts without variation has also led to diminishing returns.",
+  "winning_patterns": [
+    {
+      "pattern": "Extreme Exoplanet Profiles & High-Stakes 'What-If' Space Scenarios",
+      "evidence": "Videos like 'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,025 views), and 'What If You Fell Into the Planet of Burning Ice?' (943 views) represent the channel's top-performing tier.",
+      "action": "Pivot the content calendar to focus on extreme cosmic environments, framing them as first-person hypothetical survival scenarios to maximize viewer retention."
+    },
+    {
+      "pattern": "Bizarre Natural Paradoxes & Ancient Earth Mysteries",
+      "evidence": "'Sharks Are OLDER Than Saturn's Rings?' (294 views, 18 likes) and 'Octopuses Have THREE Hearts' (361 views, 19 likes) show strong engagement-to-view ratios.",
+      "action": "Integrate mind-blowing evolutionary biology facts that challenge common assumptions about time and history."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Repetitive Psychology & Brain Facts",
+      "evidence": "'Your Brain Can Create Fake Memories' (re-uploaded multiple times, peaking at only 53 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to capture audience interest.",
+      "action": "Phase out basic psychology facts and cease direct re-uploads of underperforming concepts."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space / What-If Scenario",
+    "hook_style": "Cosmic Terror / First-Person Survival",
+    "concept": "What If You Fell Into TrES-2b, the Darkest Planet in the Universe?",
+    "opening_direction": "Start with a completely black screen and a voiceover saying: 'This isn't a glitch. This is exactly what you would see if you fell into TrES-2b...'",
+    "twist_direction": "Reveal that despite reflecting less than one percent of light, this pitch-black world is actually a boiling 1,800-degree hellscape that glows a ghostly, burning red.",
+    "duration_seconds": 21,
+    "posting_window": "12:30 PM - 1:30 PM UTC",
+    "reason": "Combines the proven success of the TrES-2b topic (1,025 views) with the highly engaging 'What If You Fell Into...' narrative structure (943 views)."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-22T02:36:35.510403+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-22T02:36:35.510419+00:00"
+  "experiment": "Test a 'What If' survival scenario in the cinematic animal survival niche (e.g., 'What If You Were Swallowed Alive By a Blue Whale?') to see if the high-performing space format translates successfully to animal biology.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-22T03:37:14.341749+00:00"
 }
