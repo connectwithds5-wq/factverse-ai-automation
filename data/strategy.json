@@ -1,37 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "The channel shows a clear performance divide: extreme cosmic anomalies and space-themed 'What If' scenarios consistently drive the highest views and engagement, whereas abstract psychology and brain-related facts struggle to capture audience interest.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Cosmic Anomalies & Immersive 'What If' Scenarios",
-      "evidence": "Videos like 'The Planet of Burning Ice Will Break Your Brain!' (1,055 views), 'What If You Fell Into the Planet of Burning Ice?' (943 views), and 'The Planet Darker Than Coal' (1,025 views) represent the channel's peak performance.",
-      "action": "Double down on extreme exoplanet environments, formatting them as high-stakes survival scenarios ('What If You Fell Into...') to maximize viewer retention and curiosity."
-    },
-    {
-      "pattern": "Bizarre Planetary Weather & Composition Facts",
-      "evidence": "'This Planet Rains Supersonic Rubies!' gained 721 views and 'What If You Fell Into This $26 Nonillion Diamond Planet?' secured 490 views.",
-      "action": "Create a recurring sub-series focusing on extreme space weather, using highly visual, high-value keywords in the title (e.g., Rubies, Diamonds, Glass, Molten Iron)."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Abstract Psychology & Brain Quirks",
-      "evidence": "Videos like 'Your Brain Can Create Fake Memories' (5 to 53 views across multiple uploads) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction.",
-      "action": "Phase out soft psychology topics. If covering the brain, frame it through a high-stakes biological or survival lens rather than everyday quirks."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space / What-If Scenarios",
-    "hook_style": "Terrifying, high-stakes hypothetical question",
-    "concept": "What If You Fell Into HD 189733b (The Planet of Screaming Winds)?",
-    "opening_direction": "Start with a cinematic visual of a beautiful cobalt-blue planet, instantly cutting to a simulation of glass shredding metal.",
-    "twist_direction": "Reveal that the 5,400 mph winds don't just blow the glass rain—they blow it sideways, meaning you'd be sliced into millions of pieces before you even hit the ground.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Aligns with the top-performing exoplanet and 'What If' formats, utilizing a highly visual and terrifying cosmic weather concept to drive immediate retention."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'Cosmic Scale Comparison' short comparing the size of the largest known black hole (TON 618) to our solar system, using audio cues that build tension to keep viewers watching until the final reveal.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-22T04:36:49.714416+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-22T05:36:26.540830+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-22T05:36:26.540848+00:00"
 }
