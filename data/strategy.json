@@ -1,42 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Space and extreme exoplanet content, particularly framed as first-person 'What If' survival scenarios, vastly outperform psychology, brain tricks, and general history/science trivia. Videos with a duration of 19 to 21 seconds are currently yielding the highest views and engagement.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Exoplanets & Space Anomalies",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' (1,055 views), 'The Planet Darker Than Coal: TrES-2b' (1,025 views), and 'This Planet Rains Supersonic Rubies!' (721 views) are the top performers.",
-      "action": "Double down on bizarre exoplanets with extreme environmental conditions (e.g., raining glass, metal, or diamonds) and use highly sensory, high-contrast visual descriptions."
-    },
-    {
-      "pattern": "First-Person 'What If' Survival Scenarios",
-      "evidence": "'What If You Fell Into the Planet of Burning Ice?' achieved 948 views and 17 likes, while 'What If You Fell Into This $26 Nonillion Diamond Planet?' secured 493 views and 23 likes.",
-      "action": "Frame planetary facts as active, hypothetical survival scenarios ('What If You Fell Into...') to instantly boost viewer empathy, curiosity, and retention."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Psychology & Cognitive Trivia",
-      "evidence": "Videos like 'Your Brain Can Create Fake Memories' consistently flopped across multiple uploads (getting 5, 10, and 53 views), alongside 'The Real Reason Songs Get Stuck In Your Head' (17 views).",
-      "action": "Pause standalone psychology facts and brain tricks, or reframe them through a high-stakes evolutionary survival lens."
-    },
-    {
-      "pattern": "Low-Stakes Scientific & Historical Mysteries",
-      "evidence": "'The 2,000-Year-Old Mystery Science Can't Solve' (139 views) and 'AI Recreates Pink Floyd Song From Brain Waves!' (87 views) failed to capture significant audience interest.",
-      "action": "Avoid abstract scientific achievements or slow-paced historical mysteries that lack immediate, high-impact visual hooks."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space / What-If Scenario",
-    "hook_style": "High-stakes first-person survival question",
-    "concept": "What If You Fell Into the Planet That Rains Molten Iron? (WASP-76b)",
-    "opening_direction": "If you fell into this planet, you wouldn't just burn—you'd be shredded by liquid metal rain.",
-    "twist_direction": "But the real nightmare? The winds are so violent, the molten iron rain blows sideways at over 10,000 miles per hour.",
-    "duration_seconds": 21,
-    "posting_window": "13:00 - 14:00 UTC",
-    "reason": "Leverages the highly successful 'What If' survival framing combined with extreme exoplanet facts (molten iron rain), matching the 21-second duration of our top-performing videos."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a cinematic animal survival micro-story (e.g., 'The Only Animal That Can Survive Outer Space: The Tardigrade') to see if combining animal facts with space themes can bridge and elevate the animal category.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-23T11:37:25.815583+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-23T12:40:50.933079+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-23T12:40:50.933101+00:00"
 }
