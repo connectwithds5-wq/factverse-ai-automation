@@ -1,43 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Space and exoplanet content, specifically extreme cosmic anomalies and immersive 'What If' survival scenarios, are the clear growth drivers for FACTVERSE. Meanwhile, psychology, brain facts, and generic animal trivia are underperforming significantly. To scale, the channel must double down on high-concept cosmic mysteries with sensory-rich hooks and self-insertion narratives.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Exoplanets & Cosmic Paradoxes",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' (1,055 views), 'The Planet Darker Than Coal: TrES-2b' (1,025 views), and 'This Planet Rains Supersonic Rubies!' (721 views) are the channel's top performers.",
-      "action": "Focus on exoplanets with extreme, paradoxical, or highly premium characteristics (e.g., burning ice, rubies, diamonds, absolute darkness) and use vivid, sensory-rich titles."
-    },
-    {
-      "pattern": "First-Person 'What If' Space Survival Scenarios",
-      "evidence": "'What If You Fell Into the Planet of Burning Ice?' achieved 947 views, and 'What If You Fell Into This $26 Nonillion Diamond Planet?' secured 493 views with high engagement.",
-      "action": "Frame exoplanet facts as immersive, high-stakes hypothetical scenarios where the viewer is the main character experiencing the planet's extreme environment."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Generic Psychology & Brain Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' consistently failed to gain traction across multiple uploads (maxing out at 53 views), and 'The Real Reason Songs Get Stuck In Your Head' got only 17 views.",
-      "action": "Pause production on standard cognitive bias and brain trivia, or completely reframe them as high-stakes psychological mysteries."
-    },
-    {
-      "pattern": "Low-Stakes or Mundane Exoplanet Weather",
-      "evidence": "'The Planet Where It Rains Liquid Metal!' (10 views) and 'The Planet Where It Rains Rock!' (50 views) severely underperformed compared to premium weather concepts.",
-      "action": "Avoid generic 'rains X' concepts unless the material is highly sensationalized, visually stunning, or carries extreme financial/physical weight (like rubies or diamonds)."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space / What-If Scenario",
-    "hook_style": "Immersive, high-stakes sensory hypothetical",
-    "concept": "What If You Fell Into the Planet of Eternal Darkness?",
-    "opening_direction": "Imagine falling into TrES-2b—a world so pitch black it absorbs 99% of all light, making it darker than coal and twice as hot as lava.",
-    "opening_direction_visual": "Cinematic, hyper-realistic AI-generated visual of an astronaut falling into a massive, pitch-black void with a faint, ominous red glow on the horizon.",
-    "twist_direction": "But the real nightmare isn't the darkness; it's the friction of the screaming wind, which circulates burning, toxic air at supersonic speeds, turning you to ash before you even hit the ground.",
-    "duration_seconds": 21,
-    "posting_window": "12:30 PM - 1:30 PM UTC",
-    "reason": "Leverages the proven success of TrES-2b (1,025 views) and the highly engaging 'What If You Fell' narrative format (947 views) at the channel's peak performing upload hour."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'Cinematic Space Survival' micro-story format where a fictional astronaut has 15 seconds to make a critical survival choice on a hostile exoplanet, measuring if the choice-driven narrative increases average view duration and comment section engagement.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-23T01:35:37.460134+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-23T02:36:16.252259+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-23T02:36:16.252283+00:00"
 }
