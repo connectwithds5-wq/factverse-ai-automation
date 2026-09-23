@@ -1,21 +1,42 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Space-themed content—specifically extreme exoplanets, cosmic anomalies, and high-stakes 'What If' survival scenarios—consistently outperforms psychology, biology, and general science facts. Immersive, sensory-rich titles featuring extreme weather conditions (e.g., burning ice, ruby rain) generate the highest engagement, while repetitive brain and memory facts struggle to capture viewer interest.",
+  "winning_patterns": [
+    {
+      "pattern": "Extreme Exoplanet Environments & Weather",
+      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' (1,055 views), 'The Planet Darker Than Coal' (1,025 views), and 'This Planet Rains Supersonic Rubies!' (721 views) represent the channel's peak performers.",
+      "action": "Focus heavily on planets with bizarre, extreme, or violent physical properties. Use highly descriptive, sensory-rich titles that highlight extreme weather (e.g., raining iron, glass, or diamonds)."
+    },
+    {
+      "pattern": "First-Person 'What If' Survival Framing",
+      "evidence": "'What If You Fell Into the Planet of Burning Ice?' (947 views) and 'What If You Fell Into This $26 Nonillion Diamond Planet?' (493 views) significantly outperformed standard descriptive titles on similar subjects.",
+      "action": "Frame space facts as active, hypothetical survival scenarios ('What If You Fell Into...', 'What If You Visited...') to increase viewer immersion and retention."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Repetitive Psychology & Brain Facts",
+      "evidence": "'Your Brain Can Create Fake Memories' was uploaded multiple times and consistently flopped (5, 10, and 53 views). 'The Real Reason Songs Get Stuck In Your Head' only got 17 views.",
+      "action": "Pivot away from generic cognitive psychology facts. If psychology is covered, it must have a dark, mysterious, or highly unusual hook."
+    },
+    {
+      "pattern": "Dry, Passive Astronomical Descriptions",
+      "evidence": "'This Star Is Older Than the Universe!' (11 views) and 'The Eyeball Planet That Could Harbor Life!' (33 views) failed to gain traction compared to more active, threatening space concepts.",
+      "action": "Avoid passive phrasing. Reframe passive discoveries into active threats or mind-bending paradoxes."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space / What-If Scenario",
+    "hook_style": "High-stakes physical threat / Sensory shock",
+    "concept": "What If You Fell Into the Planet of Molten Iron Rain?",
+    "opening_direction": "If you fell into WASP-76b, you wouldn't just burn—you would be pelted by liquid iron rain falling from the sky.",
+    "twist_direction": "But the real nightmare isn't the heat; it's the winds that whip this molten metal sideways at over ten thousand miles per hour.",
+    "duration_seconds": 21,
+    "posting_window": "13:00 - 14:00 UTC",
+    "reason": "Combines the highly successful 'What If You Fell Into...' framing with the proven appeal of extreme planetary weather (molten iron rain previously achieved 349 views in a descriptive format; converting it to a first-person hypothetical will maximize retention)."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-23T03:37:10.167851+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-23T03:37:10.167871+00:00"
+  "experiment": "Test a dramatic, story-first 'Cinematic Animal Survival' Short (e.g., 'The frog that freezes solid and stops its own heart to survive winter') to see if high-stakes biological drama can replicate the high retention of extreme space scenarios.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-23T04:37:38.418490+00:00"
 }
