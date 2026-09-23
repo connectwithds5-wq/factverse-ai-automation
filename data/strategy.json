@@ -1,42 +1,32 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Space-themed content—specifically extreme exoplanets, cosmic anomalies, and high-stakes 'What If' survival scenarios—consistently outperforms psychology, biology, and general science facts. Immersive, sensory-rich titles featuring extreme weather conditions (e.g., burning ice, ruby rain) generate the highest engagement, while repetitive brain and memory facts struggle to capture viewer interest.",
+  "overall_summary": "Exoplanet-focused content, particularly detailing extreme weather conditions or 'What If' survival scenarios on hostile planets (e.g., Burning Ice, Darker Than Coal, Supersonic Rubies), consistently outperforms psychology, brain, and basic animal facts. Audiences respond strongly to high-stakes cosmic curiosity and extreme planetary conditions.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanet Environments & Weather",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' (1,055 views), 'The Planet Darker Than Coal' (1,025 views), and 'This Planet Rains Supersonic Rubies!' (721 views) represent the channel's peak performers.",
-      "action": "Focus heavily on planets with bizarre, extreme, or violent physical properties. Use highly descriptive, sensory-rich titles that highlight extreme weather (e.g., raining iron, glass, or diamonds)."
-    },
-    {
-      "pattern": "First-Person 'What If' Survival Framing",
-      "evidence": "'What If You Fell Into the Planet of Burning Ice?' (947 views) and 'What If You Fell Into This $26 Nonillion Diamond Planet?' (493 views) significantly outperformed standard descriptive titles on similar subjects.",
-      "action": "Frame space facts as active, hypothetical survival scenarios ('What If You Fell Into...', 'What If You Visited...') to increase viewer immersion and retention."
+      "pattern": "Extreme Exoplanet Weather & Cosmic Survival Scenarios",
+      "evidence": "'The Planet of Burning Ice' (1,055 views), TrES-2b 'Darker Than Coal' (1,025 views), and 'What If You Fell Into...' scenarios (948 & 493 views) dominate the channel's top performance tier.",
+      "action": "Double down on extreme space phenomena, specifically focusing on hostile exoplanets, using 'What If' framing to place the viewer directly in the environment."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Psychology & Brain Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' was uploaded multiple times and consistently flopped (5, 10, and 53 views). 'The Real Reason Songs Get Stuck In Your Head' only got 17 views.",
-      "action": "Pivot away from generic cognitive psychology facts. If psychology is covered, it must have a dark, mysterious, or highly unusual hook."
-    },
-    {
-      "pattern": "Dry, Passive Astronomical Descriptions",
-      "evidence": "'This Star Is Older Than the Universe!' (11 views) and 'The Eyeball Planet That Could Harbor Life!' (33 views) failed to gain traction compared to more active, threatening space concepts.",
-      "action": "Avoid passive phrasing. Reframe passive discoveries into active threats or mind-bending paradoxes."
+      "pattern": "Psychology and Brain Fact Repetition",
+      "evidence": "'Your Brain Can Create Fake Memories' struggled across multiple uploads (5, 10, and 53 views) and 'Songs Stuck in Your Head' failed to gain traction (17 and 71 views).",
+      "action": "Pivot away from generic cognitive psychology facts unless they can be framed with a highly dramatic, cinematic narrative hook."
     }
   ],
   "next_video": {
-    "category": "Space / What-If Scenario",
-    "hook_style": "High-stakes physical threat / Sensory shock",
+    "category": "Space & What-If Scenarios",
+    "hook_style": "Visceral Survival Threat",
     "concept": "What If You Fell Into the Planet of Molten Iron Rain?",
-    "opening_direction": "If you fell into WASP-76b, you wouldn't just burn—you would be pelted by liquid iron rain falling from the sky.",
-    "twist_direction": "But the real nightmare isn't the heat; it's the winds that whip this molten metal sideways at over ten thousand miles per hour.",
+    "opening_direction": "Show a cinematic render of a dark planet with glowing red clouds, starting with: 'If you fell onto WASP-76b, the rain wouldn't wet your skin—it would melt right through it.'",
+    "twist_direction": "Explain that because one side of the planet permanently faces its star, iron vaporizes, blows to the cold side, and condenses into actual liquid metal showers.",
     "duration_seconds": 21,
-    "posting_window": "13:00 - 14:00 UTC",
-    "reason": "Combines the highly successful 'What If You Fell Into...' framing with the proven appeal of extreme planetary weather (molten iron rain previously achieved 349 views in a descriptive format; converting it to a first-person hypothetical will maximize retention)."
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Leverages the proven success of exoplanet weather concepts ('Burning Ice', 'Supersonic Rubies') combined with the high-retention 'What If' survival format."
   },
-  "experiment": "Test a dramatic, story-first 'Cinematic Animal Survival' Short (e.g., 'The frog that freezes solid and stops its own heart to survive winter') to see if high-stakes biological drama can replicate the high retention of extreme space scenarios.",
+  "experiment": "Test a 3-part micro-series comparing the '3 Deadliest Planets in the Universe' using a countdown format to increase viewer swipe-through rate and session duration.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-23T04:37:38.418490+00:00"
+  "generated_at": "2026-09-23T05:35:57.760281+00:00"
 }
