@@ -27,10 +27,12 @@ NEGATIVE = (
 # Pixazo LTX Free is a shared asynchronous service. Keep generation sequential so a
 # slow queued job does not leave several orphaned server-side jobs running after one
 # client-side timeout. The GitHub job has a 120-minute budget.
-POLL_SECONDS = 8
+POLL_SECONDS = 10
 SHOT_TIMEOUT_SECONDS = 30 * 60
-SUBMIT_RETRIES = 4
+SUBMIT_RETRIES = 6
+STATUS_RETRIES = 8
 MAX_WORKERS = 1
+TRANSIENT_STATUS_CODES = {500, 502, 503, 504}
 
 
 def run(cmd):
@@ -74,11 +76,14 @@ def request_clip(prompt, num_frames, seed, shot_index):
     response = None
     for attempt in range(1, SUBMIT_RETRIES + 1):
         try:
-            response = requests.post(API_URL, json=payload, headers=headers, timeout=60)
-            if response.status_code != 429:
+            response = requests.post(API_URL, json=payload, headers=headers, timeout=90)
+            if response.status_code not in ({429} | TRANSIENT_STATUS_CODES):
                 break
-            wait = min(30, 5 * attempt)
-            print(f"Shot {shot_index}: Pixazo rate limited on submit; retrying in {wait}s")
+            wait = min(60, 5 * attempt)
+            print(
+                f"Shot {shot_index}: Pixazo submit returned HTTP {response.status_code}; "
+                f"retrying in {wait}s"
+            )
             time.sleep(wait)
         except requests.RequestException as exc:
             if attempt == SUBMIT_RETRIES:
@@ -101,25 +106,53 @@ def request_clip(prompt, num_frames, seed, shot_index):
     status_url = data.get("polling_url") or STATUS_URL.format(request_id=request_id)
     deadline = time.time() + SHOT_TIMEOUT_SECONDS
 
+    consecutive_status_errors = 0
     while time.time() < deadline:
         try:
-            status_response = requests.get(status_url, headers=headers, timeout=60)
+            status_response = requests.get(status_url, headers=headers, timeout=120)
         except requests.RequestException as exc:
-            print(f"Shot {shot_index}: status network error; retrying: {exc}")
-            time.sleep(POLL_SECONDS)
+            consecutive_status_errors += 1
+            wait = min(60, POLL_SECONDS * consecutive_status_errors)
+            print(
+                f"Shot {shot_index}: status network error "
+                f"({consecutive_status_errors}/{STATUS_RETRIES}); retrying in {wait}s: {exc}"
+            )
+            if consecutive_status_errors >= STATUS_RETRIES:
+                raise RuntimeError(
+                    f"Shot {shot_index}: Pixazo status endpoint repeatedly failed: {exc}"
+                ) from exc
+            time.sleep(wait)
             continue
 
-        if status_response.status_code == 429:
-            print(f"Shot {shot_index}: status rate limited; retrying in {POLL_SECONDS}s")
-            time.sleep(POLL_SECONDS)
+        if status_response.status_code == 429 or status_response.status_code in TRANSIENT_STATUS_CODES:
+            consecutive_status_errors += 1
+            wait = min(60, POLL_SECONDS * consecutive_status_errors)
+            print(
+                f"Shot {shot_index}: Pixazo status returned HTTP {status_response.status_code} "
+                f"({consecutive_status_errors}/{STATUS_RETRIES}); retrying in {wait}s"
+            )
+            if consecutive_status_errors >= STATUS_RETRIES:
+                raise RuntimeError(
+                    f"Shot {shot_index}: Pixazo status repeatedly failed "
+                    f"({status_response.status_code}): {status_response.text[:1000]}"
+                )
+            time.sleep(wait)
             continue
+
         if status_response.status_code >= 400:
             raise RuntimeError(
                 f"Shot {shot_index}: Pixazo status failed ({status_response.status_code}): "
                 f"{status_response.text[:1000]}"
             )
 
-        status = status_response.json()
+        consecutive_status_errors = 0
+        try:
+            status = status_response.json()
+        except ValueError as exc:
+            print(f"Shot {shot_index}: invalid Pixazo status JSON; retrying: {exc}")
+            time.sleep(POLL_SECONDS)
+            continue
+
         state = str(status.get("status", "")).upper()
         print(f"Shot {shot_index}: status={state}")
         if state == "COMPLETED":
