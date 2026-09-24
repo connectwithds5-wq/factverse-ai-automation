@@ -1,37 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "The channel's clear growth driver is extreme space anomalies and exoplanet 'What If' survival scenarios. Videos focusing on bizarre cosmic weather (e.g., burning ice, diamond rain, supersonic rubies) consistently outperform other categories. Conversely, abstract psychology and brain-trick content struggle to gain traction, indicating that the audience prefers high-stakes, visually dramatic cosmic mysteries over cognitive science.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Exoplanet Weather & 'What If' Cosmic Survival",
-      "evidence": "Videos like 'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,025 views), 'What If You Fell Into the Planet of Burning Ice?' (954 views), and 'This Planet Rains Supersonic Rubies!' (721 views) represent the channel's top-performing tier.",
-      "action": "Produce a dedicated series on extreme exoplanets, using the 'What If You Fell/Visited' framing combined with highly sensory, hostile environmental conditions (e.g., metal rain, supersonic winds)."
-    },
-    {
-      "pattern": "Mind-Bending Comparative Scale Facts",
-      "evidence": "Videos comparing timelines, such as 'Sharks Are OLDER Than Saturn's Rings?' (296 views) and 'Sharks Are Older Than Trees?' (302 views), perform significantly better than standard animal facts.",
-      "action": "Create more 'Timeline Shockers' that pit famous historical eras or species against cosmic timelines (e.g., T-Rex vs. the Milky Way's rotation)."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Abstract Psychology & Cognitive Tricks",
-      "evidence": "Videos like 'Your Brain Can Create Fake Memories' (multiple uploads peaking at only 53 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to reach a broad audience.",
-      "action": "Phase out cognitive psychology and brain-hacking tips unless they can be re-framed as a high-stakes evolutionary survival mechanism."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space / What-If Scenario",
-    "hook_style": "Sensory Shock & High-Stakes Survival",
-    "concept": "What If You Fell Into the Planet That Rains Glass Sideways?",
-    "opening_direction": "Start with a close-up of a beautiful, deep-blue alien world, then immediately cut to a simulated visual of razor-sharp glass shards flying horizontally.",
-    "twist_direction": "Reveal that the planet's cobalt blue color doesn't come from water, but from oceans of molten glass, whipped into sideways torrents by 5,400 mph winds.",
-    "duration_seconds": 20,
-    "posting_window": "12:00 PM - 1:30 PM UTC",
-    "reason": "Combines the highly successful exoplanet weather theme with the high-retention 'What If' survival format, targeting the exact duration (20s) and posting window of the channel's top-performing videos."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'Cosmic Survival Guide' sub-series where the viewer is given 3 rules to survive 5 seconds on a specific extreme planet, leveraging gamified retention.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-24T09:38:09.318499+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-24T10:37:07.852535+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-24T10:37:07.852556+00:00"
 }
