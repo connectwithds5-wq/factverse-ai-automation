@@ -1,21 +1,42 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "The channel's clear breakout performers are extreme cosmic phenomena, specifically 'What If' scenarios involving hostile exoplanets and mind-bending planetary weather (e.g., burning ice, supersonic rubies, diamond rain). In contrast, generic psychology and brain facts are severely underperforming and failing to capture initial viewer interest.",
+  "winning_patterns": [
+    {
+      "pattern": "Extreme Exoplanet 'What If' Scenarios & Hostile Weather",
+      "evidence": "'What If You Fell Into the Planet of Burning Ice?' (970 views), 'The Planet Darker Than Coal' (1,025 views), and 'This Planet Rains Supersonic Rubies!' (721 views) represent the highest tier of performance.",
+      "action": "Double down on highly visual, hostile exoplanet environments. Frame them as survival or exploration 'What If' scenarios to maximize viewer retention."
+    },
+    {
+      "pattern": "Anachronistic & Bizarre Biological Comparisons",
+      "evidence": "'Sharks Are Older Than Saturn's Rings?' (297 views, 18 likes) and 'Octopuses Have THREE Hearts' (363 views, 19 likes) show strong engagement ratios.",
+      "action": "Produce content comparing ancient Earth biology to cosmic timelines or highlighting bizarre physical traits of well-known animals."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Generic Psychology & Brain Facts",
+      "evidence": "'Your Brain Can Create Fake Memories' repeatedly flopped across multiple uploads (5, 10, and 53 views). 'Your Brain Is Hiding This From You' got only 38 views.",
+      "action": "Pivot away from standard psychological tricks and brain facts unless they can be framed as a high-stakes survival or horror micro-story."
+    },
+    {
+      "pattern": "Vague Cosmic Claims Lacking Visual Stakes",
+      "evidence": "'This Star Is Older Than the Universe!' (11 views) and 'The Planet Where It Rains Liquid Metal!' (10 views) failed to gain traction.",
+      "action": "Avoid abstract cosmic facts. Ensure every space video has a highly sensory, visceral hook (e.g., smelling like steak, raining glass sideways, or crushing gravity)."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "What-If Scenarios / Space",
+    "hook_style": "Visceral Survival Threat",
+    "concept": "What If You Fell Into HD 189733b (The Planet of Sideways Glass Rain)?",
+    "opening_direction": "Start with a close-up CGI render of blue atmosphere, instantly interrupted by a shattering sound effect: 'If you stepped onto this beautiful blue planet, you wouldn't breathe—you'd be shredded by glass raining sideways at five thousand miles per hour.'",
+    "twist_direction": "Reveal that the planet's lovely blue color doesn't come from oceans, but from the light reflecting off billions of tiny, airborne silicate (glass) particles suspended in howling winds.",
+    "duration_seconds": 21,
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Combines the highly successful 'What If' survival format with the proven appeal of extreme planetary weather (glass rain), matching the optimal 21-second duration of the channel's top-performing videos."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-25T22:35:51.840671+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-25T22:35:51.840692+00:00"
+  "experiment": "Test a 'Cinematic Animal Survival' micro-story focusing on how sharks survived multiple mass extinctions that wiped out the dinosaurs, leveraging the proven appeal of shark-related curiosity.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-25T23:35:01.630607+00:00"
 }
