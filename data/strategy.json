@@ -1,32 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Space-themed Shorts focusing on extreme, hostile, or bizarre exoplanets (e.g., burning ice, diamond planets, supersonic rubies) dominate the channel's performance, consistently driving peak views. Conversely, cognitive psychology facts, brain quirks, and passive space facts struggle to gain traction, often stalling under 100 views.",
-  "winning_patterns": [
-    {
-      "pattern": "Sensational Exoplanet Environments & 'What If' Survival Scenarios",
-      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,025 views), and 'What If You Fell Into the Planet of Burning Ice?' (960 views) represent the channel's peak performance.",
-      "action": "Double down on extreme planetary conditions, framing them as active, high-stakes 'What If' survival scenarios to boost viewer retention."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Cognitive Psychology & Brain Quirks",
-      "evidence": "'Your Brain Can Create Fake Memories' (stalled at 5 to 10 views across multiple uploads) and 'The Real Reason Songs Get Stuck In Your Head' (17 views).",
-      "action": "Pivot away from soft psychology and brain facts, reallocating production resources to high-impact cosmic mysteries."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space / What-If Scenario",
-    "hook_style": "Visceral, high-stakes survival question",
-    "concept": "What If You Fell Into the Planet Hotter Than the Sun? ☀️",
-    "opening_direction": "Start with a dramatic visual of a spacecraft melting instantly: 'If you fell into Kepler-70b, you wouldn't just burn—you would vaporize in a fraction of a millisecond.'",
-    "twist_direction": "Reveal that this metal-vaporizing planet is actually orbiting inside its host star's outer layers, defying physics.",
-    "duration_seconds": 20,
-    "posting_window": "13:00 - 14:30 UTC",
-    "reason": "Capitalizes on the highly successful 'What If You Fell Into...' format combined with extreme planetary physics, which has proven to drive 10x more views than other topics on the channel."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 2-part mini-series format on extreme cosmic anomalies, ending Part 1 on a cliffhanger ('How this planet survives its star will break your brain... Part 2 tomorrow') to drive profile visits and subscriptions.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-25T03:37:11.102619+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-25T04:38:27.564164+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-25T04:38:27.564187+00:00"
 }
