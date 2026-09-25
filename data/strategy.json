@@ -1,42 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "The channel's highest-performing content revolves around extreme space anomalies and exoplanet mysteries, particularly those featuring hostile environments (e.g., burning ice, ruby rain, glass rain) or first-person 'What If' survival scenarios. Conversely, psychology and brain-related facts consistently fail to gain traction, often struggling to break double-digit views.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Exoplanet Environments & Hostile Space Anomalies",
-      "evidence": "Videos like 'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,025 views), and 'This Planet Rains Supersonic Rubies!' (721 views) represent the channel's peak performance.",
-      "action": "Double down on specific, highly visual exoplanets with extreme weather conditions, using vivid sensory descriptions (e.g., rain, temperature, color)."
-    },
-    {
-      "pattern": "High-Stakes 'What If' Survival Scenarios",
-      "evidence": "'What If You Fell Into the Planet of Burning Ice?' achieved 969 views and 'What If You Fell Into This $26 Nonillion Diamond Planet?' reached 494 views.",
-      "action": "Frame exoplanet facts as first-person survival scenarios ('What If You Fell Into...') to boost viewer retention and emotional investment."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Psychology and Brain-Related Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' (5, 10, and 53 views across multiple uploads) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently underperform.",
-      "action": "Pivot away from abstract psychological concepts and redirect production resources toward physical space and cosmic mysteries."
-    },
-    {
-      "pattern": "Generic or Non-Visual Space Facts",
-      "evidence": "'Why Space Is Completely Silent' (33 views) and 'This Star Is Older Than the Universe!' (11 views) failed to capture interest compared to exoplanet anomalies.",
-      "action": "Avoid passive, textbook-style space facts; ensure every space video has an active, mind-bending, or dangerous visual element."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space / What-If Scenario",
-    "hook_style": "First-person high-stakes survival question",
-    "concept": "What If You Fell Into the Planet of Sideways Glass Rain?",
-    "opening_direction": "Start with a dramatic zoom-in on a beautiful cobalt-blue planet, instantly shattering the illusion: 'This beautiful blue planet looks like Earth, but falling here means death by a million flying knives.'",
-    "twist_direction": "Reveal that the gorgeous blue color is actually light reflecting off molten glass raining sideways at 5,400 miles per hour.",
-    "duration_seconds": 20,
-    "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Combines the proven exoplanet mystery theme with the high-performing 'What If' survival framing, leveraging the highly visual concept of HD 189733b."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'What If' survival scenario focused on deep-sea ocean anomalies (e.g., falling into the Mariana Trench or the underwater waterfall) to see if the high-performing space-survival format translates successfully to geography and ocean mysteries.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-25T07:37:44.454891+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-25T08:38:33.446336+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-25T08:38:33.446357+00:00"
 }
