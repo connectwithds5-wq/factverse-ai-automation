@@ -1,42 +1,32 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Space and exoplanet-themed content, particularly extreme planetary environments and hypothetical 'What If' scenarios, vastly outperform psychology and generic science trivia. Videos focusing on bizarre cosmic phenomena consistently cross the 500-1,000 views threshold, whereas brain/psychology facts struggle to break 100 views.",
+  "overall_summary": "Space-themed Shorts focusing on extreme, hostile, or bizarre exoplanets (e.g., burning ice, diamond planets, supersonic rubies) dominate the channel's performance, consistently driving peak views. Conversely, cognitive psychology facts, brain quirks, and passive space facts struggle to gain traction, often stalling under 100 views.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanet Environments",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' (1,055 views), 'The Planet Darker Than Coal: TrES-2b' (1,025 views), and 'This Planet Rains Supersonic Rubies!' (721 views) are the channel's top performers.",
-      "action": "Double down on extreme planetary conditions (e.g., extreme heat, bizarre rain, strange gravity) using vivid, high-contrast visual descriptions."
-    },
-    {
-      "pattern": "First-Person 'What If' Space Scenarios",
-      "evidence": "'What If You Fell Into the Planet of Burning Ice?' achieved 960 views, and 'What If You Fell Into This $26 Nonillion Diamond Planet?' achieved 494 views.",
-      "action": "Frame exoplanet facts as immersive survival scenarios, placing the viewer directly into the environment ('What If You Visited...', 'What If You Fell Into...')."
+      "pattern": "Sensational Exoplanet Environments & 'What If' Survival Scenarios",
+      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,025 views), and 'What If You Fell Into the Planet of Burning Ice?' (960 views) represent the channel's peak performance.",
+      "action": "Double down on extreme planetary conditions, framing them as active, high-stakes 'What If' survival scenarios to boost viewer retention."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Psychology & Brain Mechanics",
-      "evidence": "'Your Brain Can Create Fake Memories' (max 53 views across multiple uploads) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction.",
-      "action": "Pause production on cognitive psychology and brain-trick content, or reframe them through a high-stakes survival/horror lens."
-    },
-    {
-      "pattern": "Generic Space Trivia",
-      "evidence": "'This Star Is Older Than the Universe!' (11 views) and 'Why Space Is Completely Silent' (max 220 views) underperform compared to specific, extreme exoplanet stories.",
-      "action": "Avoid basic, textbook space facts; prioritize highly visual, mind-bending anomalies."
+      "pattern": "Cognitive Psychology & Brain Quirks",
+      "evidence": "'Your Brain Can Create Fake Memories' (stalled at 5 to 10 views across multiple uploads) and 'The Real Reason Songs Get Stuck In Your Head' (17 views).",
+      "action": "Pivot away from soft psychology and brain facts, reallocating production resources to high-impact cosmic mysteries."
     }
   ],
   "next_video": {
     "category": "Space / What-If Scenario",
-    "hook_style": "Immersive, high-stakes hypothetical question",
-    "concept": "What If You Fell Into TrES-2b, the Planet Darker Than Coal?",
-    "opening_direction": "Start with a completely black screen, then fade in a terrifyingly faint, glowing red silhouette of a planet.",
-    "twist_direction": "Reveal that despite being darker than coal, the planet actually glows a ghostly, burning red because its atmosphere is as hot as molten lava.",
-    "duration_seconds": 19,
-    "posting_window": "18:00 - 20:00 UTC",
-    "reason": "Combines the channel's top-performing exoplanet (TrES-2b, 1,025 views) with the highly engaging 'What If You Fell Into' format (960 views) to maximize viewer retention."
+    "hook_style": "Visceral, high-stakes survival question",
+    "concept": "What If You Fell Into the Planet Hotter Than the Sun? ☀️",
+    "opening_direction": "Start with a dramatic visual of a spacecraft melting instantly: 'If you fell into Kepler-70b, you wouldn't just burn—you would vaporize in a fraction of a millisecond.'",
+    "twist_direction": "Reveal that this metal-vaporizing planet is actually orbiting inside its host star's outer layers, defying physics.",
+    "duration_seconds": 20,
+    "posting_window": "13:00 - 14:30 UTC",
+    "reason": "Capitalizes on the highly successful 'What If You Fell Into...' format combined with extreme planetary physics, which has proven to drive 10x more views than other topics on the channel."
   },
-  "experiment": "Test a high-stakes 'What If' survival scenario in the Cinematic Animal Survival niche (e.g., 'What If You Were Swallowed Alive by a Blue Whale?') to see if the successful 'What If' format translates from space to animal biology.",
+  "experiment": "Test a 2-part mini-series format on extreme cosmic anomalies, ending Part 1 on a cliffhanger ('How this planet survives its star will break your brain... Part 2 tomorrow') to drive profile visits and subscriptions.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-25T02:36:52.259953+00:00"
+  "generated_at": "2026-09-25T03:37:11.102619+00:00"
 }
