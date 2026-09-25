@@ -1,42 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Immersive space exploration and extreme exoplanet survival scenarios consistently outperform all other niches on the channel. Videos focusing on bizarre planetary weather (burning ice, supersonic rubies, coal-dark atmospheres) and first-person 'What If' survival concepts drive the highest views and engagement, while cognitive psychology, brain tricks, and simple animal facts struggle to gain traction.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Exoplanet Weather and Composition",
-      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,025 views), and 'This Planet Rains Supersonic Rubies!' (721 views) represent the channel's peak performance.",
-      "action": "Double down on extreme planetary environments, focusing on bizarre chemical compositions, extreme temperatures, and terrifying weather systems."
-    },
-    {
-      "pattern": "First-Person 'What If' Space Survival Scenarios",
-      "evidence": "'What If You Fell Into the Planet of Burning Ice?' (959 views) and 'What If You Fell Into This $26 Nonillion Diamond Planet?' (494 views) significantly outperform standard factual listings.",
-      "action": "Frame exoplanet discoveries as high-stakes, first-person survival scenarios ('What If You Visited...' or 'What If You Fell Into...') to increase viewer retention."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Cognitive Psychology and Brain Hacks",
-      "evidence": "'Your Brain Can Create Fake Memories' (stagnating at 10 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to find an audience.",
-      "action": "Deprioritize standard psychology facts and brain tricks, or completely reframe them through a sci-fi/technological lens."
-    },
-    {
-      "pattern": "Generic Animal Trivia",
-      "evidence": "'The Only Animal That Can Live Forever' generated only 69 views, and 'Sharks Are Older Than WHAT?!' stalled at 122 views.",
-      "action": "Avoid basic animal trivia unless it is framed as a high-stakes cinematic survival story or linked to prehistoric/space mysteries."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "What-If Scenarios / Space",
-    "hook_style": "Immersive First-Person Threat",
-    "concept": "What If You Fell Into the Planet That Rains Sideways Glass?",
-    "opening_direction": "Show a cinematic, deep-blue alien world with the narrator saying: 'If you stepped onto this beautiful blue planet, you wouldn't drown in water—you'd be shredded by glass flying at 5,000 miles per hour.'",
-    "twist_direction": "Reveal that because of howling supersonic winds, this glass rain doesn't fall down—it rains entirely sideways, slicing through a space suit in milliseconds.",
-    "duration_seconds": 20,
-    "posting_window": "12:00 PM - 2:00 PM",
-    "reason": "Combines the highly successful exoplanet weather theme (HD 189733b) with the top-performing 'What If' first-person survival format to optimize both CTR and retention."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a cinematic AI micro-drama following a fictional astronaut's final 15 seconds on TrES-2b (the coal-dark planet) to see if combining the high-performing exoplanet niche with story-first cinematic tension increases average view duration.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-24T23:35:01.373089+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-25T00:41:46.212346+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-25T00:41:46.212369+00:00"
 }
