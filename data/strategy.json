@@ -1,21 +1,42 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "The channel's clear performance drivers are extreme space anomalies and high-stakes 'What If' survival scenarios on exoplanets, with videos regularly crossing 1,000 views. Conversely, generic psychology facts and dry, non-visual space trivia consistently underperform, struggle with reach, and fail to generate viewer engagement.",
+  "winning_patterns": [
+    {
+      "pattern": "Extreme Space & Exoplanet Survival Scenarios",
+      "evidence": "'The Planet of Burning Ice' (1,055 views), 'The Planet Darker Than Coal' (1,025 views), and 'What If You Fell Into the Planet of Burning Ice?' (960 views) represent the channel's top-performing tier.",
+      "action": "Double down on extreme exoplanet environments, specifically framing them as active, first-person survival scenarios ('What If You Fell Into...' or 'What If You Visited...')."
+    },
+    {
+      "pattern": "Mind-Bending Animal & Nature Comparisons",
+      "evidence": "'Octopuses Have THREE Hearts' (363 views) and 'Sharks Are Older Than Saturn's Rings?' (297 views) outperform standard animal trivia.",
+      "action": "Frame biological facts by comparing them to massive cosmic scales or unexpected historical timelines to create cognitive dissonance."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Generic Psychology & Brain Trivia",
+      "evidence": "'Your Brain Can Create Fake Memories' (10 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) failed to gain any traction.",
+      "action": "Pivot away from soft self-help or basic psychology facts unless they can be packaged with a highly cinematic, high-stakes hook."
+    },
+    {
+      "pattern": "Dry, Passive Space Facts",
+      "evidence": "'This Star Is Older Than the Universe!' (11 views) and 'Why Space Is Completely Silent' (33 views) severely underperformed compared to active exoplanet videos.",
+      "action": "Avoid passive, non-visual concepts. Every space video must feature active danger, extreme weather, or massive physical forces."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "what-if scenarios",
+    "hook_style": "Immersive, high-stakes hypothetical scenario",
+    "concept": "What If You Fell Into the Planet of Sideways Glass Rain?",
+    "opening_direction": "If you fell into exoplanet HD 189733b, you wouldn't just drown—you'd be shredded by glass raining sideways at 5,400 miles per hour.",
+    "twist_direction": "But the real nightmare isn't the speed; it's that the glass is actually molten silicate, meaning you'd be pelted by boiling, liquid-hot shards before you even hit the surface.",
+    "duration_seconds": 21,
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Combines the highly successful 'What If You Fell...' framing (960+ views) with the extreme exoplanet weather theme, which previously showed strong baseline interest (403 views for 'A Planet Where It May Rain Glass')."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-25T00:41:46.212346+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-25T00:41:46.212369+00:00"
+  "experiment": "Test a cinematic historical storytelling short focusing on a bizarre survival event (e.g., the man who survived both atomic bombs) to see if the high-stakes survival audience from the space niche translates to historical storytelling.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-25T01:34:29.555680+00:00"
 }
