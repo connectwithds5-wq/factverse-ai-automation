@@ -1,42 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "The channel's performance is heavily driven by extreme space physics and 'What If' planetary survival scenarios, which consistently generate the highest views (ranging from 400 to over 1,000 views). Conversely, generic psychology and brain-related facts ('Fake Memories', 'Songs Stuck in Your Head') are severely underperforming, often struggling to break double-digit views. Animal survival and mind-bending historical comparisons (e.g., Sharks vs. Saturn's rings) show moderate, stable traction.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme 'What If' Planetary Survival Scenarios",
-      "evidence": "'What If You Fell Into the Planet of Burning Ice?' (970 views), 'What If You Fell Into This $26 Nonillion Diamond Planet?' (494 views), and 'What If You Fell Into a Liquid Diamond Planet?' (293 views) significantly outperform standard factual statements.",
-      "action": "Pivot planetary facts into first-person 'What If' survival narratives, focusing on the physical consequences of entering these extreme environments."
-    },
-    {
-      "pattern": "Extreme Cosmic Anomalies with High-Contrast Hooks",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' (1,055 views) and 'The Planet Darker Than Coal: TrES-2b' (1,025 views) lead the channel's performance.",
-      "action": "Use oxymoronic or highly contrasting concepts in titles and hooks (e.g., 'burning ice', 'darker than coal', 'supersonic rubies') to trigger immediate curiosity."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Generic Psychology & Brain Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' (multiple uploads yielding 5, 10, and 53 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction.",
-      "action": "De-prioritize standard cognitive psychology facts unless they can be framed through a high-stakes horror, mystery, or survival lens."
-    },
-    {
-      "pattern": "Vague or Abstract Space Trivia",
-      "evidence": "'This Star Is Older Than the Universe!' (11 views) and 'The Planet Where It Rains Liquid Metal!' (10 views) underperformed compared to highly visual planetary concepts.",
-      "action": "Avoid abstract cosmic measurements; instead, focus on tangible, highly visual hazards like supersonic rain, extreme temperatures, or physical impact."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space / What-If Scenario",
-    "hook_style": "First-person extreme survival hazard",
-    "concept": "What If You Fell Into the Planet That Rains Glass Sideways?",
-    "opening_direction": "Start with a high-velocity first-person visual descent into a beautiful, deep blue atmosphere, immediately interrupted by the sound of howling winds and cracking glass.",
-    "twist_direction": "Reveal that despite looking like a peaceful blue Earth-twin from afar, the 5,400 mph winds turn the sideways-raining glass into a literal cosmic blender that would shred a spacesuit in milliseconds.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 3:00 PM UTC",
-    "reason": "This concept leverages the highly successful 'What If You Fell Into...' format, utilizing HD 189733b (which previously underperformed under a weak title) and reframing it with high-retention visual storytelling and extreme physical stakes."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'Cinematic Animal Survival' micro-story focusing on a deep-sea creature (e.g., the Greenland Shark or Colossal Squid) using the same high-stakes 'What If' framing to see if the space audience's appetite for extreme environments translates to deep-ocean mysteries.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-26T03:37:05.372949+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-26T04:41:09.085197+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-26T04:41:09.085219+00:00"
 }
