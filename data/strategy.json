@@ -1,21 +1,47 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "FACTVERSE is seeing a significant performance surge by transitioning from short, generic psychology and animal facts (12-16s) to slightly longer, highly immersive 'What If' cosmic survival scenarios and extreme space anomalies (19-21s). Videos focusing on extreme planetary conditions and first-person hypothetical journeys ('What If You Fell Into...') are driving the highest views, likes, and comments on the channel.",
+  "winning_patterns": [
+    {
+      "pattern": "First-Person 'What If' Space Survival Scenarios",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' achieved 999 views and 38 likes. 'What If You Fell Into the Planet of Burning Ice?' gained 970 views. 'What If You Fell Into the Darkest Planet?' reached 823 views.",
+      "action": "Adopt 'What If You Fell Into...' as a primary recurring series format, focusing on extreme environments and immediate physical consequences to maximize viewer retention."
+    },
+    {
+      "pattern": "Extreme Cosmic Anomalies & Weather",
+      "evidence": "'The Planet Darker Than Coal: TrES-2b' hit 1,025 views and 36 likes. 'The Planet of Burning Ice Will Break Your Brain!' hit 1,055 views. 'This Planet Rains Supersonic Rubies!' hit 721 views.",
+      "action": "Focus space content on mind-bending, extreme physical properties (e.g., ruby rain, burning ice, dark planets) rather than basic astronomical facts."
+    },
+    {
+      "pattern": "Extended 19-21 Second Durations with Immersive Pacing",
+      "evidence": "The 21-second version of 'Octopuses Have THREE Hearts' achieved 363 views and 19 likes, whereas the 12-second versions of the exact same topic only reached 118 and 183 views.",
+      "action": "Standardize video length to 19-21 seconds to allow for a stronger narrative build-up and deeper immersion, which clearly outperforms ultra-short 12-15s clips."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Generic Psychology & Brain Facts",
+      "evidence": "'Your Brain Can Create Fake Memories' struggled with only 5 to 53 views across multiple uploads. 'Your Brain Is Hiding This From You' got only 38 views.",
+      "action": "Pivot away from generic cognitive psychology facts unless they can be framed through a highly dramatic, survival, or mystery-driven lens."
+    },
+    {
+      "pattern": "Low-Stakes or Abstract Science Concepts",
+      "evidence": "'How Do Clouds Float If They Weigh THIS Much?' got 77 views. 'Why Space Is Completely Silent' got 33 views. 'AI Recreates Pink Floyd Song' got 87 views.",
+      "action": "Avoid passive, textbook-style science questions. Replace them with active, high-stakes scenarios that trigger immediate curiosity."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space / What-If Scenario",
+    "hook_style": "First-person physical threat / Extreme environment",
+    "concept": "What If You Fell Into the Planet of Molten Iron Rain?",
+    "opening_direction": "Start with a visual of a suit melting instantly: 'If you stepped onto planet WASP-76b, the sky wouldn't rain water—it would rain boiling, liquid iron.'",
+    "twist_direction": "Reveal that because one side of the planet permanently faces its star, the iron vaporizes, blows to the cold night side, and condenses into a literal metal downpour.",
+    "duration_seconds": 21,
+    "posting_window": "12:30 PM - 1:30 PM",
+    "reason": "Leverages the highly successful 'What If' survival format, targets extreme space weather which is currently the channel's top-performing topic, and utilizes the optimal 21-second duration."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-26T21:34:55.881017+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-26T21:34:55.881032+00:00"
+  "experiment": "Test a cinematic historical storytelling short: 'The Ancient Roman Weapon Science Still Can't Explain' (focusing on Greek Fire) to see if the high-performing mystery/survival elements of the space videos can successfully translate to historical storytelling.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-26T22:35:25.038704+00:00"
 }
