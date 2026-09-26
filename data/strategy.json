@@ -1,32 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Space and exoplanet content, specifically when framed as an immersive first-person hypothetical scenario ('What If You Fell Into...'), significantly outperforms psychology, brain tricks, and basic animal facts. Additionally, slightly longer and more detailed 21-second formats are driving much higher engagement and views than the shorter 12-16 second clips.",
-  "winning_patterns": [
-    {
-      "pattern": "First-Person Hypothetical Exoplanet Exploration ('What If You Fell Into...')",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,001 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (970 views, 18 likes) represent the channel's peak performance.",
-      "action": "Standardize the 'What If You Fell Into...' POV hook for extreme space and exoplanet topics, utilizing high-quality cinematic visuals and a 21-second narrative structure."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Generic Psychology and Brain Hacks",
-      "evidence": "'Your Brain Can Create Fake Memories' (5 views) and 'Your Brain Is Hiding This From You' (38 views) consistently failed to capture viewer interest.",
-      "action": "Pivot away from standard psychology facts. If psychology is covered, reframe it under a dark mystery or horror micro-story lens rather than a dry factual presentation."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space / What-If Scenarios",
-    "hook_style": "First-person hypothetical threat",
-    "concept": "What If You Fell Into WASP-76b (The Iron Rain Planet)?",
-    "opening_direction": "If you fell into this planet, you wouldn't just burn—you'd be shredded by supersonic iron rain.",
-    "twist_direction": "Reveal that the wind speeds are so extreme they carry vaporized metal from the 4,000-degree day side to the night side, where it literally condenses and rains down as liquid iron.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Directly replicates the highly successful 'What If You Fell Into...' POV format using WASP-76b, a terrifying and highly visual exoplanet that aligns perfectly with the channel's top-performing space-horror themes."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Apply the successful 'What If You Fell Into...' POV format to a deep-sea geography mystery (e.g., falling into the Earth's largest underwater waterfall) to test if the format's high retention translates to other categories.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-26T20:36:01.898846+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-26T21:34:55.881017+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-26T21:34:55.881032+00:00"
 }
