@@ -1,42 +1,42 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "The channel's clear breakout performers are extreme cosmic phenomena, specifically 'What If' scenarios involving hostile exoplanets and mind-bending planetary weather (e.g., burning ice, supersonic rubies, diamond rain). In contrast, generic psychology and brain facts are severely underperforming and failing to capture initial viewer interest.",
+  "overall_summary": "Exoplanet chemistry and extreme cosmic environments are the primary growth drivers for FACTVERSE. Framing these space facts as first-person survival scenarios ('What If You Fell Into...') significantly boosts views and engagement compared to standard trivia. Conversely, brain facts, cognitive psychology, and generic space questions consistently underperform and struggle to capture audience retention.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanet 'What If' Scenarios & Hostile Weather",
-      "evidence": "'What If You Fell Into the Planet of Burning Ice?' (970 views), 'The Planet Darker Than Coal' (1,025 views), and 'This Planet Rains Supersonic Rubies!' (721 views) represent the highest tier of performance.",
-      "action": "Double down on highly visual, hostile exoplanet environments. Frame them as survival or exploration 'What If' scenarios to maximize viewer retention."
+      "pattern": "Extreme Exoplanet Weather & Chemistry",
+      "evidence": "The Planet of Burning Ice (vWd0uYcEGh4) reached 1,055 views, TrES-2b (v1rrcZLdp4U) hit 1,025 views, and Supersonic Rubies (QXuqYERlqSo) achieved 721 views.",
+      "action": "Produce content focusing on exotic exoplanets with dramatic visual and chemical anomalies, emphasizing high-contrast concepts like burning ice or raining gems."
     },
     {
-      "pattern": "Anachronistic & Bizarre Biological Comparisons",
-      "evidence": "'Sharks Are Older Than Saturn's Rings?' (297 views, 18 likes) and 'Octopuses Have THREE Hearts' (363 views, 19 likes) show strong engagement ratios.",
-      "action": "Produce content comparing ancient Earth biology to cosmic timelines or highlighting bizarre physical traits of well-known animals."
+      "pattern": "'What If You Fell Into...' Survival Scenarios",
+      "evidence": "What If You Fell Into the Planet of Burning Ice (8KEl0_pJ_68) reached 970 views and the $26 Nonillion Diamond Planet (6pwazIPnOHw) hit 494 views.",
+      "action": "Frame exoplanet facts as hypothetical first-person survival situations to increase viewer immersion and drive higher retention."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Psychology & Brain Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' repeatedly flopped across multiple uploads (5, 10, and 53 views). 'Your Brain Is Hiding This From You' got only 38 views.",
-      "action": "Pivot away from standard psychological tricks and brain facts unless they can be framed as a high-stakes survival or horror micro-story."
+      "pattern": "Brain, Memory, & Cognitive Psychology Facts",
+      "evidence": "Your Brain Can Create Fake Memories (r43-7nSn8SQ) generated only 10 views, and The Psychological Trick to Stop Songs (ef3ND4qiRHc) got 71 views.",
+      "action": "Deprioritize standard cognitive psychology and brain trivia unless they can be framed with a highly dramatic, cinematic narrative."
     },
     {
-      "pattern": "Vague Cosmic Claims Lacking Visual Stakes",
-      "evidence": "'This Star Is Older Than the Universe!' (11 views) and 'The Planet Where It Rains Liquid Metal!' (10 views) failed to gain traction.",
-      "action": "Avoid abstract cosmic facts. Ensure every space video has a highly sensory, visceral hook (e.g., smelling like steak, raining glass sideways, or crushing gravity)."
+      "pattern": "Generic Space Questions & Basic Astronomy Trivia",
+      "evidence": "Why Space Is Completely Silent (heB9rFCBRM8) generated only 33 views, and This Star Is Older Than the Universe (vFXHTmYITp4) got 11 views.",
+      "action": "Avoid basic space trivia that has been widely covered across YouTube; focus instead on highly specific, bizarre, and terrifying cosmic phenomena."
     }
   ],
   "next_video": {
-    "category": "What-If Scenarios / Space",
-    "hook_style": "Visceral Survival Threat",
-    "concept": "What If You Fell Into HD 189733b (The Planet of Sideways Glass Rain)?",
-    "opening_direction": "Start with a close-up CGI render of blue atmosphere, instantly interrupted by a shattering sound effect: 'If you stepped onto this beautiful blue planet, you wouldn't breathe—you'd be shredded by glass raining sideways at five thousand miles per hour.'",
-    "twist_direction": "Reveal that the planet's lovely blue color doesn't come from oceans, but from the light reflecting off billions of tiny, airborne silicate (glass) particles suspended in howling winds.",
+    "category": "what-if scenarios",
+    "hook_style": "First-Person Survival Hypothetical",
+    "concept": "What If You Fell Into the Planet That Rains Glass Sideways? (HD 189733b)",
+    "opening_direction": "If you fell into this beautiful blue planet, you wouldn't drown in water—you'd be shredded by glass raining sideways at 5,400 miles per hour.",
+    "twist_direction": "But the real nightmare isn't the wind. The atmosphere is packed with silicate particles, meaning you would literally breathe in molten glass before you even hit the surface.",
     "duration_seconds": 21,
-    "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Combines the highly successful 'What If' survival format with the proven appeal of extreme planetary weather (glass rain), matching the optimal 21-second duration of the channel's top-performing videos."
+    "posting_window": "12:00 PM - 1:30 PM UTC",
+    "reason": "Combines the highly successful 'What If' survival framing with the top-performing exoplanet weather theme, matching the exact 21-second duration of the channel's highest-retention uploads."
   },
-  "experiment": "Test a 'Cinematic Animal Survival' micro-story focusing on how sharks survived multiple mass extinctions that wiped out the dinosaurs, leveraging the proven appeal of shark-related curiosity.",
+  "experiment": "Test a 21-second comparative survival Short ('Which Planet Kills You Faster?') comparing the burning ice planet against the sideways glass rain planet to see if a side-by-side comparison format increases average view duration.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-25T23:35:01.630607+00:00"
+  "generated_at": "2026-09-26T00:41:26.820791+00:00"
 }
