@@ -1,42 +1,37 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Exoplanet chemistry and extreme cosmic environments are the primary growth drivers for FACTVERSE. Framing these space facts as first-person survival scenarios ('What If You Fell Into...') significantly boosts views and engagement compared to standard trivia. Conversely, brain facts, cognitive psychology, and generic space questions consistently underperform and struggle to capture audience retention.",
+  "overall_summary": "Space-themed 'What If' scenarios and cosmic extremes (such as planets with bizarre weather like burning ice, diamond rain, or supersonic rubies) consistently outperform generic psychology and standard animal facts. Audiences engage heavily with high-stakes, experiential cosmic concepts that trigger visual imagination.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanet Weather & Chemistry",
-      "evidence": "The Planet of Burning Ice (vWd0uYcEGh4) reached 1,055 views, TrES-2b (v1rrcZLdp4U) hit 1,025 views, and Supersonic Rubies (QXuqYERlqSo) achieved 721 views.",
-      "action": "Produce content focusing on exotic exoplanets with dramatic visual and chemical anomalies, emphasizing high-contrast concepts like burning ice or raining gems."
+      "pattern": "Experiential Space 'What-If' Scenarios",
+      "evidence": "'What If You Fell Into the Planet of Burning Ice?' (970 views) and 'What If You Fell Into This $26 Nonillion Diamond Planet?' (494 views) significantly outperform standard space facts.",
+      "action": "Pivot standard space facts into first-person 'What If' survival scenarios, describing the physical sensation of entering these extreme environments."
     },
     {
-      "pattern": "'What If You Fell Into...' Survival Scenarios",
-      "evidence": "What If You Fell Into the Planet of Burning Ice (8KEl0_pJ_68) reached 970 views and the $26 Nonillion Diamond Planet (6pwazIPnOHw) hit 494 views.",
-      "action": "Frame exoplanet facts as hypothetical first-person survival situations to increase viewer immersion and drive higher retention."
+      "pattern": "Planetary Weather Extremes",
+      "evidence": "'This Planet Rains Supersonic Rubies!' (721 views) and 'The Planet Darker Than Coal' (1,025 views) show high baseline interest in bizarre cosmic anomalies.",
+      "action": "Focus on highly visual, extreme planetary conditions using strong sensory words like 'supersonic', 'molten', and 'burning'."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Brain, Memory, & Cognitive Psychology Facts",
-      "evidence": "Your Brain Can Create Fake Memories (r43-7nSn8SQ) generated only 10 views, and The Psychological Trick to Stop Songs (ef3ND4qiRHc) got 71 views.",
-      "action": "Deprioritize standard cognitive psychology and brain trivia unless they can be framed with a highly dramatic, cinematic narrative."
-    },
-    {
-      "pattern": "Generic Space Questions & Basic Astronomy Trivia",
-      "evidence": "Why Space Is Completely Silent (heB9rFCBRM8) generated only 33 views, and This Star Is Older Than the Universe (vFXHTmYITp4) got 11 views.",
-      "action": "Avoid basic space trivia that has been widely covered across YouTube; focus instead on highly specific, bizarre, and terrifying cosmic phenomena."
+      "pattern": "Generic Psychology & Brain Facts",
+      "evidence": "Multiple uploads of 'Your Brain Can Create Fake Memories' struggled to cross 50 views, with some getting as low as 5 to 10 views.",
+      "action": "Halt generic psychology facts unless they are framed as an interactive test, a high-stakes mystery, or a dark psychological phenomenon."
     }
   ],
   "next_video": {
-    "category": "what-if scenarios",
-    "hook_style": "First-Person Survival Hypothetical",
-    "concept": "What If You Fell Into the Planet That Rains Glass Sideways? (HD 189733b)",
-    "opening_direction": "If you fell into this beautiful blue planet, you wouldn't drown in water—you'd be shredded by glass raining sideways at 5,400 miles per hour.",
-    "twist_direction": "But the real nightmare isn't the wind. The atmosphere is packed with silicate particles, meaning you would literally breathe in molten glass before you even hit the surface.",
+    "category": "Space / What-If Scenario",
+    "hook_style": "Experiential Threat",
+    "concept": "What If You Fell Into the Planet of Sideways Glass Rain?",
+    "opening_direction": "Start with a fast zoom-in on a deep blue planet: 'This beautiful blue planet looks exactly like Earth, but if you fell here, you'd be instantly shredded.'",
+    "twist_direction": "Reveal that the cobalt blue color comes from silicate particles, meaning it literally rains molten glass sideways at 5,400 miles per hour.",
     "duration_seconds": 21,
-    "posting_window": "12:00 PM - 1:30 PM UTC",
-    "reason": "Combines the highly successful 'What If' survival framing with the top-performing exoplanet weather theme, matching the exact 21-second duration of the channel's highest-retention uploads."
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Combines the proven 'What If' experiential format with the high-performing cosmic weather theme to maximize viewer retention and visual curiosity."
   },
-  "experiment": "Test a 21-second comparative survival Short ('Which Planet Kills You Faster?') comparing the burning ice planet against the sideways glass rain planet to see if a side-by-side comparison format increases average view duration.",
+  "experiment": "Test a 'What-If' survival scenario in a historical setting (e.g., 'What If You Were Sentenced to the Brazen Bull?') to see if the high-performing experiential format translates successfully from Space to History.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-26T00:41:26.820791+00:00"
+  "generated_at": "2026-09-26T01:35:23.137880+00:00"
 }
