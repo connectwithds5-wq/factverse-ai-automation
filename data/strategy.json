@@ -1,42 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Space-themed hypothetical scenarios, specifically the 'What If You Fell Into...' format combined with extreme planetary environments, are the channel's clear performance drivers. Conversely, generic psychology and brain facts consistently struggle to gain traction.",
-  "winning_patterns": [
-    {
-      "pattern": "First-Person 'What If You Fell Into...' Space Survival Scenarios",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (972 views, 38 likes), 'What If You Fell Into the Planet of Burning Ice?' (970 views, 18 likes), and 'What If You Fell Into the Darkest Planet?' (699 views, 15 likes) represent the highest tier of recent performance.",
-      "action": "Adopt the 'What If You Fell Into...' framing as the primary template for space content, focusing on extreme planetary conditions and survival mechanics."
-    },
-    {
-      "pattern": "Extreme Planetary Anomalies & Weather",
-      "evidence": "'The Planet Darker Than Coal' (1,025 views), 'The Planet of Burning Ice' (1,055 views), and 'This Planet Rains Supersonic Rubies!' (721 views) show strong baseline interest in bizarre cosmic environments.",
-      "action": "Highlight highly visual, extreme physical properties (e.g., rains of glass, iron, or rubies) in the first 3 seconds of the video."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Dry Cognitive Psychology & Memory Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' generated extremely low views across multiple uploads (5, 10, and 53 views). 'The Real Reason Songs Get Stuck In Your Head' stalled at 17 views.",
-      "action": "De-prioritize standard psychology facts unless they can be framed as high-stakes survival dilemmas or deep existential mysteries."
-    },
-    {
-      "pattern": "Low-Stakes Space Facts",
-      "evidence": "'Why Space Is Completely Silent' (33 views) and 'The Star Colder Than Ice' (82 views) underperformed compared to active, hostile planetary environments.",
-      "action": "Avoid passive space facts; focus instead on dynamic, dangerous, or highly active cosmic phenomena."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space / What-If Scenario",
-    "hook_style": "High-Stakes First-Person Survival",
-    "concept": "What If You Fell Into the Planet Where It Rains Glass Sideways?",
-    "opening_direction": "Start with a rapid, first-person POV CGI zoom falling through a beautiful cobalt-blue atmosphere, immediately interrupted by the sound of shattering glass and a warning: 'Do not let this beautiful blue planet fool you...'",
-    "twist_direction": "Reveal that the planet's winds blow at 7,000 km/h, turning the rain of molten glass into millions of supersonic, horizontal knives that would shred a spacesuit in milliseconds.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Combines the highly successful 'What If You Fell Into...' format with the proven appeal of extreme planetary weather (glass rain), optimized at the 21-second duration which characterizes the channel's top-performing videos."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'What If You Fell Into...' survival format applied to deep-ocean anomalies (e.g., 'What If You Fell Into the Mariana Trench Without a Suit?') to see if the high-performing space format translates successfully to geography and ocean mysteries.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-26T16:36:49.623021+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-26T17:35:51.904232+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-26T17:35:51.904255+00:00"
 }
