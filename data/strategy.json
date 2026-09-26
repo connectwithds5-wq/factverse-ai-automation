@@ -1,37 +1,21 @@
 {
   "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Space-themed content, specifically focusing on extreme planetary conditions and 'What If' survival scenarios, is the clear driver of reach and engagement for FACTVERSE. Conversely, cognitive psychology and basic trivia (like brain tricks and earworms) consistently underperform. Shifting focus toward high-stakes, visually rich cosmic mysteries and hypothetical scenarios will maximize growth.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Planetary 'What If' Scenarios",
-      "evidence": "'What If You Fell Into the Planet of Burning Ice?' (970 views) and 'What If You Fell Into This $26 Nonillion Diamond Planet?' (494 views) significantly outperform standard facts.",
-      "action": "Double down on 'What If' style hypothetical survival scenarios featuring extreme space environments, utilizing high-stakes, sensory-rich hooks."
-    },
-    {
-      "pattern": "Bizarre Cosmic Weather & Materials",
-      "evidence": "'This Planet Rains Supersonic Rubies!' (721 views, 25 likes) and 'The Planet Darker Than Coal' (1,025 views, 36 likes) show strong organic pull.",
-      "action": "Create a series focusing on the most terrifying or valuable materials found on alien worlds, emphasizing extreme physics."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Cognitive Psychology & Brain Quirks",
-      "evidence": "'Your Brain Can Create Fake Memories' (max 53 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) fail to capture audience interest.",
-      "action": "Pause production on general cognitive psychology and self-help style brain facts, or reframe them through a high-stakes mystery lens."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space / What-If Scenario",
-    "hook_style": "Experiential Terror & High-Stakes Survival",
-    "concept": "What If You Fell Into the Planet of Sideways Glass Rain?",
-    "opening_direction": "If you fell into HD 189733b, you wouldn't just crash—you'd be sliced into a million pieces by glass raining sideways at 5,000 miles per hour.",
-    "twist_direction": "But the real shocker? From space, this killer planet looks like a peaceful, beautiful blue oasis just like Earth.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 1:00 PM UTC",
-    "reason": "Leverages the highly successful 'What If' format and extreme planetary weather patterns (glass rain) which have historically generated the channel's peak views."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a non-space 'What If' survival scenario, such as 'What If You Were Trapped in the Deepest Cave on Earth?', to determine if the 'What If' framing or the cosmic setting is the primary driver of high performance.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-26T06:40:29.493533+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-26T07:34:54.082210+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-26T07:34:54.082229+00:00"
 }
