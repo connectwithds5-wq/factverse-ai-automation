@@ -1,32 +1,42 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "The channel's clear breakout performers are 'What If' space exploration scenarios and extreme planetary facts (specifically focusing on exotic rains, extreme temperatures, and hostile environments), consistently pulling 800-1000+ views. Conversely, generic brain psychology and memory-related facts are underperforming, often struggling to exceed 50 views.",
+  "overall_summary": "Cosmic anomalies, particularly extreme exoplanets and the immersive 'What If You Fell Into...' hypothetical scenario framing, are the dominant growth drivers for FACTVERSE. Conversely, standard biology/psychology trivia and repetitive re-uploads of basic facts underperform significantly and suffer from rapid audience fatigue.",
   "winning_patterns": [
     {
-      "pattern": "What-If Space Scenarios & Extreme Planets (21-Second Format)",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,018 views), 'What If You Fell Into the Planet of Burning Ice?' (970 views), and 'The Planet Darker Than Coal' (1,025 views) dominate the channel's top performance metrics, showing high engagement (up to 38 likes) at a 21-second duration.",
-      "action": "Double down on the 'What If You Fell Into...' framing for extreme cosmic objects, keeping the video duration strictly at 21 seconds to maximize watch time and retention."
+      "pattern": "First-Person 'What If You Fell Into...' Hypothetical Framing",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,019 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (970 views, 18 likes) are among the channel's top-performing videos.",
+      "action": "Adopt this immersive, high-stakes hypothetical format as the primary template for space-related content."
+    },
+    {
+      "pattern": "Extreme, Paradoxical Planetary Characteristics",
+      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,025 views, 36 likes) and 'This Planet Rains Supersonic Rubies!' (721 views, 25 likes) outperform standard space facts.",
+      "action": "Focus on highly visual, extreme, or paradoxical cosmic phenomena (e.g., burning ice, ruby rain) that create instant cognitive dissonance in the hook."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Brain Psychology & Memory Tricks",
-      "evidence": "'Your Brain Can Create Fake Memories' (5-53 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction, regardless of re-upload attempts.",
-      "action": "Pivot away from generic cognitive psychology and self-help style brain facts, or reframe them as high-stakes mysteries rather than passive educational facts."
+      "pattern": "Repetitive Re-uploads of Basic Space and Psychology Trivia",
+      "evidence": "Repeated uploads of 'Why Space Is Completely Silent' (dropping to 33 views) and 'Your Brain Can Create Fake Memories' (dropping to 5 views) show severe audience fatigue and low baseline traction.",
+      "action": "Cease direct re-uploading of identical video concepts and focus on producing unique, high-concept variations instead."
+    },
+    {
+      "pattern": "Low-Stakes or Dry Planetary Weather Facts",
+      "evidence": "'The Planet Where It Rains Liquid Metal!' (10 views) and 'The Planet Where It Rains Rock!' (50 views) failed to capture interest compared to precious-gem or extreme-temperature planets.",
+      "action": "Avoid mundane materials like rock or metal; prioritize high-value materials (diamonds, rubies) or extreme physical paradoxes."
     }
   ],
   "next_video": {
-    "category": "Space / What-If Scenario",
-    "hook_style": "High-stakes, first-person hypothetical",
-    "concept": "What If You Fell Into the Planet of Molten Iron?",
-    "opening_direction": "Show a cinematic simulation of falling through a glowing, metallic orange atmosphere with the hook: 'If you fell into WASP-76b, you wouldn't just burn...'",
-    "twist_direction": "Reveal that the wind blows so fast, the molten iron rain travels sideways at 10,000 miles per hour, turning the atmosphere into a supersonic blender of liquid metal.",
+    "category": "Space / What-If Scenarios",
+    "hook_style": "Hypothetical survival / First-person immersive",
+    "concept": "What If You Fell Into the Planet of Screaming Glass?",
+    "opening_direction": "Show a first-person POV of a spacesuit visor cracking under the pressure of bright blue, supersonic winds.",
+    "twist_direction": "Reveal that the beautiful azure color of planet HD 189733b isn't water, but the reflection of sideways-raining liquid glass moving at 5,400 miles per hour.",
     "duration_seconds": 21,
-    "posting_window": "12:30 PM - 1:30 PM UTC",
-    "reason": "Combines the highly successful 'What If You Fell Into...' hook structure with the proven high-performance 21-second duration and the popular extreme planetary weather theme (which previously succeeded with molten iron and supersonic rubies)."
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Combines the highly successful 'What If You Fell Into...' framing with a terrifying, visually striking planetary environment (HD 189733b) that perfectly matches the channel's top-performing content profile."
   },
-  "experiment": "Test a cinematic animal survival micro-story (e.g., 'The Only Animal That Can Survive Outer Space') using the same high-stakes 'What If' framing to see if the space audience cross-pollinates with animal survival content.",
+  "experiment": "Test a 21-second Short using AI-generated cinematic micro-storytelling to narrate a 3-step 'survival guide' for falling into an extreme exoplanet, comparing its retention rate against purely factual listicle formats.",
   "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-27T10:36:18.415277+00:00"
+  "generated_at": "2026-09-27T11:36:03.123828+00:00"
 }
