@@ -1,37 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Space-themed 'What If' survival scenarios and extreme cosmic weather videos of 21-second duration are driving the highest views and engagement. Conversely, short psychology facts and basic space trivia underperform significantly.",
-  "winning_patterns": [
-    {
-      "pattern": "First-person 'What If' cosmic survival scenarios",
-      "evidence": "IYuce8vaU3Y ('What If You Fell Into a Liquid Diamond Planet?') secured 1,012 views and 38 likes, while 8KEl0_pJ_68 ('What If You Fell Into the Planet of Burning Ice?') gained 970 views.",
-      "action": "Pivot content strategy to focus on high-stakes, first-person hypothetical survival scenarios on extreme exoplanets."
-    },
-    {
-      "pattern": "21-second duration with deeper narrative hooks",
-      "evidence": "05kbZHfzuyg (Octopuses Have THREE Hearts at 21s) outperformed its 12s counterparts (AXAfwrzzEdU and 1Bm0zw_qAAg) by over 2x in views and 19x in likes.",
-      "action": "Standardize Short duration to 19-21 seconds to allow for a complete narrative arc and better viewer retention."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Low-stakes psychology and brain facts",
-      "evidence": "Jc04LVKNd2s ('The Real Reason Songs Get Stuck In Your Head') generated only 17 views, and 5AN7LUgqarc ('Your Brain Can Create Fake Memories') got 53 views.",
-      "action": "Deprioritize standalone psychology facts unless framed through an extreme survival or mystery lens."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space / What-If Scenario",
-    "hook_style": "First-person high-stakes hypothetical survival",
-    "concept": "What If You Fell Into the Planet of Sideways Glass Rain?",
-    "opening_direction": "Show a beautiful blue, Earth-like planet, then instantly transition to a violent storm of melting glass.",
-    "twist_direction": "Reveal that the planet's lovely blue hue is actually the light reflecting off billions of shards of howling, supersonic glass.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 1:00 PM UTC",
-    "reason": "Leverages the highly successful 'What If' cosmic survival format at the proven 21-second duration and peak engagement upload window."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'What If' survival scenario in a non-space category, such as 'What If You Were Trapped in the Deepest Underwater Cave?' to see if the high-stakes survival format translates to geography and ocean mysteries.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-27T06:41:22.931806+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-27T07:35:57.943137+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-27T07:35:57.943157+00:00"
 }
