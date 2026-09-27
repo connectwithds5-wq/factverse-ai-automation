@@ -1,21 +1,37 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "The channel is experiencing a clear performance surge when focusing on high-stakes, highly visual space anomalies—specifically 'What If' hypothetical survival scenarios and extreme planetary conditions. Conversely, standard psychology facts and repetitive brain-related content are consistently underperforming.",
+  "winning_patterns": [
+    {
+      "pattern": "What If You Fell Into... Space Survival Scenarios",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,021 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (970 views, 18 likes) are top-tier performers with strong engagement metrics.",
+      "action": "Develop a recurring 'Space Survival' sub-series focusing on extreme cosmic destinations, utilizing first-person hypothetical framing ('What If You...')."
+    },
+    {
+      "pattern": "Extreme Planetary Anomalies with High-Contrast Visual Hooks",
+      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,025 views, 36 likes) and 'This Planet Rains Supersonic Rubies!' (721 views, 25 likes) outperform general science facts.",
+      "action": "Focus space facts on extreme, almost unbelievable physical properties (e.g., extreme weather, impossible colors, precious materials) rather than basic astronomical data."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Repetitive Psychology & Brain Facts",
+      "evidence": "'Your Brain Can Create Fake Memories' (5 to 53 views across multiple uploads) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction.",
+      "action": "Pivot away from generic cognitive psychology facts unless they can be framed as a dark, high-stakes mystery or survival scenario."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "what-if scenarios",
+    "hook_style": "High-stakes hypothetical survival question",
+    "concept": "What If You Fell Into the Planet of Molten Iron Rain?",
+    "opening_direction": "If you fell into WASP-76b, you wouldn't just burn—you'd be shredded by liquid metal rain.",
+    "twist_direction": "But the real nightmare isn't the heat; it's the 10,000 mile-per-hour winds blowing that iron rain sideways.",
+    "duration_seconds": 21,
+    "posting_window": "12:30 PM - 1:30 PM UTC",
+    "reason": "Aligns perfectly with the highly successful 21-second 'What If' format, leveraging the proven appeal of extreme planetary weather (molten iron rain) to maximize retention and likes."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-27T16:37:07.575497+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-27T16:37:07.575516+00:00"
+  "experiment": "Test a 'Cinematic Animal Survival' micro-story comparing a deep-sea creature's extreme environment to outer space to see if the space audience cross-pollinates with biology.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-27T17:35:39.918548+00:00"
 }
