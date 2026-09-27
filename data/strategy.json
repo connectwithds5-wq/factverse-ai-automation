@@ -1,21 +1,42 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "The channel's performance is heavily driven by immersive, high-stakes space exploration and exoplanet anomalies, particularly when framed as first-person hypothetical survival scenarios ('What If You Fell Into...'). In contrast, abstract cognitive psychology and non-visual conceptual space facts consistently underperform, indicating that the audience craves high-contrast visual storytelling and extreme cosmic hazards.",
+  "winning_patterns": [
+    {
+      "pattern": "First-person hypothetical survival scenarios ('What If You Fell Into...') targeting extreme exoplanets.",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,011 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (970 views, 18 likes) represent the highest tier of engagement and views.",
+      "action": "Standardize the 'What If You Fell Into...' template for all space-related content, utilizing a 19-21 second duration to optimize retention and pacing."
+    },
+    {
+      "pattern": "Extreme planetary weather and composition anomalies emphasizing sensory shock (e.g., raining rubies, burning ice, coal-dark planets).",
+      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' (1,055 views) and 'This Planet Rains Supersonic Rubies!' (721 views, 25 likes) show strong organic pull.",
+      "action": "Focus on highly visual, tactile cosmic phenomena that can be described with vivid, sensory-rich language and high-contrast AI-generated imagery."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Abstract cognitive psychology and brain mechanism topics.",
+      "evidence": "'Your Brain Can Create Fake Memories' (5 views) and 'Your Brain Is Hiding This From You' (38 views) failed to capture initial viewer interest.",
+      "action": "Halt production on generic brain facts unless they can be reframed as high-stakes psychological survival scenarios or cinematic micro-stories."
+    },
+    {
+      "pattern": "Conceptual, non-visual space facts lacking a direct physical hazard or extreme contrast.",
+      "evidence": "'Why Space Is Completely Silent' (33 views) and 'This Star Is Older Than the Universe!' (11 views) severely underperformed compared to exoplanet videos.",
+      "action": "Avoid purely theoretical or passive space facts; ensure every space video has an active, dramatic, or hazardous visual element."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "what-if scenarios",
+    "hook_style": "Immersive first-person cosmic hazard",
+    "concept": "What If You Fell Into the Planet of Supersonic Rubies?",
+    "opening_direction": "If you fell into HAT-P-7b, you wouldn't just burn—you'd be shredded by a storm of supersonic gemstones.",
+    "twist_direction": "But the real nightmare isn't the ruby rain; it's the atmosphere of vaporized aluminum that would coat your lungs in liquid sapphire.",
+    "duration_seconds": 21,
+    "posting_window": "12:00 PM - 1:00 PM UTC",
+    "reason": "Combines the channel's most successful narrative hook ('What If You Fell Into...') with one of its highest-performing exoplanet concepts (Supersonic Rubies, 721 views) to maximize both click-through rate and retention."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-27T02:37:14.381110+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-27T02:37:14.381131+00:00"
+  "experiment": "Test a 'What If You Fell Into...' format applied to a historical or deep-ocean mystery (e.g., falling into the Mariana Trench's deepest anomaly) to see if the high-performing space framing translates to geography and oceanography.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-27T03:37:49.824169+00:00"
 }
