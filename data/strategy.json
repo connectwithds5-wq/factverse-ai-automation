@@ -1,37 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "The channel's growth is heavily driven by highly visual, extreme cosmic exoplanet concepts, particularly interactive 'What If' survival scenarios and bizarre planetary weather. Conversely, abstract brain and psychology facts consistently underperform, indicating that the audience craves high-stakes, cinematic, and scale-oriented space storytelling over micro-psychology trivia.",
-  "winning_patterns": [
-    {
-      "pattern": "First-Person 'What If You Fell Into...' Cosmic Survival Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,019 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (970 views, 18 likes) represent the highest-performing tier of recent uploads.",
-      "action": "Standardize this format as a weekly series, using highly descriptive, sensory-rich scripts that detail the physical sensation of falling through extreme cosmic environments."
-    },
-    {
-      "pattern": "Extreme Exoplanet Weather & Composition Facts",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' (1,055 views) and 'The Planet Darker Than Coal' (1,025 views, 36 likes) show strong baseline interest in mind-bending planetary physics.",
-      "action": "Focus exoplanet content on extreme contrasts (e.g., burning ice, supersonic rubies, glass rain) and use high-contrast, vibrant cinematic visuals to illustrate these alien worlds."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Abstract Psychology and Brain Trivia",
-      "evidence": "Multiple uploads of 'Your Brain Can Create Fake Memories' generated negligible views (5 to 53 views), alongside low traction for earworm psychology videos (17 to 71 views).",
-      "action": "Pivot away from generic brain facts. If psychology is covered, frame it as a high-stakes survival scenario or a historical mystery rather than a dry scientific explanation."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space / What-If Scenario",
-    "hook_style": "First-person hypothetical survival",
-    "concept": "What If You Fell Into J1407b (The Super Saturn)?",
-    "opening_direction": "Start with a dizzying POV of falling through a ring system so massive it completely blocks out the local star, spanning 120 million kilometers across.",
-    "twist_direction": "Reveal that you wouldn't just drift peacefully; the gravitational pull of J1407b's rings would accelerate you into a storm of trillions of supersonic ice boulders, shredding you before you even reach the planet.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 1:30 PM UTC",
-    "reason": "Combines the highly successful 'What If You Fell Into' format with J1407b, one of the most visually striking and popular exoplanets, utilizing the optimized 21-second duration of our top-performing shorts."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 21-second cinematic historical storytelling short about a bizarre, forgotten space mystery (e.g., the lost Soviet 'Phantom Cosmonauts') to see if the high-retention suspense style of exoplanet videos translates to historical drama.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-27T12:40:26.604104+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-27T13:35:29.760663+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-27T13:35:29.760682+00:00"
 }
