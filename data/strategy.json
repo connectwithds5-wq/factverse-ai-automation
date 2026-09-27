@@ -1,42 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "The channel is experiencing a clear performance surge by pivoting from passive, textbook-style science facts to immersive, first-person 'What If' survival scenarios set on extreme planets. Space-themed content focusing on extreme physics, valuable cosmic materials (diamonds, rubies), and hypothetical survival dilemmas significantly outperforms generic biology or psychology facts.",
-  "winning_patterns": [
-    {
-      "pattern": "First-Person 'What If' Cosmic Survival Scenarios",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,009 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (970 views, 18 likes) represent the channel's top tier of performance.",
-      "action": "Standardize the 'What If You Fell Into...' framing for all space anomaly videos, replacing passive descriptive titles."
-    },
-    {
-      "pattern": "Extreme Planetary Anomalies & High-Value Materials",
-      "evidence": "'The Planet Darker Than Coal' (1,025 views) and 'This Planet Rains Supersonic Rubies!' (721 views) show high baseline interest in extreme cosmic environments and precious materials.",
-      "action": "Prioritize exoplanets with extreme physical paradoxes (e.g., burning ice, metal rain, ruby storms) and highlight these materials in the title and thumbnail."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Abstract Brain & Psychology Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' struggled across multiple uploads (5 views and 10 views), alongside 'The Real Reason Songs Get Stuck In Your Head' (17 views).",
-      "action": "Pause generic cognitive science and psychology content unless it can be framed as a high-stakes historical mystery or cinematic micro-story."
-    },
-    {
-      "pattern": "Passive Explanatory 'Why' Questions",
-      "evidence": "'Why Space Is Completely Silent' (33 views) and 'Why You Smell Rain Better Than Sharks' (96 views) fail to capture the same curiosity as active survival scenarios.",
-      "action": "Avoid purely educational or explanatory hooks; reframe scientific concepts around survival, paradoxes, or mind-bending visual transformations."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space & What-If Scenarios",
-    "hook_style": "First-person immersive survival hypothetical",
-    "concept": "What If You Fell Into the Planet of Sideways Glass Rain?",
-    "opening_direction": "Show a cinematic first-person POV of falling through a beautiful cobalt-blue sky, suddenly interrupted by razor-sharp glass shards tearing through the screen at 5,000 mph.",
-    "twist_direction": "Reveal that the planet's stunning blue color isn't oceans, but the reflection of billions of silicate particles melting in 2,000-degree heat and raining horizontally.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Applies the highly successful 'What If You Fell Into...' survival format to a proven exoplanet concept (HD 189733b), converting a previously underperforming passive topic into a high-retention, high-stakes narrative."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'What If' survival scenario in a non-space category, such as 'What If You Were Trapped in the Deepest Ocean Trench?' to see if the first-person survival format transfers successfully to geography and oceanography.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-27T01:36:58.097199+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-27T02:37:14.381110+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-27T02:37:14.381131+00:00"
 }
