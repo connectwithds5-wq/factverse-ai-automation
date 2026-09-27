@@ -1,42 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "The channel's clear growth drivers are first-person hypothetical 'What If' survival scenarios on extreme exoplanets and mind-bending cosmic comparisons. Standard psychology facts and low-stakes science questions consistently underperform, indicating a need to pivot entirely toward high-concept cosmic dread, survival-based space storytelling, and extreme physics.",
-  "winning_patterns": [
-    {
-      "pattern": "First-Person 'What If' Cosmic Survival Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,021 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (970 views, 18 likes) consistently outperform the channel average by 5x to 10x.",
-      "action": "Transition standard space facts into active, first-person hypothetical survival scenarios ('What if you fell into...', 'What if you touched...')."
-    },
-    {
-      "pattern": "Extreme Exoplanet Weather & Cosmic Anomalies",
-      "evidence": "Videos focusing on extreme planetary environments, such as 'The Planet Darker Than Coal' (1,025 views) and 'This Planet Rains Supersonic Rubies!' (721 views), gain significantly more traction than generic space facts.",
-      "action": "Focus exoplanet content on highly visual, violent, or valuable elements (rubies, diamonds, burning ice, molten iron) to maximize click-through curiosity."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Generic Psychology & Brain Mechanics",
-      "evidence": "Videos like 'Your Brain Can Create Fake Memories' (5 to 53 views across multiple uploads) and 'Your Brain Is Hiding This From You' (38 views) struggle to gain any initial momentum.",
-      "action": "Avoid standard textbook psychology facts unless they can be framed through a high-stakes horror or survival lens."
-    },
-    {
-      "pattern": "Low-Stakes/Common Science Questions",
-      "evidence": "'How Do Clouds Float If They Weigh THIS Much?' (77 views) and 'Why Space Is Completely Silent' (33 to 220 views) fail to generate high-velocity engagement.",
-      "action": "Phase out basic science questions that lack a sense of scale, danger, or mind-bending paradox."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space / What-If Scenario",
-    "hook_style": "First-person sensory dread",
-    "concept": "What If You Fell Into the Planet of Sideways Glass Rain?",
-    "opening_direction": "If you fell into HD 189733b, you wouldn't just crash—you'd be shredded by glass rain flying sideways at 5,400 miles per hour.",
-    "twist_direction": "But the real terror is the wind: it moves so fast it would blow your screams into silence before the atmosphere melts your suit.",
-    "duration_seconds": 21,
-    "posting_window": "12:30 PM - 1:30 PM UTC",
-    "reason": "Combines the highly successful 'What If' survival format with the extreme weather concept of HD 189733b, matching the exact 21-second duration of the channel's top-performing videos."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 21-second deep-sea survival 'What If' scenario (e.g., 'What If You Fell Into the Mariana Trench's Dead Zone?') to determine if the high-performing cosmic survival format successfully translates to oceanography/geography.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-27T18:39:28.635922+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-27T19:34:23.473916+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-27T19:34:23.473936+00:00"
 }
