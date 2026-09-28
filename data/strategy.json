@@ -1,21 +1,42 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Space-themed content, particularly extreme exoplanet characteristics and immersive 'What If' hypothetical scenarios, dominates the channel's performance. Conversely, generic psychology and short-form brain-hack content consistently fail to gain traction. Reframing trivia into high-stakes survival or cosmic exploration narratives dramatically boosts engagement.",
+  "winning_patterns": [
+    {
+      "pattern": "What-If Extreme Space Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,025 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (970 views, 18 likes) represent the highest tier of views and engagement.",
+      "action": "Double down on the 'What If You Fell Into...' format, targeting highly visual and extreme cosmic anomalies."
+    },
+    {
+      "pattern": "Sensory and Extreme Cosmic Weather Facts",
+      "evidence": "'The Planet Darker Than Coal' (1,026 views, 36 likes) and 'This Planet Rains Supersonic Rubies!' (721 views, 25 likes) show strong audience pull.",
+      "action": "Produce content focusing on extreme environments using vivid sensory descriptions (e.g., raining glass sideways, smelling like burnt steak)."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Generic Psychology & Brain Hacks",
+      "evidence": "'Your Brain Can Create Fake Memories' (5 views) and 'Your Brain Is Hiding This From You' (38 views) consistently underperform.",
+      "action": "Discontinue standard psychological trivia, or reframe them as evolutionary survival mysteries."
+    },
+    {
+      "pattern": "Ultra-short (under 15s) Trivia Formats",
+      "evidence": "The 12-second version of 'Octopuses Have THREE Hearts' got 118 views, while the 21-second version of the same topic achieved 363 views and 19 likes.",
+      "action": "Avoid rushing facts under 15 seconds; use an 18-21 second duration to allow for narrative build-up and visual pacing."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "what-if scenarios",
+    "hook_style": "High-stakes sensory hypothetical",
+    "concept": "What If You Fell Into J1407b (The Super-Saturn)?",
+    "opening_direction": "Show a jaw-dropping visual of rings 640 times larger than Saturn's, asking: 'If you fell into the planet with rings that block out the sun, what would you actually see?'",
+    "twist_direction": "Reveal that instead of a beautiful view, the friction from millions of orbiting space rocks would shred your spacesuit before you even hit the atmosphere.",
+    "duration_seconds": 21,
+    "posting_window": "17:00 - 20:00 UTC",
+    "reason": "Leverages the highly successful 'What If' exoplanet survival template, utilizing a famous, visually striking cosmic object (J1407b) with an optimal 21-second retention-friendly duration."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-28T21:36:15.415055+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-28T21:36:15.415075+00:00"
+  "experiment": "Test the 'What If' survival format in a geographical context (e.g., 'What If You Fell Into the Deepest Cave on Earth?') to see if the high-performing space format translates successfully to Earth mysteries.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-28T22:36:06.497029+00:00"
 }
