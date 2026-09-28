@@ -1,37 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Space-themed content, specifically extreme exoplanets and hypothetical 'What If' survival scenarios in space, vastly outperforms psychology and brain-related facts. Videos with a duration of 19-21 seconds that leverage high-contrast, sensory-rich curiosity hooks (e.g., liquid diamonds, burning ice, supersonic rubies) drive the highest views and engagement.",
-  "winning_patterns": [
-    {
-      "pattern": "Hypothetical 'What If You Fell Into...' Space Scenarios",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' achieved 1,023 views and 38 likes, while 'What If You Fell Into the Planet of Burning Ice?' gained 970 views.",
-      "action": "Develop a recurring series of first-person hypothetical survival scenarios focusing on extreme cosmic environments."
-    },
-    {
-      "pattern": "Extreme Exoplanet Weather and Sensory Anomalies",
-      "evidence": "'The Planet Darker Than Coal: TrES-2b' reached 1,025 views and 'This Planet Rains Supersonic Rubies!' reached 721 views.",
-      "action": "Focus on exoplanets with extreme physical properties (e.g., metallic rain, extreme darkness, precious gem storms) using vivid, high-contrast imagery."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Introspective Psychology and Cognitive Brain Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' (10 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently underperform.",
-      "action": "Discontinue low-engagement cognitive psychology topics and reallocate production resources to external cosmic and biological mysteries."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "What-if scenarios",
-    "hook_style": "What If You Fell Into...",
-    "concept": "What If You Fell Into a Planet of Molten Iron?",
-    "opening_direction": "Open with a first-person POV animation of plunging into a dark, glowing red atmosphere with the voiceover: 'If you fell into WASP-76b, you would face a storm of liquid metal.'",
-    "twist_direction": "Reveal that the planet's extreme tidal locking causes iron to evaporate on the day side and literally rain down as molten iron droplets on the night side.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Leverages the highly successful 'What If You Fell Into...' format combined with the proven appeal of extreme planetary weather (molten iron rain), matching the optimal 21-second duration of top performers."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'What If You Fell Into...' format applied to deep-sea ocean anomalies (e.g., the Mariana Trench or underwater waterfalls) to see if the survival hook translates from space to geography.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-27T23:39:04.291456+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-28T00:44:27.023700+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-28T00:44:27.023724+00:00"
 }
