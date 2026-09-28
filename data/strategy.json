@@ -1,47 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "The channel's clear growth driver is immersive, first-person cosmic hypothetical scenarios ('What If You Fell Into...') and extreme exoplanet mysteries, which consistently generate 4x to 10x more views than standard psychological or animal facts. Standard brain facts and abstract physics concepts struggle to gain traction.",
-  "winning_patterns": [
-    {
-      "pattern": "First-Person Hypothetical 'What If You Fell Into...' Space Scenarios",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,023 views), 'What If You Fell Into the Planet of Burning Ice?' (970 views), and 'What If You Fell Into the Darkest Planet?' (821 views) are the channel's top-performing concepts.",
-      "action": "Pivot the space content strategy to frame cosmic facts as visceral, first-person survival scenarios rather than passive educational trivia."
-    },
-    {
-      "pattern": "Extreme Exoplanet Weather & Composition",
-      "evidence": "'The Planet of Burning Ice Will Break Your Brain!' (1,055 views), 'The Planet Darker Than Coal: TrES-2b' (1,025 views), and 'This Planet Rains Supersonic Rubies!' (721 views) outperform standard space facts.",
-      "action": "Focus on highly visual, extreme, and paradoxical planetary conditions (e.g., raining glass, ruby clouds, burning ice) to maximize click-through curiosity."
-    },
-    {
-      "pattern": "Narrative-Friendly 19-21 Second Durations",
-      "evidence": "Almost all top-performing videos are 19-21 seconds long, whereas shorter 12-16 second videos (especially on psychology) struggle to build sufficient tension.",
-      "action": "Standardize video length to 20 seconds to allow for a 3-part narrative structure: Hook, Escalation, and Twist/Payoff."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Psychology & Brain Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' (5 to 53 views across multiple uploads) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently underperform.",
-      "action": "Deprioritize standard psychology facts, or reframe them as dark, high-stakes psychological mysteries rather than academic brain trivia."
-    },
-    {
-      "pattern": "Abstract or Passive Space Trivia",
-      "evidence": "'This Star Is Older Than the Universe!' (11 views) and 'Why Space Is Completely Silent' (33 views) failed to capture audience interest compared to exoplanet content.",
-      "action": "Avoid passive descriptions of space; always ground cosmic facts in visual scale, danger, or human-centric hypothetical scenarios."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "what-if scenarios",
-    "hook_style": "Visceral, first-person hypothetical threat",
-    "concept": "What If You Fell Into J1407b (The Super Saturn)?",
-    "opening_direction": "If you fell into J1407b, you wouldn't just land on a planet—you'd spend weeks plunging through a ring system 200 times larger than Saturn's.",
-    "twist_direction": "But the real nightmare? The gravity of this giant is so intense it would stretch your body like spaghetti before you even reached the atmosphere.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Leverages the highly successful 'What If You Fell Into...' format combined with J1407b, a highly visual and extreme exoplanet that previously underperformed when presented as a passive comparison."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'Cinematic Animal Survival' micro-story using the same first-person hypothetical framing (e.g., 'What If You Had to Survive a Night in the Carboniferous Swamp?') to see if the survival format transfers successfully to historical biology.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-28T01:39:58.670400+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-28T02:38:31.937484+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-28T02:38:31.937504+00:00"
 }
