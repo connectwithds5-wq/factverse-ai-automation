@@ -1,21 +1,42 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Space-themed 'What If' scenarios and extreme planetary physics are the clear drivers of engagement and views for FACTVERSE, consistently hitting 800-1,000+ views. Conversely, psychology and brain facts are severely underperforming, rarely breaking 100 views. Longer Shorts (19-21s) perform significantly better than shorter 12-16s clips, likely due to better pacing and deeper narrative immersion.",
+  "winning_patterns": [
+    {
+      "pattern": "First-person 'What If You Fell Into...' space scenarios",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,025 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (970 views, 18 likes) are among the top-performing videos.",
+      "action": "Establish 'What If You Fell Into...' as a weekly recurring series, focusing on the most hostile environments in the known universe."
+    },
+    {
+      "pattern": "Extreme planetary weather and composition facts",
+      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,025 views, 36 likes) and 'This Planet Rains Supersonic Rubies!' (721 views, 25 likes) show high viewer retention and engagement.",
+      "action": "Create visually striking videos highlighting bizarre cosmic weather patterns, using highly descriptive, sensory-rich titles."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Psychology and brain-related facts",
+      "evidence": "'Your Brain Can Create Fake Memories' (5-10 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently fail to gain traction.",
+      "action": "Pivot away from generic psychology/brain facts, or reframe them entirely under a high-stakes mystery or survival lens."
+    },
+    {
+      "pattern": "Ultra-short duration (12-16 seconds) generic biology facts",
+      "evidence": "'Octopuses Have THREE Hearts' (118 views at 12s, compared to 363 views when extended to 21s) and 'The Only Animal That Can Live Forever' (69 views, 16s) underperform.",
+      "action": "Avoid rushing complex facts into under-16-second formats. Standardize on a 19-21 second duration to allow for a proper narrative arc."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space / What-If Scenario",
+    "hook_style": "Immersive, high-stakes hypothetical survival question",
+    "concept": "What If You Fell Into WASP-76b (The Planet of Liquid Iron Rain)?",
+    "opening_direction": "If you fell into WASP-76b, you wouldn't just burn—you'd be shredded by sideways-falling molten iron rain.",
+    "twist_direction": "Explain how the extreme 4,300°F day-side temperatures vaporize metal, which then condenses and falls as liquid iron on the cooler night side.",
+    "duration_seconds": 21,
+    "posting_window": "12:30 PM - 1:30 PM UTC",
+    "reason": "Leverages the highly successful 'What If' space survival format, utilizes the optimal 21-second duration, and targets the peak engagement window observed in top-performing uploads."
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-28T09:39:21.370633+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-28T09:39:21.370653+00:00"
+  "experiment": "Test the 'What If' framing on a deep-sea oceanography topic (e.g., 'What If You Fell Into the Mariana Trench?') to determine if the format's success is tied strictly to space or if it translates to other high-curiosity extreme environments.",
+  "model_used": "gemini-3.5-flash",
+  "generated_at": "2026-09-28T10:40:08.458993+00:00"
 }
