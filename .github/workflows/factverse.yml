@@ -133,31 +133,38 @@ jobs:
         run: python src/pixazo_documentary.py
 
       - name: Activate free Wan 2.2 fallback
+        id: wan22
         if: steps.pixazo.outcome == 'failure'
+        continue-on-error: true
         run: |
           echo "Pixazo failed. Activating free Wan 2.2 fallback."
           rm -f output/factverse.mp4
           rm -rf output/wan22_images output/wan22_clips
           mkdir -p output/wan22_images output/wan22_clips
-          curl -fL --retry 3 --connect-timeout 20             "https://drive.usercontent.google.com/download?id=${AVATAR_DRIVE_FILE_ID}&export=download&confirm=t"             -o output/avatar_reference.jpg
-          test -s output/avatar_reference.jpg
           python src/generate_storyboard_images.py
           python src/wan22_documentary.py
+
+      - name: Activate zero-API emergency fallback
+        if: steps.pixazo.outcome == 'failure' && steps.wan22.outcome == 'failure'
+        run: |
+          echo "Pixazo and Wan 2.2 failed. Activating zero-API emergency fallback."
+          rm -f output/factverse.mp4
+          python src/emergency_video_fallback.py
 
       - name: Normalize generated video to storyboard timing
         run: python src/normalize_video_duration.py
 
       - name: Check generated video
         run: |
-          test -f output/factverse.mp4 || { echo "ERROR: Pixazo video not found"; exit 1; }
+          test -f output/factverse.mp4 || { echo "ERROR: No video was produced by any fallback engine"; exit 1; }
           python - <<'PY'
           import json, subprocess
           board = json.load(open("output/storyboard.json", encoding="utf-8"))
           expected = float(board["shots"][-1]["end"])
           actual = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "default=noprint_wrappers=1:nokey=1", "output/factverse.mp4"], text=True).strip())
-          print(f"Pixazo duration: {actual:.3f}s; storyboard: {expected:.3f}s")
+          print(f"Generated video duration: {actual:.3f}s; storyboard: {expected:.3f}s")
           if actual < expected - 0.08 or actual > expected + 0.20:
-              raise SystemExit("ERROR: Pixazo video duration does not match storyboard")
+              raise SystemExit("ERROR: Generated video duration does not match storyboard")
           PY
           ffprobe -v error -show_entries format=duration,size -show_entries stream=codec_name,width,height,r_frame_rate -of default=noprint_wrappers=1 output/factverse.mp4
 
@@ -237,7 +244,7 @@ jobs:
           echo "========================================"
           echo "Gemini story/metadata generated."
           echo "Aligned storyboard generated."
-          echo "Pixazo documentary visuals generated."
+          echo "Primary/fallback documentary visuals generated."
           echo "Natural voice + music added."
           echo "Video generated and verified."
           if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.upload_to_youtube }}" = "true" ]; then
