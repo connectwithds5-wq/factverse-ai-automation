@@ -1,47 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of the deduplicated performance data clearly highlights 'What If / Extreme Space Scenario' videos as the dominant growth driver for FACTVERSE. Videos utilizing speculative planetary scenarios (e.g., 'What If You Fell Into a Liquid Diamond Planet?', 'What If You Fell Into the Planet of Burning Ice?') generated significantly higher views-per-day and stronger engagement (likes-per-view) compared to standard trivia facts or psychology micro-topics published in the same timeframe. Standard exotic space facts (like supersonic rubies or coal-dark planets) also outperform standard animal or brain facts, indicating that astronomical anomalies and hypothetical physics scenarios hold the highest retention and curiosity value for our audience.",
+  "overall_summary": "Deduplication and recency weighting reveal that space-based 'What If' scenarios and extreme planetary extremes are overwhelmingly outperforming standard science facts and human psychology micro-shorts. Content focused on immersive hypothetical destruction or bizarre planetary conditions (e.g., liquid diamond planets, dark planets, and burning ice) published within the last 7 days yields significantly higher views-per-day and like-to-view ratios compared to older legacy topics like human memory or basic animal facts.",
   "winning_patterns": [
     {
-      "pattern": "Hypothetical Extreme Scenario Hooks ('What If...')",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1024 views in ~4 days) and 'What If You Fell Into the Planet of Burning Ice?' (970 views in ~8 days) massively outperform standard declarative statements.",
-      "action": "Double down on 'What If' speculative physics and space disaster scenarios. Structure the narrative around immediate sensory immersion followed by a shocking scientific reality."
+      "pattern": "Hypothetical Immersion ('What If You Fell Into...')",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) generated 1,024 and 970 views respectively within days of publication, vastly outperforming static fact statements.",
+      "action": "Double down on sensory-rich second-person hypothetical space scenarios where the viewer is placed directly into an extreme cosmic environment."
     },
     {
-      "pattern": "Exotic Planetary Extremes",
-      "evidence": "Titles detailing bizarre weather or planetary compositions (e.g., 'The Planet Darker Than Coal', 'This Planet Rains Supersonic Rubies!') consistently secure high velocity within their first 7 days.",
-      "action": "Continue sourcing lesser-known exoplanets with extreme physical properties (extreme pressure, weird light absorption, impossible rain) for future space shorts."
+      "pattern": "Extreme Planetary Anomalies with High-Value Imagery",
+      "evidence": "Titles detailing surreal planetary materials like supersonic rubies, dark-than-coal compositions, and burning ice (e.g., vWd0uYcEGh4, v1rrcZLdp4U, QXuqYERlqSo) consistently secure high viewer engagement and strong like ratios.",
+      "action": "Focus future space scripts on newly discovered or bizarre exoplanets featuring impossible weather or material properties (e.g., helium rain or magnetic storms)."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Psychology and Brain Fact Micro-Stories",
-      "evidence": "Topics like 'Your Brain Can Create Fake Memories' or 'The Psychological Trick to Stop Songs Stuck in Your Head' lingered at low view counts (5-71 views) with minimal engagement.",
-      "action": "Deprioritize standalone psychology and cognitive fact shorts unless paired with a high-stakes, bizarre historical mystery or extreme survival angle."
+      "pattern": "Static Human Psychology and Earworm Facts",
+      "evidence": "Shorts addressing psychological tricks or songs stuck in the head (e.g., ef3ND4qiRHc, Jc04LVKNd2s, 5AN7LUgqarc) languish below 60 to 100 views, showing poor traction on the channel currently.",
+      "action": "Deprioritize human psychology and neurology micro-shorts until space and high-concept physical scenarios hit saturation."
     },
     {
-      "pattern": "Generic Animal Trivia",
-      "evidence": "Simple declarative animal facts (e.g., 'Octopuses Have THREE Hearts', 'The Only Animal That Can Live Forever') underperformed relative to our space content, showing lower engagement rates.",
-      "action": "Shift animal content away from simple trivia toward cinematic animal survival or prehistoric crossovers (e.g., deep-sea abyssal horrors)."
+      "pattern": "Plain Descriptive Fact Statements without Stakes",
+      "evidence": "Simple declarative statements like 'This Star Is Older Than the Universe!' (vFXHTmYITp4) with 11 views underperform compared to active, high-stakes hypothetical phrasing.",
+      "action": "Avoid passive declarative titles; always frame facts as an active danger, paradox, or personal 'What If' question."
     }
   ],
   "next_video": {
-    "category": "Space / Extreme Physics",
-    "hook_style": "Hypothetical Survival Scenario",
-    "concept": "What happens if you step onto a rogue planet wandering through interstellar space with no star?",
-    "opening_direction": "Start with pitch-black sensory deprivation—no sun, absolute zero—then reveal you are standing on a rogue world drifting between galaxies.",
-    "twist_direction": "Explain that despite being frozen on the outside, the planet's core is boiling hot due to radioactive decay, creating a hidden subterranean ocean of liquid nitrogen or molten methane.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 2:00 PM EST",
-    "reason": "Leverages the proven high-performing 'What If' structural format and extreme planetary science niche while exploring a completely fresh astronomical phenomenon not yet covered in our channel history.",
+    "category": "Space / What-If Scenarios",
+    "hook_style": "High-stakes sensory destruction second-person question",
+    "concept": "What If You Fell Into a Rogue Black Hole's Accretion Disk?",
+    "opening_direction": "Start mid-fall into a blinding vortex of superheated X-rays where time fractures around you.",
+    "twist_direction": "Reveal that before you even touch the event horizon, tidal forces stretch your body into a single strand of atoms thinner than light.",
+    "duration_seconds": 15,
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Capitalizes on the proven high-performing 'What If' space format while introducing a fresh astrophysical subject (accretion disk spaghettification) distinct from previously covered diamond/ice planets.",
     "fresh_topic_constraints": [
-      "Must not feature diamond planets, burning ice planets, or dark planets (TrES-2b).",
-      "Must focus strictly on rogue planets and interstellar drift.",
-      "Avoid re-using previously mentioned celestial bodies."
+      "Do not use diamond, ruby, glass, or ice planets.",
+      "Must focus entirely on black hole mechanics and relativistic time dilation.",
+      "Ensure factual accuracy regarding spaghettification."
     ]
   },
-  "experiment": "A/B test the classic 'What If' hook against a direct threat hook ('You Would Die in 0.3 Seconds on This Planet') within the space category to determine which drives higher initial 24-hour velocity and retention.",
+  "experiment": "Test a 15-second hyper-paced 'What If' scenario featuring a cosmic phenomenon never previously featured on the channel, utilizing rapid-fire visual transitions in the first 3 seconds to measure audience retention impact.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-29T06:43:44.643878+00:00"
+  "generated_at": "2026-09-29T07:38:42.368715+00:00"
 }
