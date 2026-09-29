@@ -1,21 +1,47 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Deduplicated performance data highlights a massive audience preference for extreme, hypothetical space and planet scenarios (‘What If’ and bizarre planetary physics) published within the last 7 days. Videos focusing on bizarre world conditions (e.g., liquid diamond planets, dark planets, and burning ice worlds) dominate views and engagement velocity compared to older psychological or minor biological facts.",
+  "winning_patterns": [
+    {
+      "pattern": "Hypothetical Planet & Space Scenarios ('What If' + Extreme Environments)",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Darkest Planet?' (YlDuGu1vzAg) generated over 800-1,000 views rapidly within days of release, alongside high like counts (38 likes on IYuce8vaU3Y).",
+      "action": "Double down on high-stakes hypothetical space scenarios involving bizarre physics, extreme temperatures, and strange planetary materials."
+    },
+    {
+      "pattern": "Exotic Cosmic Material Phenomena",
+      "evidence": "Titles detailing strange planetary rainfall or composition (e.g., 'This Planet Rains Supersonic Rubies!', 'The Planet Darker Than Coal') consistently outperform generic space facts, securing hundreds of views and high engagement per view.",
+      "action": "Produce more short-form explorations of rare astronomical bodies featuring sensory-rich, counter-intuitive descriptors (sound, color, material)."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Older Psychological & Memory Tricks",
+      "evidence": "Content centered on psychology and brain memory hacks (e.g., 'Your Brain Can Create Fake Memories', 'The Psychological Trick to Stop Songs Stuck in Your Head') stalled out below 60–70 lifetime views with negligible engagement.",
+      "action": "Deprioritize psychological tricks and internal brain trivia for Shorts until the primary space/physics traction plateaus."
+    },
+    {
+      "pattern": "Low-Stakes Animal Trivia Without Scale",
+      "evidence": "Basic animal facts (e.g., 'Octopuses Have THREE Hearts') performed moderately well only when heavily stylized, but older or dry implementations generated low interaction compared to space content.",
+      "action": "If exploring animals, combine them with extreme survival narratives or cosmic-scale comparisons rather than static biology facts."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space & Extreme Physics",
+    "hook_style": "High-stakes hypothetical scenario ('What If')",
+    "concept": "Falling into a rogue planet made entirely of boiling supercritical water under crushing pressure",
+    "opening_direction": "Start mid-action falling through a pitch-black atmosphere of superheated steam that acts like a solid wall.",
+    "twist_direction": "Reveal that the planet has no surface—you never hit bottom, instead getting compressed into a diamond lattice.",
+    "duration_seconds": 21,
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Capitalizes on the proven 'What If' planetary survival format that generated our highest recent views and engagement.",
+    "fresh_topic_constraints": [
+      "Must not feature diamonds, coal, glass, rubies, or iron rain",
+      "Must focus strictly on a rogue water-world phenomenon",
+      "Avoid repeating previously used celestial bodies"
+    ]
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-29T09:40:25.639870+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-29T09:40:25.639890+00:00"
+  "experiment": "Test a 21-second 'What If' planetary survival hook against a standard factual countdown format in the same space niche to isolate retention spikes.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-09-29T10:39:50.616389+00:00"
 }
