@@ -1,47 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Recent 7-day performance demonstrates overwhelming audience preference for extreme, tactile, and hypothetical space content—specifically 'What If You Fell Into...' formats and bizarre planetary phenomena (e.g., liquid diamond, burning ice, and supersonic rubies). These videos achieve significantly higher views-per-day and like-to-view ratios compared to standard static facts or psychology micro-shorts. Content focusing on impossible physical environments and immersive sensory experiences drives the highest engagement.",
+  "overall_summary": "Analysis of the deduplicated FACTVERSE performance data reveals a massive viewer preference for extreme space anomalies framed around interactive hypothetical scenarios ('What If You Fell Into...'). Videos focusing on bizarre planetary conditions, extreme weather on exoplanets, and high-value comparisons (e.g., diamond planets, burning ice) significantly outperform standard science or psychological facts in both views-per-day and like-to-view ratios. Content released within the last 7 days consistently commands higher velocity than older catalog entries, particularly space-oriented 'What If' hooks.",
   "winning_patterns": [
     {
-      "pattern": "Hypothetical Scenario Hooks ('What If You Fell Into...')",
-      "evidence": "Videos like IYuce8vaU3Y ('Liquid Diamond Planet') generated 1,024 views and 38 likes quickly, and 8KEl0_pJ_68 ('Planet of Burning Ice') pulled 970 views, outperforming standard educational statements.",
-      "action": "Double down on sensory-rich speculative physics and planetary free-fall scenarios that force the viewer to visualize immediate physical consequences."
+      "pattern": "Hypothetical Exoplanet Immersion",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) pulled 1,024 views with 38 likes, and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) pulled 970 views with 18 likes within days.",
+      "action": "Double down on 'What If You Fell Into [Extreme Exoplanet]' formats using high-stakes spatial sensory hooks."
     },
     {
-      "pattern": "Extreme Planetary Anomalies & Weather",
-      "evidence": "QXuqYERlqSo ('Supersonic Rubies') and v1rrcZLdp4U ('Planet Darker Than Coal') consistently captured high velocity relative to their age, scoring strong engagement.",
-      "action": "Continue sourcing bizarre, verifiable cosmic phenomena involving impossible meteorological events (e.g., strange rains, extreme temperatures, hyper-dense materials)."
+      "pattern": "Counterintuitive Cosmic Extremes",
+      "evidence": "Titles featuring bizarre physical states like 'The Planet Darker Than Coal: TrES-2b' (v1rrcZLdp4U) and 'This Planet Rains Supersonic Rubies!' (QXuqYERlqSo) drove over 1,000 and 700 views respectively with strong engagement.",
+      "action": "Continue leveraging rare material conditions (gemstone weather, extreme darkness, absolute temperatures) paired with exclamation-driven curiosity hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Static Psychological Tricks & Brain Facts",
-      "evidence": "Videos like ef3ND4qiRHc ('Psychological Trick to Stop Songs') and 2fqaGqfsR4A ('Fake Memories') stalled out with minimal views (5 to 71 views) and low engagement velocity.",
-      "action": "Deprioritize abstract internal psychology facts unless they are framed through a high-stakes, bizarre external manifestation or dramatic narrative."
+      "pattern": "Abstract Psychological Trivia without Sensory Stakes",
+      "evidence": "Shorts like 'Your Brain Can Create Fake Memories' (2fqaGqfsR4A) and 'Your Brain Is Hiding This From You' (mGEgENcGcNE) stagnated with single-digit or low double-digit views and zero engagement.",
+      "action": "Deprioritize flat psychological trivia unless anchored to an extreme physical anomaly or a visceral survival scenario."
     },
     {
-      "pattern": "Flat Declarative Statements",
-      "evidence": "Simple declarative titles without a high-stakes question or bizarre mental image (e.g., vFXHTmYITp4, Jc04LVKNd2s) failed to break past double-digit views.",
-      "action": "Eliminate plain informational titles. Every hook must feature an immediate counter-intuitive paradox, extreme scale, or a 'What If' existential threat."
+      "pattern": "Low-Stakes Historical/Biological Facts",
+      "evidence": "Videos such as 'The Only Animal That Can Live Forever' (F1kXwuXuNgo) and historical mysteries like 'The 2,000-Year-Old Mystery Science Can't Solve' (yLm-FjYH6-k) showed sluggish performance compared to space content.",
+      "action": "Shift animal and history concepts toward cinematic survival or high-conflict micro-narratives rather than standard educational trivia."
     }
   ],
   "next_video": {
-    "category": "space",
-    "hook_style": "Hypothetical Sensory Hazard",
-    "concept": "What If You Stepped Onto the Planet Made Entirely of Hot Ice?",
-    "opening_direction": "Start mid-action as boots touch down on a glowing, translucent surface that defies normal physics—ice that burns at 400 degrees Celsius.",
-    "twist_direction": "Reveal that under extreme gravitational pressure, the ice is forced into a solid crystal lattice despite the blazing heat, instantly vaporizing anything that slows down.",
+    "category": "Space & Science What-If Scenarios",
+    "hook_style": "Visceral Sensory Immersion / Extreme Consequence",
+    "concept": "What happens to your body if you step onto the metal-snow peaks of Kepler-13ab?",
+    "opening_direction": "Start mid-action with the sound of roaring titanium winds and the visual of sparkling metallic snow rushing past the camera.",
+    "twist_direction": "Reveal that the snow isn't water—it's vaporized titanium oxide freezing in the upper atmosphere and blanketing the dark side of the tidally locked world.",
     "duration_seconds": 21,
-    "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Capitalizes directly on the proven high-performing 'What If' and 'Burning Ice/Extreme Planet' formats while introducing a completely fresh planetary mechanism not yet covered in previous uploads.",
+    "posting_window": "12:00 PM - 2:00 PM EST (Peak Space Content Engagement Window)",
+    "reason": "Capitalizes on the proven high-performing 'What If' exoplanet format while introducing a brand-new celestial body (Kepler-13ab) and a fresh visual hook (titanium snow) to avoid repetition.",
     "fresh_topic_constraints": [
-      "Must not use diamond, coal, rubies, or glass as the primary planetary material.",
-      "Must feature a newly introduced exoplanet designation or unique physical state.",
-      "Must avoid recycling previous script structures."
+      "Do not use diamond planets, burning ice, glass rain, or molten iron rain.",
+      "Must feature a newly introduced exoplanet (Kepler-13ab) with a distinct physical phenomenon.",
+      "Keep the script tightly paced under 21 seconds with a direct sensory payoff in the first 3 seconds."
     ]
   },
-  "experiment": "Test a 21-second 'What If' space scenario with a hyper-accelerated visual opening (no intro branding) against standard historical/biological facts to measure whether speculative physics maintains a higher retention slope past the 5-second mark.",
+  "experiment": "Test a cinematic AI-generated visual of a human-scale object interacting with an extreme exoplanet material (titanium snow) in the first 2 seconds to measure if immediate visual novelty boosts 0-to-3-second retention compared to text-only title hooks.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-29T12:45:04.779861+00:00"
+  "generated_at": "2026-09-29T13:40:57.658767+00:00"
 }
