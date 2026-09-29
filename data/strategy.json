@@ -1,42 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Analysis of the recent 7-day performance data reveals that space exploration, extreme astronomical 'What If' scenarios, and planetary curiosities (such as liquid diamond, burning ice, and extreme exoplanets) are driving the highest views-per-day, likes-per-view, and comment engagement for FACTVERSE. Conversely, older psychological and straightforward brain-fact shorts are underperforming with negligible engagement. The audience clearly favors high-concept speculative astrophysics with strong visual hook structures.",
-  "winning_patterns": [
-    {
-      "pattern": "Speculative 'What If' Planetary Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) garnered over 970 to 1,024 views with high like counts (up to 38 likes) within days of publishing.",
-      "action": "Double down on high-stakes, hypothetical survival scenarios in extreme cosmic environments, focusing on vivid, sensory-rich physical consequences."
-    },
-    {
-      "pattern": "Bizarre Exoplanet Weather & Conditions",
-      "evidence": "'The Planet Darker Than Coal: TrES-2b' (v1rrcZLdp4U) and 'This Planet Rains Supersonic Rubies!' (QXuqYERlqSo) outperformed other recent uploads with over 700 to 1,000 views and strong like-to-view ratios.",
-      "action": "Continue sourcing lesser-known exoplanets with extreme, counter-intuitive meteorological or optical phenomena."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Straightforward Psychological Brain Hacks",
-      "evidence": "Videos like 'Your Brain Can Create Fake Memories' (2fqaGqfsR4A) and 'The Real Reason Songs Get Stuck In Your Head' (Jc04LVKNd2s) stalled below 20-50 views with zero engagement.",
-      "action": "Pause standard self-help or generic psychological fact videos unless framed as a high-concept, uncanny scientific mystery."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space & Astronomy",
-    "hook_style": "Hypothetical sensory immersion / What-if scenario",
-    "concept": "What If You Fell Into a Star Made Entirely of Neon?",
-    "opening_direction": "Start directly with the terrifying visual of plunging through a glowing, electric-red neon atmosphere that hums with radiation.",
-    "twist_direction": "Reveal that unlike gas giants, falling here wouldn't end in a solid core—you would instantly vaporize inside a glowing cosmic neon sign the size of a solar system.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 2:00 PM EST",
-    "reason": "Capitalizes on the proven high-performing 'What If' planetary format while introducing a fresh, visually arresting astronomical subject that hasn't been covered yet.",
-    "fresh_topic_constraints": [
-      "Must not feature diamonds, ice planets, glass rain, or sharks.",
-      "Must focus on a completely new celestial phenomenon (neon stars / exotic stellar composition).",
-      "Ensure zero factual overlap with previous space videos."
-    ]
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 21-second 'What If' cosmic survival narrative featuring a lesser-known stellar anomaly, comparing its 48-hour velocity against our baseline exoplanet content.",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-29T20:39:14.866878+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-29T21:37:27.979703+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-29T21:37:27.979721+00:00"
 }
