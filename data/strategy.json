@@ -1,42 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Space-themed content, specifically focusing on extreme exoplanet environments and immersive 'What If' scenarios, dominates the channel's performance. Shorter, generic psychology and trivia-style shorts struggle to gain traction, indicating that viewers crave high-stakes, visually spectacular cosmic mysteries over everyday facts.",
-  "winning_patterns": [
-    {
-      "pattern": "Immersive 'What If' Exoplanet Survival Scenarios",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,025 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (970 views, 18 likes) are top performers.",
-      "action": "Double down on high-stakes, first-person cosmic survival scenarios using extreme planetary conditions."
-    },
-    {
-      "pattern": "Extreme Weather & Composition of Planets",
-      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,026 views, 36 likes) and 'This Planet Rains Supersonic Rubies!' (721 views, 25 likes).",
-      "action": "Frame planetary facts around sensational, tactile phenomena (e.g., raining rubies, glass, or iron) to spark immediate visual curiosity."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Generic Psychology and Brain Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' (max 53 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently flatline.",
-      "action": "Pivot away from soft psychology facts, or repackage them only if they can be framed as high-stakes survival/mystery scenarios."
-    },
-    {
-      "pattern": "Basic Encyclopedia Animal Trivia",
-      "evidence": "'The Only Animal That Can Live Forever' (69 views) and 'Octopuses Have THREE Hearts' (low engagement relative to space content).",
-      "action": "Avoid standard encyclopedia-style animal facts; transition instead to cinematic animal survival stories with high stakes."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space & What-If Scenarios",
-    "hook_style": "Immersive First-Person Survival Hook",
-    "concept": "What If You Fell Into the Planet of Liquid Glass?",
-    "opening_direction": "Show a cinematic, AI-generated POV of an astronaut falling through a beautiful but terrifying atmosphere where it rains sharp, molten glass sideways at 4,300 miles per hour.",
-    "twist_direction": "Reveal that the glass rain isn't even the deadliest part—the atmosphere is so hot it would vaporize your spacesuit before you even hit the ground.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 2:00 PM EST",
-    "reason": "Leverages the highly successful 'What If' format combined with extreme planetary weather (glass rain), matching the 21-second sweet spot that has proven to drive maximum views and likes."
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 'What If' format applied to a cinematic deep-sea mystery (e.g., 'What If You Fell Into the Mariana Trench?') to see if the high-stakes POV format translates successfully outside of space content.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-29T01:36:39.175062+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-29T02:37:37.918998+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-29T02:37:37.919022+00:00"
 }
