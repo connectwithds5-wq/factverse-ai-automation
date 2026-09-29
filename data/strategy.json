@@ -1,21 +1,47 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Analysis of the deduplicated performance metrics shows that extreme space and astronomical 'What If' scenarios (specifically exotic planets and hypothetical physics interactions) dominate traction and engagement velocity over standard psychological facts or minor animal trivia. Videos touching on extreme planetary environments, weird physical states (like liquid diamond or burning ice), and hypothetical immersion scenarios generate the highest views-per-day and robust like-to-view ratios. Content older than 7 days shows natural decay, reinforcing the need for continuous novelty within the high-performing space-physics-hypothetical sub-niche.",
+  "winning_patterns": [
+    {
+      "pattern": "Hypothetical Immersion Scenarios in Extreme Space",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1024 views in 4 days) and 'What If You Fell Into the Planet of Burning Ice?' (972 views in 8 days) outperform standard informational statements by forcing active mental simulation.",
+      "action": "Double down on 'What If' framing applied to bizarre, newly discovered celestial bodies or extreme physical states."
+    },
+    {
+      "pattern": "Bizarre Planetary Weather & Extreme Conditions",
+      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1026 views) and 'This Planet Rains Supersonic Rubies!' (721 views) capitalize on sensory-shock hooks combining familiar concepts with impossible planetary mechanics.",
+      "action": "Maintain high visual contrast hooks featuring extreme planetary phenomena (e.g., sound barriers, extreme temperatures, impossible materials)."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Low-Stakes Psychological & Internal Body Facts",
+      "evidence": "Videos like 'Your Brain Can Create Fake Memories' (5-53 views) and 'The Psychological Trick to Stop Songs Stuck in Your Head' (71 views) show significantly lower velocity and engagement compared to astronomical anomalies.",
+      "action": "Deprioritize internal psychology trivia unless tied to a high-concept sensory or sci-fi paradigm."
+    },
+    {
+      "pattern": "Generic Animal Fun Facts Without a Twist",
+      "evidence": "Standard static facts like 'Octopuses Have THREE Hearts' generate moderate initial views but stall out quickly without strong curiosity loops.",
+      "action": "Shift animal content away from static facts into cinematic survival or extreme comparative metrics."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space / What-If Scenarios",
+    "hook_style": "Hypothetical immersion / sensory shock",
+    "concept": "What happens if you step onto the glass-melting surface of Venus's twin or an ultra-hot rogue planet wandering interstellar space without a star?",
+    "opening_direction": "Start mid-action with the sound of instant atmospheric crushing or boiling heat, challenging the viewer's survival instincts.",
+    "twist_direction": "Reveal that the extreme conditions aren't caused by heat alone, but by an invisible atmospheric pressure that turns air into liquid metal.",
+    "duration_seconds": 21,
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Leverages the proven high-performing 'What If' celestial body and extreme weather pattern while introducing a completely fresh astronomical subject (rogue planet extremes) not present in previous logs.",
+    "fresh_topic_constraints": [
+      "Do not use diamond, ruby, iron, or glass rain planets.",
+      "Do not reuse TrES-2b or J1407b.",
+      "Focus entirely on an uncharted rogue exoplanet phenomenon."
+    ]
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-29T14:40:00.002539+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-29T14:40:00.002554+00:00"
+  "experiment": "A/B test a pure visual wonder hook ('The Planet Where Lightning Strikes Sideways') against a direct second-person threat hook ('What If You Stepped Outside on a Rogue Planet?') to determine if second-person immersion drives higher 7-day retention than third-person descriptive phrasing.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-09-29T15:39:56.391449+00:00"
 }
