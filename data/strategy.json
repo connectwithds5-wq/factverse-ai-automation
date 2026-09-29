@@ -1,47 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Analysis of FACTVERSE YouTube Shorts performance indicates that high-concept space and astrophysics 'What If' scenarios and extreme planetary conditions drive the highest velocity of views and likes per view (e.g., IYuce8vaU3Y, 8KEl0_pJ_68, v1rrcZLdp4U). Videos combining visceral visual stakes with speculative physics ('What If You Fell Into...') outperform standard declarative facts. Conversely, purely abstract psychological trivia or older low-engagement formats show declining traction. The focus should remain on high-stakes cosmic anomalies paired with hypothetical immersive formatting.",
-  "winning_patterns": [
-    {
-      "pattern": "Immersive 'What If' Cosmic Scenarios",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) generated over 970-1,024 views with high like counts relative to age.",
-      "action": "Double down on speculative, sensory-driven space scenarios where the viewer is placed directly into an extreme physical environment."
-    },
-    {
-      "pattern": "Extreme Planetary Anomalies",
-      "evidence": "'The Planet Darker Than Coal: TrES-2b' (v1rrcZLdp4U) and 'This Planet Rains Supersonic Rubies!' (QXuqYERlqSo) achieved rapid viewership spikes and strong engagement ratios.",
-      "action": "Continue producing short-form features on bizarre exoplanets with exotic weather systems or extreme optical properties."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Abstract Psychological Trivia without Visual Stakes",
-      "evidence": "Videos like 'Your Brain Can Create Fake Memories' (2fqaGqfsR4A) and 'The Real Reason Songs Get Stuck In Your Head' (Jc04LVKNd2s) stalled below 20 views.",
-      "action": "Avoid dry psychological or neurological facts unless framed through an urgent, high-stakes narrative or bizarre real-world mystery."
-    },
-    {
-      "pattern": "Stale Flat Declarations",
-      "evidence": "Simple declarative statements without an experiential hook or direct question show minimal traction in recent cohort tracking.",
-      "action": "Restructure hooks to force an immediate imaginative or physical choice for the viewer."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space & Astronomy",
-    "hook_style": "What If / Immersive Survival Scenario",
-    "concept": "Falling into the core of a rogue planet wandering through interstellar space with zero sunlight and absolute zero temperatures.",
-    "opening_direction": "Start inside total pitch blackness as an alarm blares, realizing you are plunging through the atmosphere of a rogue planet drifting between star systems.",
-    "twist_direction": "Reveal that because the planet has no star, the extreme pressure turns the falling atmosphere into a solid ocean of frozen nitrogen where sound travels infinitely.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Capitalizes on the proven high performance of extreme planetary 'What If' survival formats while exploring a completely fresh astronomical phenomenon (rogue planets).",
-    "fresh_topic_constraints": [
-      "Do not mention diamonds, glass rain, or burning ice.",
-      "Focus entirely on rogue interstellar planets and nitrogen-ice mechanics.",
-      "Ensure zero overlap with previously published titles."
-    ]
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 21-second 'What If' scenario focused on an interstellar rogue planet compared to standard exoplanet weather facts to measure audience retention past the 10-second mark.",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-29T08:39:54.668298+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-29T09:40:25.639870+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-29T09:40:25.639890+00:00"
 }
