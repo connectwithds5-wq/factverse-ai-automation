@@ -1,42 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Space-themed content, particularly first-person 'What If' hypothetical survival scenarios on extreme exoplanets (e.g., diamond, burning ice, and coal-dark planets), significantly outperforms psychology, brain trivia, and basic animal facts. Immersive, high-contrast visual hooks and physical paradoxes drive the highest engagement and view counts.",
+  "overall_summary": "Recent 7-day performance clearly demonstrates that speculative, immersive 'What If' scenarios applied to extreme space phenomena (e.g., dark planets, liquid diamond worlds, burning ice planets) and high-engagement biology/history comparisons (e.g., octopuses' three hearts, ancient animal lifespans) generate the highest views-per-day, likes-per-view, and active comment engagement. Straight declarative space facts underperform compared to interactive thought experiments. Growth strategy should pivot entirely toward immersive second-person hypothetical framing combined with extreme planetary or biological anomalies.",
   "winning_patterns": [
     {
-      "pattern": "First-person 'What If' hypothetical survival scenarios on extreme exoplanets.",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,025 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (970 views, 18 likes) are top performers.",
-      "action": "Standardize the 'What If You Fell Into...' framing for space content, focusing on sensory-rich, high-stakes survival details."
+      "pattern": "Second-Person 'What If' Planetary Immersion",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1025 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (970 views, 18 likes) dramatically outperform static declarative space facts within their first 7 days.",
+      "action": "Structure future space and science hooks entirely around immediate physical second-person hypotheticals ('What would happen to your body if you stepped onto...')."
     },
     {
-      "pattern": "Extreme planetary paradoxes in titles and hooks.",
-      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,026 views) and 'The Planet of Burning Ice Will Break Your Brain!' (1,055 views) achieved peak organic reach.",
-      "action": "Lead with mind-bending contradictions (e.g., hot ice, ruby rain, dark stars) to create immediate cognitive dissonance in the first 2 seconds."
+      "pattern": "Extreme Anomaly & Comparative Time Hooks",
+      "evidence": "'Octopuses Have THREE Hearts' (363 views, 19 likes) and 'Sharks Are OLDER Than Saturn's Rings?' (297 views, 18 likes) show exceptional engagement ratios compared to standard historical or psychological facts.",
+      "action": "Use counter-intuitive temporal comparisons and biological oddities that challenge conventional timelines or human anatomy."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Soft psychology and brain trivia.",
-      "evidence": "'Your Brain Can Create Fake Memories' (max 53 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) consistently flopped.",
-      "action": "Halt production on standard cognitive psychology facts, or reframe them entirely under high-stakes survival or sci-fi contexts."
+      "pattern": "Purely Declarative Abstract Space Facts",
+      "evidence": "Titles like 'This Star Is Older Than the Universe!' (11 views) or 'The Star Colder Than Ice' (82 views) published without an interactive premise stall out immediately.",
+      "action": "Avoid dry, textbook statements of fact; always anchor the concept to a tangible, visceral, or catastrophic scenario."
     },
     {
-      "pattern": "Overused animal facts and basic biology trivia.",
-      "evidence": "'Octopuses Have THREE Hearts' (max 363 views across multiple re-uploads) and 'The Only Animal That Can Live Forever' (69 views) underperformed compared to space topics.",
-      "action": "Avoid generic animal trivia; pivot to cinematic animal survival stories with deep narrative arcs if exploring biology."
+      "pattern": "Low-Stakes Psychological Micro-Tips",
+      "evidence": "Videos focusing on internal brain hacks or psychological tricks (e.g., stopping songs stuck in your head, fake memories) gathered very low engagement (<70 views).",
+      "action": "Deprioritize psychological trivia in favor of high-visual-potential space, geography, or cinematic animal survival topics."
     }
   ],
   "next_video": {
-    "category": "Space / What-If Scenario",
-    "hook_style": "Immersive First-Person Threat",
-    "concept": "What If You Fell Into the Planet of Sideways Glass Rain?",
-    "opening_direction": "If you stepped onto this beautiful blue planet, you wouldn't drown in water... you'd be shredded by glass raining sideways at 7,000 kilometers per hour.",
-    "twist_direction": "Reveal that the planet's stunning cobalt blue color isn't from oceans, but from light reflecting off of liquid silicate (molten glass) blowing in supersonic winds.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 1:30 PM UTC",
-    "reason": "Combines the highly successful 'What If' survival format with the proven appeal of extreme planetary weather (similar to the supersonic rubies concept), optimized at the 21-second sweet spot."
+    "category": "Space & Astronomy",
+    "hook_style": "Visceral Second-Person 'What If' Scenario",
+    "concept": "What happens to the human body if you stood unprotected on a rogue planet hurtling through interstellar space with no star?",
+    "opening_direction": "Start in pitch blackness with sound design of freezing wind, asking the viewer: 'If you stood on a rogue planet drifting between stars, you wouldn't freeze to death instantly—something much stranger would happen to your blood first.'",
+    "twist_direction": "Reveal that because rogue planets retain deep geothermal heat from their core while their surface touches absolute zero, your front side would boil while your back side instantly shatters into glass.",
+    "duration_seconds": 15,
+    "posting_window": "12:00 PM - 3:00 PM EST",
+    "reason": "Leverages the proven high-performing 'What If' planetary immersion formula while introducing a completely fresh astronomical subject (rogue planets) distinct from previous diamond or ice planet topics.",
+    "fresh_topic_constraints": [
+      "Must not mention diamond planets, ice planets, or Saturn.",
+      "Must use brand new rogue planet entity.",
+      "Must include active second-person physical consequence within the first 3 seconds."
+    ]
   },
-  "experiment": "Launch a 'Cinematic Animal Survival' micro-story focusing on the wood frog's winter freeze-and-thaw cycle, moving away from dry trivia into high-stakes, story-first wildlife drama.",
-  "model_used": "gemini-3.5-flash",
-  "generated_at": "2026-09-29T04:39:25.965647+00:00"
+  "experiment": "Test a 15-second cinematic animal survival micro-story featuring an extreme deep-sea hydrothermal vent organism to measure if high-tension nature narratives can match the dominant space 'What If' engagement rates.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-09-29T05:36:49.699977+00:00"
 }
