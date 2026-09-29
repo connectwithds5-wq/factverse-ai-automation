@@ -31,7 +31,6 @@ jobs:
       PIXAZO_API_KEY: ${{ secrets.PIXAZO_API_KEY }}
       HF_TOKEN: ${{ secrets.HF_TOKEN_2 || secrets.HF_TOKEN }}
       HF_WAN_SPACE: zerogpu-aoti/wan2-2-fp8da-aoti-faster
-      AVATAR_DRIVE_FILE_ID: ${{ secrets.AVATAR_DRIVE_FILE_ID }}
       YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
       YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
       YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
@@ -68,7 +67,6 @@ jobs:
           test -n "$GEMINI_API_KEY" || { echo "ERROR: GEMINI_API_KEY missing"; exit 1; }
           test -n "$PIXAZO_API_KEY" || { echo "ERROR: PIXAZO_API_KEY missing"; exit 1; }
           test -n "$HF_TOKEN" || { echo "ERROR: HF_TOKEN/HF_TOKEN_2 missing for free fallback"; exit 1; }
-          test -n "$AVATAR_DRIVE_FILE_ID" || { echo "ERROR: AVATAR_DRIVE_FILE_ID missing for free fallback"; exit 1; }
           test -n "$YOUTUBE_CLIENT_ID" || { echo "ERROR: YOUTUBE_CLIENT_ID missing"; exit 1; }
           test -n "$YOUTUBE_CLIENT_SECRET" || { echo "ERROR: YOUTUBE_CLIENT_SECRET missing"; exit 1; }
           test -n "$YOUTUBE_REFRESH_TOKEN" || { echo "ERROR: YOUTUBE_REFRESH_TOKEN missing"; exit 1; }
