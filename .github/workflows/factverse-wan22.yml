@@ -37,6 +37,7 @@ jobs:
       HF_WAN_SPACE: zerogpu-aoti/wan2-2-fp8da-aoti-faster
       AVATAR_DRIVE_FILE_ID: ${{ secrets.AVATAR_DRIVE_FILE_ID }}
       VIDEO_ENGINE_LABEL: Wan2.2
+      USE_AVATAR_REFERENCE: "true"
 
     steps:
       - name: Checkout repository
