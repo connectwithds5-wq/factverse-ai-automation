@@ -255,8 +255,9 @@ FALLBACK_FACTS = [
         "hashtags": ["#spacefacts", "#sciencefacts", "#space", "#astronomy", "#universe", "#didyouknow", "#shorts", "#factverse"]
     }
 ]
-\n
-    {
+
+FALLBACK_FACTS.extend([
+{
         "hook": "A day on Venus is longer than its entire year.",
         "fact": "Venus rotates so slowly that one full rotation takes about 243 Earth days, while it completes an orbit around the Sun in about 225 days.",
         "twist": "On Venus, a day actually lasts longer than a year.",
@@ -346,7 +347,25 @@ FALLBACK_FACTS = [
         "keywords": ["Moon facts","space facts","astronomy","Earth Moon","science","shorts"],
         "hashtags": ["#moon","#spacefacts","#astronomy","#science","#shorts","#factverse"]
     },
-\n\ndef verified_fallback():\n    history_path = os.path.join(ROOT, "data", "published_history.json")\n    used = set()\n    try:\n        with open(history_path, "r", encoding="utf-8") as fh:\n            history = json.load(fh)\n        for item in history.get("videos", []):\n            used.add(str(item.get("title", "")).strip().lower())\n            used.add(str(item.get("fact", "")).strip().lower())\n    except Exception:\n        pass\n    offset = int(os.environ.get("FACTVERSE_FALLBACK_OFFSET", "0") or 0)\n    ordered = FALLBACK_FACTS[offset % len(FALLBACK_FACTS):] + FALLBACK_FACTS[:offset % len(FALLBACK_FACTS)]\n    for item in ordered:\n        if item["title"].strip().lower() not in used and item["fact"].strip().lower() not in used:\n            return dict(item)\n    return dict(ordered[0])\n
+])
+def verified_fallback():
+    history_path = os.path.join(ROOT, "data", "published_history.json")
+    used = set()
+    try:
+        with open(history_path, "r", encoding="utf-8") as fh:
+            history = json.load(fh)
+        for item in history.get("videos", []):
+            used.add(str(item.get("title", "")).strip().lower())
+            used.add(str(item.get("fact", "")).strip().lower())
+    except Exception:
+        pass
+    offset = int(os.environ.get("FACTVERSE_FALLBACK_OFFSET", "0") or 0)
+    ordered = FALLBACK_FACTS[offset % len(FALLBACK_FACTS):] + FALLBACK_FACTS[:offset % len(FALLBACK_FACTS)]
+    for item in ordered:
+        if item["title"].strip().lower() not in used and item["fact"].strip().lower() not in used:
+            return dict(item)
+    return dict(ordered[0])
+
 
 # ============================================================
 # GENERATE AI CONTENT
