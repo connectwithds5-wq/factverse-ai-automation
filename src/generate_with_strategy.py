@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+HISTORY = ROOT / "data" / "published_history.json"
 GENERATOR = ROOT / "src" / "factverse_generate.py"
 STRATEGY = ROOT / "data" / "strategy.json"
 
@@ -49,6 +50,22 @@ def main():
         "twist_direction": next_video.get("twist_direction", ""),
         "experiment": strategy.get("experiment", ""),
     }
+    history_titles = []
+    history_facts = []
+    if HISTORY.exists():
+        try:
+            history = json.loads(HISTORY.read_text(encoding="utf-8"))
+            videos = history.get("videos", []) if isinstance(history, dict) else []
+            for item in videos[-100:]:
+                title = str(item.get("title", "")).strip()
+                fact = str(item.get("fact", "")).strip()
+                if title: history_titles.append(title)
+                if fact: history_facts.append(fact)
+        except Exception as exc:
+            print(f"FACTVERSE STRATEGY: history read warning: {exc}")
+
+    strategy_context["published_titles_to_avoid"] = history_titles[-60:]
+    strategy_context["published_facts_to_avoid"] = history_facts[-30:]
     context_json = json.dumps(strategy_context, ensure_ascii=False, indent=2)
 
     prompt_marker = "Create ONE highly engaging YouTube Short for the category:\n\n{category}"
@@ -60,7 +77,7 @@ def main():
             "AI GROWTH STRATEGY (use this as the creative decision input):\n\n"
             "{strategy_context_text}\n\n"
             "Use the strategy to guide the hook, concept, opening and twist. "
-            "Create a fresh fact, not a duplicate of a previous video."
+            "Create a genuinely new fact/topic. Do not reuse, paraphrase, or lightly remix anything in published_titles_to_avoid or published_facts_to_avoid."
         )
         source = source.replace(prompt_marker, prompt_replacement, 1)
 
