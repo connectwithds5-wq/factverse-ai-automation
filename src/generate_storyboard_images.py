@@ -71,7 +71,7 @@ def main():
     # Avatar-first mode: when the private avatar reference is available, use
     # the same source frame for every shot. This preserves identity and avoids
     # making the whole production dependent on Gemini image-generation quota.
-    if AVATAR.exists() and AVATAR.stat().st_size > 0:
+    if os.getenv("USE_AVATAR_REFERENCE", "false").lower() == "true" and AVATAR.exists() and AVATAR.stat().st_size > 0:
         print(f"Avatar reference detected: {AVATAR}")
         for index in range(1, len(shots) + 1):
             target = OUT / f"shot_{index:02d}.jpg"
