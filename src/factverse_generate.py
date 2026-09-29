@@ -255,11 +255,98 @@ FALLBACK_FACTS = [
         "hashtags": ["#spacefacts", "#sciencefacts", "#space", "#astronomy", "#universe", "#didyouknow", "#shorts", "#factverse"]
     }
 ]
-
-
-def verified_fallback():
-    return dict(random.choice(FALLBACK_FACTS))
-
+\n
+    {
+        "hook": "A day on Venus is longer than its entire year.",
+        "fact": "Venus rotates so slowly that one full rotation takes about 243 Earth days, while it completes an orbit around the Sun in about 225 days.",
+        "twist": "On Venus, a day actually lasts longer than a year.",
+        "title": "Venus Has a Day Longer Than Its Year 🤯",
+        "description": "A mind-blowing Venus fact: its rotation is so slow that one Venus day lasts longer than one Venus year.",
+        "keywords": ["space facts","Venus","planet facts","astronomy","science facts","did you know","shorts"],
+        "hashtags": ["#space","#venus","#spacefacts","#astronomy","#science","#shorts","#factverse"]
+    },
+    {
+        "hook": "The Moon is slowly escaping Earth.",
+        "fact": "The Moon is moving away from Earth by about 3.8 centimeters each year because of tidal interactions between Earth and the Moon.",
+        "twist": "Our Moon is getting farther away every year.",
+        "title": "The Moon Is Slowly Escaping Earth 🌕",
+        "description": "The Moon is gradually moving away from Earth. Discover the science behind this fascinating space fact.",
+        "keywords": ["Moon facts","space facts","Earth and Moon","astronomy","science","did you know","shorts"],
+        "hashtags": ["#moon","#space","#spacefacts","#astronomy","#science","#shorts","#factverse"]
+    },
+    {
+        "hook": "A teaspoon of neutron-star matter would be unbelievably heavy.",
+        "fact": "Neutron stars pack roughly more than a Sun's mass into a city-sized object, making their matter extraordinarily dense.",
+        "twist": "A tiny amount would weigh an almost unimaginable amount.",
+        "title": "The Most Extreme Matter in the Universe 🤯",
+        "description": "Neutron stars are among the densest objects known, compressing enormous mass into a city-sized sphere.",
+        "keywords": ["neutron star","space facts","astronomy","universe facts","science facts","shorts"],
+        "hashtags": ["#neutronstar","#spacefacts","#astronomy","#science","#universe","#shorts","#factverse"]
+    },
+    {
+        "hook": "Mars can have blue sunsets.",
+        "fact": "Fine dust in the Martian atmosphere scatters sunlight differently from Earth's atmosphere, making sunsets appear bluish near the Sun.",
+        "twist": "On Mars, sunset can look almost opposite to Earth's.",
+        "title": "Mars Has Blue Sunsets 🔵🔴",
+        "description": "Why can sunsets look blue on Mars? Dust and sunlight create a striking difference from sunsets on Earth.",
+        "keywords": ["Mars facts","space facts","planet facts","astronomy","science","shorts"],
+        "hashtags": ["#mars","#space","#spacefacts","#astronomy","#science","#shorts","#factverse"]
+    },
+    {
+        "hook": "Saturn is less dense than water.",
+        "fact": "Saturn has an average density of about 0.69 grams per cubic centimeter, lower than liquid water's density.",
+        "twist": "In a gigantic enough ocean, Saturn would float.",
+        "title": "Saturn Could Float in Water?! 🪐",
+        "description": "Saturn has such a low average density that it is less dense than water. Here's the surprising science.",
+        "keywords": ["Saturn facts","space facts","planet facts","astronomy","science","shorts"],
+        "hashtags": ["#saturn","#space","#spacefacts","#astronomy","#science","#shorts","#factverse"]
+    },
+    {
+        "hook": "Mercury has ice despite being near the Sun.",
+        "fact": "Some permanently shadowed craters near Mercury's poles are cold enough to preserve water ice despite the planet's extreme daytime heat.",
+        "twist": "The closest planet to the Sun can hide ice.",
+        "title": "Mercury Hides Ice Near the Sun 🧊☀️",
+        "description": "Mercury seems like the last place for ice, but permanently shadowed polar craters can preserve water ice.",
+        "keywords": ["Mercury facts","space facts","ice on Mercury","NASA","astronomy","shorts"],
+        "hashtags": ["#mercury","#space","#spacefacts","#astronomy","#science","#shorts","#factverse"]
+    },
+    {
+        "hook": "A volcano on Mars is nearly three times Everest's height.",
+        "fact": "Olympus Mons on Mars rises about 22 kilometers above its surrounding plains, making it the tallest known volcano in the Solar System.",
+        "twist": "Mars has a mountain far taller than Everest.",
+        "title": "Mars Has a Mountain Bigger Than Everest 🚀",
+        "description": "Olympus Mons is the tallest known volcano in the Solar System and dwarfs Earth's Mount Everest.",
+        "keywords": ["Olympus Mons","Mars facts","space facts","planet facts","astronomy","shorts"],
+        "hashtags": ["#mars","#olympusmons","#spacefacts","#astronomy","#science","#shorts","#factverse"]
+    },
+    {
+        "hook": "Uranus rotates almost on its side.",
+        "fact": "Uranus has an axial tilt of about 98 degrees, so its rotation axis is almost parallel to the plane of its orbit.",
+        "twist": "Its seasons are unlike anything on Earth.",
+        "title": "The Planet That Rolls Around the Sun 🪐",
+        "description": "Uranus has an extreme axial tilt, making its seasons and rotation unlike Earth's.",
+        "keywords": ["Uranus facts","space facts","planet facts","astronomy","science","shorts"],
+        "hashtags": ["#uranus","#space","#spacefacts","#astronomy","#science","#shorts","#factverse"]
+    },
+    {
+        "hook": "Jupiter's storms can last for years.",
+        "fact": "Jupiter's atmosphere contains enormous long-lived storms, including the Great Red Spot, a giant vortex observed for centuries.",
+        "twist": "Some storms on Jupiter outlive generations of humans.",
+        "title": "Jupiter Has Storms That Last for Centuries 🌪️",
+        "description": "Jupiter's atmosphere is home to enormous, long-lived storms such as the Great Red Spot.",
+        "keywords": ["Jupiter facts","Great Red Spot","space facts","astronomy","science","shorts"],
+        "hashtags": ["#jupiter","#space","#spacefacts","#astronomy","#science","#shorts","#factverse"]
+    },
+    {
+        "hook": "A day on the Moon is nearly a month long.",
+        "fact": "The Moon takes about 27.3 Earth days to rotate once relative to the stars, matching its orbital period around Earth.",
+        "twist": "One lunar day is almost four Earth weeks.",
+        "title": "One Day on the Moon Lasts Nearly a Month 🌕",
+        "description": "The Moon rotates slowly enough that its sidereal day lasts about 27.3 Earth days.",
+        "keywords": ["Moon facts","space facts","astronomy","Earth Moon","science","shorts"],
+        "hashtags": ["#moon","#spacefacts","#astronomy","#science","#shorts","#factverse"]
+    },
+\n\ndef verified_fallback():\n    history_path = os.path.join(ROOT, "data", "published_history.json")\n    used = set()\n    try:\n        with open(history_path, "r", encoding="utf-8") as fh:\n            history = json.load(fh)\n        for item in history.get("videos", []):\n            used.add(str(item.get("title", "")).strip().lower())\n            used.add(str(item.get("fact", "")).strip().lower())\n    except Exception:\n        pass\n    offset = int(os.environ.get("FACTVERSE_FALLBACK_OFFSET", "0") or 0)\n    ordered = FALLBACK_FACTS[offset % len(FALLBACK_FACTS):] + FALLBACK_FACTS[:offset % len(FALLBACK_FACTS)]\n    for item in ordered:\n        if item["title"].strip().lower() not in used and item["fact"].strip().lower() not in used:\n            return dict(item)\n    return dict(ordered[0])\n
 
 # ============================================================
 # GENERATE AI CONTENT
