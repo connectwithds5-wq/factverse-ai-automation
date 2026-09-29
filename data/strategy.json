@@ -1,47 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Analysis of the deduplicated FACTVERSE performance data reveals a massive viewer preference for extreme space anomalies framed around interactive hypothetical scenarios ('What If You Fell Into...'). Videos focusing on bizarre planetary conditions, extreme weather on exoplanets, and high-value comparisons (e.g., diamond planets, burning ice) significantly outperform standard science or psychological facts in both views-per-day and like-to-view ratios. Content released within the last 7 days consistently commands higher velocity than older catalog entries, particularly space-oriented 'What If' hooks.",
-  "winning_patterns": [
-    {
-      "pattern": "Hypothetical Exoplanet Immersion",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) pulled 1,024 views with 38 likes, and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) pulled 970 views with 18 likes within days.",
-      "action": "Double down on 'What If You Fell Into [Extreme Exoplanet]' formats using high-stakes spatial sensory hooks."
-    },
-    {
-      "pattern": "Counterintuitive Cosmic Extremes",
-      "evidence": "Titles featuring bizarre physical states like 'The Planet Darker Than Coal: TrES-2b' (v1rrcZLdp4U) and 'This Planet Rains Supersonic Rubies!' (QXuqYERlqSo) drove over 1,000 and 700 views respectively with strong engagement.",
-      "action": "Continue leveraging rare material conditions (gemstone weather, extreme darkness, absolute temperatures) paired with exclamation-driven curiosity hooks."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Abstract Psychological Trivia without Sensory Stakes",
-      "evidence": "Shorts like 'Your Brain Can Create Fake Memories' (2fqaGqfsR4A) and 'Your Brain Is Hiding This From You' (mGEgENcGcNE) stagnated with single-digit or low double-digit views and zero engagement.",
-      "action": "Deprioritize flat psychological trivia unless anchored to an extreme physical anomaly or a visceral survival scenario."
-    },
-    {
-      "pattern": "Low-Stakes Historical/Biological Facts",
-      "evidence": "Videos such as 'The Only Animal That Can Live Forever' (F1kXwuXuNgo) and historical mysteries like 'The 2,000-Year-Old Mystery Science Can't Solve' (yLm-FjYH6-k) showed sluggish performance compared to space content.",
-      "action": "Shift animal and history concepts toward cinematic survival or high-conflict micro-narratives rather than standard educational trivia."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space & Science What-If Scenarios",
-    "hook_style": "Visceral Sensory Immersion / Extreme Consequence",
-    "concept": "What happens to your body if you step onto the metal-snow peaks of Kepler-13ab?",
-    "opening_direction": "Start mid-action with the sound of roaring titanium winds and the visual of sparkling metallic snow rushing past the camera.",
-    "twist_direction": "Reveal that the snow isn't water—it's vaporized titanium oxide freezing in the upper atmosphere and blanketing the dark side of the tidally locked world.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 2:00 PM EST (Peak Space Content Engagement Window)",
-    "reason": "Capitalizes on the proven high-performing 'What If' exoplanet format while introducing a brand-new celestial body (Kepler-13ab) and a fresh visual hook (titanium snow) to avoid repetition.",
-    "fresh_topic_constraints": [
-      "Do not use diamond planets, burning ice, glass rain, or molten iron rain.",
-      "Must feature a newly introduced exoplanet (Kepler-13ab) with a distinct physical phenomenon.",
-      "Keep the script tightly paced under 21 seconds with a direct sensory payoff in the first 3 seconds."
-    ]
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a cinematic AI-generated visual of a human-scale object interacting with an extreme exoplanet material (titanium snow) in the first 2 seconds to measure if immediate visual novelty boosts 0-to-3-second retention compared to text-only title hooks.",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-29T13:40:57.658767+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-09-29T14:40:00.002539+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-09-29T14:40:00.002554+00:00"
 }
