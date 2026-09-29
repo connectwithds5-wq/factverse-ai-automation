@@ -1,21 +1,47 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Analysis of the deduplicated performance data clearly highlights that 'What If' scenarios and extreme space phenomena (specifically exotic planets and hypothetical physics interactions) dramatically outperform standard trivia facts in views-per-day, likes-per-view, and overall engagement. Videos featuring immersive thought experiments like falling into extreme alien worlds (e.g., liquid diamond planets or burning ice worlds) consistently drive higher interaction rates than straightforward historical or psychological trivia.",
+  "winning_patterns": [
+    {
+      "pattern": "Hypothetical 'What If' Space Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) show exceptionally high view velocity and engagement compared to older static fact formats.",
+      "action": "Double down on hypothetical immersion hooks ('What If You Fell Into...') focusing on extreme astrophysical environments."
+    },
+    {
+      "pattern": "Extreme Planetary Conditions & Rare Material Rains",
+      "evidence": "Titles detailing bizarre planetary mechanics or extreme weather (e.g., 'The Planet Darker Than Coal: TrES-2b', 'This Planet Rains Supersonic Rubies!') generate strong baseline curiosity and high like counts.",
+      "action": "Produce more short-form concepts focusing on bizarre, counter-intuitive exoplanet weather and extreme physical properties."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Static Psychological Trivia & Brain Facts",
+      "evidence": "Topics like 'Your Brain Can Create Fake Memories' and general psychological tricks show low view counts (often under 60 views) and minimal likes/comments across multiple iterations.",
+      "action": "Deprioritize standard psychology trivia and cognitive illusion shorts unless framed within a high-stakes narrative or 'What If' scenario."
+    },
+    {
+      "pattern": "Low-Engagement Historical Micro-Mysteries",
+      "evidence": "General historical questions like 'The 2,000-Year-Old Mystery Science Can't Solve' generated modest views (139) with zero likes or comments, indicating low retention or weak hook resonance.",
+      "action": "Pivot away from abstract historical mysteries for Shorts; reserve history storytelling for deep-dive formats or cinematic micro-dramas."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "category": "Space / What-If Scenarios",
+    "hook_style": "Hypothetical Sensory Immersion",
+    "concept": "What If You Swam Through the Atmosphere of a Helium Planet?",
+    "opening_direction": "Start directly with the bizarre physical sensation of free-falling through an endless, odorless ocean of gas where you would instantly lose your voice pitch.",
+    "twist_direction": "Reveal that the core pressure is so extreme it turns hydrogen into a solid metal floor that would instantly crush any spacecraft.",
     "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "posting_window": "12:00 PM - 3:00 PM EST",
+    "reason": "Leverages the proven high-performing 'What If' formatting and extreme exoplanet physics framework while exploring a completely fresh celestial phenomenon not yet covered in the channel's catalog.",
+    "fresh_topic_constraints": [
+      "Must not feature diamond, ice, glass, or ruby planets",
+      "Must not reuse previous titles or recycled hook wording",
+      "Must introduce a completely unique exoplanet class"
+    ]
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-29T21:37:27.979703+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-29T21:37:27.979721+00:00"
+  "experiment": "Test a 15-second pacing structure using a direct sensory-immersion question ('What if you...') compared to a declarative fact statement to measure impact on initial viewer retention.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-09-29T22:37:16.844470+00:00"
 }
