@@ -7,7 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 METADATA = ROOT / "output" / "metadata.json"
 HISTORY = ROOT / "data" / "published_history.json"
-MAX_REGENERATIONS = 5
+MAX_REGENERATIONS = 8
 
 
 def norm(text):
@@ -38,7 +38,7 @@ def is_duplicate(current, history):
     current_fact = norm(current.get("fact"))
     current_category = norm(current.get("category"))
 
-    for old in history[-50:]:
+    for old in history[-100:]:
         old_title = norm(old.get("title"))
         old_hook = norm(old.get("hook"))
         old_fact = norm(old.get("fact"))
@@ -95,10 +95,15 @@ def main():
             f"DUPLICATE GUARD: duplicate detected ({reason}); "
             f"regenerating {attempt + 1}/{MAX_REGENERATIONS}..."
         )
+        # Change the deterministic fallback slot on every retry. This prevents
+        # Gemini outages from repeatedly producing the same fallback topic.
+        import os
+        os.environ["FACTVERSE_FALLBACK_OFFSET"] = str(attempt + 1)
         subprocess.run(
             [sys.executable, str(ROOT / "src" / "generate_with_strategy.py")],
             cwd=ROOT,
             check=True,
+            env=os.environ.copy(),
         )
 
 
