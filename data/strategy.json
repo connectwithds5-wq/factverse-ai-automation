@@ -1,47 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Deduplication and recency weighting across the observation window reveal clear viewer preference for 'What If' space scenarios and extreme planetary physics hooks. Videos employing hypothetical exploratory framing ('What If You Fell Into...') combined with extreme visual assets (diamond planets, burning ice, dark planets) capture significantly higher views-per-day and engagement ratios (likes-per-view) than straightforward declarative statements or older psychological/animal facts.",
+  "overall_summary": "Deduplicated performance analysis shows that space and 'What If' planetary scenario hooks published within the last 7 days are dominating both views-per-day and engagement metrics (likes/comments-per-view). Specifically, hypothetical space immersion titles (e.g., falling into extreme planets) generate the highest velocity and engagement. Content older than 7 days experiences a sharp drop-off in daily views, emphasizing the need for continuous fresh uploads in high-performing categories.",
   "winning_patterns": [
     {
-      "pattern": "Hypothetical Space Extremes ('What If' + Extreme Asset)",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views in 5 days) and 'What If You Fell Into the Planet of Burning Ice?' (972 views in 9 days) strongly outperform standard declarative space facts published around the same time.",
-      "action": "Double down on 'What If' hypothetical survival/immersion framing set in extreme cosmic environments."
+      "pattern": "Hypothetical Space Immersion ('What If You Fell Into...')",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) achieved over 970 to 1,024 views rapidly with high like-to-view ratios (up to 38 likes).",
+      "action": "Double down on 'What If' immersive space and planetary survival scenarios featuring extreme physical conditions."
     },
     {
-      "pattern": "High-Value Exotic Materials & Rarity",
-      "evidence": "Titles featuring colossal monetary or material scale ('$26 Nonillion Diamond Planet', 'Supersonic Rubies') consistently pull high engagement and viewer interest relative to age.",
-      "action": "Incorporate hyper-specific, mind-boggling numbers and rare materials into space and planetary descriptions."
+      "pattern": "Extreme Planetary Phenomena",
+      "evidence": "Titles detailing bizarre planetary environments like 'The Planet Darker Than Coal' (v1rrcZLdp4U) and 'This Planet Rains Supersonic Rubies!' (QXuqYERlqSo) consistently pull over 700 to 1,000 views within days of release.",
+      "action": "Continue producing short-form content highlighting visually striking, bizarre exoplanets or cosmic anomalies with strong hook adjectives."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Psychological & Brain Fact Recyclables",
-      "evidence": "Content regarding memory or songs stuck in your head ('Your Brain Can Create Fake Memories', views in low double digits) shows flat performance and low engagement ratios.",
-      "action": "Deprioritize psychological trivia unless tied to a startling, high-stakes narrative or mystery micro-story."
+      "pattern": "Stale General Psychology / Brain Trivia",
+      "evidence": "Older psychology and memory trivia clips (e.g., 'Your Brain Can Create Fake Memories', views dipping to single/double digits) show extremely low retention and long-tail discovery velocity compared to space content.",
+      "action": "Pivot away from generic psychological trivia unless tied to a high-concept sci-fi or thriller narrative framework."
     },
     {
-      "pattern": "Short Static Declarative Facts (<15s without narrative arc)",
-      "evidence": "Shorter animal facts without an immersive scenario or twist ('Octopuses Have THREE Hearts', views stalling under 200 after weeks) fail to trigger sustained algorithmic momentum.",
-      "action": "Extend runtime toward 18-21 seconds to allow proper setup, escalation, and twist payoff."
+      "pattern": "Low-Engagement Animal Facts",
+      "evidence": "Basic animal facts (e.g., 'Octopuses Have THREE Hearts', 'The Only Animal That Can Live Forever') generated minimal comments and lower view velocity outside of specific outlier spikes.",
+      "action": "Shift animal-related storytelling toward cinematic survival or extreme 'what if' scenarios rather than static listicle facts."
     }
   ],
   "next_video": {
     "category": "Space / What-If Scenarios",
-    "hook_style": "Hypothetical immersive danger with extreme physical consequence",
-    "concept": "What If You Fell Into the Coldest Known Star (WISE 0855–0714)?",
-    "opening_direction": "Start inside total pitch-black sub-zero fog where water vapor turns directly to ice crystals on your visor.",
-    "twist_direction": "Reveal that despite being colder than a household freezer, its crushing gravity would instantly compress your body into a strange metallic fluid.",
-    "duration_seconds": 20,
+    "hook_style": "Hypothetical Extreme Danger",
+    "concept": "What If You Fell Into the Coldest Known Place in the Universe (The Boomerang Nebula)?",
+    "opening_direction": "Immediately plunge the viewer into a conceptual 1-second drop into a freezing cosmic void colder than deep space itself.",
+    "twist_direction": "Reveal that the gas expanding so fast it creates temperatures colder than the cosmic microwave background would instantly freeze your breath into glittering crystal dust.",
+    "duration_seconds": 21,
     "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Capitalizes on the proven high-performing 'What If' space format while introducing a fresh astronomical body (sub-brown dwarf / ice star) not yet covered in previous uploads.",
+    "reason": "Leverages the proven high-performing 'What If You Fell Into...' format combined with extreme thermodynamic anomalies, which dominate current 7-day view velocity and engagement metrics.",
     "fresh_topic_constraints": [
-      "Do not mention diamond planets, TrES-2b, or J1407b",
-      "Avoid re-using diamond, ruby, or iron rain themes",
-      "Must feature a unique celestial entity outside past publishing history"
+      "Must not use previously covered planets (TrES-2b, diamond planets, burning ice planet)",
+      "Must feature a completely new celestial body (Boomerang Nebula)",
+      "Must maintain high visual descriptive pacing suitable for AI micro-drama/cinematic space rendering"
     ]
   },
-  "experiment": "Test a 21-second space 'What If' scenario focused on a sub-zero brown dwarf star, comparing its 7-day velocity against our standard diamond planet benchmarks to validate audience appetite for extreme cold versus extreme pressure.",
+  "experiment": "Test whether framing a space phenomenon purely as an extreme physical survival sensation ('What If You Fell Into...') outperforms declarative declarative fact statements ('The Star Colder Than Ice') by at least 25% in the first 48 hours.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-30T11:37:50.016922+00:00"
+  "generated_at": "2026-09-30T12:47:33.481382+00:00"
 }
