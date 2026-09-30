@@ -1,47 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Recent 7-day performance indicates massive audience demand for extreme planetary 'What-If' scenarios and bizarre space oddities with high sensory contrast (e.g., 'What If You Fell Into a Liquid Diamond Planet?', 'What If You Fell Into the Planet of Burning Ice?'). Videos focused on hypothetical extreme space survival, unusual planetary physics, and visceral curiosity hooks generated significantly higher views-per-day and like-to-view ratios compared to standard abstract science or older static trivia.",
+  "overall_summary": "Recent 7-day performance data shows massive traction for hypothetical 'What If' scenarios combined with extreme space anomalies and planetary phenomena. Specifically, videos using the 'What If You Fell Into...' hook structure (e.g., Liquid Diamond Planet, Planet of Burning Ice, Nonillion Diamond Planet) are drastically outperforming standard fact formats in both views and engagement (likes-per-view). Meanwhile, older psychological, standard space facts, and older biology videos posted over two weeks ago are plateauing rapidly in daily velocity. Engagement is heavily skewed toward interactive, high-stakes hypothetical curiosity loops.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Planetary 'What If' Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views in ~5 days) and 'What If You Fell Into the Planet of Burning Ice?' (972 views) vastly outperform standard static fact statements.",
-      "action": "Double down on hypothetical immersion formats where the viewer interacts with extreme cosmic environments."
+      "pattern": "What If / Extreme Planetary Immersion",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1024 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views) generated exceptionally high view velocity and engagement compared to older static facts.",
+      "action": "Double down on 'What If You Fell Into...' hooks featuring extreme, bizarre, or high-value astronomical locations."
     },
     {
-      "pattern": "High-Contrast Sensory Space Anomalies",
-      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,026 views) and 'This Planet Rains Supersonic Rubies!' (721 views) show exceptional organic pull within the space and astronomy niche.",
-      "action": "Prioritize celestial bodies featuring paradoxical elements like extreme temperatures, strange precipitation, or unusual light absorption."
+      "pattern": "Bizarre Planetary Weather & Extreme Physics",
+      "evidence": "Titles detailing extreme planetary environments like 'This Planet Rains Supersonic Rubies!' (721 views) and 'The Planet Darker Than Coal' (1026 views) retain strong viewership.",
+      "action": "Produce more short-form pieces focusing on bizarre, counter-intuitive physical laws or extreme weather on newly discovered exoplanets."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Psychological & Biological Trivia without Stakes",
-      "evidence": "Topics like 'Your Brain Can Create Fake Memories' (5 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) generated negligible traction during recent tracking windows.",
-      "action": "Deprioritize flat psychological trivia unless framed through an urgent, high-stakes personal survival or visceral micro-story hook."
+      "pattern": "Static Psychological Tricks & Brain Facts",
+      "evidence": "Videos like 'Your Brain Can Create Fake Memories' (5-53 views) and 'The Psychological Trick to Stop Songs Stuck in Your Head' (71 views) show stagnant or negligible view-per-day growth.",
+      "action": "Reduce reliance on standard psychology or brain-hack tips unless framed through a high-stakes narrative or mystery micro-story."
     },
     {
-      "pattern": "Under-formatted Historical & Ancient Mysteries",
-      "evidence": "'The 2,000-Year-Old Mystery Science Can't Solve' plateaued early at 139 views, indicating weaker initial hook retention compared to spatial extremes.",
-      "action": "Refine historical storytelling hooks to feature more immediate sensory danger or bizarre unexplained physical anomalies."
+      "pattern": "Basic Informational Listicle Framing",
+      "evidence": "Standard declarative titles without an immersive hook or narrative question (e.g., 'The Star Colder Than Ice', views: 82) underperform significantly compared to second-person conditional framing.",
+      "action": "Avoid flat declarative statements; always frame the viewer directly into the scenario using 'You'."
     }
   ],
   "next_video": {
-    "category": "Space / What-If Scenarios",
-    "hook_style": "Visceral Hypothetical Immersion",
-    "concept": "What If You Fell Into the Coldest Known Rogue Planet (SGRA-1 / Rogue Planet roaming deep space with absolute zero conditions)?",
-    "opening_direction": "Start mid-action dropping into pitch-black interstellar space where ambient temperature instantly flash-freezes oxygen in your lungs.",
-    "twist_direction": "Reveal that without a star, the planet's core is powered entirely by radioactive decay, creating a subterranean magma ocean beneath miles of crushing nitrogen ice.",
+    "category": "Space / What-if Scenarios",
+    "hook_style": "High-stakes second-person hypothetical immersion",
+    "concept": "What If You Swam in the Largest Cosmic Reservoir: The Huge Hydrogen Sea of Super-Earth GJ 1214b?",
+    "opening_direction": "Start immediately with the terrifying sensation of plunging into an endless, crushing ocean under an alien purple sky.",
+    "twist_direction": "Reveal that the water isn't liquid H2O, but hot, exotic super-ionic ice kept in a solid-liquid state by immense atmospheric pressure.",
     "duration_seconds": 21,
     "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Capitalizes on the proven high-performing 'What If You Fell Into...' formula combined with extreme thermal contrast, directly mirroring our top-performing recent content.",
+    "reason": "Capitalizes directly on the proven 'What If You Fell Into...' winning pattern while introducing a fresh exoplanet (GJ 1214b) not yet covered in the channel history.",
     "fresh_topic_constraints": [
-      "Do not use diamond planets, liquid metal rain, or TrES-2b.",
-      "Focus strictly on rogue planets and interstellar wandering bodies.",
-      "Ensure entirely fresh script framing distinct from previous ice or dark planet titles."
+      "Must not use previously covered planets like TrES-2b or generic diamond/glass rain planets.",
+      "Must feature a completely new celestial body with distinct physical properties.",
+      "Must avoid re-using identical title phrasing from the 7-day winning set."
     ]
   },
-  "experiment": "Test a 21-second 'What If' spatial immersion format featuring an unknown rogue celestial body against a standard static space fact to confirm if hypothetical viewer endangerment consistently drives higher engagement velocity.",
+  "experiment": "A/B test a 'What If' space immersion video against a cinematic historical storytelling micro-drama to determine if non-space niches can match the explosive engagement velocity of exoplanet hypotheticals.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-30T14:41:43.720953+00:00"
+  "generated_at": "2026-09-30T15:41:28.667138+00:00"
 }
