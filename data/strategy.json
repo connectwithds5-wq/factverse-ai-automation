@@ -1,47 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Recent 7-day performance data clearly demonstrates that space-themed 'What If' scenarios and extreme planetary facts (e.g., liquid diamond planets, burning ice planets, dark planets) generate the highest views-per-day, likes-per-view, and engagement. Videos framing hypothetical catastrophic or bizarre planetary conditions (e.g., IYuce8vaU3Y, 8KEl0_pJ_68, 6pwazIPnOHw) dramatically outperform standard declarative facts or older psychology/history shorts. The audience responds best to second-person immersive framing ('What If You Fell Into...') combined with extreme, counter-intuitive visual phenomena.",
+  "overall_summary": "Analysis of deduplicated YouTube Shorts performance reveals that 'What If' space scenarios and extreme planetary physics are significantly outperforming standard static facts, generating higher views-per-day and stronger engagement (likes-per-view). Videos framed around hypothetical catastrophic scenarios (e.g., falling into liquid diamond or dark planets) capture peak early-window traction compared to historical neuroscience or animal facts.",
   "winning_patterns": [
     {
-      "pattern": "Immersive 'What If' Planetary Scenarios",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) pulled 1,024 views with 38 likes quickly, and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) reached 972 views.",
-      "action": "Produce more short-form speculative physics and extreme space scenarios focusing on bizarre alien worlds using second-person perspective."
+      "pattern": "Hypothetical Space Scenarios ('What If You Fell Into...')",
+      "evidence": "Videos like IYuce8vaU3Y ('What If You Fell Into a Liquid Diamond Planet?') and 8KEl0_pJ_68 ('What If You Fell Into the Planet of Burning Ice?') pulled over 900-1000+ views rapidly with high like ratios.",
+      "action": "Shift production focus toward high-stakes 'What If' spatial catastrophe hooks that force immediate visual imagination."
     },
     {
-      "pattern": "Extreme Planetary Conditions & Rains",
-      "evidence": "Videos like 'The Planet Darker Than Coal: TrES-2b' (v1rrcZLdp4U) and 'This Planet Rains Supersonic Rubies!' (QXuqYERlqSo) consistently achieve high views and strong like ratios relative to older content.",
-      "action": "Continue focusing on exotic exoplanets with extreme weather or bizarre material properties, pairing them with striking visual hooks."
+      "pattern": "Extreme Planetary Anomalies",
+      "evidence": "v1rrcZLdp4U ('The Planet Darker Than Coal') and QXuqYERlqSo ('This Planet Rains Supersonic Rubies!') generated strong sustained velocity and robust engagement.",
+      "action": "Continue sourcing bizarre, physics-defying planetary weather and material phenomena with high-contrast visual titles."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Psychological Trivia & Static History",
-      "evidence": "Shorts like 'Your Brain Can Create Fake Memories' (2fqaGqfsR4A) and 'The 2,000-Year-Old Mystery' (yLm-FjYH6-k) stagnated with very low view counts (<150 views) and zero comments.",
-      "action": "Deprioritize abstract human psychology and static historical mysteries unless they feature an immediate, visceral physical hook or shocking experiment."
+      "pattern": "Abstract Neuroscience & Earworm Trivia",
+      "evidence": "ef3ND4qiRHc ('The Psychological Trick to Stop Songs Stuck in Your Head') and Jc04LVKNd2s lagged behind in daily view velocity and comments.",
+      "action": "Deprioritize psychological life-hacks and earworm trivia for Shorts unless paired with an extreme visual demonstration."
     },
     {
-      "pattern": "Declarative Space Facts Without Immersive Framing",
-      "evidence": "Simple declarative titles like 'This Star Is Older Than the Universe!' (vFXHTmYITp4) stalled at 11 views, whereas framing them as scenarios or active questions drives traffic.",
-      "action": "Avoid plain statement titles; always frame space facts as high-stakes questions or 'What If' exploratory hooks."
+      "pattern": "Static Declarative Animal Facts",
+      "evidence": "F1kXwuXuNgo ('The Only Animal That Can Live Forever') and AXAfwrzzEdU ('Octopuses Have THREE Hearts') showed stagnant long-tail views compared to space content.",
+      "action": "Avoid standard listicle-style animal facts; if covering animals, frame them through cinematic survival or extreme evolutionary anomalies."
     }
   ],
   "next_video": {
     "category": "Space / What-If Scenarios",
-    "hook_style": "Immersive Catastrophic Second-Person Scenario",
-    "concept": "What If You Fell Into the Coldest Known Planet (OGLE-TR-56b or WD 1856+534 style rogue dead star system)? Let's explore absolute zero atmospheric freezing instantly turning human tissue to brittle glass.",
-    "opening_direction": "Start mid-fall through an invisible, pitch-black atmosphere where your breath freezes before it leaves your lungs.",
-    "twist_direction": "Reveal that you aren't falling toward a solid surface, but rather descending endlessly into a crushing, hyper-dense core of exotic degenerate matter.",
+    "hook_style": "Hypothetical Catastrophe / Extreme Physics",
+    "concept": "What If You Fell Into a Star Made Entirely of Solid Neon?",
+    "opening_direction": "Start with the immediate sensory terror of plunging into a glowing, freezing-cold neon abyss that defies normal stellar logic.",
+    "twist_direction": "Reveal that instead of burning up, you would instantly freeze while accelerating toward an invisible core.",
     "duration_seconds": 21,
-    "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Capitalizes on the proven high-performing 'What If You Fell Into...' space format which shows superior velocity in views and like-to-view conversion.",
+    "posting_window": "12:00 PM - 2:00 PM EST",
+    "reason": "Capitalizes on the proven high-performing 'What If' space format while introducing a fresh stellar phenomenon not yet covered in the channel's history.",
     "fresh_topic_constraints": [
-      "Do not use diamonds, glass rain, rubies, or burning ice.",
-      "Do not reuse any previously covered exoplanets or stars.",
-      "Focus strictly on absolute zero physics and extreme cold mechanics."
+      "Must not use diamonds, dark planets, ice planets, or rubies",
+      "Must feature an original celestial body concept (Neon star)",
+      "Avoid reusing previously covered exoplanets like TrES-2b"
     ]
   },
-  "experiment": "Test a 21-second 'What If' space scenario with an accelerated audio intro (under 1.5 seconds to first visual transition) to measure retention lift compared to baseline pacing.",
+  "experiment": "Test a 21-second 'What If' space video focusing on an undiscovered stellar anomaly (Solid Neon Star) against the historical average of exoplanet rainfall videos to measure comparative 48-hour view velocity and audience retention.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-30T20:38:15.990650+00:00"
+  "generated_at": "2026-09-30T21:39:48.668397+00:00"
 }
