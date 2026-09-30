@@ -1,21 +1,46 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Analysis of deduplicated YouTube Shorts performance indicates clear audience preference for space-based 'What If' scenarios and extreme planetary phenomena. Videos featuring hypothetical catastrophic scenarios or bizarre space mechanics (e.g., liquid diamond planets, falling into extreme environments, and dark planets) generated significantly higher views-per-day and like-to-view ratios compared to standard static facts or historical/psychological trivia.",
+  "winning_patterns": [
+    {
+      "pattern": "Hypothetical Planetary 'What If' Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views) and 'What If You Fell Into the Planet of Burning Ice?' (972 views) vastly outperform static fact formats published in the same window.",
+      "action": "Double down on 'What If' scenarios applied to extreme astrophysical bodies, focusing on immersive survival physics."
+    },
+    {
+      "pattern": "Extreme/Anomalous Cosmic Environments",
+      "evidence": "Titles detailing surreal planetary conditions ('The Planet Darker Than Coal: TrES-2b', 'This Planet Rains Supersonic Rubies!') drive high engagement and strong like ratios.",
+      "action": "Continue producing ultra-niche space anomalies framed around sensory extremes (sight, sound, pressure, touch)."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Static Psychological Trivia",
+      "evidence": "Topics like song memory loops and fake memories ('Your Brain Can Create Fake Memories') stalled under 100 views with negligible engagement.",
+      "action": "Deprioritize psychology facts and cognitive illusions unless reframed into high-stakes hypothetical survival or mystery narratives."
+    },
+    {
+      "pattern": "Low-Stakes Historical & Oceanographic Facts",
+      "evidence": "General historical mysteries ('The 2,000-Year-Old Mystery Science Can't Solve') and deep ocean facts failed to gain traction relative to space content.",
+      "action": "Shift away from standard historical trivia and redirect narrative energy into the newly introduced cinematic storytelling and micro-drama niches."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "category": "Space & Astronomy",
+    "hook_style": "Hypothetical Catastrophe / Sensory Shock",
+    "concept": "What If You Fell Into a Neutron Star's 'Nuclear Pasta' Crust?",
+    "opening_direction": "Start with an immediate visceral sensory warning about extreme gravity pulling you apart before you even hit the surface.",
+    "twist_direction": "Reveal that the material is billions of times stronger than steel, crushing matter into bizarre subatomic shapes.",
     "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "posting_window": "12:00 PM - 3:00 PM EST",
+    "reason": "Capitalizes on the proven 'What If You Fell Into...' high-performing hook structure while introducing a fresh, mind-bending astrophysical concept (nuclear pasta).",
+    "fresh_topic_constraints": [
+      "Must not use diamonds, burning ice, glass rain, or coal planets.",
+      "Must focus strictly on the physics of degenerate matter."
+    ]
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-09-30T03:39:39.900191+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-09-30T03:39:39.900207+00:00"
+  "experiment": "Test a 15-second pacing threshold on a high-performing space 'What If' concept to see if completion rate improves compared to 21-second variants.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-09-30T04:39:12.307449+00:00"
 }
