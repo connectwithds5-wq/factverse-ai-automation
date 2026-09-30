@@ -1,47 +1,46 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Recent 7-day performance indicates massive viewer preference for high-concept space and astrophysics scenarios, specifically using the 'What If You Fell Into...' format combined with extreme planetary anomalies. Videos centered on exotic worlds, extreme physics, and visceral curiosity ('Liquid Diamond Planet', 'Planet of Burning Ice', 'Darkest Planet') consistently outperform standard animal facts or psychological tricks in views-per-day and engagement metrics.",
+  "overall_summary": "Performance heavily clusters around space-based 'What If' scenarios and extreme planetary conditions published within the last 7 days. Videos featuring hypothetical space travel or bizarre planetary environments (e.g., liquid diamond, burning ice, darkest planet) achieve the highest views-per-day and engagement metrics (likes-per-view up to ~3.7%). Traditional flat facts underperform relative to immersive, experiential second-person thought experiments ('What If You Fell Into...').",
   "winning_patterns": [
     {
-      "pattern": "Hypothetical Immersion ('What If You Fell Into...')",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views) and 'What If You Fell Into the Planet of Burning Ice?' (972 views) generate significantly higher velocity than static fact statements published in the same window.",
-      "action": "Double down on hypothetical physics scenarios where the viewer is placed directly into an extreme, hazardous cosmic environment."
+      "pattern": "Second-person immersive space 'What If' scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) achieved over 1,000 and 972 views rapidly with strong like ratios.",
+      "action": "Double down on hypothetical planetary immersion hooks starting with 'What If You Fell Into...' or 'What If You Visited...' using extreme cosmic anomalies."
     },
     {
-      "pattern": "Extreme Planetary Anomalies & Rains",
-      "evidence": "The space niche dominates overall traffic. Titles featuring rare cosmic weather ('This Planet Rains Supersonic Rubies!', 'The Planet Darker Than Coal') capture strong viewer retention and higher like-to-view ratios.",
-      "action": "Continue sourcing bizarre exoplanet phenomena focusing on sensory-loaded imagery (melting, raining, crushing)."
+      "pattern": "Bizarre planetary extremes with visual hooks",
+      "evidence": "Titles detailing dark/unusual planets (e.g., 'The Planet Darker Than Coal', 'This Planet Rains Supersonic Rubies!') maintain high sustained views and robust engagement.",
+      "action": "Highlight extreme, counter-intuitive physical properties of newly discovered or lesser-known celestial bodies."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Static Psychological Tricks & Brain Teasers",
-      "evidence": "Topics like 'The Psychological Trick to Stop Songs Stuck in Your Head' (71 views) and 'Your Brain Can Create Fake Memories' stall quickly with minimal organic lift outside the immediate subscriber base.",
-      "action": "Deprioritize psychological trivia unless framed through an extreme, high-stakes medical or neuro-sci-fi hook."
+      "pattern": "Standard psychological and brain trivia without strong narrative stakes",
+      "evidence": "Topics like 'Your Brain Can Create Fake Memories' and 'Your Brain Is Hiding This From You' received low views (<60) and zero engagement.",
+      "action": "Deprioritize standalone psychological facts unless framed as a high-stakes neurological mystery or interactive test."
     },
     {
-      "pattern": "Low-Stakes Animal Facts",
-      "evidence": "Standard animal trivia ('Octopuses Have THREE Hearts') achieves moderate baseline views but lacks the explosive viral velocity seen in planetary destruction and space mechanics.",
-      "action": "Pivot animal content toward cinematic survival or prehistoric/deep-sea horror micro-stories rather than basic listicle facts."
+      "pattern": "Static historical or static biological trivia",
+      "evidence": "Older or static animal/history facts (e.g., 'The Only Animal That Can Live Forever', 'The 2,000-Year-Old Mystery') show stagnant daily view velocity.",
+      "action": "Shift biological content toward cinematic survival dynamics or extreme physical adaptations rather than simple listicle facts."
     }
   ],
   "next_video": {
-    "category": "Space & Extreme Physics",
-    "hook_style": "High-stakes hypothetical immersion ('What If...')",
-    "concept": "What If You Fell Into a Star Made Entirely of Neon?",
-    "opening_direction": "Start mid-action falling through a blinding neon-pink glowing vortex with zero solid ground beneath.",
-    "twist_direction": "Reveal that you aren't falling down—you are being compressed by pressure so intense it turns light into solid matter before you can hit a core.",
-    "duration_seconds": 15,
-    "posting_window": "13:00 UTC",
-    "reason": "Capitalizes on the proven high-performing 'What If' space format while introducing a brand new element (Neon star physics) distinct from previously covered diamond, ice, and glass planets.",
+    "category": "space",
+    "hook_style": "What If immersion scenario",
+    "concept": "Journey into the center of a rogue planet with no star, where temperatures drop near absolute zero and sound travels through solid metallic hydrogen.",
+    "opening_direction": "Start directly with the terrifying sensory experience of stepping onto a wandering planet lost in interstellar space with no sun in sight.",
+    "twist_direction": "Reveal that the crushing atmospheric pressure is actually turning your spacesuit into pure diamond while you fall toward a core made of super-dense fluid.",
+    "duration_seconds": 21,
+    "posting_window": "12:00 PM - 2:00 PM EST",
+    "reason": "Capitalizes on the proven high-performing 'What If / Extreme Planet' cluster while introducing a completely fresh celestial phenomenon (rogue planets and metallic hydrogen).",
     "fresh_topic_constraints": [
-      "Do not use diamonds, glass, rubies, iron, or ice.",
-      "Must feature a completely new celestial phenomenon not present in historical titles.",
-      "Avoid repeating 'Darkest Planet' or 'Liquid Diamond'."
+      "Must not feature diamond planets, burning ice, TrES-2b, or standard black holes.",
+      "Must use a newly introduced celestial body type (rogue planet / metallic hydrogen core)."
     ]
   },
-  "experiment": "Test a 15-second pacing structure with a zero-frame visual hook (immediate sensory impact of neon pressure) to measure if higher early retention pushes the velocity past the current 1,000-view ceiling.",
+  "experiment": "Test a 21-second space 'What If' scenario focusing on an extreme interstellar rogue planet versus a standard planetary fact to confirm if second-person immersion consistently drives higher 7-day velocity.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-30T16:39:58.008410+00:00"
+  "generated_at": "2026-09-30T17:38:16.237917+00:00"
 }
