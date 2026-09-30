@@ -1,47 +1,46 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Performance analysis across recent data reveals clear audience preference for space and hypothetical 'What If' planetary scenarios, especially those utilizing extreme scale, vivid imagery, and high-value hooks (e.g., diamond planets, extreme weather on exotic worlds). Videos featuring 'What If' formatting and rare planetary phenomena within the 19 to 21-second duration range show significantly higher views and engagement (likes-per-view) compared to older static fact formats or generic psychology prompts.",
+  "overall_summary": "Analysis of recent performance on FACTVERSE shows a clear dominance of extreme space anomalies, hypothetical 'What If' planetary scenarios, and bizarre natural phenomena. Videos published within the last 7 days focusing on extreme cosmic destinations (e.g., liquid diamond planets, burning ice worlds, dark exoplanets) achieve significantly higher views-per-day and like-to-view ratios compared to general psychology or older historical trivia. The highest velocity videos leverage curiosity-inducing 'What If' hypotheticals paired with astonishing visual destinations.",
   "winning_patterns": [
     {
       "pattern": "Hypothetical Planetary 'What If' Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) achieved high view counts (1,024 and 972 views respectively) and strong engagement (up to 38 likes) within days of release.",
-      "action": "Produce more hypothetical planetary immersion scenarios using high-value or bizarre material properties."
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) garnered over 1,000 and 970 views rapidly with strong engagement (38 and 18 likes).",
+      "action": "Double down on immersive 'What If you fell into...' hooks using extreme cosmic objects as the setting."
     },
     {
-      "pattern": "Extreme Cosmic Weather / Exotic Planet Phenomena",
-      "evidence": "Titles detailing surreal planetary conditions like 'This Planet Rains Supersonic Rubies!' (QXuqYERlqSo) and 'The Planet Darker Than Coal: TrES-2b' (v1rrcZLdp4U) consistently capture over 700 to 1,000 views with strong like ratios.",
-      "action": "Focus hooks on counter-intuitive, highly visual weather or atmospheric anomalies on newly discovered exoplanets."
+      "pattern": "Extreme Space & Cosmic Anomaly Facts",
+      "evidence": "'The Planet Darker Than Coal: TrES-2b' (v1rrcZLdp4U) and 'This Planet Rains Supersonic Rubies!' (QXuqYERlqSo) outperformed static historical or psychological trivia with over 1,000 and 700 views and exceptional engagement rates.",
+      "action": "Continue producing fast-paced shorts featuring visually bizarre, scientifically accurate exoplanets and space weather."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Static Psychological Tricks / Earworms",
-      "evidence": "Content like 'The Psychological Trick to Stop Songs Stuck in Your Head' (ef3ND4qiRHc) and 'Your Brain Can Create Fake Memories' (5AN7LUgqarc) underperformed in velocity, hovering between 50 and 70 views with negligible engagement.",
-      "action": "Deprioritize standard psychological tips and generic memory facts unless paired with an extreme, cinematic visual hook."
+      "pattern": "Abstract Psychological & Self-Help Trivia",
+      "evidence": "Topics like 'The Psychological Trick to Stop Songs Stuck in Your Head' (ef3ND4qiRHc) and 'Your Brain Can Create Fake Memories' (5AN7LUgqarc) stalled under 100 views with negligible comment or like interaction.",
+      "action": "Deprioritize abstract psychology tips unless they feature an extreme, counter-intuitive biological shock value."
     },
     {
-      "pattern": "Undersized Durations Under 15 Seconds",
-      "evidence": "Shorter clips like 'Your Brain Can Create Fake Memories' at 15 seconds (2fqaGqfsR4A) gained almost zero traction (5 views), showing that 15 seconds is often too brief to build proper curiosity loops for complex facts.",
-      "action": "Standardize runtime between 18 to 22 seconds to allow adequate pacing for setup, visual payoff, and micro-twist."
+      "pattern": "Low-Stakes Historical Mysteries",
+      "evidence": "'The 2,000-Year-Old Mystery Science Can't Solve' (yLm-FjYH6-k) plateaued quickly at 139 views with zero engagement.",
+      "action": "Avoid vague historical mystery hooks; if covering history, anchor it to a concrete, high-impact physical anomaly or survival scenario."
     }
   ],
   "next_video": {
-    "category": "Space & Astronomy",
-    "hook_style": "Hypothetical Survival Scenario",
-    "concept": "What If You Fell Into a Superfluid Helium Ocean on a Gas Giant?",
-    "opening_direction": "Start with a disorienting visual drop into an infinite, perfectly still ocean that behaves in impossible ways, asking the viewer if they could swim in a liquid that has zero friction.",
-    "twist_direction": "Reveal that because superfluid helium crawls up walls and defies gravity, sinking wouldn't even be the strangest part—you would literally float through the planet's core.",
+    "category": "Space / What-If Scenarios",
+    "hook_style": "What If Hypothetical Danger",
+    "concept": "What if you stepped onto the star that is actually cooler than a hot cup of coffee?",
+    "opening_direction": "Start inside a space suit as the protagonist approaches the strangest ultra-cool brown dwarf star known to science.",
+    "twist_direction": "Reveal that the surface temperature is so low you could theoretically touch it without burning, but gravity would instantly crush you.",
     "duration_seconds": 21,
-    "posting_window": "12:00 PM - 2:00 PM EST",
-    "reason": "Capitalizes on the proven high-performing 'What If' space format while introducing a fresh, scientifically accurate astronomical concept distinct from previously covered diamond, ice, or glass planets.",
+    "posting_window": "12:00 PM - 3:00 PM EST",
+    "reason": "Capitalizes on the winning 'What If' and extreme space anomaly patterns which show the highest velocity and engagement in recent data.",
     "fresh_topic_constraints": [
-      "Do not mention diamonds, glass, rubies, or burning ice.",
-      "Ensure accurate representation of superfluid quantum mechanics scaled to planetary size.",
-      "Keep pacing fast with a hard visual cut every 3 seconds."
+      "Do not use diamonds, rain, sharks, octopuses, or black/coal planets.",
+      "Must focus on an ultra-cool brown dwarf or rogue star never covered before."
     ]
   },
-  "experiment": "Test a 21-second 'What If' space video with a direct interactive prompt in the first 3 seconds against a standard declarative fact hook to measure impact on viewer retention and comment velocity.",
+  "experiment": "Test a 21-second 'What If' space scenario with a visceral physical sensation hook against the standard declarative fact format to measure impact on viewer retention and like-per-view ratio.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-30T01:37:24.973997+00:00"
+  "generated_at": "2026-09-30T02:38:04.543410+00:00"
 }
