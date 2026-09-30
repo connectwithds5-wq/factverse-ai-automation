@@ -1,47 +1,48 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of FACTVERSE performance reveals that space and planetary 'What If' scenarios combined with extreme visual environments are significantly outperforming standard factual statements. Videos framed around speculative planetary traversal and extreme physical phenomena (e.g., 'What If You Fell Into a Liquid Diamond Planet?', 'What If You Fell Into the Planet of Burning Ice?') generate high views and strong engagement (likes-per-view), whereas static factual observations without high-stakes curiosity loops underperform. Recent 7-day uploads demonstrate clear viewer preference for speculative astrophysics, existential scale comparisons, and visceral sensory hooks.",
+  "overall_summary": "Analysis of the deduplicated performance data reveals that 'What If' space scenarios and extreme planetary physics are overwhelmingly outperforming standard fact formats. Videos employing speculative immersion ('What If You Fell Into...') combined with extreme visual hooks generate the highest views-per-day, likes-per-view, and active engagement ratios. Meanwhile, static psychological facts and older historical trivia are stagnating.",
   "winning_patterns": [
     {
-      "pattern": "Speculative 'What If' Planetary Traversal",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) vastly outperform standard static planetary facts.",
-      "action": "Shift core production focus from static declarative space facts to immersive, experiential 'What If' scenarios involving extreme planetary environments."
+      "pattern": "Speculative 'What If' Space Immersion",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,024 views) and 'What If You Fell Into the Planet of Burning Ice?' (972 views) secured massive engagement soon after publishing compared to static fact videos.",
+      "action": "Prioritize 'What If' formatting over declarative statements, particularly focusing on bizarre planetary interactions."
     },
     {
-      "pattern": "High-Stakes Cosmic Extremes with Emoji Anchors",
-      "evidence": "Titles featuring rare planetary conditions combined with distinct visual cues, such as 'The Planet Darker Than Coal: TrES-2b 🌌' (1,026 views, 36 likes) and 'This Planet Rains Supersonic Rubies! 💎' (721 views, 25 likes), show superior short-term velocity.",
-      "action": "Continue utilizing sensory-loaded adjectives (supersonic, dark, liquid, burning) and high-contrast emojis in the hook structure."
+      "pattern": "Extreme Planetary Physics & Anomalies",
+      "evidence": "'The Planet Darker Than Coal: TrES-2b' hit 1,026 views, showing high affinity for visually striking, counter-intuitive cosmic objects.",
+      "action": "Continue producing short-form content featuring extreme, rare cosmic anomalies with bold color contrast hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Psychological and Neurological Micro-Facts",
-      "evidence": "Videos focusing on internal human states such as 'Your Brain Can Create Fake Memories' (5-53 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) show severely depressed view-velocity.",
-      "action": "Deprioritize psychological and memory micro-facts unless framed through extreme cinematic sci-fi or high-stakes survival scenarios."
+      "pattern": "Static Psychological Trivia",
+      "evidence": "Videos like 'Your Brain Can Create Fake Memories' and psychological songs-stuck-in-your-head clips stalled out under 60 views.",
+      "action": "Deprioritize standalone psychology facts unless framed as a high-stakes scenario or direct biological mystery."
     },
     {
-      "pattern": "Passive Declarative Historical or Scientific Trivia",
-      "evidence": "Old or static historical/scientific statements like 'The 2,000-Year-Old Mystery Science Can't Solve' (139 views) or 'This Star Is Older Than the Universe!' (11 views) lack an immediate interactive tension loop.",
-      "action": "Eliminate passive declarative statements; every script must open with an immediate existential or physical threat."
+      "pattern": "Dry Historical and Scientific Riddles",
+      "evidence": "'The 2,000-Year-Old Mystery Science Can't Solve' achieved minimal traction (139 views) with zero comments.",
+      "action": "Avoid vague historical mysteries; ensure any historical or archaeological topic features a tangible, shocking physical hazard or anomaly."
     }
   ],
   "next_video": {
-    "category": "Space & Science What-If Scenarios",
-    "hook_style": "Existential 'What If' sensory immersion",
-    "concept": "What If You Fell Into a Star Made Entirely of Neon?",
-    "opening_direction": "Start with the blinding, neon-pink illumination of a hypothetical hyper-giant neon star before you even cross its upper atmosphere.",
-    "twist_direction": "Reveal that the core doesn't burn with normal nuclear fire, but creates a surreal, glowing liquid-plasma ocean that vaporizes matter instantly into pure light.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Capitalizes on the proven high performance of 'What If' planetary and stellar immersion formats while introducing a fresh, visually arresting astronomical subject (Neon stars) absent from past uploads.",
+    "category": "Space & Astronomy",
+    "hook_style": "What If Speculative Scenario",
+    "concept": "What If You Fell Into a Rogue Planet Hurtling Through Interstellar Space?",
+    "opening_direction": "Start in pitch darkness at absolute zero speed, plunging into an orphan world wandering between stars without a sun.",
+    "twist_direction": "Reveal that the core is kept boiling hot by unimaginable pressure, creating an underground subterranean ocean of liquid nitrogen.",
+    "duration_seconds": 15,
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Capitalizes on the proven high-performing 'What If' space survival format while exploring a completely fresh astronomical phenomenon (rogue planets/interstellar space).",
     "fresh_topic_constraints": [
-      "Must not feature diamonds, ice, rubies, glass, or iron rain.",
-      "Must explore an entirely new stellar phenomenon (Neon hyper-giants).",
-      "Must maintain high visual pacing suited for cinematic AI generation."
+      "Do not use diamond planets",
+      "Do not use ice planets",
+      "Do not mention TrES-2b",
+      "Focus entirely on the interstellar rogue planet phenomenon"
     ]
   },
-  "experiment": "Test a 21-second 'What If' space scenario with a hyper-vibrant color palette (Neon/Plasma) versus the recent dark/diamond planetary color palettes to measure impact on viewer retention and like-to-view ratios.",
+  "experiment": "Test a 15-second 'What If' space survival scenario with an abrupt atmospheric sound design intro vs. standard orchestral backing to measure retention drop-off at the 3-second mark.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-30T05:38:28.251745+00:00"
+  "generated_at": "2026-09-30T06:44:07.490610+00:00"
 }
