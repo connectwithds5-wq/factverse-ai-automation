@@ -1,41 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Analysis of recent YouTube Shorts performance for FACTVERSE reveals a clear dominance in 'What If' space scenarios and extreme planetary extremes. Content focusing on hypotheticals involving weird planets (e.g., diamond planets, burning ice, dark planets) and cosmic curiosities achieve significantly higher views-per-day and engagement (likes/comments-per-view) compared to older psychological tricks or minor animal facts. Recent uploads like Venus's day/year paradox and falling into extreme worlds are pulling top velocity.",
-  "winning_patterns": [
-    {
-      "pattern": "'What If You Fell Into...' Space Hypotheses",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views in ~6 days) and 'What If You Fell Into the Planet of Burning Ice?' (972 views) outperform standard descriptive facts by over 3x.",
-      "action": "Produce more high-stakes hypothetical space scenario shorts, focusing on sensory immersion and impossible physics."
-    },
-    {
-      "pattern": "Extreme Planetary Phenomena & Extreme Materials",
-      "evidence": "'Venus Has a Day Longer Than Its Year' (932 views in under 24 hours) and 'This Planet Rains Supersonic Rubies!' (721 views) show exceptional immediate velocity.",
-      "action": "Target bizarre planetary mechanics and extreme weather phenomena on newly discovered exoplanets."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Low-stakes Psychological & Everyday Biology Facts",
-      "evidence": "Shorts like 'Your Brain Can Create Fake Memories' (5-53 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) suffer from low click-through and flat engagement.",
-      "action": "Deprioritize standard psychological truisms unless framed through an extreme, high-concept narrative or thriller lens."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space & Science",
-    "hook_style": "Hypothetical Disaster / High-Stakes Curiosity",
-    "concept": "What Happens If You Step Onto a Planet Made Entirely of Boiling Ice?",
-    "opening_direction": "Start mid-action with a visual of a spacesuit melting instantly on a world where ice burns at 800 degrees.",
-    "twist_direction": "Reveal that this bizarre substance isn't science fiction—it's superionic ice, existing under crushing pressures inside our own solar system's ice giants.",
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
     "duration_seconds": 15,
-    "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Capitalizes on the proven high-performing 'What If' and extreme planetary ice/fire mechanics from top-tier performers like 'What If You Fell Into the Planet of Burning Ice'.",
-    "fresh_topic_constraints": [
-      "Must not use diamonds, rain, sharks, octopuses, or head/feet aging.",
-      "Focus strictly on superionic ice mechanics on Uranus or Neptune."
-    ]
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 15-second tight edit focusing purely on sensory destruction in the first 2 seconds (visual + sound design) to boost audience retention past the critical 5-second mark on space hypotheticals.",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-01T20:40:17.948169+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-10-01T21:39:38.284271+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-10-01T21:39:38.284287+00:00"
 }
