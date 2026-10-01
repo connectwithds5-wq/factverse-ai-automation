@@ -1,47 +1,41 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of the deduplicated performance data reveals that space and planetary 'What If' scenarios heavily outperform standard static facts. Videos formatted around hypothetical planetary immersion or bizarre extreme environments (e.g., liquid diamond planets, burning ice, and extreme weather phenomena) command significantly higher views-per-day and stronger like-to-view ratios than older neurological, animal, or general physics facts.",
+  "overall_summary": "Analysis of the deduplicated performance data reveals that space and planetary 'what-if' scenarios, as well as extreme cosmic extremes (e.g., extreme planets, diamond/burning-ice worlds), are driving the highest views-per-day and engagement metrics (likes-per-view). Videos published within the last 7 days featuring immersive situational hooks ('What If You Fell Into...') outperform generic factual statements. Conversely, purely abstract psychological facts or minor biological trivia without high-stakes visual implications show lower traction.",
   "winning_patterns": [
     {
-      "pattern": "Hypothetical Planetary Immersion ('What If You Fell Into...')",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) generated over 1,000 and 972 views rapidly within the recent 7-day window, yielding exceptionally high engagement.",
-      "action": "Double down on immersive, high-stakes 'What If' space scenarios featuring extreme planetary environments with tangible, mind-bending physical consequences."
+      "pattern": "Immersive 'What If' Planetary Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) generated over 970-1,000+ views rapidly with high like ratios (38 likes).",
+      "action": "Double down on hypothetical extreme planetary survival scenarios with high-stakes visual hooks."
     },
     {
-      "pattern": "Bizarre Extreme Weather/Rain Phenomena on Exoplanets",
-      "evidence": "Titles detailing surreal meteorological conditions such as supersonic rubies (QXuqYERlqSo) and coal-dark planets (v1rrcZLdp4U) consistently drive strong organic traction.",
-      "action": "Produce more short-form concepts focusing on bizarre, counter-intuitive exoplanet physics and deadly planetary weather."
+      "pattern": "Extreme Cosmic Anomaly Facts",
+      "evidence": "'The Planet Darker Than Coal: TrES-2b' (v1rrcZLdp4U) and 'This Planet Rains Supersonic Rubies!' (QXuqYERlqSo) achieved over 700-1,000 views with strong viewer retention signals.",
+      "action": "Continue producing short-form deep dives into bizarre exoplanet weather conditions and extreme physics."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Static Psychological & Brain Facts",
-      "evidence": "Content centered around memory and psychological tricks (e.g., 5AN7LUgqarc, mGEgENcGcNE, ef3ND4qiRHc) stagnated heavily, pulling under 70 views with negligible engagement metrics.",
-      "action": "Deprioritize abstract human psychology facts in favor of high-visual-potential space, science, and cinematic survival concepts."
-    },
-    {
-      "pattern": "Standard Animal Trivia Without High Stakes",
-      "evidence": "Basic animal facts like octopuses having three hearts (AXAfwrzzEdU) or single-fact survival trivia underperformed compared to high-production astronomical mysteries.",
-      "action": "Pivot animal content exclusively toward cinematic, high-stakes animal survival or extreme prehistoric comparisons rather than standard biological trivia."
+      "pattern": "Abstract Biological/Psychological Trivia",
+      "evidence": "Videos regarding earworms, memory creation, or basic human anatomy ('Your Brain Can Create Fake Memories', 2fqaGqfsR4A) stalled at under 10-50 views.",
+      "action": "Deprioritize low-visual psychological trivia unless framed within an intense, cinematic mystery narrative."
     }
   ],
   "next_video": {
-    "category": "Space / Science / What-If Scenarios",
-    "hook_style": "Hypothetical Immersion Challenge",
-    "concept": "What If You Fell Into the Coldest Known Place in the Universe (The Boomerang Nebula)?",
-    "opening_direction": "Start instantly with the terrifying sensory consequence of entering a region colder than deep space, freezing absolute heat out of matter instantly.",
-    "twist_direction": "Reveal that the expanding gas cloud is actually cooling down the background radiation of the universe itself, making it a cosmic refrigerator defying normal physics.",
-    "duration_seconds": 15,
-    "posting_window": "12:00 PM - 3:00 PM EST (Peak engagement window for high-performing space shorts)",
-    "reason": "Directly leverages the proven winning pattern of 'What If You Fell Into...' space scenarios while introducing a fresh cosmic phenomenon (Boomerang Nebula) entirely absent from the current database.",
+    "category": "Space & Extreme Physics",
+    "hook_style": "Hypothetical Danger Scenario",
+    "concept": "What If You Stepped Onto a Rogue Planet Floating Through Intergalactic Space?",
+    "opening_direction": "Start in absolute pitch blackness with zero starlight, testing the viewer's immediate sensory disorientation.",
+    "twist_direction": "Reveal that the planet has no sun, yet its core is hot enough to boil oceans beneath miles of crushing ice.",
+    "duration_seconds": 20,
+    "posting_window": "12:00 PM - 3:00 PM EST",
+    "reason": "Capitalizes on the proven 'What If' and extreme planetary environment winning patterns while introducing a completely fresh astronomical subject (rogue planets).",
     "fresh_topic_constraints": [
-      "Must not feature diamonds, glass rain, or black planets.",
-      "Must focus specifically on thermodynamic extremes and cosmic anomalies.",
-      "Avoid repeating any previously used exoplanet or space title."
+      "Must not feature diamond planets, rain types already covered (rubies/glass/iron/metal), or Saturn/J1407b comparisons.",
+      "Focus entirely on rogue intergalactic wanderers."
     ]
   },
-  "experiment": "Test whether framing an astronomical physics anomaly as a direct survival challenge ('What If You Fell Into...') yields a 20% higher like-to-view ratio compared to descriptive space fact titles.",
+  "experiment": "Test whether framing an exoplanet survival scenario around complete darkness and subsurface heat yields a higher like-to-view ratio than atmospheric rain extremes.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-01T04:41:31.664630+00:00"
+  "generated_at": "2026-10-01T05:39:16.874860+00:00"
 }
