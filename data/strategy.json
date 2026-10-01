@@ -1,46 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of 46 deduplicated videos reveals a stark performance divergence. High-concept, visceral 'What If You Fell Into...' immersive exoplanet scenarios (e.g., Liquid Diamond Planet with 1,024 views, 38 likes; Burning Ice with 972 views; Darkest Planet with 825 views) generate 5x to 10x higher velocity (130-170 views/day) and 3-4% engagement rates compared to passive academic trivia. Repetitive psychology facts (fake memories, earworms) and static space trivia (silent space, cold stars) underperform severely (<100 views). Optimal Shorts duration for audience retention on this channel is 19-21 seconds.",
+  "overall_summary": "Recent 7-day performance clearly indicates that high-concept space and extreme 'What If' planetary scenarios are dramatically outperforming standard trivia or psychology facts in both views-per-day and engagement (likes/comments per view). Videos featuring bizarre planetary mechanics, extreme physics, and hypothetical immersion scenarios (e.g., 'What If You Fell Into a Liquid Diamond Planet?') achieve up to 1,024+ views rapidly, whereas standard brain or animal facts lag significantly behind. Engagement is heavily concentrated on immersive, visually descriptive space anomalies.",
   "winning_patterns": [
     {
-      "pattern": "Second-Person Extreme Environment Immersion ('What If You Fell Into...')",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,024 views, 38 likes, 2 comments) and 'What If You Fell Into the Planet of Burning Ice?' (972 views) dramatically outperformed third-person declarative titles.",
-      "action": "Frame cosmic and planetary mysteries as high-stakes, direct experiential survival scenarios rather than textbook astronomy facts."
+      "pattern": "Hypothetical Immersion ('What If You Fell Into...')",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) generated over 1,000 views and exceptionally high likes (38+) within days.",
+      "action": "Double down on hypothetical space disaster/immersion scenarios involving extreme planetary environments."
     },
     {
-      "pattern": "21-Second Paced Narrative Format",
-      "evidence": "Videos under 16 seconds averaged under 120 views, whereas 21-second exoplanet Shorts averaged over 600 views and drove all channel comment engagement.",
-      "action": "Standardize script length to 20-21 seconds (approximately 50-55 spoken words) to allow build-up, sensory details, and an unexpected ending twist."
+      "pattern": "Bizarre Planetary & Space Extremes",
+      "evidence": "Titles detailing impossible weather or dark matter ('The Planet Darker Than Coal', 'This Planet Rains Supersonic Rubies') drive strong organic reach and active comment engagement.",
+      "action": "Maintain high focus on weird space phenomena, focusing on sensory extremes like supersonic rains, total darkness, or extreme temperatures."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Recycled Brain & Psychology Trivia",
-      "evidence": "Repeated uploads of 'Your Brain Can Create Fake Memories' flatlined at 5, 10, and 53 views; earworm titles generated only 17-71 views.",
-      "action": "Halt generic psychology uploads immediately unless paired with dramatic storytelling or micro-mystery formats."
+      "pattern": "Psychology and Brain Trick Facts",
+      "evidence": "Videos focusing on internal human psychology and brain tricks ('Your Brain Can Create Fake Memories', 'The Psychological Trick to Stop Songs Stuck in Your Head') stalled out below 60-70 views with zero engagement.",
+      "action": "Deprioritize psychological trivia and internal brain hacks in favor of external, awe-inspiring physical science and space concepts."
     },
     {
-      "pattern": "Passive Declarative Space Statements",
-      "evidence": "'Why Space Is Completely Silent' posted three times yielded 33, 87, and 220 views; 'This Star Is Older Than the Universe' garnered only 11 views.",
-      "action": "Eliminate low-urgency 'Why X is Y' observational hooks in favor of active, high-consequence hooks."
+      "pattern": "Standard Animal Trivia",
+      "evidence": "Basic animal facts like 'Octopuses Have THREE Hearts' underperformed relative to cosmic scale content, showing lower viewer velocity outside of rare outliers.",
+      "action": "Limit standard animal trivia unless tied to a cinematic survival or extreme 'What If' narrative."
     }
   ],
   "next_video": {
-    "category": "what-if scenarios",
-    "hook_style": "Visceral sensory second-person consequence",
-    "concept": "What If You Stepped Onto KELT-9b (The Planet Hotter Than Most Stars)",
-    "opening_direction": "Instant visual of a human silhouette descending toward an ultra-hot blue gas giant where the atmosphere glows like the surface of a star.",
-    "twist_direction": "Reveal that the dayside temperature reaches 7,800°F—hot enough that molecules literally cannot exist and vaporized titanium falls out of the sky as metallic fog.",
-    "duration_seconds": 21,
-    "posting_window": "12:30 PM - 1:30 PM UTC",
-    "reason": "Leverages the proven high-velocity 'What If You Fell/Stepped' format while targeting an untouched extreme celestial body (KELT-9b), avoiding repetitive topics while maximizing curiosity and visual spectacle.",
+    "category": "Space / What-If Scenarios",
+    "hook_style": "Hypothetical Immersion Question",
+    "concept": "What If You Swam Through the Atmosphere of a Helium-Rain Planet?",
+    "opening_direction": "Start immediately with the immersive danger: sinking through a bizarre alien sky where liquid helium replaces rain.",
+    "twist_direction": "Reveal that the atmospheric pressure changes so fast your body would instantly compress into a diamond shard.",
+    "duration_seconds": 15,
+    "posting_window": "12:00 PM - 3:00 PM EST",
+    "reason": "Capitalizes on the proven high-performing 'What If' planetary immersion framework which consistently yields top-tier view velocity and high like-to-view ratios.",
     "fresh_topic_constraints": [
-      "Must not feature TrES-2b, Gliese 436b, 55 Cancri e, WASP-76b, HAT-P-7b, J1407b, or Corot-7b",
-      "Must focus on KELT-9b thermal molecular breakdown, avoiding diamond or glass rain tropes"
+      "Must not use diamond, coal, iron, glass, or ruby planets",
+      "Must feature a completely new celestial body or atmospheric phenomenon not used in previous uploads",
+      "Ensure accurate astrophysical scaling while maintaining cinematic hook pacing"
     ]
   },
-  "experiment": "Test whether framing the threat around thermal molecular destruction ('atoms being ripped apart') produces higher retention than pressure-based planetary descents.",
-  "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-10-01T02:39:27.983650+00:00"
+  "experiment": "Test a 15-second tight edit focusing purely on the sensory shock of atmospheric entry without introductory fluff to measure impact on average percentage viewed.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-10-01T03:40:28.258128+00:00"
 }
