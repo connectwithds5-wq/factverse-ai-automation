@@ -1,47 +1,41 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of the deduplicated performance data reveals clear viewer preference for extreme, hypothetical, and visually vivid space phenomena—particularly 'What If' scenarios and bizarre planetary conditions ('Liquid Diamond Planet', 'Planet of Burning Ice'). These topics consistently drive higher views-per-day and superior engagement (likes-per-view) compared to standard biology facts or psychological tricks. Space-related concepts command the highest traction within the channel's recent 7-day window.",
+  "overall_summary": "Analysis of recent YouTube Shorts performance for FACTVERSE reveals a clear dominance in 'What If' space scenarios and extreme planetary extremes. Content focusing on hypotheticals involving weird planets (e.g., diamond planets, burning ice, dark planets) and cosmic curiosities achieve significantly higher views-per-day and engagement (likes/comments-per-view) compared to older psychological tricks or minor animal facts. Recent uploads like Venus's day/year paradox and falling into extreme worlds are pulling top velocity.",
   "winning_patterns": [
     {
-      "pattern": "Extreme 'What If' Planetary Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views) and 'What If You Fell Into the Planet of Burning Ice?' (972 views) generated the highest view counts and strong like ratios among recent uploads.",
-      "action": "Produce more high-concept space scenario shorts focusing on bizarre planetary environments and hypothetical physical interactions."
+      "pattern": "'What If You Fell Into...' Space Hypotheses",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views in ~6 days) and 'What If You Fell Into the Planet of Burning Ice?' (972 views) outperform standard descriptive facts by over 3x.",
+      "action": "Produce more high-stakes hypothetical space scenario shorts, focusing on sensory immersion and impossible physics."
     },
     {
-      "pattern": "Bizarre Astronomical Extremes",
-      "evidence": "Titles detailing strange conditions like 'Venus Has a Day Longer Than Its Year' (932 views) and 'The Planet Darker Than Coal' (1,026 views) rapidly accumulate high views and solid engagement.",
-      "action": "Highlight counter-intuitive cosmic facts with strong visual contrast to capture attention in the first 2 seconds."
+      "pattern": "Extreme Planetary Phenomena & Extreme Materials",
+      "evidence": "'Venus Has a Day Longer Than Its Year' (932 views in under 24 hours) and 'This Planet Rains Supersonic Rubies!' (721 views) show exceptional immediate velocity.",
+      "action": "Target bizarre planetary mechanics and extreme weather phenomena on newly discovered exoplanets."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Low-Engagement Psychological Facts",
-      "evidence": "Shorts addressing psychological tricks or earworms (e.g., 'The Psychological Trick to Stop Songs Stuck in Your Head', 'Your Brain Can Create Fake Memories') underperformed significantly in both views and likes.",
-      "action": "Deprioritize psychological trivia unless paired with a high-stakes visual or mystery element."
-    },
-    {
-      "pattern": "Stale Animal Facts Without Extreme Stakes",
-      "evidence": "Basic animal facts like 'Octopuses Have THREE Hearts' received moderate initial views but stalled quickly compared to planetary hazards.",
-      "action": "Pivot animal content toward cinematic survival or extreme evolutionary adaptations rather than simple listicle facts."
+      "pattern": "Low-stakes Psychological & Everyday Biology Facts",
+      "evidence": "Shorts like 'Your Brain Can Create Fake Memories' (5-53 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) suffer from low click-through and flat engagement.",
+      "action": "Deprioritize standard psychological truisms unless framed through an extreme, high-concept narrative or thriller lens."
     }
   ],
   "next_video": {
-    "category": "Space & Astronomy",
-    "hook_style": "Hypothetical Danger / 'What If'",
-    "concept": "What If You Fell Into a Star Made Entirely of Solid Diamond?",
-    "opening_direction": "Start directly inside a blinding, pressurized crystal storm while falling toward a glittering white dwarf star.",
-    "twist_direction": "Reveal that the entire stellar core is a trillion-carat diamond relic shining in absolute silence.",
-    "duration_seconds": 21,
+    "category": "Space & Science",
+    "hook_style": "Hypothetical Disaster / High-Stakes Curiosity",
+    "concept": "What Happens If You Step Onto a Planet Made Entirely of Boiling Ice?",
+    "opening_direction": "Start mid-action with a visual of a spacesuit melting instantly on a world where ice burns at 800 degrees.",
+    "twist_direction": "Reveal that this bizarre substance isn't science fiction—it's superionic ice, existing under crushing pressures inside our own solar system's ice giants.",
+    "duration_seconds": 15,
     "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Capitalizes on the proven high performance of diamond planet and extreme space survival scenarios, leveraging strong visual curiosity.",
+    "reason": "Capitalizes on the proven high-performing 'What If' and extreme planetary ice/fire mechanics from top-tier performers like 'What If You Fell Into the Planet of Burning Ice'.",
     "fresh_topic_constraints": [
-      "Must not use standard gas giants or previously used planets",
-      "Focus on white dwarf carbon crystal mechanics",
-      "Avoid repeating 'Liquid Diamond Planet' or 'Rain' hooks"
+      "Must not use diamonds, rain, sharks, octopuses, or head/feet aging.",
+      "Focus strictly on superionic ice mechanics on Uranus or Neptune."
     ]
   },
-  "experiment": "Test a space scenario featuring extreme temporal dilation (time moving slower near a massive object) combined with a high-stakes hypothetical survival question.",
+  "experiment": "Test a 15-second tight edit focusing purely on sensory destruction in the first 2 seconds (visual + sound design) to boost audience retention past the critical 5-second mark on space hypotheticals.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-01T19:38:26.906697+00:00"
+  "generated_at": "2026-10-01T20:40:17.948169+00:00"
 }
