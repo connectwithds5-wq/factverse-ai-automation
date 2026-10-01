@@ -1,42 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of FACTVERSE performance data shows that high-concept space and extreme exoplanet scenarios (particularly 'What If You Fell Into...' hooks and surreal planetary environments like diamond, burning ice, and dark planets) are driving the strongest views-per-day and engagement (likes-per-view). In contrast, older or more standard psychological and basic biology facts published earlier in September are underperforming in daily velocity. Recent uploads focusing on interactive spatial hypotheticals achieve superior traction.",
+  "overall_summary": "Deduplication and recent performance analysis reveal a strong audience preference for extreme astronomical 'What-If' scenarios and bizarre planetary conditions. Specifically, videos employing the 'What If You Fell Into...' hook combined with extreme cosmic objects (such as liquid diamond planets, dark planets, and burning ice) generated the highest views-per-day and engagement metrics (likes-per-view) over the past 7 days. Standard static fact lists are underperforming compared to interactive, immersive hypothetical scenarios.",
   "winning_patterns": [
     {
-      "pattern": "Interactive Hypothetical Space Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Darkest Planet?' (YlDuGu1vzAg) generated over 1,000 and 825 views rapidly with high like ratios.",
-      "action": "Double down on 'What If You Fell Into...' formatting applied to extreme, newly researched cosmic bodies."
+      "pattern": "Extreme Cosmic 'What If' Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) achieved over 900-1000+ views rapidly with high like ratios (38 and 18 likes respectively) within the recent 7-day window.",
+      "action": "Double down on hypothetical space disaster and extreme planetary immersion scenarios. Use titles starting with 'What If You Fell Into...' paired with visually striking, counter-intuitive destinations."
     },
     {
-      "pattern": "Extreme Exoplanet Superlatives",
-      "evidence": "Titles detailing bizarre weather or physical properties ('The Planet Darker Than Coal', 'This Planet Rains Supersonic Rubies!') consistently outperform standard science facts.",
-      "action": "Produce more short-form deep dives into bizarre astronomical phenomena with visceral, sensory adjectives (supersonic, molten, absolute zero)."
+      "pattern": "Exotic Planetary Weather and Materials",
+      "evidence": "Content focusing on bizarre planetary mechanics like 'This Planet Rains Supersonic Rubies!' (QXuqYERlqSo) and 'The Planet Darker Than Coal' (v1rrcZLdp4U) pulled strong engagement (~700-1000 views, 25-36 likes).",
+      "action": "Continue producing short-form segments on extreme astrophysics focusing on weird weather, hyper-dense materials, or anomalies that defy normal physics."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Stale Psychological & Basic Biology Facts",
-      "evidence": "Recycled topics or standard facts about human memory ('Your Brain Can Create Fake Memories') and basic animal trivia ('Octopuses Have Three Hearts') stalled out with minimal daily view growth in recent weeks.",
-      "action": "Pause standard psychological micro-facts unless paired with a high-stakes narrative or thriller-grade framing."
+      "pattern": "Static Psychological Tricks & Memory Facts",
+      "evidence": "Topics like 'Your Brain Can Create Fake Memories' (2fqaGqfsR4A, 5 views) and 'The Psychological Trick to Stop Songs Stuck in Your Head' (ef3ND4qiRHc, 71 views) stalled completely compared to the space content published in the same timeframe.",
+      "action": "Pivot away from generic psychology/brain-hack shorts unless framed inside a high-stakes, narrative-driven scenario."
+    },
+    {
+      "pattern": "Purely Informational Animal Facts",
+      "evidence": "Basic animal facts such as 'Octopuses Have THREE Hearts' (AXAfwrzzEdU, 1Bm0zw_qAAg) had mediocre traction when presented without a cinematic survival or extreme comparison hook.",
+      "action": "If doing animal content, strictly leverage the cinematic animal survival or extreme comparative angle (e.g., survival mechanics under extreme pressure) rather than simple trivia."
     }
   ],
   "next_video": {
-    "category": "Space",
-    "hook_style": "What If",
-    "concept": "Surviving inside a rogue planet ejected from its solar system wandering through eternal interstellar darkness.",
-    "opening_direction": "Start with total sensory deprivation: absolute zero temperatures freezing air instantly, forcing the viewer to imagine total isolation trillion of miles from any star.",
-    "twist_direction": "Reveal that despite having no sun, the planet's core is sustained by colossal tidal friction, creating glowing subterranean magma oceans beneath miles of ice.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Capitalizes on the proven high-performing 'What If' exoplanet and dark-planet formats while introducing a fresh, unexplored cosmic concept (rogue planets with internal magma oceans).",
+    "category": "Space / What-If Scenarios",
+    "hook_style": "High-stakes hypothetical disaster question",
+    "concept": "What happens to the human body if you stood on the surface of a rogue planet wandering through interstellar space with zero sunlight?",
+    "opening_direction": "Start mid-action with an immediate sensory drop into pitch-black freezing darkness, utilizing a rapid visual transition to set up an impossible survival question.",
+    "twist_direction": "Reveal that the planet's core is actually hotter than Earth's due to immense gravitational pressure, creating a subterranean magma ocean beneath miles of solid nitrogen ice.",
+    "duration_seconds": 15,
+    "posting_window": "12:00 PM - 3:00 PM UTC",
+    "reason": "Capitalizes on the proven high-performing 'What If' and extreme planetary temperature/darkness mechanics identified in the top-performing recent data points while exploring a completely fresh celestial phenomenon (rogue planet subterranean heat).",
     "fresh_topic_constraints": [
-      "Must not feature diamond planets",
-      "Must not feature TrES-2b or previously used exoplanets",
-      "Must be entirely distinct from previous space silence or falling scenarios"
+      "Must not mention diamond planets, TrES-2b, or burning ice planets which were already covered.",
+      "Must focus entirely on a rogue interstellar wandering planet.",
+      "Keep pacing under 16 seconds to maximize loop retention."
     ]
   },
-  "experiment": "Test a 21-second 'What If' rogue planet scenario featuring audio design starting with absolute silence for 2 seconds to disrupt scroll pattern, followed by sudden deep-sub-bass rumble when the core is revealed.",
+  "experiment": "Test a 15-second 'What If' space scenario using a direct sensory shock opening versus a text-on-screen question opening to determine which drives higher 5-second retention.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-09-30T23:36:31.313337+00:00"
+  "generated_at": "2026-10-01T00:47:22.914911+00:00"
 }
