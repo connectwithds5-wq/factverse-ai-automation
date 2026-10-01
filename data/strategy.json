@@ -1,47 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of deduplicated YouTube Shorts performance indicates massive viewer traction for 'What If' space scenarios and extreme planetary facts (e.g., IYuce8vaU3Y with 1024 views/38 likes, 8KEl0_pJ_68 with 972 views, and A9Qa-RmuOr0 with 509 views). Space/Astronomy hooks utilizing counter-intuitive conditions ('What If you fell into...', extreme environments) heavily outperform standard biology facts or static historical trivia in views-per-day and engagement (likes-per-view).",
+  "overall_summary": "Analysis of the deduplicated performance metrics highlights a clear preference for extreme cosmic phenomena, alternative perspective space scenarios ('What If'), and extreme planetary conditions. Videos focused on bizarre planetary extremes and counterintuitive cosmic facts (e.g., Venus day/year anomalies, liquid diamond planets, and absolute darkness) exhibit significantly higher velocity, likes-per-view, and engagement than standard biology or basic psychological facts within the 7-day window.",
   "winning_patterns": [
     {
-      "pattern": "What If Planetary Scenarios",
-      "evidence": "Videos testing hypothetical drops into extreme planetary bodies (IYuce8vaU3Y, 8KEl0_pJ_68, 6pwazIPnOHw) consistently achieve the highest view counts and like-to-view ratios.",
-      "action": "Double down on hypothetical space disaster/immersion scenarios using 'What If You Fell Into...' as the core hook structure."
+      "pattern": "Extreme Planetary & Cosmic 'What If' Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0) achieve top views and highest like ratios within days of publication.",
+      "action": "Double down on high-stakes hypothetical planetary survival and bizarre cosmic anomalies using vivid, high-contrast visual framing."
     },
     {
-      "pattern": "Bizarre Cosmic Extreme Facts",
-      "evidence": "Shorts highlighting extreme planetary anomalies like time distortion or rare rain compositions (A9Qa-RmuOr0, QXuqYERlqSo, v1rrcZLdp4U) generate rapid initial velocity and steady engagement.",
-      "action": "Focus future scripts on rare, visually striking astronomical phenomena with mind-bending statistics."
+      "pattern": "Mind-Bending Comparative Scales",
+      "evidence": "'The Planet Darker Than Coal' (v1rrcZLdp4U) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) demonstrate strong sustained traction over standard informational facts.",
+      "action": "Continue utilizing extreme comparative hooks that juxtapose everyday objects or extremes against cosmic phenomena."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Low-Engagement Psychology/Brain Trivia",
-      "evidence": "Topics like song memory loops and fake memories (ef3ND4qiRHc, 5AN7LUgqarc, 2fqaGqfsR4A) show low view velocities and minimal comments.",
-      "action": "Deprioritize psychological and memory-based hacks unless tied to a high-stakes survival or sci-fi narrative."
+      "pattern": "Standard Psychological and Brain Hacks",
+      "evidence": "Titles regarding memory creation (e.g., 5AN7LUgqarc, 2fqaGqfsR4A) and song loops (ef3ND4qiRHc) show stagnant views and low engagement velocity.",
+      "action": "Deprioritize standard self-help and basic psychology facts in favor of high-visual space and mystery content."
     },
     {
-      "pattern": "Low-Impact Animal Facts",
-      "evidence": "Standard animal trivia without high-stakes framing (e.g., basic multi-heart or lifespan facts like F1kXwuXuNgo) stall quickly under 100 views.",
-      "action": "Shift animal content exclusively toward cinematic animal survival or extreme prehistoric comparisons rather than standard listicle facts."
+      "pattern": "Static Informational Animal Facts",
+      "evidence": "Basic biology facts like 'Octopuses Have THREE Hearts' (AXAfwrzzEdU) yield lower relative engagement compared to dynamic, cinematic planetary destruction scenarios.",
+      "action": "Shift animal-related content strictly toward cinematic survival or extreme evolutionary anomalies rather than static trivia."
     }
   ],
   "next_video": {
-    "category": "Space & Universe What-Ifs",
-    "hook_style": "What If Immersion Scenario",
-    "concept": "What If You Fell Into a Rogue Planet Floating in Deep Interstellar Space?",
-    "opening_direction": "Start with total pitch blackness and absolute zero temperature dropping instantly around the viewer.",
-    "twist_direction": "Reveal that without a star, the planet is completely warm at its core due to radioactive decay, creating a hidden underground ocean.",
-    "duration_seconds": 21,
+    "category": "space",
+    "hook_style": "What If scenario with extreme physical peril",
+    "concept": "What happens if you step foot on the rogue planet that hurtles through space at 2 million miles per hour without a star?",
+    "opening_direction": "Start with total pitch blackness and the sound of howling supersonic vacuum winds, then reveal a lone explorer standing on a frozen wasteland.",
+    "twist_direction": "Reveal that the planet's core is still glowing red-hot from radioactive decay, creating underground magma oceans beneath miles of solid ice.",
+    "duration_seconds": 15,
     "posting_window": "12:00 PM - 3:00 PM UTC",
-    "reason": "Capitalizes on the proven high-performing 'What If You Fell Into...' space format while introducing a fresh, unexplored celestial entity (rogue planets).",
+    "reason": "Capitalizes on the winning 'What If' and extreme planetary environment patterns while introducing a fresh cosmic entity (rogue planets) not yet covered in the channel's history.",
     "fresh_topic_constraints": [
-      "Must not feature black holes, diamonds, burning ice, or gas giants already covered.",
-      "Focus strictly on rogue planets and interstellar space hazards.",
-      "Ensure factual accuracy regarding planetary core heat vs surface cold."
+      "Must not feature black holes, diamond planets, glass rain, or Venus.",
+      "Must focus strictly on rogue planets and interstellar wanderers.",
+      "Must maintain factual astrophysical accuracy while maximizing visual tension."
     ]
   },
-  "experiment": "Test a 21-second 'What If' space scenario with an immediate sensory deprivation opening hook versus a visual-first planetary explosion hook to measure audience retention past the 3-second mark.",
+  "experiment": "Test a 15-second runtime with a direct sensory immersion hook ('Imagine standing on a world with no sun...') compared to standard question hooks to measure initial drop-off rates.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-01T10:39:37.976674+00:00"
+  "generated_at": "2026-10-01T11:39:01.863719+00:00"
 }
