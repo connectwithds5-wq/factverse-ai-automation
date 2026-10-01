@@ -1,47 +1,46 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of deduplicated observations weighted by recent performance shows clear audience preference for extreme space anomalies, extreme planet scenarios ('What If You Fell Into...'), and bizarre cosmic weather conditions. Videos with 'What If' hypothetical framing and high-value or unusual planetary metrics (e.g., diamond planets, extreme temperatures, strange rain) secure the highest views-per-day and engagement (likes/comments per view). Space and cosmic phenomena significantly outperform standard psychological tricks and biological facts in velocity during the recent 7-day window.",
+  "overall_summary": "Deduplication and recency weighting across hourly data blocks reveal a massive performance skew toward space phenomena and extreme 'What If' planetary scenarios. Videos tackling surreal planetary conditions (e.g., Venus day length, liquid diamond planets, burning ice, dark planets) outpace general science or psychology shorts by 3x to 5x in views-per-day and generate significantly higher engagement ratios (likes-per-view).",
   "winning_patterns": [
     {
       "pattern": "Extreme Planetary 'What If' Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views) and 'What If You Fell Into the Planet of Burning Ice?' (972 views) demonstrate rapid traction within days of publication.",
-      "action": "Double down on hypothetical extreme physics scenarios involving exotic cosmic environments or planetary hazards."
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views) and 'What If You Fell Into the Planet of Burning Ice?' (972 views) show high velocity shortly after publication compared to older general science facts.",
+      "action": "Double down on surreal, high-stakes hypothetical scenarios involving extreme cosmic environments."
     },
     {
-      "pattern": "Bizarre Extraterrestrial Weather & Composition",
-      "evidence": "Titles detailing strange precipitation or planetary traits ('This Planet Rains Supersonic Rubies!', 'The Planet Darker Than Coal') consistently achieve high view counts (>700-1,000 views).",
-      "action": "Focus future scripts on rare, counterintuitive physical properties of newly discovered exoplanets."
+      "pattern": "Mind-Bending Astronomical Time/Scale Paradoxes",
+      "evidence": "'Venus Has a Day Longer Than Its Year' (892 views) and 'This Planet Darker Than Coal' (1,026 views) demonstrate strong organic discovery and viewer retention via counter-intuitive facts.",
+      "action": "Highlight physics or orbital anomalies that sound fictional but are scientifically accurate."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Low-Stakes Psychological or Memory Facts",
-      "evidence": "Content centered on internal mental phenomena (e.g., 'Your Brain Can Create Fake Memories', 'Your Brain Is Hiding This From You') yields low view velocity (<50 views).",
-      "action": "Deprioritize psychological trivia shorts unless framed as an extreme, high-stakes neurological anomaly."
+      "pattern": "Generic Psychological & Memory Tricks",
+      "evidence": "'Your Brain Can Create Fake Memories' and psychological songs-stuck-in-head shorts languish below 60-100 total views with minimal engagement.",
+      "action": "Deprioritize standard human psychology and memory tips for the time being."
     },
     {
-      "pattern": "Low-Engagement Biological Trivia",
-      "evidence": "Basic animal facts with simple declarative hooks ('Octopuses Have THREE Hearts', generic survival facts) underperform compared to cosmic scale content.",
-      "action": "Pivot animal-related concepts into cinematic survival or extreme evolutionary anomalies rather than basic trivia."
+      "pattern": "Over-Explored Animal/Biology Trivia",
+      "evidence": "Standard animal facts like 'Octopuses Have Three Hearts' (outside of initial spikes) have plateaued while space formats continue to compound.",
+      "action": "Shift biological content toward cinematic animal survival or extreme adaptations if revisited."
     }
   ],
   "next_video": {
-    "category": "Space & Astronomy What-If Scenarios",
-    "hook_style": "Hypothetical catastrophic immersion or sensory disorientation",
-    "concept": "What happens if you stood on a rogue planet hurtling through interstellar space with no star?",
-    "opening_direction": "Start with total pitch blackness and absolute zero temperatures dropping instantly.",
-    "twist_direction": "Reveal that despite having no sun, geothermal core heat creates massive glowing underground oceans beneath miles of ice.",
-    "duration_seconds": 18,
-    "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Capitalizes on the proven high-performing 'What If' planetary exploration format while introducing a fresh cosmic concept (rogue planets) absent from past uploads.",
+    "category": "Space / Extreme Physics",
+    "hook_style": "Hypothetical Disaster / Sensory Shock",
+    "concept": "What If You Stepped Onto a Rogue Planet Wandering Deep Space?",
+    "opening_direction": "Start with total pitch blackness and absolute zero temperature, asking the viewer what happens when a world is stripped of its sun.",
+    "twist_direction": "Reveal that hundreds of billions of rogue planets drift through the galaxy, completely untethered, generating internal heat from radioactive decay rather than starlight.",
+    "duration_seconds": 21,
+    "posting_window": "12:00 UTC - 14:00 UTC",
+    "reason": "Leverages the proven high-performing 'What If' planetary exploration framework combined with the winning cosmic mystery niche.",
     "fresh_topic_constraints": [
-      "Do not use diamond, glass, iron, or ruby rain planets",
-      "Do not reuse Saturn, Venus, or J1407b",
-      "Avoid repeating 'What If You Fell Into' exact phrasing"
+      "Must not feature Venus, diamond planets, burning ice, Saturn, or black holes.",
+      "Must focus strictly on rogue interstellar planetary bodies."
     ]
   },
-  "experiment": "Test a 21-second narrative pacing structure featuring a sensory-first opening line ('Your blood would boil before you hit the surface...') against standard declarative hooks to measure retention impact.",
+  "experiment": "Test a 21-second narrative pacing structure on a rogue planet topic to see if higher retention on space-horror-adjacent concepts matches the success of 'liquid diamond' and 'burning ice' shorts.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-01T13:40:52.218304+00:00"
+  "generated_at": "2026-10-01T14:41:34.722486+00:00"
 }
