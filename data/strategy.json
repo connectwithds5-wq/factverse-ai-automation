@@ -1,42 +1,42 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Recent performance data shows strong viewer traction for high-concept space and planetary 'what-if' scenarios, particularly extreme or unusual worlds (e.g., liquid diamond planets, dark planets, burning ice). Engagement metrics (likes-per-view) are notably higher on speculative space scenarios and bizarre cosmic phenomena compared to standard psychological facts or minor biological trivia. Videos utilizing direct hypothetical hooks ('What If You Fell Into...') and rare planetary conditions dominate the top velocity tier over the past 7 days.",
+  "overall_summary": "Deduplication and recency weighting across hourly observations reveal that 'What If' scenarios and extreme space anomalies published within the last 7 days (such as IYuce8vaU3Y, YlDuGu1vzAg, and 8KEl0_pJ_68) dominate views-per-day and engagement metrics (likes-per-view up to ~0.037). Conversely, standard explanatory facts or older psychological/animal trivia from 3+ weeks ago exhibit heavily stagnated daily velocity. High-performing hooks heavily rely on immersive second-person hypothetical framing ('What If You Fell Into...') combined with extreme visual environments.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Planetary / Cosmic 'What If' Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) significantly outperform standard factual statements.",
-      "action": "Double down on hypothetical immersion formats where the viewer is placed into impossible or extreme cosmic environments."
+      "pattern": "Second-Person 'What If' Space Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Darkest Planet?' (YlDuGu1vzAg) generated over 800-1,000+ views rapidly with high like ratios (38 likes on IYuce8vaU3Y).",
+      "action": "Double down on immersive, high-stakes hypothetical space scenarios putting the viewer directly inside extreme astrophysical anomalies."
     },
     {
-      "pattern": "Bizarre Extraterrestrial Weather & Materials",
-      "evidence": "Titles detailing strange conditions like 'This Planet Rains Supersonic Rubies!' (721 views) and 'The Planet Darker Than Coal' (1,026 views) capture high view velocity within days of publishing.",
-      "action": "Highlight physical impossibilities or bizarre chemical realities on newly discovered or theoretical exoplanets."
+      "pattern": "Extreme Planetary Anomalies & Rains",
+      "evidence": "QXuqYERlqSo ('This Planet Rains Supersonic Rubies!') and v1rrcZLdp4U ('The Planet Darker Than Coal') consistently out-perform standard educational facts by capturing high initial curiosity.",
+      "action": "Produce more deep-dive Shorts on bizarre exoplanet weather conditions and ultra-rare material phenomena."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Low-Stakes Psychological or Biological Factoids",
-      "evidence": "Shorts focusing on common brain tricks or memory loops (e.g., 'Your Brain Can Create Fake Memories', 5-53 views) show stagnant or negligible view-per-day velocity.",
-      "action": "Deprioritize standard psychological trivia unless tied to a profound, high-tension narrative twist."
+      "pattern": "Stagnant Older Psychological Tricks & Basic Animal Facts",
+      "evidence": "Older uploads like 'Your Brain Can Create Fake Memories' (2fqaGqfsR4A) and 'The Real Reason Songs Get Stuck In Your Head' (Jc04LVKNd2s) plateaued under 20-50 views after their initial 7-day windows.",
+      "action": "Pivot away from generic psychology/brain tips unless tied to a high-concept, newly discovered neuroscience breakthrough."
     }
   ],
   "next_video": {
-    "category": "Space / Science What-If",
-    "hook_style": "Hypothetical Sensory Immersion",
-    "concept": "What If You Stepped Onto a Rogue Planet Wandering Between Stars?",
-    "opening_direction": "Start in total, blinding darkness where starlight has completely vanished, leaving only absolute zero temperatures.",
-    "twist_direction": "Reveal that despite being millions of miles from any sun, the planet's core is heated by radioactive oceans of liquid metal, sustaining an alien underworld.",
-    "duration_seconds": 20,
-    "posting_window": "12:00 PM - 3:00 PM UTC",
-    "reason": "Capitalizes on the proven high-performing 'What If' planetary immersion framework while introducing a fresh cosmic phenomenon (rogue planets).",
+    "category": "Space & What-If Scenarios",
+    "hook_style": "High-stakes second-person immersive survival scenario",
+    "concept": "What If You Fell Into a Star Made Entirely of Neon?",
+    "opening_direction": "Start mid-action falling through a blinding neon-pink glowing atmosphere while explaining the sheer impossibility of solid ground.",
+    "twist_direction": "Reveal that the core is so compressed it would instantly fuse your atoms before you even hit a center.",
+    "duration_seconds": 15,
+    "posting_window": "12:00 PM - 2:00 PM EST",
+    "reason": "Capitalizes on the proven high-velocity 'What If' space format while introducing a completely fresh astronomical entity (neon stars) not yet covered in the channel history.",
     "fresh_topic_constraints": [
-      "Do not mention diamonds, glass, rubies, or burning ice.",
-      "Must focus entirely on interstellar rogue planets and subsurface core heat.",
-      "Ensure factual grounding in modern astrophysics regarding rogue worlds."
+      "Must not use diamonds, ice, or black holes.",
+      "Must use a unique chemical or stellar element.",
+      "Strictly 15-21 seconds pacing."
     ]
   },
-  "experiment": "Test a 20-second rogue planet narrative against the established diamond/ice planet formats to see if spatial isolation drives higher audience retention than exotic material rain.",
+  "experiment": "Test a strict 15-second tight edit on a new 'What If' space concept to verify if higher completion rates improve average view duration compared to 21-second variants.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-01T08:41:22.679366+00:00"
+  "generated_at": "2026-10-01T09:39:59.557855+00:00"
 }
