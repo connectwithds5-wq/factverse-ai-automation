@@ -1,52 +1,42 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of the deduplicated performance metrics shows clear viewer preference for extreme astronomical phenomena framed with 'What If' hypothetical scenarios and high-stakes descriptive hooks. Specifically, planetary and cosmic scale subjects published within the last 7 days (such as diamond planets, dark worlds, and burning ice planets) are dominating views-per-day ratios, while accumulating significantly higher likes-per-view than standard psychology or biological trivia.",
+  "overall_summary": "Recent performance data shows strong viewer traction for high-concept space and planetary 'what-if' scenarios, particularly extreme or unusual worlds (e.g., liquid diamond planets, dark planets, burning ice). Engagement metrics (likes-per-view) are notably higher on speculative space scenarios and bizarre cosmic phenomena compared to standard psychological facts or minor biological trivia. Videos utilizing direct hypothetical hooks ('What If You Fell Into...') and rare planetary conditions dominate the top velocity tier over the past 7 days.",
   "winning_patterns": [
     {
-      "pattern": "Hypothetical Planetary 'What If' Scenarios",
-      "evidence": "Videos featuring 'What If You Fell Into...' applied to extreme planets (e.g., IYuce8vaU3Y, 8KEl0_pJ_68, YlDuGu1vzAg) generated over 800-1,000+ views rapidly with high like-to-view ratios compared to older, static fact listings.",
-      "action": "Double down on hypothetical immersive space scenarios involving extreme planetary environments."
+      "pattern": "Extreme Planetary / Cosmic 'What If' Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) significantly outperform standard factual statements.",
+      "action": "Double down on hypothetical immersion formats where the viewer is placed into impossible or extreme cosmic environments."
     },
     {
-      "pattern": "High-Value Exotic Cosmic Descriptors",
-      "evidence": "Titles using rare or hyper-valuable comparative materials like liquid diamond, nonillion-dollar worth, or supersonic rubies (e.g., QXuqYERlqSo, 6pwazIPnOHw) capture immediate curiosity and engagement.",
-      "action": "Incorporate tangible, mind-boggling monetary or physical comparisons in the hook for space and technology concepts."
-    },
-    {
-      "pattern": "Counterintuitive Temporal or Spatial Anomalies",
-      "evidence": "Shorts highlighting strange cosmic or physical realities such as time dilation on bodies (e.g., A9Qa-RmuOr0, c_ya3kvpuoI) maintain steady baseline traction.",
-      "action": "Keep integrating counterintuitive temporal and physical anomalies into the rotation, ensuring strong visual pacing."
+      "pattern": "Bizarre Extraterrestrial Weather & Materials",
+      "evidence": "Titles detailing strange conditions like 'This Planet Rains Supersonic Rubies!' (721 views) and 'The Planet Darker Than Coal' (1,026 views) capture high view velocity within days of publishing.",
+      "action": "Highlight physical impossibilities or bizarre chemical realities on newly discovered or theoretical exoplanets."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Low-Stakes Psychological or Biological Trivia",
-      "evidence": "Standard memory tricks and basic animal facts (e.g., 2fqaGqfsR4A, Jc04LVKNd2s) showed near-zero organic velocity and negligible like-to-view engagement within the observation window.",
-      "action": "De-prioritize basic psychological tips and simple animal trivia unless tied to a high-stakes survival or extreme mystery narrative."
-    },
-    {
-      "pattern": "Generic Fact Statements Without Curiosity Gaps",
-      "evidence": "Titles presenting dry, straightforward statements without an active experiential hook (e.g., r43-7nSn8SQ, endT2yIdieU) severely underperformed in daily velocity.",
-      "action": "Always phrase titles around active second-person interaction ('What if YOU...') or an undeniable paradox rather than a passive encyclopedia entry."
+      "pattern": "Low-Stakes Psychological or Biological Factoids",
+      "evidence": "Shorts focusing on common brain tricks or memory loops (e.g., 'Your Brain Can Create Fake Memories', 5-53 views) show stagnant or negligible view-per-day velocity.",
+      "action": "Deprioritize standard psychological trivia unless tied to a profound, high-tension narrative twist."
     }
   ],
   "next_video": {
-    "category": "Space & Astronomy",
-    "hook_style": "Hypothetical Immersive Scenario",
-    "concept": "What If You Stepped Onto the Planet Made Entirely of Hot Ice? (Gliese 436 b)",
-    "opening_direction": "Start directly with the terrifying physics: water burning at 439 degrees Celsius that refuses to melt.",
-    "twist_direction": "Reveal how immense gravitational pressure forces the burning ice to stay solid, crushing anything that touches it.",
-    "duration_seconds": 15,
+    "category": "Space / Science What-If",
+    "hook_style": "Hypothetical Sensory Immersion",
+    "concept": "What If You Stepped Onto a Rogue Planet Wandering Between Stars?",
+    "opening_direction": "Start in total, blinding darkness where starlight has completely vanished, leaving only absolute zero temperatures.",
+    "twist_direction": "Reveal that despite being millions of miles from any sun, the planet's core is heated by radioactive oceans of liquid metal, sustaining an alien underworld.",
+    "duration_seconds": 20,
     "posting_window": "12:00 PM - 3:00 PM UTC",
-    "reason": "Leverages the proven high-performing 'What If' planet format combined with a paradox that immediately triggers curiosity and retention.",
+    "reason": "Capitalizes on the proven high-performing 'What If' planetary immersion framework while introducing a fresh cosmic phenomenon (rogue planets).",
     "fresh_topic_constraints": [
-      "Must focus specifically on Gliese 436 b",
-      "Do not reuse TrES-2b, J1407b, or generic diamond planets",
-      "Ensure factual accuracy regarding high-pressure hot ice"
+      "Do not mention diamonds, glass, rubies, or burning ice.",
+      "Must focus entirely on interstellar rogue planets and subsurface core heat.",
+      "Ensure factual grounding in modern astrophysics regarding rogue worlds."
     ]
   },
-  "experiment": "Test a 15-second high-density narrative focusing on extreme exoplanet physics using second-person framing to measure if retention outpaces the standard 21-second space shorts.",
+  "experiment": "Test a 20-second rogue planet narrative against the established diamond/ice planet formats to see if spatial isolation drives higher audience retention than exotic material rain.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-01T07:39:56.254518+00:00"
+  "generated_at": "2026-10-01T08:41:22.679366+00:00"
 }
