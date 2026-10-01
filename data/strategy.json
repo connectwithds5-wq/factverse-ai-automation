@@ -1,47 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Recent 7-day performance demonstrates that high-concept space and planetary 'What If' scenarios (e.g., Venus day lengths, liquid diamond planets, and extreme planetary environments) heavily outperform standard factual statements and psychological tricks. Engagement spikes significantly when hooks involve counter-intuitive planetary physics or immersive hypothetical scenarios combined with high-value emojis. Older general science or psychological videos from early September show lower velocity and stagnation.",
+  "overall_summary": "Analysis of the deduplicated performance data reveals clear viewer preference for extreme, hypothetical, and visually vivid space phenomena—particularly 'What If' scenarios and bizarre planetary conditions ('Liquid Diamond Planet', 'Planet of Burning Ice'). These topics consistently drive higher views-per-day and superior engagement (likes-per-view) compared to standard biology facts or psychological tricks. Space-related concepts command the highest traction within the channel's recent 7-day window.",
   "winning_patterns": [
     {
-      "pattern": "Hypothetical Planetary 'What If' Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0) generated high view counts and robust likes within the recent 7-day window.",
-      "action": "Double down on immersive space and planetary survival scenarios by framing cosmic facts around extreme physical hypotheticals."
+      "pattern": "Extreme 'What If' Planetary Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views) and 'What If You Fell Into the Planet of Burning Ice?' (972 views) generated the highest view counts and strong like ratios among recent uploads.",
+      "action": "Produce more high-concept space scenario shorts focusing on bizarre planetary environments and hypothetical physical interactions."
     },
     {
-      "pattern": "High-Contrast Curiosity Hooks",
-      "evidence": "Titles featuring paradoxes or extreme scale comparisons (e.g., diamond planets worth nonillions, planets of burning ice) achieve strong initial velocity compared to abstract science facts.",
-      "action": "Lead titles with visceral imagery and unexpected extremes (e.g., temperature, material value, or time anomalies)."
+      "pattern": "Bizarre Astronomical Extremes",
+      "evidence": "Titles detailing strange conditions like 'Venus Has a Day Longer Than Its Year' (932 views) and 'The Planet Darker Than Coal' (1,026 views) rapidly accumulate high views and solid engagement.",
+      "action": "Highlight counter-intuitive cosmic facts with strong visual contrast to capture attention in the first 2 seconds."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Psychological Tricks & Earworms",
-      "evidence": "Videos like 'The Psychological Trick to Stop Songs Stuck in Your Head' (ef3ND4qiRHc) and general brain facts (mGEgENcGcNE) show minimal view accumulation and low engagement.",
-      "action": "Deprioritize psychological life-hacks and earworm topics for YouTube Shorts in favor of high-visual-potential space and extreme science."
+      "pattern": "Low-Engagement Psychological Facts",
+      "evidence": "Shorts addressing psychological tricks or earworms (e.g., 'The Psychological Trick to Stop Songs Stuck in Your Head', 'Your Brain Can Create Fake Memories') underperformed significantly in both views and likes.",
+      "action": "Deprioritize psychological trivia unless paired with a high-stakes visual or mystery element."
     },
     {
-      "pattern": "Static Declarative Statements Without Actionable Stakes",
-      "evidence": "Simple declarative statements like 'This Star Is Older Than the Universe!' (vFXHTmYITp4) with weak framing underperformed relative to interactive framing.",
-      "action": "Avoid flat declarative titles; always frame facts around a hidden danger, bizarre paradox, or visceral consequence."
+      "pattern": "Stale Animal Facts Without Extreme Stakes",
+      "evidence": "Basic animal facts like 'Octopuses Have THREE Hearts' received moderate initial views but stalled quickly compared to planetary hazards.",
+      "action": "Pivot animal content toward cinematic survival or extreme evolutionary adaptations rather than simple listicle facts."
     }
   ],
   "next_video": {
-    "category": "Space",
-    "hook_style": "Extreme Hypothetical Survival",
-    "concept": "What happens to the human body if you stood on the surface of WASP-76b, where it rains liquid iron sideways under permanent scorching daylight?",
-    "opening_direction": "Start mid-action with the sound of wind and metal pinging, immediately posing the lethal stakes of standing on a tidally locked scorching world.",
-    "twist_direction": "Reveal that the daytime side vaporizes metal into clouds, only for it to condense and whip across the night side in horizontal molten bullets.",
-    "duration_seconds": 15,
-    "posting_window": "12:00 PM - 3:00 PM EST (Peak Space Content Engagement Window)",
-    "reason": "Capitalizes on the proven high performance of extreme planetary weather and 'What If' survival formats observed in top recent performers like IYuce8vaU3Y and A9Qa-RmuOr0.",
+    "category": "Space & Astronomy",
+    "hook_style": "Hypothetical Danger / 'What If'",
+    "concept": "What If You Fell Into a Star Made Entirely of Solid Diamond?",
+    "opening_direction": "Start directly inside a blinding, pressurized crystal storm while falling toward a glittering white dwarf star.",
+    "twist_direction": "Reveal that the entire stellar core is a trillion-carat diamond relic shining in absolute silence.",
+    "duration_seconds": 21,
+    "posting_window": "12:00 PM - 3:00 PM EST",
+    "reason": "Capitalizes on the proven high performance of diamond planet and extreme space survival scenarios, leveraging strong visual curiosity.",
     "fresh_topic_constraints": [
-      "Must not reuse Venus, TrES-2b, J1407b, or standard diamond planet topics",
-      "Focus exclusively on WASP-76b sideways iron rain mechanics",
-      "Keep pacing under 15 seconds to maximize loop retention"
+      "Must not use standard gas giants or previously used planets",
+      "Focus on white dwarf carbon crystal mechanics",
+      "Avoid repeating 'Liquid Diamond Planet' or 'Rain' hooks"
     ]
   },
-  "experiment": "A/B test a pure planetary fact hook against an immersive 'What If you were standing on...' survival hook within the Space category to measure impact on average view duration and like-to-view ratios.",
+  "experiment": "Test a space scenario featuring extreme temporal dilation (time moving slower near a massive object) combined with a high-stakes hypothetical survival question.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-01T18:43:19.404420+00:00"
+  "generated_at": "2026-10-01T19:38:26.906697+00:00"
 }
