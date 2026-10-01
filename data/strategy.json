@@ -1,41 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of the deduplicated performance data reveals that space and planetary 'what-if' scenarios, as well as extreme cosmic extremes (e.g., extreme planets, diamond/burning-ice worlds), are driving the highest views-per-day and engagement metrics (likes-per-view). Videos published within the last 7 days featuring immersive situational hooks ('What If You Fell Into...') outperform generic factual statements. Conversely, purely abstract psychological facts or minor biological trivia without high-stakes visual implications show lower traction.",
+  "overall_summary": "Analysis of the deduplicated performance data reveals clear viewer preference for 'What If' scenarios combined with extreme space anomalies and planetary extremes (e.g., IYuce8vaU3Y with 1024 views and 38 likes, 8KEl0_pJ_68 with 972 views). Traditional straightforward facts perform moderately well, but interactive hypothetical space questions and high-stakes planetary concepts consistently yield the highest engagement rates (likes-per-view) over the recent 7-day window.",
   "winning_patterns": [
     {
-      "pattern": "Immersive 'What If' Planetary Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) generated over 970-1,000+ views rapidly with high like ratios (38 likes).",
-      "action": "Double down on hypothetical extreme planetary survival scenarios with high-stakes visual hooks."
+      "pattern": "What If Space/Planetary Scenarios",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1024 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) outperformed standard declarative facts.",
+      "action": "Double down on hypothetical space disaster and extreme planetary immersion hooks ('What If You Fell Into...') to drive high engagement."
     },
     {
-      "pattern": "Extreme Cosmic Anomaly Facts",
-      "evidence": "'The Planet Darker Than Coal: TrES-2b' (v1rrcZLdp4U) and 'This Planet Rains Supersonic Rubies!' (QXuqYERlqSo) achieved over 700-1,000 views with strong viewer retention signals.",
-      "action": "Continue producing short-form deep dives into bizarre exoplanet weather conditions and extreme physics."
+      "pattern": "Extreme Cosmic & Planetary Anomalies",
+      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1026 views, 36 likes) and 'This Planet Rains Supersonic Rubies!' (721 views, 25 likes) show strong pull for bizarre, hyper-visual physics.",
+      "action": "Continue producing 19-21 second shorts focusing on surreal extraterrestrial weather and materials."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Biological/Psychological Trivia",
-      "evidence": "Videos regarding earworms, memory creation, or basic human anatomy ('Your Brain Can Create Fake Memories', 2fqaGqfsR4A) stalled at under 10-50 views.",
-      "action": "Deprioritize low-visual psychological trivia unless framed within an intense, cinematic mystery narrative."
+      "pattern": "Overly Abstract Brain/Psychology Facts",
+      "evidence": "Shorts like 'Your Brain Can Create Fake Memories' (5 views) and 'Your Brain Is Hiding This From You' (38 views) failed to gain traction compared to heavy space content.",
+      "action": "Deprioritize abstract psychology trivia unless structured as an interactive 'What If' or high-stakes challenge."
+    },
+    {
+      "pattern": "Ultra-Short Run-times (<15s) Without High Visual Stakes",
+      "evidence": "12-15 second clips on common animal facts (e.g., Octopuses Have Three Hearts variants) underperformed relative to the 19-21 second immersive space scenarios.",
+      "action": "Ensure all future shorts maintain a solid 19-21 second duration to allow proper narrative arc and higher retention."
     }
   ],
   "next_video": {
-    "category": "Space & Extreme Physics",
-    "hook_style": "Hypothetical Danger Scenario",
-    "concept": "What If You Stepped Onto a Rogue Planet Floating Through Intergalactic Space?",
-    "opening_direction": "Start in absolute pitch blackness with zero starlight, testing the viewer's immediate sensory disorientation.",
-    "twist_direction": "Reveal that the planet has no sun, yet its core is hot enough to boil oceans beneath miles of crushing ice.",
-    "duration_seconds": 20,
-    "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Capitalizes on the proven 'What If' and extreme planetary environment winning patterns while introducing a completely fresh astronomical subject (rogue planets).",
+    "category": "Space & What-If Scenarios",
+    "hook_style": "Hypothetical Disaster Hook",
+    "concept": "What If You Fell Into a Star Made Entirely of Liquid Neon?",
+    "opening_direction": "Start mid-fall through blinding neon-magenta light while giving the exact temperature and atmospheric pressure.",
+    "twist_direction": "Reveal that before you even hit a solid surface, the extreme pressure would compress your body into a diamond-like lattice.",
+    "duration_seconds": 21,
+    "posting_window": "12:00 PM - 2:00 PM EST",
+    "reason": "Capitalizes on the proven high-performing 'What If You Fell Into...' format and extreme planetary/stellar physics niche.",
     "fresh_topic_constraints": [
-      "Must not feature diamond planets, rain types already covered (rubies/glass/iron/metal), or Saturn/J1407b comparisons.",
-      "Focus entirely on rogue intergalactic wanderers."
+      "Must not use diamonds, burning ice, or dark planets (already used).",
+      "Must feature a novel celestial body (liquid neon star).",
+      "Must maintain factual grounding in extreme astrophysics."
     ]
   },
-  "experiment": "Test whether framing an exoplanet survival scenario around complete darkness and subsurface heat yields a higher like-to-view ratio than atmospheric rain extremes.",
+  "experiment": "Test a 21-second 'What If' scenario focused on a deep-space phenomenon outside of planets (e.g., inside a rogue black hole's accretion disk) to see if stellar-scale hypotheticals match planetary-scale success.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-01T05:39:16.874860+00:00"
+  "generated_at": "2026-10-01T06:45:42.813474+00:00"
 }
