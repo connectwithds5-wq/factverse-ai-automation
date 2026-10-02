@@ -1,41 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Recent 7-day performance heavily favors high-concept astronomical mysteries and counterintuitive planetary 'What If' scenarios (e.g., Venus day lengths, liquid diamond planets, and extreme planetary environments). These topics consistently generate the highest view velocity and engagement (likes/comments per view), outperforming general psychology and standard animal facts in this cohort.",
+  "overall_summary": "Analysis of the deduplicated performance metrics highlights that high-concept astronomy, extreme space 'What If' scenarios, and planetary oddities (especially involving rare materials or extreme physics published within the last 7 days) dominate traction. Specifically, videos like 'Venus Has a Day Longer Than Its Year', 'What If You Fell Into a Liquid Diamond Planet?', and 'The Planet Darker Than Coal' generated strong view velocity and exceptional engagement relative to their age compared to older evergreen biological or psychological facts.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Planetary / Space 'What If' Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views), 'Venus Has a Day Longer Than Its Year' (970 views), and 'What If You Fell Into the Planet of Burning Ice?' (972 views) lead the channel in views and viewer engagement.",
-      "action": "Double down on surreal space scenarios and exotic planetary phenomena using vivid, high-stakes curiosity hooks."
+      "pattern": "Extreme Planetary 'What If' / Alternative Physics Scenarios",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) garnered high views (1024 and 972 respectively) and strong like ratios within days of posting.",
+      "action": "Double down on 'What If' planetary immersion concepts involving extreme environmental hazards (e.g., extreme pressure, weird states of matter)."
     },
     {
-      "pattern": "Mind-Bending Comparative Scale Hooks",
-      "evidence": "Videos exploring extreme cosmic scales or paradoxical planetary states (e.g., TrES-2b at 1,026 views) outperform standard descriptive facts.",
-      "action": "Frame future space hooks around impossible physics or extreme sensory comparisons ('The planet where...' or 'What happens if...')."
+      "pattern": "Mind-Bending Planetary Extremes with Rare/Precious Materials",
+      "evidence": "'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0) and 'This Planet Rains Supersonic Rubies!' (QXuqYERlqSo) drove high early-stage engagement and healthy likes-per-view.",
+      "action": "Produce more short-form hooks focusing on bizarre astronomical time-dilation, unusual precipitation, or ultra-rare resource anomalies on newly discovered exoplanets."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Low-Velocity Psychological Tricks and Standard Animal Facts",
-      "evidence": "Topics like 'Your Brain Can Create Fake Memories' (5-53 views) and standard animal trivia ('Octopuses Have Three Hearts' older posts) show minimal momentum compared to space content.",
-      "action": "Deprioritize standard psychological tricks and re-allocate production bandwidth toward high-performing space and cosmic anomaly formats."
+      "pattern": "Older Psychological / Earworm Factoids",
+      "evidence": "Videos like 'The Psychological Trick to Stop Songs Stuck in Your Head' (ef3ND4qiRHc) and 'Your Brain Can Create Fake Memories' (5AN7LUgqarc) stalled out significantly lower in views-per-day compared to the space/astronomy cluster.",
+      "action": "Deprioritize standard psychological tricks and earworm micro-facts unless framed through a radically cinematic or high-stakes mystery narrative."
+    },
+    {
+      "pattern": "Stale Animal Facts Without Extreme Survival Context",
+      "evidence": "Basic biology facts like 'Octopuses Have THREE Hearts' (AXAfwrzzEdU) plateaued quickly in daily velocity compared to high-concept space hooks.",
+      "action": "Pivot animal content strictly toward cinematic animal survival, micro-horror/mystery, or extreme adaptations rather than static trivia."
     }
   ],
   "next_video": {
-    "category": "Space & Science",
-    "hook_style": "High-stakes 'What If' existential scenario",
-    "concept": "What If You Fell Into the Coldest Known Planet (OGLE-TR-56b or WD 0810-353 analog)? Exploring extreme freezing temperatures and crushing atmospheric pressure.",
-    "opening_direction": "Start immediately with the immersive sensation of free-falling through an alien, pitch-black atmosphere where temperatures defy normal physics.",
-    "twist_direction": "Reveal that before you even hit a solid surface, the ambient cold turns your spacesuit brittle enough to shatter instantly.",
+    "category": "Space & Astronomy",
+    "hook_style": "High-Stakes 'What If' Immersion",
+    "concept": "What If You Stepped Foot on a Rogue Planet Drifting Through the Intergalactic Void?",
+    "opening_direction": "Start with total pitch blackness and absolute zero temperature, dropping the viewer directly onto a world with no star.",
+    "twist_direction": "Reveal that despite having no sun, geothermal core heat creates massive glowing underground oceans where bizarre life could thrive.",
     "duration_seconds": 21,
     "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Capitalizes on the proven high-performing 'What If / Extreme Planet' framework demonstrated by top-tier hits like the liquid diamond and burning ice planet shorts.",
+    "reason": "Capitalizes on the winning high-velocity 'What If' planet format while introducing a brand-new space phenomenon (rogue planets with subterranean warmth).",
     "fresh_topic_constraints": [
-      "Must not use liquid diamonds, burning ice, glass rain, or diamond rain.",
-      "Must feature a completely new celestial body not present in the historical upload log."
+      "Must not mention diamonds, liquid metal, glass rain, or burning ice.",
+      "Must feature a completely unreleased exoplanet/cosmic object concept.",
+      "Strictly factual astrophysical principles applied to speculative immersion."
     ]
   },
-  "experiment": "Test a 21-second runtime format focusing strictly on a newly discovered rogue exoplanet wandering through deep interstellar space without a parent star.",
+  "experiment": "Test whether framing an astronomy 'What If' scenario around a rogue planetary core heat source retains viewers longer than surface-level atmospheric oddities like diamond or iron rain.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-02T04:39:57.816828+00:00"
+  "generated_at": "2026-10-02T05:38:58.631085+00:00"
 }
