@@ -1,52 +1,48 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of FACTVERSE performance data demonstrates that 'What If' space scenarios and extreme planetary facts (specifically regarding extreme environments, diamond/luxury planets, and bizarre cosmic properties) dominate engagement velocity and engagement-per-view. Videos published within the last 7 days such as 'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0) and planetary fall scenarios (IYuce8vaU3Y, 8KEl0_pJ_68) show rapid growth compared to older psychological or minor biological facts. Audience retention thrives on sensory extremes, counterintuitive scales, and speculative physics framed as direct viewer experiences.",
+  "overall_summary": "Analysis of the deduplicated performance metrics shows that extreme space and astronomical 'What If' scenarios (particularly involving exotic planets, extreme environments, and hypothetical immersive scenarios) generate the highest views-per-day and engagement (likes-per-view) among recent 7-day uploads. Titles using hypothetical immersive questions ('What If You Fell Into...') and bizarre planetary physics ('Liquid Diamond Planet', 'Venus Has a Day Longer Than Its Year') significantly outperform standard biological facts or historical mysteries.",
   "winning_patterns": [
     {
-      "pattern": "Speculative Planetary 'What If' Scenarios",
-      "evidence": "Videos asking 'What If You Fell Into...' or exploring bizarre planetary environments (e.g., IYuce8vaU3Y with 1,024 views and 38 likes; 8KEl0_pJ_68 with 972 views) consistently outperform standard encyclopedic facts.",
-      "action": "Double down on high-stakes, hypothetical survival scenarios in extreme cosmic locations with high engagement-per-view ratios."
+      "pattern": "Hypothetical Immersive Space Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) garnered over 1,000 and 972 views rapidly with strong like-to-view ratios.",
+      "action": "Double down on 'What If' interactive physics scenarios focused on extreme celestial bodies."
     },
     {
-      "pattern": "Mind-Bending Time/Scale Anomalies",
-      "evidence": "Venus having a day longer than its year (A9Qa-RmuOr0) generated 970 views and 21 likes rapidly after launch on October 1.",
-      "action": "Produce more short-form concepts featuring paradoxical time or spatial measurements that defy intuitive logic."
-    },
-    {
-      "pattern": "High-Contrast Visual Hooks",
-      "evidence": "Titles featuring vivid physical phenomena paired with bold emojis (diamonds, extreme cold/heat) drive high like-to-view ratios.",
-      "action": "Maintain short durations (15-21 seconds) with immediate visual setups in the first 2 seconds."
+      "pattern": "Bizarre Planetary Anomalies & Extreme Physics",
+      "evidence": "Videos like 'Venus Has a Day Longer Than Its Year 🤯' (A9Qa-RmuOr0) and 'The Planet Darker Than Coal: TrES-2b 🌌' (v1rrcZLdp4U) achieved rapid traction exceeding 900-1,000 views within days.",
+      "action": "Produce more short-form concepts focusing on bizarre, counter-intuitive laws of physics operating on newly discovered exoplanets."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Psychological Tricks and Earworm Explanations",
-      "evidence": "Topics like song memory tricks (ef3ND4qiRHc, Jc04LVKNd2s) and basic brain facts (2fqaGqfsR4A) stalled below 100 views with negligible engagement.",
-      "action": "Deprioritize abstract psychological micro-facts unless framed through an intense, high-stakes hypothetical narrative."
+      "pattern": "Standard Psychological/Memory Micro-Facts",
+      "evidence": "Topics like 'Your Brain Can Create Fake Memories' (2fqaGqfsR4A) and song-stuck psychological tricks stalled heavily at under 60 views with zero engagement.",
+      "action": "De-prioritize basic psychology factoids unless framed as high-stakes narrative mysteries."
     },
     {
-      "pattern": "Stale Biological Facts Without Scale",
-      "evidence": "Standard animal facts like octopus hearts (AXAfwrzzEdU) plateaued quickly past their initial launch windows compared to celestial extremes.",
-      "action": "Shift animal content away from simple trivia toward cinematic animal survival or extreme prehistoric comparisons."
+      "pattern": "Overdone Animal Trivia",
+      "evidence": "Standard animal facts such as 'Octopuses Have THREE Hearts' (when repeated or aged) show diminishing returns compared to space content.",
+      "action": "Pivot animal content into cinematic survival or extreme evolutionary anomalies rather than basic trivia."
     }
   ],
   "next_video": {
-    "category": "Space & Extreme Physics",
-    "hook_style": "High-stakes sensory survival paradox",
-    "concept": "What If You Fell Into a Star Made Entirely of Liquid Neon?",
-    "opening_direction": "Start inside blinding, surreal glowing colors where normal physics break down completely.",
-    "twist_direction": "Reveal that before you even hit a solid surface, the extreme thermal pressure would instantly freeze your atoms while boiling them.",
+    "category": "space",
+    "hook_style": "hypothetical immersive scenario",
+    "concept": "Stepping onto the strangest rogue planet wandering through interstellar space without a star",
+    "opening_direction": "Start with total pitch blackness and absolute sub-zero silence before a sudden catastrophic seismic shift beneath the viewer's feet.",
+    "twist_direction": "Reveal that the planet's internal core is kept boiling hot not by a sun, but by constant dark matter friction, creating underground oceans of liquid nitrogen.",
     "duration_seconds": 15,
-    "posting_window": "12:00 PM - 3:00 PM EST (Peak engagement window for space scenarios)",
-    "reason": "Leverages the proven high-performing 'What If / Planet Fall' structural framework while exploring an entirely fresh cosmic element not yet covered in previous uploads.",
+    "posting_window": "12:00 PM - 3:00 PM EST",
+    "reason": "Leverages the proven high-performing 'What If / Extreme Planet' framework while introducing a completely fresh astronomical phenomenon (rogue planets with dark matter cores) not present in previous uploads.",
     "fresh_topic_constraints": [
-      "Must not mention diamonds, liquid metal, glass rain, or black holes.",
-      "Must feature a unique stellar or planetary phenomenon (Neon Star).",
-      "Keep pacing under 16 seconds with zero wasted intro frames."
+      "Do not mention diamond planets",
+      "Do not mention glass rain",
+      "Do not mention TrES-2b",
+      "Do not reuse previous planet titles"
     ]
   },
-  "experiment": "Test a 15-second cinematic space survival scenario utilizing a brand-new celestial body (Liquid Neon Star) against historical planetary benchmarks to measure whether niche specificity accelerates 24-hour view velocity.",
+  "experiment": "Test if framing a rogue planet survival scenario with sound design elements (starting with absolute silence) improves the 3-second drop-off rate compared to standard text-heavy visual hooks.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-02T08:39:14.078917+00:00"
+  "generated_at": "2026-10-02T09:39:46.553922+00:00"
 }
