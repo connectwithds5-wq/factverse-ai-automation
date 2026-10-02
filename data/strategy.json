@@ -1,42 +1,48 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Recent 7-day performance heavily favors space, astronomy, and 'what-if' hypothetical scenarios involving extreme planetary conditions or astronomical objects. Videos like 'Venus Has a Day Longer Than Its Year' (970 views, 21 likes), 'What If You Fell Into a Liquid Diamond Planet?' (1024 views, 38 likes), and 'The Planet Darker Than Coal: TrES-2b' (1026 views, 36 likes) outperform general psychology or standard animal facts by generating significantly higher views-per-day and engagement ratios (likes-per-view).",
+  "overall_summary": "Recent 7-day performance heavily favors high-concept space and 'What If' planetary scenarios, particularly extreme or counterintuitive planetary conditions (e.g., Venus day vs. year, liquid diamond worlds, dark planets, and supersonic ruby rain). These topics demonstrate significantly higher views-per-day and stronger likes-per-view ratios compared to older psychological or minor biological facts.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Space & Planetary What-If Scenarios",
-      "evidence": "Videos focusing on bizarre planetary mechanics or 'what if you fell into' scenarios (e.g., IYuce8vaU3Y with 1024 views, 38 likes; A9Qa-RmuOr0 with 970 views) significantly outperform standard historical or psychological facts.",
-      "action": "Double down on high-concept astronomy and extreme planetary physics, framing them as visceral hypothetical scenarios."
+      "pattern": "Extreme 'What If' Planetary Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views) and 'What If You Fell Into the Planet of Burning Ice?' (972 views) generated massive traction within short windows.",
+      "action": "Double down on hypothetical space disaster/immersion scenarios involving extreme exoplanets."
     },
     {
-      "pattern": "Bizarre Absolute Superlatives & Paradoxes",
-      "evidence": "Titles featuring extreme contrasts or mind-bending anomalies (e.g., v1rrcZLdp4U 'The Planet Darker Than Coal' with 1026 views) drive strong curiosity and higher engagement rates.",
-      "action": "Incorporate rare, highly counter-intuitive astronomical or physical properties into hooks."
+      "pattern": "Counterintuitive Cosmic Truths",
+      "evidence": "Venus Has a Day Longer Than Its Year (970 views) and The Planet Darker Than Coal (1,026 views) outperformed standard animal or brain facts by an order of magnitude.",
+      "action": "Use bizarre astronomical contradictions as primary hooks for future space shorts."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Standard Psychological Tricks & Common Animal Facts",
-      "evidence": "Older psychology and animal shorts like 'Your Brain Can Create Fake Memories' (5-53 views) and standard animal trivia ('Octopuses Have THREE Hearts') show stagnant or minimal growth outside of specific outliers.",
-      "action": "Deprioritize standard psychological tips and generic animal facts unless paired with a high-stakes cinematic survival or extreme evolutionary paradox angle."
+      "pattern": "Low-Engagement Psychological Tricks",
+      "evidence": "Shorts like 'Your Brain Can Create Fake Memories' and song-stuck psychological tricks stagnated below 60-70 views with zero comments.",
+      "action": "Deprioritize abstract internal psychology facts unless paired with a high-stakes visual mystery."
+    },
+    {
+      "pattern": "Stale Animal Facts",
+      "evidence": "Repeated standard animal facts like octopuses having three hearts generated lower velocity in recent runs compared to space anomalies.",
+      "action": "Shift animal content strictly toward cinematic survival or extreme prehistoric/deep-sea anomalies rather than basic trivia."
     }
   ],
   "next_video": {
-    "category": "space",
-    "hook_style": "What-If Extreme Scenario",
-    "concept": "What If You Fell Into the Coldest Place in the Universe (The Boomerang Nebula)?",
-    "opening_direction": "Start immediately with the terrifying sensation of dropping into a cosmic void colder than absolute zero.",
-    "twist_direction": "Reveal that the gas expanding here is moving so fast it's chilling space itself to -272°C, colder than the background radiation of the universe.",
+    "category": "Space & Science",
+    "hook_style": "Hypothetical catastrophic immersion",
+    "concept": "What If You Stepped Onto a Rogue Planet Wandering Between Stars?",
+    "opening_direction": "Start in absolute pitch blackness with a freezing vacuum sound effect, asking what happens when a world has no sun.",
+    "twist_direction": "Reveal that miles beneath the frozen surface, a subterranean ocean boils from radioactive core heat, potentially housing alien life.",
     "duration_seconds": 15,
-    "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Capitalizes on the proven high performance of 'What If' planetary/space formats while introducing a completely fresh astronomical phenomenon (Boomerang Nebula) not present in the published history.",
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Capitalizes on the proven high-performing 'What If' and extreme planetary cold/darkness niches while introducing a fresh, unexplored astrophysical phenomenon (rogue planets).",
     "fresh_topic_constraints": [
-      "Must not reuse diamond planets, TrES-2b, Venus, black holes, or silent space concepts.",
-      "Must use a unique celestial body or phenomenon.",
-      "Keep pacing under 16 seconds for optimal loop retention."
+      "Do not mention diamond planets",
+      "Do not mention Venus",
+      "Do not mention TrES-2b",
+      "Must introduce a rogue interstellar planet"
     ]
   },
-  "experiment": "Test a 15-second 'What If' space scenario focusing on an extreme thermodynamic anomaly (coldest place in the universe) to see if it matches the engagement velocity of liquid diamond and dark planet videos.",
+  "experiment": "Test a 15-second high-pacing space scenario focusing on rogue planets to see if it surpasses the 1,000-view threshold set by liquid diamond and burning ice shorts.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-02T19:39:21.846229+00:00"
+  "generated_at": "2026-10-02T20:39:04.408439+00:00"
 }
