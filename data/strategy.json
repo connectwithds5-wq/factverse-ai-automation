@@ -1,51 +1,42 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Deduplication reveals 47 unique videos showing a dramatic performance divide. First-person experiential what-if space/survival scenarios ('What If You Fell Into...') and striking cosmic paradoxes drive the highest view velocity (800–1,000+ views in under 7 days, peaking with Venus at 947 views in under 24 hours). In contrast, generic psychology snippets ('fake memories', 'earworms') and recycled basic space facts consistently flatline under 100 views.",
+  "overall_summary": "Analysis of deduplicated YouTube Shorts performance for FACTVERSE reveals a clear dominance of extreme space and planetary 'What If' scenarios over standard psychological or animal facts. Videos featuring hypothetical planetary falls, exotic planetary conditions (such as diamond, dark, or burning ice worlds), and counterintuitive cosmic phenomena generate significantly higher views-per-day and like ratios (e.g., IYuce8vaU3Y, 8KEl0_pJ_68, 6pwazIPnOHw) compared to static psychological tricks or common animal trivia.",
   "winning_patterns": [
     {
-      "pattern": "First-Person 'What If You Fell Into...' Survival Hooks",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,024 views, 38 likes) and 'What If You Fell Into the Darkest Planet?' (825 views, 15 likes) dominate recent 7-day velocity and engagement.",
-      "action": "Frame extreme cosmic phenomena as immersive first-person physical survival micro-journeys."
+      "pattern": "Hypothetical Planetary 'What If' Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) lead in velocity with over 1000 views and strong engagement within days of release.",
+      "action": "Double down on high-stakes, immersive space 'What If' scenarios combining extreme physical environments with second-person framing."
     },
     {
-      "pattern": "Intuition-Breaking Planetary Paradoxes",
-      "evidence": "'Venus Has a Day Longer Than Its Year' generated 947 views and 21 likes within 16 hours of upload, outpacing older uploads rapidly.",
-      "action": "Lead immediately with a quantifiable physical contradiction in the first 1.5 seconds without preamble."
-    },
-    {
-      "pattern": "Optimum Duration Around 19–21 Seconds",
-      "evidence": "Every top performer in the recent 7-day window (A9Qa-RmuOr0, IYuce8vaU3Y, YlDuGu1vzAg, 8KEl0_pJ_68) clocks between 19 and 21 seconds with higher like conversion.",
-      "action": "Structure narratives tightly for a 19–21 second runtime to maximize completion rate and loop potential."
+      "pattern": "Bizarre & Extreme Cosmic Weather/Material Facts",
+      "evidence": "Titles detailing extreme planetary conditions ('Venus Has a Day Longer Than Its Year', 'This Planet Rains Supersonic Rubies!') capture robust view counts and high likes-per-view ratios.",
+      "action": "Prioritize lesser-known, visually dramatic astronomical phenomena that challenge everyday logic over basic biological facts."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Brain & Psychology Facts",
-      "evidence": "Multiple iterations of 'Your Brain Can Create Fake Memories' (5–53 views) and song-earworm facts (17–71 views) consistently failed to trigger algorithm distribution.",
-      "action": "Pause generic psychology facts unless anchored to an intense cinematic mystery or survival angle."
-    },
-    {
-      "pattern": "Duplicate Video Concepts & Re-uploads",
-      "evidence": "'Why Space Is Completely Silent' posted 3 times plateaued at 33–220 views with negligible engagement.",
-      "action": "Enforce strict deduplication; never repost identical core premises."
+      "pattern": "Static Psychological & Brain Trick Facts",
+      "evidence": "Videos focusing on internal human psychology or memory tricks (e.g., 'Your Brain Can Create Fake Memories', 'The Psychological Trick to Stop Songs Stuck in Your Head') consistently underperform in views-per-day and engagement metrics.",
+      "action": "Deprioritize psychological trivia or reduce their frequency, shifting production focus towards high-visual-potential space and physical science."
     }
   ],
   "next_video": {
-    "category": "what-if scenarios",
-    "hook_style": "Visceral first-person survival dilemma",
-    "concept": "What would happen to the human body falling toward a Magnetar (the universe's most magnetic dead star).",
-    "opening_direction": "Visual of a glowing ultra-dense neutron star distorting space; narrator instantly hooks: 'If you fell toward a magnetar, you would die before you even touched it.'",
-    "twist_direction": "Reveal that at 1,000 miles out, the magnetic field is so fierce it tears electrons from your atoms, instantly stretching your DNA and cellular structure into microscopic needles.",
-    "duration_seconds": 21,
-    "posting_window": "12:30 - 13:30 UTC",
-    "reason": "Leverages the proven high-velocity 'What If You Fell Into...' format while introducing an entirely novel, terrifying celestial object never covered on the channel.",
+    "category": "Space & Astronomy",
+    "hook_style": "Second-person immersive hypothetical physics",
+    "concept": "What If You Fell Into a Star Made Entirely of Neon?",
+    "opening_direction": "Start directly with the violent, blinding descent into a neon-core star, using vivid, high-contrast visual cues to immediately lock viewer attention.",
+    "twist_direction": "Reveal that as you sink deeper, the intense pressure strips atoms apart, turning the vibrant neon glow into an invisible, silent nuclear furnace.",
+    "duration_seconds": 15,
+    "posting_window": "12:00 PM - 3:00 PM EST",
+    "reason": "Capitalizes on the proven high performance of 'What If You Fell Into...' space formats while exploring a completely fresh chemical and stellar phenomenon not yet covered.",
     "fresh_topic_constraints": [
-      "Do not mention diamond planets, TrES-2b, Gliese 436 b, Venus, or raining glass/metals",
-      "Focus purely on Magnetar SGR 1806-20 / ultra-strong magnetic field biological shredding"
+      "Must not feature diamond, dark, burning ice, or liquid metal planets",
+      "Must use a newly introduced celestial body or element",
+      "Must maintain factual accuracy regarding stellar physics"
     ]
   },
-  "experiment": "Test whether framing extreme astrophysics through atomic-scale body horror ('what happens to your cells') outperforms external environmental descriptions in retention and comment generation.",
-  "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-10-01T23:36:44.871392+00:00"
+  "experiment": "Test a 15-second pacing structure on a brand-new space anomaly topic, removing all introductory fluff and starting mid-action on the hypothetical drop to measure retention impact against standard 21-second formats.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-10-02T00:44:59.055129+00:00"
 }
