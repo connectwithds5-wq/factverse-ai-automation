@@ -1,41 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Recent 7-day performance data clearly shows that astronomical 'What If' scenarios and extreme planetary anomalies (especially regarding extreme planetary environments and planetary destruction concepts) dominate traction. Videos like 'What If You Fell Into a Liquid Diamond Planet?', 'Venus Has a Day Longer Than Its Year', and 'What If You Fell Into the Planet of Burning Ice?' achieve high views-per-day and strong engagement (likes-per-view up to ~3.7%). Conversely, generic neuroscience facts and older static space facts show lower velocity.",
+  "overall_summary": "Analysis of the recent data reveals that space and extreme planetary conditions heavily dominate traction for FACTVERSE. Specifically, 'What If' hypothetical scenarios involving extreme planetary environments (such as liquid diamond planets and dark planets) and anomalous planetary facts (like Venus's day-to-year ratio and TrES-2b's extreme darkness) achieve the highest views-per-day and engagement ratios (likes-per-view). Videos published within the last 7 days significantly outperform older catalog items, proving that high-concept cosmic wonder paired with interactive 'What If' framing drives superior short-form algorithmic push.",
   "winning_patterns": [
     {
-      "pattern": "Hypothetical Planetary Immersion ('What If You Fell Into...')",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views) and 'What If You Fell Into the Planet of Burning Ice?' (972 views) outperform standard descriptive space facts significantly within short timeframes.",
-      "action": "Produce more high-concept 'What If' immersion shorts focusing on extreme, visually striking space destinations."
+      "pattern": "Extreme Planetary 'What If' Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views) and 'What If You Fell Into the Darkest Planet?' (825 views) posted in late September generated rapid velocity compared to standard static facts.",
+      "action": "Double down on hypothetical space scenarios involving extreme physical states (e.g., extreme pressure, weird weather, exotic materials) framed as second-person immersive experiences."
     },
     {
-      "pattern": "Extreme Cosmic Anomalies & Extremes",
-      "evidence": "Titles detailing extreme temporal or physical anomalies like 'Venus Has a Day Longer Than Its Year' (964 views) and 'The Planet Darker Than Coal' (1,026 views) drive high sustained engagement.",
-      "action": "Highlight mind-bending physical contrasts or extremes in the hook (e.g., planets, stars, or black holes breaking known laws)."
+      "pattern": "Counterintuitive Cosmic Anomalies",
+      "evidence": "Titles featuring stark temporal or physical contradictions like 'Venus Has a Day Longer Than Its Year' (964 views in under 24 hours) capture immediate high-intent click-through and engagement.",
+      "action": "Continue utilizing high-contrast cosmic paradoxes that challenge conventional intuition within the first 3 seconds."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Static Human Psychology & Brain Facts",
-      "evidence": "Topics like 'Your Brain Can Create Fake Memories' and 'The Psychological Trick to Stop Songs Stuck in Your Head' stagnate around 10-70 views with negligible engagement.",
-      "action": "Deprioritize psychology shorts unless paired with a high-stakes survival or sci-fi narrative framework."
+      "pattern": "Generic Psychological & Brain Trick Remakes",
+      "evidence": "Repeated variations of memory and brain-hack concepts ('Your Brain Can Create Fake Memories', 'Your Brain Is Hiding This From You') stagnated with very low view counts (under 60 views) and zero engagement.",
+      "action": "Deprioritize psychological tricks and generic brain facts unless tied to an entirely novel, breaking neuro-tech discovery."
+    },
+    {
+      "pattern": "Low-Stakes Animal Trivia",
+      "evidence": "Standard animal facts without extreme cinematic peril or unique evolutionary scale (e.g., standard octopus or jellyfish facts) underperformed relative to cosmic content.",
+      "action": "Pivot animal content strictly toward cinematic animal survival or prehistoric apex predator scale rather than basic biological trivia."
     }
   ],
   "next_video": {
     "category": "space",
-    "hook_style": "What If immersion",
-    "concept": "What If You Fell Into a Star Made Entirely of Liquid Neon?",
-    "opening_direction": "Start directly with the terrifying sensory experience of plunging into a glowing neon core.",
-    "twist_direction": "Reveal that the neon core is so dense it would instantly compress matter before vaporizing it in milliseconds.",
-    "duration_seconds": 15,
-    "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Capitalizes on the high-performing 'What If' planetary and stellar immersion format that dominates recent views and engagement.",
+    "hook_style": "What If / Immersive Extreme Survival",
+    "concept": "What If You Stepped Foot on the Hottest Planet in the Universe (KELT-9b)?",
+    "opening_direction": "Start inside a theoretical suit instantly glowing white-hot as ambient temperatures surpass steel-melting thresholds.",
+    "twist_direction": "Reveal that the planet is literally vaporizing itself into a glowing comet-like tail of evaporating rock and gas.",
+    "duration_seconds": 21,
+    "posting_window": "12:00 PM - 3:00 PM EST",
+    "reason": "Capitalizes on the proven high performance of extreme planetary 'What If' scenarios and ultra-hot exoplanet concepts without repeating any previously used celestial bodies.",
     "fresh_topic_constraints": [
-      "Must not use diamonds, ice, glass, or iron rain themes.",
-      "Must feature a completely new celestial element or extreme stellar phenomenon."
+      "Must feature exoplanet KELT-9b",
+      "Do not reuse diamond planets, dark planets, or ice planets",
+      "Focus on thermal molecular destruction visual cues"
     ]
   },
-  "experiment": "Test a 15-second 'What If' scenario involving a newly discovered cosmic extreme entity with zero prior coverage on the channel to measure immediate 24-hour velocity against established diamond/ice planet formats.",
+  "experiment": "Test a 21-second extreme exoplanet 'What If' scenario against a standard 15-second rapid-fire space fact to determine if higher watch time on hypothetical framing beats short-form brevity for retention loops.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-02T01:38:20.242805+00:00"
+  "generated_at": "2026-10-02T02:38:03.300273+00:00"
 }
