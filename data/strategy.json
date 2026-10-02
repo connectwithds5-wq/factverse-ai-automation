@@ -1,21 +1,47 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Analysis of deduplicated recent uploads reveals that space and planetary 'What If' scenarios heavily outperform standard historical or psychological factoids in views-per-day and engagement metrics (likes/comments per view). Videos featuring extreme planetary phenomena, bizarre cosmic conditions, and speculative 'What If' hooks published within the last 7 days (e.g., 'What If You Fell Into a Liquid Diamond Planet?', 'Venus Has a Day Longer Than Its Year') consistently command higher velocity than older content. Conversely, dry psychological trick lists or standard animal facts show lower relative traction.",
+  "winning_patterns": [
+    {
+      "pattern": "Speculative Planetary 'What If' Hooks",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views) and 'What If You Fell Into the Planet of Burning Ice?' (972 views) show exceptional view accumulation and high like-to-view ratios compared to static fact statements.",
+      "action": "Double down on immersive, high-stakes hypothetical scenarios involving extreme cosmic or planetary environments."
+    },
+    {
+      "pattern": "Bizarre Cosmic Extreme Facts",
+      "evidence": "Titles featuring extreme planetary oddities like 'Venus Has a Day Longer Than Its Year' (970 views) and 'The Planet Darker Than Coal: TrES-2b' (1,026 views) drive strong organic reach within days of publication.",
+      "action": "Continue sourcing bizarre, counter-intuitive astronomical anomalies with punchy, high-curiosity framing."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Static Psychological Factoids",
+      "evidence": "Content like 'Your Brain Can Create Fake Memories' and 'The Psychological Trick to Stop Songs Stuck in Your Head' stagnated with sub-70 views and negligible engagement.",
+      "action": "Deprioritize standalone psychological tips unless paired with a high-stakes narrative or cinematic micro-story format."
+    },
+    {
+      "pattern": "Basic Animal Facts Without Extinction/Scale Hooks",
+      "evidence": "Simple declarative animal titles like 'Octopuses Have THREE Hearts' underperformed relative to cosmic content, showing weaker viral momentum.",
+      "action": "Shift animal-related content into cinematic animal survival or evolutionary paradoxes rather than basic trivia."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "category": "space",
+    "hook_style": "What If / Extreme Cosmic Scenario",
+    "concept": "Stepping onto the strangest rogue planet drifting through interstellar space with no star to orbit.",
+    "opening_direction": "Start in absolute pitch-blackness with absolute zero temperature, asking the viewer what happens when a world is completely untethered from any solar system.",
+    "twist_direction": "Reveal that despite the freezing void, a massive subterranean liquid ocean thrives miles beneath the surface powered entirely by tidal friction.",
     "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "posting_window": "12:00 PM - 3:00 PM UTC",
+    "reason": "Leverages the proven high-performing 'What If' and extreme planetary niche with a completely fresh astronomical subject (rogue planets with subsurface oceans) absent from past uploads.",
+    "fresh_topic_constraints": [
+      "Do not mention diamonds, liquid metal, glass rain, or Saturn/Venus",
+      "Focus exclusively on rogue planets and interstellar space wanderers",
+      "Keep pacing under 16 seconds to maximize loop retention"
+    ]
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-10-02T15:40:45.022276+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-10-02T15:40:45.022296+00:00"
+  "experiment": "Test a 15-second rogue planet 'What If' scenario using rapid-fire visual scale comparisons against a familiar object on Earth to measure if immediate visual grounding improves 7-day view velocity.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-10-02T16:41:06.354066+00:00"
 }
