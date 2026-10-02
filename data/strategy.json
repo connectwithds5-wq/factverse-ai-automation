@@ -1,47 +1,46 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of deduplicated YouTube Shorts data reveals a strong viewer preference for extreme space scenarios, cosmic what-if questions, and bizarre planetary facts, particularly those featuring high-stakes hypothetical outcomes or rare physical anomalies. Videos focusing on 'What If' space scenarios (e.g., liquid diamond planets, burning ice worlds) and extreme celestial phenomena achieve the highest views-per-day and engagement-per-view ratios within the crucial 7-day window. Conversely, repetitive psychological trivia and older biological facts show diminishing momentum. Growth should double down on visual, high-scale cosmic and planetary what-if scenarios while introducing a fresh, unmined celestial phenomenon.",
+  "overall_summary": "Analysis of deduplicated YouTube Shorts data reveals that extreme cosmic anomalies and 'What If' hypothetical scenarios involving planets and space (e.g., liquid diamond planets, dark planets, extreme rain phenomena) drive the highest velocity, views-per-day, and engagement (likes-per-view). Content published within the last 7 days heavily outperforms older archive pieces, indicating strong algorithm favorability for high-concept space curiosities with visual thought-experiment hooks.",
   "winning_patterns": [
     {
-      "pattern": "Planetary 'What If' & Extreme Material Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) accumulated 1,024 and 972 views rapidly with exceptional like-to-view ratios.",
-      "action": "Produce more high-stakes hypothetical planetary survival or immersion scenarios involving extreme physical states."
+      "pattern": "What If / Hypothetical Planet Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) garnered over 1,000 and 970 views rapidly with strong like ratios (up to 38 likes).",
+      "action": "Double down on hypothetical planetary physics and extreme survival thought experiments in space."
     },
     {
-      "pattern": "Bizarre & Paradoxical Space Facts",
-      "evidence": "Titles like 'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0) and 'The Planet Darker Than Coal: TrES-2b' (v1rrcZLdp4U) pulled strong view counts (970+ and 1,026 views) with high engagement.",
-      "action": "Focus hooks on counter-intuitive time, light, or weather anomalies on newly discovered or lesser-known exoplanets."
+      "pattern": "Extreme Cosmic Extremes & Rare Weather",
+      "evidence": "Titles featuring impossible planetary conditions like 'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0) and 'The Planet Darker Than Coal: TrES-2b' (v1rrcZLdp4U) consistently hit near or above 1,000 views within short timeframes.",
+      "action": "Produce more short-form spotlights on bizarre exoplanets with extreme physical properties."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Recycled Psychological & Brain Trivia",
-      "evidence": "Shorts covering repetitive memory or earworm topics (e.g., 'Your Brain Can Create Fake Memories', 'The Real Reason Songs Get Stuck In Your Head') stagnated in the single and double digits (5 to 53 views).",
-      "action": "Deprioritize standard psychological tricks and brain hacks unless paired with a high-concept, highly visual mystery narrative."
+      "pattern": "Low-Engagement Psychological Tricks",
+      "evidence": "Videos focusing on psychological or brain hacks like 'Your Brain Can Create Fake Memories' (2fqaGqfsR4A) and 'The Psychological Trick to Stop Songs Stuck in Your Head' (ef3ND4qiRHc) yielded very low views and minimal likes compared to cosmic content.",
+      "action": "Deprioritize psychological trivia shorts unless paired with a high-stakes visual mystery hook."
     },
     {
-      "pattern": "Stale Biological Trivia Without Scale",
-      "evidence": "Basic animal facts like 'Octopuses Have THREE Hearts' (when repeated or outdated relative to fresh space content) underperform compared to cosmic extremes.",
-      "action": "Shift animal content strictly into cinematic survival or extreme evolutionary anomalies rather than basic static trivia."
+      "pattern": "Standard Biological Facts Without a Twist",
+      "evidence": "Simple animal facts like 'Octopuses Have THREE Hearts' (AXAfwrzzEdU) plateaued at lower view counts and zero comments, lacking the curiosity gap of space or mystery content.",
+      "action": "Avoid straightforward biological listicles; pivot animal content strictly toward cinematic survival or bizarre evolutionary anomalies."
     }
   ],
   "next_video": {
-    "category": "Space / What-If Scenarios",
-    "hook_style": "Hypothetical Immersion & Extreme Physics Paradox",
-    "concept": "What Happens If You Step Foot on the Planet That Burns Ice?",
-    "opening_direction": "Start immediately with the jarring paradox of ice burning at thousands of degrees, using immersive second-person framing.",
-    "twist_direction": "Reveal that the planet's extreme gravity compresses water into exotic superionic ice that acts simultaneously as a solid, liquid, and burning furnace.",
-    "duration_seconds": 15,
-    "posting_window": "12:00 PM - 3:00 PM UTC",
-    "reason": "Capitalizes on the proven high performance of extreme planetary what-if scenarios (e.g., liquid diamond, burning ice) while exploring a scientifically verified, visually stunning state of matter.",
+    "category": "Space & Astronomy",
+    "hook_style": "What If / Extreme Physics Curiosity Gap",
+    "concept": "What happens if you fall into the coldest known place in the universe—the Boomerang Nebula?",
+    "opening_direction": "Start inside a total vacuum where absolute zero instantly freezes matter faster than liquid nitrogen.",
+    "twist_direction": "Reveal that this cosmic freezer is actually colder than the background radiation of the universe itself, absorbing heat from empty space.",
+    "duration_seconds": 18,
+    "posting_window": "12:00 PM - 3:00 PM EST",
+    "reason": "Capitalizes on the proven high performance of 'What If' space scenarios and extreme temperature/environment hooks like the star colder than ice and burning ice planets.",
     "fresh_topic_constraints": [
-      "Must not reuse Gliese 436 b or previously featured exoplanets",
-      "Focus on superionic ice physics rather than standard diamond rain or dark planets",
-      "Keep pacing under 16 seconds for maximum loop retention"
+      "Must focus on the Boomerang Nebula, not previously covered planets or stars.",
+      "Avoid repeating 'diamond', 'rain', or 'silent space' themes."
     ]
   },
-  "experiment": "Test a 15-second hyper-paced 'What If' hook starting directly with a tactile sensory question ('What does it feel like to drown in burning ice?') versus our standard visual statement hook to compare 5-second retention drop-off rates.",
+  "experiment": "Test a 20-second 'What If' space scenario featuring an entirely unexplored cosmic phenomenon against our standard exoplanet spotlight to check if hypothetical immersion outperforms descriptive facts.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-02T12:45:05.225643+00:00"
+  "generated_at": "2026-10-02T13:40:19.707927+00:00"
 }
