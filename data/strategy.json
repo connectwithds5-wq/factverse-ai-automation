@@ -1,21 +1,47 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Deduplication reveals 47 unique Shorts. Performance is heavily polarized: first-person hypothetical space survival hooks ('What If You Fell Into...') and counterintuitive planetary paradoxes ('Venus Has a Day Longer Than Its Year') generate the highest velocity, consistently surpassing 800-1,000 views with strong engagement (up to 38 likes). In contrast, generic psychology facts ('Your Brain Can Create Fake Memories') and repeated uploads of identical concepts ('Why Space Is Completely Silent') consistently stall under 100 views with near-zero engagement.",
+  "winning_patterns": [
+    {
+      "pattern": "First-Person Extreme Cosmic Survival ('What If You Fell Into...')",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,024 views, 38 likes) and 'What If You Fell Into the Darkest Planet?' (825 views, 15 likes) dramatically outperform third-person planet fact videos.",
+      "action": "Frame extreme astronomical and space phenomena through immediate, sensory first-person POV survival scenarios rather than passive encyclopedic trivia."
+    },
+    {
+      "pattern": "Mind-Bending Planetary Scale / Time Paradoxes",
+      "evidence": "'Venus Has a Day Longer Than Its Year' exploded to 970 views and 21 likes within ~30 hours of publishing, leading recent 7-day velocity.",
+      "action": "Open with high-contrast, seemingly impossible physical realities that shatter common-sense physics within the first 2 seconds."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Recycled Psychological Trivia & Earworm Facts",
+      "evidence": "Multiple variations of 'Your Brain Can Create Fake Memories' and song-stuck-in-head videos averaged under 40 views with 0 comments and negligible likes.",
+      "action": "Retire generic brain/psychology trivia unless connected to an intense cinematic micro-drama or high-stakes mystery."
+    },
+    {
+      "pattern": "Passive Weather Trivia on Exoplanets",
+      "evidence": "Third-person titles like 'The Planet Where It Rains Liquid Metal!' (10 views) and 'The Planet Where It Rains Rock!' (50 views) flopped compared to active POV framing of similar worlds.",
+      "action": "Never lead with 'The Planet Where It Rains X'; convert the hook into experiential peril or a high-stakes comparative paradox."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "what-if scenarios",
+    "hook_style": "Hypothetical First-Person Peril / Sensory Survival",
+    "concept": "What happens second-by-second to the human body if you fall onto a Magnetar (the universe's strongest magnet).",
+    "opening_direction": "Visual: Free-falling from orbit toward a rapidly spinning, glowing ultra-dense neutron star. Audio: Heartbeat thumping, sudden radio distortion, voiceover: 'If you fell toward a magnetar, you wouldn't even survive long enough to touch its surface.'",
+    "twist_direction": "Reveal that before impact or gravity can crush you, the magnetic field (one quadrillion gauss) violently stretches your body's atoms into thin needles, dissolving your molecular bonds instantly.",
+    "duration_seconds": 21,
+    "posting_window": "12:00 PM - 02:00 PM UTC",
+    "reason": "Combines the proven viral hook structure of 'What If You Fell Into...' with a brand-new celestial body (Magnetar) not yet featured in FACTVERSE's catalog.",
+    "fresh_topic_constraints": [
+      "Do not cover TrES-2b, 55 Cancri e, Gliese 436 b, WASP-76b, or Venus",
+      "Do not repeat the phrase 'rains diamonds' or 'rains glass'",
+      "Ensure all magnetic physics and atomic deformation mechanics are scientifically accurate"
+    ]
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-10-02T17:39:35.180598+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-10-02T17:39:35.180620+00:00"
+  "experiment": "Test whether framing an extreme cosmic what-if around an exotic compact object (Magnetar atomic spaghettification) sustains the 1,000+ view velocity benchmark established by exoplanet immersion videos while boosting like-to-view ratio above 4%.",
+  "model_used": "gemini-3.8-flash",
+  "generated_at": "2026-10-02T18:43:05.516474+00:00"
 }
