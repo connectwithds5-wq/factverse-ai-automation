@@ -1,41 +1,41 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of FACTVERSE's recent YouTube Shorts performance shows that extreme space and planetary curiosity concepts—particularly 'What If' scenarios featuring bizarre environments, extreme physical properties, and astronomical anomalies—outperform standard factoids by a wide margin in views-per-day and engagement. Videos discussing strange planets, planetary survival scenarios, and counterintuitive cosmic facts (e.g., Venus's day/year ratio, dark planets, and liquid diamond worlds) dominate the top tier of recent traction.",
+  "overall_summary": "Recent 7-day performance heavily favors high-concept astronomical mysteries and counterintuitive planetary 'What If' scenarios (e.g., Venus day lengths, liquid diamond planets, and extreme planetary environments). These topics consistently generate the highest view velocity and engagement (likes/comments per view), outperforming general psychology and standard animal facts in this cohort.",
   "winning_patterns": [
     {
-      "pattern": "Hypothetical Environmental Survival ('What If You Fell Into...')",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views), 'What If You Fell Into the Planet of Burning Ice?' (972 views), and 'What If You Fell Into This $26 Nonillion Diamond Planet?' (494 views) generate rapid engagement and high view velocity.",
-      "action": "Double down on high-stakes, visually striking 'What If' planetary immersion scenarios that test extreme physical laws."
+      "pattern": "Extreme Planetary / Space 'What If' Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views), 'Venus Has a Day Longer Than Its Year' (970 views), and 'What If You Fell Into the Planet of Burning Ice?' (972 views) lead the channel in views and viewer engagement.",
+      "action": "Double down on surreal space scenarios and exotic planetary phenomena using vivid, high-stakes curiosity hooks."
     },
     {
-      "pattern": "Mind-Bending Planetary & Cosmic Anomalies",
-      "evidence": "Titles like 'Venus Has a Day Longer Than Its Year 🤯' (963 views) and 'The Planet Darker Than Coal: TrES-2b 🌌' (1,026 views) prove that bizarre, counterintuitive cosmic facts drive strong curiosity loops and steady view accumulation.",
-      "action": "Focus hooks on planetary extremes (strangest orbits, color anomalies, or impossible meteorological conditions like supersonic ruby rain)."
+      "pattern": "Mind-Bending Comparative Scale Hooks",
+      "evidence": "Videos exploring extreme cosmic scales or paradoxical planetary states (e.g., TrES-2b at 1,026 views) outperform standard descriptive facts.",
+      "action": "Frame future space hooks around impossible physics or extreme sensory comparisons ('The planet where...' or 'What happens if...')."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Psychological/Brain Trick Shorts",
-      "evidence": "Shorts focusing on internal brain quirks and memory tricks (e.g., 'Your Brain Can Create Fake Memories' with 5–53 views, or song-stuck psychological tricks with 17–71 views) show significantly lower velocity and engagement compared to space content.",
-      "action": "Deprioritize psychological trivia and human-centric micro-facts unless paired with a high-concept sci-fi or mystery narrative."
+      "pattern": "Low-Velocity Psychological Tricks and Standard Animal Facts",
+      "evidence": "Topics like 'Your Brain Can Create Fake Memories' (5-53 views) and standard animal trivia ('Octopuses Have Three Hearts' older posts) show minimal momentum compared to space content.",
+      "action": "Deprioritize standard psychological tricks and re-allocate production bandwidth toward high-performing space and cosmic anomaly formats."
     }
   ],
   "next_video": {
-    "category": "Space",
-    "hook_style": "Hypothetical Danger / Extreme Physics",
-    "concept": "What If You Fell Into a Star Made Entirely of Neon?",
-    "opening_direction": "Start directly with the violent atmospheric entry and blinding neon-red glow of a theoretical neon star, establishing immediate high-stakes peril.",
-    "twist_direction": "Reveal how the immense pressure instantly compresses the gas into a liquid state while your body experiences paradoxical freezing and nuclear-level radiation.",
+    "category": "Space & Science",
+    "hook_style": "High-stakes 'What If' existential scenario",
+    "concept": "What If You Fell Into the Coldest Known Planet (OGLE-TR-56b or WD 0810-353 analog)? Exploring extreme freezing temperatures and crushing atmospheric pressure.",
+    "opening_direction": "Start immediately with the immersive sensation of free-falling through an alien, pitch-black atmosphere where temperatures defy normal physics.",
+    "twist_direction": "Reveal that before you even hit a solid surface, the ambient cold turns your spacesuit brittle enough to shatter instantly.",
     "duration_seconds": 21,
-    "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Leverages the proven high-performing 'What If You Fell Into...' format applied to a fresh, unexplored celestial phenomenon.",
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Capitalizes on the proven high-performing 'What If / Extreme Planet' framework demonstrated by top-tier hits like the liquid diamond and burning ice planet shorts.",
     "fresh_topic_constraints": [
-      "Must not feature diamond, ice, or dark planets.",
-      "Must use a newly introduced element/astronomical body not present in the historical dataset."
+      "Must not use liquid diamonds, burning ice, glass rain, or diamond rain.",
+      "Must feature a completely new celestial body not present in the historical upload log."
     ]
   },
-  "experiment": "Test whether framing a stellar physics fact as an immersive physical survival scenario ('What If You Fell Into...') yields a 25%+ higher view-velocity in the first 48 hours compared to declarative statement hooks ('This Star Is...').",
+  "experiment": "Test a 21-second runtime format focusing strictly on a newly discovered rogue exoplanet wandering through deep interstellar space without a parent star.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-02T03:40:52.928496+00:00"
+  "generated_at": "2026-10-02T04:39:57.816828+00:00"
 }
