@@ -1,47 +1,42 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Deduplication reveals 47 unique Shorts. Performance is heavily polarized: first-person hypothetical space survival hooks ('What If You Fell Into...') and counterintuitive planetary paradoxes ('Venus Has a Day Longer Than Its Year') generate the highest velocity, consistently surpassing 800-1,000 views with strong engagement (up to 38 likes). In contrast, generic psychology facts ('Your Brain Can Create Fake Memories') and repeated uploads of identical concepts ('Why Space Is Completely Silent') consistently stall under 100 views with near-zero engagement.",
+  "overall_summary": "Recent 7-day performance heavily favors space, astronomy, and 'what-if' hypothetical scenarios involving extreme planetary conditions or astronomical objects. Videos like 'Venus Has a Day Longer Than Its Year' (970 views, 21 likes), 'What If You Fell Into a Liquid Diamond Planet?' (1024 views, 38 likes), and 'The Planet Darker Than Coal: TrES-2b' (1026 views, 36 likes) outperform general psychology or standard animal facts by generating significantly higher views-per-day and engagement ratios (likes-per-view).",
   "winning_patterns": [
     {
-      "pattern": "First-Person Extreme Cosmic Survival ('What If You Fell Into...')",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,024 views, 38 likes) and 'What If You Fell Into the Darkest Planet?' (825 views, 15 likes) dramatically outperform third-person planet fact videos.",
-      "action": "Frame extreme astronomical and space phenomena through immediate, sensory first-person POV survival scenarios rather than passive encyclopedic trivia."
+      "pattern": "Extreme Space & Planetary What-If Scenarios",
+      "evidence": "Videos focusing on bizarre planetary mechanics or 'what if you fell into' scenarios (e.g., IYuce8vaU3Y with 1024 views, 38 likes; A9Qa-RmuOr0 with 970 views) significantly outperform standard historical or psychological facts.",
+      "action": "Double down on high-concept astronomy and extreme planetary physics, framing them as visceral hypothetical scenarios."
     },
     {
-      "pattern": "Mind-Bending Planetary Scale / Time Paradoxes",
-      "evidence": "'Venus Has a Day Longer Than Its Year' exploded to 970 views and 21 likes within ~30 hours of publishing, leading recent 7-day velocity.",
-      "action": "Open with high-contrast, seemingly impossible physical realities that shatter common-sense physics within the first 2 seconds."
+      "pattern": "Bizarre Absolute Superlatives & Paradoxes",
+      "evidence": "Titles featuring extreme contrasts or mind-bending anomalies (e.g., v1rrcZLdp4U 'The Planet Darker Than Coal' with 1026 views) drive strong curiosity and higher engagement rates.",
+      "action": "Incorporate rare, highly counter-intuitive astronomical or physical properties into hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Recycled Psychological Trivia & Earworm Facts",
-      "evidence": "Multiple variations of 'Your Brain Can Create Fake Memories' and song-stuck-in-head videos averaged under 40 views with 0 comments and negligible likes.",
-      "action": "Retire generic brain/psychology trivia unless connected to an intense cinematic micro-drama or high-stakes mystery."
-    },
-    {
-      "pattern": "Passive Weather Trivia on Exoplanets",
-      "evidence": "Third-person titles like 'The Planet Where It Rains Liquid Metal!' (10 views) and 'The Planet Where It Rains Rock!' (50 views) flopped compared to active POV framing of similar worlds.",
-      "action": "Never lead with 'The Planet Where It Rains X'; convert the hook into experiential peril or a high-stakes comparative paradox."
+      "pattern": "Standard Psychological Tricks & Common Animal Facts",
+      "evidence": "Older psychology and animal shorts like 'Your Brain Can Create Fake Memories' (5-53 views) and standard animal trivia ('Octopuses Have THREE Hearts') show stagnant or minimal growth outside of specific outliers.",
+      "action": "Deprioritize standard psychological tips and generic animal facts unless paired with a high-stakes cinematic survival or extreme evolutionary paradox angle."
     }
   ],
   "next_video": {
-    "category": "what-if scenarios",
-    "hook_style": "Hypothetical First-Person Peril / Sensory Survival",
-    "concept": "What happens second-by-second to the human body if you fall onto a Magnetar (the universe's strongest magnet).",
-    "opening_direction": "Visual: Free-falling from orbit toward a rapidly spinning, glowing ultra-dense neutron star. Audio: Heartbeat thumping, sudden radio distortion, voiceover: 'If you fell toward a magnetar, you wouldn't even survive long enough to touch its surface.'",
-    "twist_direction": "Reveal that before impact or gravity can crush you, the magnetic field (one quadrillion gauss) violently stretches your body's atoms into thin needles, dissolving your molecular bonds instantly.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 02:00 PM UTC",
-    "reason": "Combines the proven viral hook structure of 'What If You Fell Into...' with a brand-new celestial body (Magnetar) not yet featured in FACTVERSE's catalog.",
+    "category": "space",
+    "hook_style": "What-If Extreme Scenario",
+    "concept": "What If You Fell Into the Coldest Place in the Universe (The Boomerang Nebula)?",
+    "opening_direction": "Start immediately with the terrifying sensation of dropping into a cosmic void colder than absolute zero.",
+    "twist_direction": "Reveal that the gas expanding here is moving so fast it's chilling space itself to -272°C, colder than the background radiation of the universe.",
+    "duration_seconds": 15,
+    "posting_window": "12:00 PM - 3:00 PM EST",
+    "reason": "Capitalizes on the proven high performance of 'What If' planetary/space formats while introducing a completely fresh astronomical phenomenon (Boomerang Nebula) not present in the published history.",
     "fresh_topic_constraints": [
-      "Do not cover TrES-2b, 55 Cancri e, Gliese 436 b, WASP-76b, or Venus",
-      "Do not repeat the phrase 'rains diamonds' or 'rains glass'",
-      "Ensure all magnetic physics and atomic deformation mechanics are scientifically accurate"
+      "Must not reuse diamond planets, TrES-2b, Venus, black holes, or silent space concepts.",
+      "Must use a unique celestial body or phenomenon.",
+      "Keep pacing under 16 seconds for optimal loop retention."
     ]
   },
-  "experiment": "Test whether framing an extreme cosmic what-if around an exotic compact object (Magnetar atomic spaghettification) sustains the 1,000+ view velocity benchmark established by exoplanet immersion videos while boosting like-to-view ratio above 4%.",
-  "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-10-02T18:43:05.516474+00:00"
+  "experiment": "Test a 15-second 'What If' space scenario focusing on an extreme thermodynamic anomaly (coldest place in the universe) to see if it matches the engagement velocity of liquid diamond and dark planet videos.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-10-02T19:39:21.846229+00:00"
 }
