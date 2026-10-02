@@ -1,47 +1,41 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of deduplicated YouTube Shorts data reveals a strong viewer preference for extreme space scenarios, cosmic oddities, and hypothetical 'What If' planetary explorations. Videos featuring bizarre planetary conditions (e.g., liquid diamond, extreme darkness, unusual rain types) published within the last 7 days exhibit the highest views-per-day and engagement metrics (likes-per-view), outperforming general human psychology or standard animal facts.",
+  "overall_summary": "Analysis of FACTVERSE performance data clearly indicates that space exploration and planetary 'what-if' anomaly scenarios (published within the last 7 days) are dominating traction, achieving the highest views-per-day and robust like-to-view ratios (e.g., Venus, liquid diamond planets, and extreme cosmic environments). Older historical, general psychology, and animal facts published beyond 7 days show significantly lower velocity. Engagement concentrates heavily on exotic, visually striking astrophysics concepts presented via direct curiosity gaps.",
   "winning_patterns": [
     {
-      "pattern": "Hypothetical Planetary Free-Fall / 'What If' Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) achieved over 900-1,000 views rapidly with strong like ratios.",
-      "action": "Double down on cinematic, high-stakes hypothetical space scenarios involving extreme environments."
+      "pattern": "Planetary What-If & Extreme Physics Anomalies",
+      "evidence": "'Venus Has a Day Longer Than Its Year' (968 views), 'What If You Fell Into a Liquid Diamond Planet?' (1024 views), and 'What If You Fell Into the Planet of Burning Ice?' (972 views) generated the highest absolute views and engagement rates within the recent 7-day window.",
+      "action": "Double down on high-concept astrophysical 'what-if' scenarios involving extreme physical environments, unusual planetary mechanics, and rare cosmic materials."
     },
     {
-      "pattern": "Bizarre Cosmic Weather and Extreme Planetary Physics",
-      "evidence": "Titles detailing strange occurrences ('Venus Has a Day Longer Than Its Year', 'This Planet Rains Supersonic Rubies!') captured robust engagement within days of release.",
-      "action": "Focus future space scripts on counterintuitive physical laws or extreme weather on newly discovered or exotic planets."
+      "pattern": "Dark / Hidden Universe Phenomena",
+      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1026 views) and 'What If You Fell Into the Darkest Planet?' (825 views) performed exceptionally well among recent uploads.",
+      "action": "Produce more shorts focused on light-devouring anomalies, mysterious deep-space entities, and lesser-known extreme exoplanets."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Low-Engagement Psychological Tricks & Common Animal Facts",
-      "evidence": "Older or less optimized hooks like 'Your Brain Can Create Fake Memories' or basic animal trivia yielded under 100 views with zero engagement.",
-      "action": "Move away from standard psychology tips unless paired with a highly counterintuitive, shocking visual hook."
-    },
-    {
-      "pattern": "Stale General Space Facts Without High Stakes",
-      "evidence": "Simple declarative statements like 'Why Space Is Completely Silent' plateaued quickly compared to immersive second-person hypothetical formats.",
-      "action": "Avoid flat declarative facts; frame every topic around an active scenario or existential question for the viewer."
+      "pattern": "Older General Psychology & Standard Animal Facts",
+      "evidence": "Videos older than 7 days dealing with standard psychological tricks or basic animal trivia (e.g., 'Your Brain Can Create Fake Memories', 'Octopuses Have Three Hearts') plateaued quickly with minimal daily velocity and zero comments.",
+      "action": "Avoid standard evergreen fact loops unless framed through an aggressive, high-stakes narrative or newly uncovered scientific anomaly."
     }
   ],
   "next_video": {
-    "category": "Space & Astronomy What-If Scenarios",
-    "hook_style": "Hypothetical Second-Person Immersion",
-    "concept": "What Happens If You Step Foot on a Rogue Planet Floating Through Deep Space?",
-    "opening_direction": "Start immediately with the terrifying pitch-black reality of a world with no star, zero sunlight, and a surface frozen to absolute zero.",
-    "twist_direction": "Reveal that despite having no sun, internal geothermal heat creates massive underground oceans of liquid nitrogen or boiling ammonia where bizarre life could theoretically lurk.",
+    "category": "Space",
+    "hook_style": "What-If Extreme Survival",
+    "concept": "What happens if you fall into a star made entirely of diamonds (Lucy / BPM 37093)?",
+    "opening_direction": "Start with an immediate high-stakes visual of a falling astronaut approaching a blindingly glittering cosmic crystal core.",
+    "twist_direction": "Reveal that the entire stellar remnant is actually a dead star weighing five million trillion trillion carats, trapping you in solid carbon pressure forever.",
     "duration_seconds": 15,
-    "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Capitalizes on the proven high-performing 'What If' planetary exploration format which yields top-tier views-per-day and robust like-to-view ratios.",
+    "posting_window": "12:00 PM - 3:00 PM UTC",
+    "reason": "Capitalizes directly on the proven high performance of diamond planet and extreme stellar anomaly shorts while introducing a completely fresh astronomical object.",
     "fresh_topic_constraints": [
-      "Must not feature diamond planets, liquid metal rain, gas giants, Venus, or Saturn's rings.",
-      "Must explore rogue planets or interstellar wanderers specifically.",
-      "Keep pacing extremely tight under 20 seconds with rapid visual changes."
+      "Do not use diamond rain, Venus, TrES-2b, or standard black holes.",
+      "Focus exclusively on white dwarf carbon crystallization mechanics."
     ]
   },
-  "experiment": "A/B test a pure cinematic visual hook focusing on sensory deprivation (total silence and eternal night on a rogue planet) versus a high-contrast text overlay hook ('The Planet That Was Ejected From Its Solar System').",
+  "experiment": "Test whether framing a stellar physics fact entirely around a first-person hypothetical survival scenario ('What If You Fell Into...') outperforms a declarative headline ('This Star Is...') for high-retention space content.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-02T21:38:53.106584+00:00"
+  "generated_at": "2026-10-02T22:38:09.075726+00:00"
 }
