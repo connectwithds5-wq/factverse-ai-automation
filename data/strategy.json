@@ -1,46 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Analysis of deduplicated YouTube Shorts data reveals that extreme cosmic anomalies and 'What If' hypothetical scenarios involving planets and space (e.g., liquid diamond planets, dark planets, extreme rain phenomena) drive the highest velocity, views-per-day, and engagement (likes-per-view). Content published within the last 7 days heavily outperforms older archive pieces, indicating strong algorithm favorability for high-concept space curiosities with visual thought-experiment hooks.",
-  "winning_patterns": [
-    {
-      "pattern": "What If / Hypothetical Planet Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) garnered over 1,000 and 970 views rapidly with strong like ratios (up to 38 likes).",
-      "action": "Double down on hypothetical planetary physics and extreme survival thought experiments in space."
-    },
-    {
-      "pattern": "Extreme Cosmic Extremes & Rare Weather",
-      "evidence": "Titles featuring impossible planetary conditions like 'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0) and 'The Planet Darker Than Coal: TrES-2b' (v1rrcZLdp4U) consistently hit near or above 1,000 views within short timeframes.",
-      "action": "Produce more short-form spotlights on bizarre exoplanets with extreme physical properties."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Low-Engagement Psychological Tricks",
-      "evidence": "Videos focusing on psychological or brain hacks like 'Your Brain Can Create Fake Memories' (2fqaGqfsR4A) and 'The Psychological Trick to Stop Songs Stuck in Your Head' (ef3ND4qiRHc) yielded very low views and minimal likes compared to cosmic content.",
-      "action": "Deprioritize psychological trivia shorts unless paired with a high-stakes visual mystery hook."
-    },
-    {
-      "pattern": "Standard Biological Facts Without a Twist",
-      "evidence": "Simple animal facts like 'Octopuses Have THREE Hearts' (AXAfwrzzEdU) plateaued at lower view counts and zero comments, lacking the curiosity gap of space or mystery content.",
-      "action": "Avoid straightforward biological listicles; pivot animal content strictly toward cinematic survival or bizarre evolutionary anomalies."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space & Astronomy",
-    "hook_style": "What If / Extreme Physics Curiosity Gap",
-    "concept": "What happens if you fall into the coldest known place in the universe—the Boomerang Nebula?",
-    "opening_direction": "Start inside a total vacuum where absolute zero instantly freezes matter faster than liquid nitrogen.",
-    "twist_direction": "Reveal that this cosmic freezer is actually colder than the background radiation of the universe itself, absorbing heat from empty space.",
-    "duration_seconds": 18,
-    "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Capitalizes on the proven high performance of 'What If' space scenarios and extreme temperature/environment hooks like the star colder than ice and burning ice planets.",
-    "fresh_topic_constraints": [
-      "Must focus on the Boomerang Nebula, not previously covered planets or stars.",
-      "Avoid repeating 'diamond', 'rain', or 'silent space' themes."
-    ]
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 20-second 'What If' space scenario featuring an entirely unexplored cosmic phenomenon against our standard exoplanet spotlight to check if hypothetical immersion outperforms descriptive facts.",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-02T13:40:19.707927+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-10-02T14:42:53.664144+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-10-02T14:42:53.664161+00:00"
 }
