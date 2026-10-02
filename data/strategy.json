@@ -1,42 +1,46 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of the deduplicated performance dataset shows that space-based 'What If' scenarios and extreme planetary anomalies (such as diamond planets, burning ice, and extreme orbital mechanics) dominate both view counts and engagement metrics (likes/comments-per-view). Content published within the last 7 days, particularly hyper-curiosity space hypotheticals, significantly outperforms older static biological or historical facts.",
+  "overall_summary": "Analysis of deduplicated YouTube Shorts performance over the past 30 days reveals that space exploration, extreme planetary conditions, and high-stakes 'What If' scenarios dominate engagement velocity. Specifically, recent 7-day content featuring bizarre planetary traits (e.g., Venus's day/year ratio, liquid diamond planets, and extreme precipitation types) achieves significantly higher views-per-day and like-to-view ratios compared to general animal facts or psychological tricks. The audience heavily favors visually striking, counter-intuitive cosmic concepts with rapid-fire pacing under 21 seconds.",
   "winning_patterns": [
     {
-      "pattern": "Hypothetical Space Immersion ('What If You Fell Into...')",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' and 'What If You Fell Into the Planet of Burning Ice?' generated over 1,000 and 972 views respectively with high like counts (38 and 18) within a short timeframe.",
-      "action": "Scale up production of speculative space scenarios involving extreme physical environments."
+      "pattern": "Extreme Planetary 'What If' / Bizarre Conditions",
+      "evidence": "Videos like 'Venus Has a Day Longer Than Its Year' (970 views in <2 days) and 'What If You Fell Into a Liquid Diamond Planet?' (1024 views) show massive breakout velocity and strong like-to-view conversion.",
+      "action": "Double down on extreme space scenarios and weird physics of celestial bodies, focusing on impossible-sounding planetary environments."
     },
     {
-      "pattern": "Extreme Planetary Anomalies & Weather",
-      "evidence": "Titles detailing impossible-sounding planetary features like 'Venus Has a Day Longer Than Its Year' (970 views) and 'The Planet Darker Than Coal' (1026 views) drive strong organic reach and viewer retention.",
-      "action": "Focus future scripts on bizarre planetary physics and extreme cosmic weather phenomena."
+      "pattern": "Counter-Intuitive Temporal/Cosmic Scale",
+      "evidence": "Titles challenging conventional timelines or physical perceptions (e.g., TrES-2b dark planet with 1026 views) outperform standard informational summaries.",
+      "action": "Use high-contrast conceptual hooks that pit familiar objects against cosmic extremes."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Static Biological Trivia without Stakes",
-      "evidence": "Slower-performing evergreen facts like 'Your Brain Can Create Fake Memories' or basic animal stats struggle to break double or low triple digits in views.",
-      "action": "Shift animal and psychology facts toward high-stakes cinematic survival or mind-bending paradoxes rather than standard listicle facts."
+      "pattern": "Low-Stakes Psychological Tips",
+      "evidence": "Videos focusing on internal human psychology or memory tricks (e.g., 'Your Brain Can Create Fake Memories', songs stuck in head) consistently flatline below 60 views over extended periods.",
+      "action": "Deprioritize standard psychological hacks and brain teasers unless they tie directly into high-concept neuroscience or mystery."
+    },
+    {
+      "pattern": "Static Animal Fact Lists",
+      "evidence": "Basic biological facts without a narrative or existential threat (e.g., standard octopus or jellyfish facts) yield low engagement velocity compared to dynamic space content.",
+      "action": "Pivot animal content entirely toward cinematic survival or extreme evolutionary adaptations rather than simple trivia."
     }
   ],
   "next_video": {
-    "category": "Space",
-    "hook_style": "What If",
-    "concept": "What If You Fell Into a Rogue Planet Wandering Between Galaxies?",
-    "opening_direction": "Start in absolute pitch blackness with zero starlight, simulating the terrifying silence of a rogue planet drifting through interstellar deep space.",
-    "twist_direction": "Reveal that despite being millions of miles from the nearest sun, its core is boiling hot from radioactive decay, creating subterranean oceans of liquid nitrogen.",
-    "duration_seconds": 15,
+    "category": "Space & Science",
+    "hook_style": "Existential Cosmic Threat / What-If",
+    "concept": "What happens if Earth passes through a rogue magnetic filament?",
+    "opening_direction": "Start mid-sentence with an immediate visual of auroras completely engulfing the night sky in broad daylight.",
+    "twist_direction": "Reveal that every compass on Earth would instantly spin backward and fry every electrical grid within minutes before humanity even realized why.",
+    "duration_seconds": 18,
     "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Capitalizes on the proven high-performing 'What If' space format while introducing a fresh, unexplored cosmic entity (rogue planets).",
+    "reason": "Leverages the proven high-performing 'What If' space format while introducing a fresh, urgent Earth-bound physics threat that drives high retention and comment speculation.",
     "fresh_topic_constraints": [
-      "Do not mention diamond planets",
-      "Do not mention Saturn or Jupiter",
-      "Do not use existing titles"
+      "Must not use diamonds, rain, sharks, or time dilation",
+      "Must focus on a completely unmentioned celestial/geophysical phenomenon"
     ]
   },
-  "experiment": "Test a 15-second pacing structure for space 'What If' scenarios to determine if accelerated hook delivery increases the initial 3-second retention rate compared to 21-second variants.",
+  "experiment": "A/B test a pure cosmic physics mystery ('What If') against a cinematic animal survival scenario using identical thumbnail framing and rapid-fire audio pacing to determine secondary niche viability.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-02T10:39:13.221790+00:00"
+  "generated_at": "2026-10-02T11:39:53.547277+00:00"
 }
