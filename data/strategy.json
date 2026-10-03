@@ -1,47 +1,46 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of deduplicated recent uploads reveals that space and extreme planetary scenarios dominate traction. Specifically, 'What If' hypothetical space scenarios and exotic exoplanet conditions (e.g., liquid diamond, burning ice, dark planets) generate the highest views-per-day and engagement metrics (likes-per-view). Content focused on bizarre cosmic environments and planetary physics outperforms abstract psychological facts or standard animal trivia.",
+  "overall_summary": "Analysis of the deduplicated performance data reveals that extreme cosmic scenarios, extreme planetary environments, and hypothetical 'What If' space questions drive the highest velocity of views and engagement (likes-per-view) over the recent 7-day window. Videos such as 'Venus Has a Day Longer Than Its Year', 'What If You Fell Into a Liquid Diamond Planet?', and 'The Planet Darker Than Coal: TrES-2b' outperform standard static facts by combining counterintuitive science with high-stakes hypothetical survival hooks.",
   "winning_patterns": [
     {
-      "pattern": "Hypothetical Planetary 'What If' Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) achieved high views (1000+) and strong like ratios relative to older static facts.",
-      "action": "Double down on cinematic hypothetical space survival concepts combining extreme physics with immersive second-person framing."
+      "pattern": "Extreme Planetary & Cosmic 'What If' Scenarios",
+      "evidence": "Videos focusing on surreal planetary conditions or survival questions (e.g., IYuce8vaU3Y with 1024 views/38 likes, A9Qa-RmuOr0 with 968 views/21 likes) generated significantly higher engagement velocity than general historical or psychological facts.",
+      "action": "Double down on high-concept space and planetary physics 'What If' scenarios that feature extreme, visually compelling physical conditions."
     },
     {
-      "pattern": "Exotic Exoplanet Anomalies",
-      "evidence": "Titles detailing bizarre planetary extremes such as Venus having a longer day than year (A9Qa-RmuOr0) or the coal-dark planet TrES-2b (v1rrcZLdp4U) rapidly accumulated over 900-1000 views with strong audience retention signals.",
-      "action": "Produce more short-form deep dives into newly discovered or scientifically extreme exoplanets emphasizing bizarre weather or lighting conditions."
+      "pattern": "Visually Counterintuitive Cosmic Hooks",
+      "evidence": "Titles featuring bizarre material interactions on distant celestial bodies—such as liquid diamond, extreme darkness (TrES-2b), or unusual planetary timing—prompt strong curiosity loops.",
+      "action": "Structure hook openings around paradoxes or impossible-sounding physical states in outer space."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Static Psychological Micro-Tips",
-      "evidence": "Topics like 'The Psychological Trick to Stop Songs Stuck in Your Head' (ef3ND4qiRHc) or fake memory shorts stagnated below 80 views with minimal engagement.",
-      "action": "De-prioritize generic psychology hacks unless framed through a high-stakes neurological mystery or historical anomaly."
+      "pattern": "Repetitive or Lower-Stakes Psychological Facts",
+      "evidence": "Shorts covering minor psychological tricks or common biological notes (e.g., 2fqaGqfsR4A, Jc04LVKNd2s) stagnated heavily with single-digit or low double-digit views.",
+      "action": "Deprioritize minor psychological trivia unless paired with a high-stakes, cinematic micro-story or intense mystery."
     },
     {
-      "pattern": "Low-Stakes Animal Trivia",
-      "evidence": "Simple animal fact statements (e.g., 'Octopuses Have Three Hearts' when repeated or lacking a high-concept narrative twist) showed tapering velocity outside of initial bursts.",
-      "action": "Shift animal content away from basic trivia toward cinematic animal survival micro-stories or extreme evolutionary anomalies."
+      "pattern": "Static Declarative Space Facts Without Stakes",
+      "evidence": "Simple declarative statements about space without a compelling narrative or experiential hook (e.g., vFXHTmYITp4) failed to capture audience attention.",
+      "action": "Avoid passive phrasing; frame every space fact as an active, urgent mystery or experiential question."
     }
   ],
   "next_video": {
-    "category": "Space & Astronomy",
-    "hook_style": "Hypothetical Second-Person Danger",
-    "concept": "What happens if you fall into a rogue planet hurtling through interstellar space with no star?",
-    "opening_direction": "Start in pitch-black silence as an astronaut plunges into a world wandering the void without a sun, lit only by eerie auroras.",
-    "twist_direction": "Reveal that despite having no star, the core is powered by radioactive decay boiling oceans of liquid nitrogen.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 2:00 PM EST",
-    "reason": "Leverages the proven high-performing 'What If' planetary survival format combined with the heavy traction of extreme space anomalies.",
+    "category": "Space",
+    "hook_style": "Hypothetical Survival What-If",
+    "concept": "Stepping onto the strangest rogue planet in the galaxy that wanders through the void with no star, heated entirely by its own crushing atmospheric pressure.",
+    "opening_direction": "Start with total pitch blackness and the sound of crushing atmospheric pressure, asking the viewer what happens when a world exists with no sun.",
+    "twist_direction": "Reveal that the planet's core stays molten not from sunlight, but from friction so intense it turns the entire lower atmosphere into glowing, super-heated plasma.",
+    "duration_seconds": 20,
+    "posting_window": "12:00 PM - 3:00 PM EST",
+    "reason": "Leverages the proven high performance of extreme planetary environment and hypothetical 'What If' frameworks while introducing an entirely novel astronomical phenomenon (rogue planets with internal plasma atmospheres).",
     "fresh_topic_constraints": [
-      "Must not feature diamond planets, burning ice planets, or Saturn/J1407b",
-      "Focus exclusively on rogue interstellar planets",
-      "Keep pacing under 21 seconds with high visual density"
+      "Must not feature diamonds, rain of any material, sharks, octopus, or time dilation (head vs feet).",
+      "Must be a completely new astronomical subject not covered in the history."
     ]
   },
-  "experiment": "Test a 21-second 'What If' space survival scenario with an immersive audio cue in the first 2 seconds against our standard 19-second exoplanet fact format to measure impact on average percentage viewed.",
+  "experiment": "Test a 20-second rogue planet survival scenario against our standard 15-second planetary fact format to measure whether higher narrative immersion improves average view duration and comments-per-view.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-03T06:54:03.250646+00:00"
+  "generated_at": "2026-10-03T07:40:33.384785+00:00"
 }
