@@ -1,47 +1,42 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of recent performance indicates that space and astronomy content—specifically extreme planetary 'What If' scenarios and bizarre planetary conditions—drive the highest views-per-day and engagement (likes-per-view). Videos focusing on planetary survival or mind-bending cosmic environments (e.g., Venus day/year paradox, liquid diamond planets, and extreme weather planets) significantly outperform general biology or generic psychology facts. Recent 7-day uploads are capturing strong traction, particularly formats framing extreme hypothetical questions.",
+  "overall_summary": "Analysis of FACTVERSE performance reveals that space-related 'What If' scenarios and extreme planetary anomalies (particularly those involving extreme environments, liquid diamonds, and unusual time/physics concepts) achieve the highest views-per-day and engagement metrics (likes-per-view) among recent 7-day uploads. Standard quick facts and animal trivia show lower immediate velocity compared to immersive hypothetical space scenarios.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Planetary 'What If' Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views) and 'What If You Fell Into the Planet of Burning Ice?' (972 views) show high view counts and strong like-to-view ratios compared to older static facts.",
-      "action": "Double down on hypothetical space disaster/immersion scenarios involving extreme planetary physics."
+      "pattern": "What If / Extreme Space Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views) and 'What If You Fell Into the Planet of Burning Ice?' (972 views) outperform standard space facts within the first week.",
+      "action": "Double down on 'What If' planetary immersion concepts with extreme physical stakes."
     },
     {
-      "pattern": "Bizarre Cosmic Phenomenon with Counter-Intuitive Metrics",
-      "evidence": "'Venus Has a Day Longer Than Its Year' (968 views) and 'The Planet Darker Than Coal: TrES-2b' (1,026 views) demonstrate massive engagement for short 19-21s durations.",
-      "action": "Maintain short, punchy 19-21 second runtimes focusing on mind-bending space oddities with startling comparative statistics."
+      "pattern": "Bizarre Planetary Physics & Extreme Weather",
+      "evidence": "Titles featuring extreme planetary conditions such as 'Venus Has a Day Longer Than Its Year' (968 views) and 'The Planet Darker Than Coal: TrES-2b' (1,026 views) drive high view counts.",
+      "action": "Produce more deep-space anomalies highlighting bizarre physics defying everyday human intuition."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Psychology & Brain Trick Micro-Facts",
-      "evidence": "Videos like 'Your Brain Can Create Fake Memories' (5 views) and 'Your Brain Is Hiding This From You' (38 views) show very poor traction and low engagement.",
-      "action": "Deprioritize psychological tricks and standard brain-teaser formats unless they feature a highly cinematic or high-stakes narrative element."
-    },
-    {
-      "pattern": "Low-Engagement Animal Facts",
-      "evidence": "Simple animal trivia like 'The Only Animal That Can Live Forever' (69 views) underperform relative to complex space and universe-scale hooks.",
-      "action": "Shift animal content away from static trivia toward high-stakes cinematic survival storytelling."
+      "pattern": "General Psychology / Brain Trivia Shorts",
+      "evidence": "Videos like 'Your Brain Can Create Fake Memories' (5 views) and 'Your Brain Is Hiding This From You' (38 views) show very low velocity and engagement.",
+      "action": "De-prioritize psychological trick shorts unless tied to a high-stakes narrative or mystery micro-story."
     }
   ],
   "next_video": {
-    "category": "space",
-    "hook_style": "What-If Immersion",
-    "concept": "What If You Fell Into the Core of a Rogue Planet Wandering Deep Space?",
-    "opening_direction": "Start in absolute pitch-blackness with a freezing vacuum sound effect, immediately dropping the viewer into a dead world flying through interstellar space without a sun.",
-    "twist_direction": "Reveal that despite having no star, the core is hotter than a blast furnace due to radioactive decay, creating an underground ocean of liquid metal.",
+    "category": "Space",
+    "hook_style": "What If / Sensory Danger",
+    "concept": "What If You Fell Into the Coldest Place in the Universe (The Boomerang Nebula)?",
+    "opening_direction": "Instantly drop the viewer into absolute zero where atoms practically freeze in place.",
+    "twist_direction": "Reveal that the temperature is colder than deep space itself because it is actively swallowing the heat of a dying star.",
     "duration_seconds": 21,
-    "posting_window": "12:00 PM - 2:00 PM EST",
-    "reason": "Capitalizes on the proven high performance of 'What If' space immersion formats and extreme planetary environments while introducing a completely fresh celestial concept.",
+    "posting_window": "12:00 PM - 3:00 PM EST",
+    "reason": "Capitalizes on the proven high performance of 'What If' planetary and extreme environment videos while exploring a fresh astronomical phenomenon.",
     "fresh_topic_constraints": [
-      "Must not feature diamond planets, burning ice, Venus, or TrES-2b",
-      "Focus on rogue interstellar planets",
-      "Keep pacing under 21 seconds with high-density visual cues"
+      "Must not use diamonds, rain, or sharks.",
+      "Must feature the Boomerang Nebula specifically.",
+      "Focus on the physics of absolute zero."
     ]
   },
-  "experiment": "Test a 21-second 'What If' rogue planet scenario against a standard astronomical fact-reveal to confirm if immersion-style framing consistently drives higher view velocity.",
+  "experiment": "Test a 21-second 'What If' space immersion video against a standard 15-second quick fact to verify if higher watch time on longer formats boosts algorithmic reach.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-03T03:44:24.478611+00:00"
+  "generated_at": "2026-10-03T04:39:15.803778+00:00"
 }
