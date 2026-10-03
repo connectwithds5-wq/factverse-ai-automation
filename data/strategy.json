@@ -1,47 +1,41 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of the deduplicated performance data clearly indicates that space and exoplanet anomalies—specifically 'What If' scenarios and extreme planetary weather environments—are driving the highest views-per-day and engagement metrics (likes-per-view). Videos focusing on bizarre cosmic bodies (e.g., IYuce8vaU3Y 'Liquid Diamond Planet', A9Qa-RmuOr0 'Venus Day Longer Than Year', and v1rrcZLdp4U 'Planet Darker Than Coal') outperform standard biology or generic psychology facts by a significant margin. Engagement thrives on high-concept, highly visual hooks that challenge common assumptions.",
+  "overall_summary": "Recent 7-day performance data clearly shows that space anomalies and 'What If' planetary scenarios (specifically involving extreme environments, exotic materials, and hypothetical physics like IYuce8vaU3Y, A9Qa-RmuOr0, and 8KEl0_pJ_68) generate significantly higher velocity, views-per-day, and engagement (likes-per-view) than abstract psychology or standard biology facts. Videos focusing on surreal planetary conditions (e.g., liquid diamond, burning ice, extreme orbital anomalies) command superior traction.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanet 'What If' / Weather Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0) generated over 950-1,000+ views rapidly with strong like ratios.",
-      "action": "Double down on surreal planetary environments, focusing on bizarre physics, extreme weather (e.g., supersonic gems, liquid metal), and immersive second-person 'What If' phrasing."
+      "pattern": "Hypothetical 'What If' Extreme Planetary Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) achieved high views (~1000+) and strong engagement (38 likes) within days.",
+      "action": "Produce more hypothetical planetary survival or immersion scenarios combining extreme physics with visually striking celestial bodies."
     },
     {
-      "pattern": "Mind-Bending Time / Physics Anomalies",
-      "evidence": "'Why Your Head Is Older Than Your Feet' (c_ya3kvpuoI) and 'The Planet of Burning Ice' (vWd0uYcEGh4) maintain strong consistent traffic exceeding 1,000 views.",
-      "action": "Produce more short-form concepts that merge astrophysics with everyday relativistic paradoxes that force viewers to re-evaluate their physical reality."
+      "pattern": "Bizarre Cosmic/Astronomical Realities",
+      "evidence": "Venus Has a Day Longer Than Its Year (A9Qa-RmuOr0) and The Planet Darker Than Coal (v1rrcZLdp4U) drove over 900-1000 views and robust like counts.",
+      "action": "Focus hooks on counter-intuitive space facts that challenge everyday human perception of time, scale, or color."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Low-Engagement Psychological / Brain Facts",
-      "evidence": "Videos like 'Your Brain Can Create Fake Memories' (2fqaGqfsR4A) and 'The Real Reason Songs Get Stuck In Your Head' (Jc04LVKNd2s) showed flat or negligible traction under 20-50 views.",
-      "action": "Pivot away from generic cognitive psychology trivia unless paired with a high-stakes, unconventional narrative hook."
-    },
-    {
-      "pattern": "Sub-20s Biology Standard Facts without a Twist",
-      "evidence": "Standard animal facts like basic octopus trivia or immortal jellyfish posts underperformed relative to cosmic horror and extreme planetary physics.",
-      "action": "Avoid straightforward factual statements about animals; if covering biology, frame it through extreme survival, prehistoric scaling, or bizarre evolutionary anomalies."
+      "pattern": "Abstract Psychological Tricks & Minor Animal Trivia",
+      "evidence": "Videos like 'Your Brain Can Create Fake Memories' (2fqaGqfsR4A) and 'The Real Reason Songs Get Stuck In Your Head' (Jc04LVKNd2s) stalled below 20-50 views.",
+      "action": "Deprioritize standard psychological tips and minor biological facts unless paired with a high-stakes, cinematic survival narrative."
     }
   ],
   "next_video": {
-    "category": "Space & Cosmic Mysteries",
-    "hook_style": "Second-person immersive curiosity question",
-    "concept": "A rogue planet wandering through interstellar space with active volcanoes made of boiling water ice instead of magma.",
-    "opening_direction": "Start with a direct sensory shock: Imagine standing on a world completely untethered from any star, where pitch-black skies hide oceans of liquid nitrogen.",
-    "twist_direction": "Reveal that despite having no sun, the ground beneath your feet is erupting with boiling water geysers hot enough to vaporize steel.",
+    "category": "space",
+    "hook_style": "What If immersion scenario",
+    "concept": "What If You Fell Into a Rogue Planet Traveling Near Light Speed?",
+    "opening_direction": "Start mid-action falling through a freezing, starless void as a pitch-black frozen world looms ahead.",
+    "twist_direction": "Reveal that the planet has no sun and generates its own eerie internal glow from intense nuclear friction.",
     "duration_seconds": 21,
-    "posting_window": "12:00 PM - 2:00 PM EST",
-    "reason": "Capitalizes on the proven high-performing 'What If' and extreme planetary ice/heat paradox niches, utilizing high-contrast visual imagery.",
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Capitalizes on the proven high-performing 'What If' planetary immersion framework while introducing a brand-new astrophysical phenomenon (rogue planets).",
     "fresh_topic_constraints": [
-      "Must not mention diamonds, glass, iron, or rubies raining.",
-      "Must not use Venus, TrES-2b, or J1407b.",
-      "Must focus on rogue interstellar objects rather than standard orbiters."
+      "Must not feature liquid diamond, burning ice, glass rain, or standard gas giants",
+      "Must explore deep interstellar rogue worlds rather than known solar system planets"
     ]
   },
-  "experiment": "Test a 21-second narrative structure featuring a rogue interstellar planet with a high-contrast visual hook comparing absolute zero temperatures to boiling water cryovolcanism.",
+  "experiment": "Test a 21-second 'What If' rogue planet scenario against our standard planetary rain format to measure whether isolation/speed stakes improve 7-day view velocity.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-03T09:38:15.990503+00:00"
+  "generated_at": "2026-10-03T10:49:10.705197+00:00"
 }
