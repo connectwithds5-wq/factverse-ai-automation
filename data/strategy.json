@@ -1,47 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of 34 deduplicated Shorts reveals that visceral first-person immersion ('What If You Fell Into...') and extreme cosmic anomaly concepts drive the channel's strongest velocity, averaging 800-1,000+ views with above-average like ratios (e.g., Venus at ~485 views/day, TrES-2b at 1,026 views, and the Liquid Diamond Planet at 1,024 views with 38 likes). Conversely, generic psychology/neuroscience trivia ('Your Brain Can Create Fake Memories', songs stuck in head) and redundant uploads ('Why Space Is Completely Silent') consistently stall under 100 views with minimal audience interaction.",
+  "overall_summary": "Analysis of the deduplicated performance data clearly indicates that space and exoplanet anomalies—specifically 'What If' scenarios and extreme planetary weather environments—are driving the highest views-per-day and engagement metrics (likes-per-view). Videos focusing on bizarre cosmic bodies (e.g., IYuce8vaU3Y 'Liquid Diamond Planet', A9Qa-RmuOr0 'Venus Day Longer Than Year', and v1rrcZLdp4U 'Planet Darker Than Coal') outperform standard biology or generic psychology facts by a significant margin. Engagement thrives on high-concept, highly visual hooks that challenge common assumptions.",
   "winning_patterns": [
     {
-      "pattern": "First-Person Extreme Survival / 'What If You Fell Into...' Hooks",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,024 views, 38 likes), 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes), and 'What If You Fell Into the Darkest Planet?' (825 views) dominate recent 7-day velocity.",
-      "action": "Anchor future scripts to high-stakes, sensory second-person perspectives ('You') facing extreme environmental physics rather than passive third-person encyclopedic narration."
+      "pattern": "Extreme Exoplanet 'What If' / Weather Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0) generated over 950-1,000+ views rapidly with strong like ratios.",
+      "action": "Double down on surreal planetary environments, focusing on bizarre physics, extreme weather (e.g., supersonic gems, liquid metal), and immersive second-person 'What If' phrasing."
     },
     {
-      "pattern": "Bizarre Counter-Intuitive Planetary Metrics",
-      "evidence": "'Venus Has a Day Longer Than Its Year' accumulated 971 views in under 48 hours (~485 views/day, 21 likes), demonstrating strong immediate traction for punchy astronomical paradoxes.",
-      "action": "Open with an immediate reality-warping metric or physical paradox in the first 1.5 seconds without preamble."
+      "pattern": "Mind-Bending Time / Physics Anomalies",
+      "evidence": "'Why Your Head Is Older Than Your Feet' (c_ya3kvpuoI) and 'The Planet of Burning Ice' (vWd0uYcEGh4) maintain strong consistent traffic exceeding 1,000 views.",
+      "action": "Produce more short-form concepts that merge astrophysics with everyday relativistic paradoxes that force viewers to re-evaluate their physical reality."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Overused Cognitive Psychology & Memory Trivia",
-      "evidence": "'Your Brain Can Create Fake Memories' was published repeatedly and failed every time (5, 10, and 53 views), while earworm and subconscious facts ranged from 17 to 71 views.",
-      "action": "Pause repetitive brain/psychology facts until novel visual storytelling formats or micro-story frameworks can be developed."
+      "pattern": "Low-Engagement Psychological / Brain Facts",
+      "evidence": "Videos like 'Your Brain Can Create Fake Memories' (2fqaGqfsR4A) and 'The Real Reason Songs Get Stuck In Your Head' (Jc04LVKNd2s) showed flat or negligible traction under 20-50 views.",
+      "action": "Pivot away from generic cognitive psychology trivia unless paired with a high-stakes, unconventional narrative hook."
     },
     {
-      "pattern": "Duplicate Concept Reposting Without Script/Hook Innovation",
-      "evidence": "Repeated uploads of 'Why Space Is Completely Silent' flatlined between 33 and 220 views with negligible engagement.",
-      "action": "Enforce strict deduplication; do not re-upload identical concepts unless completely re-scripted with a radically different narrative hook."
+      "pattern": "Sub-20s Biology Standard Facts without a Twist",
+      "evidence": "Standard animal facts like basic octopus trivia or immortal jellyfish posts underperformed relative to cosmic horror and extreme planetary physics.",
+      "action": "Avoid straightforward factual statements about animals; if covering biology, frame it through extreme survival, prehistoric scaling, or bizarre evolutionary anomalies."
     }
   ],
   "next_video": {
-    "category": "what-if scenarios",
-    "hook_style": "Visceral sensory second-person immersion",
-    "concept": "What would physically happen to a human body free-falling through Jupiter's crushing atmospheric layers down to its metallic hydrogen ocean.",
-    "opening_direction": "Start immediately mid-fall: 'If you stepped out of a spacecraft above Jupiter, you wouldn't land—you would fall for 12 straight hours.'",
-    "twist_direction": "Reveal that before reaching the core, the sheer pressure turns hydrogen gas into a super-heated liquid metal ocean that would float your compressed remains like a cork.",
+    "category": "Space & Cosmic Mysteries",
+    "hook_style": "Second-person immersive curiosity question",
+    "concept": "A rogue planet wandering through interstellar space with active volcanoes made of boiling water ice instead of magma.",
+    "opening_direction": "Start with a direct sensory shock: Imagine standing on a world completely untethered from any star, where pitch-black skies hide oceans of liquid nitrogen.",
+    "twist_direction": "Reveal that despite having no sun, the ground beneath your feet is erupting with boiling water geysers hot enough to vaporize steel.",
     "duration_seconds": 21,
-    "posting_window": "12:00 PM - 02:00 PM UTC",
-    "reason": "Leverages the proven high-retention 'What If You Fell' simulation hook while introducing Jupiter's unique atmospheric descent and liquid metallic ocean, completely avoiding repeated exoplanet topics.",
+    "posting_window": "12:00 PM - 2:00 PM EST",
+    "reason": "Capitalizes on the proven high-performing 'What If' and extreme planetary ice/heat paradox niches, utilizing high-contrast visual imagery.",
     "fresh_topic_constraints": [
-      "Do not cover TrES-2b, Venus, 55 Cancri e, Gliese 436b, HD 189733b, WASP-76b, or J1407b",
-      "Focus on Jupiter's extreme interior mechanics (metallic hydrogen ocean, 12-hour terminal velocity descent)",
-      "Maintain strict scientific accuracy while conveying extreme physical stakes"
+      "Must not mention diamonds, glass, iron, or rubies raining.",
+      "Must not use Venus, TrES-2b, or J1407b.",
+      "Must focus on rogue interstellar objects rather than standard orbiters."
     ]
   },
-  "experiment": "Test whether introducing precise temporal progression ('Hour 1: freezing ammonia clouds; Hour 5: pitch-black 1,000-degree winds') improves retention and completion rates over standard descriptive what-if shorts.",
-  "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-10-03T08:39:23.702939+00:00"
+  "experiment": "Test a 21-second narrative structure featuring a rogue interstellar planet with a high-contrast visual hook comparing absolute zero temperatures to boiling water cryovolcanism.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-10-03T09:38:15.990503+00:00"
 }
