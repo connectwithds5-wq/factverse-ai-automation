@@ -1,47 +1,46 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Recent 7-day performance data clearly shows that space-based 'What If' scenarios and extreme planetary phenomenons are capturing the highest views-per-day, views, and engagement (likes-per-view). Videos like 'Venus Has a Day Longer Than Its Year', 'What If You Fell Into a Liquid Diamond Planet?', and 'The Planet Darker Than Coal: TrES-2b' dominate traction compared to older or psychological/biology shorts. The audience strongly favors high-stakes cosmic hypotheticals and bizarre planetary extremes over general science or basic biology facts.",
+  "overall_summary": "Analysis of 47 deduplicated shorts shows that visceral, second-person hypotheticals ('What If You Fell Into...') and mind-bending planetary physics are FACTVERSE's clear algorithmic growth drivers, consistently exceeding 800-1,000+ views and 20-38 likes. Velocity is spearheaded by recent releases like 'Venus Has a Day Longer Than Its Year' (~484 views/day) and 'What If You Fell Into the Darkest Planet' (~118 views/day). Conversely, abstract psychology trivia and identical reposts (e.g., 'Space Is Completely Silent', 'Fake Memories') generate flatlined reach (<50 views, 0% engagement).",
   "winning_patterns": [
     {
-      "pattern": "Extreme Planetary & Cosmic 'What If' Scenarios",
-      "evidence": "Videos focusing on extreme hypothetical conditions in space (e.g., 'What If You Fell Into a Liquid Diamond Planet?', 'What If You Fell Into the Darkest Planet?') generated top-tier views (800-1000+) and strong like ratios within days of publishing.",
-      "action": "Double down on high-stakes cosmic 'What If' scenarios featuring extreme planetary environments that challenge human intuition."
+      "pattern": "Second-Person Extreme Environment Hypotheticals ('What If You Fell Into...')",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,024 views, 38 likes, 3.7% like rate) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) deliver channel-leading retention and engagement.",
+      "action": "Maintain the visceral first-person POV immersion and step-by-step physical deconstruction of what happens to the human body in extreme environments."
     },
     {
-      "pattern": "Bizarre & Counterintuitive Space Facts",
-      "evidence": "Titles detailing surreal planetary anomalies ('Venus Has a Day Longer Than Its Year', 'The Planet Darker Than Coal: TrES-2b') achieved rapid traction with strong engagement.",
-      "action": "Produce more short-form concepts highlighting lesser-known, bizarre physics and astronomical anomalies with high visual potential."
+      "pattern": "Counter-Intuitive Astronomical Time/Scale Paradoxes",
+      "evidence": "'Venus Has a Day Longer Than Its Year' generated 968 views and 21 likes within 48 hours of release (~484 views/day velocity).",
+      "action": "Package cosmic physics as immediate, logic-defying contradictions in the first 2 seconds."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Low-Engagement Psychological Tricks & Brain Facts",
-      "evidence": "Shorts covering cognitive tricks or basic brain facts ('Your Brain Can Create Fake Memories', 'The Psychological Trick to Stop Songs Stuck in Your Head') consistently underperformed in views and likes over similar timeframes.",
-      "action": "Deprioritize psychological trivia and focus efforts entirely on space, physics, and high-concept science."
+      "pattern": "Identical Topic/Title Reposting",
+      "evidence": "'Why Space Is Completely Silent' dropped from 220 views to 87 and finally 33 views across re-uploads; 'Your Brain Can Create Fake Memories' flatlined at 5 views.",
+      "action": "Strictly enforce a zero-repetition rule; algorithms penalize metadata fatigue and recycled scripts."
     },
     {
-      "pattern": "Overdone Basic Biology Facts",
-      "evidence": "Older recurring biology hooks ('Octopuses Have THREE Hearts') showed declining relative velocity compared to fresh space anomalies.",
-      "action": "Avoid repeating baseline animal trivia unless tied to a unique cinematic survival or extreme evolutionary paradox."
+      "pattern": "Generic Psychology & Intangible Brain Facts",
+      "evidence": "'Your Brain Is Hiding This From You' (38 views, 0 likes) and 'The Real Reason Songs Get Stuck In Your Head' (17 views, 0 likes) fail to hook visual interest.",
+      "action": "Retire quiet cognitive trivia unless tied to a high-stakes survival or horror micro-story."
     }
   ],
   "next_video": {
-    "category": "Space & Science What-If",
-    "hook_style": "Hypothetical catastrophic immersion/survival paradox",
-    "concept": "What If You Fell Into the Coldest Place in the Universe (The Boomerang Nebula)?",
-    "opening_direction": "Start instantly with the extreme freezing temperature dropping faster than absolute zero physics, showing immediate visual decay.",
-    "twist_direction": "Reveal that the expanding gas cloud is actually artificially cooling itself by moving faster than sound, defying normal thermal equilibrium.",
-    "duration_seconds": 20,
-    "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Capitalizes on the proven high-performing 'What If' space format and extreme temperature hook style, while introducing a completely fresh astronomical subject (Boomerang Nebula) not present in the historical dataset.",
+    "category": "what-if scenarios",
+    "hook_style": "Visceral Second-Person Plunge Hook",
+    "concept": "What If You Fell Into Jupiter's Great Red Spot?",
+    "opening_direction": "Start instantly inside the storm: 'If you dropped into Jupiter's Great Red Spot, you wouldn't hit the ground—because there isn't one.'",
+    "twist_direction": "Reveal that after surviving 400-mph frozen ammonia winds, the atmospheric pressure doesn't just crush you—it transforms hydrogen into a glowing ocean of liquid metal that swallows you forever.",
+    "duration_seconds": 21,
+    "posting_window": "12:30 - 13:30 UTC",
+    "reason": "Directly leverages the proven 800-1,000+ view 'What If You Fell Into...' narrative vehicle while introducing a completely fresh, recognizable celestial landmark never covered on the channel.",
     "fresh_topic_constraints": [
-      "Do not use diamond planets, TrES-2b, Venus, or black holes",
-      "Must be a completely new cosmic anomaly",
-      "Ensure factual accuracy regarding thermodynamic principles"
+      "Must not feature diamond rain, TrES-2b, burning ice, WASP-12b, or exoplanet rain already used in channel history.",
+      "Focus specifically on the atmospheric depth layers of Jupiter's Great Red Spot."
     ]
   },
-  "experiment": "Test a 21-second high-stakes space 'What If' video with a hyper-cinematic visual hook in the first 2 seconds to measure exact retention drop-off compared to 15-second standard fact shorts.",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-03T01:37:49.894557+00:00"
+  "experiment": "Test a sonic/visual pressure ramp: pair the drop into the storm with escalating low-frequency rumble (sub-bass) and high-contrast color shifts to evaluate if audio-visual tension lifts completion rate above 85%.",
+  "model_used": "gemini-3.8-flash",
+  "generated_at": "2026-10-03T02:47:20.095035+00:00"
 }
