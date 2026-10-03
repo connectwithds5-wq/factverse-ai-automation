@@ -1,21 +1,47 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Analysis of deduplicated recent uploads reveals that space and extreme planetary scenarios dominate traction. Specifically, 'What If' hypothetical space scenarios and exotic exoplanet conditions (e.g., liquid diamond, burning ice, dark planets) generate the highest views-per-day and engagement metrics (likes-per-view). Content focused on bizarre cosmic environments and planetary physics outperforms abstract psychological facts or standard animal trivia.",
+  "winning_patterns": [
+    {
+      "pattern": "Hypothetical Planetary 'What If' Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) achieved high views (1000+) and strong like ratios relative to older static facts.",
+      "action": "Double down on cinematic hypothetical space survival concepts combining extreme physics with immersive second-person framing."
+    },
+    {
+      "pattern": "Exotic Exoplanet Anomalies",
+      "evidence": "Titles detailing bizarre planetary extremes such as Venus having a longer day than year (A9Qa-RmuOr0) or the coal-dark planet TrES-2b (v1rrcZLdp4U) rapidly accumulated over 900-1000 views with strong audience retention signals.",
+      "action": "Produce more short-form deep dives into newly discovered or scientifically extreme exoplanets emphasizing bizarre weather or lighting conditions."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Static Psychological Micro-Tips",
+      "evidence": "Topics like 'The Psychological Trick to Stop Songs Stuck in Your Head' (ef3ND4qiRHc) or fake memory shorts stagnated below 80 views with minimal engagement.",
+      "action": "De-prioritize generic psychology hacks unless framed through a high-stakes neurological mystery or historical anomaly."
+    },
+    {
+      "pattern": "Low-Stakes Animal Trivia",
+      "evidence": "Simple animal fact statements (e.g., 'Octopuses Have Three Hearts' when repeated or lacking a high-concept narrative twist) showed tapering velocity outside of initial bursts.",
+      "action": "Shift animal content away from basic trivia toward cinematic animal survival micro-stories or extreme evolutionary anomalies."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space & Astronomy",
+    "hook_style": "Hypothetical Second-Person Danger",
+    "concept": "What happens if you fall into a rogue planet hurtling through interstellar space with no star?",
+    "opening_direction": "Start in pitch-black silence as an astronaut plunges into a world wandering the void without a sun, lit only by eerie auroras.",
+    "twist_direction": "Reveal that despite having no star, the core is powered by radioactive decay boiling oceans of liquid nitrogen.",
+    "duration_seconds": 21,
+    "posting_window": "12:00 PM - 2:00 PM EST",
+    "reason": "Leverages the proven high-performing 'What If' planetary survival format combined with the heavy traction of extreme space anomalies.",
+    "fresh_topic_constraints": [
+      "Must not feature diamond planets, burning ice planets, or Saturn/J1407b",
+      "Focus exclusively on rogue interstellar planets",
+      "Keep pacing under 21 seconds with high visual density"
+    ]
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-10-03T05:44:33.878850+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-10-03T05:44:33.878865+00:00"
+  "experiment": "Test a 21-second 'What If' space survival scenario with an immersive audio cue in the first 2 seconds against our standard 19-second exoplanet fact format to measure impact on average percentage viewed.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-10-03T06:54:03.250646+00:00"
 }
