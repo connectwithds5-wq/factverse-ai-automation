@@ -1,47 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of the deduplicated performance data reveals clear viewer preference for extreme cosmic phenomena, bizarre planetary attributes framed through curiosity-driven questions ('What If...'), and high-contrast temporal anomalies. Videos published within the last 7 days targeting exotic planetary conditions and unusual space anomalies (e.g., Venus day length, liquid diamond planets, and extreme dark worlds) dominate views-per-day metrics and secure significantly higher engagement ratios (likes-per-view) than older historical or psychological micro-facts. Conversely, generic psychological tricks, standard animal facts without extreme framing, and older space facts show diminished momentum.",
+  "overall_summary": "Deduplication and recency weighting show that space and planetary 'What If' scenarios (especially extreme environments, bizarre planetary weather, and hypothetical physics falls) are vastly outperforming standard psychology, history, or basic animal facts on a views-per-day basis. Videos published within the last 7 to 10 days (e.g., A9Qa-RmuOr0, IYuce8vaU3Y, 8KEl0_pJ_68, 6pwazIPnOHw) maintain high velocity, strong like-to-view ratios, and active engagement compared to older catalog items.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Planetary 'What If' / Bizarre Conditions",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views) and 'Venus Has a Day Longer Than Its Year' (973 views) exhibit high absolute views and strong engagement within days of publication.",
-      "action": "Double down on hypothetical space disaster/immersion scenarios combined with bizarre, quantifiable planetary anomalies."
+      "pattern": "Hypothetical Planetary 'What If' / Extreme Environment Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) generate over 1,000 views rapidly with high like-to-view ratios.",
+      "action": "Double down on high-stakes hypothetical space scenarios involving bizarre or extreme planetary surfaces."
     },
     {
-      "pattern": "High-Contrast Temporal & Spatial Anomalies",
-      "evidence": "Titles featuring stark contrasts or counter-intuitive temporal facts (e.g., 'The Planet Darker Than Coal' with 1,026 views) outperform standard descriptive science titles.",
-      "action": "Frame future space and physics facts around impossible-sounding comparisons or sensory paradoxes (e.g., objects colder than ice, sounds that shouldn't exist)."
+      "pattern": "Mind-Bending Planetary Weather & Anomaly Hooks",
+      "evidence": "Titles featuring bizarre physics or extreme weather on real exoplanets (e.g., Venus day vs year, TrES-2b coal-dark planet) secure robust initial velocity and sustained engagement.",
+      "action": "Continue producing short-form concepts focused on paradoxical or counter-intuitive celestial mechanics."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Standard Psychological Facttte & Micro-Tips",
-      "evidence": "Content like 'Your Brain Can Create Fake Memories' and psychological song-stuck tricks stagnant under 100 views with negligible engagement.",
-      "action": "De-prioritize standard human psychology micro-facts unless framed as a high-stakes neurological mystery or sci-fi-adjacent thriller."
+      "pattern": "Standard Psychological / Brain Trick Facts",
+      "evidence": "Topics like fake memories, song loops, and general brain facts (e.g., ef3ND4qiRHc, 5AN7LUgqarc, mGEgENcGcNE) stagnate in the double-digits with minimal velocity after initial drop.",
+      "action": "Deprioritize standard psychological tricks unless reframed into high-stakes, high-mystery cinematic scenarios."
     },
     {
       "pattern": "Basic Animal Trivia Without Scale",
-      "evidence": "Simple declarative animal facts ('Octopuses Have THREE Hearts') show low velocity compared to high-concept cosmic hooks.",
-      "action": "Shift animal content exclusively toward cinematic animal survival or extreme prehistoric context rather than basic trivia."
+      "evidence": "Simple animal facts (e.g., octopuses having three hearts, jellyfish living forever) show slower growth and lower like-to-view ratios compared to deep-space hooks.",
+      "action": "Pivot animal content entirely toward cinematic animal survival or extreme prehistoric/evolutionary paradoxes if used."
     }
   ],
   "next_video": {
-    "category": "Space / Extreme Science",
-    "hook_style": "Hypothetical catastrophic immersion with sensory paradox",
-    "concept": "What happens if you fall into the coldest known place in the universe—the Boomerang Nebula—where temperatures drop below absolute zero equivalent?",
-    "opening_direction": "Start with an immediate visceral warning about molecular motion stopping instantly.",
-    "twist_direction": "Reveal that this freezing cosmic cloud is actually stealing heat away from the expanding universe faster than normal space can handle.",
-    "duration_seconds": 15,
-    "posting_window": "12:00 PM - 3:00 PM EST (Peak engagement window for space/science shorts)",
-    "reason": "Leverages the proven high-performing 'What If' spatial disaster framework and pushes it into an unexplored extreme temperature extreme, capitalizing on top-tier engagement patterns.",
+    "category": "space",
+    "hook_style": "Hypothetical Danger / Extreme Physics",
+    "concept": "What Happens If You Step Onto the Hottest Planet in the Universe?",
+    "opening_direction": "Start inside a theoretical heat-shielded suit standing on a world where lead melts in the breeze.",
+    "twist_direction": "Reveal that the planet's atmosphere is actually vaporizing rock faster than the star can pull it in.",
+    "duration_seconds": 21,
+    "posting_window": "12:00 PM - 3:00 PM EST",
+    "reason": "Capitalizes on the proven high-performing 'What If' planetary survival format that currently dominates the channel's top traffic drivers.",
     "fresh_topic_constraints": [
-      "Must not feature black holes, diamond planets, water/glass rain, or sharks.",
-      "Must introduce a completely new celestial entity (Boomerang Nebula / ultra-cold cosmic environments).",
-      "Must maintain rigorous scientific accuracy without fictionalizing real-world physics."
+      "Must not use diamond, glass, ice, or rain weather themes",
+      "Must feature a newly introduced exoplanet entity (e.g., KELT-9b)",
+      "Avoid repeating any previously covered space or planet title"
     ]
   },
-  "experiment": "Test a 15-second hyper-paced format on a brand-new space anomaly using a rapid zero-to-one hypothetical scenario, comparing initial 48-hour velocity against our baseline planetary 'What If' shorts to test viewer drop-off rates.",
+  "experiment": "Test a 21-second high-stakes space survival scenario focusing on extreme stellar radiation versus a standard planetary weather fact to measure retention impact.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-03T15:10:29.072879+00:00"
+  "generated_at": "2026-10-03T18:45:16.436680+00:00"
 }
