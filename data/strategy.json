@@ -1,21 +1,46 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Analysis of deduplicated observations weighted by recent 7-day performance reveals that space/astronomy 'What If' scenarios and bizarre planetary facts dominate the top-performing content. Videos focusing on hypothetical planetary immersion (e.g., liquid diamond, burning ice) and extreme cosmic phenomena (e.g., Venus day/year ratio, TrES-2b dark planet) achieve the highest views-per-day and engagement (likes-per-view). Conversely, older psychological and minor biological factoids show stagnation and lower velocity.",
+  "winning_patterns": [
+    {
+      "pattern": "Hypothetical Planetary Immersion What-Ifs",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' and 'What If You Fell Into the Planet of Burning Ice?' generated over 1,000 and 972 views respectively within a compressed post-publication timeframe with strong like ratios.",
+      "action": "Double down on 'What If you fell into...' formats focusing on extreme, visually striking exotic exoplanets or cosmic anomalies."
+    },
+    {
+      "pattern": "Extreme Cosmic Anomalies & Paradoxes",
+      "evidence": "Titles featuring counter-intuitive planetary rules like 'Venus Has a Day Longer Than Its Year' and 'The Planet Darker Than Coal' pulled near 1,000+ views rapidly.",
+      "action": "Highlight physics-defying celestial mechanics and stark visual contrasts in space."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Low-Stakes Psychological Tips",
+      "evidence": "Topics like 'The Psychological Trick to Stop Songs Stuck in Your Head' and general memory facts stagnated under 100 views with minimal engagement.",
+      "action": "Deprioritize mundane psychological life-hacks in favor of high-concept cosmic and physical mysteries."
+    },
+    {
+      "pattern": "Repetitive Basic Animal Trivia",
+      "evidence": "Basic biology facts (e.g., octopus hearts) underperform compared to extreme space scenarios unless paired with an elite comparative hook.",
+      "action": "Avoid simple listicle-style animal facts unless integrated into a grander comparative scale narrative."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space & Astronomy What-If",
+    "hook_style": "Hypothetical sensory immersion with a stark physical paradox",
+    "concept": "What if you stepped onto a rogue planet wandering through interstellar space with no sun?",
+    "opening_direction": "Start with total absolute darkness and an immediate drop in temperature, forcing the viewer to question how anything survives without a star.",
+    "twist_direction": "Reveal that the planet's core is powered by radioactive snow, generating a massive subterranean ocean hidden miles beneath frozen nitrogen glaciers.",
+    "duration_seconds": 21,
+    "posting_window": "12:00 PM - 3:00 PM EST",
+    "reason": "Capitalizes on the proven high-velocity performance of 'What If' planetary exploration formats while introducing a fresh rogue planet narrative.",
+    "fresh_topic_constraints": [
+      "Must not feature liquid diamond, burning ice, glass rain, or Saturn/J1407b.",
+      "Must focus on interstellar rogue worlds rather than standard solar system planets."
+    ]
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-10-03T22:15:48.320075+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-10-03T22:15:48.320091+00:00"
+  "experiment": "Test a 21-second narrative pacing structure on a brand new rogue planet 'What If' scenario to measure whether deep-space survival hooks outperform exoplanet weather anomalies.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-10-04T01:44:40.747733+00:00"
 }
