@@ -1,47 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Recent 7-day performance data clearly shows that extreme space and planetary 'what-if' scenario content vastly outperforms psychological tricks, general animal facts, and standard historical queries on FACTVERSE. Videos utilizing hypothetical destruction, extreme cosmic environments, and high-value metric comparisons (e.g., diamond planets, extreme darkness, freezing stars, and orbital replacements) achieve the highest views-per-day and engagement metrics (likes-per-view). Conversely, standard biological or psychological trivia from early September are stalling completely.",
+  "overall_summary": "Analysis of 36 deduplicated uploads confirms that extreme planetary science paired with first-person experiential 'What If You Fell Into...' hooks dominates engagement and velocity. Recent top performers like 'Venus Has a Day Longer Than Its Year' (980 views in 3 days) and 'What If You Fell Into a Liquid Diamond Planet' (1,024 views, 38 likes) vastly outperform repetitive psychology trivia and generic facts, which struggle to surpass 100 views.",
   "winning_patterns": [
     {
-      "pattern": "Hypothetical Planetary Immersion ('What If You Fell Into...')",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) garnered over 1,000 and 972 views rapidly within the recent observation window compared to flat older static facts.",
-      "action": "Double down on immersive, high-stakes hypothetical scenarios involving bizarre or extreme planetary environments."
+      "pattern": "First-Person Survival / 'What If You Fell Into...' Extreme Exoplanets",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet' generated 1,024 views and 38 likes; 'What If You Fell Into the Planet of Burning Ice' reached 972 views. Viewers show strong retention for sensory descriptions of impossible celestial physics.",
+      "action": "Pair extreme astronomical anomalies with direct second-person POV stakes ('What happens to your body if you drop into...') rather than detached encyclopedic narration."
     },
     {
-      "pattern": "Extreme Cosmic Anomalies & Rare Material Weather",
-      "evidence": "Titles featuring bizarre physical extremes like 'The Planet Darker Than Coal' (v1rrcZLdp4U) and 'This Planet Rains Supersonic Rubies!' (QXuqYERlqSo) drove high view counts and strong like ratios relative to age.",
-      "action": "Produce more short-form concepts focusing on physics-defying celestial weather, extreme material extremes, and cosmic anomalies."
+      "pattern": "Counter-Intuitive Space Paradoxes",
+      "evidence": "'Venus Has a Day Longer Than Its Year' secured 980 views within 3 days (highest recent velocity), and 'The Planet Darker Than Coal' generated 1,027 views with 36 likes.",
+      "action": "Lead with a punchy, counter-intuitive metric hook in the first 1.5 seconds, then unpack the planetary mechanics."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Static Psychological Trivia",
-      "evidence": "Videos like 'Your Brain Can Create Fake Memories' (2fqaGqfsR4A, 5 views) and 'The Real Reason Songs Get Stuck In Your Head' (Jc04LVKNd2s, 17 views) suffer from severe decay and low engagement.",
-      "action": "Deprioritize standalone psychological facts and standard memory trivia unless framed within a high-stakes survival or sci-fi context."
+      "pattern": "Duplicate & Re-uploaded Baseline Trivia",
+      "evidence": "Repeated uploads of identical or near-identical concepts ('Why Space Is Completely Silent' scored 33-87 views; 'Your Brain Can Create Fake Memories' flatlined at 5-10 views across multiple tries).",
+      "action": "Cease verbatim re-uploads of unengaged concepts. YouTube algorithms suppress duplicate metadata when audience testing fails repeatedly."
     },
     {
-      "pattern": "Basic Animal Fact Lists without Extreme Stakes",
-      "evidence": "Simple declarative statements like 'Octopuses Have THREE Hearts' or basic animal longevity facts show flattening growth compared to planetary destruction hooks.",
-      "action": "Avoid standard textbook animal trivia; if covering fauna, pivot entirely toward cinematic animal survival or prehistoric apex predators."
+      "pattern": "Generic Psychology & Cold Body Trivia",
+      "evidence": "'The Real Reason Songs Get Stuck In Your Head' (17 views), 'Your Brain Is Hiding This From You' (38 views), and 'AI Recreates Pink Floyd Song' (89 views) showed near-zero virality.",
+      "action": "Avoid abstract psychology and minor brain trivia unless framed as high-stakes evolutionary horror or sensory illusion."
     }
   ],
   "next_video": {
-    "category": "space",
-    "hook_style": "what_if_scenario",
-    "concept": "What If You Fell Into a Star Made Entirely of Liquid Neon?",
-    "opening_direction": "Start with a jarring visual of plunging into a glowing, neon-pink cosmic ocean that defies normal stellar temperatures.",
-    "twist_direction": "Reveal that instead of burning up instantly, you would float on a bizarrely dense superfluid layer before gravity crushed you into an invisible diamond core.",
-    "duration_seconds": 15,
-    "posting_window": "12:00 PM - 3:00 PM UTC",
-    "reason": "Capitalizes on the winning high-performing 'What If You Fell Into...' and extreme material/planetary format while exploring a completely fresh celestial phenomenon not present in the channel history.",
+    "category": "what-if scenarios",
+    "hook_style": "Second-person existential survival hook",
+    "concept": "What would happen if you were stranded on KELT-9b, a hellish exoplanet so close to its star that its atmosphere literally boils into vaporized heavy metals hotter than most red dwarf stars.",
+    "opening_direction": "Start immediately with high-speed descent footage toward an blinding blue giant star: 'If you stepped out on exoplanet KELT-9b, your titanium suit wouldn't melt—it would instantly vaporize into thin air.'",
+    "twist_direction": "Reveal that the dayside temperature reaches 7,800°F (hotter than 80% of stars in the galaxy), causing molecules to tear apart into bare atoms, leaving a glowing comet-like tail stretching millions of miles into space.",
+    "duration_seconds": 21,
+    "posting_window": "12:00 - 14:00 UTC",
+    "reason": "Leverages the proven 'What If You Landed On / Fell Into' high-velocity template (19-21s duration) while targeting a completely fresh, unmentioned exoplanet with extreme heat paradoxes.",
     "fresh_topic_constraints": [
-      "Must not feature diamond rain, liquid metal rain, molten iron, or standard black holes.",
-      "Must introduce a new celestial element or phase of matter.",
-      "Avoid reusing any previously covered planet or star name."
+      "Do not feature 55 Cancri e, TrES-2b, Gliese 436b, HD 189733b, Venus, or Saturn.",
+      "Do not repeat diamond, glass, coal, or burning ice rain tropes.",
+      "Must focus strictly on KELT-9b's molecular disintegration and stellar temperatures."
     ]
   },
-  "experiment": "Test a 15-second high-pacing 'What If' space scenario featuring an exotic state of matter versus a standard cosmic factoid to confirm whether hypothetical immersion consistently beats declarative trivia for audience retention.",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-04T14:53:58.095145+00:00"
+  "experiment": "Test whether framing extreme exoplanet astrophysics as a direct survival scenario ('If you stepped foot on...') achieves higher 3-day like-per-view ratios than third-person descriptive hooks ('The planet where...').",
+  "model_used": "gemini-3.8-flash",
+  "generated_at": "2026-10-04T18:42:11.575621+00:00"
 }
