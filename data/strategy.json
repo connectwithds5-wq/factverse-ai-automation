@@ -1,47 +1,42 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of 36 deduplicated uploads confirms that extreme planetary science paired with first-person experiential 'What If You Fell Into...' hooks dominates engagement and velocity. Recent top performers like 'Venus Has a Day Longer Than Its Year' (980 views in 3 days) and 'What If You Fell Into a Liquid Diamond Planet' (1,024 views, 38 likes) vastly outperform repetitive psychology trivia and generic facts, which struggle to surpass 100 views.",
+  "overall_summary": "Deduplicated performance analysis indicates that space-themed scenarios—specifically extreme exoplanets and 'What If' hypothetical space scenarios—are dominating both views and engagement metrics over the recent 7-day window. Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views, 38 likes) and 'Venus Has a Day Longer Than Its Year' (980 views, 21 likes) significantly outperform standard biological facts or older psychological tricks. Viewers heavily favor existential, visually striking space concepts combined with high-stakes curiosity hooks.",
   "winning_patterns": [
     {
-      "pattern": "First-Person Survival / 'What If You Fell Into...' Extreme Exoplanets",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet' generated 1,024 views and 38 likes; 'What If You Fell Into the Planet of Burning Ice' reached 972 views. Viewers show strong retention for sensory descriptions of impossible celestial physics.",
-      "action": "Pair extreme astronomical anomalies with direct second-person POV stakes ('What happens to your body if you drop into...') rather than detached encyclopedic narration."
+      "pattern": "What If / Hypothetical Space Scenarios",
+      "evidence": "IYuce8vaU3Y ('What If You Fell Into a Liquid Diamond Planet?') pulled 1,024 views and 38 likes; 8KEl0_pJ_68 ('What If You Fell Into the Planet of Burning Ice?') pulled 972 views and 18 likes.",
+      "action": "Produce more hypothetical planetary entry scenarios featuring extreme physics and exotic materials."
     },
     {
-      "pattern": "Counter-Intuitive Space Paradoxes",
-      "evidence": "'Venus Has a Day Longer Than Its Year' secured 980 views within 3 days (highest recent velocity), and 'The Planet Darker Than Coal' generated 1,027 views with 36 likes.",
-      "action": "Lead with a punchy, counter-intuitive metric hook in the first 1.5 seconds, then unpack the planetary mechanics."
+      "pattern": "Bizarre Astronomical Facts & Records",
+      "evidence": "A9Qa-RmuOr0 ('Venus Has a Day Longer Than Its Year') and v1rrcZLdp4U ('The Planet Darker Than Coal: TrES-2b') both scored around 1,000 views and strong like-to-view ratios.",
+      "action": "Highlight counter-intuitive planetary physics and extreme cosmic anomalies in future hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Duplicate & Re-uploaded Baseline Trivia",
-      "evidence": "Repeated uploads of identical or near-identical concepts ('Why Space Is Completely Silent' scored 33-87 views; 'Your Brain Can Create Fake Memories' flatlined at 5-10 views across multiple tries).",
-      "action": "Cease verbatim re-uploads of unengaged concepts. YouTube algorithms suppress duplicate metadata when audience testing fails repeatedly."
-    },
-    {
-      "pattern": "Generic Psychology & Cold Body Trivia",
-      "evidence": "'The Real Reason Songs Get Stuck In Your Head' (17 views), 'Your Brain Is Hiding This From You' (38 views), and 'AI Recreates Pink Floyd Song' (89 views) showed near-zero virality.",
-      "action": "Avoid abstract psychology and minor brain trivia unless framed as high-stakes evolutionary horror or sensory illusion."
+      "pattern": "Generic Psychological Factoids",
+      "evidence": "ef3ND4qiRHc ('The Psychological Trick to Stop Songs Stuck in Your Head') and 5AN7LUgqarc ('Your Brain Can Create Fake Memories') stalled under 75 views with minimal engagement.",
+      "action": "Deprioritize psychological trivia shorts unless framed as high-stakes paradoxes or extreme brain mysteries."
     }
   ],
   "next_video": {
-    "category": "what-if scenarios",
-    "hook_style": "Second-person existential survival hook",
-    "concept": "What would happen if you were stranded on KELT-9b, a hellish exoplanet so close to its star that its atmosphere literally boils into vaporized heavy metals hotter than most red dwarf stars.",
-    "opening_direction": "Start immediately with high-speed descent footage toward an blinding blue giant star: 'If you stepped out on exoplanet KELT-9b, your titanium suit wouldn't melt—it would instantly vaporize into thin air.'",
-    "twist_direction": "Reveal that the dayside temperature reaches 7,800°F (hotter than 80% of stars in the galaxy), causing molecules to tear apart into bare atoms, leaving a glowing comet-like tail stretching millions of miles into space.",
+    "category": "Space & Astronomy",
+    "hook_style": "High-stakes 'What If' existential scenario",
+    "concept": "What If You Fell Into the Planet Made of Burning Ice?",
+    "opening_direction": "Start directly inside a free-fall visual through a glowing blue inferno of hot ice.",
+    "twist_direction": "Reveal that the ice isn't cold water, but exotic Ice VII compressed by extreme gravity that would instantly crush and freeze matter simultaneously.",
     "duration_seconds": 21,
-    "posting_window": "12:00 - 14:00 UTC",
-    "reason": "Leverages the proven 'What If You Landed On / Fell Into' high-velocity template (19-21s duration) while targeting a completely fresh, unmentioned exoplanet with extreme heat paradoxes.",
+    "posting_window": "12:00 PM - 3:00 PM EST",
+    "reason": "Leverages the proven high performance of the 'Liquid Diamond' and 'Burning Ice' hypothetical gravity well formats while introducing an unexplored physical state.",
     "fresh_topic_constraints": [
-      "Do not feature 55 Cancri e, TrES-2b, Gliese 436b, HD 189733b, Venus, or Saturn.",
-      "Do not repeat diamond, glass, coal, or burning ice rain tropes.",
-      "Must focus strictly on KELT-9b's molecular disintegration and stellar temperatures."
+      "Must not reuse Ice VII or diamond planets.",
+      "Focus strictly on high-contrast visual physics.",
+      "Keep pacing under 21 seconds."
     ]
   },
-  "experiment": "Test whether framing extreme exoplanet astrophysics as a direct survival scenario ('If you stepped foot on...') achieves higher 3-day like-per-view ratios than third-person descriptive hooks ('The planet where...').",
-  "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-10-04T18:42:11.575621+00:00"
+  "experiment": "Test a space-based 'What If' scenario focusing on the theoretical edge of a black hole's photon sphere versus standard planetary drops to measure if event-horizon framing lifts comment-per-view metrics.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-10-04T22:23:57.852086+00:00"
 }
