@@ -1,42 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Deduplicated performance analysis indicates that space-themed scenarios—specifically extreme exoplanets and 'What If' hypothetical space scenarios—are dominating both views and engagement metrics over the recent 7-day window. Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views, 38 likes) and 'Venus Has a Day Longer Than Its Year' (980 views, 21 likes) significantly outperform standard biological facts or older psychological tricks. Viewers heavily favor existential, visually striking space concepts combined with high-stakes curiosity hooks.",
+  "overall_summary": "Analysis of recent YouTube Shorts performance for FACTVERSE reveals a clear audience preference for high-concept space and planetary 'what-if' or extreme environmental scenarios published within the last 7 days. Specifically, speculative cosmic scenarios and extreme planetary attributes (e.g., Venus day length, liquid diamond planets, burning ice planets) achieve the highest views-per-day and engagement metrics (likes-per-view). Conversely, older psychological tricks and standard biological facts exhibit significantly lower velocity and engagement, indicating saturation or weaker initial hook potency.",
   "winning_patterns": [
     {
-      "pattern": "What If / Hypothetical Space Scenarios",
-      "evidence": "IYuce8vaU3Y ('What If You Fell Into a Liquid Diamond Planet?') pulled 1,024 views and 38 likes; 8KEl0_pJ_68 ('What If You Fell Into the Planet of Burning Ice?') pulled 972 views and 18 likes.",
-      "action": "Produce more hypothetical planetary entry scenarios featuring extreme physics and exotic materials."
+      "pattern": "Extreme Planetary & Cosmic 'What-If' Scenarios",
+      "evidence": "Videos like 'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0, 980 views), 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y, 1024 views), and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68, 972 views) show exceptionally high view counts and strong like ratios relative to older content.",
+      "action": "Double down on speculative astronomical scenarios and bizarre planetary physics using high-stakes hypothetical phrasing ('What if you fell into...')."
     },
     {
-      "pattern": "Bizarre Astronomical Facts & Records",
-      "evidence": "A9Qa-RmuOr0 ('Venus Has a Day Longer Than Its Year') and v1rrcZLdp4U ('The Planet Darker Than Coal: TrES-2b') both scored around 1,000 views and strong like-to-view ratios.",
-      "action": "Highlight counter-intuitive planetary physics and extreme cosmic anomalies in future hooks."
+      "pattern": "Bizarre Reality Checks on Time and Scale",
+      "evidence": "Recent space/physics hooks addressing mind-bending scales like 'The Planet Darker Than Coal' (v1rrcZLdp4U) and 'This Planet Rains Supersonic Rubies!' (QXuqYERlqSo) generated over 700 to 1000+ views rapidly.",
+      "action": "Maintain short durations (15-21 seconds) with immediate visual contrast and shocking superlatives in the opening seconds."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Psychological Factoids",
-      "evidence": "ef3ND4qiRHc ('The Psychological Trick to Stop Songs Stuck in Your Head') and 5AN7LUgqarc ('Your Brain Can Create Fake Memories') stalled under 75 views with minimal engagement.",
-      "action": "Deprioritize psychological trivia shorts unless framed as high-stakes paradoxes or extreme brain mysteries."
+      "pattern": "Standard Psychological Trick / Earworm Reminders",
+      "evidence": "Content focused on songs stuck in your head or minor memory facts ('The Psychological Trick to Stop Songs Stuck in Your Head', 'Your Brain Can Create Fake Memories') stalled under 100 views with minimal likes over prolonged periods.",
+      "action": "De-prioritize mundane human psychology tips unless framed as extreme medical anomalies or high-stakes neurological mysteries."
+    },
+    {
+      "pattern": "Stale Biological Facts Without Novelty",
+      "evidence": "Recycled animal facts like octopuses having three hearts show diminishing returns on repeat iterations compared to planetary anomalies.",
+      "action": "Shift animal and nature content away from standard trivia toward cinematic survival or extreme evolutionary adaptations."
     }
   ],
   "next_video": {
     "category": "Space & Astronomy",
-    "hook_style": "High-stakes 'What If' existential scenario",
-    "concept": "What If You Fell Into the Planet Made of Burning Ice?",
-    "opening_direction": "Start directly inside a free-fall visual through a glowing blue inferno of hot ice.",
-    "twist_direction": "Reveal that the ice isn't cold water, but exotic Ice VII compressed by extreme gravity that would instantly crush and freeze matter simultaneously.",
-    "duration_seconds": 21,
+    "hook_style": "High-Stakes Hypothetical Scenario",
+    "concept": "Stepping onto a rogue planet drifting through interstellar space with no star in sight",
+    "opening_direction": "Imagine a world completely detached from any solar system, freezing in absolute darkness.",
+    "twist_direction": "Instead of freezing, the core's intense pressure keeps the surface boiling, creating an apocalyptic ocean of liquid nitrogen.",
+    "duration_seconds": 20,
     "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Leverages the proven high performance of the 'Liquid Diamond' and 'Burning Ice' hypothetical gravity well formats while introducing an unexplored physical state.",
+    "reason": "Capitalizes on the proven high performance of dark planetary and extreme thermal environment hooks while introducing a completely fresh astronomical phenomenon (rogue planets).",
     "fresh_topic_constraints": [
-      "Must not reuse Ice VII or diamond planets.",
-      "Focus strictly on high-contrast visual physics.",
-      "Keep pacing under 21 seconds."
+      "Do not mention Venus, liquid diamond planets, or burning ice planets.",
+      "Avoid previously used planetary rain materials like glass, iron, or rubies.",
+      "Ensure factual accuracy regarding rogue planet mechanics."
     ]
   },
-  "experiment": "Test a space-based 'What If' scenario focusing on the theoretical edge of a black hole's photon sphere versus standard planetary drops to measure if event-horizon framing lifts comment-per-view metrics.",
+  "experiment": "Test a 20-second rogue planet narrative utilizing a 'What If' framing against standard declarative fact titles to measure retention uplift on space-themed micro-content.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-04T22:23:57.852086+00:00"
+  "generated_at": "2026-10-05T01:04:17.863030+00:00"
 }
