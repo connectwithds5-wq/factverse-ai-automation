@@ -1,47 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Performance analysis across the deduplicated dataset clearly demonstrates that high-concept space scenarios and bizarre planetary mechanics ('What if' and extreme environment hooks) dramatically outperform standard biological or psychological facts. Videos focusing on hypothetical planetary falls (e.g., liquid diamond, burning ice) and extreme cosmic phenomena (e.g., Venus's day/year ratio, TrES-2b, supersonic ruby rain) are driving the highest views-per-day and stronger likes-per-view ratios. Conversely, older, straightforward psychology or basic animal trivia have plateaued with low engagement.",
+  "overall_summary": "Analysis of the deduplicated performance data reveals that extreme cosmic scenarios, counter-intuitive space facts, and 'What If' hypothetical environmental drops drive the highest velocity and engagement (e.g., Venus, liquid diamond planets, and extreme exoplanets like TrES-2b and planetary-scale extreme phenomena). Videos published within the last 7 days exhibit significantly higher views-per-day and like ratios compared to older legacy uploads, indicating strong algorithmic favorability toward heightened curiosity loops and sensory-driven hooks.",
   "winning_patterns": [
     {
-      "pattern": "Hypothetical Planetary Immersion ('What If You Fell Into...')",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views) and 'What If You Fell Into the Planet of Burning Ice?' (972 views) show sustained high velocity and superior engagement compared to static facts.",
-      "action": "Double down on extreme space 'what-if' scenarios involving bizarre physics, exotic materials, and planetary survival hazards."
+      "pattern": "Extreme Planetary 'What If' / Hypothetical Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views) and 'What If You Fell Into the Planet of Burning Ice?' (972 views) generated massive engagement shortly after release compared to generic science facts.",
+      "action": "Double down on high-stakes, immersive hypothetical planetary survival/immersion hooks ('What If You Fell Into...')."
     },
     {
-      "pattern": "Extreme Astronomical Oddities & Exoplanet Weather",
-      "evidence": "Titles detailing surreal conditions such as 'Venus Has a Day Longer Than Its Year' (981 views) and 'This Planet Darker Than Coal: TrES-2b' (1,027 views) capture top-tier viewership within the recent 7-day window.",
-      "action": "Produce more short-form deep dives into extreme exoplanet meteorology, bizarre orbital mechanics, and lesser-known cosmic extremes."
+      "pattern": "Bizarre Cosmic Realities & Extreme Exoplanet Physics",
+      "evidence": "'Venus Has a Day Longer Than Its Year' (981 views), 'This Planet Rains Supersonic Rubies!' (723 views), and 'The Planet Darker Than Coal: TrES-2b' (1,027 views) show exceptional traction.",
+      "action": "Produce more short-form concepts featuring bizarre, counter-intuitive celestial physics and extreme exoplanetary weather."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Static Biological Trivia",
-      "evidence": "Basic animal facts (e.g., 'Octopuses Have THREE Hearts' posted multiple times or older shark/brain facts) yield stagnant views and lower like ratios over time.",
-      "action": "Shift away from basic animal/psychology facts unless framed within a completely fresh, high-stakes cinematic survival or extreme evolutionary paradox narrative."
+      "pattern": "Low-Stakes Psychological or Memory Tricks",
+      "evidence": "Titles like 'Your Brain Can Create Fake Memories' (5-53 views) and generic brain hacks underperformed significantly, showing poor viewer conversion.",
+      "action": "Deprioritize abstract psychological micro-facts unless framed through an urgent, high-stakes cinematic mystery hook."
     },
     {
-      "pattern": "Recycled Simple Fact Titles",
-      "evidence": "Directly repeating or slightly rewording identical space facts ('Why Space Is Completely Silent') across multiple upload dates results in diminishing returns (35 views on recent drops).",
-      "action": "Enforce strict uniqueness checks against the published history to prevent audience fatigue and algorithm suppression."
+      "pattern": "Rehashed Animal Facts Without Exotic Context",
+      "evidence": "Standard animal trivia like 'Octopuses Have THREE Hearts' (varying low-to-moderate velocity on older reruns) show lower relative daily momentum than space content.",
+      "action": "Pivot animal or biology topics toward extreme cinematic survival or prehistoric/deep-sea horror micro-narratives."
     }
   ],
   "next_video": {
-    "category": "Space & Astronomy",
-    "hook_style": "High-stakes hypothetical survival question paired with a mind-bending physical paradox",
-    "concept": "What happens if you step foot on WASP-12b, the doomed planet being physically shredded and devoured by its parent star?",
-    "opening_direction": "Start with immediate visual and auditory tension: sirens or deep cosmic tearing sounds as tidal forces pull a human-sized probe apart.",
-    "twist_direction": "Reveal that the planet is being stripped of its atmosphere so violently that it forms a giant comet-like tail pointing directly toward the star.",
+    "category": "Space & Extreme Science",
+    "hook_style": "High-stakes sensory immersion 'What If' scenario",
+    "concept": "Stepping onto a rogue planet drifting through interstellar space with absolute zero thermal energy",
+    "opening_direction": "Start mid-action with an audio-visual warning of instant atmospheric freezing upon stepping onto a rogue world lit only by distant quasars.",
+    "twist_direction": "Reveal that despite having no sun, the planet's core is sustained by nuclear friction, creating subterranean oceans of liquid nitrogen.",
     "duration_seconds": 15,
-    "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Leverages the proven high-performing 'What If / Doomed Planet' format while exploring an entirely unrepresented celestial body (WASP-12b) distinct from previous diamond or ice planet topics.",
+    "posting_window": "12:00 PM - 3:00 PM EST",
+    "reason": "Leverages the proven high-performing 'What If' and extreme cosmic temperature hooks while introducing a completely fresh celestial phenomenon not present in past uploads.",
     "fresh_topic_constraints": [
-      "Must not use diamond, burning ice, Venus, TrES-2b, or J1407b",
-      "Must focus strictly on star-planet tidal destruction mechanics",
-      "Must maintain factual accuracy regarding exoplanet orbital decay"
+      "Do not use diamond planets, raining glass, or Venus",
+      "Avoid reusing space silence, star age, or brain/memory themes",
+      "Ensure all physical phenomena cited are scientifically accurate"
     ]
   },
-  "experiment": "Test a 15-second cinematic space survival narrative focusing on stellar cannibalism (planet being eaten by its star) to measure if high-action visual peril outpaces static exoplanet weather descriptions.",
+  "experiment": "Test a 15-second high-pacing rogue planet 'What If' scenario against a 21-second narrative structure to determine optimal audience retention for extreme space concepts.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-06T17:19:07.647624+00:00"
+  "generated_at": "2026-10-06T21:46:21.043682+00:00"
 }
