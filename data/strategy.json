@@ -1,47 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Deduplicated analysis of recent performance shows clear audience preference for extreme space scenarios, exotic planetary phenomena, and hypothetical 'what if' hooks (e.g., liquid diamond planets, extreme dark worlds, and rare cosmic conditions). Videos combining high-stakes environmental visuals with rapid-fire curiosity-gap hooks maintain the highest views-per-day and engagement ratios (likes-per-view). Conversely, older psychological tricks and standard biological facts are underperforming relative to high-concept space and astrophysics content.",
+  "overall_summary": "Analysis of deduplicated YouTube Shorts performance reveals a clear dominance in space-related 'What If' scenarios and extreme planetary facts published within the last 7 days. Videos featuring hypothetical planetary falls (e.g., liquid diamond planets, dark planets) and extreme cosmic phenomena generate the highest views-per-day and robust engagement (likes/comments per view). Conversely, standard psychological tricks and older biological facts show declining momentum. The audience heavily favors immersive, curiosity-driven cosmic world-building over static listicle facts.",
   "winning_patterns": [
     {
-      "pattern": "Extreme 'What If' Space & Planetary Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views) and 'The Planet Darker Than Coal: TrES-2b' (1,027 views) outperform standard encyclopedic facts by generating rapid initial velocity and higher like ratios.",
-      "action": "Double down on high-concept cosmic exploration and dangerous planetary environments featuring extreme physical states."
+      "pattern": "Hypothetical Cosmic 'What If' Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views in ~12 days) and 'What If You Fell Into the Darkest Planet?' (823 views) significantly outperform standard historical or psychological facts.",
+      "action": "Double down on high-stakes space survival and extreme planetary 'What If' concepts using vivid, surreal imagery."
     },
     {
-      "pattern": "High-Contrast Curiosity Gap Titles",
-      "evidence": "Titles using existential or sensory contrasts (e.g., diamond rain, supersonic rubies, burning ice) drive immediate click-through and sustained watch time.",
-      "action": "Craft hooks around bizarre, counter-intuitive physical properties of celestial bodies that challenge common intuition."
+      "pattern": "Extreme Planetary Extremes with Mind-Bending Hooks",
+      "evidence": "Titles like 'Venus Has a Day Longer Than Its Year' (980 views since Oct 1) and 'The Planet Darker Than Coal' (1,027 views) capture high retention through stark, counter-intuitive contrasts.",
+      "action": "Focus on unique planetary anomalies, extreme weather on alien worlds, and counter-intuitive physics."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Standard Psychological Trivia & Brain Hacks",
-      "evidence": "Topics like songs stuck in head ('ef3ND4qiRHc', 'Jc04LVKNd2s') and fake memories ('5AN7LUgqarc', 'r43-7nSn8SQ') show severely stagnant view counts (<50 views) with low engagement.",
-      "action": "Deprioritize standalone psychological advice or common brain hacks in favor of macro-scale science and space."
+      "pattern": "Psychological Tricks and Earworm Reminders",
+      "evidence": "Videos like 'The Psychological Trick to Stop Songs Stuck in Your Head' and brain-related micro-facts stagnate around 38-71 views with minimal engagement.",
+      "action": "Deprioritize psychological life-hacks and earworm topics for YouTube Shorts; reserve them only if paired with a heavy visual narrative."
     },
     {
-      "pattern": "Static Historical or Ancient Mysteries",
-      "evidence": "General historical or unproven ancient mysteries ('yLm-FjYH6-k') fail to gain traction compared to physical science and astronomy.",
-      "action": "Shift historical or archaeological concepts into hard-science or technological crossover narratives if utilized."
+      "pattern": "Static Biological Trivia without Narrative Stakes",
+      "evidence": "Older biological facts like 'Your Brain Can Create Fake Memories' or basic animal stats underperform compared to active cosmic survival scenarios.",
+      "action": "Avoid simple static trivia; if covering animals, frame them through cinematic survival or extreme evolutionary anomalies."
     }
   ],
   "next_video": {
-    "category": "Space & Astronomy",
-    "hook_style": "Hypothetical Danger / Extreme Physics",
-    "concept": "What Happens If You Step Onto the Hottest Known Exoplanet?",
-    "opening_direction": "Start instantly with the terrifying temperature scale that vaporizes metals in milliseconds.",
-    "twist_direction": "Reveal that the planet's wind speeds blow glass sideways faster than a fighter jet.",
-    "duration_seconds": 18,
-    "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Leverages the proven high performance of extreme exoplanet and 'what if' environmental hazards while introducing an entirely fresh celestial body not yet covered.",
+    "category": "Space / Science",
+    "hook_style": "High-stakes sensory contrast",
+    "concept": "What happens if you stepped outside on a rogue planet wandering deep interstellar space with no sun?",
+    "opening_direction": "Start with total pitch blackness and absolute silence, asking the viewer what they would hear if their blood instantly began to freeze.",
+    "twist_direction": "Reveal that without a star, the planet's core is still blazing hot enough to create oceans of liquid nitrogen or underground magma rivers.",
+    "duration_seconds": 20,
+    "posting_window": "12:00 PM - 3:00 PM UTC",
+    "reason": "Capitalizes on the proven high-performing 'What If' space survival format while exploring a completely fresh astronomical phenomenon (rogue planets).",
     "fresh_topic_constraints": [
-      "Must not feature diamond planets",
-      "Must not feature TrES-2b or Venus",
-      "Must explore a completely new exoplanet with distinct extreme weather"
+      "Do not use diamond, water-ice, or iron rain planets",
+      "Do not reuse Venus, TrES-2b, or J1407b",
+      "Ensure complete factual accuracy regarding rogue interstellar planetary physics"
     ]
   },
-  "experiment": "Test a 15-second cinematic micro-story set on a newly discovered rogue exoplanet to measure if narrative-driven space survival outperforms direct factual delivery.",
+  "experiment": "Test a high-stakes cinematic space survival 'What If' hook against a standard factual countdown hook within the space niche to measure 5-second retention drop-off rates.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-07T16:43:23.385440+00:00"
+  "generated_at": "2026-10-07T22:07:26.795719+00:00"
 }
