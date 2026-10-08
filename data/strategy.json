@@ -1,21 +1,47 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Analysis of the deduplicated performance data reveals that extreme cosmic anomalies and hypothetical 'what-if' scenarios focused on bizarre planetary environments dominate engagement. Specifically, high-performing recent shorts like Venus's slow rotation, liquid diamond planets, and pitch-black planets generate strong views-per-day and higher likes-per-view metrics compared to general psychology or standard biological facts. Viewers strongly favor visually shocking cosmic concepts paired with curiosity-driven framing.",
+  "winning_patterns": [
+    {
+      "pattern": "Bizarre Planetary Physics / Extreme Space What-Ifs",
+      "evidence": "Videos focusing on extreme planetary conditions (e.g., IYuce8vaU3Y 'What If You Fell Into a Liquid Diamond Planet?', A9Qa-RmuOr0 'Venus Has a Day Longer Than Its Year', v1rrcZLdp4U 'The Planet Darker Than Coal') consistently achieve top-tier view velocity and higher like ratios within the 7-day window.",
+      "action": "Double down on high-concept space and planetary anomalies, utilizing imaginative 'what if you fell into...' hooks backed by real astrophysical phenomena."
+    },
+    {
+      "pattern": "High-Contrast Visual Anchors in Titles",
+      "evidence": "Titles using rare physical states or extreme contrasts (e.g., 'Burning Ice', 'Liquid Diamond', 'Supersonic Rubies') outperform standard informational titles like basic animal or history facts.",
+      "action": "Frame every new space or science short around an impossible-sounding material or extreme contrast that forces a double-take."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Standard Psychological Fact Recycles",
+      "evidence": "Topics centered around common memory tricks or songs stuck in your head (e.g., ef3ND4qiRHc, 2fqaGqfsR4A) underperform significantly in view velocity and engagement compared to cosmic topics.",
+      "action": "Deprioritize standard psychological trivia unless tied to a genuinely shocking, lesser-known neuroscientific anomaly or illusion."
+    },
+    {
+      "pattern": "Low-Engagement Animal Trivia",
+      "evidence": "Basic biological facts without a high-stakes hook (e.g., simple octopus or longevity facts) stall out quickly after initial push.",
+      "action": "Pivot animal content toward cinematic survival or extreme evolutionary adaptations rather than simple static fact-listing."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "category": "Space",
+    "hook_style": "What If / Extreme Planetary Scenario",
+    "concept": "What If You Fell Into a Planet Made Entirely of Boiling Ice?",
+    "opening_direction": "Start with a striking visual of a glowing blue sphere orbiting a scorching star, where ice exists at temperatures hotter than an oven due to extreme gravitational pressure.",
+    "twist_direction": "Reveal that instead of melting, the water molecules are crushed into a bizarre exotic state of matter that would instantly encase anything in super-dense, blazing crystal.",
     "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "posting_window": "12:00 PM - 3:00 PM EST",
+    "reason": "Leverages the proven high-performing 'What If' space format and the successful 'Burning Ice' thematic hook while exploring a completely fresh astronomical phenomenon.",
+    "fresh_topic_constraints": [
+      "Must not use previously covered planets like TrES-2b, Venus, or generic diamond/glass rain worlds.",
+      "Must focus on the unique physics of superionic hot ice.",
+      "Avoid repeating exact phrasing from past titles."
+    ]
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-10-08T16:40:13.708766+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-10-08T16:40:13.708796+00:00"
+  "experiment": "Test a space 'What If' scenario utilizing a hyper-descriptive physical paradox in the first 2 seconds against a standard statement-of-fact title to measure 7-day view velocity uplift.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-10-08T22:14:55.901270+00:00"
 }
