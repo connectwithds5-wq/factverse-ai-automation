@@ -1,47 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of FACTVERSE performance data shows that high-concept space phenomena and extreme 'What If' scenarios dominate engagement, specifically generating strong view counts and high likes-per-view ratios. Content featuring bizarre planetary conditions, planetary falls, and scale comparisons (e.g., Diamond planets, Darkest planets, and Venus time anomalies) out-perform standard psychological or simple animal trivia by significant margins. Recent videos published within the last 14 days pull the highest daily velocity.",
+  "overall_summary": "Analysis of 46 unique Shorts reveals clear bifurcation in traction: first-person extreme space survival scenarios ('What If You Fell Into...') and counter-intuitive astronomical extremes ('Day longer than year', 'TrES-2b') generate 700-1,000+ views with 2-4% like ratios. In contrast, repetitive uploads of psychology/brain facts ('Fake memories', 'Song stuck in head') and passive space trivia ('Silent space', 'Star older than universe') underperform severely (<100 views). Recent 7-day velocity confirms high demand for visceral, high-stakes planetary exploration.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Space What-If Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views) and 'What If You Fell Into the Planet of Burning Ice?' (972 views) generate exceptional view velocity and high like counts compared to older or simpler animal/brain facts.",
-      "action": "Double down on hypothetical space disaster or extreme environmental survival scenarios involving unique planetary compositions."
+      "pattern": "First-Person Planetary Survival Hooks ('What If You Fell Into...')",
+      "evidence": "Videos using this exact phrasing achieved the channel's strongest numbers: 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views, 38 likes, 2 comments), 'What If You Fell Into the Darkest Planet?' (823 views, 15 likes), and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes).",
+      "action": "Anchor future space concepts around immediate physical immersion and survival stakes using 'What If You Fell Into...' or 'What If You Stood On...'."
     },
     {
-      "pattern": "Bizarre Planetary Extremes & Anomalies",
-      "evidence": "Titles detailing surreal conditions like 'The Planet Darker Than Coal' (1,027 views), 'Venus Has a Day Longer Than Its Year' (980 views), and 'This Planet Rains Supersonic Rubies!' (723 views) show robust retention-driving curiosity hooks.",
-      "action": "Focus future scripts on rare, lesser-known astronomical anomalies, bizarre exoplanets, and extreme weather phenomena in the cosmos."
+      "pattern": "Counter-Intuitive Astronomical Paradoxes with Clear Numbers/Visuals",
+      "evidence": "Recent release 'Venus Has a Day Longer Than Its Year' hit 980 views and 21 likes within 9 days (~108 views/day), while 'Planet Darker Than Coal: TrES-2b' scored 1,027 views and 36 likes.",
+      "action": "Pair stark astronomical physics paradoxes with visceral, cinematic comparisons rather than abstract astronomy."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Low-Stakes Psychological & Brain Tricks",
-      "evidence": "Videos covering psychological tricks or brain memories like 'Your Brain Can Create Fake Memories' (53 views) and 'The Psychological Trick to Stop Songs Stuck in Your Head' (71 views) show significantly lower engagement velocity.",
-      "action": "Deprioritize standard psychological tricks and internal body trivia unless tied to a high-stakes survival or visceral micro-story format."
+      "pattern": "Repetitive Brain/Psychology Re-uploads",
+      "evidence": "Multiple redundant uploads of 'Your Brain Can Create Fake Memories' achieved only 5, 10, and 53 views; 'The Real Reason Songs Get Stuck In Your Head' stalled at 17 views.",
+      "action": "Halt recycled low-effort cognitive psychology uploads immediately; retire identical re-posts."
     },
     {
-      "pattern": "Standard Animal Trivia Without Scale",
-      "evidence": "Basic animal facts like 'Octopuses Have THREE Hearts' or general longevity claims trail significantly behind space-scale discoveries in views-per-day.",
-      "action": "Shift animal content strictly toward cinematic animal survival or extreme prehistoric comparisons rather than static biology facts."
+      "pattern": "Passive, Low-Stakes Science Queries",
+      "evidence": "'Why Space Is Completely Silent' plateaued across 3 attempts (34 to 220 views), and 'This Star Is Older Than the Universe!' hit only 11 views.",
+      "action": "Avoid standard school-textbook trivia; convert passive explanations into high-stakes scenarios or sensory shocks."
     }
   ],
   "next_video": {
-    "category": "space",
-    "hook_style": "Hypothetical catastrophic planetary survival hook",
-    "concept": "What If You Fell Into a Rogue Planet Traveling at Interstellar Speeds?",
-    "opening_direction": "Start mid-action falling through pitch-black space toward a rogue world with no star in sight, instantly establishing absolute freezing darkness and extreme speed.",
-    "twist_direction": "Reveal that the planet generates its own intense internal core heat, creating glowing rivers of liquid neon across a surface frozen to absolute zero.",
+    "category": "what-if scenarios",
+    "hook_style": "Visceral first-person survival / extreme exoplanet mystery",
+    "concept": "What If You Fell Into the Bottomless Ocean Planet? (Gliese 1214 b)",
+    "opening_direction": "Instant descent: show an astronaut dropping through thick hydrogen clouds straight into a boiling, 10,000-kilometer-deep ocean with no land in sight.",
+    "twist_direction": "Reveal that diving deeper doesn't hit rock; extreme pressure forces the superheated water to compress into glowing, scorching hot solid 'Ice VII' at thousands of atmospheres.",
     "duration_seconds": 20,
-    "posting_window": "12:00 PM - 3:00 PM UTC",
-    "reason": "Leverages the proven high-performing 'What If You Fell Into...' formula combined with an extreme exoplanet anomaly that has not yet been covered in the channel history.",
+    "posting_window": "12:30 - 13:30 UTC",
+    "reason": "Leverages the proven high-converting 'What If You Fell Into...' framework while exploring Gliese 1214 b—a totally new celestial entity not yet featured in the catalog—delivering both oceanic dread and exotic physics.",
     "fresh_topic_constraints": [
-      "Must not feature diamond, burning ice, dark coal, or molten iron planets.",
-      "Must introduce rogue interstellar planets as a completely fresh subject entity.",
-      "Keep pacing fast with zero dead air in the opening 3 seconds."
+      "Do not cover TrES-2b, diamond planets (55 Cancri e), burning ice (Gliese 436b), J1407b, or Venus",
+      "Must feature Gliese 1214 b and the phenomenon of exotic Ice VII",
+      "Keep duration strictly between 19 and 21 seconds to maintain optimal retention pacing"
     ]
   },
-  "experiment": "Test a 20-second 'What If' space survival narrative featuring a completely novel exoplanet type (Rogue Planet) against historical baseline averages to measure if high-concept hypothetical scenarios sustain the >1,000 view benchmark within 48 hours.",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-10T13:53:55.208055+00:00"
+  "experiment": "Test sensory horror/survival framing in exoplanet content against pure observational astrophysics to determine whether visceral tactile consequence drives higher comment debate.",
+  "model_used": "gemini-3.8-flash",
+  "generated_at": "2026-10-10T18:44:40.423871+00:00"
 }
