@@ -1,47 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of 46 unique Shorts reveals clear bifurcation in traction: first-person extreme space survival scenarios ('What If You Fell Into...') and counter-intuitive astronomical extremes ('Day longer than year', 'TrES-2b') generate 700-1,000+ views with 2-4% like ratios. In contrast, repetitive uploads of psychology/brain facts ('Fake memories', 'Song stuck in head') and passive space trivia ('Silent space', 'Star older than universe') underperform severely (<100 views). Recent 7-day velocity confirms high demand for visceral, high-stakes planetary exploration.",
+  "overall_summary": "Recent 7-day performance metrics clearly indicate that high-concept space and astrophysics scenarios—particularly extreme planetary conditions and 'What If' hypothetical physics—generate significantly higher views-per-day, likes-per-view, and audience engagement than standard human psychology or basic animal facts. Videos published within the last 10 days (e.g., Venus day length, dark planets, and liquid diamond planets) dominate top engagement, showing strong viewer retention for surreal, visually distinct cosmic environments.",
   "winning_patterns": [
     {
-      "pattern": "First-Person Planetary Survival Hooks ('What If You Fell Into...')",
-      "evidence": "Videos using this exact phrasing achieved the channel's strongest numbers: 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views, 38 likes, 2 comments), 'What If You Fell Into the Darkest Planet?' (823 views, 15 likes), and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes).",
-      "action": "Anchor future space concepts around immediate physical immersion and survival stakes using 'What If You Fell Into...' or 'What If You Stood On...'."
+      "pattern": "Extreme Space What-Ifs & Strange Planets",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'The Planet Darker Than Coal' (v1rrcZLdp4U) accrued over 1,000 views rapidly with strong like ratios (36-38 likes), outperforming older psychological or baseline animal facts.",
+      "action": "Double down on surreal astronomical scenarios and extreme physics experiments that invoke vivid mental imagery within the first 3 seconds."
     },
     {
-      "pattern": "Counter-Intuitive Astronomical Paradoxes with Clear Numbers/Visuals",
-      "evidence": "Recent release 'Venus Has a Day Longer Than Its Year' hit 980 views and 21 likes within 9 days (~108 views/day), while 'Planet Darker Than Coal: TrES-2b' scored 1,027 views and 36 likes.",
-      "action": "Pair stark astronomical physics paradoxes with visceral, cinematic comparisons rather than abstract astronomy."
+      "pattern": "Counter-Intuitive Cosmic Scale Hooks",
+      "evidence": "'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0) generated 980 views and 21 likes quickly, proving that paradoxical temporal or spatial facts drive high viewer curiosity.",
+      "action": "Structure titles around paradoxical facts where standard logic breaks down (e.g., time dilation, impossible planetary physics, or bizarre celestial mechanics)."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Brain/Psychology Re-uploads",
-      "evidence": "Multiple redundant uploads of 'Your Brain Can Create Fake Memories' achieved only 5, 10, and 53 views; 'The Real Reason Songs Get Stuck In Your Head' stalled at 17 views.",
-      "action": "Halt recycled low-effort cognitive psychology uploads immediately; retire identical re-posts."
+      "pattern": "Low-Engagement Psychological Tricks & Basic Animal Facts",
+      "evidence": "Older short-form psychological content ('Your Brain Can Create Fake Memories') and standard animal facts ('Octopuses Have THREE Hearts') lagged behind in velocity and generated near-zero comment interaction once initial novelty wore off.",
+      "action": "Deprioritize straightforward biological trivia unless framed through an extreme survival or microscopic cinematic lens."
     },
     {
-      "pattern": "Passive, Low-Stakes Science Queries",
-      "evidence": "'Why Space Is Completely Silent' plateaued across 3 attempts (34 to 220 views), and 'This Star Is Older Than the Universe!' hit only 11 views.",
-      "action": "Avoid standard school-textbook trivia; convert passive explanations into high-stakes scenarios or sensory shocks."
+      "pattern": "Generic Historical Mysteries Without High Visual Payoff",
+      "evidence": "Content like 'The 2,000-Year-Old Mystery Science Can't Solve' (yLm-FjYH6-k) plateaued quickly at lower view counts compared to space and physics extremes.",
+      "action": "Shift historical storytelling toward high-drama micro-scenarios or intense geographical/what-if scenarios rather than static artifact mysteries."
     }
   ],
   "next_video": {
-    "category": "what-if scenarios",
-    "hook_style": "Visceral first-person survival / extreme exoplanet mystery",
-    "concept": "What If You Fell Into the Bottomless Ocean Planet? (Gliese 1214 b)",
-    "opening_direction": "Instant descent: show an astronaut dropping through thick hydrogen clouds straight into a boiling, 10,000-kilometer-deep ocean with no land in sight.",
-    "twist_direction": "Reveal that diving deeper doesn't hit rock; extreme pressure forces the superheated water to compress into glowing, scorching hot solid 'Ice VII' at thousands of atmospheres.",
-    "duration_seconds": 20,
-    "posting_window": "12:30 - 13:30 UTC",
-    "reason": "Leverages the proven high-converting 'What If You Fell Into...' framework while exploring Gliese 1214 b—a totally new celestial entity not yet featured in the catalog—delivering both oceanic dread and exotic physics.",
+    "category": "Space & Astronomy",
+    "hook_style": "What If / Extreme Physics Hypothetical",
+    "concept": "What Happens If You Fall Into the Coldest Known Object in the Universe (The Boomerang Nebula)",
+    "opening_direction": "Start with a visceral sensory warning about instant thermal shock, contrasting normal freezing temperatures with the absolute cosmic chill of the Boomerang Nebula.",
+    "twist_direction": "Reveal that the nebula is actually colder than the background radiation of the universe itself, acting as a thermodynamic sink that steals thermal energy faster than physics should allow.",
+    "duration_seconds": 21,
+    "posting_window": "12:00 PM - 3:00 PM UTC",
+    "reason": "Capitalizes on the proven high-performing 'What If' space format and the successful 'colder than ice' curiosity trigger while exploring a completely fresh astronomical entity.",
     "fresh_topic_constraints": [
-      "Do not cover TrES-2b, diamond planets (55 Cancri e), burning ice (Gliese 436b), J1407b, or Venus",
-      "Must feature Gliese 1214 b and the phenomenon of exotic Ice VII",
-      "Keep duration strictly between 19 and 21 seconds to maintain optimal retention pacing"
+      "Must not feature black holes, diamond planets, TrES-2b, or Venus",
+      "Must focus exclusively on the Boomerang Nebula and absolute zero physics",
+      "Ensure all descriptions of extreme cold remain scientifically accurate"
     ]
   },
-  "experiment": "Test sensory horror/survival framing in exoplanet content against pure observational astrophysics to determine whether visceral tactile consequence drives higher comment debate.",
-  "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-10-10T18:44:40.423871+00:00"
+  "experiment": "Test whether framing a lesser-known deep-space extreme environment as a 'What If' survival scenario yields a higher like-to-view ratio than direct declarative factual statements.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-10-10T22:45:21.377342+00:00"
 }
