@@ -1,46 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of 47 deduplicated Shorts reveals a sharp performance divide. The channel's primary growth engine is the 'What If You Fell Into...' extreme celestial survival format, along with mind-bending planetary physics (generating 800–1,050+ views and 15–38 likes per video, with strong recent velocity on uploads like Venus's orbital anomaly). In contrast, generic psychology facts, repeated identical uploads, and low-stakes trivia consistently stall under 100 views with near-zero engagement.",
+  "overall_summary": "Deduplication and recency weighting show that space and planetary 'what-if' scenarios are vastly outperforming other categories in views-per-day and engagement. Videos published within the last 7 to 10 days, particularly speculative extreme space scenarios (e.g., liquid diamond planets, dark planets, and planetary comparisons), achieve significantly higher velocity and like-per-view ratios than older psychology, biology, or standard fact shorts.",
   "winning_patterns": [
     {
-      "pattern": "Immersive 'What If You Fell Into...' extreme cosmic hazard hooks",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,024 views, 38 likes) and 'What If You Fell Into the Darkest Planet?' (823 views, 15 likes) dramatically outperform average channel benchmarks in both views and engagement.",
-      "action": "Produce high-stakes survival simulation Shorts placing the viewer directly into extreme cosmic phenomena, maintaining a tight 19–21s duration."
+      "pattern": "Speculative Planetary 'What If' / Extreme Space Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Darkest Planet?' (YlDuGu1vzAg) generated high views (800-1000+) and strong like ratios within short windows compared to older static facts.",
+      "action": "Double down on hypothetical space disaster/immersion scenarios focusing on bizarre exoplanets with extreme physical properties."
     },
     {
-      "pattern": "Counterintuitive planetary and time anomalies",
-      "evidence": "'Venus Has a Day Longer Than Its Year' reached 980 views and 21 likes within 8 days (~122.5 views/day), and 'The Planet Darker Than Coal' hit 1,027 views and 36 likes.",
-      "action": "Spotlight scientifically verified, paradox-level cosmic mechanics that violate everyday intuition."
+      "pattern": "High-Contrast Cosmic Comparative Hooks",
+      "evidence": "'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0) and 'The Planet Darker Than Coal: TrES-2b' (v1rrcZLdp4U) drove over 900-1000 views with strong engagement due to counterintuitive cosmic time or light facts.",
+      "action": "Use stark, paradoxical comparisons involving planetary physics, time distortion, or light absorption in titles."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic psychology and memory trivia",
-      "evidence": "'Your Brain Can Create Fake Memories' (5–53 views across 3 uploads) and 'Songs Stuck In Your Head' (17–71 views) consistently floor out below 100 views.",
-      "action": "Deprecate routine human psychology and brain trivia unless framed as high-stakes mystery or sensory survival."
+      "pattern": "Static Psychological & Biological Micro-Facts",
+      "evidence": "Videos like 'Your Brain Can Create Fake Memories' (2fqaGqfsR4A, 5 views) and 'The Real Reason Songs Get Stuck In Your Head' (Jc04LVKNd2s, 17 views) heavily underperformed compared to space content.",
+      "action": "Deprioritize standard psychological tricks and basic animal facts unless framed with high-stakes cinematic mystery or 'what-if' framing."
     },
     {
-      "pattern": "Direct re-uploading of identical titles/scripts",
-      "evidence": "Repeated titles like 'Why Space Is Completely Silent' (plummeted to 34 views on third upload) and 'Octopuses Have THREE Hearts' show diminishing returns.",
-      "action": "Enforce strict novelty checks; never recycle exact topics or scripts."
+      "pattern": "Low-Velocity Historical/Mystery Trivia",
+      "evidence": "Older historical mysteries like 'The 2,000-Year-Old Mystery Science Can't Solve' plateaued early with minimal likes and zero comments.",
+      "action": "Shift historical or archaeological concepts into high-tension micro-drama or unknown anomaly storytelling rather than dry trivia."
     }
   ],
   "next_video": {
-    "category": "what-if scenarios",
-    "hook_style": "Second-person visceral survival scenario",
-    "concept": "What happens to the human body when approaching a Magnetar, the universe's most intense magnetic monster.",
-    "opening_direction": "Start directly on visual impact: 'If you fell toward a Magnetar, you wouldn't be crushed by gravity first—your atoms would literally be torn apart.'",
-    "twist_direction": "Reveal that from 1,000 kilometers away, the magnetic field is so extreme it distorts your electron clouds into microscopic needles, instantly dissolving bio-electricity and chemical bonds.",
-    "duration_seconds": 20,
-    "posting_window": "12:00 PM - 02:00 PM UTC",
-    "reason": "Leverages the proven high-retention 'What If You Fell Into...' framework while entering a completely fresh entity (Magnetar/neutron star physics) never previously featured on the channel.",
+    "category": "space",
+    "hook_style": "Hypothetical sensory survival / Extreme physics what-if",
+    "concept": "What If You Stepped Onto a Planet Made Entirely of Boiling Ice?",
+    "opening_direction": "Start immediately with the violent sensory immersion of standing on a world where ice burns at thousands of degrees.",
+    "twist_direction": "Reveal that the extreme pressure keeps the boiling water completely solid beneath your boots until a microscopic crack forms.",
+    "duration_seconds": 19,
+    "posting_window": "12:00 PM - 3:00 PM UTC",
+    "reason": "Capitalizes on the proven high-performing 'What If' planetary immersion format while introducing a completely fresh exoplanet physical phenomenon not yet covered.",
     "fresh_topic_constraints": [
-      "No exoplanets already covered (TrES-2b, 55 Cancri e, Gliese 436b, WASP-76b, HD 189733b, J1407b)",
-      "Focus purely on Magnetar atomic spaghettification physics, not generic black holes"
+      "Must not repeat diamond planets, dark planets, rain of metals/rubies, or basic silent space facts.",
+      "Must use a newly introduced exoplanet paradox or theoretical thermodynamic anomaly.",
+      "Keep pacing under 20 seconds with high visual vocabulary."
     ]
   },
-  "experiment": "A/B test second-person simulation framing ('What If You Fell Into a Magnetar?') versus paradox-driven cosmic horror framing ('The Space Monster That Dissolves Human Atoms From 1,000km Away') to measure initial 3-second swipe-away rate.",
-  "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-10-09T21:06:35.390593+00:00"
+  "experiment": "Test a 21-second speculative physics 'what-if' scenario featuring a lesser-known cosmic anomaly (hot ice / superionic water) against standard planetary rain facts to test if immersion-based narration drives higher retention than descriptive narration.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-10-10T01:04:49.378160+00:00"
 }
