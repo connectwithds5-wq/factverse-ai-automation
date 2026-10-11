@@ -1,47 +1,52 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Recent 7-day performance metrics clearly indicate that high-concept space and astrophysics scenarios—particularly extreme planetary conditions and 'What If' hypothetical physics—generate significantly higher views-per-day, likes-per-view, and audience engagement than standard human psychology or basic animal facts. Videos published within the last 10 days (e.g., Venus day length, dark planets, and liquid diamond planets) dominate top engagement, showing strong viewer retention for surreal, visually distinct cosmic environments.",
+  "overall_summary": "Analysis across 47 deduplicated shorts reveals a stark performance divergence. High-concept, visceral 'What If You Fell Into...' cosmic survival hooks and extreme planetary anomalies consistently lead the channel (averaging 800-1,050+ views with 3.5%+ like ratios and viewer comments), whereas recycled cognitive psychology facts and flat trivia re-uploads ('Your Brain Can Create Fake Memories', 'Why Space Is Completely Silent') suffer catastrophic fatigue, stalling below 50 views. Longer formats (19–21 seconds) vastly outperform ultra-short 12–15 second uploads by providing enough pacing for sensory storytelling and tension.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Space What-Ifs & Strange Planets",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'The Planet Darker Than Coal' (v1rrcZLdp4U) accrued over 1,000 views rapidly with strong like ratios (36-38 likes), outperforming older psychological or baseline animal facts.",
-      "action": "Double down on surreal astronomical scenarios and extreme physics experiments that invoke vivid mental imagery within the first 3 seconds."
+      "pattern": "Visceral first-person survival hooks ('What If You Fell Into...') on lethal cosmic environments",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,024 views, 38 likes, 2 comments), 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes), and 'What If You Fell Into the Darkest Planet?' (823 views, 15 likes) dominate top retention and engagement.",
+      "action": "Double down on high-stakes, first-person perspective 'What If You Fell Into/Onto...' formats combining extreme physics with visceral physical consequences."
     },
     {
-      "pattern": "Counter-Intuitive Cosmic Scale Hooks",
-      "evidence": "'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0) generated 980 views and 21 likes quickly, proving that paradoxical temporal or spatial facts drive high viewer curiosity.",
-      "action": "Structure titles around paradoxical facts where standard logic breaks down (e.g., time dilation, impossible planetary physics, or bizarre celestial mechanics)."
+      "pattern": "Mind-bending exoplanetary paradoxes with strong visual hooks",
+      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,027 views, 36 likes) and 'Venus Has a Day Longer Than Its Year' (980 views, 21 likes) generated the highest velocity relative to publication recency.",
+      "action": "Pair extreme cosmic statistics with cinematic micro-visual hooks emphasizing impossible natural physics."
+    },
+    {
+      "pattern": "21-second retention structure with a mid-video twist",
+      "evidence": "Every single video hitting over 700 views has a runtime of 19 to 21 seconds, while sub-16 second shorts averaged under 120 views.",
+      "action": "Lock default Shorts pacing to 19–21 seconds, using seconds 0–3 for immediate sensory danger and seconds 10–14 for the escalating physical reality."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Low-Engagement Psychological Tricks & Basic Animal Facts",
-      "evidence": "Older short-form psychological content ('Your Brain Can Create Fake Memories') and standard animal facts ('Octopuses Have THREE Hearts') lagged behind in velocity and generated near-zero comment interaction once initial novelty wore off.",
-      "action": "Deprioritize straightforward biological trivia unless framed through an extreme survival or microscopic cinematic lens."
+      "pattern": "Duplicate and fatigue-heavy brain/psychology trivia",
+      "evidence": "'Your Brain Can Create Fake Memories' uploaded multiple times garnered 5, 10, and 53 views; 'Your Brain Is Hiding This From You' flopped at 38 views.",
+      "action": "Immediately cease re-uploading generic neuroscience and cognitive trivia; audience views these as sterile textbook facts."
     },
     {
-      "pattern": "Generic Historical Mysteries Without High Visual Payoff",
-      "evidence": "Content like 'The 2,000-Year-Old Mystery Science Can't Solve' (yLm-FjYH6-k) plateaued quickly at lower view counts compared to space and physics extremes.",
-      "action": "Shift historical storytelling toward high-drama micro-scenarios or intense geographical/what-if scenarios rather than static artifact mysteries."
+      "pattern": "Static observational titles lacking personal threat or tension",
+      "evidence": "'The Planet Where It Rains Liquid Metal!' pulled only 10 views and 'This Star Is Older Than the Universe!' got 11 views, despite having space subject matter.",
+      "action": "Avoid passive documentary phrasing ('The Planet Where...'); reframe into active conflict, consequence, or direct second-person immersion."
     }
   ],
   "next_video": {
-    "category": "Space & Astronomy",
-    "hook_style": "What If / Extreme Physics Hypothetical",
-    "concept": "What Happens If You Fall Into the Coldest Known Object in the Universe (The Boomerang Nebula)",
-    "opening_direction": "Start with a visceral sensory warning about instant thermal shock, contrasting normal freezing temperatures with the absolute cosmic chill of the Boomerang Nebula.",
-    "twist_direction": "Reveal that the nebula is actually colder than the background radiation of the universe itself, acting as a thermodynamic sink that steals thermal energy faster than physics should allow.",
+    "category": "what-if scenarios",
+    "hook_style": "Second-person sensory peril ('What If You...')",
+    "concept": "What would physically happen to a human body falling toward a Magnetar—the universe's deadliest magnetic monster.",
+    "opening_direction": "Open with high-contrast cinematic CGI of a shimmering, distorted dead star with zero audio except a deafening heartbeat, text: 'If you fell toward a Magnetar, you'd die before you even touched it.'",
+    "twist_direction": "Reveal that at 1,000 kilometers away, its magnetic field is so violently powerful it dissolves human atomic structures, stripping electrons from your atoms and dissolving you into mist.",
     "duration_seconds": 21,
-    "posting_window": "12:00 PM - 3:00 PM UTC",
-    "reason": "Capitalizes on the proven high-performing 'What If' space format and the successful 'colder than ice' curiosity trigger while exploring a completely fresh astronomical entity.",
+    "posting_window": "12:30 - 13:30 UTC",
+    "reason": "Leverages the proven high-performing 'What If You Fell Into...' hook formula that generated >1,000 views on exoplanets, but introduces a completely fresh, extreme celestial object (Magnetar) not yet featured on the channel.",
     "fresh_topic_constraints": [
-      "Must not feature black holes, diamond planets, TrES-2b, or Venus",
-      "Must focus exclusively on the Boomerang Nebula and absolute zero physics",
-      "Ensure all descriptions of extreme cold remain scientifically accurate"
+      "Do not cover TrES-2b, 55 Cancri e, Gliese 436b, WASP-76b, CoRoT-7b, Kepler-13Ab, or J1407b",
+      "Do not re-use diamond, burning ice, glass, or ruby rain tropes",
+      "Must focus on atomic/magnetic body horror physics rather than diamond/rain weather"
     ]
   },
-  "experiment": "Test whether framing a lesser-known deep-space extreme environment as a 'What If' survival scenario yields a higher like-to-view ratio than direct declarative factual statements.",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-10T22:45:21.377342+00:00"
+  "experiment": "A/B test an ominous, high-stakes countdown audio bed against the standard upbeat synth track to see if visceral sonic tension lifts the 100% completion rate above 75% on 21-second survival scenarios.",
+  "model_used": "gemini-3.8-flash",
+  "generated_at": "2026-10-11T02:01:45.488409+00:00"
 }
