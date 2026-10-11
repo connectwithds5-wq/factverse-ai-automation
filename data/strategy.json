@@ -1,52 +1,42 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis across 47 deduplicated shorts reveals a stark performance divergence. High-concept, visceral 'What If You Fell Into...' cosmic survival hooks and extreme planetary anomalies consistently lead the channel (averaging 800-1,050+ views with 3.5%+ like ratios and viewer comments), whereas recycled cognitive psychology facts and flat trivia re-uploads ('Your Brain Can Create Fake Memories', 'Why Space Is Completely Silent') suffer catastrophic fatigue, stalling below 50 views. Longer formats (19–21 seconds) vastly outperform ultra-short 12–15 second uploads by providing enough pacing for sensory storytelling and tension.",
+  "overall_summary": "Analysis of the deduplicated performance data reveals that space exploration, planetary 'what-if' hypotheticals, and extreme cosmic phenomena are significantly outperforming general psychology and standard science facts in both views-per-day and engagement metrics (likes-per-view). Specifically, hypothetical scenario framing ('What If You Fell Into...') combined with extreme visual environments (diamond planets, burning ice, extreme darkness) generates the highest sustained traction. Older physiological and basic psychological facts show stagnant momentum.",
   "winning_patterns": [
     {
-      "pattern": "Visceral first-person survival hooks ('What If You Fell Into...') on lethal cosmic environments",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,024 views, 38 likes, 2 comments), 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes), and 'What If You Fell Into the Darkest Planet?' (823 views, 15 likes) dominate top retention and engagement.",
-      "action": "Double down on high-stakes, first-person perspective 'What If You Fell Into/Onto...' formats combining extreme physics with visceral physical consequences."
+      "pattern": "Planetary Hypothetical 'What If' Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) achieved over 1,000 views rapidly with exceptionally high like ratios compared to older psychological facts.",
+      "action": "Double down on extreme space hypothetical scenarios, focusing on sensory-rich, immersive world-building within the first 3 seconds."
     },
     {
-      "pattern": "Mind-bending exoplanetary paradoxes with strong visual hooks",
-      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,027 views, 36 likes) and 'Venus Has a Day Longer Than Its Year' (980 views, 21 likes) generated the highest velocity relative to publication recency.",
-      "action": "Pair extreme cosmic statistics with cinematic micro-visual hooks emphasizing impossible natural physics."
-    },
-    {
-      "pattern": "21-second retention structure with a mid-video twist",
-      "evidence": "Every single video hitting over 700 views has a runtime of 19 to 21 seconds, while sub-16 second shorts averaged under 120 views.",
-      "action": "Lock default Shorts pacing to 19–21 seconds, using seconds 0–3 for immediate sensory danger and seconds 10–14 for the escalating physical reality."
+      "pattern": "Extreme Cosmic Extremes & Exotic Matter",
+      "evidence": "'The Planet Darker Than Coal: TrES-2b' (v1rrcZLdp4U) and 'This Planet Rains Supersonic Rubies!' (QXuqYERlqSo) captured high velocity and strong engagement within the recent 7-day window.",
+      "action": "Produce more short-form pieces focusing on bizarre planetary weather, extreme densities, and light-absorbing anomalies."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Duplicate and fatigue-heavy brain/psychology trivia",
-      "evidence": "'Your Brain Can Create Fake Memories' uploaded multiple times garnered 5, 10, and 53 views; 'Your Brain Is Hiding This From You' flopped at 38 views.",
-      "action": "Immediately cease re-uploading generic neuroscience and cognitive trivia; audience views these as sterile textbook facts."
-    },
-    {
-      "pattern": "Static observational titles lacking personal threat or tension",
-      "evidence": "'The Planet Where It Rains Liquid Metal!' pulled only 10 views and 'This Star Is Older Than the Universe!' got 11 views, despite having space subject matter.",
-      "action": "Avoid passive documentary phrasing ('The Planet Where...'); reframe into active conflict, consequence, or direct second-person immersion."
+      "pattern": "Psychological Tricks & Brain Facts",
+      "evidence": "Titles like 'Your Brain Can Create Fake Memories' (2fqaGqfsR4A) and 'The Psychological Trick to Stop Songs Stuck in Your Head' (ef3ND4qiRHc) yielded very low views and minimal engagement over the observation window.",
+      "action": "Deprioritize standard psychological tips and generic memory facts unless paired with a high-stakes visual or mystery element."
     }
   ],
   "next_video": {
-    "category": "what-if scenarios",
-    "hook_style": "Second-person sensory peril ('What If You...')",
-    "concept": "What would physically happen to a human body falling toward a Magnetar—the universe's deadliest magnetic monster.",
-    "opening_direction": "Open with high-contrast cinematic CGI of a shimmering, distorted dead star with zero audio except a deafening heartbeat, text: 'If you fell toward a Magnetar, you'd die before you even touched it.'",
-    "twist_direction": "Reveal that at 1,000 kilometers away, its magnetic field is so violently powerful it dissolves human atomic structures, stripping electrons from your atoms and dissolving you into mist.",
-    "duration_seconds": 21,
-    "posting_window": "12:30 - 13:30 UTC",
-    "reason": "Leverages the proven high-performing 'What If You Fell Into...' hook formula that generated >1,000 views on exoplanets, but introduces a completely fresh, extreme celestial object (Magnetar) not yet featured on the channel.",
+    "category": "Space / Astronomical Mysteries",
+    "hook_style": "Sensory Shock & Impossible Physics",
+    "concept": "The Rogue Planet Drifting Through Deep Space Without a Star",
+    "opening_direction": "Start in absolute pitch blackness, then reveal a rogue world wandering the interstellar void that is actually warmer than Earth due to a terrifying hidden heat source.",
+    "twist_direction": "Reveal that despite having no sun, its core is powered by invisible dark matter friction, creating subterranean oceans of liquid nitrogen.",
+    "duration_seconds": 15,
+    "posting_window": "12:00 PM - 3:00 PM EST",
+    "reason": "Leverages the proven high-performing 'What If / Extreme Planet' framework while introducing a fresh cosmic phenomenon (rogue planets and dark matter heating) distinct from diamond or glass-rain planets.",
     "fresh_topic_constraints": [
-      "Do not cover TrES-2b, 55 Cancri e, Gliese 436b, WASP-76b, CoRoT-7b, Kepler-13Ab, or J1407b",
-      "Do not re-use diamond, burning ice, glass, or ruby rain tropes",
-      "Must focus on atomic/magnetic body horror physics rather than diamond/rain weather"
+      "Do not mention diamonds, glass rain, or Saturn.",
+      "Avoid previously used planetary names like TrES-2b or J1407b.",
+      "Focus strictly on interstellar rogue planets and subsurface heat mechanics."
     ]
   },
-  "experiment": "A/B test an ominous, high-stakes countdown audio bed against the standard upbeat synth track to see if visceral sonic tension lifts the 100% completion rate above 75% on 21-second survival scenarios.",
-  "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-10-11T02:01:45.488409+00:00"
+  "experiment": "Test a 15-second cut focusing entirely on audio-visual isolation (complete silence hook) leading into an impossible rogue planet heat-source reveal to measure retention against standard visual-first space hooks.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-10-11T09:06:34.276474+00:00"
 }
