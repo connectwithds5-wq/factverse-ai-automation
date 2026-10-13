@@ -1,47 +1,47 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Performance analysis of FACTVERSE YouTube Shorts clearly indicates that astronomy, astrophysics, and speculative 'What If' planetary scenarios are driving the highest engagement, velocity, and view-per-day metrics. Specifically, topics involving extreme cosmic conditions (diamond planets, strange rain, unusual days/years) outperform psychological tricks, biology facts, and standard historical queries. Viewers heavily favor high-concept visual curiosity hooks combined with hypothetical scenarios.",
+  "overall_summary": "First-person speculative hazard hooks ('What If You Fell Into...') focusing on extreme exoplanets and cosmic anomalies consistently generate the highest baseline views (800-1,050+ views) and strongest engagement (up to 3.7% like ratio). Conversely, recycled low-stakes psychology facts and repeated stock biology trivia stagnate below 100 views.",
   "winning_patterns": [
     {
-      "pattern": "Hypothetical 'What If' Cosmic Scenarios",
-      "evidence": "Videos like IYuce8vaU3Y ('What If You Fell Into a Liquid Diamond Planet?') and 8KEl0_pJ_68 ('What If You Fell Into the Planet of Burning Ice?') generated the highest view counts and strong like-to-view ratios among recent uploads.",
-      "action": "Double down on 'What If you fell into...' hooks applied to newly discovered or extreme astronomical objects."
+      "pattern": "First-person hazard hypothetical with sensory planetary extremes",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,028 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) dramatically outperform general statements.",
+      "action": "Frame high-concept astronomy and extreme physics through direct 'What If You Fell Into / Landed On...' visceral survival perspectives."
     },
     {
-      "pattern": "Extreme Planetary Phenomena / Bizarre Weather",
-      "evidence": "A9Qa-RmuOr0 ('Venus Has a Day Longer Than Its Year') and QXuqYERlqSo ('This Planet Rains Supersonic Rubies!') show rapid traction and strong like ratios compared to older static biology facts.",
-      "action": "Produce more short-form content focusing on planetary extremes, unusual physics laws, or alien weather systems."
+      "pattern": "Mind-bending cosmic paradoxes with clear numerical/physical contrast",
+      "evidence": "'Venus Has a Day Longer Than Its Year' (980 views, 21 likes) and 'The Planet Darker Than Coal: TrES-2b' (1,027 views, 36 likes) drive rapid traction compared to abstract trivia.",
+      "action": "Lead with visual contradictions (e.g. atmospheric temperatures hot enough to rip molecules apart) in the first 2 seconds."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Low-Impact Psychological Micro-Tricks",
-      "evidence": "Videos regarding songs stuck in the head (ef3ND4qiRHc, Jc04LVKNd2s) and basic memory facts (5AN7LUgqarc) accumulated low lifetime views and weak engagement.",
-      "action": "Deprioritize psychological tricks and standard human-body trivia unless tied to a major high-stakes scientific mystery."
+      "pattern": "Repeated generic psychology trivia without narrative stakes",
+      "evidence": "'Your Brain Can Create Fake Memories' uploaded across multiple variations yielded 5 to 53 views; earworm trivia averaged under 50 views.",
+      "action": "Halt generic psychology uploads unless framed as an immersive psychological test or micro-mystery with immediate viewer involvement."
     },
     {
-      "pattern": "Repetitive Static Biology Facts",
-      "evidence": "Basic animal facts such as octopuses having three hearts (AXAfwrzzEdU, 1Bm0zw_qAAg) stall out quickly compared to dynamic space content.",
-      "action": "Avoid straightforward animal trivia and pivot animal content toward cinematic survival or extreme evolutionary anomalies."
+      "pattern": "Re-uploading saturated school-tier animal facts",
+      "evidence": "Multiple uploads of 'Octopuses Have THREE Hearts' plateaued between 118 and 363 views with zero comment engagement.",
+      "action": "Eliminate textbook trivia; pivot animal content strictly to cinematic survival mechanisms or extreme deep-sea cryptid-like biology."
     }
   ],
   "next_video": {
-    "category": "Space / Science / What-If Scenarios",
-    "hook_style": "Hypothetical catastrophic survival / Extreme physics curiosity",
-    "concept": "What If You Fell Into a Star Made Entirely of Diamonds? (The existence of white dwarf star Lucy in Centaurus)",
-    "opening_direction": "Start with an immersive visual simulation of plunging through blinding, crushing crystal lattices at terminal velocity.",
-    "twist_direction": "Reveal that this isn't science fiction—it is the ultimate fate of our own Sun, compressed into a diamond the size of Earth.",
-    "duration_seconds": 18,
-    "posting_window": "12:00 PM - 3:00 PM EST (Peak engagement window for space/science shorts)",
-    "reason": "Capitalizes on the proven 'What If' format and the high-performing diamond/extreme-planet niche while introducing a completely fresh astronomical entity (White Dwarf Lucy).",
+    "category": "what-if scenarios",
+    "hook_style": "First-person fatal dilemma",
+    "concept": "What If You Fell Into KELT-9b, the Planet Hotter Than Most Stars?",
+    "opening_direction": "Visually drop the camera through a blinding titanium atmosphere where clouds are made of vaporized heavy metals.",
+    "twist_direction": "Reveal that the heat isn't what destroys you first: the parent star's gravitational tidal forces are physically tearing the planet apart, creating an inescapable comet-like tail of glowing gas.",
+    "duration_seconds": 20,
+    "posting_window": "12:30 - 13:30 UTC",
+    "reason": "Leverages the proven 'What If You Fell Into' high-retention structure on an unmentioned, scientifically verified exoplanet (KELT-9b) that combines extreme thermal physics with planetary destruction.",
     "fresh_topic_constraints": [
-      "Do not use previously covered planets like TrES-2b or generic diamond rain topics",
-      "Focus exclusively on white dwarf stellar crystalization",
-      "Ensure runtime remains tight and fast-paced under 20 seconds"
+      "Do not feature diamond planets (55 Cancri e), TrES-2b, Gliese 436b, or WASP-76b",
+      "Must maintain 19-21s duration with zero filler intros",
+      "Factual exoplanet astrophysics only, presented through a simulation lens"
     ]
   },
-  "experiment": "Test a space-based 'What If' hook against a deep-sea extreme pressure scenario to determine if cosmic or terrestrial abyss content yields higher retention.",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-13T19:26:58.011289+00:00"
+  "experiment": "Test adding a dynamic text HUD displaying survivability countdown ('Time to Vaporization: 0.8s') to boost 3-second retention on high-stakes simulation shorts.",
+  "model_used": "gemini-3.8-flash",
+  "generated_at": "2026-10-13T23:22:09.781211+00:00"
 }
