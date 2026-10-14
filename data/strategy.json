@@ -1,21 +1,47 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Analysis of FACTVERSE performance data clearly shows that 'What If / Extreme Planetary Scenarios' and high-concept space curiosities published within the last 30 days (such as 'What If You Fell Into a Liquid Diamond Planet?', 'Venus Has a Day Longer Than Its Year', and 'What If You Fell Into the Planet of Burning Ice?') massively outperform older biology, psychology, or standard historical facts in both absolute views and engagement (likes-per-view). Videos utilizing hypothetical second-person survival and mind-bending space extremes secure the highest velocity.",
+  "winning_patterns": [
+    {
+      "pattern": "Hypothetical Second-Person Space Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,028 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) drive high engagement through immersive peril.",
+      "action": "Double down on 'What If You Fell Into...' formats focusing on extreme cosmic environments with high visual contrast."
+    },
+    {
+      "pattern": "Bizarre Planetary Anomalies & Extreme Physics",
+      "evidence": "Titles like 'Venus Has a Day Longer Than Its Year' (980 views, 21 likes) and 'The Planet Darker Than Coal: TrES-2b' (1,027 views, 36 likes) outperform general space facts by presenting counterintuitive physical realities.",
+      "action": "Focus on lesser-known exoplanets and weird orbital mechanics rather than broad cosmic generalities."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Low-Stakes Psychological or Memory Tricks",
+      "evidence": "Videos such as 'Your Brain Can Create Fake Memories' (5 views, 0 likes) and 'The Psychological Trick to Stop Songs Stuck in Your Head' (71 views, 4 likes) show severely depressed velocity compared to space content.",
+      "action": "Deprioritize psychological trivia and song/memory hacks until the channel establishes broader general audience pull."
+    },
+    {
+      "pattern": "Overdone Animal Facts",
+      "evidence": "Older or recycled animal facts like 'Octopuses Have THREE Hearts' (118 views, 0 likes) trail significantly behind high-concept space content in engagement ratios.",
+      "action": "Avoid standard textbook animal trivia; pivot animal content exclusively to cinematic survival or extreme evolutionary anomalies."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "What-If Scenarios / Space",
+    "hook_style": "Second-person existential danger hook",
+    "concept": "What If You Fell Into a Supermassive Black Hole's Accretion Disk?",
+    "opening_direction": "Start immediately with the terrifying sensation of extreme gravitational time dilation and blinding light before you even cross the event horizon.",
+    "twist_direction": "Reveal that time stops completely for you from an outside observer's perspective, trapping you in a permanent frozen second.",
+    "duration_seconds": 21,
+    "posting_window": "12:00 PM - 2:00 PM EST (Peak engagement window for high-concept space shorts)",
+    "reason": "Matches the proven high-performing 'What If You Fell Into...' format that currently dominates the channel's top-tier view counts and like ratios.",
+    "fresh_topic_constraints": [
+      "Must not use diamonds, ice, glass, or rain themes which were used in previous planet videos",
+      "Must feature an entirely new cosmic phenomenon (Accretion disk / time dilation)",
+      "Strictly avoid repeating any previously published titles or concepts"
+    ]
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-10-14T02:01:29.681219+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-10-14T02:01:29.681243+00:00"
+  "experiment": "Test a 21-second 'What If' scenario focusing on extreme time dilation versus standard planetary surface hazards to measure if existential physics concepts outperform planetary material extremes in comment velocity.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-10-14T07:50:34.699626+00:00"
 }
