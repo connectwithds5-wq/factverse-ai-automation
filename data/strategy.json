@@ -1,47 +1,21 @@
 {
   "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "First-person speculative hazard hooks ('What If You Fell Into...') focusing on extreme exoplanets and cosmic anomalies consistently generate the highest baseline views (800-1,050+ views) and strongest engagement (up to 3.7% like ratio). Conversely, recycled low-stakes psychology facts and repeated stock biology trivia stagnate below 100 views.",
-  "winning_patterns": [
-    {
-      "pattern": "First-person hazard hypothetical with sensory planetary extremes",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,028 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) dramatically outperform general statements.",
-      "action": "Frame high-concept astronomy and extreme physics through direct 'What If You Fell Into / Landed On...' visceral survival perspectives."
-    },
-    {
-      "pattern": "Mind-bending cosmic paradoxes with clear numerical/physical contrast",
-      "evidence": "'Venus Has a Day Longer Than Its Year' (980 views, 21 likes) and 'The Planet Darker Than Coal: TrES-2b' (1,027 views, 36 likes) drive rapid traction compared to abstract trivia.",
-      "action": "Lead with visual contradictions (e.g. atmospheric temperatures hot enough to rip molecules apart) in the first 2 seconds."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Repeated generic psychology trivia without narrative stakes",
-      "evidence": "'Your Brain Can Create Fake Memories' uploaded across multiple variations yielded 5 to 53 views; earworm trivia averaged under 50 views.",
-      "action": "Halt generic psychology uploads unless framed as an immersive psychological test or micro-mystery with immediate viewer involvement."
-    },
-    {
-      "pattern": "Re-uploading saturated school-tier animal facts",
-      "evidence": "Multiple uploads of 'Octopuses Have THREE Hearts' plateaued between 118 and 363 views with zero comment engagement.",
-      "action": "Eliminate textbook trivia; pivot animal content strictly to cinematic survival mechanisms or extreme deep-sea cryptid-like biology."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "what-if scenarios",
-    "hook_style": "First-person fatal dilemma",
-    "concept": "What If You Fell Into KELT-9b, the Planet Hotter Than Most Stars?",
-    "opening_direction": "Visually drop the camera through a blinding titanium atmosphere where clouds are made of vaporized heavy metals.",
-    "twist_direction": "Reveal that the heat isn't what destroys you first: the parent star's gravitational tidal forces are physically tearing the planet apart, creating an inescapable comet-like tail of glowing gas.",
-    "duration_seconds": 20,
-    "posting_window": "12:30 - 13:30 UTC",
-    "reason": "Leverages the proven 'What If You Fell Into' high-retention structure on an unmentioned, scientifically verified exoplanet (KELT-9b) that combines extreme thermal physics with planetary destruction.",
-    "fresh_topic_constraints": [
-      "Do not feature diamond planets (55 Cancri e), TrES-2b, Gliese 436b, or WASP-76b",
-      "Must maintain 19-21s duration with zero filler intros",
-      "Factual exoplanet astrophysics only, presented through a simulation lens"
-    ]
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test adding a dynamic text HUD displaying survivability countdown ('Time to Vaporization: 0.8s') to boost 3-second retention on high-stakes simulation shorts.",
-  "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-10-13T23:22:09.781211+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-10-14T02:01:29.681219+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-10-14T02:01:29.681243+00:00"
 }
