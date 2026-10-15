@@ -1,47 +1,47 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Analysis of deduplicated YouTube Shorts performance shows that space and planetary 'what-if' scenarios, extreme celestial weather, and existential cosmic scale comparisons dominate engagement velocity. Videos utilizing high-stakes hypothetical survival hooks ('What If You Fell Into...') combined with extreme physical oddities ('Liquid Diamond Planet', 'Planet of Burning Ice') generate significantly higher views-per-day and like-to-view ratios than standard informational facts or psychological tricks.",
+  "overall_summary": "Analysis of 47 unique Shorts reveals that visceral, first-person hypothetical survival scenarios ('What If You Fell Into...') and extreme planetary anomalies dominate both total reach and recent daily velocity (generating 700 to 1,050+ views and 3.5%+ like rates). Conversely, recycled passive psychology trivia (such as earworms and fake memories) and generic animal factoids consistently flatline under 100 views with negligible engagement.",
   "winning_patterns": [
     {
-      "pattern": "Hypothetical Planetary Immersion",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) achieved over 970-1000+ views with exceptional like ratios (38 likes).",
-      "action": "Double down on hypothetical extreme survival scenarios involving bizarre, newly discovered cosmic or geological locations."
+      "pattern": "First-Person Hypothetical Hazards ('What If You Fell Into...')",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,028 views, 38 likes, 2 comments) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) outperform channel benchmarks by 4x to 8x.",
+      "action": "Frame high-concept planetary and cosmic science as immediate first-person survival simulations with sensory-heavy stakes."
     },
     {
-      "pattern": "Extreme Celestial Phenomenon & Rarity",
-      "evidence": "Titles detailing impossible or extreme conditions ('Venus Has a Day Longer Than Its Year', 'This Planet Rains Supersonic Rubies!') outperformed standard space facts, securing 700-980 views rapidly.",
-      "action": "Focus on counter-intuitive planetary physics and exotic weather phenomena outside of our solar system."
+      "pattern": "Mind-Bending Extreme Scale & Astronomical Contradictions",
+      "evidence": "'Venus Has a Day Longer Than Its Year' secured 980 views and 21 likes as the top recent performer (~70 views/day velocity); 'The Planet Darker Than Coal' reached 1,027 views with 36 likes.",
+      "action": "Pair a paradoxical one-line contradiction with cinematic, high-contrast imagery to hook viewers in the first 1.5 seconds."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Psychological Tips & Earworm Remedies",
-      "evidence": "Videos focusing on internal psychological tricks ('The Psychological Trick to Stop Songs Stuck in Your Head') or memory glitches hovered at lower velocities (50-70 views, minimal engagement).",
-      "action": "Deprioritize abstract psychology micro-tips unless paired with a high-stakes visual mystery or cinematic narrative."
+      "pattern": "Repetitive Abstract Psychology & Brain Trivia",
+      "evidence": "Multiple variations of 'Your Brain Can Create Fake Memories' stalled at 5, 10, and 53 views; 'The Real Reason Songs Get Stuck In Your Head' earned only 17 views.",
+      "action": "Cease publishing standalone psychology tips and generic brain factoids lacking narrative danger or strong visual anchors."
     },
     {
-      "pattern": "Passive Historical Trivia",
-      "evidence": "Ancient history mysteries ('The 2,000-Year-Old Mystery Science Can't Solve') generated modest views (~139) with zero likes or comments, indicating poor initial feed traction.",
-      "action": "Avoid dry historical trivia; if exploring history, pivot to high-concept archaeological mysteries or cinematic survival storytelling."
+      "pattern": "Duplicate Concept Cannibalization",
+      "evidence": "Posting identical concepts like 'Why Space Is Completely Silent' repeatedly collapsed reach from 220 views down to 34 views.",
+      "action": "Enforce a strict deduplication cooldown to prevent identical hook and topic re-runs across 30-day windows."
     }
   ],
   "next_video": {
-    "category": "Space / Planetary What-If Scenarios",
-    "hook_style": "High-stakes hypothetical immersion",
-    "concept": "What If You Stepped Foot on the Hottest Planet in the Universe (KELT-9b)?",
-    "opening_direction": "Start mid-action with the sound of metal instantly melting as the viewer 'drops' into an atmosphere hotter than most stars.",
-    "twist_direction": "Reveal that the planet is literally evaporating into a giant glowing comet tail of vaporized rock and metal.",
+    "category": "what-if scenarios",
+    "hook_style": "First-Person Peril / Sensory Shock",
+    "concept": "What If You Fell Into Jupiter's Liquid Metal Ocean?",
+    "opening_direction": "Open mid-plunge through screaming neon clouds: 'If you jumped into Jupiter, you wouldn't hit solid ground—you'd drown in glowing liquid metal.'",
+    "twist_direction": "Reveal that miles down, hydrogen is crushed under 2 million atmospheres into an electric mirror-like liquid that melts your spacecraft instantly before you reach the core.",
     "duration_seconds": 21,
-    "posting_window": "12:00 PM - 2:00 PM EST",
-    "reason": "Capitalizes on the proven high-performing 'What If You Fell Into...' planetary immersion format while introducing a fresh, highly visual extreme physics subject not yet covered.",
+    "posting_window": "12:30 - 13:30 UTC",
+    "reason": "Capitalizes on the channel's highest-converting hook architecture ('What If You Fell Into...') while introducing a fresh solar system mega-structure rather than repeating exoplanets.",
     "fresh_topic_constraints": [
-      "Do not use diamond, ice, or glass planets",
-      "Must feature KELT-9b or an ultra-hot Jupiter analog",
-      "Ensure scientific accuracy regarding molecular dissociation"
+      "No exoplanets already used (avoid TrES-2b, 55 Cancri e, Gliese 436b, WASP-76b, HD 189733b)",
+      "Must focus on the bizarre physics of metallic hydrogen",
+      "Keep pacing under 22 seconds to maximize completion rate"
     ]
   },
-  "experiment": "Test a 21-second high-stakes planetary 'what-if' scenario featuring an ultra-hot gas giant with zero traditional intro graphics, jumping straight into sensory audio and thermal disintegration visuals.",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-15T20:26:09.027903+00:00"
+  "experiment": "Test whether placing the viewer inside a familiar solar system body (Jupiter's interior) yields higher retention and comment debates compared to distant, less familiar exoplanet survival scenarios.",
+  "model_used": "gemini-3.8-flash",
+  "generated_at": "2026-10-15T23:09:36.506883+00:00"
 }
