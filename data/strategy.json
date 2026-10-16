@@ -1,47 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of the deduplicated performance data reveals clear audience preference for space, extreme planetary conditions, and 'What If' hypothetical scenarios, particularly when framed with high-stakes curiosity. Videos published in late September and early October (e.g., 'What If You Fell Into a Liquid Diamond Planet?', 'Venus Has a Day Longer Than Its Year', and 'What If You Fell Into the Planet of Burning Ice?') significantly outperform older psychology or standard animal facts on views-per-day and likes-per-view metrics. Conversely, simple biological facts and older historical/psychological tricks show low relative engagement.",
+  "overall_summary": "Deduplicating 47 unique shorts reveals a distinct performance divide: experiential second-person cosmic survival scenarios ('What If You Fell Into...') and counterintuitive extreme planetary benchmarks consistently drive the highest views (800-1,050+ views) and strongest like ratios (3.5% to 4.5%). In contrast, passive psychology hooks ('Your Brain Can Create Fake Memories') and duplicate/re-uploaded trivia concepts ('Why Space Is Completely Silent') show severe algorithmic fatigue, stagnating under 100 views.",
   "winning_patterns": [
     {
-      "pattern": "'What If' Extreme Planetary Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,029 views in ~3 weeks) and 'What If You Fell Into the Planet of Burning Ice?' (972 views) demonstrate high velocity and strong like-to-view ratios.",
-      "action": "Produce more high-stakes hypothetical planetary survival or entry scenarios using vivid, tactile descriptions (melting, crushing, freezing)."
+      "pattern": "Second-Person Extreme Environment Survival ('What If You Fell Into...')",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) vastly outperformed the channel baseline.",
+      "action": "Anchor space and science content around experiential second-person stakes where the viewer must physically survive a bizarre cosmic or planetary phenomenon."
     },
     {
-      "pattern": "Bizarre Cosmic Extreme Facts",
-      "evidence": "Titles featuring counter-intuitive planetary physics or extreme environments like 'Venus Has a Day Longer Than Its Year' (981 views in 2 weeks) and 'The Planet Darker Than Coal: TrES-2b' (1,027 views) perform exceptionally well.",
-      "action": "Focus on lesser-known exoplanets and cosmic phenomena that challenge human intuition about time, light, and physics."
+      "pattern": "Mind-Bending Temporal or Planetary Paradoxes",
+      "evidence": "'Venus Has a Day Longer Than Its Year' generated 981 views and 21 likes rapidly within recent weeks; 'The Planet Darker Than Coal' reached 1,027 views and 36 likes.",
+      "action": "Leverage stark, concrete comparative hooks that contradict everyday sensory intuition within the first 1.5 seconds."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Standard Psychological and Brain Hacks",
-      "evidence": "Topics like 'Your Brain Can Create Fake Memories' (5-53 views) and 'The Psychological Trick to Stop Songs Stuck in Your Head' (71 views) show stagnant growth and low engagement.",
-      "action": "Deprioritize standard self-help or basic neuroscience facts unless framed through an extreme, bizarre narrative."
+      "pattern": "Abstract Internal Psychology / Memory Trivia",
+      "evidence": "Multiple iterations of 'Your Brain Can Create Fake Memories' flatlined at 5, 10, and 53 views; 'Your Brain Is Hiding This From You' produced only 38 views.",
+      "action": "Halt generic text-based psychology trivia unless driven by an urgent narrative mystery or dramatic real-world experiment."
     },
     {
-      "pattern": "Basic Animal Factoids",
-      "evidence": "Simple declarative animal facts like 'Octopuses Have THREE Hearts' have plateaued in daily view velocity compared to space content.",
-      "action": "Shift animal-related content into cinematic animal survival or extreme prehistoric scenarios rather than simple listicle facts."
+      "pattern": "Repeated Concept Re-Uploads with Static Hooks",
+      "evidence": "Three distinct uploads of 'Why Space Is Completely Silent' plateaued between 34 and 220 views with near-zero engagement growth.",
+      "action": "Eliminate near-identical re-uploads of evergreen trivia; prioritize novel entities and uncharted physical anomalies."
     }
   ],
   "next_video": {
-    "category": "Space & Extreme Astronomy",
-    "hook_style": "High-stakes hypothetical survival question",
-    "concept": "Stepping foot on a rogue planet drifting through interstellar space with no star.",
-    "opening_direction": "Start with the terrifying pitch: imagine walking on a world that hasn't seen sunlight in 4 billion years.",
-    "twist_direction": "Reveal that despite the pitch-black freezing surface, an underground ocean of liquid nitrogen or water could harbor bizarre life.",
-    "duration_seconds": 15,
-    "posting_window": "12:00 PM - 3:00 PM UTC",
-    "reason": "Leverages the proven high-performing 'What If' planetary exploration format while introducing a fresh astronomical subject (rogue planets) not yet covered in the channel's history.",
+    "category": "what-if scenarios",
+    "hook_style": "Second-Person Physical Peril",
+    "concept": "What would happen to your body if you stepped onto PSO J318.5-22, a giant rogue planet drifting alone in interstellar space with glowing molten iron clouds and eternal midnight.",
+    "opening_direction": "High-contrast visual of an astronaut plummeting into total blackness illuminated only by faint infrared glow: 'If you fell onto a rogue planet, there is no sun to warm you—only eternal night and molten clouds.'",
+    "twist_direction": "Rather than freezing instantly in the cosmic void, atmospheric pressure and internal radioactive core heat cook you inside a hurricane of glowing liquid metallic vapor.",
+    "duration_seconds": 21,
+    "posting_window": "12:30 - 13:30 UTC",
+    "reason": "Capitalizes on the proven 21-second 'What If You Fell Into' high-engagement mechanic while exploring rogue planets, a completely fresh astronomical subject absent from channel history.",
     "fresh_topic_constraints": [
-      "Must not feature black holes, diamond planets, burning ice planets, or Saturn.",
-      "Must focus strictly on rogue wandering planets.",
-      "Must maintain factual accuracy regarding interstellar space physics."
+      "Do not mention diamond planets, WASP-76b iron rain, Gliese 436b burning ice, TrES-2b, or Venus day/year",
+      "Focus strictly on untethered interstellar rogue worlds (PSO J318.5-22)",
+      "Maintain 21-second narrative pacing with immediate visceral stakes"
     ]
   },
-  "experiment": "Test a 15-second pacing structure on a rogue planet 'What If' scenario to determine if shorter duration improves retention compared to the 21-second top performers.",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-16T21:27:53.608283+00:00"
+  "experiment": "Test whether introducing thermal and sensory contradictions (freezing deep space exterior vs. boiling internal molten rain) in rogue planet survival out-retentive standard extreme exoplanet shorts.",
+  "model_used": "gemini-3.8-flash",
+  "generated_at": "2026-10-16T23:45:12.053808+00:00"
 }
