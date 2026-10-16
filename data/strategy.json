@@ -1,46 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Deduplicated analysis of the latest observations reveals that space and planetary 'What If' scenarios (specifically extreme exoplanets and cosmic phenomena like diamond/burning ice/dark planets) dominate both view counts and audience engagement (likes-per-view). Videos focusing on theoretical destruction, extreme planetary environments (e.g., IYuce8vaU3Y, A9Qa-RmuOr0, 8KEl0_pJ_68), and bizarre comparative scales outperform standard psychological tricks or historical mysteries in this dataset window. Recent uploads published late September show superior velocity compared to older September clips.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Exoplanet & 'What If' Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) generated 1,028 views with 38 likes, and 'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0) reached 980 views with 21 likes shortly after release.",
-      "action": "Double down on high-stakes, immersive planetary 'What If' hooks that force the viewer to visualize extreme physical sensations in space."
-    },
-    {
-      "pattern": "Bizarre Cosmic/Natural Superlatives",
-      "evidence": "Titles featuring ultra-rare celestial objects or paradoxes like 'The Planet Darker Than Coal' (v1rrcZLdp4U) and 'This Planet Rains Supersonic Rubies!' (QXuqYERlqSo) drove over 700 to 1,000+ views rapidly.",
-      "action": "Maintain high-impact adjectives (supersonic, darker than coal, burning ice) paired with colorful emojis in the title and hook."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Low-Engagement Psychological Trivia",
-      "evidence": "Videos focusing on internal brain quirks or memory tricks (e.g., 'Your Brain Can Create Fake Memories' with video_id 2fqaGqfsR4A or r43-7nSn8SQ) stalled out under 15 views and zero likes.",
-      "action": "Deprioritize abstract psychological micro-facts unless they involve shocking, visceral survival or extreme biological anomalies."
-    },
-    {
-      "pattern": "Stale General Space Facts Without Actionable Stakes",
-      "evidence": "Generic statements like 'Why Space Is Completely Silent' plateaued quickly in later uploads compared to interactive hypothetical drops.",
-      "action": "Avoid passive space trivia; frame every cosmic fact as an active environmental threat or mind-bending paradox."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "space",
-    "hook_style": "What If / Extreme Sensory Threat",
-    "concept": "What If You Fell Into a Star Made Entirely of Liquid Neon?",
-    "opening_direction": "Start directly with the terrifying visual of plunging into a glowing, translucent stellar ocean that freezes instead of burns.",
-    "twist_direction": "Reveal that despite the freezing neon light, the atmospheric pressure would instantly compress you into a diamond lattice before you could sink.",
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
     "duration_seconds": 15,
-    "posting_window": "12:00 PM - 2:00 PM EST",
-    "reason": "Leverages the proven high-performing 'What If' exoplanet/liquid mechanics pattern that drove top engagement on IYuce8vaU3Y and 8KEl0_pJ_68.",
-    "fresh_topic_constraints": [
-      "Must not use diamonds, burning ice, or pitch-black darkness (already used in previous titles).",
-      "Must feature a completely new celestial phenomenon (liquid neon star)."
-    ]
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test whether framing an exoplanet scenario purely around an unfamiliar element (Neon) maintains the high click-to-view velocity of previous carbon/diamond planet shorts.",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-16T07:23:10.757226+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-10-16T12:35:35.509032+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-10-16T12:35:35.509051+00:00"
 }
