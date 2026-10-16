@@ -1,47 +1,46 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of 47 unique Shorts reveals a stark performance divergence: immersive first-person 'What If You Fell Into...' cosmic/exoplanet survival scenarios and extreme planetary paradoxes consistently outperform all other formats, generating 800-1,050+ views and 20-38 likes per upload. Conversely, psychology trivia ('Brain can create fake memories', 'Songs stuck in your head') and repeatedly recycled re-uploads severely underperform, stalling between 5 and 95 views. Retention and engagement peak when high-stakes sensory simulation is paired with durations between 19 and 21 seconds.",
+  "overall_summary": "Deduplicated analysis of the latest observations reveals that space and planetary 'What If' scenarios (specifically extreme exoplanets and cosmic phenomena like diamond/burning ice/dark planets) dominate both view counts and audience engagement (likes-per-view). Videos focusing on theoretical destruction, extreme planetary environments (e.g., IYuce8vaU3Y, A9Qa-RmuOr0, 8KEl0_pJ_68), and bizarre comparative scales outperform standard psychological tricks or historical mysteries in this dataset window. Recent uploads published late September show superior velocity compared to older September clips.",
   "winning_patterns": [
     {
-      "pattern": "First-Person Hazard Simulation ('What If You Fell Into...')",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,028 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) hold the highest view velocity and like-to-view ratios (>3.7%).",
-      "action": "Adopt the visceral second-person POV ('You step out...', 'Your suit begins to...') focused on extreme cosmic environments and exotic physical phenomena."
+      "pattern": "Extreme Exoplanet & 'What If' Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) generated 1,028 views with 38 likes, and 'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0) reached 980 views with 21 likes shortly after release.",
+      "action": "Double down on high-stakes, immersive planetary 'What If' hooks that force the viewer to visualize extreme physical sensations in space."
     },
     {
-      "pattern": "Counter-Intuitive Planetary Extremes with 19–21s Duration",
-      "evidence": "Titles detailing extreme planetary dynamics like 'The Planet Darker Than Coal: TrES-2b' (1,027 views, 36 likes) and 'Venus Has a Day Longer Than Its Year' (980 views, 21 likes) generated the channel's highest view counts.",
-      "action": "Maintain short durations (19–21s) that allow fast-paced visual delivery of astronomical anomalies with strong opening curiosity gaps."
+      "pattern": "Bizarre Cosmic/Natural Superlatives",
+      "evidence": "Titles featuring ultra-rare celestial objects or paradoxes like 'The Planet Darker Than Coal' (v1rrcZLdp4U) and 'This Planet Rains Supersonic Rubies!' (QXuqYERlqSo) drove over 700 to 1,000+ views rapidly.",
+      "action": "Maintain high-impact adjectives (supersonic, darker than coal, burning ice) paired with colorful emojis in the title and hook."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Psychology & Cognitive Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' was posted multiple times and flatlined at 5–53 views; 'The Real Reason Songs Get Stuck In Your Head' stalled at 17 views.",
-      "action": "Halt generic psychology micro-facts; they lack visual tension and fail to hold Shorts feed retention without a high-stakes narrative."
+      "pattern": "Low-Engagement Psychological Trivia",
+      "evidence": "Videos focusing on internal brain quirks or memory tricks (e.g., 'Your Brain Can Create Fake Memories' with video_id 2fqaGqfsR4A or r43-7nSn8SQ) stalled out under 15 views and zero likes.",
+      "action": "Deprioritize abstract psychological micro-facts unless they involve shocking, visceral survival or extreme biological anomalies."
     },
     {
-      "pattern": "Exact Topic Duplication & Re-uploading",
-      "evidence": "'Why Space Is Completely Silent' posted three times achieved only 34 to 220 views with near-zero engagement; multiple octopus heart uploads showed stagnant returns.",
-      "action": "Enforce strict uniqueness rules across script production. Never re-cover covered concepts; always explore fresh astronomical or survival entities."
+      "pattern": "Stale General Space Facts Without Actionable Stakes",
+      "evidence": "Generic statements like 'Why Space Is Completely Silent' plateaued quickly in later uploads compared to interactive hypothetical drops.",
+      "action": "Avoid passive space trivia; frame every cosmic fact as an active environmental threat or mind-bending paradox."
     }
   ],
   "next_video": {
-    "category": "what-if scenarios",
-    "hook_style": "Second-person sensory immersion / high-stakes cosmic survival",
-    "concept": "What happens second-by-second if a human in an advanced pressure suit plunges onto K2-141b—a hellish exoplanet where the surface is an endless magma ocean and the atmosphere evaporates vaporized rock into supersonic stone rain.",
-    "opening_direction": "Visual macro shot of a spacesuit helmet visor reflecting a blinding crimson lava sea. Text hook: 'If you fell onto K2-141b, you wouldn't drown in lava—the atmosphere would vaporize your bones before you hit the surface.'",
-    "twist_direction": "Reveal that the planet's clouds are made of liquid rock: supersonic winds blast molten mineral droplets at 5,000 mph, raining literal boulders from the sky back into an infinite magma ocean.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 02:00 PM UTC",
-    "reason": "Directly leverages the top-performing 'What If You Fell Into...' format and extreme planetary physics niche, while introducing a completely unmentioned, visually striking exoplanet.",
+    "category": "space",
+    "hook_style": "What If / Extreme Sensory Threat",
+    "concept": "What If You Fell Into a Star Made Entirely of Liquid Neon?",
+    "opening_direction": "Start directly with the terrifying visual of plunging into a glowing, translucent stellar ocean that freezes instead of burns.",
+    "twist_direction": "Reveal that despite the freezing neon light, the atmospheric pressure would instantly compress you into a diamond lattice before you could sink.",
+    "duration_seconds": 15,
+    "posting_window": "12:00 PM - 2:00 PM EST",
+    "reason": "Leverages the proven high-performing 'What If' exoplanet/liquid mechanics pattern that drove top engagement on IYuce8vaU3Y and 8KEl0_pJ_68.",
     "fresh_topic_constraints": [
-      "Do NOT use TrES-2b, Gliese 436b (burning ice), 55 Cancri e / diamond planets, WASP-76b (iron rain), HD 189733b (glass rain), or J1407b",
-      "Focus strictly on K2-141b rock-vapor weather cycle and magma ocean dynamics",
-      "Ensure runtime is precisely 20-21 seconds for maximum completion rate"
+      "Must not use diamonds, burning ice, or pitch-black darkness (already used in previous titles).",
+      "Must feature a completely new celestial phenomenon (liquid neon star)."
     ]
   },
-  "experiment": "Test opening with a literal sound effect + visual countdown of survivability ('You have 1.4 seconds before your visor melts') against standard question hooks to measure if immediate time-to-catastrophe boosts 3-second hold rate above 75%.",
-  "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-10-16T01:33:06.369911+00:00"
+  "experiment": "Test whether framing an exoplanet scenario purely around an unfamiliar element (Neon) maintains the high click-to-view velocity of previous carbon/diamond planet shorts.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-10-16T07:23:10.757226+00:00"
 }
