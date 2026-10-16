@@ -1,47 +1,47 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of 47 unique Shorts reveals that visceral, first-person hypothetical survival scenarios ('What If You Fell Into...') and extreme planetary anomalies dominate both total reach and recent daily velocity (generating 700 to 1,050+ views and 3.5%+ like rates). Conversely, recycled passive psychology trivia (such as earworms and fake memories) and generic animal factoids consistently flatline under 100 views with negligible engagement.",
+  "overall_summary": "Analysis of 47 unique Shorts reveals a stark performance divergence: immersive first-person 'What If You Fell Into...' cosmic/exoplanet survival scenarios and extreme planetary paradoxes consistently outperform all other formats, generating 800-1,050+ views and 20-38 likes per upload. Conversely, psychology trivia ('Brain can create fake memories', 'Songs stuck in your head') and repeatedly recycled re-uploads severely underperform, stalling between 5 and 95 views. Retention and engagement peak when high-stakes sensory simulation is paired with durations between 19 and 21 seconds.",
   "winning_patterns": [
     {
-      "pattern": "First-Person Hypothetical Hazards ('What If You Fell Into...')",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,028 views, 38 likes, 2 comments) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) outperform channel benchmarks by 4x to 8x.",
-      "action": "Frame high-concept planetary and cosmic science as immediate first-person survival simulations with sensory-heavy stakes."
+      "pattern": "First-Person Hazard Simulation ('What If You Fell Into...')",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,028 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) hold the highest view velocity and like-to-view ratios (>3.7%).",
+      "action": "Adopt the visceral second-person POV ('You step out...', 'Your suit begins to...') focused on extreme cosmic environments and exotic physical phenomena."
     },
     {
-      "pattern": "Mind-Bending Extreme Scale & Astronomical Contradictions",
-      "evidence": "'Venus Has a Day Longer Than Its Year' secured 980 views and 21 likes as the top recent performer (~70 views/day velocity); 'The Planet Darker Than Coal' reached 1,027 views with 36 likes.",
-      "action": "Pair a paradoxical one-line contradiction with cinematic, high-contrast imagery to hook viewers in the first 1.5 seconds."
+      "pattern": "Counter-Intuitive Planetary Extremes with 19–21s Duration",
+      "evidence": "Titles detailing extreme planetary dynamics like 'The Planet Darker Than Coal: TrES-2b' (1,027 views, 36 likes) and 'Venus Has a Day Longer Than Its Year' (980 views, 21 likes) generated the channel's highest view counts.",
+      "action": "Maintain short durations (19–21s) that allow fast-paced visual delivery of astronomical anomalies with strong opening curiosity gaps."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Abstract Psychology & Brain Trivia",
-      "evidence": "Multiple variations of 'Your Brain Can Create Fake Memories' stalled at 5, 10, and 53 views; 'The Real Reason Songs Get Stuck In Your Head' earned only 17 views.",
-      "action": "Cease publishing standalone psychology tips and generic brain factoids lacking narrative danger or strong visual anchors."
+      "pattern": "Generic Psychology & Cognitive Facts",
+      "evidence": "'Your Brain Can Create Fake Memories' was posted multiple times and flatlined at 5–53 views; 'The Real Reason Songs Get Stuck In Your Head' stalled at 17 views.",
+      "action": "Halt generic psychology micro-facts; they lack visual tension and fail to hold Shorts feed retention without a high-stakes narrative."
     },
     {
-      "pattern": "Duplicate Concept Cannibalization",
-      "evidence": "Posting identical concepts like 'Why Space Is Completely Silent' repeatedly collapsed reach from 220 views down to 34 views.",
-      "action": "Enforce a strict deduplication cooldown to prevent identical hook and topic re-runs across 30-day windows."
+      "pattern": "Exact Topic Duplication & Re-uploading",
+      "evidence": "'Why Space Is Completely Silent' posted three times achieved only 34 to 220 views with near-zero engagement; multiple octopus heart uploads showed stagnant returns.",
+      "action": "Enforce strict uniqueness rules across script production. Never re-cover covered concepts; always explore fresh astronomical or survival entities."
     }
   ],
   "next_video": {
     "category": "what-if scenarios",
-    "hook_style": "First-Person Peril / Sensory Shock",
-    "concept": "What If You Fell Into Jupiter's Liquid Metal Ocean?",
-    "opening_direction": "Open mid-plunge through screaming neon clouds: 'If you jumped into Jupiter, you wouldn't hit solid ground—you'd drown in glowing liquid metal.'",
-    "twist_direction": "Reveal that miles down, hydrogen is crushed under 2 million atmospheres into an electric mirror-like liquid that melts your spacecraft instantly before you reach the core.",
+    "hook_style": "Second-person sensory immersion / high-stakes cosmic survival",
+    "concept": "What happens second-by-second if a human in an advanced pressure suit plunges onto K2-141b—a hellish exoplanet where the surface is an endless magma ocean and the atmosphere evaporates vaporized rock into supersonic stone rain.",
+    "opening_direction": "Visual macro shot of a spacesuit helmet visor reflecting a blinding crimson lava sea. Text hook: 'If you fell onto K2-141b, you wouldn't drown in lava—the atmosphere would vaporize your bones before you hit the surface.'",
+    "twist_direction": "Reveal that the planet's clouds are made of liquid rock: supersonic winds blast molten mineral droplets at 5,000 mph, raining literal boulders from the sky back into an infinite magma ocean.",
     "duration_seconds": 21,
-    "posting_window": "12:30 - 13:30 UTC",
-    "reason": "Capitalizes on the channel's highest-converting hook architecture ('What If You Fell Into...') while introducing a fresh solar system mega-structure rather than repeating exoplanets.",
+    "posting_window": "12:00 PM - 02:00 PM UTC",
+    "reason": "Directly leverages the top-performing 'What If You Fell Into...' format and extreme planetary physics niche, while introducing a completely unmentioned, visually striking exoplanet.",
     "fresh_topic_constraints": [
-      "No exoplanets already used (avoid TrES-2b, 55 Cancri e, Gliese 436b, WASP-76b, HD 189733b)",
-      "Must focus on the bizarre physics of metallic hydrogen",
-      "Keep pacing under 22 seconds to maximize completion rate"
+      "Do NOT use TrES-2b, Gliese 436b (burning ice), 55 Cancri e / diamond planets, WASP-76b (iron rain), HD 189733b (glass rain), or J1407b",
+      "Focus strictly on K2-141b rock-vapor weather cycle and magma ocean dynamics",
+      "Ensure runtime is precisely 20-21 seconds for maximum completion rate"
     ]
   },
-  "experiment": "Test whether placing the viewer inside a familiar solar system body (Jupiter's interior) yields higher retention and comment debates compared to distant, less familiar exoplanet survival scenarios.",
+  "experiment": "Test opening with a literal sound effect + visual countdown of survivability ('You have 1.4 seconds before your visor melts') against standard question hooks to measure if immediate time-to-catastrophe boosts 3-second hold rate above 75%.",
   "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-10-15T23:09:36.506883+00:00"
+  "generated_at": "2026-10-16T01:33:06.369911+00:00"
 }
