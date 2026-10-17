@@ -1,46 +1,46 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of 47 unique videos shows that first-person sensory survival hooks ('What If You Fell Into...') and extreme cosmic anomaly deep-dives consistently drive 5x to 10x higher engagement and view velocity (800-1,050 views, 20-38 likes) compared to generic trivia. In contrast, recycled psychology facts and duplicate re-uploads (e.g., octopus hearts, earworms, fake memories) suffer extreme audience fatigue with views collapsing below 50.",
+  "overall_summary": "Analysis of deduplicated YouTube Shorts data reveals that extreme cosmic anomalies and hypothetical 'What If' scenarios featuring planetary extremes (e.g., diamond planets, burning ice, dark planets) drive the highest velocity in views-per-day and engagement-per-view compared to standard biology facts or psychological tricks. Videos published within the last 7 to 30 days significantly outperform older catalog items in relative daily traction.",
   "winning_patterns": [
     {
-      "pattern": "First-Person Hypothetical Survival / Extreme Sensory Plunge",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) outperformed standard trivia titles by 400%+.",
-      "action": "Use the high-stakes 'What If You Fell Into...' or cinematic survival scenario structure with visceral visceral sensory descriptions (temperature, pressure, sight)."
+      "pattern": "Planetary Extremes & 'What If' Cosmic Scenarios",
+      "evidence": "Videos like IYuce8vaU3Y ('What If You Fell Into a Liquid Diamond Planet?') and v1rrcZLdp4U ('The Planet Darker Than Coal') generated over 1,000 views rapidly with strong like-per-view ratios.",
+      "action": "Double down on high-stakes cosmic 'What If' scenarios and bizarre exoplanet weather conditions."
     },
     {
-      "pattern": "Mind-Bending Extreme Physical Paradoxes",
-      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,028 views, 36 likes) and 'Venus Has a Day Longer Than Its Year' (981 views, 21 likes) generated channel-leading retention and engagement.",
-      "action": "Frame exoplanetary and cosmic phenomena around physics contradictions (e.g., burning cold, crushing light, backward time)."
+      "pattern": "Extreme Comparisons with Visual Emojis",
+      "evidence": "A9Qa-RmuOr0 ('Venus Has a Day Longer Than Its Year 🤯') achieved nearly 1,000 views and 21 likes efficiently by combining a mind-bending temporal fact with expressive punctuation.",
+      "action": "Use counter-intuitive physics/astronomy contrasts paired with curiosity-inducing emojis in titles."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Psychology & Memory Trivia Re-uploads",
-      "evidence": "Repeated uploads of 'Your Brain Can Create Fake Memories' flatlined at 5, 10, and 53 views; earworm facts hovered at 17 to 71 views.",
-      "action": "Halt generic neuro-trivia rehashes and abstract brain facts lacking narrative tension or visual stakes."
+      "pattern": "Low-Engagement Psychological Tricks",
+      "evidence": "ef3ND4qiRHc and 5AN7LUgqarc received minimal daily traction and low view counts relative to space content.",
+      "action": "Deprioritize abstract psychological micro-tips unless paired with a dramatic biological hook."
     },
     {
-      "pattern": "Duplicate Video Uploads with Identical Hooks",
-      "evidence": "Triple uploads of 'Why Space Is Completely Silent' (34-220 views) and 'Octopuses Have THREE Hearts' (118-363 views) yielded diminishing returns.",
-      "action": "Enforce strict deduplication; rotate fresh subject entities instead of reposting variations of previously covered facts."
+      "pattern": "Stale Animal Facts",
+      "evidence": "AXAfwrzzEdU and 1Bm0zw_qAAg ('Octopuses Have THREE Hearts') showed flat, stagnant long-term growth after initial spikes.",
+      "action": "Avoid repeating standard animal trivia; pivot animal content toward cinematic survival or extreme evolutionary adaptations."
     }
   ],
   "next_video": {
-    "category": "what-if scenarios",
-    "hook_style": "First-Person Sensory Survival Immersion",
-    "concept": "What If You Stepped Onto KELT-9b: The Vaporized Metal World",
-    "opening_direction": "Start directly inside the descent: 'If you stepped out onto KELT-9b, your spacecraft would melt into glowing plasma before you even touched the atmosphere.'",
-    "twist_direction": "Reveal that the planet is so blisteringly hot that iron and titanium exist as glowing atmospheric clouds, tearing its own molecules apart into atomic shred.",
-    "duration_seconds": 21,
-    "posting_window": "12:30 - 13:30 UTC",
-    "reason": "Leverages the proven high-conversion 'What If You Fell/Stepped Into' survival hook on a completely untouched extreme astronomical body (KELT-9b, hotter than most stars), maximizing click-through and curiosity retention.",
+    "category": "Space & Astronomy",
+    "hook_style": "Hypothetical catastrophic scenario",
+    "concept": "What If You Fell Into a Star Made Entirely of Liquid Neon?",
+    "opening_direction": "Start directly with the terrifying descent into a transparent, glowing neon star where gravity accelerates you past terminal velocity.",
+    "twist_direction": "Reveal that before hitting a solid surface—because there isn't one—extreme pressure liquefies your spacesuit into glass.",
+    "duration_seconds": 18,
+    "posting_window": "12:00 PM - 3:00 PM EST",
+    "reason": "Capitalizes on the proven high-performing 'What If' planetary and stellar extreme formats that generate peak engagement in recent data.",
     "fresh_topic_constraints": [
-      "Must not feature Gliese 436b (burning ice), 55 Cancri e (diamond planet), HD 189733b (glass rain), TrES-2b (darkest planet), WASP-76b (iron rain), or Venus.",
-      "Must not repeat octopus hearts, shark age comparisons, or brain memory trivia."
+      "Must not feature diamonds, dark planets, burning ice, or rain of metals/rubies.",
+      "Must use a newly introduced celestial element (Liquid Neon star)."
     ]
   },
-  "experiment": "Test whether framing the opening hook around instant personal survival sensory consequences ('Your spacesuit would vaporize in 0.3 seconds') delivers higher retention at the 5-second mark than passive exoplanet trivia statements.",
-  "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-10-17T13:49:57.535051+00:00"
+  "experiment": "Test a 21-second narrative structure on an undiscovered exoplanet extreme to measure whether increased watch time improves algorithmic push over the 16-second baseline.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-10-17T17:23:02.715508+00:00"
 }
