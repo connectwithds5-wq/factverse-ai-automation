@@ -1,47 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "After deduplicating 47 unique videos, performance is polarized. High-concept 'What If You Fell Into...' extreme space survival scenarios and counter-intuitive planetary physics dominate the channel's top performers (consistently hitting 800–1,050+ views and 20–38 likes with 19–21s runtimes). Conversely, redundant psychology trivia ('fake memories', 'earworms') and recycled basic space facts ('space is silent', 'stars older than the universe') suffer severe viewer fatigue, languishing under 100 views.",
+  "overall_summary": "Deduplication of 47 unique Shorts reveals an overwhelming viewer preference for high-stakes, first-person exoplanetary survival scenarios ('What If You Fell Into...') and extreme cosmic anomalies, consistently generating 800-1,050+ views and 3.5%+ like ratios at 19-21s durations. Conversely, standard psychology trivia ('Brain Can Create Fake Memories', earworms) and recycled animal facts repeatedly flatlined under 100 views. Reposting identical or near-identical scripts multiple times severely suppressed algorithmic distribution.",
   "winning_patterns": [
     {
-      "pattern": "First-Person Extreme Survival Scenario ('What If You Fell Into...')",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes), 'What If You Fell Into the Darkest Planet?' (823 views, 15 likes), and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) represent the highest tier of engagement and watch velocity.",
-      "action": "Pair immediate visceral peril with exotic astrophysical entities, focusing on step-by-step physical breakdown of the human body."
+      "pattern": "First-Person Extreme Cosmic Survival ('What If You Fell Into...')",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet' (1,029 views, 38 likes), 'What If You Fell Into the Planet of Burning Ice' (972 views, 18 likes), and 'The Planet Darker Than Coal: TrES-2b' (1,028 views, 36 likes) represent the channel's highest traction tier.",
+      "action": "Anchor production in immersive 19-21s survival scenarios exploring hostile, bizarre celestial bodies with visceral second-person pacing."
     },
     {
-      "pattern": "Paradoxical Extreme Physics Hook with Optimal Duration (19-21s)",
-      "evidence": "'Venus Has a Day Longer Than Its Year' generated 981 views in 15 days; 'The Planet Darker Than Coal' reached 1,028 views and 36 likes. Both utilize tight ~20-second pacing that maximizes completion rate.",
-      "action": "Maintain short runtimes (19–21 seconds) and open directly on a brain-breaking scientific contrast without intro fluff."
+      "pattern": "Sensory Shock & Mind-Bending Paradox Hooks",
+      "evidence": "'Venus Has a Day Longer Than Its Year' (981 views, 21 likes) and 'This Planet Rains Supersonic Rubies!' (723 views, 25 likes) outperform static declarative facts.",
+      "action": "Lead with counter-intuitive physical phenomena framed through extreme tangible consequences rather than dry encyclopedic definitions."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Recycled Abstract Brain/Psychology Trivia",
-      "evidence": "Multiple iterations of 'Your Brain Can Create Fake Memories' flatlined at 5, 10, and 53 views; 'Your Brain Is Hiding This From You' capped at 38 views.",
-      "action": "Shelve low-stakes cognitive bias trivia; pivot psychological concepts into visceral physiological horror or high-stakes survival mysteries."
+      "pattern": "Recycled Static Psychology & Neuroscience Trivia",
+      "evidence": "Multiple re-uploads of 'Your Brain Can Create Fake Memories' achieved 5, 10, and 53 views; 'Your Brain Is Hiding This From You' stalled at 38 views.",
+      "action": "Cease low-stakes cognitive trivia micro-facts unless embedded within a high-stakes psychological mystery or survival narrative."
     },
     {
-      "pattern": "Duplicate & Overplayed Generic Astronomy Facts",
-      "evidence": "Repeated uploads of 'Why Space Is Completely Silent' collapsed down to 34 views; 'This Star Is Older Than the Universe!' stalled at 11 views.",
-      "action": "Enforce strict deduplication; reject generalized planetary trivia in favor of named, extreme, high-threat celestial anomalies."
+      "pattern": "Duplicate Video Uploading / Title Cannibalization",
+      "evidence": "'Why Space Is Completely Silent' posted 3 times dropped from 220 to 87 to 34 views; 'Octopuses Have THREE Hearts' repeated with diminishing impact.",
+      "action": "Enforce a strict anti-repetition registry; every Short must tackle an unreleased subject with fresh narrative architecture."
     }
   ],
   "next_video": {
     "category": "what-if scenarios",
-    "hook_style": "Visceral first-person survival simulation",
-    "concept": "What happens if you drift within 1,000 kilometers of a Magnetar (SGR 1806-20)",
-    "opening_direction": "Visual drops directly into pitch black space facing a pulsating neutron core: 'If you fell toward a Magnetar, you wouldn’t die from heat or impact.'",
-    "twist_direction": "Reveal that before you even touch it, the 100-billion-Tesla magnetic field instantly warps your atoms into needle-thin cylinders, unraveling your DNA and dissolving your bio-electric nervous system in milliseconds.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 02:00 PM UTC",
-    "reason": "Leverages FACTVERSE's top-performing hook format ('What If You Fell Into...') while introducing a fresh, horrifying cosmic entity (Magnetar) that has never been covered on the channel.",
+    "hook_style": "Visceral first-person survival threat with a physical impossibility hook",
+    "concept": "What If You Got Within 1,000 Kilometers of a Magnetar?",
+    "opening_direction": "Start mid-action at 0:00: 'If you drifted within 1,000 kilometers of a magnetar, you wouldn't be crushed by gravity—your chemistry would simply dissolve.'",
+    "twist_direction": "At 0:13, reveal that the magnetic field is so intensely powerful that it stretches every atom in your body into needle-thin cylinders, instantly wiping your bio-electrical nerve signals before pain can even register.",
+    "duration_seconds": 20,
+    "posting_window": "12:30 - 13:30 UTC",
+    "reason": "Leverages the proven high-retention 'What If' cosmic danger mechanic that drives the channel's 1,000+ view tier, while pivoting to a completely untouched, scientifically staggering entity (magnetars/SGR 1806-20).",
     "fresh_topic_constraints": [
-      "Do not mention exoplanet rain (iron, glass, diamonds, rubies)",
-      "Do not mention TrES-2b, J1407b, or burning ice",
-      "Focus exclusively on Magnetar magnetic field bio-destruction"
+      "Must not feature diamond planets (55 Cancri e), burning ice (Gliese 436b), TrES-2b, WASP-76b, or HD 189733b.",
+      "Must remain strictly non-fictional in scientific principle while employing second-person immersive framing.",
+      "Must not repeat shark longevity, octopus hearts, or relativistic time dilation."
     ]
   },
-  "experiment": "Test whether framing extreme space physics as physiological micro-horror ('what the magnetic field does to your cellular atoms') increases comment rate beyond the current 2-comment average by prompting audience debate on the scariest way to die in space.",
+  "experiment": "A/B test cold-opening with an immediate lethal sensory consequence ('Your atoms would stretch into needles') versus a conceptual question hook to determine if immediate physical threat improves 3-second hold rate above 75%.",
   "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-10-17T04:45:15.018111+00:00"
+  "generated_at": "2026-10-17T09:32:15.968081+00:00"
 }
