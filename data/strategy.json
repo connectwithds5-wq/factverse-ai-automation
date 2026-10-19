@@ -1,46 +1,50 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of the deduplicated performance metrics highlights that content framed around extreme space scenarios, speculative 'What If' planetary exploration, and cosmic curiosities achieve significantly higher engagement velocity (views-per-day and like-to-view ratios) than standard anatomical or psychological facts. In particular, titles involving extreme hypothetical planetary environments (e.g., liquid diamond, burning ice, nonillion-dollar diamond planets) drive superior audience retention and engagement compared to older historical or psychological micro-stories.",
+  "overall_summary": "Analysis of 47 deduplicated videos reveals a sharp performance split on FACTVERSE. Visceral 'What If You Fell Into...' second-person exploratory scenarios and extreme cosmic anomalies (such as TrES-2b, 55 Cancri e, and Venus's rotation) drive peak reach (800–1,050+ views) and highest engagement (up to 3.7% like rate). Conversely, generic psychology/brain trivia ('Fake Memories', 'Earworms') and duplicate uploads flatline under 100 views with negligible engagement. Pacing in the 19–21 second range consistently outperforms sub-16 second content.",
   "winning_patterns": [
     {
-      "pattern": "Speculative Planetary 'What If' Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) lead in views and engagement metrics over the recent 7-day period.",
-      "action": "Double down on high-stakes, visually striking planetary survival and exploration scenarios that trigger immediate curiosity and immersive world-building."
+      "pattern": "Second-Person 'What If You Fell Into...' Extreme Space Immersion",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes), 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes), and 'What If You Fell Into the Darkest Planet?' (823 views, 15 likes) dominate channel performance.",
+      "action": "Double down on sensory-rich, high-stakes 'What If' survival/immersion frameworks exploring terrifying cosmic entities."
     },
     {
-      "pattern": "Extreme Cosmic Anomalies & Rare Properties",
-      "evidence": "Videos covering bizarre space facts such as Venus having a day longer than its year (A9Qa-RmuOr0) and planetary rain phenomena (QXuqYERlqSo, v1rrcZLdp4U) exhibit strong organic traction and consistent view accumulation.",
-      "action": "Produce more short-form concepts focusing on extreme, counter-intuitive physical properties of celestial bodies with vivid visual metaphors."
+      "pattern": "Counter-Intuitive Extreme Planetary Phenomena (19-21s duration)",
+      "evidence": "'Venus Has a Day Longer Than Its Year' generated 981 views and 21 likes as the newest release; 'Planet Darker Than Coal' reached 1,029 views. Both maintained 19-21s runtimes.",
+      "action": "Select planetary and astronomical phenomena that present an immediate cognitive contradiction in the opening frame."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Psychological and Brain-Hacking Micro-Facts",
-      "evidence": "Topics centered around memory creation, songs stuck in the head, and basic human psychology (e.g., ef3ND4qiRHc, 5AN7LUgqarc, mGEgENcGcNE) underperform in total views and velocity relative to cosmic content.",
-      "action": "Deprioritize standard psychological tricks and redirect production resources toward cinematic space and high-concept physical sciences."
+      "pattern": "Generic Psychology & Cognitive Trivia",
+      "evidence": "'Your Brain Can Create Fake Memories' flopped across three attempts (5, 10, and 53 views), while songs stuck in your head netted only 17 to 71 views.",
+      "action": "Halt standalone textbook psychology trivia; reserve neuroscience only for high-stakes micro-drama or dark mysteries."
     },
     {
-      "pattern": "Static Zoological Trivia Without High-Stakes Framing",
-      "evidence": "Simple biological facts like octopus hearts or immortal jellyfish (AXAfwrzzEdU, F1kXwuXuNgo) show flat growth curves and minimal community engagement compared to planetary 'What If' scenarios.",
-      "action": "If producing animal content, pivot exclusively toward cinematic animal survival or extreme prehistoric context rather than simple static trivia."
+      "pattern": "Duplicate Video Flooding & Sub-16s Factoids",
+      "evidence": "Duplicate uploads of 'Why Space Is Completely Silent' dropped from 220 to 34 views; 'Octopuses Have THREE Hearts' (12s) languished with 0-1 likes.",
+      "action": "Eliminate direct re-uploads and enforce minimum 19-21s runtime with progressive narrative escalations instead of static facts."
     }
   ],
   "next_video": {
-    "category": "Space & Extreme Physics",
-    "hook_style": "What If / Extreme Sensory Immersion",
-    "concept": "Stepping onto the strangest rogue planet wandering through interstellar space with no star to orbit.",
-    "opening_direction": "Start with total pitch blackness and the shocking realization that this world is completely untethered from any solar system.",
-    "twist_direction": "Reveal that despite the freezing vacuum, the planet's core is heated entirely by radioactive decay, creating an underground glowing ocean beneath miles of ice.",
+    "category": "what-if scenarios",
+    "hook_style": "Visceral sensory second-person immersion",
+    "concept": "What If You Fell Onto a Magnetar?",
+    "opening_direction": "Instantly immerse the viewer falling toward a city-sized dead star, stating that within 1,000 kilometers, its magnetic field would dissolve their atomic bonds into microscopic threads.",
+    "twist_direction": "Reveal that gravity accelerates your body to a third of light speed—so your atoms hit the crust with the kinetic energy of a trillion nuclear warheads, flashing into pure gamma radiation.",
     "duration_seconds": 21,
-    "posting_window": "12:00 PM - 2:00 PM EST",
-    "reason": "Capitalizes on the proven high performance of 'What If' planetary survival formats while exploring a fresh astrophysical phenomenon not yet covered in the channel history.",
+    "posting_window": "07:00 - 08:00 UTC",
+    "reason": "Leverages the channel's strongest proven formula ('What If You Fell Into...') while introducing a fresh, unexploited cosmic phenomenon (magnetars/neutron stars) that combines extreme physics with visceral bodily stakes.",
     "fresh_topic_constraints": [
-      "Must not feature diamond planets, liquid metal rain, or standard black holes.",
-      "Must focus on a rogue planet scenario with original visual descriptions."
+      "Do not cover burning ice or Gliese 436b",
+      "Do not cover diamond planets or 55 Cancri e",
+      "Do not cover TrES-2b or darkest planets",
+      "Do not cover raining glass, iron, rock, rubies, or liquid metal",
+      "Do not cover shark age comparisons or octopus hearts",
+      "Do not cover Venus day length or head-to-feet time dilation"
     ]
   },
-  "experiment": "Test whether framing a rogue planet survival scenario with a high-contrast audio hook ('What if you lived on a world that escaped its solar system?') outperforms previous diamond-planet hooks in the first 24 hours.",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-19T00:22:56.586520+00:00"
+  "experiment": "Test whether framing an extreme astrophysical body as a deadly survival hazard ('What If You Stepped Onto / Fell Into...') lifts comment interaction beyond 2% by prompting viewers at the 18-second mark with a question on surviving vs. instant vaporisation.",
+  "model_used": "gemini-3.8-flash",
+  "generated_at": "2026-10-19T04:59:41.948578+00:00"
 }
