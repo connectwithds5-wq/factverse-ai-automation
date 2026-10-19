@@ -1,47 +1,21 @@
 {
   "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Analysis of 47 unique videos shows clear audience segmentation: immersive 'What If You Fell Into...' experiential space scenarios and extreme exoplanetary phenomenon drive the highest reach (700-1,050+ views, up to 3.7% like rate), whereas abstract psychology, generic brain trivia, and identical reposts consistently stall under 100 views. Videos between 19 and 21 seconds outperform shorter sub-16s clips in both engagement and view velocity.",
-  "winning_patterns": [
-    {
-      "pattern": "First-person extreme cosmic 'What If You Fell Into...' scenarios",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes, 2 comments) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) significantly outperform standard factual space statements.",
-      "action": "Use visceral second-person survival framing ('What happens when you drop into...') applied to terrifying cosmic and planetary environments."
-    },
-    {
-      "pattern": "High-contrast paradoxes and extreme physical extremes in exoplanets",
-      "evidence": "'The Planet of Burning Ice' (1,055 views), 'TrES-2b Darker Than Coal' (1,029 views), and 'Supersonic Rubies' (723 views) consistently crack top-tier viewership on the channel.",
-      "action": "Center hooks around sensory impossibilities (burning ice, diamond rain, supersonic gemstones) with vivid visual cues."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Generic psychology and repetitive memory trivia",
-      "evidence": "'Your Brain Can Create Fake Memories' flopped repeatedly across three uploads (5, 10, and 53 views); 'Songs Stuck in Your Head' averaged under 50 views.",
-      "action": "Retire generic brain/psychology facts unless framed as a high-stakes psychological mystery or biological anomaly."
-    },
-    {
-      "pattern": "Direct content reposting with identical scripts/titles",
-      "evidence": "Duplicate uploads of 'Why Space Is Completely Silent' and 'Octopuses Have THREE Hearts' saw sharp diminishing returns (dropping down to 34 views).",
-      "action": "Stop republishing identical assets; explore distinct entities within winning niches instead."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "what-if scenarios",
-    "hook_style": "Visceral first-person survival dilemma",
-    "concept": "What would actually happen to the human body if you fell toward a Magnetar (the universe's deadliest magnetic monster)?",
-    "opening_direction": "Start instantly mid-fall with deep-space sound design cutting out: 'At one thousand miles away, a Magnetar wouldn’t crush you—it would rip the chemistry of your body apart.'",
-    "twist_direction": "Reveal that before you ever touch the surface, the magnetic field is so violent it stretches your atoms into microscopic needles, dissolving your DNA and nervous system in silence.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 01:00 PM UTC",
-    "reason": "Leverages the proven high-engagement 'What If You Fell Into...' format that delivered the channel's top three performing videos, applied to an unused extreme celestial body (Magnetar / SGR 1806-20) at the optimal 21-second duration.",
-    "fresh_topic_constraints": [
-      "Do not cover TrES-2b, 55 Cancri e, Gliese 436 b, WASP-76b, Venus, or Saturn's rings",
-      "Do not reuse brain/memory tropes or octopus heart facts",
-      "Keep focus entirely on the physical biological disintegration caused by extreme stellar magnetic fields"
-    ]
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test whether framing an extreme space object as an active survival horror micro-scenario ('What If You Fell Into...') increases the comment-to-view ratio above 0.5% by prompting viewers with a specific survival question in the final frame.",
-  "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-10-19T11:00:48.131946+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-10-19T17:36:42.608999+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-10-19T17:36:42.609020+00:00"
 }
