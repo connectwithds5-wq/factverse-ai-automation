@@ -1,21 +1,47 @@
 {
   "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Analysis of 47 unique uploads reveals a stark performance divide: first-person hypothetical immersion shorts ('What If You Fell Into...') focusing on extreme celestial environments consistently lead the channel, generating 800 to 1,050+ views and the highest engagement rates (up to 3.7% likes-per-view). Conversely, abstract cognitive psychology trivia and repetitive reposts of basic animal/space facts stall below 100 views with near-zero engagement. Optimizing for visceral survival-scale physics between 19 and 21 seconds yields the strongest algorithmic push.",
+  "winning_patterns": [
+    {
+      "pattern": "First-Person Speculative Ingestion / Fall Scenarios ('What If You Fell Into...')",
+      "evidence": "Videos using this framing ('Liquid Diamond Planet' with 1,029 views & 38 likes; 'Burning Ice' with 972 views & 18 likes; 'Darkest Planet' with 823 views & 15 likes) average over 800 views and drive nearly all channel comments.",
+      "action": "Anchor scripts in immediate, second-person hypothetical journeys into extreme physical conditions rather than passive third-person encyclopedic narration."
+    },
+    {
+      "pattern": "Visceral Sensory and Geological Extremes (19-21s pacing)",
+      "evidence": "'Planet Darker Than Coal' (1,029 views, 36 likes, 21s) and 'Supersonic Rubies' (723 views, 25 likes, 21s) outperformed shorter 12-16s general trivia by over 500%.",
+      "action": "Maintain optimal narrative runtime around 19-21 seconds, pacing the reveal across 3 distinct escalations of environmental hostility."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Abstract Psychology & Intangible Neuroscience",
+      "evidence": "'Your Brain Can Create Fake Memories' (5 to 53 views across multiple iterations), 'Earworms' (17 views), and 'Your Brain Is Hiding This' (38 views) generated 0 comments and under 1% engagement.",
+      "action": "Pause text-heavy, intangible cognitive trivia until visual and narrative frameworks can ground concepts in cinematic tension."
+    },
+    {
+      "pattern": "Exact Title/Topic Recycling",
+      "evidence": "Duplicate uploads of 'Why Space Is Completely Silent' (dropped from 220 to 34 views) and 'Octopuses Have THREE Hearts' produce diminishing returns and audience fatigue.",
+      "action": "Enforce strict deduplication; always tackle unexplored entities rather than re-uploading identical hooks."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "what-if scenarios",
+    "hook_style": "Second-person lethal proximity threshold",
+    "concept": "What happens to the human body when approaching a Magnetar (SGR 1806-20)",
+    "opening_direction": "Start instantly with high-contrast visual tension: 'If you were teleported 600 miles from a Magnetar, you wouldn't be crushed by gravity—your chemistry would literally unravel.'",
+    "twist_direction": "Reveal that before physical impact occurs, the magnetic field is so violently dense that it stretches your individual atoms into needle-thin cylinders, instantly dissolving nerve impulses and molecular bonds in milliseconds.",
+    "duration_seconds": 20,
+    "posting_window": "12:30-13:30 UTC",
+    "reason": "Leverages the proven high-engagement 'What If' survival framework on an astronomical extreme while introducing a completely untouched entity (magnetars/neutron physics) to avoid channel topic cannibalization.",
+    "fresh_topic_constraints": [
+      "No exoplanets or planetary atmospheres already covered (TrES-2b, Gliese 436b, 55 Cancri e, WASP-76b, HD 189733b, Venus, Saturn/J1407b are strictly off-limits)",
+      "Do not reuse brain/memory or octopus heart facts",
+      "Ground every lethal escalation in peer-reviewed astrophysics"
+    ]
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-10-19T17:36:42.608999+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-10-19T17:36:42.609020+00:00"
+  "experiment": "Test whether lethal stellar remnant physics (neutron star/magnetar atomic distortion) matches or exceeds the 1,000-view ceiling established by exotic exoplanet content.",
+  "model_used": "gemini-3.8-flash",
+  "generated_at": "2026-10-19T22:32:24.720195+00:00"
 }
