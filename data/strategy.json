@@ -1,47 +1,46 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Deduplicated analysis of 47 unique shorts shows a stark performance divide: first-person immersive 'What If You Fell Into...' cosmic survival scenarios and extreme planetary physics consistently outperform traditional trivia by 5x-10x in view volume and engagement (e.g., 800-1,050+ views, 20-38 likes, active comments). Conversely, generic psychology/neuroscience factoids and duplicated re-uploads completely flatline (<100 views). Recent late-September to October uploads confirm that sensory, high-stakes visceral physics paired with 19-21 second runtimes drive the strongest algorithmic momentum.",
+  "overall_summary": "After deduplicating 47 unique videos across September and October 2026, audience traction is heavily concentrated in visceral, high-stakes space exploration and 'What If You Fell Into...' immersive micro-survival scenarios. Videos utilizing direct hypothetical second-person hooks centered on lethal cosmic anomalies consistently breach 800 to 1,050+ views with top-tier like ratios (3.5%–4.0%), whereas generic psychology trivia, brain facts, and repeated audio-illusion topics floor out below 100 views and near-zero engagement.",
   "winning_patterns": [
     {
-      "pattern": "First-Person Planetary Catastrophe ('What If You Fell Into...')",
-      "evidence": "Titles using visceral descent hooks averaged 800-1,030 views: 'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes, 2 comments), 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes), and 'What If You Fell Into the Darkest Planet?' (823 views, 15 likes).",
-      "action": "Adopt the visceral, second-person survival narrative frame ('What happens to your body if you enter...') as the channel's core hook engine."
+      "pattern": "Second-Person Extreme Planetary Survival ('What If You Fell Into...')",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' generated 1,029 views and 38 likes; 'What If You Fell Into the Darkest Planet?' hit 823 views; 'What If You Fell Into the Planet of Burning Ice?' achieved 972 views.",
+      "action": "Standardize the high-peril second-person framing ('What If You...') paired with extreme visual environments and sensory deconstructions of what happens to the human body."
     },
     {
-      "pattern": "Mind-Bending Astronomical Anomalies with High Contrast Sensory Hooks",
-      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,030 views, 36 likes) and 'Venus Has a Day Longer Than Its Year' (981 views, 21 likes) generated the highest organic reach among non-'What If' formats.",
-      "action": "Select cosmic bodies defined by extreme physical contradictions (e.g., impossible pressures, atomic disruption, extreme radiation) that evoke immediate sensory horror."
+      "pattern": "Bizarre Counter-Intuitive Cosmic Physics with Visceral Sensory Hooks",
+      "evidence": "'Venus Has a Day Longer Than Its Year' achieved 981 views; 'The Planet Darker Than Coal' hit 1,030 views and 36 likes; 'This Planet Rains Supersonic Rubies!' hit 723 views.",
+      "action": "Focus exoplanet and astrophysics concepts on sensory paradoxes (touch, pressure, optical extremes) presented in tightly paced 19-21 second runtimes."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Psychology & Cognitive Trivia",
-      "evidence": "Repeated posts about memory and psychology tanked repeatedly: 'Your Brain Can Create Fake Memories' achieved only 5, 10, and 53 views across three attempts; 'Your Brain Is Hiding This From You' scored 38 views.",
-      "action": "Halt generic pop-psychology and cognitive fact uploads until the channel builds a broader subscriber base."
+      "pattern": "Passive Cognitive & Psychology Trivia",
+      "evidence": "Repeated uploads of 'Your Brain Can Create Fake Memories' achieved between 5 and 53 views; 'Your Brain Is Hiding This From You' flopped at 38 views; song-stuck hooks generated 17 to 71 views.",
+      "action": "Halt standalone textbook cognitive psychology shorts unless restructured into dramatic mystery or forensic thriller case studies."
     },
     {
-      "pattern": "Identical Title Duplication & Re-posting",
-      "evidence": "Multiple exact re-uploads ('Why Space Is Completely Silent' posted 3 times: 34, 87, 220 views; 'Octopuses Have THREE Hearts' posted 3 times: 118, 183, 363 views) yielded declining marginal returns.",
-      "action": "Never re-upload identical titles or recycled scripts; iterate only on core hook mechanics with completely fresh subjects."
+      "pattern": "Identical Topic Re-uploads Without Narrative Reinvention",
+      "evidence": "Reposting 'Why Space Is Completely Silent' collapsed from 220 views to 87 and then 34 views; duplicate 'Octopuses Have THREE Hearts' plateaued.",
+      "action": "Enforce strict deduplication; do not re-upload identical facts without changing the angle to a cinematic storytelling or survival scenario."
     }
   ],
   "next_video": {
     "category": "what-if scenarios",
-    "hook_style": "Visceral sensory stakes with an inescapable countdown",
-    "concept": "What If You Drifted Within 1,000 Miles of a Magnetar?",
-    "opening_direction": "Open instantly with a POV drifting toward SGR 1806-20: 'If your ship drifted within 1,000 miles of a magnetar, you wouldn't crash—your atoms would literally dissolve first.'",
-    "twist_direction": "Reveal that the magnetic field is so violent it distorts the electron clouds inside your cells into needles, vaporizing your tissues into a cloud of atomic mist in less than 0.2 seconds before radiation even reaches you.",
+    "hook_style": "Second-person lethal immersive simulation",
+    "concept": "What If You Drifted Onto a Rogue Planet (Nomad Worlds Free-Floating in Interstellar Space)?",
+    "opening_direction": "Open instantly with a POV dropping through perpetual absolute-zero blackness: 'If you fell onto a rogue world wandering completely alone in the dark between galaxies, you wouldn't freeze instantly—you'd suffocate under liquid methane lakes.'",
+    "twist_direction": "Reveal that despite eternal pitch black and -350°F surface frost, radioactive geothermal hydrothermal vents beneath miles-thick ice sheets could sustain alien oceans warmer than Earth's.",
     "duration_seconds": 21,
-    "posting_window": "12:00 PM - 01:30 PM UTC",
-    "reason": "Leverages the proven 'What If / bodily peril' archetype that drives FACTVERSE's top performers (1,000+ views), introducing a completely untouched, terrifying cosmic phenomenon (magnetars/atomic disruption) rather than repeating exoplanet weather.",
+    "posting_window": "12:00 PM - 01:00 PM UTC",
+    "reason": "Leverages the proven high-retention 'What If You Fell Into' hook style while introducing an unvisited, highly visual cosmic topic (interstellar rogue planets like PSO J318.5-22 / wandering dark worlds) avoiding past repetitions of diamond/glass/burning ice exoplanets.",
     "fresh_topic_constraints": [
-      "Must not cover TrES-2b, 55 Cancri e, Gliese 436b, WASP-12b, or J1407b",
-      "Must not reuse diamond rain, molten glass, or liquid iron tropes",
-      "Focus strictly on magnetar physics, electron distortion, and biological atomization"
+      "Do not feature TrES-2b, 55 Cancri e, Gliese 436 b, WASP-76b, or diamond/ice planets.",
+      "Do not frame fiction as a confirmed sighting; ground rogue planet physics in genuine astronomical models."
     ]
   },
-  "experiment": "Test whether framing extreme cosmic physics through cellular body horror ('atomic spaghettification/dissolution') yields a higher like-to-view ratio (>4.0%) and triggers higher comment debate than standard exoplanet climate shorts.",
+  "experiment": "Test testing sound design: integrate heavy sub-bass atmospheric droning and immersive first-person breathing sound effects in the first 3 seconds of the survival hook to evaluate if it boosts completion rate past 80%.",
   "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-10-21T00:45:08.782858+00:00"
+  "generated_at": "2026-10-21T06:12:59.476991+00:00"
 }
