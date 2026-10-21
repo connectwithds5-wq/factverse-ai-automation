@@ -1,47 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of deduplicated recent YouTube Shorts observations indicates high viewer engagement with hypothetical space scenarios ('What If You Fell Into...') and extreme planetary phenomena. Videos published within the last 7-30 days utilizing existential curiosity loops, extreme comparison stats, and mind-bending environmental hazards ('Liquid Diamond Planet', 'Planet of Burning Ice', 'Darkest Planet') consistently outperform generic static facts. Engagement metrics heavily favor space-based what-if scenarios with high like-per-view ratios.",
+  "overall_summary": "Analysis of deduplicated observations clearly shows that 'What If' scenarios and extreme planetary science topics published within the last 3 weeks are heavily outperforming older psychological, historical, or biological facts. Videos involving immersive existential danger or extreme cosmic environments (e.g., Venus, liquid diamond planets, dark planets, and burning ice worlds) generate significantly higher velocity, likes-per-view, and engagement than standard static trivia.",
   "winning_patterns": [
     {
-      "pattern": "Hypothetical Space Scenario ('What If You Fell Into...')",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Darkest Planet?' (YlDuGu1vzAg) generated high views (800-1000+) and strong engagement (38 likes, 2 comments) compared to older static facts.",
-      "action": "Produce more extreme hypothetical planetary immersion scenarios using vivid, high-stakes visual hooks."
+      "pattern": "Hypothetical 'What If' planetary immersion",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) dramatically outperform static fact listings.",
+      "action": "Double down on hypothetical immersion formats ('What If You Fell Into...') focusing on extreme physics and exotic extraterrestrial destinations."
     },
     {
-      "pattern": "Extreme Planetary Anomalies & Weather",
-      "evidence": "Titles detailing extreme conditions like 'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0) and 'This Planet Rains Supersonic Rubies!' (QXuqYERlqSo) drove over 700-980 views quickly with strong like conversion.",
-      "action": "Highlight bizarre, counterintuitive physics or extreme weather on specific real-world celestial bodies."
+      "pattern": "Bizarre planetary extremes & weird anomalies",
+      "evidence": "Titles featuring counterintuitive cosmic truths like 'Venus Has a Day Longer Than Its Year' (981 views) and 'The Planet Darker Than Coal' (1,030 views) gain high sustained traffic.",
+      "action": "Continue sourcing bizarre, highly specific astronomical phenomena with high cognitive dissonance."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Low-Stakes Human Psychology & Brain Facts",
-      "evidence": "Videos focusing on psychological tricks or memory like 'Your Brain Can Create Fake Memories' (2fqaGqfsR4A) or memory/song loops (ef3ND4qiRHc) stalled under 70 views with negligible engagement.",
-      "action": "Deprioritize abstract psychological micro-facts unless framed as high-conflict sensory or survival mysteries."
+      "pattern": "Static psychological and neurological trivia",
+      "evidence": "Topics like 'Your Brain Can Create Fake Memories' and 'The Psychological Trick to Stop Songs Stuck in Your Head' stagnate below 60-70 views after weeks of exposure.",
+      "action": "Deprioritize psychological trivia and standard human biology facts unless framed as extreme survival or sci-fi scenarios."
     },
     {
-      "pattern": "Flat Declarative Animal Trivia without Conflict",
-      "evidence": "Simple declarative statements like 'Octopuses Have THREE Hearts' (AXAfwrzzEdU) plateaued at lower velocity compared to high-concept space hooks.",
-      "action": "Upgrade animal facts into cinematic animal survival or extreme evolutionary paradoxes rather than basic trivia."
+      "pattern": "Short-form historical mysteries without visual scale",
+      "evidence": "'The 2,000-Year-Old Mystery Science Can't Solve' fails to generate the same velocity as cosmic disaster or planetary exploration hooks.",
+      "action": "Shift historical storytelling strictly toward high-stakes cinematic scenarios or micro-dramas rather than abstract museum-style trivia."
     }
   ],
   "next_video": {
-    "category": "space",
-    "hook_style": "hypothetical extreme survival immersion",
-    "concept": "What If You Fell Into a Superfluid Helium Ocean on Jupiter?",
-    "opening_direction": "Start instantly with the terrifying sensation of falling through an endless, frictionless ocean where you would neither sink nor swim.",
-    "twist_direction": "Reveal that because superfluid helium defies gravity and climbs up container walls, stepping onto this ocean would cause the liquid to instantly crawl up your body and engulf your lungs from the outside in.",
+    "category": "Space & Extreme Physics",
+    "hook_style": "Hypothetical existential danger scenario",
+    "concept": "What happens if you fall into the hottest known planet in the universe (Kelt-9b) where molecules are literally torn apart into atomic gas?",
+    "opening_direction": "Start mid-action falling through a blinding violet-white atmosphere as steel instantly vaporizes.",
+    "twist_direction": "Reveal that the planet is so hot it actually casts a shadow and behaves more like a failing star than a solid world.",
     "duration_seconds": 21,
-    "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Capitalizes on the proven high-performing 'What If You Fell Into...' space immersion pattern while exploring a completely fresh physical phenomenon not present in past uploads.",
+    "posting_window": "12:00 PM - 2:00 PM EST",
+    "reason": "Capitalizes on the proven high performance of 'What If' planetary immersion videos combined with extreme thermal physics.",
     "fresh_topic_constraints": [
-      "Do not use diamond, burning ice, or dark planet themes.",
-      "Avoid repeating previous planet names like Venus or TrES-2b.",
-      "Ensure physical accuracy regarding superfluid mechanics while maintaining cinematic pacing."
+      "Do not mention diamonds, ice, glass, or rain",
+      "Must feature a completely new celestial body (KELT-9b)",
+      "Strictly non-fictional astronomical data adapted for visual storytelling"
     ]
   },
-  "experiment": "A/B test a pure physics paradox hook ('Why Time Moves Slower For Your Head Than Your Feet') against an immersive planetary survival hook ('What If You Fell Into...'), measuring 24-hour view velocity and like-to-view ratios to confirm if hypothetical stakes consistently outperform time dilation concepts.",
+  "experiment": "Test a 21-second 'What If' space immersion video focusing on extreme stellar heat (KELT-9b) to see if it matches or exceeds the engagement metrics of the diamond and ice planet winners.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-21T17:28:07.534549+00:00"
+  "generated_at": "2026-10-21T20:46:21.531053+00:00"
 }
