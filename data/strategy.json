@@ -1,47 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Analysis of recent 7-day and lifetime performance indicates that hypothetical 'What If' space scenarios and extreme exoplanet descriptions are driving the highest views-per-day and engagement (likes/comments per view). Specifically, videos framing cosmic phenomena as extreme planetary environments (e.g., liquid diamond planets, burning ice, dark planets) significantly outperform standard factual statements or psychological trivia.",
-  "winning_patterns": [
-    {
-      "pattern": "What If Planetary Hazard Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) achieved over 970-1000+ views rapidly with strong like ratios compared to older static facts.",
-      "action": "Produce more hypothetical immersive scenario shorts centered on extreme cosmic or geographical environments."
-    },
-    {
-      "pattern": "Extreme Exoplanet Superlatives",
-      "evidence": "Titles featuring bizarre physical conditions on distant worlds ('Venus Has a Day Longer Than Its Year' - A9Qa-RmuOr0; 'The Planet Darker Than Coal' - v1rrcZLdp4U) generate over 900-1000 views with high engagement.",
-      "action": "Continue focusing on rare, visually distinct exoplanet anomalies with mind-bending physical laws."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Static Psychological Micro-Trivia",
-      "evidence": "Videos focusing on internal human psychology or songs stuck in the head (e.g., Jc04LVKNd2s, ef3ND4qiRHc) stagnated under 100 views with negligible engagement.",
-      "action": "Deprioritize psychological trivia and focus efforts entirely on high-visual-potential space, geography, and science concepts."
-    },
-    {
-      "pattern": "Low-Stakes Historical/Biological Facts",
-      "evidence": "Basic animal facts without extreme cinematic stakes (e.g., 'Your Brain Can Create Fake Memories', basic octopus facts) received low momentum.",
-      "action": "Shift animal and science concepts toward extreme survival or paradoxical phenomena."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "space",
-    "hook_style": "What If immersive physical hazard",
-    "concept": "What If You Fell Into the Coldest Known Place in the Universe (The Boomerang Nebula)?",
-    "opening_direction": "Start inside absolute zero, demonstrating how molecules instantly freeze and shatter solid steel on contact.",
-    "twist_direction": "Reveal that this freezing void is actually colder than the natural background temperature of the universe itself.",
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
     "duration_seconds": 15,
-    "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Capitalizes on the proven high performance of 'What If' space hazard formats while introducing a fresh cosmic location distinct from previous diamond or ice planets.",
-    "fresh_topic_constraints": [
-      "Must not use diamonds, burning ice, or tidally locked exoplanets",
-      "Must focus on the Boomerang Nebula thermodynamic anomaly",
-      "Must maintain high visual pacing suited for cinematic space rendering"
-    ]
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 15-second runtime with an immediate visceral sensory hook ('instant molecular freezing') versus previous 21-second formats to evaluate retention drop-off on extreme space scenarios.",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-22T10:21:49.955076+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-10-22T15:27:01.000400+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-10-22T15:27:01.000425+00:00"
 }
