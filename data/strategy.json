@@ -1,21 +1,47 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Analysis of the deduplicated performance metrics highlights that extreme cosmic anomalies and hypothetical space scenarios (\"What If\") are generating the highest views-per-day, strong like-to-view ratios, and active comments. Specifically, videos focusing on extreme planetary environments (e.g., TrES-2b, liquid diamond planets, and extreme weather like burning ice or dark planets published between late September and early October) consistently outperform standard science facts or historical/psychological curiosities. Engagement metrics emphasize that visually jarring hook styles posing existential or counter-intuitive planetary physics questions drive the best retention.",
+  "winning_patterns": [
+    {
+      "pattern": "Hypothetical Cosmic Scenarios ('What If you fell into...')",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) garnered over 970 to 1,000+ views rapidly with high like and comment counts.",
+      "action": "Double down on 'What If' space survival and extreme planetary environment concepts to capture high curiosity and viewer retention."
+    },
+    {
+      "pattern": "Bizarre Planetary Extremes & Anomalies",
+      "evidence": "Titles detailing strange physics or extreme conditions such as 'The Planet Darker Than Coal: TrES-2b' (v1rrcZLdp4U) and 'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0) lead in views-per-day over older or generic historical facts.",
+      "action": "Focus future scripts on lesser-known, visually distinct exoplanets and extreme astrophysical phenomena with counter-intuitive properties."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "General Psychological & Brain Tricks",
+      "evidence": "Topics like 'Your Brain Can Create Fake Memories' (5AN7LUgqarc) and song earworm tricks (ef3ND4qiRHc) have significantly lower view counts and stagnant velocity compared to space content.",
+      "action": "Deprioritize psychology and brain-hack micro-stories unless paired with a high-stakes, cinematic survival narrative."
+    },
+    {
+      "pattern": "Static Historical Curiosities",
+      "evidence": "Ancient mysteries like 'The 2,000-Year-Old Mystery Science Can't Solve' (yLm-FjYH6-k) show slow lifetime accumulation with negligible engagement.",
+      "action": "Avoid dry historical or general science trivia; pivot history concepts into high-concept cinematic micro-narratives or intense scenarios."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "Space & Astronomy What-If Scenarios",
+    "hook_style": "High-stakes visceral sensory question ('What if you stepped onto...')",
+    "concept": "Stepping onto WASP-76b, the exoplanet where it rains molten glass sideways at supersonic speeds, exploring the instant physical destruction.",
+    "opening_direction": "Start with a direct sensory shock: your boots melting before you even finish your first step.",
+    "twist_direction": "Reveal that the wind speeds here could strip the atmosphere off a spacecraft in seconds.",
+    "duration_seconds": 18,
+    "posting_window": "12:00 PM - 3:00 PM EST",
+    "reason": "Capitalizes on the proven high performance of extreme planetary weather and 'What If' survival formats demonstrated by top performers like IYuce8vaU3Y and vWd0uYcEGh4.",
+    "fresh_topic_constraints": [
+      "Must not reuse WASP-121b, TrES-2b, or standard diamond/iron rain planets already covered.",
+      "Focus exclusively on WASP-76b's unique sideways glass rain dynamics.",
+      "Ensure factual accuracy regarding tidally locked exoplanet weather."
+    ]
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-10-22T15:27:01.000400+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-10-22T15:27:01.000425+00:00"
+  "experiment": "Test a strict 'What If' survival hook on a newly discovered exoplanet versus a standard declarative fact title to measure exact impact on initial 24-hour velocity and viewer retention drop-off.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-10-22T19:19:01.529177+00:00"
 }
