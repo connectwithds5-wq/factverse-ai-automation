@@ -1,47 +1,42 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of recent performance indicates that space and astronomy topics utilizing high-stakes 'What If' scenarios and extreme planetary descriptions (e.g., diamond planets, extreme darkness, unusual orbits) drive significantly higher views and engagement ratios compared to psychological or general biological facts. Videos published within the last 30 days show clear breakout performance when framing bizarre cosmic realities around immersive hypothetical questions.",
+  "overall_summary": "Analysis of the deduplicated performance metrics highlights a dominant viewer preference for space and planetary 'What If' scenarios, particularly extreme environments involving bizarre physics, exotic materials, and celestial oddities. Videos framed around hypothetical falls into extreme planets (e.g., liquid diamond, burning ice) and rare planetary anomalies consistently achieve the highest velocity in views-per-day and strong engagement (likes-per-view). Conversely, psychological and biological trivia from older datasets show lower baseline momentum.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Planetary & Cosmic 'What If' Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Darkest Planet?' (823 views) demonstrate superior engagement velocity.",
-      "action": "Produce more short-form content focusing on hypothetical survival or interaction with extreme astronomical anomalies."
+      "pattern": "Extreme Planetary 'What If' Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) generate over 1,000 views rapidly with strong like ratios.",
+      "action": "Double down on hypothetical space disaster/immersion scenarios involving newly discovered or bizarre exoplanets."
     },
     {
-      "pattern": "Bizarre Material Paradoxes in Space",
-      "evidence": "Titles detailing surreal phenomena such as 'Venus Has a Day Longer Than Its Year' (981 views) and 'The Planet Darker Than Coal: TrES-2b' (1,030 views) capture strong initial curiosity and watch time.",
-      "action": "Highlight counter-intuitive physical properties of celestial bodies using bold numeric or comparative hooks."
+      "pattern": "Bizarre Cosmic Property Contrasts",
+      "evidence": "Titles featuring counterintuitive facts about celestial bodies—such as Venus having a day longer than its year (A9Qa-RmuOr0) or TrES-2b being darker than coal (v1rrcZLdp4U)—pull high initial traction and strong retention hooks.",
+      "action": "Continue utilizing cosmic anomaly contrasts that challenge common perceptions of physics and time."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Psychological & Memory Triggers",
-      "evidence": "Topics centered around internal cognitive tricks like 'Your Brain Can Create Fake Memories' underperformed severely (ranging from 5 to 53 views across multiple iterations).",
-      "action": "Deprioritize standard psychological facts and personal cognitive hacks in favor of external, visually arresting science and space concepts."
-    },
-    {
-      "pattern": "Repetitive Direct Fact Recyclings",
-      "evidence": "Directly repeating similar facts without a fresh narrative angle (e.g., multiple octopus heart shorts with diminishing returns) leads to stagnant view counts.",
-      "action": "Ensure strict novelty checking before production; avoid re-covering biological trivia unless paired with a completely novel cinematic presentation."
+      "pattern": "Abstract Psychological Tips & Memory Tricks",
+      "evidence": "Topics like 'The Psychological Trick to Stop Songs Stuck in Your Head' (ef3ND4qiRHc) and brain memory loops (5AN7LUgqarc) show stagnant view counts below 80 views after extended periods.",
+      "action": "Deprioritize abstract psychological life-hacks in favor of tangible, high-visual-potential space and physics concepts."
     }
   ],
   "next_video": {
-    "category": "Science & Space",
-    "hook_style": "Hypothetical Survival / Mind-Bending Scale",
-    "concept": "What Happens If You Step Onto a Planet Made Entirely of Boiling Water?",
-    "opening_direction": "Start directly with an impossible physical environment: a world where oceans boil constantly under crushing atmospheric pressure.",
-    "twist_direction": "Reveal that this hellish exoplanet (GJ 1214 b) is actually classified as a 'steam world' where hot water behaves as an exotic fluid rather than a gas.",
+    "category": "Space & Astronomy What-If",
+    "hook_style": "Hypothetical Sensory Immersion",
+    "concept": "What Happens If You Step Onto a Planet Made Entirely of Boiling Glass?",
+    "opening_direction": "Start with an immediate, high-stakes sensory warning about a world where the ground is a mirror of superheated silica.",
+    "twist_direction": "Reveal that the wind speeds on this planet would strip human flesh in milliseconds before you even hit the surface.",
     "duration_seconds": 15,
-    "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Leverages the proven high-performing 'What If' planetary exploration format combined with extreme thermodynamic anomalies.",
+    "posting_window": "12:00 PM - 2:00 PM EST",
+    "reason": "Capitalizes on the proven high-performing 'What If' planetary immersion format while introducing a fresh chemical hazard (silica/boiling glass) distinct from previously used diamond and ice themes.",
     "fresh_topic_constraints": [
-      "Must not feature diamonds, glass rain, or black planets.",
-      "Must focus strictly on the exoplanet GJ 1214 b and its unique steam-ocean physics.",
-      "Must use crisp, cinematic descriptions suitable for high-retention rendering."
+      "Must not use diamonds, ice, coal, or iron rain.",
+      "Must feature a newly introduced exoplanet or theoretical silicate world.",
+      "Strictly avoid repeating previously covered space or psychological concepts."
     ]
   },
-  "experiment": "Test a 15-second high-density visual script focusing on extreme exoplanet weather (GJ 1214 b) compared to standard static space facts to measure retention impact.",
+  "experiment": "Test a 15-second pacing structure with a zero-frame visual hook showing instant thermal destruction to measure whether early retention spikes lift the initial algorithmic push compared to 21-second formats.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-25T01:25:00.503244+00:00"
+  "generated_at": "2026-10-25T06:24:34.495903+00:00"
 }
