@@ -1,47 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Deduplication of 47 unique shorts reveals a massive performance split: first-person/second-person immersive cosmic survival scenarios ('What If You Fell Into...') consistently deliver 400 to 1,030 views and industry-beating like-to-view ratios (~3.5%), whereas abstract psychology and repeated static trivia (brain memory illusions, songs stuck in head, recycled octopus/shark facts) crater below 100 views. Retention and engagement peak when extreme planetary conditions are framed as immediate, sensory human survival dilemmas.",
+  "overall_summary": "Analysis of recent performance indicates that space and astronomy topics utilizing high-stakes 'What If' scenarios and extreme planetary descriptions (e.g., diamond planets, extreme darkness, unusual orbits) drive significantly higher views and engagement ratios compared to psychological or general biological facts. Videos published within the last 30 days show clear breakout performance when framing bizarre cosmic realities around immersive hypothetical questions.",
   "winning_patterns": [
     {
-      "pattern": "Second-Person Extreme Environment Survival ('What If You Fell Into...')",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) dramatically outperformed channel averages.",
-      "action": "Anchor future videos in high-stakes hypothetical survival scenarios where the viewer is dropped into an alien or extreme biome."
+      "pattern": "Extreme Planetary & Cosmic 'What If' Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Darkest Planet?' (823 views) demonstrate superior engagement velocity.",
+      "action": "Produce more short-form content focusing on hypothetical survival or interaction with extreme astronomical anomalies."
     },
     {
-      "pattern": "Bizarre Planetary Physics with Sensory Paradoxes",
-      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,030 views, 36 likes) and 'This Planet Rains Supersonic Rubies!' (725 views, 25 likes) maintained top-tier views per day.",
-      "action": "Highlight tactile, visual paradoxes (metallic atmospheres, extreme vapor pressures, lethal temperatures) rather than dry astronomical distances."
+      "pattern": "Bizarre Material Paradoxes in Space",
+      "evidence": "Titles detailing surreal phenomena such as 'Venus Has a Day Longer Than Its Year' (981 views) and 'The Planet Darker Than Coal: TrES-2b' (1,030 views) capture strong initial curiosity and watch time.",
+      "action": "Highlight counter-intuitive physical properties of celestial bodies using bold numeric or comparative hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Static Trivia & Psychological Curiosities",
-      "evidence": "'Your Brain Can Create Fake Memories' was posted multiple times generating only 5 to 53 views; 'The Real Reason Songs Get Stuck In Your Head' achieved just 17 views.",
-      "action": "Retire passive psychological trivia and ungrounded memory concepts; eliminate redundant re-uploads of identical facts."
+      "pattern": "Generic Psychological & Memory Triggers",
+      "evidence": "Topics centered around internal cognitive tricks like 'Your Brain Can Create Fake Memories' underperformed severely (ranging from 5 to 53 views across multiple iterations).",
+      "action": "Deprioritize standard psychological facts and personal cognitive hacks in favor of external, visually arresting science and space concepts."
     },
     {
-      "pattern": "Dry Astronomical Facts Without Stakes",
-      "evidence": "'This Star Is Older Than the Universe!' (11 views) and 'The Eyeball Planet That Could Harbor Life!' (40 views) failed to spark curiosity.",
-      "action": "Avoid academic astronomical statements unless framed through a catastrophic or survival-driven lens."
+      "pattern": "Repetitive Direct Fact Recyclings",
+      "evidence": "Directly repeating similar facts without a fresh narrative angle (e.g., multiple octopus heart shorts with diminishing returns) leads to stagnant view counts.",
+      "action": "Ensure strict novelty checking before production; avoid re-covering biological trivia unless paired with a completely novel cinematic presentation."
     }
   ],
   "next_video": {
-    "category": "what-if scenarios",
-    "hook_style": "Visceral sensory danger hook",
-    "concept": "What If You Fell Into KELT-9b, The Star-Planet That Literally Tears Molecules Apart?",
-    "opening_direction": "Open with an ultra-close-up of an astronaut visor reflecting a blinding blue-white inferno, accompanied by the urgent line: 'If you dropped into KELT-9b, you wouldn't just burn—your molecules would literally be torn to pieces.'",
-    "twist_direction": "Reveal that the dayside temperature is hotter than 80% of all known stars (7,800°F), so hot that water and hydrogen cannot physically exist as molecules, creating an atmosphere of raw, vaporized iron and titanium tears.",
-    "duration_seconds": 21,
-    "posting_window": "12:30 - 13:30 UTC",
-    "reason": "Capitalizes on the proven high-yield 'What If You Fell Into...' structure while introducing a completely unmentioned celestial monster (KELT-9b), avoiding saturated topics like diamond or burning ice planets.",
+    "category": "Science & Space",
+    "hook_style": "Hypothetical Survival / Mind-Bending Scale",
+    "concept": "What Happens If You Step Onto a Planet Made Entirely of Boiling Water?",
+    "opening_direction": "Start directly with an impossible physical environment: a world where oceans boil constantly under crushing atmospheric pressure.",
+    "twist_direction": "Reveal that this hellish exoplanet (GJ 1214 b) is actually classified as a 'steam world' where hot water behaves as an exotic fluid rather than a gas.",
+    "duration_seconds": 15,
+    "posting_window": "12:00 PM - 3:00 PM EST",
+    "reason": "Leverages the proven high-performing 'What If' planetary exploration format combined with extreme thermodynamic anomalies.",
     "fresh_topic_constraints": [
-      "Must not reference TrES-2b, Gliese 436b, 55 Cancri e, WASP-76b, or Kepler-13Ab",
-      "Must not repeat diamond rain, ruby rain, glass rain, or molten iron rain",
-      "Must maintain under 22 seconds duration to maximize 100%+ completion loops"
+      "Must not feature diamonds, glass rain, or black planets.",
+      "Must focus strictly on the exoplanet GJ 1214 b and its unique steam-ocean physics.",
+      "Must use crisp, cinematic descriptions suitable for high-retention rendering."
     ]
   },
-  "experiment": "Test whether framing the twist around atomic disintegration ('molecules physically ripped apart') generates higher comments-per-view than standard heat/crush survival twists.",
-  "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-10-24T23:29:36.255349+00:00"
+  "experiment": "Test a 15-second high-density visual script focusing on extreme exoplanet weather (GJ 1214 b) compared to standard static space facts to measure retention impact.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-10-25T01:25:00.503244+00:00"
 }
