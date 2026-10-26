@@ -1,21 +1,46 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Analysis of 47 unique Shorts shows a distinct polarization in retention and engagement. Extreme exoplanet environments and visceral first-person immersion ('What If You Fell Into...') consistently drive top-tier performance (800-1,000+ views with healthy 3.5%+ like ratios), alongside mind-bending counter-intuitive planetary mechanics (e.g., Venus rotation). Conversely, abstract psychology trivia, repetitive sensory factoids (repeated brain memory tricks, silent space claims), and generic animal facts flatline below 100 views with near-zero engagement.",
+  "winning_patterns": [
+    {
+      "pattern": "First-Person Hazard Immersion ('What If You Fell Into...')",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) outperformed standard descriptive astronomy shorts by 5x-10x.",
+      "action": "Frame cosmic and extreme planetary facts as immediate, visceral survival scenarios where the viewer is dropped into the hostile environment."
+    },
+    {
+      "pattern": "Extreme Physical Paradoxes & Celestial Curiosities",
+      "evidence": "'Venus Has a Day Longer Than Its Year' captured 981 views and 21 likes rapidly, while 'Planet Darker Than Coal: TrES-2b' reached 1,030 views and 36 likes.",
+      "action": "Pair a jarring, counter-intuitive opening statement with concrete scientific reality and sensory visuals."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Generic Psychology & Repetitive Brain Quirks",
+      "evidence": "'Your Brain Can Create Fake Memories' (5-53 views across duplicates) and 'Your Brain Is Hiding This From You' (38 views, 0 likes) suffered minimal reach and zero organic shares.",
+      "action": "Retire low-stakes cognitive bias trivia unless anchored to high-stakes survival psychology or dark mystery narrative."
+    },
+    {
+      "pattern": "Duplicate Concept Spun Without Visual Hook",
+      "evidence": "Three uploads of 'Why Space Is Completely Silent' flatlined between 34 and 220 views with negligible engagement.",
+      "action": "Never re-upload identical basic facts; every new short must feature an unexplored celestial body or completely novel premise."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "what-if scenarios",
+    "hook_style": "Visceral first-person survival dilemma",
+    "concept": "What happens if an astronaut gets stranded on an untethered Rogue Planet drifting between galaxies in perpetual freezing darkness.",
+    "opening_direction": "Point-of-view free-fall into an obsidian sky with zero star visible: 'If you fell onto a rogue planet, your eyes would report total blindness—until the ground hits you.'",
+    "twist_direction": "Reveal that despite having no sun, geothermal vents and trapped atmospheric pressure could sustain hidden oceans under miles of soot-black ice, leaving you standing on a pitch-black alien ecosystem.",
+    "duration_seconds": 21,
+    "posting_window": "12:30 - 13:30 UTC",
+    "reason": "Leverages the validated 21-second 'What If You Fell Into' hook architecture that produced the channel's highest view and like totals, while shifting to an untouched celestial concept (nomadic rogue planets) to avoid subject exhaustion.",
+    "fresh_topic_constraints": [
+      "Do not cover TrES-2b, 55 Cancri e, Gliese 436b, HD 189733b, WASP-76b, HAT-P-7b, J1407b, or Kepler-13Ab.",
+      "Must focus strictly on free-floating rogue worlds drifting through the interstellar void (e.g., PSO J318.5-22 or rogue Earth analogs)."
+    ]
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-10-26T14:26:26.793080+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-10-26T14:26:26.793105+00:00"
+  "experiment": "Test whether first-person existential dread in cosmic survival generates higher comment engagement (>5 comments) compared to passive planetary catalog descriptions.",
+  "model_used": "gemini-3.8-flash",
+  "generated_at": "2026-10-26T20:07:24.585608+00:00"
 }
