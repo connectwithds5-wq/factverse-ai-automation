@@ -1,47 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Analysis of 47 deduplicated Shorts reveals that high-stakes, first-person hypothetical space survival scenarios ('What If You Fell Into...') and extreme cosmic anomalies dominate view velocity, like ratios, and comments (averaging 700-1,000+ views). Conversely, generic psychology trivia ('fake memories', 'songs stuck in head') and repetitive duplicate uploads of identical concepts heavily underperform (averaging <50 views). Audience retention and engagement thrive on extreme visual peril and mind-bending physics.",
-  "winning_patterns": [
-    {
-      "pattern": "First-Person Peril / 'What If You Fell Into...' Extreme Space Hooks",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes, 2 comments) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) outperformed channel baselines by over 500%.",
-      "action": "Use visceral, second-person narrative framing ('What happens to your body if...') focused on extreme cosmic environments and physical transformation."
-    },
-    {
-      "pattern": "Paradoxical Cosmic Realities",
-      "evidence": "'The Planet Darker Than Coal' (1,030 views, 36 likes) and 'Venus Has a Day Longer Than Its Year' (981 views, 21 likes) generated the highest organic reach among observational facts.",
-      "action": "Pair a counter-intuitive physical law with sensory, cinematic imagery to build immediate cognitive dissonance in the first 2 seconds."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Repeated Concept Re-uploads & Cannibalization",
-      "evidence": "'Your Brain Can Create Fake Memories' uploaded 3 times averaged under 25 views; 'Why Space Is Completely Silent' dropped from 220 to 34 views on repeat attempts.",
-      "action": "Enforce a strict anti-repetition rule; never re-upload recycled scripts, and pivot to novel phenomena instead."
-    },
-    {
-      "pattern": "Abstract Internal Psychology / Generic Trivia",
-      "evidence": "Titles like 'Your Brain Is Hiding This From You' (38 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) saw near-zero engagement.",
-      "action": "Retire passive psychological trivia unless attached to high-stakes micro-drama or visceral survival contexts."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "what-if scenarios",
-    "hook_style": "Visceral first-person survival dilemma",
-    "concept": "What happens if a human falls into a Magnetar's magnetic field before even touching the surface.",
-    "opening_direction": "Instant macro visual of a cosmic distortion tearing through space: 'If you drifted within 1,000 kilometers of a Magnetar, you wouldn't crash—your atomic bonds would simply dissolve.'",
-    "twist_direction": "Reveal that the magnetic field is so violently dense that it stretches your red blood cells into needles and crushes your nervous system's bioelectric signals before gravity even pulls you in.",
-    "duration_seconds": 21,
-    "posting_window": "12:30 - 13:30 UTC",
-    "reason": "Leverages the validated 'What If / Cosmic Peril' formula (800-1,000+ views benchmark) while introducing an entirely unexploited, terrifying astrophysical entity (Magnetars) not present in channel history.",
-    "fresh_topic_constraints": [
-      "Do not feature diamond planets, burning ice (Gliese 436 b), TrES-2b, or ruby/glass/metal rain planets",
-      "Do not re-use shark age trivia, octopus hearts, or head vs foot relativity",
-      "Must focus on the biological and atomic destruction of entering a magnetar's field"
-    ]
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test pacing a 21-second 'What If' Short with rapid two-stage micro-cliffhangers (Stage 1: magnetic atom distortion at 7s; Stage 2: neurological blackout at 15s) against previous single-twist exoplanet videos to maximize completion rate and shareability.",
-  "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-10-26T01:28:40.113707+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-10-26T14:26:26.793080+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-10-26T14:26:26.793105+00:00"
 }
