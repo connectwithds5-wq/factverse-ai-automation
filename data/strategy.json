@@ -1,46 +1,50 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Analysis of 47 unique Shorts shows a distinct polarization in retention and engagement. Extreme exoplanet environments and visceral first-person immersion ('What If You Fell Into...') consistently drive top-tier performance (800-1,000+ views with healthy 3.5%+ like ratios), alongside mind-bending counter-intuitive planetary mechanics (e.g., Venus rotation). Conversely, abstract psychology trivia, repetitive sensory factoids (repeated brain memory tricks, silent space claims), and generic animal facts flatline below 100 views with near-zero engagement.",
+  "overall_summary": "Analysis of 47 deduplicated Shorts reveals a distinct performance divide: first-person hypothetical survival scenarios ('What If You Fell Into...') and extreme exoplanetary conditions drive peak reach (800-1,000+ views) and highest engagement (likes-to-view ratio >3.5% and active comments). In contrast, generic psychology brain facts ('Fake Memories', 'Earworms') and short animal trivia ('Octopus hearts', 'Sharks vs trees') stall between 10 and 200 views. Pacing data also shows 19-21s durations strongly outperform 12-16s clips.",
   "winning_patterns": [
     {
-      "pattern": "First-Person Hazard Immersion ('What If You Fell Into...')",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) outperformed standard descriptive astronomy shorts by 5x-10x.",
-      "action": "Frame cosmic and extreme planetary facts as immediate, visceral survival scenarios where the viewer is dropped into the hostile environment."
+      "pattern": "First-Person Extreme Cosmic Survival ('What If You Fell Into...')",
+      "evidence": "'Liquid Diamond Planet' generated 1,029 views and channel-high 38 likes; 'Planet of Burning Ice' reached 972 views; 'Darkest Planet' pulled 823 views.",
+      "action": "Anchor scripts around high-stakes second-person POV ('You step out of your capsule...') confronting surreal cosmic environments."
     },
     {
-      "pattern": "Extreme Physical Paradoxes & Celestial Curiosities",
-      "evidence": "'Venus Has a Day Longer Than Its Year' captured 981 views and 21 likes rapidly, while 'Planet Darker Than Coal: TrES-2b' reached 1,030 views and 36 likes.",
-      "action": "Pair a jarring, counter-intuitive opening statement with concrete scientific reality and sensory visuals."
+      "pattern": "21-Second Narrative Pacing with Tactile Atmospheric Horrors",
+      "evidence": "Top 5 non-outlier performers average 20.6 seconds in length, retaining viewers through multi-stage physical escalation rather than rapid 12s single-fact trivia.",
+      "action": "Set runtime target strictly to 20-21 seconds, structured into a 3-act descent: arrival, atmospheric hazard, and deadly terminal twist."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Psychology & Repetitive Brain Quirks",
-      "evidence": "'Your Brain Can Create Fake Memories' (5-53 views across duplicates) and 'Your Brain Is Hiding This From You' (38 views, 0 likes) suffered minimal reach and zero organic shares.",
-      "action": "Retire low-stakes cognitive bias trivia unless anchored to high-stakes survival psychology or dark mystery narrative."
+      "pattern": "Abstract Psychology and Cognitive Tricks",
+      "evidence": "'Your Brain Can Create Fake Memories' flatlined across multiple attempts (5, 10, and 53 views); 'Songs Stuck in Your Head' achieved only 17 to 71 views.",
+      "action": "Deprecate routine neuro-trivia unless tied to cinematic horror or visceral survival stakes."
     },
     {
-      "pattern": "Duplicate Concept Spun Without Visual Hook",
-      "evidence": "Three uploads of 'Why Space Is Completely Silent' flatlined between 34 and 220 views with negligible engagement.",
-      "action": "Never re-upload identical basic facts; every new short must feature an unexplored celestial body or completely novel premise."
+      "pattern": "Passive Single-Stat Trivia Hooks",
+      "evidence": "'This Star Is Older Than the Universe' garnered only 11 views; 'Star Colder Than Ice' plateaued at 83 views.",
+      "action": "Eliminate static declarative titles; reframe celestial anomalies through active danger or impossible sensory paradoxes."
     }
   ],
   "next_video": {
-    "category": "what-if scenarios",
-    "hook_style": "Visceral first-person survival dilemma",
-    "concept": "What happens if an astronaut gets stranded on an untethered Rogue Planet drifting between galaxies in perpetual freezing darkness.",
-    "opening_direction": "Point-of-view free-fall into an obsidian sky with zero star visible: 'If you fell onto a rogue planet, your eyes would report total blindness—until the ground hits you.'",
-    "twist_direction": "Reveal that despite having no sun, geothermal vents and trapped atmospheric pressure could sustain hidden oceans under miles of soot-black ice, leaving you standing on a pitch-black alien ecosystem.",
+    "category": "what-if scenarios / space",
+    "hook_style": "Second-person physical descent hook with immediate sensory shock",
+    "concept": "What If You Fell Onto the Mirror Planet? (LTT 9779 b)",
+    "opening_direction": "Visual POV plummeting into blinding white reflective skies: 'If you fell toward the mirror planet, you wouldn't see ground—you would see your own reflection in clouds of boiling liquid titanium.'",
+    "twist_direction": "Reveal that the reflective metallic atmosphere isn't ice or water, but vaporization from a dying Neptune-sized furnace raining scalding liquid metal at Mach 7.",
     "duration_seconds": 21,
-    "posting_window": "12:30 - 13:30 UTC",
-    "reason": "Leverages the validated 21-second 'What If You Fell Into' hook architecture that produced the channel's highest view and like totals, while shifting to an untouched celestial concept (nomadic rogue planets) to avoid subject exhaustion.",
+    "posting_window": "12:00 PM - 01:30 PM UTC",
+    "reason": "Leverages the proven 'What If You Fell Into' formula while introducing an untouched celestial body (LTT 9779 b) to avoid topical fatigue from previously covered diamond/ice worlds.",
     "fresh_topic_constraints": [
-      "Do not cover TrES-2b, 55 Cancri e, Gliese 436b, HD 189733b, WASP-76b, HAT-P-7b, J1407b, or Kepler-13Ab.",
-      "Must focus strictly on free-floating rogue worlds drifting through the interstellar void (e.g., PSO J318.5-22 or rogue Earth analogs)."
+      "Do NOT mention TrES-2b (darkest planet)",
+      "Do NOT mention 55 Cancri e (diamond planet)",
+      "Do NOT mention Gliese 436b (burning ice)",
+      "Do NOT mention WASP-76b (liquid iron)",
+      "Do NOT mention HD 189733b (glass sideways)",
+      "Must focus strictly on the newly discovered ultra-hot Neptune LTT 9779 b with titanium silicate clouds"
     ]
   },
-  "experiment": "Test whether first-person existential dread in cosmic survival generates higher comment engagement (>5 comments) compared to passive planetary catalog descriptions.",
+  "experiment": "A/B test audio soundscapes between an eerie high-frequency metallic drone versus traditional booming cinematic orchestral brass during the first 3-second descent hook.",
   "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-10-26T20:07:24.585608+00:00"
+  "generated_at": "2026-10-27T00:00:51.309296+00:00"
 }
