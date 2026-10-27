@@ -1,50 +1,47 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of 47 deduplicated Shorts reveals a distinct performance divide: first-person hypothetical survival scenarios ('What If You Fell Into...') and extreme exoplanetary conditions drive peak reach (800-1,000+ views) and highest engagement (likes-to-view ratio >3.5% and active comments). In contrast, generic psychology brain facts ('Fake Memories', 'Earworms') and short animal trivia ('Octopus hearts', 'Sharks vs trees') stall between 10 and 200 views. Pacing data also shows 19-21s durations strongly outperform 12-16s clips.",
+  "overall_summary": "Analysis of FACTVERSE performance data shows that high-velocity traction is concentrated in space and planetary 'What If' / extreme scenario formats published recently (late September/early October). Videos like 'What If You Fell Into a Liquid Diamond Planet?' and 'Venus Has a Day Longer Than Its Year' achieve exceptional views-per-day and engagement relative to older or purely abstract psychological facts. High-performing hooks leverage curiosity-driven counter-intuitive premises and scale comparisons.",
   "winning_patterns": [
     {
-      "pattern": "First-Person Extreme Cosmic Survival ('What If You Fell Into...')",
-      "evidence": "'Liquid Diamond Planet' generated 1,029 views and channel-high 38 likes; 'Planet of Burning Ice' reached 972 views; 'Darkest Planet' pulled 823 views.",
-      "action": "Anchor scripts around high-stakes second-person POV ('You step out of your capsule...') confronting surreal cosmic environments."
+      "pattern": "Extreme Planetary / 'What If' Space Scenarios",
+      "evidence": "Videos focusing on hypothetical falls into extreme planets (e.g., IYuce8vaU3Y with 1029 views, 8KEl0_pJ_68 with 972 views) outperform standard passive fact statements by generating high view velocity within days of publishing.",
+      "action": "Produce more hypothetical planetary survival or immersive environment scenarios combined with staggering numerical facts."
     },
     {
-      "pattern": "21-Second Narrative Pacing with Tactile Atmospheric Horrors",
-      "evidence": "Top 5 non-outlier performers average 20.6 seconds in length, retaining viewers through multi-stage physical escalation rather than rapid 12s single-fact trivia.",
-      "action": "Set runtime target strictly to 20-21 seconds, structured into a 3-act descent: arrival, atmospheric hazard, and deadly terminal twist."
+      "pattern": "Counter-Intuitive Astrophysical Realities",
+      "evidence": "Titles featuring bizarre planetary laws (e.g., A9Qa-RmuOr0 'Venus Has a Day Longer Than Its Year' with 981 views and 21 likes) drive strong engagement ratios.",
+      "action": "Focus future space concepts on bizarre temporal, gravitational, or atmospheric laws of celestial bodies."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Psychology and Cognitive Tricks",
-      "evidence": "'Your Brain Can Create Fake Memories' flatlined across multiple attempts (5, 10, and 53 views); 'Songs Stuck in Your Head' achieved only 17 to 71 views.",
-      "action": "Deprecate routine neuro-trivia unless tied to cinematic horror or visceral survival stakes."
+      "pattern": "Low-Engagement Psychological / Earworm Facts",
+      "evidence": "Older psychological fact shorts like Jc04LVKNd2s ('The Real Reason Songs Get Stuck In Your Head') and 2fqaGqfsR4A ('Your Brain Can Create Fake Memories') plateau rapidly with minimal likes and near-zero comments.",
+      "action": "De-prioritize abstract psychological trivia unless structured as an urgent, highly visual thriller micro-story."
     },
     {
-      "pattern": "Passive Single-Stat Trivia Hooks",
-      "evidence": "'This Star Is Older Than the Universe' garnered only 11 views; 'Star Colder Than Ice' plateaued at 83 views.",
-      "action": "Eliminate static declarative titles; reframe celestial anomalies through active danger or impossible sensory paradoxes."
+      "pattern": "Low-Velocity Historical Mysteries",
+      "evidence": "Static historical/archaeological questions (e.g., yLm-FjYH6-k) show slow lifetime accumulation without active viewer interaction.",
+      "action": "Shift historical content into dynamic, cinematic narrative storytelling or 'What If' alternate timelines."
     }
   ],
   "next_video": {
-    "category": "what-if scenarios / space",
-    "hook_style": "Second-person physical descent hook with immediate sensory shock",
-    "concept": "What If You Fell Onto the Mirror Planet? (LTT 9779 b)",
-    "opening_direction": "Visual POV plummeting into blinding white reflective skies: 'If you fell toward the mirror planet, you wouldn't see ground—you would see your own reflection in clouds of boiling liquid titanium.'",
-    "twist_direction": "Reveal that the reflective metallic atmosphere isn't ice or water, but vaporization from a dying Neptune-sized furnace raining scalding liquid metal at Mach 7.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 01:30 PM UTC",
-    "reason": "Leverages the proven 'What If You Fell Into' formula while introducing an untouched celestial body (LTT 9779 b) to avoid topical fatigue from previously covered diamond/ice worlds.",
+    "category": "space",
+    "hook_style": "What If immersion + extreme physical threat",
+    "concept": "What If You Fell Into the Diamond Rain of Neptune?",
+    "opening_direction": "Start with a fast-paced drop into a crushing, hyper-pressurized golden atmosphere where solid diamonds form mid-air.",
+    "twist_direction": "Reveal that the core isn't just diamond mountains, but an entire ocean of liquid carbon capable of instantly crushing any known spacecraft.",
+    "duration_seconds": 15,
+    "posting_window": "12:00 PM - 2:00 PM EST",
+    "reason": "Leverages the proven high-performing 'What If' and 'Liquid Diamond/Diamond Planet' mechanics while introducing a distinct celestial body (Neptune) not yet used in the winning set.",
     "fresh_topic_constraints": [
-      "Do NOT mention TrES-2b (darkest planet)",
-      "Do NOT mention 55 Cancri e (diamond planet)",
-      "Do NOT mention Gliese 436b (burning ice)",
-      "Do NOT mention WASP-76b (liquid iron)",
-      "Do NOT mention HD 189733b (glass sideways)",
-      "Must focus strictly on the newly discovered ultra-hot Neptune LTT 9779 b with titanium silicate clouds"
+      "Must not reuse Venus, TrES-2b, or general generic diamond planets.",
+      "Must focus strictly on Neptune's unique extreme carbon phase dynamics.",
+      "Avoid repeating previous hook phrasing word-for-word."
     ]
   },
-  "experiment": "A/B test audio soundscapes between an eerie high-frequency metallic drone versus traditional booming cinematic orchestral brass during the first 3-second descent hook.",
-  "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-10-27T00:00:51.309296+00:00"
+  "experiment": "Test a 15-second cinematic space survival scenario focusing on extreme weather on a lesser-known gas giant to measure if immersion storytelling beats static fact delivery on view-velocity.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-10-27T05:19:56.238714+00:00"
 }
