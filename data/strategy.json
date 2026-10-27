@@ -1,47 +1,47 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Analysis of FACTVERSE performance data shows that high-velocity traction is concentrated in space and planetary 'What If' / extreme scenario formats published recently (late September/early October). Videos like 'What If You Fell Into a Liquid Diamond Planet?' and 'Venus Has a Day Longer Than Its Year' achieve exceptional views-per-day and engagement relative to older or purely abstract psychological facts. High-performing hooks leverage curiosity-driven counter-intuitive premises and scale comparisons.",
+  "overall_summary": "Analysis of 47 deduplicated videos demonstrates that first-person high-stakes planetary exploration ('What If You Fell Into...') and extreme cosmic anomalies are FACTVERSE's primary growth drivers, frequently surpassing 800-1,000+ views and 20-38 likes. Conversely, brain psychology and repeated exact-title re-uploads underperform severely (often under 50 views and near-zero likes). 19-21 second pacing currently yields the highest retention and interaction metrics.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Planetary / 'What If' Space Scenarios",
-      "evidence": "Videos focusing on hypothetical falls into extreme planets (e.g., IYuce8vaU3Y with 1029 views, 8KEl0_pJ_68 with 972 views) outperform standard passive fact statements by generating high view velocity within days of publishing.",
-      "action": "Produce more hypothetical planetary survival or immersive environment scenarios combined with staggering numerical facts."
+      "pattern": "'What If You Fell Into...' immersive physical simulation hooks",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Darkest Planet?' (823 views, 15 likes) dramatically outpace standard factual titles.",
+      "action": "Use visceral second-person sensory hooks placing the viewer directly inside extreme astronomical or planetary environments."
     },
     {
-      "pattern": "Counter-Intuitive Astrophysical Realities",
-      "evidence": "Titles featuring bizarre planetary laws (e.g., A9Qa-RmuOr0 'Venus Has a Day Longer Than Its Year' with 981 views and 21 likes) drive strong engagement ratios.",
-      "action": "Focus future space concepts on bizarre temporal, gravitational, or atmospheric laws of celestial bodies."
+      "pattern": "Extreme, counter-intuitive space phenomena",
+      "evidence": "'The Planet of Burning Ice...' (1,057 views), 'The Planet Darker Than Coal' (1,030 views), and 'Venus Has a Day Longer Than Its Year' (981 views) are top lifetime and recent performers.",
+      "action": "Highlight single mind-bending physical contradictions (e.g., solid matter acting bizarrely, extreme gravity, time/atomic destruction)."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Low-Engagement Psychological / Earworm Facts",
-      "evidence": "Older psychological fact shorts like Jc04LVKNd2s ('The Real Reason Songs Get Stuck In Your Head') and 2fqaGqfsR4A ('Your Brain Can Create Fake Memories') plateau rapidly with minimal likes and near-zero comments.",
-      "action": "De-prioritize abstract psychological trivia unless structured as an urgent, highly visual thriller micro-story."
+      "pattern": "Generic psychology and memory trivia hooks",
+      "evidence": "'Your Brain Can Create Fake Memories' achieved between 5 and 53 views across multiple uploads; song earworm titles hovered between 17 and 71 views.",
+      "action": "Deprioritize low-tension neuro-psychology trivia unless framed through high-stakes micro-drama or survival scenarios."
     },
     {
-      "pattern": "Low-Velocity Historical Mysteries",
-      "evidence": "Static historical/archaeological questions (e.g., yLm-FjYH6-k) show slow lifetime accumulation without active viewer interaction.",
-      "action": "Shift historical content into dynamic, cinematic narrative storytelling or 'What If' alternate timelines."
+      "pattern": "Identical title duplicate re-uploads",
+      "evidence": "Repeated uploads of 'Octopuses Have THREE Hearts' and 'Why Space Is Completely Silent' flatlined or stagnated with 0 comments.",
+      "action": "Strictly prohibit re-uploading identical hooks; explore brand new entities and phenomena rather than recycling asset concepts."
     }
   ],
   "next_video": {
-    "category": "space",
-    "hook_style": "What If immersion + extreme physical threat",
-    "concept": "What If You Fell Into the Diamond Rain of Neptune?",
-    "opening_direction": "Start with a fast-paced drop into a crushing, hyper-pressurized golden atmosphere where solid diamonds form mid-air.",
-    "twist_direction": "Reveal that the core isn't just diamond mountains, but an entire ocean of liquid carbon capable of instantly crushing any known spacecraft.",
-    "duration_seconds": 15,
-    "posting_window": "12:00 PM - 2:00 PM EST",
-    "reason": "Leverages the proven high-performing 'What If' and 'Liquid Diamond/Diamond Planet' mechanics while introducing a distinct celestial body (Neptune) not yet used in the winning set.",
+    "category": "what-if scenarios",
+    "hook_style": "Visceral first-person survival dilemma",
+    "concept": "What would happen to the human body when approaching a Magnetar",
+    "opening_direction": "Immediate visual dive toward a hyper-magnetic dead star: 'If you stepped within a thousand kilometers of a magnetar, you wouldn't just die—your chemistry would cease to exist.'",
+    "twist_direction": "Reveal that the magnetic field is so violently intense it pulls the electron clouds of your atoms into needle-thin shapes, disintegrating DNA and biomolecules instantly into pure radiation.",
+    "duration_seconds": 21,
+    "posting_window": "12:00 PM - 02:00 PM UTC",
+    "reason": "Leverages the proven 'What If You Fell/Approached' formula that drove over 1,000 views on prior planetary videos, while introducing an entirely novel, ultra-extreme space entity.",
     "fresh_topic_constraints": [
-      "Must not reuse Venus, TrES-2b, or general generic diamond planets.",
-      "Must focus strictly on Neptune's unique extreme carbon phase dynamics.",
-      "Avoid repeating previous hook phrasing word-for-word."
+      "Do not mention exoplanets already used (Gliese 436b, TrES-2b, 55 Cancri e, WASP-76b, HD 189733b, J1407b).",
+      "Avoid repeating diamond rain, molten glass, or burning ice tropes.",
+      "Focus on the unique atomic-level physics of magnetars."
     ]
   },
-  "experiment": "Test a 15-second cinematic space survival scenario focusing on extreme weather on a lesser-known gas giant to measure if immersion storytelling beats static fact delivery on view-velocity.",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-27T05:19:56.238714+00:00"
+  "experiment": "Test whether lethal physics surrounding stellar remnants (magnetars/neutron stars) can match or beat exoplanet immersion videos in like-per-view ratio and comment discussion.",
+  "model_used": "gemini-3.8-flash",
+  "generated_at": "2026-10-27T10:47:39.007907+00:00"
 }
