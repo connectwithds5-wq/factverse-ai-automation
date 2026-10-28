@@ -1,42 +1,46 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Deduplicated performance analysis shows clear audience preference for high-concept astronomy, weird planetary physics ('What If' / extreme worlds), and bizarre evolutionary biology ('Sharks vs. Trees/Saturn'). Space anomaly and extreme planetary environments dominate the highest view counts and engagement ratios, specifically videos involving exotic matter, extreme weather on other planets, and counter-intuitive cosmic comparisons.",
+  "overall_summary": "Analysis of the deduplicated performance metrics highlights a dominant viewer preference for space and cosmic 'What If' scenarios, particularly extreme planetary environments and counter-intuitive physical phenomena. Videos focused on unusual planetary conditions (e.g., liquid diamond planets, burning ice, dark planets) generate the highest view counts and engagement rates (likes-per-view). Psychological and biological trivia underperforms compared to high-concept cosmic scale and visual curiosity hooks.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Planetary / 'What If' Space Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'The Planet Darker Than Coal: TrES-2b' (1,030 views, 36 likes) outperform standard fact formats by framing cosmic realities as experiential threats.",
-      "action": "Double down on 'What If' immersion mechanics focused on extreme, visually distinct exoplanets."
+      "pattern": "Extreme Planetary 'What If' / Immersion Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,029 views) and 'What If You Fell Into the Planet of Burning Ice?' (972 views) outperform standard fact formats by coupling hypothetical extreme survival with dazzling cosmic visuals.",
+      "action": "Produce more high-stakes cosmic 'What If' scenarios focusing on surreal planetary environments."
     },
     {
-      "pattern": "Counter-Intuitive Temporal/Biological Comparisons",
-      "evidence": "Venus Has a Day Longer Than Its Year (981 views) and shark/age comparisons generate high engagement relative to their age.",
-      "action": "Pair familiar biological entities or everyday objects against extreme cosmic timescales or scales."
+      "pattern": "Anomalous Cosmic Attributes & Extreme Weather",
+      "evidence": "Titles featuring bizarre planetary phenomena such as 'The Planet Darker Than Coal: TrES-2b' (1,030 views) and 'This Planet Rains Supersonic Rubies!' (725 views) drive high view velocity.",
+      "action": "Double down on bizarre celestial weather and extreme exoplanet anomalies with strong visual contrast."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Psychological Trivia & Minor Brain Hacks",
-      "evidence": "Videos focusing on songs stuck in your head (e.g., Jc04LVKNd2s with 17 views, ef3ND4qiRHc with 71 views) show significantly lower velocity than physical/cosmic anomalies.",
-      "action": "Deprioritize micro-psychology tricks unless tied to dark, high-stakes neurological anomalies."
+      "pattern": "Abstract Psychological Trivia Without Visual Stakes",
+      "evidence": "Content like 'Your Brain Can Create Fake Memories 🤯' (5 views) and 'The Real Reason Songs Get Stuck In Your Head 🧠' (17 views) show significantly lower viewer retention and engagement.",
+      "action": "Deprioritize abstract internal psychology facts unless they feature an extreme, counter-intuitive visual or physical experiment."
+    },
+    {
+      "pattern": "Static Historical or Ancient Mysteries",
+      "evidence": "Videos such as 'The 2,000-Year-Old Mystery Science Can't Solve' (139 views) underperform relative to high-concept space and universe-scale content.",
+      "action": "Pivot away from standard historical artifact mysteries toward futuristic, space, or deep-earth geographic phenomena."
     }
   ],
   "next_video": {
-    "category": "Space & Astronomy",
-    "hook_style": "Sensory Shock / Existential Dread",
-    "concept": "The Rogue Planet Drifting Between Galaxies in Total Darkness",
-    "opening_direction": "Start in absolute, pitch-black silence where starlight doesn't exist, describing a world flying through the void.",
-    "twist_direction": "Reveal that despite being millions of light-years from any sun, this wandering planet's core is boiling hot enough to sustain massive liquid oceans beneath miles of crushing ice.",
-    "duration_seconds": 15,
-    "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Capitalizes on the high-performing 'dark planet' and 'burning ice planet' formats while introducing a fresh cosmic phenomenon (rogue planets) not yet covered in the channel history.",
+    "category": "Space & Science",
+    "hook_style": "Hypothetical Danger / Extreme Scale",
+    "concept": "What Happens If You Stepped Onto a Rogue Planet Wandering Through Interstellar Space?",
+    "opening_direction": "Start with total pitch blackness and absolute zero temperature, asking the viewer what happens when a world has no sun.",
+    "twist_direction": "Reveal that hundreds of billions of rogue planets drift invisibly between stars in our galaxy alone, completely untethered from any solar system.",
+    "duration_seconds": 21,
+    "posting_window": "12:00 PM - 2:00 PM EST",
+    "reason": "Capitalizes on the proven high performance of extreme planetary immersion and dark/cold space concepts (e.g., TrES-2b and burning ice planets), while introducing an entirely fresh celestial phenomenon.",
     "fresh_topic_constraints": [
-      "Must not mention diamonds, liquid metal, rain, or Saturn",
-      "Must feature a completely new celestial body not present in published titles",
-      "Focus on stark visual contrasts between absolute darkness and hidden subterranean heat"
+      "Must not feature diamond planets, liquid metal rain, or previously used exoplanets like TrES-2b.",
+      "Focus exclusively on rogue planets and interstellar space drift."
     ]
   },
-  "experiment": "Test a 15-second pacing structure with zero introductory filler, jumping straight into a sensory 'What If' visual hook within the first 1.5 seconds.",
+  "experiment": "Test a 21-second space survival scenario focusing on an invisible rogue planet to see if the combination of absolute darkness and cosmic isolation matches or exceeds the engagement rate of diamond/ice planet videos.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-28T14:13:22.651999+00:00"
+  "generated_at": "2026-10-28T19:42:26.671564+00:00"
 }
