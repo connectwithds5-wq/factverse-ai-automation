@@ -1,21 +1,47 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "After deduplicating 80 hourly snapshots into 47 unique Shorts, space science and extreme exoplanet 'what-if / cosmic survival' scenarios are clear channel outliers (averaging 700-1,000+ views with 2-3.7% like rates). Conversely, repeated psychology clips ('Fake Memories', 'Earworms') and recycled animal trivia ('Octopus 3 hearts', re-uploaded up to 3 times) stagnate below 100 views and zero comment engagement. High retention correlates strongly with 19-21 second runtimes featuring extreme visceral consequences.",
+  "winning_patterns": [
+    {
+      "pattern": "First-person extreme cosmic exploration ('What If You Fell Into...')",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) dramatically outperformed third-person trivia.",
+      "action": "Frame extreme astrophysical phenomena through direct, sensory, second-person survival scenarios."
+    },
+    {
+      "pattern": "High-contrast extreme planetary environments with sharp physical paradoxes",
+      "evidence": "Videos centered on extreme planetary realities like TrES-2b (1,030 views), burning ice (1,057 views), and supersonic rubies (725 views) dominate total viewership and engagement.",
+      "action": "Spotlight hyper-specific, terrifying alien worlds with vivid physical paradoxes (e.g., solid metal oceans, atomic destruction)."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Repetitive psychology hooks and re-uploaded facts",
+      "evidence": "Repeated uploads of 'Your Brain Can Create Fake Memories' (5-53 views) and 'Octopuses Have THREE Hearts' (118-363 views) yielded near-zero comment traction.",
+      "action": "Retire exhausted psychology factoids and eliminate identical title re-uploads; pivot to high-stakes narrative discovery."
+    },
+    {
+      "pattern": "Passive trivia lacking stakes or visceral imagery",
+      "evidence": "'The Star Colder Than Ice' (83 views) and 'Why Space Is Completely Silent' (34-87 views) generated minimal curiosity compared to survival/exoplanet hooks.",
+      "action": "Always introduce immediate physical peril or mind-bending scale within the first 1.5 seconds."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "what-if scenarios",
+    "hook_style": "Visceral sensory threat / Cosmic survival hook",
+    "concept": "What would happen to the human body within 1,000 miles of a Magnetar (the most magnetic object in the universe).",
+    "opening_direction": "Instant hook visual: A lone astronaut drifting in silent black space toward an ultra-dense pulsing core, with HUD warnings glitching instantly.",
+    "twist_direction": "Reveal that before the gravity or radiation even reaches you, the magnetic field is so violent it physically pulls the iron out of your bloodstream and stretches every atom in your body into needles.",
+    "duration_seconds": 20,
+    "posting_window": "12:30 - 13:30 UTC",
+    "reason": "Leverages the channel's dominant formula (extreme space peril + what-if immersion) with an untouched cosmic entity far more terrifying than exoplanets.",
+    "fresh_topic_constraints": [
+      "No diamond planets, TrES-2b, Gliese 436b, or WASP-76b",
+      "No mention of octopus hearts, brain fake memories, or space smell",
+      "Must focus strictly on a Magnetar / neutron star atomic-distortion mechanism"
+    ]
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-10-29T19:09:15.460658+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-10-29T19:09:15.460674+00:00"
+  "experiment": "Test whether high-stakes biological destruction in a space what-if scenario lifts the comment rate above 0.3% by asking viewers at the end what death is worse: spaghettification or atomic dissolution.",
+  "model_used": "gemini-3.8-flash",
+  "generated_at": "2026-10-29T23:28:44.874253+00:00"
 }
