@@ -1,46 +1,46 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of the deduplicated performance metrics highlights a dominant viewer preference for space and cosmic 'What If' scenarios, particularly extreme planetary environments and counter-intuitive physical phenomena. Videos focused on unusual planetary conditions (e.g., liquid diamond planets, burning ice, dark planets) generate the highest view counts and engagement rates (likes-per-view). Psychological and biological trivia underperforms compared to high-concept cosmic scale and visual curiosity hooks.",
+  "overall_summary": "Exoplanet extremes and first-person hypothetical space survival scenarios ('What If You Fell Into...') consistently drive top-tier viewership (800-1,000+ views) and superior engagement (3.5%+ like rates). Conversely, cognitive psychology facts and generic brain trivia dramatically underperform, rarely crossing 100 views.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Planetary 'What If' / Immersion Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,029 views) and 'What If You Fell Into the Planet of Burning Ice?' (972 views) outperform standard fact formats by coupling hypothetical extreme survival with dazzling cosmic visuals.",
-      "action": "Produce more high-stakes cosmic 'What If' scenarios focusing on surreal planetary environments."
+      "pattern": "First-Person Extreme Space Survival ('What If You Fell Into...')",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) outperformed average channel views by over 400%.",
+      "action": "Produce high-stakes immersive 'What If' scenarios placing the viewer directly onto terrifying cosmic anomalies or extreme planetary environments."
     },
     {
-      "pattern": "Anomalous Cosmic Attributes & Extreme Weather",
-      "evidence": "Titles featuring bizarre planetary phenomena such as 'The Planet Darker Than Coal: TrES-2b' (1,030 views) and 'This Planet Rains Supersonic Rubies!' (725 views) drive high view velocity.",
-      "action": "Double down on bizarre celestial weather and extreme exoplanet anomalies with strong visual contrast."
+      "pattern": "Exotic Planetary Phenomena & Counter-Intuitive Space Realities",
+      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,030 views, 36 likes) and 'Venus Has a Day Longer Than Its Year' (981 views, 21 likes) generated the strongest organic retention and reach.",
+      "action": "Focus on named exoplanets or planetary anomalies with striking visual contradictions (e.g., worlds of iron snow, molten glass, or crushing gravitational physics)."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Psychological Trivia Without Visual Stakes",
-      "evidence": "Content like 'Your Brain Can Create Fake Memories 🤯' (5 views) and 'The Real Reason Songs Get Stuck In Your Head 🧠' (17 views) show significantly lower viewer retention and engagement.",
-      "action": "Deprioritize abstract internal psychology facts unless they feature an extreme, counter-intuitive visual or physical experiment."
+      "pattern": "Abstract Cognitive Psychology & Memory Trivia",
+      "evidence": "'Your Brain Can Create Fake Memories' (5 to 53 views across three attempts) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) showed near-zero viewer retention and algorithmic pick-up.",
+      "action": "Cease low-stakes brain trivia and psychology micro-facts; prioritize visual spectacle, existential mystery, or cinematic environmental tension."
     },
     {
-      "pattern": "Static Historical or Ancient Mysteries",
-      "evidence": "Videos such as 'The 2,000-Year-Old Mystery Science Can't Solve' (139 views) underperform relative to high-concept space and universe-scale content.",
-      "action": "Pivot away from standard historical artifact mysteries toward futuristic, space, or deep-earth geographic phenomena."
+      "pattern": "Short Sub-15s Generalized Animal Trivia",
+      "evidence": "'Octopuses Have THREE Hearts' (12s, 0-1 likes despite multiple re-uploads) and 'The Only Animal That Can Live Forever' (69 views, 0 likes) fail to provoke deep engagement.",
+      "action": "Avoid standard textbook biology facts; if covering animals, frame through high-stakes cinematic survival stories rather than static anatomical trivia."
     }
   ],
   "next_video": {
-    "category": "Space & Science",
-    "hook_style": "Hypothetical Danger / Extreme Scale",
-    "concept": "What Happens If You Stepped Onto a Rogue Planet Wandering Through Interstellar Space?",
-    "opening_direction": "Start with total pitch blackness and absolute zero temperature, asking the viewer what happens when a world has no sun.",
-    "twist_direction": "Reveal that hundreds of billions of rogue planets drift invisibly between stars in our galaxy alone, completely untethered from any solar system.",
+    "category": "what-if scenarios",
+    "hook_style": "Second-person existential threat / visceral sensory hook",
+    "concept": "What would happen if an astronaut descended into the clouds of WASP-76b, the rogue gas giant where nights rain vaporized liquid iron from 4,000-degree winds?",
+    "opening_direction": "Instant POV descent showing a spacesuit visor reflecting glowing orange skies: 'If you fell into WASP-76b, your suit wouldn't burn—it would melt from liquid iron rain.'",
+    "twist_direction": "Reveal that the daytime side is hot enough to vaporize rock into atmospheric gas, while the 10,000 mph wind currents condense it into supersonic molten shrapnel on the dark side.",
     "duration_seconds": 21,
-    "posting_window": "12:00 PM - 2:00 PM EST",
-    "reason": "Capitalizes on the proven high performance of extreme planetary immersion and dark/cold space concepts (e.g., TrES-2b and burning ice planets), while introducing an entirely fresh celestial phenomenon.",
+    "posting_window": "12:00 PM - 01:30 PM UTC",
+    "reason": "Leverages the proven high-converting 'What If You Fell Into' framework and space anomaly fascination while presenting a completely fresh entity not yet featured in channel history.",
     "fresh_topic_constraints": [
-      "Must not feature diamond planets, liquid metal rain, or previously used exoplanets like TrES-2b.",
-      "Focus exclusively on rogue planets and interstellar space drift."
+      "Do not reuse TrES-2b, 55 Cancri e, burning ice (Gliese 436b), or Saturn ring comparisons",
+      "Must focus specifically on WASP-76b atmospheric horror and iron condensation dynamics"
     ]
   },
-  "experiment": "Test a 21-second space survival scenario focusing on an invisible rogue planet to see if the combination of absolute darkness and cosmic isolation matches or exceeds the engagement rate of diamond/ice planet videos.",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-28T19:42:26.671564+00:00"
+  "experiment": "Test shifting hook delivery from third-person descriptive ('This planet rains...') to immediate second-person sensory dread ('If your helmet cracked here...') to test whether viewer retention past 3 seconds increases like-to-view ratio above 4.0%.",
+  "model_used": "gemini-3.8-flash",
+  "generated_at": "2026-10-29T00:09:35.034129+00:00"
 }
