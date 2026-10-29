@@ -1,47 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Analysis of the deduplicated performance metrics highlights a dominant viewer preference for space and planetary 'What If' scenarios, as well as extreme cosmic anomalies. Videos framed around hypothetical planetary exploration (e.g., falling into liquid diamond planets, dark planets, and burning ice worlds) consistently drive higher views-per-day, strong like ratios, and active comments compared to standard psychological or biological facts. Recent items published in late September and October show significantly accelerated velocity.",
-  "winning_patterns": [
-    {
-      "pattern": "Planetary 'What If' / Immersion Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Darkest Planet?' (YlDuGu1vzAg) rapidly accumulated over 800 to 1,000+ views despite recent publishing dates, outperforming older biological facts.",
-      "action": "Double down on high-stakes hypothetical planetary survival hooks ('What If You Fell Into...') combined with extreme visual environments."
-    },
-    {
-      "pattern": "Extreme Cosmic Anomalies & Raining Jewels",
-      "evidence": "Titles detailing bizarre weather on exoplanets, such as 'This Planet Rains Supersonic Rubies!' (QXuqYERlqSo) and 'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0), generated strong engagement (20+ likes, rapid view velocity).",
-      "action": "Produce more short-form concepts featuring bizarre physics or extreme weather on real, verified exoplanets."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Abstract Psychological / Earworm Facts",
-      "evidence": "Topics like song memory triggers ('The Real Reason Songs Get Stuck In Your Head' - Jc04LVKNd2s, 17 views) and generic brain memory facts generated very low engagement and minimal velocity.",
-      "action": "Deprioritize abstract psychological micro-facts unless paired with a high-contrast physical threat or bizarre paradox."
-    },
-    {
-      "pattern": "Low-Velocity Animal Trivia",
-      "evidence": "Standard animal facts (e.g., 'The Only Animal That Can Live Forever' - F1kXwuXuNgo) showed stagnant views compared to cosmic content.",
-      "action": "Shift animal-related content into the cinematic animal survival or extreme deep-sea micro-story niches rather than basic trivia."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space & Astronomy",
-    "hook_style": "What If / Extreme Immersion",
-    "concept": "What If You Stepped Onto a Planet Made Entirely of Boiling Water?",
-    "opening_direction": "Start immediately with the terrifying physical sensation of standing on Gliese 436 b, where gravity forces burning-hot ice to stay solid.",
-    "twist_direction": "Reveal that the planet's immense gravity is so powerful it crushes the boiling water into a bizarre, unbreakable solid state.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Capitalizes on the proven high-performing 'What If' planetary immersion format while introducing a genuinely novel exoplanet (Gliese 436 b) not yet featured in the channel history.",
-    "fresh_topic_constraints": [
-      "Must not reuse diamond, glass, iron, or rubies as the planetary material",
-      "Must focus strictly on the physics of hot ice / extreme pressure",
-      "Ensure factual accuracy regarding exoplanet Gliese 436 b"
-    ]
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 21-second 'What If' space scenario with a physical sensory hook in the first 2 seconds against a standard factual declaration hook to measure audience retention and like-to-view ratios.",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-10-29T13:26:26.530976+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-10-29T19:09:15.460658+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-10-29T19:09:15.460674+00:00"
 }
