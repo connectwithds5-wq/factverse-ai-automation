@@ -1,48 +1,48 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of 47 deduplicated videos demonstrates a decisive divergence in audience retention and engagement. The channel's strongest performance cluster comes from first-person visceral hypothetical scenarios ('What If You Fell Into...') and extreme cosmic exoplanet phenomena, generating peak views (800-1,050+) and highest like engagement (15-38 likes). Conversely, generic psychology trivia ('Your Brain Can Create Fake Memories') and repeated uploads of static facts ('Why Space Is Completely Silent') suffer severe algorithmic decay (5-70 views). Expanding high-stakes immersive storytelling around previously untouched cosmic extremes is the primary growth driver.",
+  "overall_summary": "After deduplicating 47 unique Shorts across the observation period, performance is starkly divided. First-person hypothetical space survival hooks ('What If You Fell Into...') and extreme exoplanet phenomena dominate the channel's top tier (averaging 800-1,050+ views with high like-to-view ratios exceeding 3.5%), whereas cognitive psychology, brain trivia, and generic space silence concepts consistently stall under 100 views. Videos between 19 and 21 seconds with high-stakes physical peril generate the strongest viewer retention and engagement.",
   "winning_patterns": [
     {
-      "pattern": "First-Person Survival / 'What If You Fell Into...' Framing",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) dramatically outperformed third-person factual statements on the same topics.",
-      "action": "Structure hooks around immediate personal stakes and visceral physical consequences rather than passive expository statements."
+      "pattern": "First-Person Peril / Extreme Exoplanet What-Ifs",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) drastically outperform standard facts.",
+      "action": "Anchor future uploads on visceral, first-person scenario hooks placing the viewer inside extreme alien environments."
     },
     {
-      "pattern": "Extreme Physical Contrast & Counter-Intuitive Planetary Science",
-      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,030 views, 36 likes) and 'Venus Has a Day Longer Than Its Year' (981 views, 21 likes) generated the highest organic reach across recent releases.",
-      "action": "Focus on extreme cosmic environments with tangible, mind-bending sensory metrics (e.g., crushing pressure, time dilation, magnetic forces)."
+      "pattern": "Paradoxical Cosmic Realities",
+      "evidence": "'Venus Has a Day Longer Than Its Year' (981 views, 21 likes) and 'The Planet Darker Than Coal: TrES-2b' (1,030 views, 36 likes) show counter-intuitive planetary physics drive high click-through and shares.",
+      "action": "Use jarring cognitive contradictions as visual and narrative lead-ins."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Abstract Psychology & Brain Quirks",
-      "evidence": "Multiple variations of 'Your Brain Can Create Fake Memories' flatlined at 5, 10, and 53 views, and 'Your Brain Is Hiding This From You' reached only 38 views.",
-      "action": "Cease posting generic cognitive psychology trivia unless reframed with tangible stakes or dark mystery narrative."
+      "pattern": "Generic Psychology & Repetitive Brain Trivia",
+      "evidence": "Multiple iterations of 'Your Brain Can Create Fake Memories' (5-53 views) and 'Songs Stuck In Your Head' (17-71 views) repeatedly flopped with zero engagement.",
+      "action": "Cease low-stakes neurological trivia and re-uploading identical hooks."
     },
     {
-      "pattern": "Duplicate & Low-Stakes Space Trivia",
-      "evidence": "'Why Space Is Completely Silent' posted three times yielded stagnant results (34, 87, 220 views); 'The Eyeball Planet' lacked sensory tension and stalled at 40 views.",
-      "action": "Eliminate near-identical re-uploads and avoid abstract cosmic trivia that lacks visual or existential jeopardy."
+      "pattern": "Passive Trivia / Non-Sensory Abstract Facts",
+      "evidence": "'This Star Is Older Than the Universe!' hit only 11 views, and repeated 'Why Space Is Completely Silent' uploads peaked at just 220 views.",
+      "action": "Eliminate static informational lectures lacking tangible sensory consequences or visual danger."
     }
   ],
   "next_video": {
     "category": "what-if scenarios",
-    "hook_style": "Second-person visceral catastrophe hook",
-    "concept": "What If You Fell Into Jupiter's Hidden Metallic Hydrogen Ocean?",
-    "opening_direction": "Start mid-descent: 'If you fell through Jupiter's clouds, you wouldn't crash into rock—you would sink into a boiling liquid metal ocean.'",
-    "twist_direction": "Reveal that the pressure at depth turns hydrogen gas into an electric liquid that generates super-storms capable of vaporizing titanium in milliseconds.",
+    "hook_style": "Second-person survival peril with sensory shock",
+    "concept": "What If You Fell Into a Supercritical Plasma Ocean? (GJ 1214 b)",
+    "opening_direction": "Visual drop directly into a violet sky plunging through steaming, scalding clouds with the line: 'If you fell into GJ 1214 b, you wouldn't drown—you would be instantly cooked by superheated steam that behaves like liquid metal.'",
+    "twist_direction": "Reveal that miles down into the ocean, the crushing atmospheric pressure forces boiling water to fuse into solid, scorching 'Ice VII', turning the seabed into a hot crystalline cage.",
     "duration_seconds": 21,
     "posting_window": "12:30 - 13:30 UTC",
-    "reason": "Leverages the proven 'What If You Fell Into...' framework while exploring an untouched celestial mystery with intense visual and sensory appeal, matching the channel's top-performing 21-second retention sweet spot.",
+    "reason": "Leverages the proven 'What If You Fell Into...' narrative engine and high engagement duration (21s), targeting an untouched cosmic anomaly (supercritical water world) that satisfies demand for mind-bending planetary science.",
     "fresh_topic_constraints": [
-      "Do not feature diamond rain or 55 Cancri e",
-      "Do not feature TrES-2b or Gliese 436b",
-      "Do not reuse molten iron, glass, or ruby rain concepts",
-      "Ensure factual planetary physics without presenting speculation as verified certainty"
+      "Do not cover burning ice (Gliese 436b)",
+      "Do not cover liquid diamond or $26 nonillion diamond planets",
+      "Do not cover TrES-2b or darkest planet concepts",
+      "Do not cover glass rain or molten iron rain"
     ]
   },
-  "experiment": "Test whether framing an internal solar system phenomenon (Jupiter's core ocean) with the 'What If You Fell Into' hook matches or exceeds exoplanet performance while sustaining above-average like-to-view ratios (>3.5%).",
+  "experiment": "Test whether introducing a physical survival countdown ('You have exactly 8 seconds before...') within the first 3 seconds of a what-if exoplanet Short lifts like-to-view ratios above 4.5%.",
   "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-10-30T10:19:05.231775+00:00"
+  "generated_at": "2026-10-30T16:51:17.504049+00:00"
 }
