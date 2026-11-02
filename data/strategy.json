@@ -1,47 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of the deduplicated performance data reveals that extreme, high-stakes space phenomena and hypothetical 'What If' scenarios dominate engagement velocity for FACTVERSE. Videos focusing on bizarre planetary conditions (such as liquid diamond planets, extreme darkness, and extreme temperatures) command the highest views-per-day and stronger likes-per-view ratios compared to standard biological facts or historical mysteries.",
+  "overall_summary": "Analysis of deduplicated observations weighted by recent performance reveals that high-concept space and astrophysics scenarios—specifically extreme exoplanets and mind-bending cosmic properties ('What If You Fell Into a Liquid Diamond Planet?', 'Venus Has a Day Longer Than Its Year', 'The Planet Darker Than Coal')—are significantly outperforming psychological facts, standard animal trivia, and general science. Videos framed around immersive physical hypotheticals ('What If You Fell Into...') and rare astronomical anomalies generate the highest velocity of views-per-day, likes-per-view, and meaningful comment engagement. In contrast, standard psychological tricks and recycled animal facts show stagnant or minimal traction.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Space & Hypothetical 'What If' Scenarios",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) generated 1,029 views with 38 likes, and 'The Planet Darker Than Coal: TrES-2b' (v1rrcZLdp4U) generated 1,030 views with 36 likes, significantly outperforming older standard fact formats.",
-      "action": "Double down on extreme exoplanet environments paired with immersive, second-person hypothetical peril ('What If You Fell Into...') to maximize initial curiosity and retention."
+      "pattern": "Extreme Exoplanet & Cosmic Hypotheticals",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'The Planet Darker Than Coal: TrES-2b' (1,030 views, 36 likes) achieve the highest view counts and engagement ratios compared to standard science facts.",
+      "action": "Double down on space exploration and extreme planetary survival scenarios, framing them as high-stakes physics hypotheticals rather than passive textbook facts."
     },
     {
-      "pattern": "High-Contrast Visual Superlatives",
-      "evidence": "Titles featuring impossible extremes (e.g., 'Venus Has a Day Longer Than Its Year' - A9Qa-RmuOr0, with 981 views) convert casual scrollers effectively.",
-      "action": "Continue utilizing mind-bending cosmic paradoxes that pit familiar metrics (days vs. years, ice vs. burning) against each other."
+      "pattern": "Temporal & Scale Paradoxes",
+      "evidence": "Titles challenging conventional time or scale logic, such as 'Venus Has a Day Longer Than Its Year' (981 views, 21 likes) and 'Why Your Head Is Older Than Your Feet', capture strong early traction.",
+      "action": "Produce more short-form concepts focused on bizarre universal paradoxes that break human intuition about time, space, and physics."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Psychological & Common Brain Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' (2fqaGqfsR4A) stalled at 5 views, and general memory/song loops (ef3ND4qiRHc) showed sluggish engagement velocity.",
-      "action": "De-prioritize standard psychological listicles or basic cognitive illusions unless framed with an extreme, cinematic narrative micro-drama hook."
+      "pattern": "Generic Psychological Truisms",
+      "evidence": "Content focused on mild psychological phenomena or brain hacks (e.g., 'Your Brain Can Create Fake Memories', 'The Psychological Trick to Stop Songs') yields negligible view velocity (5–53 views).",
+      "action": "Deprioritize psychological tricks and standard cognitive trivia unless paired with a high-intensity, unexplainable mystery."
     },
     {
-      "pattern": "Low-Stakes Animal Trivia",
-      "evidence": "Simple creature facts like 'Octopuses Have THREE Hearts' (AXAfwrzzEdU) plateaued quickly in daily velocity compared to high-concept astronomy.",
-      "action": "Shift animal content away from static trivia toward extreme cinematic animal survival or high-stakes ecological mysteries."
+      "pattern": "Basic Animal Factoids",
+      "evidence": "Simple declarative animal facts ('Octopuses Have THREE Hearts', 'The Only Animal That Can Live Forever') underperform compared to cinematic or extreme survival framing.",
+      "action": "Shift animal content away from static listicle facts toward high-stakes cinematic animal survival or extreme environmental adaptations."
     }
   ],
   "next_video": {
-    "category": "Space",
-    "hook_style": "What-If Second-Person Immersion",
-    "concept": "Falling into a rogue black hole's event horizon where time stops entirely",
-    "opening_direction": "Start with a jarring visual of a pitch-black void consuming light, asking the viewer what happens to their body the exact microsecond they cross the threshold.",
-    "twist_direction": "Reveal that from your own perspective, you would age infinitely while the universe outside ends in a flash.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Leverages the proven high-performing 'What If' space format and time-dilation curiosity gaps observed in top-tier tracks like the liquid diamond planet and time/aging videos.",
+    "category": "Space / Astrophysics What-If",
+    "hook_style": "High-stakes physical impossibility / sensory paradox",
+    "concept": "Stepping onto a rogue planet wandering through interstellar space with no star in sight",
+    "opening_direction": "Imagine standing on a world completely untethered from any solar system, plunging through pitch-black interstellar space in eternal freezing darkness.",
+    "twist_direction": "Reveal that despite having no sun, the planet's core is so intensely radioactive that the ground beneath your feet glows a blinding neon blue.",
+    "duration_seconds": 20,
+    "posting_window": "12:00 PM - 2:00 PM EST",
+    "reason": "Leverages the proven high-performing 'What If / Extreme Planet' framework while introducing a fresh, non-published cosmic phenomenon (rogue planets and core radioactivity) that drives high retention and curiosity.",
     "fresh_topic_constraints": [
-      "Must not use black hole analogies previously published",
-      "Avoid mentioning diamonds, rain, or sharks",
-      "Focus strictly on relativistic time distortion and sensory isolation"
+      "Do not use diamond, glass, iron, or coal planets.",
+      "Do not reuse Saturn, Venus, or TrES-2b.",
+      "Must focus strictly on interstellar rogue planets and thermal radiation."
     ]
   },
-  "experiment": "Test a 21-second high-stakes space 'What If' scenario against a traditional historical mystery to confirm if cosmic hypotheticals maintain a permanent 3x multiplier on view velocity over earthly mysteries.",
+  "experiment": "Test a 20-second space survival hypothetical using atmospheric spatial audio cues (e.g., dead silence combined with low sub-bass hums) to measure its impact on average view duration compared to standard visual-only space hooks.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-02T00:55:38.975196+00:00"
+  "generated_at": "2026-11-02T18:37:24.246123+00:00"
 }
