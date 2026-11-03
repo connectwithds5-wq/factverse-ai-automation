@@ -1,47 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Analysis of the deduplicated performance metrics highlights a clear audience preference for high-concept space curiosities, extreme planetary 'what if' scenarios, and bizarre natural phenomena. Videos framed around immersive hypothetical scenarios ('What If You Fell Into...') and rare, extreme planetary traits (such as liquid diamond, burning ice, and dark matter worlds) achieve significantly higher views-per-day and engagement (likes-per-view) compared to standard psychology or general science facts. Newer uploads from late September and October show strong early momentum.",
-  "winning_patterns": [
-    {
-      "pattern": "Hypothetical Planetary 'What If' Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) generate over 900-1000 views with strong like ratios (up to 38 likes).",
-      "action": "Double down on immersive, high-stakes hypothetical scenarios involving extreme cosmic environments that prompt instant viewer visualization."
-    },
-    {
-      "pattern": "Extreme and Bizarre Space Anomalies",
-      "evidence": "Titles detailing extreme planetary conditions—such as Venus having a day longer than its year (A9Qa-RmuOr0) and TrES-2b being darker than coal (v1rrcZLdp4U)—consistently pull over 900-1030 views.",
-      "action": "Focus on lesser-known astronomical objects with paradoxical properties that challenge conventional physics."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Standard Psychological Facttte & Brain Hacks",
-      "evidence": "Shorts focusing on memory creation or songs stuck in the head (e.g., 2fqaGqfsR4A, Jc04LVKNd2s) stall severely with under 20 to 55 lifetime views and zero engagement.",
-      "action": "Deprioritize standard psychological tricks and brain hacks unless framed through a high-stakes, cinematic mystery or extreme micro-story lens."
-    },
-    {
-      "pattern": "Re-uploaded or Redundant Variations",
-      "evidence": "Repeated uploads of identical topics (e.g., 'Why Space Is Completely Silent') show diminishing returns on subsequent iterations.",
-      "action": "Strictly enforce the fresh topic constraint to avoid audience fatigue on repetitive subjects."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "space",
-    "hook_style": "Hypothetical survival question with extreme physical stakes",
-    "concept": "Stepping onto a rogue planet wandering through interstellar space with no star",
-    "opening_direction": "Start with total darkness and an immediate sensory shock about freezing instantly without a sun.",
-    "twist_direction": "Reveal that deep underground, geothermal heat from radioactive decay could harbor an entire hidden alien ocean.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Leverages the proven high-performing 'What If / Extreme Planet' winning pattern while introducing a completely fresh astronomical phenomenon (rogue planets with subsurface oceans).",
-    "fresh_topic_constraints": [
-      "Must not mention diamonds, liquid metal, glass rain, or black planets.",
-      "Must focus entirely on rogue planets/interstellar worlds.",
-      "Must be 100% scientifically accurate."
-    ]
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 21-second narrative structure with a rapid-fire visual transition within the first 3 seconds to measure if retention spikes compared to the 15-19 second baseline.",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-03T09:46:30.828921+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-11-03T17:57:28.303140+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-11-03T17:57:28.303164+00:00"
 }
