@@ -1,21 +1,47 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Analysis of the deduplicated performance metrics shows a clear dominance by space, cosmic anomaly, and 'What If' planetary scenario formats. Specifically, titles featuring high-stakes planetary physics, extreme environmental conditions, and extreme scale comparisons (e.g., IYuce8vaU3Y with 1,029 views and 38 likes; v1rrcZLdp4U with 1,031 views; A9Qa-RmuOr0 with 981 views) significantly outperform standard biological or psychological facts. Engagement metrics heavily favor interactive or destabilizing thought experiments ('What If You Fell Into...') combined with vivid, bizarre planetary phenomena.",
+  "winning_patterns": [
+    {
+      "pattern": "Destabilizing Planetary 'What If' Scenarios",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) generated 1,029 views and 38 likes; 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) generated 972 views.",
+      "action": "Double down on high-concept cosmic 'What If' scenarios involving extreme physical states (e.g., supercritical fluids, exotic matter, or extreme gravity wells)."
+    },
+    {
+      "pattern": "Extreme Cosmic Anomalies & Rare Material Worlds",
+      "evidence": "'The Planet Darker Than Coal: TrES-2b' (v1rrcZLdp4U) pulled 1,031 views; 'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0) pulled 981 views and 21 likes.",
+      "action": "Produce more short-form deep dives into bizarrely extreme astronomical objects that defy common-sense intuition."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Low-Stakes Psychological Trivia",
+      "evidence": "'Your Brain Can Create Fake Memories' (2fqaGqfsR4A) and 'The Real Reason Songs Get Stuck In Your Head' (Jc04LVKNd2s) stalled below 20-50 views.",
+      "action": "Deprioritize abstract psychological micro-facts unless framed through an extreme, high-tension narrative experiment."
+    },
+    {
+      "pattern": "Standard Biological Factoid Recycles",
+      "evidence": "'Your Brain Can Create Fake Memories' variants received near-zero traction compared to planetary physics.",
+      "action": "Avoid standard textbook biological facts; pivot biology topics exclusively toward cinematic animal survival or extreme physiological adaptations."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "category": "Space & Cosmic Mysteries",
+    "hook_style": "What If / Destabilizing Scenario",
+    "concept": "What If You Fell Into a Rogue Planet Sailing Through Deep Interstellar Space?",
+    "opening_direction": "Start with total pitch blackness and absolute zero temperature, dropping the viewer instantly into an unlit world hurtling through the void away from any star.",
+    "twist_direction": "Reveal that hundreds of trillions of these rogue worlds drift silently between galaxies, completely hidden from light.",
     "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "posting_window": "12:00 PM - 2:00 PM EST",
+    "reason": "Capitalizes on the proven high performance of 'What If' space scenarios while introducing a fresh cosmic phenomenon (rogue planets) not yet covered in the channel history.",
+    "fresh_topic_constraints": [
+      "Must not mention diamonds, molten iron, or glass rain",
+      "Must feature an entirely new astronomical entity (rogue/interstellar planet)",
+      "Keep pacing under 16 seconds to maintain high loop-rate retention"
+    ]
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-11-05T11:17:19.179326+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-11-05T11:17:19.179352+00:00"
+  "experiment": "Test a space scenario incorporating an atmospheric sound design cue (silence vs. wind howl) to measure its direct impact on audience retention drop-off during the first 3 seconds.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-11-05T18:52:52.516195+00:00"
 }
