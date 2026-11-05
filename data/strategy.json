@@ -1,42 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Analysis of the deduplicated performance metrics highlights a dominant audience preference for extreme space phenomenons, bizarre planetary physics, and high-stakes hypothetical 'What-If' space scenarios (e.g., 'What If You Fell Into a Liquid Diamond Planet?', 'Venus Has a Day Longer Than Its Year', and unusual planetary weather like supersonic rubies or burning ice). These space-related topics consistently command significantly higher view counts, like-to-view ratios, and active engagement compared to standard biological or purely psychological micro-facts. We should lean fully into extreme, visually striking space concepts while integrating suspenseful narrative hooks.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Space Physics & Bizarre Planetary Weather",
-      "evidence": "Videos focusing on unusual planetary conditions (e.g., 'What If You Fell Into a Liquid Diamond Planet?' with 1,029 views / 38 likes, 'Venus Has a Day Longer Than Its Year' with 981 views, and 'The Planet Darker Than Coal: TrES-2b' with 1,031 views) drastically outperform standard trivia.",
-      "action": "Produce more high-concept space shorts focusing on extreme, counter-intuitive worlds, bizarre weather, or dark matter anomalies."
-    },
-    {
-      "pattern": "'What If You Fell Into...' Hypothetical Immersion Hook",
-      "evidence": "First-person speculative framing directly drives viewer retention and high like-to-view engagement, seen in 'What If You Fell Into a Liquid Diamond Planet?' and 'What If You Fell Into the Planet of Burning Ice?' (972 views).",
-      "action": "Use immersive, high-stakes 'What If' scenarios that place the viewer directly into extreme environments right from the opening second."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Low-Engagement Psychological Facts",
-      "evidence": "Topics centered around memory tricks, songs stuck in the head, and minor human biology (e.g., 'Your Brain Can Create Fake Memories' with 5 views, 'Your Brain Is Hiding This From You') show minimal traction and poor view velocity.",
-      "action": "Deprioritize standard psychological tricks and internal brain trivia in favor of massive, macro-scale cosmic mysteries."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space & Astronomy",
-    "hook_style": "High-stakes 'What If' hypothetical danger",
-    "concept": "What If You Fell Into a Rogue Planet Traversing Interstellar Space?",
-    "opening_direction": "Start with total pitch blackness and absolute zero temperatures, asking the viewer what happens when a wandering planet with no star enters our solar system.",
-    "twist_direction": "Reveal that millions of rogue planets drift through the galaxy completely unseen, completely untethered from any sun.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 2:00 PM EST (Peak engagement window for space content)",
-    "reason": "Capitalizes on the winning 'What If' planetary immersion format and extreme space physics patterns, using a fresh subject (rogue planets) not yet covered in the channel history.",
-    "fresh_topic_constraints": [
-      "Must not feature diamond planets, burning ice planets, or TRES-2b",
-      "Must introduce a completely new astronomical entity (interstellar rogue planets)",
-      "Maintain factual accuracy regarding rogue planetary mechanics"
-    ]
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a strict 21-second runtime format pairing an immediate, sensory-driven first-person hypothetical question ('What if you fell onto...ing...') with deep, cinematic space visuals to determine if retention and comment velocity scale further.",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-04T22:00:36.222819+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-11-05T02:38:00.296901+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-11-05T02:38:00.296925+00:00"
 }
