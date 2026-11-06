@@ -1,47 +1,42 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Deduplicated analysis of FACTVERSE's recent YouTube Shorts reveals that high-concept space and astrophysics scenarios—specifically extreme exoplanets and 'What If' planetary mechanics—significantly outperform general biological or psychological facts. Videos dealing with bizarre planetary environments (e.g., TrES-2b, liquid diamond planets, and burning ice worlds) consistently generate high views-per-day and stronger engagement rates (likes-per-view) compared to older or standard-fact topics.",
+  "overall_summary": "Deduplication and recency weighting indicate that high-concept space phenomena—specifically extreme planetary environments, 'What If' hypothetical scenarios, and counterintuitive cosmic extremes—are significantly outperforming standard psychology, history, or basic animal trivia in velocity and engagement (likes-per-view). Videos featuring surreal planetary conditions (e.g., TrES-2b, liquid diamond planets, and burning ice worlds) consistently generate higher view velocities and strong engagement ratios within shorter timeframes.",
   "winning_patterns": [
     {
-      "pattern": "Hypothetical Planetary Immersion ('What If You Fell Into...')",
-      "evidence": "Videos like IYuce8vaU3Y ('What If You Fell Into a Liquid Diamond Planet?') and 8KEl0_pJ_68 ('What If You Fell Into the Planet of Burning Ice?') pull over 900-1000 views with strong like ratios.",
-      "action": "Double down on extreme space 'What If' survival scenarios involving exotic, bizarre exoplanets or stellar phenomena."
+      "pattern": "Extreme 'What If' Planetary Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) show high view counts and robust likes relative to their age.",
+      "action": "Double down on surreal planetary 'What If' scenarios that force the viewer to visualize extreme physical environments instantly."
     },
     {
-      "pattern": "Extreme Cosmic Anomalies & Extremes",
-      "evidence": "v1rrcZLdp4U ('The Planet Darker Than Coal: TrES-2b') and A9Qa-RmuOr0 ('Venus Has a Day Longer Than Its Year') show high traction and strong organic discovery.",
-      "action": "Frame space facts around paradoxical or extreme physical laws that challenge human intuition immediately in the hook."
+      "pattern": "Mind-Bending Cosmic Extremes",
+      "evidence": "Titles detailing impossible-sounding realities, such as 'The Planet Darker Than Coal: TrES-2b' (v1rrcZLdp4U) and 'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0), are driving strong organic discovery.",
+      "action": "Focus hooks on absolute superlatives and counterintuitive planetary facts that challenge standard human intuition."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Psychological/Brain Tricks",
-      "evidence": "Videos like 2fqaGqfsR4A and ef3ND4qiRHc ('Your Brain Can Create Fake Memories') stagnated below 60-70 views, indicating lower algorithm push and weaker initial swipe-through rates.",
-      "action": "Deprioritize abstract psychological micro-facts unless framed within a high-stakes narrative or mystery format."
-    },
-    {
-      "pattern": "Low-Stakes Animal Trivia",
-      "evidence": "F1kXwuXuNgo and mGEgENcGcNE underperformed compared to high-concept cosmic topics.",
-      "action": "Shift animal content away from simple trivia toward cinematic animal survival or extreme prehistoric clashes."
+      "pattern": "Generic Psychological and Brain Trick Trivia",
+      "evidence": "Videos focusing on internal psychological tricks or memory facts (e.g., 'Your Brain Can Create Fake Memories', 5AN7LUgqarc) show stagnant or very low view velocities compared to space content.",
+      "action": "Deprioritize standard psychology trivia unless paired with an extreme, high-stakes hypothetical scenario or a dramatic visual hook."
     }
   ],
   "next_video": {
-    "category": "Space & Astronomy",
-    "hook_style": "High-stakes speculative physics / Extreme 'What If'",
-    "concept": "What If You Fell Into a Rogue Planet Wandering Deep Space Without a Star?",
-    "opening_direction": "Start in absolute, pitch-black silence on a world hurtling through the interstellar void with no sun in sight, asking the viewer what happens to a human body when the ambient temperature drops to absolute zero instantly.",
-    "twist_direction": "Reveal that these rogue planets outnumber stars in the galaxy by the trillions, meaning Earth could theoretically be knocked out of orbit into eternal dark without warning.",
-    "duration_seconds": 21,
+    "category": "Space & Science",
+    "hook_style": "Hypothetical catastrophic planetary survival / Extreme physical impossibility",
+    "concept": "What If You Fell Into the Coldest Known Place in the Universe (The Boomerang Nebula)?",
+    "opening_direction": "Start instantly with the terrifying sensation of dropping into a cloud of gas colder than deep space itself, where molecules freeze completely still.",
+    "twist_direction": "Reveal that the environment is so cold it actually absorbs heat from the cosmic microwave background, breaking thermal equilibrium entirely.",
+    "duration_seconds": 15,
     "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Leverages the proven high-performing 'What If' planetary immersion pattern while introducing a fresh, psychologically gripping cosmic subject not yet covered in the channel history.",
+    "reason": "Capitalizes on the proven high performance of 'What If' space scenarios and extreme temperature/environment hooks, while introducing a completely fresh celestial body not yet covered in previous uploads.",
     "fresh_topic_constraints": [
-      "Do not use diamond, glass, iron, or burning ice planets",
-      "Must focus strictly on interstellar rogue planets and eternal darkness",
-      "Avoid repeating phrasing from previous titles"
+      "Must not feature diamond planets, TrES-2b, or standard black holes.",
+      "Must use a unique celestial object (Boomerang Nebula) to ensure absolute originality.",
+      "Must avoid recycling previous titles about space being silent or star temperatures."
     ]
   },
-  "experiment": "Test a space 'What If' scenario involving an interstellar rogue planet against a historical mystery micro-story to see if audience retention favors speculative astrophysics or narrative-driven historical storytelling.",
+  "experiment": "Test a fast-paced spatial audio drop in the first 2 seconds simulating absolute zero silence, paired with a high-contrast visual of a freezing astronaut suit to measure retention impact on extreme environment hooks.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-06T15:14:02.366992+00:00"
+  "generated_at": "2026-11-06T20:57:57.926493+00:00"
 }
