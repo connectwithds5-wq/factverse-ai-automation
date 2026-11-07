@@ -1,42 +1,41 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of the deduplicated performance metrics highlights a clear audience preference for extreme, high-stakes space phenomena and hypothetical 'What If' scenarios regarding alien worlds and extreme planetary conditions. Specifically, videos covering planetary anomalies (e.g., liquid diamond planets, dark planets like TrES-2b, and extreme atmospheric phenomena) generate significantly higher velocity, views-per-day, and engagement (likes-per-view) compared to general psychological tricks or older standard space facts.",
+  "overall_summary": "Analysis of the deduplicated performance metrics shows a clear dominance of extreme space phenomenons, esoteric planetary conditions, and 'What If' hypothetical space scenarios. Specifically, videos covering rare planetary environments (e.g., liquid diamond planets, planets darker than coal, burning ice planets) and extreme cosmic attributes are driving the highest views-per-day and stronger engagement rates (likes-per-view and comments-per-view). Conversely, older biological or psychological facts published earlier in September are seeing heavily diminished daily velocities.",
   "winning_patterns": [
     {
-      "pattern": "Hypothetical Planetary 'Fall Into' Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) lead in recent views (near or above 1,000) and maintain high like ratios.",
-      "action": "Double down on high-stakes hypothetical scenarios involving extreme planetary environments using the 'What If You Fell Into...' hook framework."
+      "pattern": "Extreme Planetary / Cosmic 'What If' Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,029 views), 'The Planet Darker Than Coal: TrES-2b' (1,031 views), and 'Venus Has a Day Longer Than Its Year' (981 views) significantly outperform standard biological facts.",
+      "action": "Double down on surreal, high-scale space 'What If' scenarios and extreme exoplanet descriptions featuring rich visual cues."
     },
     {
-      "pattern": "Extreme and Counter-Intuitive Space Anomalies",
-      "evidence": "Titles featuring rare cosmic extremes such as 'The Planet Darker Than Coal: TrES-2b' (v1rrcZLdp4U) and 'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0) achieve top-tier view velocity and engagement.",
-      "action": "Focus upcoming space content on bizarre, visually striking exoplanets and cosmic paradoxes that challenge common physical assumptions."
+      "pattern": "Mind-Bending Comparative Scale Hooks",
+      "evidence": "'This Planet Rains Supersonic Rubies!' (725 views) and 'What If You Fell Into the Planet of Burning Ice?' (972 views) demonstrate strong pull via contradictory or impossible-sounding weather/physics.",
+      "action": "Utilize short, punchy titles featuring impossible physics or extreme weather on exotic celestial bodies."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Low-Stakes Psychological & Brain Trick Shorts",
-      "evidence": "Videos focusing on internal psychological phenomena, such as 'Your Brain Can Create Fake Memories' (2fqaGqfsR4A, r43-7nSn8SQ) and 'The Real Reason Songs Get Stuck In Your Head' (Jc04LVKNd2s), underperformed significantly with very low view counts and minimal engagement.",
-      "action": "Deprioritize abstract internal psychological tricks unless tied to an extreme survival or high-concept sci-fi narrative."
+      "pattern": "Aged Psychological and Brain-Hack Micro-Facts",
+      "evidence": "Topics like 'Your Brain Can Create Fake Memories' (5-53 views depending on age) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) show severely flatlined daily views due to saturation.",
+      "action": "Deprioritize standard psychological tricks unless paired with a completely novel, cinematic mystery angle."
     }
   ],
   "next_video": {
-    "category": "Space / Extreme Planetary Physics",
-    "hook_style": "What If / Extreme Survival Paradox",
-    "concept": "A hypothetical dive into WASP-76b, the exoplanet where it literally rains molten glass sideways at supersonic speeds.",
-    "opening_direction": "Start directly with the terrifying visual of standing on a world where the wind strips your flesh off with razor-sharp glass.",
-    "twist_direction": "Reveal that the wind is blowing faster than the speed of sound, meaning you wouldn't even hear the storm coming before it destroys you.",
-    "duration_seconds": 15,
-    "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Leverages the proven high-performing 'What If' and extreme weather/planet mechanics observed in top hits like IYuce8vaU3Y and vWd0uYcEGh4.",
+    "category": "Space & Astronomy What-If Scenarios",
+    "hook_style": "High-stakes impossible survival scenario",
+    "concept": "What happens if you stood on a rogue planet hurtling through interstellar space with no star?",
+    "opening_direction": "Start in absolute pitch blackness and absolute zero temperature, then reveal a terrifying rogue world wandering the void without a sun.",
+    "twist_direction": "Reveal that despite having no star, the core is hot enough to maintain massive subterranean oceans of liquid nitrogen or boiling neon.",
+    "duration_seconds": 18,
+    "posting_window": "12:00 PM - 3:00 PM UTC",
+    "reason": "Rogue planets and interstellar anomalies tap directly into the top-performing space 'What If' sub-niche identified in recent metrics.",
     "fresh_topic_constraints": [
-      "Must not use WASP-76b if it duplicates previous planet names, but focus on the specific sideways-glass-rain phenomenon on an undiscovered or uniquely framed extreme exoplanet.",
-      "Avoid repeating Diamond, Burning Ice, or TrES-2b concepts.",
-      "Ensure absolute factual accuracy regarding exoplanet meteorology."
+      "Must not feature diamond planets, TrES-2b, or Saturn comparisons",
+      "Must use a completely new celestial entity or astronomical phenomenon not present in historical data"
     ]
   },
-  "experiment": "Test a 15-second high-velocity 'What If' scenario focusing on extreme atmospheric pressure versus a 21-second standard fact style to determine if tighter editing improves viewer retention and algorithmic push.",
+  "experiment": "Test a 21-second narrative structure with an immediate sensory shock hook ('Your blood would boil and freeze simultaneously...') applied to a rogue interstellar planet concept to benchmark retention against standard space factoids.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-07T14:15:21.489321+00:00"
+  "generated_at": "2026-11-07T18:57:00.092106+00:00"
 }
