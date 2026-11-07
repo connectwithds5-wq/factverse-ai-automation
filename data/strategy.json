@@ -1,47 +1,42 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of 46 deduplicated uploads shows a stark performance divergence: immersive space 'What If' survival hooks and extreme planetary anomalies consistently generate the highest traction (400–1,050+ views, 3–4.6% like rates, active comments), whereas repetitive psychology facts, duplicate re-uploads, and low-stakes biological trivia stagnate under 100 views.",
+  "overall_summary": "Analysis of the deduplicated performance metrics highlights a clear audience preference for extreme, high-stakes space phenomena and hypothetical 'What If' scenarios regarding alien worlds and extreme planetary conditions. Specifically, videos covering planetary anomalies (e.g., liquid diamond planets, dark planets like TrES-2b, and extreme atmospheric phenomena) generate significantly higher velocity, views-per-day, and engagement (likes-per-view) compared to general psychological tricks or older standard space facts.",
   "winning_patterns": [
     {
-      "pattern": "First-Person Planetary Survival Hooks ('What If You Fell Into...')",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) outperformed channel averages by 4x to 8x.",
-      "action": "Use visceral second-person sensory immersion ('What if you stepped onto...') targeting exotic, high-hazard celestial bodies."
+      "pattern": "Hypothetical Planetary 'Fall Into' Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) lead in recent views (near or above 1,000) and maintain high like ratios.",
+      "action": "Double down on high-stakes hypothetical scenarios involving extreme planetary environments using the 'What If You Fell Into...' hook framework."
     },
     {
-      "pattern": "Extreme Space Superlatives & Dark Cosmic Anomalies",
-      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,031 views, 36 likes) and 'This Planet Rains Supersonic Rubies!' (725 views, 25 likes) drove strong like ratios (3.4–3.5%) and comment engagement.",
-      "action": "Anchor titles on singular, mind-bending scientific superlatives paired with cinematic visualization of extreme environments."
+      "pattern": "Extreme and Counter-Intuitive Space Anomalies",
+      "evidence": "Titles featuring rare cosmic extremes such as 'The Planet Darker Than Coal: TrES-2b' (v1rrcZLdp4U) and 'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0) achieve top-tier view velocity and engagement.",
+      "action": "Focus upcoming space content on bizarre, visually striking exoplanets and cosmic paradoxes that challenge common physical assumptions."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Overused Psychology & Brain Factoids",
-      "evidence": "Multiple variations of 'Your Brain Can Create Fake Memories' flatlined at 5, 10, and 53 views; 'Your Brain Is Hiding This From You' reached only 38 views.",
-      "action": "Pause generic psychology tips unless framed as a high-stakes psychological micro-thriller or biological survival mystery."
-    },
-    {
-      "pattern": "Direct Duplicate Re-uploads Without Creative Evolution",
-      "evidence": "Re-posting identical titles like 'Why Space Is Completely Silent' (views dropped from 220 to 87 and 34) and 'Octopuses Have THREE Hearts' yields diminishing algorithm distribution.",
-      "action": "Enforce strict anti-repetition; iterate on winning pacing and hooks rather than recycling previously published topics."
+      "pattern": "Low-Stakes Psychological & Brain Trick Shorts",
+      "evidence": "Videos focusing on internal psychological phenomena, such as 'Your Brain Can Create Fake Memories' (2fqaGqfsR4A, r43-7nSn8SQ) and 'The Real Reason Songs Get Stuck In Your Head' (Jc04LVKNd2s), underperformed significantly with very low view counts and minimal engagement.",
+      "action": "Deprioritize abstract internal psychological tricks unless tied to an extreme survival or high-concept sci-fi narrative."
     }
   ],
   "next_video": {
-    "category": "what-if scenarios",
-    "hook_style": "Visceral first-person survival dilemma",
-    "concept": "What If You Got Within 1,000 Miles of a Magnetar?",
-    "opening_direction": "Open instantly with a spacecraft cockpit alarms blaring as compasses and digital displays instantly melt into static.",
-    "twist_direction": "Reveal that before any radiation touches you, the magnetic field alone pulls the iron and electrons directly out of your living cells, dissolving your body into an atomic mist.",
-    "duration_seconds": 21,
-    "posting_window": "12:30 - 13:30 UTC",
-    "reason": "Leverages the proven high-retention 21-second 'What If' disaster format combined with the channel's strongest affinity (extreme astrophysics), while introducing a completely unvisited entity (magnetars/neutron star magnetic horrors).",
+    "category": "Space / Extreme Planetary Physics",
+    "hook_style": "What If / Extreme Survival Paradox",
+    "concept": "A hypothetical dive into WASP-76b, the exoplanet where it literally rains molten glass sideways at supersonic speeds.",
+    "opening_direction": "Start directly with the terrifying visual of standing on a world where the wind strips your flesh off with razor-sharp glass.",
+    "twist_direction": "Reveal that the wind is blowing faster than the speed of sound, meaning you wouldn't even hear the storm coming before it destroys you.",
+    "duration_seconds": 15,
+    "posting_window": "12:00 PM - 3:00 PM EST",
+    "reason": "Leverages the proven high-performing 'What If' and extreme weather/planet mechanics observed in top hits like IYuce8vaU3Y and vWd0uYcEGh4.",
     "fresh_topic_constraints": [
-      "Do not cover TrES-2b, Gliese 436b (burning ice), 55 Cancri e (diamond planets), WASP-76b (iron rain), or Saturn ring age.",
-      "Avoid generic 'Why Space Is Silent' or acoustic vacuum trivia.",
-      "Focus strictly on Magnetar SGR 1806-20 magnetic shredding physics."
+      "Must not use WASP-76b if it duplicates previous planet names, but focus on the specific sideways-glass-rain phenomenon on an undiscovered or uniquely framed extreme exoplanet.",
+      "Avoid repeating Diamond, Burning Ice, or TrES-2b concepts.",
+      "Ensure absolute factual accuracy regarding exoplanet meteorology."
     ]
   },
-  "experiment": "Test whether framing extreme space physics as a bodily horror/survival scenario (Magnetar atomic dissolution) generates a higher comment discussion rate than passive exoplanet weather descriptions.",
-  "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-11-07T07:29:42.009275+00:00"
+  "experiment": "Test a 15-second high-velocity 'What If' scenario focusing on extreme atmospheric pressure versus a 21-second standard fact style to determine if tighter editing improves viewer retention and algorithmic push.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-11-07T14:15:21.489321+00:00"
 }
