@@ -1,42 +1,48 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Deduplication and recency weighting indicate that high-concept space phenomena—specifically extreme planetary environments, 'What If' hypothetical scenarios, and counterintuitive cosmic extremes—are significantly outperforming standard psychology, history, or basic animal trivia in velocity and engagement (likes-per-view). Videos featuring surreal planetary conditions (e.g., TrES-2b, liquid diamond planets, and burning ice worlds) consistently generate higher view velocities and strong engagement ratios within shorter timeframes.",
+  "overall_summary": "Analysis across 37 unique videos shows extreme space exoplanets and high-stakes 'What If You Fell Into...' scenario hooks massively outperform all other categories, averaging 700-1,000+ views with high like ratios (3.5%-3.8%). In contrast, passive psychology facts ('Brain memories', 'Songs stuck in your head') and recycled concepts consistently flatline below 100 views.",
   "winning_patterns": [
     {
-      "pattern": "Extreme 'What If' Planetary Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) show high view counts and robust likes relative to their age.",
-      "action": "Double down on surreal planetary 'What If' scenarios that force the viewer to visualize extreme physical environments instantly."
+      "pattern": "First-Person Extreme Cosmic Survival ('What If You Fell Into...')",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet' generated 1,029 views and 38 likes; 'What If You Fell Into the Planet of Burning Ice' reached 972 views; 'What If You Fell Into the Darkest Planet' hit 824 views.",
+      "action": "Leverage immersive second-person POV ('You') experiencing catastrophic physical phenomena on bizarre celestial bodies."
     },
     {
-      "pattern": "Mind-Bending Cosmic Extremes",
-      "evidence": "Titles detailing impossible-sounding realities, such as 'The Planet Darker Than Coal: TrES-2b' (v1rrcZLdp4U) and 'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0), are driving strong organic discovery.",
-      "action": "Focus hooks on absolute superlatives and counterintuitive planetary facts that challenge standard human intuition."
+      "pattern": "Extreme Physical Paradoxes in Planetary Science",
+      "evidence": "'Venus Has a Day Longer Than Its Year' achieved 981 views, 21 likes; 'Planet Darker Than Coal' got 1,031 views, 36 likes.",
+      "action": "Highlight immediate, mind-bending scientific contradictions in the first sentence and title."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Psychological and Brain Trick Trivia",
-      "evidence": "Videos focusing on internal psychological tricks or memory facts (e.g., 'Your Brain Can Create Fake Memories', 5AN7LUgqarc) show stagnant or very low view velocities compared to space content.",
-      "action": "Deprioritize standard psychology trivia unless paired with an extreme, high-stakes hypothetical scenario or a dramatic visual hook."
+      "pattern": "Generic Psychology & Cognitive Trivia",
+      "evidence": "'Your Brain Can Create Fake Memories' achieved between 5 and 53 views across multiple uploads; 'Your Brain Is Hiding This From You' stalled at 38 views.",
+      "action": "Pause isolated brain trivia; shift psychology angles into high-stakes psychological survival or micro-horror mysteries."
+    },
+    {
+      "pattern": "Repeated Identical Re-uploads",
+      "evidence": "Duplicate uploads for 'Why Space Is Completely Silent' and 'Octopuses Have THREE Hearts' suffered severe algorithmic suppression (dropping from 220 to 34 views).",
+      "action": "Eliminate direct re-uploads; iterate on fresh entities and untapped mysteries rather than duplicating old scripts."
     }
   ],
   "next_video": {
-    "category": "Space & Science",
-    "hook_style": "Hypothetical catastrophic planetary survival / Extreme physical impossibility",
-    "concept": "What If You Fell Into the Coldest Known Place in the Universe (The Boomerang Nebula)?",
-    "opening_direction": "Start instantly with the terrifying sensation of dropping into a cloud of gas colder than deep space itself, where molecules freeze completely still.",
-    "twist_direction": "Reveal that the environment is so cold it actually absorbs heat from the cosmic microwave background, breaking thermal equilibrium entirely.",
-    "duration_seconds": 15,
-    "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Capitalizes on the proven high performance of 'What If' space scenarios and extreme temperature/environment hooks, while introducing a completely fresh celestial body not yet covered in previous uploads.",
+    "category": "what-if scenarios / space",
+    "hook_style": "Second-Person Physical Jeopardy",
+    "concept": "What If You Fell Into the Metallic Mirror Planet (LTT 9779 b)?",
+    "opening_direction": "Start immediately with blinding visual reflection: 'If you fell into LTT 9779 b, your spacesuit would face a literal mirror world that reflects 80% of starlight back into the void.'",
+    "twist_direction": "Reveal that the reflective clouds are not water or ice, but vaporized titanium and silicate glass, meaning falling through them is like dropping into a 3,000-degree blender of molten mirrors.",
+    "duration_seconds": 21,
+    "posting_window": "12:00 PM - 01:30 PM UTC",
+    "reason": "Directly targets FACTVERSE's top-performing hook format ('What If You Fell Into...') while introducing a fresh, never-before-covered exoplanet (LTT 9779 b) to avoid audience fatigue.",
     "fresh_topic_constraints": [
-      "Must not feature diamond planets, TrES-2b, or standard black holes.",
-      "Must use a unique celestial object (Boomerang Nebula) to ensure absolute originality.",
-      "Must avoid recycling previous titles about space being silent or star temperatures."
+      "Do NOT use Gliese 436b (Burning Ice)",
+      "Do NOT use 55 Cancri e (Diamond Planet)",
+      "Do NOT use TrES-2b (Darkest Planet)",
+      "Do NOT use WASP-76b (Liquid Iron / Metal Rain)"
     ]
   },
-  "experiment": "Test a fast-paced spatial audio drop in the first 2 seconds simulating absolute zero silence, paired with a high-contrast visual of a freezing astronaut suit to measure retention impact on extreme environment hooks.",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-06T20:57:57.926493+00:00"
+  "experiment": "Test sensory horror/survival framing inside planetary science: compare retention when emphasizing tactile destruction (vaporizing flesh/suit) versus pure planetary astrophysics.",
+  "model_used": "gemini-3.8-flash",
+  "generated_at": "2026-11-07T01:07:31.886704+00:00"
 }
