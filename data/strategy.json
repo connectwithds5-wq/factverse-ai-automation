@@ -1,48 +1,47 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Analysis across 37 unique videos shows extreme space exoplanets and high-stakes 'What If You Fell Into...' scenario hooks massively outperform all other categories, averaging 700-1,000+ views with high like ratios (3.5%-3.8%). In contrast, passive psychology facts ('Brain memories', 'Songs stuck in your head') and recycled concepts consistently flatline below 100 views.",
+  "overall_summary": "Analysis of 46 deduplicated uploads shows a stark performance divergence: immersive space 'What If' survival hooks and extreme planetary anomalies consistently generate the highest traction (400–1,050+ views, 3–4.6% like rates, active comments), whereas repetitive psychology facts, duplicate re-uploads, and low-stakes biological trivia stagnate under 100 views.",
   "winning_patterns": [
     {
-      "pattern": "First-Person Extreme Cosmic Survival ('What If You Fell Into...')",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet' generated 1,029 views and 38 likes; 'What If You Fell Into the Planet of Burning Ice' reached 972 views; 'What If You Fell Into the Darkest Planet' hit 824 views.",
-      "action": "Leverage immersive second-person POV ('You') experiencing catastrophic physical phenomena on bizarre celestial bodies."
+      "pattern": "First-Person Planetary Survival Hooks ('What If You Fell Into...')",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) outperformed channel averages by 4x to 8x.",
+      "action": "Use visceral second-person sensory immersion ('What if you stepped onto...') targeting exotic, high-hazard celestial bodies."
     },
     {
-      "pattern": "Extreme Physical Paradoxes in Planetary Science",
-      "evidence": "'Venus Has a Day Longer Than Its Year' achieved 981 views, 21 likes; 'Planet Darker Than Coal' got 1,031 views, 36 likes.",
-      "action": "Highlight immediate, mind-bending scientific contradictions in the first sentence and title."
+      "pattern": "Extreme Space Superlatives & Dark Cosmic Anomalies",
+      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,031 views, 36 likes) and 'This Planet Rains Supersonic Rubies!' (725 views, 25 likes) drove strong like ratios (3.4–3.5%) and comment engagement.",
+      "action": "Anchor titles on singular, mind-bending scientific superlatives paired with cinematic visualization of extreme environments."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Generic Psychology & Cognitive Trivia",
-      "evidence": "'Your Brain Can Create Fake Memories' achieved between 5 and 53 views across multiple uploads; 'Your Brain Is Hiding This From You' stalled at 38 views.",
-      "action": "Pause isolated brain trivia; shift psychology angles into high-stakes psychological survival or micro-horror mysteries."
+      "pattern": "Overused Psychology & Brain Factoids",
+      "evidence": "Multiple variations of 'Your Brain Can Create Fake Memories' flatlined at 5, 10, and 53 views; 'Your Brain Is Hiding This From You' reached only 38 views.",
+      "action": "Pause generic psychology tips unless framed as a high-stakes psychological micro-thriller or biological survival mystery."
     },
     {
-      "pattern": "Repeated Identical Re-uploads",
-      "evidence": "Duplicate uploads for 'Why Space Is Completely Silent' and 'Octopuses Have THREE Hearts' suffered severe algorithmic suppression (dropping from 220 to 34 views).",
-      "action": "Eliminate direct re-uploads; iterate on fresh entities and untapped mysteries rather than duplicating old scripts."
+      "pattern": "Direct Duplicate Re-uploads Without Creative Evolution",
+      "evidence": "Re-posting identical titles like 'Why Space Is Completely Silent' (views dropped from 220 to 87 and 34) and 'Octopuses Have THREE Hearts' yields diminishing algorithm distribution.",
+      "action": "Enforce strict anti-repetition; iterate on winning pacing and hooks rather than recycling previously published topics."
     }
   ],
   "next_video": {
-    "category": "what-if scenarios / space",
-    "hook_style": "Second-Person Physical Jeopardy",
-    "concept": "What If You Fell Into the Metallic Mirror Planet (LTT 9779 b)?",
-    "opening_direction": "Start immediately with blinding visual reflection: 'If you fell into LTT 9779 b, your spacesuit would face a literal mirror world that reflects 80% of starlight back into the void.'",
-    "twist_direction": "Reveal that the reflective clouds are not water or ice, but vaporized titanium and silicate glass, meaning falling through them is like dropping into a 3,000-degree blender of molten mirrors.",
+    "category": "what-if scenarios",
+    "hook_style": "Visceral first-person survival dilemma",
+    "concept": "What If You Got Within 1,000 Miles of a Magnetar?",
+    "opening_direction": "Open instantly with a spacecraft cockpit alarms blaring as compasses and digital displays instantly melt into static.",
+    "twist_direction": "Reveal that before any radiation touches you, the magnetic field alone pulls the iron and electrons directly out of your living cells, dissolving your body into an atomic mist.",
     "duration_seconds": 21,
-    "posting_window": "12:00 PM - 01:30 PM UTC",
-    "reason": "Directly targets FACTVERSE's top-performing hook format ('What If You Fell Into...') while introducing a fresh, never-before-covered exoplanet (LTT 9779 b) to avoid audience fatigue.",
+    "posting_window": "12:30 - 13:30 UTC",
+    "reason": "Leverages the proven high-retention 21-second 'What If' disaster format combined with the channel's strongest affinity (extreme astrophysics), while introducing a completely unvisited entity (magnetars/neutron star magnetic horrors).",
     "fresh_topic_constraints": [
-      "Do NOT use Gliese 436b (Burning Ice)",
-      "Do NOT use 55 Cancri e (Diamond Planet)",
-      "Do NOT use TrES-2b (Darkest Planet)",
-      "Do NOT use WASP-76b (Liquid Iron / Metal Rain)"
+      "Do not cover TrES-2b, Gliese 436b (burning ice), 55 Cancri e (diamond planets), WASP-76b (iron rain), or Saturn ring age.",
+      "Avoid generic 'Why Space Is Silent' or acoustic vacuum trivia.",
+      "Focus strictly on Magnetar SGR 1806-20 magnetic shredding physics."
     ]
   },
-  "experiment": "Test sensory horror/survival framing inside planetary science: compare retention when emphasizing tactile destruction (vaporizing flesh/suit) versus pure planetary astrophysics.",
+  "experiment": "Test whether framing extreme space physics as a bodily horror/survival scenario (Magnetar atomic dissolution) generates a higher comment discussion rate than passive exoplanet weather descriptions.",
   "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-11-07T01:07:31.886704+00:00"
+  "generated_at": "2026-11-07T07:29:42.009275+00:00"
 }
