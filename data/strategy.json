@@ -1,47 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Deduplication reveals 47 distinct Shorts. Across the library, content breaks into two distinct tiers: first-person hypothetical survival scenarios ('What If You Fell Into...') and extreme cosmic horror/exoplanet mysteries consistently capture the highest engagement (800–1,050+ views, 3.5%+ like ratios, and active comment threads). Conversely, repetitive neurology trivia, duplicate re-uploads of earworm/fake-memory facts, and passive star facts suffer acute fatigue, often plateauing below 50 views.",
+  "overall_summary": "Analysis of the deduplicated FACTVERSE performance data highlights a clear viewer preference for extreme space anomalies, hypothetical 'What If' planetary scenarios, and counterintuitive cosmic facts, which significantly outperform older psychological and standard animal trivia. Videos focusing on bizarre planetary mechanics (e.g., Diamond planets, Dark planets, and Burning Ice planets) achieve higher views-per-day and stronger likes-per-view ratios. Recent uploads from late September and early October show exceptional traction compared to older September content, proving that high-stakes, visually striking space concepts drive the strongest short-form retention and engagement.",
   "winning_patterns": [
     {
-      "pattern": "First-Person 'What If You Fell Into...' Survival Micro-Scenarios",
-      "evidence": "Videos using this immersive simulation frame achieved peak metrics: 'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes, 2 comments), 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes), and 'What If You Fell Into the Darkest Planet?' (824 views, 15 likes).",
-      "action": "Maintain the visceral first-person simulator POV ('You step out of your capsule...') to instantly lock viewer retention through sensory survival stakes."
+      "pattern": "Extreme Planetary 'What If' & Bizarre Weather Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) show strong sustained performance and high engagement.",
+      "action": "Double down on hypothetical space disaster/immersion scenarios involving exotic materials and extreme physics."
     },
     {
-      "pattern": "Visceral Cosmic Extremes & Forbidden Exoplanet Physics",
-      "evidence": "'The Planet Darker Than Coal: TrES-2b' hit 1,031 views with 36 likes and 2 comments, and 'This Planet Rains Supersonic Rubies!' earned 725 views and 25 likes, outperforming generic space trivia by over 10x.",
-      "action": "Pair bizarre astrophysical phenomena with tangible sensory imagery (crushing pressure, razor-sharp rains, total sensory deprivation)."
+      "pattern": "Mind-Bending Cosmic Superlatives",
+      "evidence": "Titles featuring extreme scale or rare cosmic phenomena like 'Venus Has a Day Longer Than Its Year' (981 views, 21 likes) and 'The Planet Darker Than Coal: TrES-2b' (1,031 views, 36 likes) generate high view velocity.",
+      "action": "Continue utilizing high-contrast cosmic anomalies that challenge everyday intuition in the first 3 seconds."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Psychology/Brain Fact Duplication",
-      "evidence": "Titles centered on 'Your Brain Can Create Fake Memories' and earworms generated as low as 5, 10, 17, and 53 views across repeated attempts, with near-zero engagement.",
-      "action": "Cease recycling identical psychology scripts and stale neuro-trivia without narrative or dramatic stakes."
+      "pattern": "Standard Psychological Trick & Memory Micro-Trivia",
+      "evidence": "Content focusing on brain hacks and memory tricks (e.g., 'Your Brain Can Create Fake Memories' with 5 views, 'Your Brain Is Hiding This From You' with 38 views) shows very low view velocity and poor engagement.",
+      "action": "Deprioritize standard psychology trivia unless framed through a groundbreaking, high-stakes neurological mystery or sensory paradox."
     },
     {
-      "pattern": "Passive Abstract Astrophysics Trivia",
-      "evidence": "'This Star Is Older Than the Universe!' (11 views, 0 likes) and 'The Eyeball Planet That Could Harbor Life!' (49 views, 0 likes) stalled due to weak emotional tension and non-urgent hooks.",
-      "action": "Eliminate static declarative facts; replace passive explanations with dynamic what-if consequences and high-stakes cinematic tension."
+      "pattern": "Low-Stakes Common Animal Facts",
+      "evidence": "Basic animal facts such as 'Octopuses Have THREE Hearts' (when repeated or lacking a high-stakes survival angle) underperform relative to space anomalies.",
+      "action": "Shift animal content toward cinematic animal survival or extreme biological anomalies rather than basic trivia."
     }
   ],
   "next_video": {
-    "category": "what-if scenarios",
-    "hook_style": "Visceral second-person survival immersion",
-    "concept": "What If You Fell Into an Infinite Ocean Planet (TOI-1452 b)?",
-    "opening_direction": "Start mid-descent: 'If you dropped out of hyperspace onto exoplanet TOI-1452 b, you wouldn't see a single grain of land—just a pitch-black ocean 100 times deeper than Earth's.'",
-    "twist_direction": "Reveal that diving to the seabed wouldn't hit rock; the immense atmospheric pressure forces water into exotic 'Ice VII'—solid ice that burns at hundreds of degrees without melting.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 01:30 PM UTC",
-    "reason": "Leverages the proven high-performing 'What If You Fell Into' simulation architecture while targeting a completely unaddressed, claustrophobic exoplanet mystery (super-Earth water worlds) rather than re-treading diamond or ice planets.",
+    "category": "Space",
+    "hook_style": "Hypothetical Immersion Paradox",
+    "concept": "What happens to your body if you step foot on a rogue planet hurtling through interstellar space with no star?",
+    "opening_direction": "Start with total pitch blackness and absolute zero temperature, asking the viewer to imagine being completely untethered from any solar system.",
+    "twist_direction": "Reveal that despite having no sun, the planet's core is powered by radioactive decay hot enough to maintain an underground liquid ocean beneath miles of solid nitrogen ice.",
+    "duration_seconds": 15,
+    "posting_window": "12:00 PM - 3:00 PM UTC",
+    "reason": "Capitalizes on the proven high performance of 'What If' planetary scenarios and extreme space anomalies while exploring a completely fresh astronomical phenomenon not present in past uploads.",
     "fresh_topic_constraints": [
-      "Do not feature TrES-2b, 55 Cancri e, Gliese 436 b, WASP-76b, or J1407b",
-      "Must focus strictly on deep-ocean exoplanets and Ice VII high-pressure physics",
-      "Ensure survival POV remains grounded in verified planetary science"
+      "Must not feature diamond planets, burning ice planets, or dark planets (TrES-2b).",
+      "Must focus on rogue planets and interstellar space.",
+      "Ensure factual accuracy regarding rogue planet thermodynamics."
     ]
   },
-  "experiment": "Test whether second-person deep-sea cosmic survival ('Fell Into an Ocean Planet') yields higher comment debate and average percentage viewed (APV) than atmospheric diamond/burning ice scenarios.",
-  "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-11-08T17:17:23.139656+00:00"
+  "experiment": "Test a 15-second pacing structure with zero introductory filler, jumping straight into the sensory paradox of absolute cold followed by a subterranean heat reveal within the first 2.5 seconds.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-11-08T21:16:00.492949+00:00"
 }
