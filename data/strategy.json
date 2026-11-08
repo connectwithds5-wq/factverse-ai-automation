@@ -1,60 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of 47 deduplicated Shorts reveals a stark performance divide: first-person hypothetical space survival hooks ('What If You Fell Into...') and extreme cosmic body anomalies drive channel peaks (800–1,050+ views, up to 38 likes), while generic psychology and repeated low-effort trivia (fake memories, earworms, silent space) fail under 100 views. Videos between 19–21 seconds significantly outperform 12–16 second clips. Furthermore, exact duplicate re-uploads consistently decay in reach across consecutive attempts.",
+  "overall_summary": "Deduplicated analysis of 42 unique Shorts reveals a stark performance divergence across niches. High-concept exoplanet extremes combined with first-person experiential hooks ('What If You Fell Into...') consistently drive peak metrics (700-1,030+ views, up to 3.7% like ratio), whereas cognitive psychology and generic trivia ('Your Brain...', earworms, fake memories) suffer severe algorithmic suppression (5-70 views, near-zero engagement). Videos formatted between 19 and 21 seconds with visceral, lethal planetary environments generate the channel's strongest velocity.",
   "winning_patterns": [
     {
-      "pattern": "First-Person Hypothetical Threat Hook ('What If You Fell Into...')",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) led engagement and reach.",
-      "action": "Frame high-concept cosmic and extreme science phenomena as direct second-person survival scenarios ('What If You...')."
+      "pattern": "First-Person Survival / Lethal Exoplanet 'What If' Hooks",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes), 'What If You Fell Into the Darkest Planet?' (824 views, 15 likes), and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) significantly outperform the catalog average.",
+      "action": "Double down on hypothetical first-person descent/survival scenarios set on extreme celestial bodies, pairing visceral physical sensations with high-contrast cinematic visual pacing."
     },
     {
-      "pattern": "Bizarre Exoplanet & Extreme Astronomy Oddities",
-      "evidence": "'The Planet of Burning Ice...' (1,057 views), 'The Planet Darker Than Coal' (1,031 views, 36 likes), and 'Venus Has a Day Longer Than Its Year' (981 views) dominate top percentiles.",
-      "action": "Focus subject selection on extreme astrophysical anomalies with shocking sensory contrasts (fire, darkness, crushing pressure)."
-    },
-    {
-      "pattern": "Optimal Micro-Short Duration (19–21s)",
-      "evidence": "Top 5 performers all have runtimes between 19 and 21 seconds, allowing enough narrative buildup for a satisfying payoff without pacing drag.",
-      "action": "Target scripts specifically for 19–21 seconds (approximately 45–55 spoken words) with brisk visual cuts."
+      "pattern": "Paradoxical Space Physics & Exotic Planetary Geology",
+      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,031 views, 36 likes) and 'Venus Has a Day Longer Than Its Year' (981 views, 21 likes) achieved top-tier reach without relying on recycled trivia tropes.",
+      "action": "Focus space scripts on mind-bending physical contradictions (e.g., perpetual darkness, relativistic speeds, magnetic shredding) rather than passive textbook facts."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract / Overplayed Brain Trivia & Psychology",
-      "evidence": "'Your Brain Can Create Fake Memories' (5–53 views across 3 uploads) and earworm trivia (17–71 views) generated virtually zero viewer traction or engagement.",
-      "action": "Cease repetitive cognitive/psychology trivia unless packaged with visceral stakes or historical mystery."
+      "pattern": "Abstract Psychology and Brain Quirk Facts",
+      "evidence": "'Your Brain Can Create Fake Memories' across multiple iterations collapsed at 5-53 views and 0 likes; 'The Real Reason Songs Get Stuck In Your Head' stalled at 17 views.",
+      "action": "Deprecate standalone cognitive psychology facts unless integrated into a dramatic micro-thriller or high-stakes survival context."
     },
     {
-      "pattern": "Direct Topic Duplication / Low-Effort Reposts",
-      "evidence": "Duplicate concepts ('Why Space Is Completely Silent' posted 3 times: 220 -> 87 -> 34 views; octopus heart facts posted 3 times) experienced sharp algorithmic decay.",
-      "action": "Enforce strict uniqueness across content pipelines; never re-upload identical hooks or facts without substantial narrative re-engineering."
+      "pattern": "Repetitive Topic Retreads Without Angle Differentiation",
+      "evidence": "Repeated uploads of 'Why Space Is Completely Silent' (34-220 views) and 'Octopuses Have THREE Hearts' (118-363 views) yielded diminishing returns compared to unique exoplanet concepts.",
+      "action": "Enforce strict uniqueness constraints: avoid re-covering topics already covered within the past 60 days."
     }
   ],
   "next_video": {
-    "category": "Space / What-If Scenarios",
-    "hook_style": "Visceral First-Person Hypothetical ('What If You...')",
-    "concept": "What If You Stood 1,000 Miles From a Magnetar?",
-    "opening_direction": "Instantly immerse the viewer in the cockpit of a ship falling toward a spinning neutron star with magnetic lines warping spacetime.",
-    "twist_direction": "Reveal that long before gravity crushed you, the magnetic field is so violent it stretches your atoms into needles, dissolving your DNA and dissolving your body into thin air.",
+    "category": "what-if scenarios",
+    "hook_style": "First-person kinetic descent / existential environmental dread",
+    "concept": "What If You Fell Onto a Rogue Planet Wandering in Pure Darkness?",
+    "opening_direction": "Instant plunge perspective: 'If you fell onto a rogue planet, there is no sun, no dawn, and no sky—just pitch-black frozen terror hurtling through the cosmic void at millions of miles per hour.'",
+    "twist_direction": "Reveal that despite absolute freezing darkness on the surface, subterranean tidal heat creates a pitch-black boiling ocean beneath miles of ice where bizarre bioluminescent life could thrive in utter isolation.",
     "duration_seconds": 20,
-    "posting_window": "12:00 PM - 02:00 PM UTC",
-    "reason": "Directly leverages the highest-performing hook framework ('What If You...') applied to an extreme astrophysical terror (Magnetar SGR 1806-20) not yet featured on the channel.",
+    "posting_window": "12:30 - 13:30 UTC",
+    "reason": "Directly harnesses the proven 'What If You Fell...' format that drives the channel's highest view and like velocity, but tackles a pristine, unexploited topic (orphan rogue planets) to prevent audience fatigue.",
     "fresh_topic_constraints": [
-      "TrES-2b",
-      "Gliese 436b burning ice",
-      "55 Cancri e diamond planet",
-      "WASP-76b iron rain",
-      "HD 189733b glass rain",
-      "Venus day/year",
-      "J1407b rings",
-      "Octopus hearts",
-      "Fake memories",
-      "Silent space",
-      "Sharks older than trees/Saturn"
+      "Do not cover TrES-2b, 55 Cancri e, Gliese 436b, HAT-P-7b, HD 189733b, WASP-76b, Corot-7b, or J1407b",
+      "Focus exclusively on unbound rogue/orphan exoplanets drifting without a host star",
+      "Maintain 19-21 second run-time to align with top algorithmic retention profile"
     ]
   },
-  "experiment": "Test whether shifting the 'What If' hook format to deep-earth or deep-ocean physics (e.g., 'What If You Fell Into the Mariana Trench's Bottom Without a Sub?') can replicate the 1,000+ view benchmark established by extreme space topics.",
+  "experiment": "Test whether framing an extreme space scenario with an existential survival twist (falling into deep interstellar space onto an orphan world) drives a higher comment rate compared to standard planetary weather hooks.",
   "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-11-08T02:36:58.033950+00:00"
+  "generated_at": "2026-11-08T10:40:48.487355+00:00"
 }
