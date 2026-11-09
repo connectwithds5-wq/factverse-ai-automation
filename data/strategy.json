@@ -1,47 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of the deduplicated FACTVERSE performance data highlights a clear viewer preference for extreme space anomalies, hypothetical 'What If' planetary scenarios, and counterintuitive cosmic facts, which significantly outperform older psychological and standard animal trivia. Videos focusing on bizarre planetary mechanics (e.g., Diamond planets, Dark planets, and Burning Ice planets) achieve higher views-per-day and stronger likes-per-view ratios. Recent uploads from late September and early October show exceptional traction compared to older September content, proving that high-stakes, visually striking space concepts drive the strongest short-form retention and engagement.",
+  "overall_summary": "Deduplication reveals 47 unique uploads. Extreme exoplanet hazards and first-person 'What If You Fell Into...' simulation hooks represent 100% of the channel's top performers (averaging 700-1,000+ views with peak engagement up to 3.7% like ratio), whereas abstract neuroscience, repeated psychology tips, and generic biology trivia consistently stall under 100 views. Recent velocity heavily favors high-stakes cinematic cosmic scenarios timed around 19-21 seconds.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Planetary 'What If' & Bizarre Weather Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) show strong sustained performance and high engagement.",
-      "action": "Double down on hypothetical space disaster/immersion scenarios involving exotic materials and extreme physics."
+      "pattern": "First-Person Hazard Simulation ('What If You Fell Into...')",
+      "evidence": "IYuce8vaU3Y (1,029 views, 38 likes), 8KEl0_pJ_68 (972 views, 18 likes), and YlDuGu1vzAg (824 views, 15 likes) drove the channel's highest view counts and like rates.",
+      "action": "Frame extreme astronomy and planetary physics through visceral second-person survival and body-consequence simulations."
     },
     {
-      "pattern": "Mind-Bending Cosmic Superlatives",
-      "evidence": "Titles featuring extreme scale or rare cosmic phenomena like 'Venus Has a Day Longer Than Its Year' (981 views, 21 likes) and 'The Planet Darker Than Coal: TrES-2b' (1,031 views, 36 likes) generate high view velocity.",
-      "action": "Continue utilizing high-contrast cosmic anomalies that challenge everyday intuition in the first 3 seconds."
+      "pattern": "Planetary Paradoxes & Sensory Extremes",
+      "evidence": "vWd0uYcEGh4 (Burning Ice, 1,057 views) and v1rrcZLdp4U (Darker Than Coal, 1,031 views, 36 likes) outperform standard fact recitations by 5x-10x.",
+      "action": "Anchor titles and visual hooks around mind-bending physical contradictions and extreme environmental states."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Standard Psychological Trick & Memory Micro-Trivia",
-      "evidence": "Content focusing on brain hacks and memory tricks (e.g., 'Your Brain Can Create Fake Memories' with 5 views, 'Your Brain Is Hiding This From You' with 38 views) shows very low view velocity and poor engagement.",
-      "action": "Deprioritize standard psychology trivia unless framed through a groundbreaking, high-stakes neurological mystery or sensory paradox."
+      "pattern": "Re-uploading and Re-titling Identical Topics",
+      "evidence": "'Why Space Is Completely Silent' posted across three IDs showed diminishing returns (220 -> 87 -> 34 views); 'Fake Memories' repeated with negligible reach (5-53 views).",
+      "action": "Halt duplicate subject posting; iterate on proven hook mechanics rather than recycled topics."
     },
     {
-      "pattern": "Low-Stakes Common Animal Facts",
-      "evidence": "Basic animal facts such as 'Octopuses Have THREE Hearts' (when repeated or lacking a high-stakes survival angle) underperform relative to space anomalies.",
-      "action": "Shift animal content toward cinematic animal survival or extreme biological anomalies rather than basic trivia."
+      "pattern": "Generic Psychology & Brain Trivia",
+      "evidence": "'Your Brain Is Hiding This' (38 views), 'Songs Stuck In Your Head' (17-71 views), and 'Fake Memories' (5-53 views) show near-zero subscriber pull and flatline engagement.",
+      "action": "Retire isolated cognitive psychology facts in favor of cinematic survival or extreme physical phenomena."
     }
   ],
   "next_video": {
-    "category": "Space",
-    "hook_style": "Hypothetical Immersion Paradox",
-    "concept": "What happens to your body if you step foot on a rogue planet hurtling through interstellar space with no star?",
-    "opening_direction": "Start with total pitch blackness and absolute zero temperature, asking the viewer to imagine being completely untethered from any solar system.",
-    "twist_direction": "Reveal that despite having no sun, the planet's core is powered by radioactive decay hot enough to maintain an underground liquid ocean beneath miles of solid nitrogen ice.",
-    "duration_seconds": 15,
-    "posting_window": "12:00 PM - 3:00 PM UTC",
-    "reason": "Capitalizes on the proven high performance of 'What If' planetary scenarios and extreme space anomalies while exploring a completely fresh astronomical phenomenon not present in past uploads.",
+    "category": "what-if scenarios",
+    "hook_style": "Visceral Second-Person Peril ('What If You Stepped Onto...')",
+    "concept": "Surviving Gliese 1214b: The crushing super-critical steam ocean planet where water is pressurized into boiling plasma ice.",
+    "opening_direction": "Immediate plunge: A space suit breaches a suffocating purple haze where sea level begins at boiling point.",
+    "twist_direction": "Instead of drowning, the extreme atmospheric pressure turns water into 'Supercritical Fluid'—acting as liquid and gas simultaneously—crushing your hull before vaporizing you into plasma ice.",
+    "duration_seconds": 21,
+    "posting_window": "12:30 - 13:30 UTC",
+    "reason": "Aligns with the channel's highest-performing cluster (21-second exoplanet 'What If' survival hooks) while introducing an unexploited, scientifically validated water-world anomaly.",
     "fresh_topic_constraints": [
-      "Must not feature diamond planets, burning ice planets, or dark planets (TrES-2b).",
-      "Must focus on rogue planets and interstellar space.",
-      "Ensure factual accuracy regarding rogue planet thermodynamics."
+      "Do not reuse TrES-2b, 55 Cancri e, Gliese 436b, WASP-76b, or HD 189733b.",
+      "Do not reuse diamond rain, molten glass, or burning ice tropes.",
+      "Focus exclusively on Gliese 1214b's supercritical ocean physics and crushing thermodynamic death."
     ]
   },
-  "experiment": "Test a 15-second pacing structure with zero introductory filler, jumping straight into the sensory paradox of absolute cold followed by a subterranean heat reveal within the first 2.5 seconds.",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-08T21:16:00.492949+00:00"
+  "experiment": "Test micro-sound design pairing: Replace ambient background synth with high-fidelity environmental pressure and hull-groaning SFX in the first 3 seconds to measure 3-second hold rate vs. baseline music tracks.",
+  "model_used": "gemini-3.8-flash",
+  "generated_at": "2026-11-09T01:06:46.440309+00:00"
 }
