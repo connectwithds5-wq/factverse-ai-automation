@@ -1,47 +1,47 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Deduplication reveals 47 unique uploads. Extreme exoplanet hazards and first-person 'What If You Fell Into...' simulation hooks represent 100% of the channel's top performers (averaging 700-1,000+ views with peak engagement up to 3.7% like ratio), whereas abstract neuroscience, repeated psychology tips, and generic biology trivia consistently stall under 100 views. Recent velocity heavily favors high-stakes cinematic cosmic scenarios timed around 19-21 seconds.",
+  "overall_summary": "Analysis of 47 deduplicated shorts shows that extreme exoplanet survival and visceral 'What If You Fell Into...' spatial scenarios dominate channel viewership and engagement (averaging 700-1,050+ views and 3-4% like ratios). Conversely, psychology brain facts and repeated common trivia ('Why Space Is Completely Silent', fake memories, earworms) severely underperform, rarely crossing 100 views. Videos in the 19-21 second range consistently outperform shorter clips under 16 seconds.",
   "winning_patterns": [
     {
-      "pattern": "First-Person Hazard Simulation ('What If You Fell Into...')",
-      "evidence": "IYuce8vaU3Y (1,029 views, 38 likes), 8KEl0_pJ_68 (972 views, 18 likes), and YlDuGu1vzAg (824 views, 15 likes) drove the channel's highest view counts and like rates.",
-      "action": "Frame extreme astronomy and planetary physics through visceral second-person survival and body-consequence simulations."
+      "pattern": "'What If You Fell Into [Extreme Cosmic Hazard]' Hook Format",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Darkest Planet?' (824 views, 15 likes) led the channel in total views, likes, and comments.",
+      "action": "Use visceral second-person POV 'What if you fell into...' hooks paired with extreme, scientifically verified cosmic phenomena."
     },
     {
-      "pattern": "Planetary Paradoxes & Sensory Extremes",
-      "evidence": "vWd0uYcEGh4 (Burning Ice, 1,057 views) and v1rrcZLdp4U (Darker Than Coal, 1,031 views, 36 likes) outperform standard fact recitations by 5x-10x.",
-      "action": "Anchor titles and visual hooks around mind-bending physical contradictions and extreme environmental states."
+      "pattern": "Sensory & Paradoxical Exoplanet Conditions (19–21s Duration)",
+      "evidence": "'The Planet of Burning Ice' (1,057 views), 'The Planet Darker Than Coal' (1,031 views, 36 likes), and 'Supersonic Rubies' (725 views, 25 likes) dramatically outperformed shorter 12-16s videos.",
+      "action": "Anchor scripts around high-contrast sensory contradictions (extreme heat/cold, bizarre atmospheres) and pace them tightly across 20-21 seconds."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Re-uploading and Re-titling Identical Topics",
-      "evidence": "'Why Space Is Completely Silent' posted across three IDs showed diminishing returns (220 -> 87 -> 34 views); 'Fake Memories' repeated with negligible reach (5-53 views).",
-      "action": "Halt duplicate subject posting; iterate on proven hook mechanics rather than recycled topics."
+      "pattern": "Generic Psychology & Cognitive Trivia",
+      "evidence": "'Your Brain Can Create Fake Memories' was reposted across three variations yielding only 5, 10, and 53 views; 'Brain Is Hiding This From You' gained 38 views.",
+      "action": "Halt generic psychology and human memory facts until channel baseline viewership expands."
     },
     {
-      "pattern": "Generic Psychology & Brain Trivia",
-      "evidence": "'Your Brain Is Hiding This' (38 views), 'Songs Stuck In Your Head' (17-71 views), and 'Fake Memories' (5-53 views) show near-zero subscriber pull and flatline engagement.",
-      "action": "Retire isolated cognitive psychology facts in favor of cinematic survival or extreme physical phenomena."
+      "pattern": "Over-recycled Space Baseline Facts",
+      "evidence": "'Why Space Is Completely Silent' posted three times peaked at only 220 views and bottomed at 34 views.",
+      "action": "Retire commonly known school-level trivia in favor of exotic, lesser-known deep space or planetary survival scenarios."
     }
   ],
   "next_video": {
     "category": "what-if scenarios",
-    "hook_style": "Visceral Second-Person Peril ('What If You Stepped Onto...')",
-    "concept": "Surviving Gliese 1214b: The crushing super-critical steam ocean planet where water is pressurized into boiling plasma ice.",
-    "opening_direction": "Immediate plunge: A space suit breaches a suffocating purple haze where sea level begins at boiling point.",
-    "twist_direction": "Instead of drowning, the extreme atmospheric pressure turns water into 'Supercritical Fluid'—acting as liquid and gas simultaneously—crushing your hull before vaporizing you into plasma ice.",
+    "hook_style": "Second-person immersive danger scenario",
+    "concept": "What would happen to a human body falling onto a rogue planet drifting alone in interstellar space (PSO J318.5-22).",
+    "opening_direction": "Start instantly with high-stakes visual immersion: 'If you fell out of your ship into deep space and crash-landed on a rogue planet with no sun, here is the terrifying reality...'",
+    "twist_direction": "Instead of freezing into solid ice in total darkness, reveal the paradoxical twist: this rogue gas giant's clouds glow a dull infernal red, raining molten iron droplets inside perpetual 1,000-degree hurricane winds powered entirely by its own gravitational compression.",
     "duration_seconds": 21,
-    "posting_window": "12:30 - 13:30 UTC",
-    "reason": "Aligns with the channel's highest-performing cluster (21-second exoplanet 'What If' survival hooks) while introducing an unexploited, scientifically validated water-world anomaly.",
+    "posting_window": "12:00 PM - 01:00 PM UTC",
+    "reason": "Directly harnesses the channel's top-performing narrative architecture ('What If You Fell Into...' + sensory exoplanet paradox) while introducing a completely fresh entity (a sunless rogue world) never previously featured in channel history.",
     "fresh_topic_constraints": [
-      "Do not reuse TrES-2b, 55 Cancri e, Gliese 436b, WASP-76b, or HD 189733b.",
-      "Do not reuse diamond rain, molten glass, or burning ice tropes.",
-      "Focus exclusively on Gliese 1214b's supercritical ocean physics and crushing thermodynamic death."
+      "Must not feature Gliese 436b (burning ice), TrES-2b (darkest planet), 55 Cancri e (diamond planet), or Venus",
+      "Must focus on rogue/orphan planet physics (PSO J318.5-22 or SIMP J01365663)",
+      "Must maintain 100% scientific plausibility without presenting fictional events as real history"
     ]
   },
-  "experiment": "Test micro-sound design pairing: Replace ambient background synth with high-fidelity environmental pressure and hull-groaning SFX in the first 3 seconds to measure 3-second hold rate vs. baseline music tracks.",
+  "experiment": "Test whether framing an exoplanet as a 'Rogue Nomad Planet Wandering the Void' matches or exceeds the high retention and like-to-view ratio (3.5%+) established by extreme surface-composition shorts.",
   "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-11-09T01:06:46.440309+00:00"
+  "generated_at": "2026-11-09T08:20:26.367513+00:00"
 }
