@@ -1,47 +1,46 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Deduplication and recency-weighted analysis indicate that space and astronomy scenarios—specifically extreme exoplanet environments and hypothetical 'What If' space situations—significantly outperform general psychology, standard biology facts, or historical trivia. Videos featuring planetary hazards ('What If You Fell Into a Liquid Diamond Planet?', 'What If You Fell Into the Planet of Burning Ice?') and bizarre cosmic conditions generate superior view counts, likes-per-view, and engagement. Conversely, straightforward human psychology and general animal facts show low momentum and weak engagement.",
+  "overall_summary": "Analysis of the deduplicated performance metrics highlights a clear preference for extreme cosmic and planetary hypothetical scenarios ('What If') as well as high-concept space anomalies. Videos focusing on bizarre planetary conditions (e.g., liquid diamond planets, burning ice, darkness, and extreme weather) demonstrate the highest views-per-day velocity and strong engagement ratios (likes-per-view). Conversely, older standard biological facts show lower recent velocity, indicating audience fatigue with basic trivia unless framed with high-stakes cosmic comparisons.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Exoplanet Hazard 'What If' Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) heavily outperform standard factual statements.",
-      "action": "Double down on hypothetical immersive survival scenarios inside bizarre planetary environments rather than static descriptive facts."
+      "pattern": "Planetary 'What If' / Extreme Environment Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) combine immersive hypothetical stakes with bizarre cosmic realities.",
+      "action": "Double down on hypothetical planetary exploration formats, structuring scripts around sensory survival in impossible environments."
     },
     {
-      "pattern": "Mind-Bending Cosmic Extremes",
-      "evidence": "Titles detailing extreme planetary properties like 'The Planet Darker Than Coal: TrES-2b' (1,031 views, 36 likes) and 'Venus Has a Day Longer Than Its Year' (981 views, 21 likes) capture strong organic reach.",
-      "action": "Focus future space topics on counter-intuitive, physically jarring cosmic extremes that challenge basic human intuition."
+      "pattern": "Counter-Intuitive Cosmic Extremes",
+      "evidence": "Titles featuring extreme planetary states such as 'The Planet Darker Than Coal' (1,031 views, 36 likes) and 'Venus Has a Day Longer Than Its Year' (981 views, 21 likes) outperform standard space facts.",
+      "action": "Prioritize lesser-known celestial bodies with paradoxical physics or extreme visual properties for upcoming scripts."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Human Psychology and Brain Hacks",
-      "evidence": "Content like 'Your Brain Can Create Fake Memories' (5-53 views) and 'The Psychological Trick to Stop Songs Stuck in Your Head' (71 views) consistently underperform in velocity and engagement.",
-      "action": "Deprioritize human psychology and internal brain trivia in favor of grand-scale physical science and space."
+      "pattern": "Standard Biological Trivia",
+      "evidence": "Videos focusing on simple animal facts like 'Octopuses Have THREE Hearts' or basic psychological tricks generated low immediate velocity compared to space anomalies.",
+      "action": "Deprioritize standalone biology facts unless they involve extreme prehistoric comparisons or cinematic animal survival narratives."
     },
     {
-      "pattern": "Standard Biological Animal Trivia",
-      "evidence": "Simple declarative animal facts like 'Octopuses Have THREE Hearts' show suppressed momentum compared to high-concept space hooks.",
-      "action": "Avoid basic trivia frameworks; if animal content is produced, shift it toward cinematic survival or prehistoric/deep-sea horror micro-narratives."
+      "pattern": "Generic Historical Mysteries",
+      "evidence": "Older historical mystery pieces like 'The 2,000-Year-Old Mystery Science Can't Solve' showed flat performance tails relative to active space content.",
+      "action": "Shift historical storytelling toward high-drama historical what-ifs or specific localized country mysteries with immediate visual hooks."
     }
   ],
   "next_video": {
-    "category": "space",
-    "hook_style": "hypothetical immersive danger",
-    "concept": "What If You Fell Into the Coldest Known Planet (OGLE-TR-56b or similar rogue planet)?",
-    "opening_direction": "Start mid-action falling through pitch-black freezing darkness where nitrogen air instantly liquifies.",
-    "twist_direction": "Reveal that the planet is actually hurtling through empty intergalactic space completely untethered to any star.",
+    "category": "Space",
+    "hook_style": "Hypothetical Survival Challenge",
+    "concept": "What If You Fell Into the Coldest Known Planet in the Universe (OGLE-TR-56b or similar ultra-cold rogue worlds)?",
+    "opening_direction": "Start with an immediate physical sensation hook: absolute zero freezing instantly upon entry.",
+    "twist_direction": "Reveal that instead of hitting a solid surface, the planet's extreme pressure forces you into exotic states of matter.",
     "duration_seconds": 15,
     "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Capitalizes directly on the proven high-performer cluster of immersive planetary hazard scenarios while introducing a fresh cosmic entity (rogue planets).",
+    "reason": "Capitalizes on the proven high performance of 'What If' planetary survival formats while exploring a fresh celestial entity.",
     "fresh_topic_constraints": [
-      "Do not use diamond, burning ice, molten iron, or glass rain planets.",
-      "Must feature an independent rogue planet phenomenon.",
-      "Ensure all physical science descriptions remain completely accurate."
+      "Must not use diamonds, burning ice, liquid metal, or glass rain.",
+      "Must feature a newly introduced exoplanet or rogue world not present in previous titles."
     ]
   },
-  "experiment": "Test a cinematic space survival 'What If' scenario against a historical micro-story to verify if audience retention shifts toward narrative drama or remains locked on cosmic hazards.",
+  "experiment": "Test a 15-second cinematic space survival scenario against a standard factual countdown to measure retention drop-off differences.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-10T10:08:36.601766+00:00"
+  "generated_at": "2026-11-10T18:01:47.117807+00:00"
 }
