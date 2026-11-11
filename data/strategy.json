@@ -1,21 +1,47 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Analysis of the deduplicated performance data highlights a clear viewer preference for extreme 'What If' space scenarios and exotic planetary phenomena over general psychology or biology shorts. Videos leveraging hypothetical immersion ('What If You Fell Into...') and rare planetary anomalies (diamond planets, burning ice, dark planets) consistently achieve the highest views-per-day and engagement ratios (likes-per-view). Conversely, standard biological facts and psychological tricks display lower velocity. Growth should double down on immersive astronomical what-if scenarios with visual spectacle.",
+  "winning_patterns": [
+    {
+      "pattern": "Hypothetical Immersion What-If Space Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) pull over 900-1000+ views rapidly with strong like counts (38 and 18 likes respectively), outperforming standard declarative facts.",
+      "action": "Prioritize high-concept 'What If' cosmic survival questions that force the viewer to imagine physical interaction with extreme environments."
+    },
+    {
+      "pattern": "Exotic Planetary Anomalies with Extreme Extremes",
+      "evidence": "Titles detailing impossible weather or materials on distant worlds—such as 'The Planet Darker Than Coal' (v1rrcZLdp4U) and 'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0)—achieve top-tier view velocity.",
+      "action": "Focus future scripts on newly discovered or lesser-known exoplanets featuring bizarre physics, extreme temperatures, or bizarre meteorological events."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "General Psychology and Brain Trick Facts",
+      "evidence": "Topics like 'Your Brain Can Create Fake Memories' (5AN7LUgqarc, 2fqaGqfsR4A) and 'The Psychological Trick to Stop Songs Stuck in Your Head' (ef3ND4qiRHc) stall out with very low views (<70) and minimal engagement.",
+      "action": "Deprioritize standalone human psychology facts and cognitive tricks unless framed within a high-stakes survival or sci-fi context."
+    },
+    {
+      "pattern": "Standard Animal Factoid Loops",
+      "evidence": "Repeated basic animal facts (e.g., octopus hearts, eternal life animals) plateau quickly after initial publishing without attracting high comment or like ratios.",
+      "action": "Avoid standard listicle-style animal facts unless transformed into cinematic animal survival micro-narratives."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "category": "Space & Astronomy What-If",
+    "hook_style": "Hypothetical Immersion & Extreme Physics",
+    "concept": "What happens to the human body if you stood on a rogue planet hurtling through interstellar space with no sun?",
+    "opening_direction": "Start with total darkness and absolute zero temperatures closing in on the viewer within seconds.",
+    "twist_direction": "Reveal that these rogue planets outnumber stars in our galaxy by billions, meaning the universe is filled with wandering worlds of eternal night.",
     "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "posting_window": "12:00 PM - 3:00 PM EST (Peak Space Content Engagement Window)",
+    "reason": "Capitalizes on the proven high performance of 'What If' space scenarios and extreme planetary darkness mechanics seen in top-performing assets like v1rrcZLdp4U and YlDuGu1vzAg.",
+    "fresh_topic_constraints": [
+      "Do not use diamond planets, liquid metal rain, or Saturn rings",
+      "Must focus entirely on rogue planets and interstellar space",
+      "Ensure factual accuracy regarding rogue planet thermodynamics"
+    ]
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-11-11T15:29:46.964331+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-11-11T15:29:46.964354+00:00"
+  "experiment": "Test whether framing an astrophysics concept as a direct second-person survival scenario ('What If YOU...') increases average view duration by >15% compared to third-person declarative space facts.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-11-11T22:08:09.060376+00:00"
 }
