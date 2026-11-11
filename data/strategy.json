@@ -1,47 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Deduplication reveals 47 unique videos across September and October 2026. The clear outperformer is the immersive second-person space survival angle ('What If You Fell Into...'), routinely generating 800 to 1,050+ views and 15 to 38 likes per video (e.g., Liquid Diamond Planet, Darkest Planet, Burning Ice). In contrast, generic psychology trivia ('fake memories', 'songs stuck in your head') and repeated re-uploads catastrophically underperform (single-digit to low double-digit views). Growth relies on high-stakes, visceral physical consequences in extreme cosmic environments.",
-  "winning_patterns": [
-    {
-      "pattern": "Second-Person Extreme Planet Infiltration ('What If You Fell Into...')",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes), 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes), and 'What If You Fell Into the Darkest Planet?' (824 views, 15 likes) dominate the top tier.",
-      "action": "Adopt the sensory, high-stakes 'What If You Fell Into...' narrative framework for extreme physical and astronomical phenomena."
-    },
-    {
-      "pattern": "Paradoxical Cosmic Headlines with Clear Extremes",
-      "evidence": "'The Planet Darker Than Coal' (1,031 views, 36 likes) and 'Venus Has a Day Longer Than Its Year' (981 views, 21 likes) generated near 1,000 views with high like-to-view ratios (~3.5%).",
-      "action": "Frame space hooks around stark cognitive contradictions or absolute planetary superlatives."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Abstract Psychology Trivia Hooks",
-      "evidence": "Multiple variations of 'Your Brain Can Create Fake Memories' flatlined at 5 to 53 views, and earworm psychology videos stalled at 17 to 71 views.",
-      "action": "Pause generic psychology facts unless framed as high-stakes survival or dark psychological anomalies."
-    },
-    {
-      "pattern": "Duplicate Concept Cannibalization",
-      "evidence": "Repeatedly publishing identical titles/concepts like 'Why Space Is Completely Silent' (34-220 views) or 'Octopuses Have THREE Hearts' yields diminishing traction without novelty.",
-      "action": "Enforce strict deduplication; every script must introduce an unseen cosmic or natural entity."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "what-if scenarios",
-    "hook_style": "Second-person existential threat / physical simulation",
-    "concept": "What If You Fell Onto a Magnetar?",
-    "opening_direction": "Start in the first 2 seconds with immediate sensory dread: 'If you fell toward a magnetar, you would be dead thousands of miles before you ever touched the surface.'",
-    "twist_direction": "Reveal that its magnetic field is so powerful it doesn't just crush you—it physically stretches your individual atoms into needle-thin cylinders, dissolving your DNA and molecular bonds into pure energy.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 01:30 PM UTC",
-    "reason": "Leverages the proven 'What If You Fell Into...' high-retention hook style while pivoting from exoplanets to extreme stellar corpses (magnetars/neutron stars), a completely untouched entity in FACTVERSE history.",
-    "fresh_topic_constraints": [
-      "No diamond planets, TrES-2b, Gliese 436b burning ice, or WASP molten iron/ruby rain",
-      "Must focus strictly on the catastrophic atomic breakdown caused by a magnetar's magnetic field",
-      "Must maintain second-person immersive simulation pacing under 22 seconds"
-    ]
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test whether lethal stellar remnants (Magnetars / Neutron Stars) achieve higher comment engagement than exoplanet survival scenarios by posing a dilemma in the pinned comment about the fastest way to disintegrate in deep space.",
-  "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-11-11T06:56:43.528904+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-11-11T15:29:46.964331+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-11-11T15:29:46.964354+00:00"
 }
