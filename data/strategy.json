@@ -1,21 +1,48 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Deduplicated performance analysis shows that space and planetary what-if scenarios (specifically extreme or exotic worlds like diamond planets, dark planets, and unusual weather worlds) dominate recent traction, boasting the highest views-per-day and robust likes-per-view metrics (e.g., IYuce8vaU3Y with 1029 views and 38 likes). Biological and psychological oddities show moderate engagement, while older or standard factual statements underperform relative to active exploratory hooks.",
+  "winning_patterns": [
+    {
+      "pattern": "What-If Extreme Planetary Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) generated over 900-1000+ views rapidly with high like ratios.",
+      "action": "Produce more high-stakes hypothetical planetary survival or immersion scenarios using exotic cosmic bodies."
+    },
+    {
+      "pattern": "Bizarre Cosmic Weather & Anomalies",
+      "evidence": "Titles detailing extreme conditions like 'This Planet Rains Supersonic Rubies!' (QXuqYERlqSo) and 'The Planet Darker Than Coal' (v1rrcZLdp4U) captured strong top-tier view velocity.",
+      "action": "Highlight extreme, counter-intuitive planetary physics with sensory-rich descriptions (raining, darkness, heat, pressure)."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Standard Static Declarative Facts",
+      "evidence": "Videos relying solely on simple statements without a personal 'what if' or experiential hook (e.g., 'This Star Is Older Than the Universe!') stall out with minimal views.",
+      "action": "Avoid plain flat declarations; always frame science facts through personal immersion, paradoxes, or active consequence questions."
+    },
+    {
+      "pattern": "Repetitive Psychological Tricks",
+      "evidence": "Memory and earworm-related psychology shorts (e.g., ef3ND4qiRHc, 5AN7LUgqarc) show lower momentum and sparse engagement compared to space content.",
+      "action": "Deprioritize psychological trivia shorts for the immediate publishing cycle in favor of high-performing space and cosmic anomalies."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "category": "Space & Astronomy",
+    "hook_style": "High-Stakes Hypothetical Immersion",
+    "concept": "What happens to the human body if you stood on a rogue planet drifting through interstellar space with no star?",
+    "opening_direction": "Start in absolute pitch blackness with zero warmth, asking the viewer to imagine the loneliest place in the universe.",
+    "twist_direction": "Reveal that despite having no sun, the planet's core heat creates an underground ocean of liquid nitrogen or boiling hydrocarbons.",
     "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "posting_window": "12:00 PM - 3:00 PM EST",
+    "reason": "Leverages the proven high-performing 'What If' and extreme cosmic environment pattern while introducing a completely fresh celestial subject (rogue planets).",
+    "fresh_topic_constraints": [
+      "Do not use diamond planets",
+      "Do not use black/dark planet TrES-2b",
+      "Do not use Saturn or J1407b rings",
+      "Must focus entirely on rogue interstellar worlds"
+    ]
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-11-12T11:35:05.527035+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-11-12T11:35:05.527057+00:00"
+  "experiment": "Test a 15-second tight edit focusing purely on sensory deprivation sound design in the first 3 seconds to measure retention lift on space-themed hypotheticals.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-11-12T20:12:48.267856+00:00"
 }
