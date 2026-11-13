@@ -1,48 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Deduplicated performance analysis shows that space and planetary what-if scenarios (specifically extreme or exotic worlds like diamond planets, dark planets, and unusual weather worlds) dominate recent traction, boasting the highest views-per-day and robust likes-per-view metrics (e.g., IYuce8vaU3Y with 1029 views and 38 likes). Biological and psychological oddities show moderate engagement, while older or standard factual statements underperform relative to active exploratory hooks.",
+  "overall_summary": "Analysis of deduplicated YouTube Shorts data reveals that extreme cosmic scenarios, counter-intuitive planetary physics, and immersive 'What If' thought experiments dominate both absolute views and engagement efficiency (likes-per-view). Specifically, topics involving exotic exoplanets, extreme environments, and interactive existential scenarios (e.g., falling into unusual planets) outperform general abstract science or biology facts. Engagement is heavily concentrated on high-stakes visual hooks delivered within 19-21 seconds.",
   "winning_patterns": [
     {
-      "pattern": "What-If Extreme Planetary Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) generated over 900-1000+ views rapidly with high like ratios.",
-      "action": "Produce more high-stakes hypothetical planetary survival or immersion scenarios using exotic cosmic bodies."
+      "pattern": "Extreme Exoplanet & Cosmic 'What If' Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'The Planet Darker Than Coal: TrES-2b' (1,031 views, 36 likes) outperform standard static space facts by a factor of 3-5x.",
+      "action": "Double down on surreal, high-contrast astronomical phenomenons framed as immersive physical scenarios or extreme hypothetical choices."
     },
     {
-      "pattern": "Bizarre Cosmic Weather & Anomalies",
-      "evidence": "Titles detailing extreme conditions like 'This Planet Rains Supersonic Rubies!' (QXuqYERlqSo) and 'The Planet Darker Than Coal' (v1rrcZLdp4U) captured strong top-tier view velocity.",
-      "action": "Highlight extreme, counter-intuitive planetary physics with sensory-rich descriptions (raining, darkness, heat, pressure)."
+      "pattern": "High-Curiosity Scale & Time Anomalies",
+      "evidence": "'Venus Has a Day Longer Than Its Year' (981 views, 21 likes) and 'This Planet Rains Supersonic Rubies!' (725 views, 25 likes) demonstrate that bizarre planetary mechanics and extreme weather hooks yield exceptionally high engagement ratios.",
+      "action": "Continue utilizing shocking superlatives and paradoxes in titles, ensuring the visual payoff matches the linguistic hook."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Standard Static Declarative Facts",
-      "evidence": "Videos relying solely on simple statements without a personal 'what if' or experiential hook (e.g., 'This Star Is Older Than the Universe!') stall out with minimal views.",
-      "action": "Avoid plain flat declarations; always frame science facts through personal immersion, paradoxes, or active consequence questions."
+      "pattern": "Low-Stakes Biological or Psychological Facts Without Visual Contrast",
+      "evidence": "Videos like 'Your Brain Can Create Fake Memories' (5 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) suffer from very low traction compared to space and planetary content.",
+      "action": "Deprioritize abstract internal biology/psychology unless paired with a highly cinematic, bizarre visual narrative or high-stakes physical consequence."
     },
     {
-      "pattern": "Repetitive Psychological Tricks",
-      "evidence": "Memory and earworm-related psychology shorts (e.g., ef3ND4qiRHc, 5AN7LUgqarc) show lower momentum and sparse engagement compared to space content.",
-      "action": "Deprioritize psychological trivia shorts for the immediate publishing cycle in favor of high-performing space and cosmic anomalies."
+      "pattern": "Under-optimized Short-duration Runtime (<16s)",
+      "evidence": "12-15 second videos (e.g., Octopuses Have Three Hearts variants) show lower sustained momentum and shallower engagement depth compared to the 19-21 second format which allows proper setup, twist, and resolution.",
+      "action": "Standardize runtime strictly between 19 and 21 seconds to maximize loop potential and algorithmic dwell time."
     }
   ],
   "next_video": {
-    "category": "Space & Astronomy",
-    "hook_style": "High-Stakes Hypothetical Immersion",
-    "concept": "What happens to the human body if you stood on a rogue planet drifting through interstellar space with no star?",
-    "opening_direction": "Start in absolute pitch blackness with zero warmth, asking the viewer to imagine the loneliest place in the universe.",
-    "twist_direction": "Reveal that despite having no sun, the planet's core heat creates an underground ocean of liquid nitrogen or boiling hydrocarbons.",
-    "duration_seconds": 15,
-    "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Leverages the proven high-performing 'What If' and extreme cosmic environment pattern while introducing a completely fresh celestial subject (rogue planets).",
+    "category": "space",
+    "hook_style": "What If existential survival scenario",
+    "concept": "What If You Fell Into a Star Made Entirely of Neon?",
+    "opening_direction": "Start with a mesmerizing, neon-glowing orb suspended in deep space, asking the viewer what happens if gravity pulls them past the glowing outer layers.",
+    "twist_direction": "Reveal that instead of burning instantly, you would experience a surreal, luminescent freefall through glowing plasma before extreme pressure seals your fate.",
+    "duration_seconds": 21,
+    "posting_window": "12:00 PM - 2:00 PM EST",
+    "reason": "Capitalizes on the proven high-performing 'What If' planetary/stellar fall format while introducing a novel celestial body (neon star) distinct from previously covered diamond, ice, or dark planets.",
     "fresh_topic_constraints": [
-      "Do not use diamond planets",
-      "Do not use black/dark planet TrES-2b",
-      "Do not use Saturn or J1407b rings",
-      "Must focus entirely on rogue interstellar worlds"
+      "Must not feature diamonds, liquid metal, glass rain, or black planets.",
+      "Must feature a newly introduced astronomical element (neon star/plasma mechanics).",
+      "Must maintain strict factual grounding in astrophysics."
     ]
   },
-  "experiment": "Test a 15-second tight edit focusing purely on sensory deprivation sound design in the first 3 seconds to measure retention lift on space-themed hypotheticals.",
+  "experiment": "Test if replacing standard declarative space fact titles with second-person experiential 'What If' immersion prompts increases initial 3-second retention by at least 15%.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-12T20:12:48.267856+00:00"
+  "generated_at": "2026-11-13T01:17:05.610278+00:00"
 }
