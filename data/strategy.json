@@ -1,47 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of deduplicated YouTube Shorts performance indicates that extreme space and planetary curiosity hooks—specifically 'What If' scenarios regarding exotic worlds and extreme physical anomalies—significantly outperform general science or biological trivia. Videos focusing on bizarre cosmic bodies, extreme planetary environments (e.g., diamond, liquid metal, and dark planets), and high-stakes speculative physics yield the highest view counts and engagement ratios (likes-per-view), whereas standard psychological and biological facts show lower traction in this sample set.",
+  "overall_summary": "Analysis of the deduplicated performance data reveals that astronomical and planetary 'What If' scenarios and extreme space phenomena generate the highest views-per-day, likes-per-view, and comment engagement. Specifically, immersive second-person hypothetical hooks ('What If You Fell Into...') combined with extreme planetary anomalies (diamonds, dark planets, extreme weather) significantly outperform abstract science or standard historical/psychological facts.",
   "winning_patterns": [
     {
-      "pattern": "Exotic Planetary 'What If' Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) rapidly outpace standard historical or psychological trivia.",
-      "action": "Double down on hypothetical space disaster/exploration scenarios focusing on bizarre, scientifically plausible exoplanets with extreme environmental properties."
+      "pattern": "Immersive Hypothetical Planetary Traversal",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) show exceptionally high engagement ratios.",
+      "action": "Produce more high-concept 'What If' scenarios placing the viewer directly into extreme cosmic environments."
     },
     {
-      "pattern": "Extreme Cosmic Superlatives & Anomaly Hooks",
-      "evidence": "Titles featuring extreme visual or physical contradictions such as 'The Planet Darker Than Coal: TrES-2b' (1,031 views, 36 likes) and 'Venus Has a Day Longer Than Its Year' (981 views, 21 likes) drive high immediate curiosity and engagement.",
-      "action": "Continue framing space facts around counterintuitive physical laws or extreme anomalies using high-contrast visual hooks."
+      "pattern": "Extreme Cosmic Anomalies & Rare Phenomena",
+      "evidence": "Titles featuring bizarre physical realities like 'Venus Has a Day Longer Than Its Year' (981 views), 'This Planet Rains Supersonic Rubies!' (725 views), and 'The Planet Darker Than Coal' (1,031 views) drive superior algorithmic velocity.",
+      "action": "Focus future scripts on bizarre, counter-intuitive planetary physics and extreme space weather."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Subtle Psychological & Brain Trick Trivia",
-      "evidence": "Shorts like 'Your Brain Can Create Fake Memories' (5-53 views) and 'The Psychological Trick to Stop Songs Stuck in Your Head' (71 views) demonstrate low relative velocity and minimal engagement.",
-      "action": "Deprioritize micro-psychology and internal brain tricks unless paired with a high-stakes, cinematic visual hook or shocking neurological anomaly."
+      "pattern": "Abstract Psychological & Memory Facts",
+      "evidence": "Videos focusing on internal human psychology or memory tricks (e.g., 'Your Brain Can Create Fake Memories', views as low as 5 to 53) demonstrate poor momentum and low like-to-view ratios.",
+      "action": "Deprioritize psychological trivia in favor of high-visual-potential space and physics concepts."
     },
     {
-      "pattern": "Standard Animal Trivia",
-      "evidence": "Content centered on standard biological facts like 'Octopuses Have THREE Hearts' (moderate views but inconsistent velocity) underperform compared to space exploration and planetary physics.",
-      "action": "Shift animal-related content strictly toward cinematic survival or extreme evolutionary anomalies rather than basic static trivia."
+      "pattern": "Low-Stakes Historical/Biological Trivia",
+      "evidence": "Shorts covering standard biological facts without a high-stakes cinematic hook (e.g., standard animal lifespan or basic trivia) underperform compared to cosmic extremes.",
+      "action": "Elevate biological and historical concepts by framing them around existential paradoxes or cinematic survival narratives."
     }
   ],
   "next_video": {
-    "category": "Space",
-    "hook_style": "What-If Extreme Scenario",
-    "concept": "What If You Fell Into a Superfluid Helium Ocean on an Alien World?",
-    "opening_direction": "Start with a disorienting visual of falling through a completely transparent, frictionless ocean where objects float infinitely.",
-    "twist_direction": "Reveal that the liquid defies gravity by crawling up container walls and would cause you to freeze instantly while slipping through solid matter.",
-    "duration_seconds": 15,
+    "category": "Space & Astronomy What-If",
+    "hook_style": "Second-person existential hypothetical",
+    "concept": "What If You Fell Into a Rogue Planet Wandering Deep Space?",
+    "opening_direction": "Start in absolute pitch blackness with absolute zero temperature, dropping the viewer instantly onto a world with no star.",
+    "twist_direction": "Reveal that despite having no sun, massive tidal friction from a hidden internal core keeps a subterranean global ocean boiling underneath miles of ice.",
+    "duration_seconds": 20,
     "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Capitalizes on the proven high-performing 'What If' planetary format while introducing a fresh, mind-bending physics concept (superfluidity) that hasn't been covered in the channel's history.",
+    "reason": "Capitalizes on the proven high performance of immersive 'What If' planetary scenarios while introducing a fresh cosmic phenomenon (rogue planets) absent from past uploads.",
     "fresh_topic_constraints": [
-      "Must not feature diamonds, burning ice, molten iron, or dark planets (TrES-2b).",
-      "Must introduce a genuine physics phenomenon (superfluidity) formatted as an accessible space wonder.",
-      "Must maintain strict factual accuracy regarding quantum mechanics on extreme worlds."
+      "Must not feature diamond planets",
+      "Must not feature glass rain",
+      "Must not feature standard black holes or Saturn/J1407b comparisons"
     ]
   },
-  "experiment": "Test a 15-second 'What If' space scenario focusing on an extreme quantum state on a distant exoplanet versus a standard planetary description hook to measure retention rate and comment velocity.",
+  "experiment": "Test a 20-second 'What If' scenario focusing on rogue planets to verify if subterranean ocean mysteries match the high view-velocity of diamond and ice planet shorts.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-14T10:52:52.903554+00:00"
+  "generated_at": "2026-11-14T17:14:22.848214+00:00"
 }
