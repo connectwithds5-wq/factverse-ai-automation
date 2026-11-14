@@ -1,47 +1,46 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis across 47 deduplicated shorts shows clear audience polarization: immersive first-person hypotheticals ('What If You Fell Into...') and extreme cosmic anomaly survival hooks consistently capture 800-1,000+ views and 25-38 likes, whereas repeated uploads, passive biology trivia (e.g., octopus hearts, shark age), and generic psychology facts generate fewer than 100 views with virtually zero engagement.",
+  "overall_summary": "Analysis of the deduplicated performance metrics highlights a dominant audience preference for extreme astronomical anomalies and speculative 'What If' planetary scenarios, particularly those featuring liquid diamonds, extreme darkness, and unconventional planetary physics (e.g., IYuce8vaU3Y, v1rrcZLdp4U, A9Qa-RmuOr0). Conversely, short-form psychological tricks and standard anatomical trivia underperform in views-per-day velocity compared to high-concept space curiosities.",
   "winning_patterns": [
     {
-      "pattern": "First-Person Peril / Extreme What-If Scenarios",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) outperformed channel baselines by over 500%.",
-      "action": "Frame cosmic and extreme scientific phenomena through immediate sensory survival stakes ('What would happen to your body if...')."
+      "pattern": "Speculative Planetary 'What If' Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Darkest Planet?' (YlDuGu1vzAg) drove top-tier view counts (824-1029 views) and strong engagement (38 likes, 2 comments) within shorter windows relative to older historical or standard fact posts.",
+      "action": "Double down on high-friction hypothetical space scenarios that force an immediate mental visualization challenge."
     },
     {
-      "pattern": "High-Contrast Cosmic Extremes (19-21s duration)",
-      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,031 views, 36 likes, 2 comments) and 'This Planet Rains Supersonic Rubies!' (725 views, 25 likes) had top-tier like ratios (~3.5%) within 19-21s runtimes.",
-      "action": "Target 19-21 second runtimes detailing singular, visceral physical extremes paired with vivid comparative imagery."
+      "pattern": "Extreme Cosmic Superlatives & Physics Anomalies",
+      "evidence": "Titles detailing extreme planetary states like 'The Planet Darker Than Coal' (v1rrcZLdp4U) and 'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0) consistently cross the ~1,000 view threshold with high like ratios.",
+      "action": "Produce more deep-space content focused on rare, counter-intuitive physical properties of newly discovered celestial bodies."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repeated Uploads and Stale Brain/Psychology Trivia",
-      "evidence": "Duplicate uploads of 'Your Brain Can Create Fake Memories' tanked at 5 to 53 views; 'Why Space Is Completely Silent' repeatedly collapsed to 34-87 views.",
-      "action": "Cease duplicate re-uploads and phase out low-stakes psychology factoids that lack cinematic urgency or visual payoff."
+      "pattern": "Low-Stakes Psychological & Brain Hack Trivia",
+      "evidence": "Topics like 'Your Brain Can Create Fake Memories' (5-53 views) and 'The Psychological Trick to Stop Songs Stuck in Your Head' (71 views) show significantly lower velocity and engagement.",
+      "action": "Deprioritize standard psychological tricks unless paired with a heavy high-strangeness micro-mystery narrative."
     },
     {
-      "pattern": "Static Declarative Trivia Without Peril",
-      "evidence": "'Octopuses Have THREE Hearts' (118 views, 0 likes) and 'The Only Animal That Can Live Forever' (69 views, 0 likes) flatlined across multiple iterations.",
-      "action": "Replace static animal trivia with high-stakes cinematic animal survival micro-stories or predatory evolutionary adaptations."
+      "pattern": "Basic Animal Factoids Without Scale",
+      "evidence": "Simple biological facts like 'Octopuses Have THREE Hearts' (excluding outlier 05kbZHfzuyg) generated modest traction compared to exotic cosmological threats.",
+      "action": "Pivot animal content toward cinematic survival or extreme evolutionary anomalies rather than basic trivia."
     }
   ],
   "next_video": {
-    "category": "what-if scenarios",
-    "hook_style": "Visceral first-person survival dilemma with immediate physical stakes",
-    "concept": "What If You Got Within 1,000 Miles of a Magnetar?",
-    "opening_direction": "Instantly state the lethal countdown: 'If you drifted within 1,000 miles of a magnetar, you wouldn't be crushed by gravity—your chemistry would literally unravel.'",
-    "twist_direction": "Reveal that before you can even feel heat, the magnetic field stretches every single atom in your body into microscopic needles, dissolving your bio-electric nervous system in a millisecond.",
-    "duration_seconds": 20,
-    "posting_window": "12:00 PM - 02:00 PM UTC",
-    "reason": "Leverages the proven high-engagement 'What If' survival framework while introducing a fresh, terrifying cosmic entity (magnetars/neutron stars) distinct from previous exoplanet weather videos.",
+    "category": "Space & Astronomy",
+    "hook_style": "High-stakes sensory curiosity & existential danger",
+    "concept": "The Rogue Planet Wandering Through Interstellar Space Completely Unattached to Any Star",
+    "opening_direction": "Start in pitch darkness with the sound of absolute zero, posing the immediate question of how a world survives without a sun.",
+    "twist_direction": "Reveal that despite having no star, its core is so radioactive that its subsurface oceans are boiling hot.",
+    "duration_seconds": 18,
+    "posting_window": "18:00 - 20:00 UTC",
+    "reason": "Leverages the proven high-performing 'What If / Extreme Planet' theme (like TrES-2b and Liquid Diamond planet) while introducing a fresh, highly visual cosmic anomaly.",
     "fresh_topic_constraints": [
-      "Do not reuse diamond planets, TrES-2b, burning ice, ruby rain, or iron rain",
-      "Do not reference Venus day length, sharks vs trees/rings, or brain memory tricks",
-      "Ensure all physical and atomic consequences of magnetar magnetic fields remain scientifically grounded"
+      "Must not use diamonds, rain, sharks, octopuses, or time/aging paradoxes.",
+      "Must feature a completely new celestial body (Rogue Planet / Interstellar wanderer)."
     ]
   },
-  "experiment": "A/B test an aggressive audio-visual drop at second 1 (a deafening spatial pulse and visual atomic distortion) versus a gradual narrative build to assess if immediate sensory disruption increases the 5-second retention rate on 20-second survival Shorts.",
-  "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-11-13T22:46:30.966224+00:00"
+  "experiment": "Test a purely audio-driven atmospheric hook (ambient low-frequency drone) versus standard text-on-screen hook for space-themed Shorts to measure impact on 3-second retention.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-11-14T03:25:08.891428+00:00"
 }
