@@ -1,47 +1,46 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Deduplicated performance data highlights extreme viewer preference for high-concept space curiosities, extreme planetary conditions, and 'What If' hypothetical scenarios. Content framed around bizarre planetary environments (e.g., TrES-2b, liquid diamond planets, burning ice worlds) and counter-intuitive spatial scales consistently outperforms standard trivia. Engagement metrics confirm that direct question hooks paired with high-contrast visual promises generate superior likes-per-view ratios.",
+  "overall_summary": "Exoplanet extremes and first-person 'What If You Fell Into...' survival/exploration hooks systematically outperform all other content, generating FACTVERSE's only 800-1,000+ view videos with top engagement rates (3.5%+ likes, active comments). Conversely, repeated cognitive psychology trivia ('Fake Memories', earworms) and low-stakes animal facts consistently flatline under 100 views with near-zero engagement.",
   "winning_patterns": [
     {
-      "pattern": "Extreme 'What If' Planetary Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) drive high absolute view counts and robust like ratios (38+ likes on ~1k views).",
-      "action": "Continue producing high-stakes exploratory 'What If' scenarios focusing on bizarre, newly discovered exoplanets with lethal or physics-breaking environments."
+      "pattern": "First-Person Extreme Planetary Hazard ('What If You Fell Into...')",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes), 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes), and 'What If You Fell Into the Darkest Planet?' (826 views, 15 likes) dominate the top tier.",
+      "action": "Anchor future space content in visceral, second-person physical consequence simulations with high sensory contrast rather than passive encyclopedic trivia."
     },
     {
-      "pattern": "Bizarre Atmospheric/Climatic Anomalies on Exoplanets",
-      "evidence": "Titles detailing extreme weather ('This Planet Rains Supersonic Rubies!', QXuqYERlqSo; 'The Planet Darker Than Coal', v1rrcZLdp4U) capture over 1,000 views with strong viewer retention signals.",
-      "action": "Double down on unique planetary weather systems and optical anomalies that challenge normal human perception."
+      "pattern": "Extreme Physical & Chemical Paradoxes in Space",
+      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,031 views, 36 likes) and 'This Planet Rains Supersonic Rubies!' (725 views, 25 likes) sharply outperform standard astronomy facts.",
+      "action": "Focus strictly on alien worlds and cosmic phenomena featuring mind-bending visual states (extreme heat, atmospheric disintegration, metallic storms)."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Low-Stakes Psychological & Brain Trick Trivia",
-      "evidence": "Topics like 'Your Brain Can Create Fake Memories' (2fqaGqfsR4A, 5 views) and memory/song hacks (Jc04LVKNd2s, 17 views) show severely depressed performance compared to space content.",
-      "action": "Deprioritize abstract psychological micro-facts unless they involve extreme, visceral neurological anomalies or direct visual demonstrations."
+      "pattern": "Generic Psychology & Cognitive Trivia",
+      "evidence": "Multiple iterations of 'Your Brain Can Create Fake Memories' (5 to 53 views, 0 likes) and 'Songs Stuck In Your Head' (17 to 71 views) repeatedly flopped.",
+      "action": "Halt generic psychology micro-facts entirely unless tied to a dark, high-stakes mystery or survival scenario."
     },
     {
-      "pattern": "Over-Explored Animal/Common Fact Rewrites",
-      "evidence": "Standard animal facts like octopus hearts or basic biology have plateaued quickly with low like counts, indicating audience fatigue for standard listicle-style facts.",
-      "action": "Shift animal content away from static facts into cinematic animal survival or extreme evolutionary anomalies."
+      "pattern": "Passive Observational Trivia Without Urgency",
+      "evidence": "'This Star Is Older Than the Universe!' (11 views), 'Your Brain Is Hiding This From You' (38 views), and repeated 'Why Space Is Completely Silent' uploads (34-87 views).",
+      "action": "Eliminate static trivia statements; every short must open with kinetic tension, mystery, or bodily stakes."
     }
   ],
   "next_video": {
-    "category": "Space & Astronomy What-If",
-    "hook_style": "High-stakes hypothetical direct question with sensory impossibility",
-    "concept": "A deep-dive exploration into WASP-76b, the exoplanet where daytime temperatures vaporize metals that then condense and fall as liquid iron rain on the dark side.",
-    "opening_direction": "Start mid-action inside a hypothetical titanium suit melting instantly, asking the audience what happens when the sky starts raining molten steel.",
-    "twist_direction": "Reveal that the wind speeds are five times faster than the speed of sound, meaning the metal rain travels sideways horizontally before it can even hit the ground.",
-    "duration_seconds": 15,
-    "posting_window": "12:00 PM - 2:00 PM EST",
-    "reason": "Leverages the proven high-performing exoplanet extreme weather niche while introducing a completely distinct physical phenomenon (WASP-76b sideways iron storms) not present in the published history.",
+    "category": "what-if scenarios / space",
+    "hook_style": "Second-person visceral catastrophe hook",
+    "concept": "What would happen to the human body if you stepped onto KELT-9b, an ultra-hot Jupiter where vaporized iron tears apart molecules faster than a lightning strike.",
+    "opening_direction": "First 2 seconds: High-contrast CGI view plunging directly toward a blisteringly bright blue-white gas giant, narrator: 'If you dropped onto KELT-9b, your suit wouldn't just melt—your atoms would literally be ripped apart.'",
+    "twist_direction": "Reveal that the planet's dayside is so hot (4,300°C) that even basic chemical bonds cannot exist, causing a glowing tail of boiling metal vapor stretching across space like a dying comet.",
+    "duration_seconds": 21,
+    "posting_window": "12:00 - 13:30 UTC",
+    "reason": "Leverages the proven high-converting 'What If You Fell Into...' first-person framework with extreme exoplanet thermodynamics, while introducing a totally unexploited exoplanet (KELT-9b).",
     "fresh_topic_constraints": [
-      "Do not use TrES-2b, J1407b, or diamond/glass rain planets",
-      "Must feature a completely new celestial body (WASP-76b)",
-      "Strictly separate real astrophysics from science fiction"
+      "Do not repeat TrES-2b, Gliese 436b (Burning ice), 55 Cancri e (Diamond), WASP-76b (Molten iron), or HD 189733b (Glass rain).",
+      "Ensure the science of thermal molecular dissociation is accurate without generic sci-fi tropes."
     ]
   },
-  "experiment": "Test a 15-second pacing structure with a zero-second cold open visualizing instant destruction to measure if early retention spikes translate to higher algorithmic push for extreme space content.",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-15T02:00:32.785635+00:00"
+  "experiment": "A/B test the opening pacing: Compare a 1-second abrupt catastrophic impact sound with zero preamble against a 2-second ambient silence build-up to see if it lifts the 3-second Shorts swipe-away rate above 75%.",
+  "model_used": "gemini-3.8-flash",
+  "generated_at": "2026-11-15T09:44:14.625003+00:00"
 }
