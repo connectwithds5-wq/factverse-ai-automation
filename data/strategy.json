@@ -1,21 +1,47 @@
 {
   "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "First-person speculative survival hooks ('What If You Fell Into...') and extreme planetary environment paradoxes consistently lead the channel in both total views and engagement (reaching 800-1,050+ views and 20-38 likes). Conversely, standard psychology trivia ('Your Brain Can Create Fake Memories') and quiet science facts consistently stall below 100 views with negligible engagement.",
+  "winning_patterns": [
+    {
+      "pattern": "First-Person Extreme Survival ('What If You Fell Into...')",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) achieved the highest retention-driven metrics.",
+      "action": "Frame high-concept planetary and space anomalies through visceral, step-by-step human survival scenarios rather than passive third-person trivia."
+    },
+    {
+      "pattern": "Bizarre Sensory/Physical Contradictions in Exoplanets",
+      "evidence": "'The Planet of Burning Ice' (1,057 views, 3 comments), 'The Planet Darker Than Coal' (1,031 views, 36 likes), and 'This Planet Rains Supersonic Rubies!' (725 views, 25 likes) vastly outperformed general facts.",
+      "action": "Hook viewers with impossible physical paradoxes (burning ice, diamond rain, pitch black darkness) within the first 2 seconds."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Abstract Memory and Brain Quirks",
+      "evidence": "Repeated uploads of 'Your Brain Can Create Fake Memories' flatlined at 5 to 53 views; 'Your Brain Is Hiding This From You' reached only 38 views.",
+      "action": "Halt generic human psychology listicles and static neuroscience facts until interactive or narrative framing can be developed."
+    },
+    {
+      "pattern": "Passive Space Acoustics / Repetitive Sound Trivia",
+      "evidence": "'Why Space Is Completely Silent' repeatedly capped at low view tiers (34 to 220 views across three separate attempts).",
+      "action": "Retire quiet/static space concepts that lack physical stakes or vivid visual payoff."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "what-if scenarios",
+    "hook_style": "Visceral first-person survival dilemma",
+    "concept": "What happens if a human steps onto Titan's liquid methane sea—where freezing liquid methane allows you to run on liquid, but instantly shatters organic tissue.",
+    "opening_direction": "Point-of-view descent into Titan's orange haze: 'If you fell into Titan’s freezing methane ocean without a spacesuit, you wouldn’t drown—you’d shatter.'",
+    "twist_direction": "Reveal that Titan’s thick atmosphere and low gravity mean humans could strap on artificial wings and fly like birds, if they can survive the minus 290-degree methane rain.",
+    "duration_seconds": 21,
+    "posting_window": "12:00 - 13:30 UTC",
+    "reason": "Leverages the proven high-engagement 'What If You Fell Into...' survival framework with a brand new, visually arresting celestial body not yet covered on the channel.",
+    "fresh_topic_constraints": [
+      "Do not repeat TrES-2b, 55 Cancri e diamond planet, Gliese 436b burning ice, or WASP molten metal/iron rain",
+      "Focus specifically on Titan's cryogenic methane hydrocarbon lakes and physical gravity mechanics",
+      "Keep pacing under 22 seconds to maintain high completion velocity"
+    ]
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-11-15T17:18:02.288845+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-11-15T17:18:02.288859+00:00"
+  "experiment": "Test whether framing an extreme environment around a specific planetary moon survival puzzle (Titan) matches the 1,000+ view benchmark established by exoplanet 'What If' Shorts.",
+  "model_used": "gemini-3.8-flash",
+  "generated_at": "2026-11-15T21:56:34.721906+00:00"
 }
