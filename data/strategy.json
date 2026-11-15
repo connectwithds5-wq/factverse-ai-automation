@@ -1,46 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Exoplanet extremes and first-person 'What If You Fell Into...' survival/exploration hooks systematically outperform all other content, generating FACTVERSE's only 800-1,000+ view videos with top engagement rates (3.5%+ likes, active comments). Conversely, repeated cognitive psychology trivia ('Fake Memories', earworms) and low-stakes animal facts consistently flatline under 100 views with near-zero engagement.",
-  "winning_patterns": [
-    {
-      "pattern": "First-Person Extreme Planetary Hazard ('What If You Fell Into...')",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes), 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes), and 'What If You Fell Into the Darkest Planet?' (826 views, 15 likes) dominate the top tier.",
-      "action": "Anchor future space content in visceral, second-person physical consequence simulations with high sensory contrast rather than passive encyclopedic trivia."
-    },
-    {
-      "pattern": "Extreme Physical & Chemical Paradoxes in Space",
-      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,031 views, 36 likes) and 'This Planet Rains Supersonic Rubies!' (725 views, 25 likes) sharply outperform standard astronomy facts.",
-      "action": "Focus strictly on alien worlds and cosmic phenomena featuring mind-bending visual states (extreme heat, atmospheric disintegration, metallic storms)."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Generic Psychology & Cognitive Trivia",
-      "evidence": "Multiple iterations of 'Your Brain Can Create Fake Memories' (5 to 53 views, 0 likes) and 'Songs Stuck In Your Head' (17 to 71 views) repeatedly flopped.",
-      "action": "Halt generic psychology micro-facts entirely unless tied to a dark, high-stakes mystery or survival scenario."
-    },
-    {
-      "pattern": "Passive Observational Trivia Without Urgency",
-      "evidence": "'This Star Is Older Than the Universe!' (11 views), 'Your Brain Is Hiding This From You' (38 views), and repeated 'Why Space Is Completely Silent' uploads (34-87 views).",
-      "action": "Eliminate static trivia statements; every short must open with kinetic tension, mystery, or bodily stakes."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "what-if scenarios / space",
-    "hook_style": "Second-person visceral catastrophe hook",
-    "concept": "What would happen to the human body if you stepped onto KELT-9b, an ultra-hot Jupiter where vaporized iron tears apart molecules faster than a lightning strike.",
-    "opening_direction": "First 2 seconds: High-contrast CGI view plunging directly toward a blisteringly bright blue-white gas giant, narrator: 'If you dropped onto KELT-9b, your suit wouldn't just melt—your atoms would literally be ripped apart.'",
-    "twist_direction": "Reveal that the planet's dayside is so hot (4,300°C) that even basic chemical bonds cannot exist, causing a glowing tail of boiling metal vapor stretching across space like a dying comet.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 - 13:30 UTC",
-    "reason": "Leverages the proven high-converting 'What If You Fell Into...' first-person framework with extreme exoplanet thermodynamics, while introducing a totally unexploited exoplanet (KELT-9b).",
-    "fresh_topic_constraints": [
-      "Do not repeat TrES-2b, Gliese 436b (Burning ice), 55 Cancri e (Diamond), WASP-76b (Molten iron), or HD 189733b (Glass rain).",
-      "Ensure the science of thermal molecular dissociation is accurate without generic sci-fi tropes."
-    ]
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "A/B test the opening pacing: Compare a 1-second abrupt catastrophic impact sound with zero preamble against a 2-second ambient silence build-up to see if it lifts the 3-second Shorts swipe-away rate above 75%.",
-  "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-11-15T09:44:14.625003+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-11-15T17:18:02.288845+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-11-15T17:18:02.288859+00:00"
 }
