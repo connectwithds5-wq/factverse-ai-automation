@@ -1,46 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of 47 deduplicated Shorts reveals a sharp performance divide: extreme planetary superlatives and first-person 'What If You Fell Into...' spatial survival scenarios capture the highest views (up to 1,057) and engagement (up to 3.7% like rate). In contrast, generic psychology facts ('brain memories', 'songs stuck in head') and repetitive regurgitated trivia ('octopus hearts', 'silent space') consistently flatline below 100 views with negligible engagement.",
+  "overall_summary": "Deduplicated analysis of FACTVERSE's performance shows that extreme space and astrophysics 'What If' scenarios (specifically involving bizarre exoplanets, liquid diamond worlds, and extreme cosmic environments) drive the highest relative velocity in views, engagement (likes-per-view), and algorithmic traction compared to psychological or standard biological facts. Recent late September and October releases dominate the top engagement tiers.",
   "winning_patterns": [
     {
-      "pattern": "First-Person Survival on Extreme Cosmic Anomalies ('What If You Fell Into...')",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' gained 1,029 views, 38 likes, and 2 comments; 'What If You Fell Into the Planet of Burning Ice?' reached 972 views; 'The Planet Darker Than Coal' hit 1,031 views and 36 likes.",
-      "action": "Leverage immersive, visceral second-person survival framing ('You would not die from heat first...') focused on bizarre, lethal planetary and celestial environments."
+      "pattern": "Immersive 'What If' Cosmic Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) generated 1,029 views with 38 likes and 2 comments within a short window, significantly outperforming standard biological facts.",
+      "action": "Double down on hypothetical space scenarios involving extreme physical environments and exotic materials."
     },
     {
-      "pattern": "High-Contrast Planetary Superlatives & Tangible Physical Contradictions",
-      "evidence": "'The Planet of Burning Ice' reached 1,057 views; 'Venus Has a Day Longer Than Its Year' hit 981 views and 21 likes; 'Supersonic Rubies' scored 725 views and 25 likes.",
-      "action": "Focus hooks on intuitive physical impossibilities (burning ice, raining gems, days longer than years) paired with sensory descriptors."
+      "pattern": "Bizarre Exoplanet Extremes",
+      "evidence": "Titles detailing planetary anomalies such as 'The Planet Darker Than Coal: TrES-2b' (v1rrcZLdp4U) and 'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0) consistently pull over 900-1000 views and strong like ratios.",
+      "action": "Continue sourcing lesser-known, highly bizarre exoplanets with strong visual hooks."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Psychology and Cognitive Trivia",
-      "evidence": "'Your Brain Can Create Fake Memories' achieved between 5 and 53 views across 3 uploads; 'The Real Reason Songs Get Stuck In Your Head' stalled at 17 views.",
-      "action": "Cease low-stakes brain trivia unless framed as a high-stakes psychological mystery or biological horror scenario."
+      "pattern": "Psychological/Memory Hacks",
+      "evidence": "Videos focusing on internal human psychology or memory tricks (e.g., 'Your Brain Can Create Fake Memories', 2fqaGqfsR4A, r43-7nSn8SQ) flatlined at 5-10 views with zero engagement.",
+      "action": "Deprioritize purely internal psychological tricks in favor of high-visual-spectacle science and space concepts."
     },
     {
-      "pattern": "Direct Reposting of Saturated Factoids",
-      "evidence": "'Why Space Is Completely Silent' was uploaded 3 times (34, 87, and 220 views); 'Octopuses Have THREE Hearts' was posted 3 times without traction lift.",
-      "action": "Enforce strict deduplication checks and avoid well-worn elementary school facts that lack cinematic tension."
+      "pattern": "Repetitive or Low-Stakes Biological Trivia",
+      "evidence": "Short-form facts about common animal traits (e.g., octopuses having three hearts) achieved modest views only when heavily optimized, but generally underperform compared to cosmic scale anomalies.",
+      "action": "Shift animal-related content toward cinematic survival or extreme evolutionary adaptations rather than simple trivia."
     }
   ],
   "next_video": {
-    "category": "what-if scenarios",
-    "hook_style": "Visceral first-person peril + extreme physical paradox",
-    "concept": "What If You Dropped Into the 100-Kilometer-Deep Ocean of Ganymede?",
-    "opening_direction": "Start immediately with POV descent through 150 kilometers of solid crust: 'If you fell through Jupiter's moon Ganymede, you wouldn't drown in water—you would be crushed between two layers of ice.'",
-    "twist_direction": "Reveal that the bottom of the alien ocean isn't rock or seabed, but an exotic form of ice (Ice VI/VII) compressed into rock-hard crystal under pressures that shatter titanium.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 - 14:00 UTC",
-    "reason": "Captures the proven audience demand for first-person cosmic exploration while expanding from exoplanets into deep-space ocean mysteries, avoiding every past covered entity.",
+    "category": "Space & Astronomy",
+    "hook_style": "What If / Extreme Sensory Paradox",
+    "concept": "What If You Fell Into the Coldest Known Place in the Universe?",
+    "opening_direction": "Start inside the Boomerang Nebula where temperatures drop below absolute zero physics limits, using a striking visual countdown of human body freezing.",
+    "twist_direction": "Reveal how atoms completely stop moving here, creating a bizarre quantum state where matter shatters instantly.",
+    "duration_seconds": 15,
+    "posting_window": "12:00 PM - 2:00 PM EST",
+    "reason": "Capitalizes on the proven high performance of extreme space scenarios and 'What If' framing observed in top-performing assets like IYuce8vaU3Y and 8KEl0_pJ_68.",
     "fresh_topic_constraints": [
-      "Do not mention TrES-2b, 55 Cancri e, Gliese 436b, Venus, Saturn, or glass/iron rain exoplanets",
-      "Must feature subterranean alien ocean physics and exotic high-pressure ice phases"
+      "Must not feature diamond planets, dark planets, liquid metal, or previously used exoplanets",
+      "Must focus strictly on the Boomerang Nebula or absolute zero thermodynamic anomalies",
+      "Ensure all physical descriptions remain scientifically accurate"
     ]
   },
-  "experiment": "Test whether framing deep-space exploration as deep-ocean abyss survival ('oceanic cosmic horror') yields a higher like-to-view conversion (>4%) than hot/rocky exoplanet Shorts.",
-  "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-11-16T02:17:11.307296+00:00"
+  "experiment": "Test a 15-second runtime with an accelerated opening hook (under 1.5 seconds) on a brand-new space anomaly topic to measure if retention spikes further compared to the standard 21-second formats.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-11-16T20:36:50.560071+00:00"
 }
