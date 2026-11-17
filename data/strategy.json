@@ -1,47 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Analysis of 47 unique Shorts reveals extreme exoplanet mysteries and visceral first-person hypothetical survival scenarios ('What If You Fell Into...') consistently drive the highest views (800–1,050+) and engagement (likes >35, comments). In contrast, generic psychology brain facts and repeated re-uploads of space silence/memory topics severely underperform (<50 views, 0 engagement). Story-first immersion and extreme physical environments dominate channel traction.",
-  "winning_patterns": [
-    {
-      "pattern": "First-Person Extreme Space Survival ('What If You Fell Into...')",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) deliver 5x-10x channel average views and top engagement.",
-      "action": "Produce cinematic first-person hypothetical journeys into extreme, lethal astronomical or planetary phenomena."
-    },
-    {
-      "pattern": "Mind-Bending Exoplanet Superlatives & Dark Paradoxes",
-      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,031 views, 36 likes) and 'This Planet Rains Supersonic Rubies!' (725 views, 25 likes) outperform typical science trivia.",
-      "action": "Focus on high-contrast, paradoxical planetary environments highlighting tangible sensory extremes (temperatures, atmospheric pressure, visual darkness)."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Recycled Psychology & Brain Trivia",
-      "evidence": "Multiple iterations of 'Your Brain Can Create Fake Memories' (5–53 views, 0 likes) and earworm trivia (17–71 views) consistently fail to gain algorithmic traction.",
-      "action": "Retire abstract cognitive psychology factoids in favor of narrative-driven mystery, cinematic survival, or shocking historical anomalies."
-    },
-    {
-      "pattern": "Static Science Explanations Without Stakes",
-      "evidence": "'Why Space Is Completely Silent' re-uploads plateaued at 34–220 views with minimal interaction.",
-      "action": "Avoid passive explanatory hooks; frame topics around danger, visual drama, or counter-intuitive paradoxes."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "what-if scenarios",
-    "hook_style": "Visceral first-person survival dilemma",
-    "concept": "What would happen if your spacesuit breached inside a rogue neutron star's magnetic field (Magnetar)?",
-    "opening_direction": "Immediate visual drop: drifting 1,000 miles from a Magnetar as your digital watch and ship instruments instantly disintegrate into sparks.",
-    "twist_direction": "Reveal that before the radiation even touches you, the magnetic field stretches the atoms of your body into pencil-thin needles, dissolving your DNA in milliseconds.",
-    "duration_seconds": 21,
-    "posting_window": "12:30 - 13:30 UTC",
-    "reason": "Leverages the proven high-engagement 'What If You Fell Into...' survival framework with a brand new, terrifying astronomical entity never covered on the channel.",
-    "fresh_topic_constraints": [
-      "Do not use diamond planets, TrES-2b, burning ice, glass rain, or Saturn/Venus",
-      "Must feature an untouched cosmic entity (Magnetar SGR 1806-20)",
-      "Keep pacing under 22 seconds for complete loop retention"
-    ]
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test sensory horror micro-storytelling combined with hard astrophysical facts to determine if extreme survival stakes boost comment debate and share rates over standard trivia.",
-  "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-11-17T04:02:41.197140+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-11-17T13:41:56.692551+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-11-17T13:41:56.692574+00:00"
 }
