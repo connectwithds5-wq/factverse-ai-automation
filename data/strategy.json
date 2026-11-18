@@ -1,47 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Analysis of deduplicated recent performance clearly highlights space, astronomy 'what-if' scenarios, and planetary anomalies as the dominant growth drivers for FACTVERSE. Videos utilizing speculative or extreme planetary conditions ('What If You Fell Into...', rare rain phenomena like diamonds, liquid metal, and supersonic rubies) paired with high-urgency, mind-blowing hooks generated the highest velocity of views-per-day and strong likes-per-view. Conversely, standard psychology and basic animal trivia underperformed.",
-  "winning_patterns": [
-    {
-      "pattern": "Speculative Planetary 'What If' Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,029 views), 'What If You Fell Into the Darkest Planet?' (828 views), and 'What If You Fell Into the Planet of Burning Ice?' (972 views) demonstrate exceptional performance compared to static facts.",
-      "action": "Double down on hypothetical space scenarios involving extreme planetary physics, letting viewers visualize impossible physical interactions."
-    },
-    {
-      "pattern": "Extreme Planetary Phenomena / Rare Weather",
-      "evidence": "Titles detailing surreal planetary conditions like 'This Planet Rains Supersonic Rubies!' (725 views) and 'The Planet Darker Than Coal: TrES-2b' (1,031 views) drove the highest sustained engagement and strong engagement ratios.",
-      "action": "Continue producing short-form content highlighting bizarre cosmic weather, extreme exoplanets, and materials on other worlds that defy Earth logic."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Low-Stakes Animal Trivia",
-      "evidence": "Animal facts such as 'Your Brain Can Create Fake Memories' and simple creature stats like 'Octopuses Have THREE Hearts' yielded low velocity when not tied to a high-concept existential threat or paradox.",
-      "action": "Pivot away from basic, isolated animal facts unless framed within a dramatic cinematic animal survival or evolutionary mystery format."
-    },
-    {
-      "pattern": "Flat Psychological Tricks",
-      "evidence": "Content focused on everyday psychological tricks ('The Psychological Trick to Stop Songs Stuck in Your Head') generated minimal traction (~71 views).",
-      "action": "Avoid standard psychology tips and focus energy on high-performing space, cosmic mysteries, and cinematic scenarios."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space / What-If Scenarios",
-    "hook_style": "High-urgency hypothetical survival question with immediate cognitive dissonance",
-    "concept": "What If You Fell Into the Core of a Rogue Planet?",
-    "opening_direction": "Start mid-action inside total darkness, experiencing unimaginable atmospheric pressure before even hitting a surface.",
-    "twist_direction": "Reveal that the core isn't molten rock, but a solid sphere of compressed dark matter or metallic hydrogen holding an entire dead star's ghost.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Capitalizes on the proven high performance of 'What If' planetary drop scenarios and extreme physics anomalies observed in top-performing videos.",
-    "fresh_topic_constraints": [
-      "Do not use diamonds, burning ice, or liquid metal rain",
-      "Must focus entirely on rogue planets and core dynamics",
-      "Ensure absolute scientific accuracy regarding rogue planet physics"
-    ]
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a 21-second 'What If' scenario focusing on rogue planets to see if it matches or exceeds the view velocity of the liquid diamond and dark planet hits.",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-18T04:46:11.653215+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-11-18T14:31:56.351996+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-11-18T14:31:56.352017+00:00"
 }
