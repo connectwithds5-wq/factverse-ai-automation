@@ -1,47 +1,41 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of the deduplicated FACTVERSE dataset reveals a clear preference for astronomy and space-based 'What If' scenarios and extreme planetary facts. Specifically, videos covering hypothetical planetary conditions (e.g., liquid diamond planets, burning ice, dark planets) and extreme cosmic phenomena generate significantly higher view velocities and engagement rates (likes-per-view) compared to standard biology, psychology, or historical facts. The winning formats utilize immediate curiosity gaps, sensory comparisons, and counterintuitive scale comparisons.",
+  "overall_summary": "Analysis of the deduplicated FACTVERSE performance data reveals that high-concept space and astrophysics videos—specifically featuring extreme planetary conditions, 'What If' scenarios, and planetary oddities—are dominating engagement and velocity. Videos like 'Venus Has a Day Longer Than Its Year', 'What If You Fell Into a Liquid Diamond Planet?', and 'The Planet Darker Than Coal: TrES-2b' significantly outperform general psychological or biology facts in views, likes-per-view, and sustained momentum.",
   "winning_patterns": [
     {
-      "pattern": "Hypothetical Planetary 'What If' Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) achieved high view counts (approx. 1,000+ views) with exceptional like ratios (up to 38 likes) compared to older static biological facts.",
-      "action": "Double down on high-concept cosmic 'What If' immersion scenarios that place the viewer directly into extreme extraterrestrial environments."
+      "pattern": "Extreme Planetary / Space 'What If' Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views) show exceptional engagement compared to older psychology or standard animal facts.",
+      "action": "Double down on surreal astronomical 'What If' scenarios that force the viewer to visualize impossible physics."
     },
     {
-      "pattern": "Extreme Planetary Anomalies & Weather",
-      "evidence": "Titles detailing bizarre planetary physics such as 'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0), 'This Planet Rains Supersonic Rubies!' (QXuqYERlqSo), and 'The Planet Darker Than Coal: TrES-2b' (v1rrcZLdp4U) consistently pull the highest traction in the channel's portfolio.",
-      "action": "Continue sourcing lesser-known exoplanets with extreme physical properties (e.g., magnetic anomalies, impossible winds, bizarre orbital mechanics)."
+      "pattern": "Bizarre Cosmic Extreme Facts",
+      "evidence": "Titles featuring planetary anomalies like 'The Planet Darker Than Coal' (1,031 views, 36 likes) and 'This Planet Rains Supersonic Rubies!' (725 views) capture immediate curiosity and high like-to-view ratios.",
+      "action": "Continue utilizing high-contrast cosmic anomalies with specific, mind-boggling adjectives (darker, rains, heavier, colder)."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Static Psychological & Biological Micro-Facts",
-      "evidence": "Topics like 'Your Brain Can Create Fake Memories' (5AN7LUgqarc, 2fqaGqfsR4A) and general memory/song-stuck-in-head trivia underperform significantly, garnering minimal views (under 60) and zero engagement.",
-      "action": "Deprioritize standard psychology and brain-hack micro-shorts unless framed through a groundbreaking, highly cinematic sci-fi or extreme survival lens."
-    },
-    {
-      "pattern": "Low-Stakes Animal Trivia Without Cinematic Survival Stakes",
-      "evidence": "Simple animal facts like 'Octopuses Have THREE Hearts' (AXAfwrzzEdU) yield flat performance compared to high-concept space phenomena.",
-      "action": "Shift animal content away from static trivia toward high-stakes cinematic animal survival or extreme adaptations."
+      "pattern": "Low-Engagement Psychological Tricks & Common Biology Facts",
+      "evidence": "Videos like 'Your Brain Can Create Fake Memories' (5 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) show very weak traction and poor audience pull relative to space content.",
+      "action": "Deprioritize standard psychological hacks and everyday animal trivia unless paired with a massive, counter-intuitive evolutionary mystery."
     }
   ],
   "next_video": {
-    "category": "Space & Astronomy What-If",
-    "hook_style": "Hypothetical sensory immersion combined with physical impossibility",
-    "concept": "What If You Fell Into the Coldest Known Star?",
-    "opening_direction": "Start with the chilling reality that some stars are actually colder than a household kitchen freezer, asking the viewer what happens when you touch one.",
-    "twist_direction": "Reveal that despite being classified as a 'star' (Y-dwarf), it feels more like an invisible gas giant storm where you would freeze and sink endlessly into darkness.",
-    "duration_seconds": 15,
+    "category": "Space",
+    "hook_style": "Extreme Curiosity / What If",
+    "concept": "What If You Fell Into the Coldest Known Object in the Universe (the Boomerang Nebula)?",
+    "opening_direction": "Start inside an instant flash-freeze visual effect where ambient heat disappears faster than a vacuum.",
+    "twist_direction": "Reveal that this cosmic ghost is actually colder than deep space itself, actively stealing thermal energy from the universe.",
+    "duration_seconds": 21,
     "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Leverages the proven high-performing 'What If' space format and the successful 'cold star/ice' thematic keywords while exploring a completely fresh astronomical object (Y-dwarfs/failed stars).",
+    "reason": "Leverages the proven high-performing 'What If' planetary/cosmic physics format while introducing a brand new celestial phenomenon not yet covered in the channel history.",
     "fresh_topic_constraints": [
-      "Must not feature diamonds, glass rain, liquid metal, black planets, or Saturn",
-      "Focus exclusively on failed stars / brown dwarfs / Y-dwarfs",
-      "Keep visual descriptions grounded in accurate astrophysics while maintaining maximum cinematic dread"
+      "Must not feature diamonds, rain, sharks, octopuses, or time/aging paradoxes.",
+      "Must explore the Boomerang Nebula specifically."
     ]
   },
-  "experiment": "Test a space 'What If' scenario using a direct second-person immersion hook ('What If You Fell Into...') against an exoplanet weather hook ('This Star...') to see which drives higher viewer retention in the first 3 seconds.",
+  "experiment": "A/B test a pure cosmic 'What If' question against a direct sensory space statement ('The Place Where Atoms Stop Moving Completely') to determine if hypothetical scenarios or extreme physical states drive higher 3-second retention.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-18T22:13:34.158736+00:00"
+  "generated_at": "2026-11-19T03:43:22.431919+00:00"
 }
