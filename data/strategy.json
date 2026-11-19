@@ -1,41 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Analysis of the deduplicated FACTVERSE performance data reveals that high-concept space and astrophysics videos—specifically featuring extreme planetary conditions, 'What If' scenarios, and planetary oddities—are dominating engagement and velocity. Videos like 'Venus Has a Day Longer Than Its Year', 'What If You Fell Into a Liquid Diamond Planet?', and 'The Planet Darker Than Coal: TrES-2b' significantly outperform general psychological or biology facts in views, likes-per-view, and sustained momentum.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Planetary / Space 'What If' Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views) show exceptional engagement compared to older psychology or standard animal facts.",
-      "action": "Double down on surreal astronomical 'What If' scenarios that force the viewer to visualize impossible physics."
-    },
-    {
-      "pattern": "Bizarre Cosmic Extreme Facts",
-      "evidence": "Titles featuring planetary anomalies like 'The Planet Darker Than Coal' (1,031 views, 36 likes) and 'This Planet Rains Supersonic Rubies!' (725 views) capture immediate curiosity and high like-to-view ratios.",
-      "action": "Continue utilizing high-contrast cosmic anomalies with specific, mind-boggling adjectives (darker, rains, heavier, colder)."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Low-Engagement Psychological Tricks & Common Biology Facts",
-      "evidence": "Videos like 'Your Brain Can Create Fake Memories' (5 views) and 'The Real Reason Songs Get Stuck In Your Head' (17 views) show very weak traction and poor audience pull relative to space content.",
-      "action": "Deprioritize standard psychological hacks and everyday animal trivia unless paired with a massive, counter-intuitive evolutionary mystery."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space",
-    "hook_style": "Extreme Curiosity / What If",
-    "concept": "What If You Fell Into the Coldest Known Object in the Universe (the Boomerang Nebula)?",
-    "opening_direction": "Start inside an instant flash-freeze visual effect where ambient heat disappears faster than a vacuum.",
-    "twist_direction": "Reveal that this cosmic ghost is actually colder than deep space itself, actively stealing thermal energy from the universe.",
-    "duration_seconds": 21,
-    "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Leverages the proven high-performing 'What If' planetary/cosmic physics format while introducing a brand new celestial phenomenon not yet covered in the channel history.",
-    "fresh_topic_constraints": [
-      "Must not feature diamonds, rain, sharks, octopuses, or time/aging paradoxes.",
-      "Must explore the Boomerang Nebula specifically."
-    ]
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "A/B test a pure cosmic 'What If' question against a direct sensory space statement ('The Place Where Atoms Stop Moving Completely') to determine if hypothetical scenarios or extreme physical states drive higher 3-second retention.",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-19T03:43:22.431919+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-11-19T13:39:08.561903+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-11-19T13:39:08.561923+00:00"
 }
