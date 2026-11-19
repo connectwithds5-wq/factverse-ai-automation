@@ -1,21 +1,47 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Analysis of 47 deduplicated Shorts reveals that visceral, second-person immersive survival scenarios ('What If You Fell Into...') and extreme cosmic phenomena generate the highest view velocity and engagement (averaging 700-1,050+ views, 20-38 likes, and multiple comments). In contrast, repetitive basic psychology trivia ('fake memories', 'songs stuck in head') and dry acoustic/astronomy trivia ('space is silent') consistently underperform, stagnating below 100 views.",
+  "winning_patterns": [
+    {
+      "pattern": "Second-Person Extreme Environment Survival ('What If You Fell Into...')",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet' (1,029 views, 38 likes), 'What If You Fell Into the Darkest Planet' (829 views, 15 likes), and 'What If You Fell Into the Planet of Burning Ice' (972 views, 18 likes) lead the channel in both total reach and engagement.",
+      "action": "Anchor future videos in immersive physical jeopardy, placing the viewer directly into lethal, visually dramatic planetary and cosmic environments."
+    },
+    {
+      "pattern": "Visually Extreme Exotic Space Anomalies",
+      "evidence": "'The Planet Darker Than Coal' (1,031 views, 36 likes) and 'This Planet Rains Supersonic Rubies' (725 views, 25 likes) sharply outperform static trivia by delivering mind-bending visual contrasts.",
+      "action": "Feature singular, high-contrast astrophysical entities with striking cinematic imagery (e.g., crushing pressures, liquid metals, extreme gravity)."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Repetitive Mind & Brain Trivia",
+      "evidence": "Multiple uploads of 'Your Brain Can Create Fake Memories' (5-53 views), 'Songs Stuck In Your Head' (17-71 views), and 'Your Brain Is Hiding This From You' (38 views) consistently flatline.",
+      "action": "Cease standard psychology factoids unless tied to a high-stakes survival or dark historical mystery narrative."
+    },
+    {
+      "pattern": "Recycled Abstract Astronomy Questions",
+      "evidence": "'Why Space Is Completely Silent' was uploaded multiple times across dates, plateauing between 34 and 220 views with minimal interaction.",
+      "action": "Eliminate low-stakes textbook physics questions lacking immediate visual or sensory peril."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "what-if scenarios",
+    "hook_style": "Visceral sensory second-person immersion",
+    "concept": "What If You Fell Into Jupiter's Metallic Hydrogen Ocean?",
+    "opening_direction": "Instantly plunge the viewer into Jupiter's swirling amber clouds at 100,000 mph, with audio of structural hull stress and visual altitude readings plunging rapidly.",
+    "twist_direction": "Instead of hitting solid ground, the atmospheric pressure turns gas into an ocean of glowing liquid metallic hydrogen that conducts electricity like liquid copper.",
+    "duration_seconds": 21,
+    "posting_window": "12:00 PM - 02:00 PM UTC",
+    "reason": "Leverages the channel's highest-converting hook structure ('What If You Fell Into...') on a brand-new, visually spectacular subject not yet covered in the channel's archive.",
+    "fresh_topic_constraints": [
+      "Do not cover TrES-2b, 55 Cancri e, WASP-76b, Gliese 436b, or HD 189733b",
+      "Do not reuse diamond rain, glass rain, or ruby rain",
+      "Focus specifically on the descent through Jupiter's layers to its metallic hydrogen core"
+    ]
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-11-19T13:39:08.561903+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-11-19T13:39:08.561923+00:00"
+  "experiment": "Test whether displaying a real-time depth and atmospheric pressure HUD overlay on screen increases average percentage viewed (APV) by 15% compared to standard documentary voiceover styling.",
+  "model_used": "gemini-3.8-flash",
+  "generated_at": "2026-11-19T22:21:59.883115+00:00"
 }
