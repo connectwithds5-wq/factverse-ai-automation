@@ -1,46 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of 47 unique Shorts reveals that speculative cosmic survival scenarios ('What If You Fell Into...') and extreme planetary anomalies consistently outperform all other formats, generating channel highs between 700 to 1,050+ views and 2.5% to 3.7% like rates. Conversely, short psychology trivia and duplicate re-uploads consistently stall below 100 views.",
+  "overall_summary": "Analysis of the recent data reveals that extreme cosmic scenarios, planetary physics ('What If' and bizarre weather on exoplanets), and high-contrast space anomalies are driving the highest views-per-day and engagement metrics (likes-per-view). Specifically, videos featuring hypothetical planetary destruction, extreme weather conditions on alien worlds (diamonds, liquid metal, dark matter planets), and timeline/physics anomalies are outperforming traditional static factoids by a wide margin. Engagement spikes notably on content that combines speculative danger ('What If You Fell Into...') with exotic space environments.",
   "winning_patterns": [
     {
-      "pattern": "Second-person hazard immersion ('What If You Fell Into [Extreme Cosmic Body]?')",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) led engagement and viewer velocity.",
-      "action": "Adopt second-person sensory immersion hooks framed around lethal, mind-bending cosmic hazards with 19–21 second runtimes."
+      "pattern": "Hypothetical Planetary Immersion ('What If You Fell Into...')",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) show exceptional views-per-day and like rates relative to older, static format facts.",
+      "action": "Double down on high-stakes 'What If' planetary survival scenarios blending physics and exotic materials."
     },
     {
-      "pattern": "Lethal/Bizarre planetary physics with stark sensory contrasts",
-      "evidence": "Titles featuring extreme tactile physics ('Burning Ice' at 1,057 views, 'Darker Than Coal' at 1,031 views, 'Supersonic Rubies' at 725 views) dominate top percentiles.",
-      "action": "Highlight sensory juxtapositions (e.g., solid vs. melting, hyper-dense vs. magnetic) in the opening 2 seconds."
+      "pattern": "Bizarre Alien Weather / Exotic Planet Phenomena",
+      "evidence": "Titles detailing extreme atmospheric conditions such as 'This Planet Rains Supersonic Rubies!' (725 views) and 'The Planet Darker Than Coal: TrES-2b' (1,031 views, 36 likes) demonstrate strong immediate hook retention.",
+      "action": "Produce more short-form deep dives into extreme, counter-intuitive exoplanet physics and meteorological anomalies."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract cognitive psychology trivia",
-      "evidence": "Videos covering memory or mind tricks ('Your Brain Can Create Fake Memories' at 5–53 views across multiple iterations, 'Your Brain Is Hiding This' at 38 views, 'Songs Stuck In Your Head' at 17–71 views) repeatedly flopped.",
-      "action": "Deprioritize standalone psychology facts unless framed through high-stakes survival or dark psychological micro-drama."
+      "pattern": "Low-Stakes Psychology or Memory Trivia",
+      "evidence": "Topics centered around mild psychological tricks or memory facts like 'Your Brain Can Create Fake Memories' generated very low traction (5 to 53 views, 0 likes across multiple re-runs).",
+      "action": "Deprioritize standard psychology micro-facts unless framed through an extreme, high-conflict neurological survival or mystery angle."
     },
     {
-      "pattern": "Identical concept duplication / spamming re-uploads",
-      "evidence": "Repeated uploads of 'Octopuses Have THREE Hearts' and 'Why Space Is Completely Silent' decayed in impressions down to 34–118 views without viewer retention gains.",
-      "action": "Never re-upload the same entity; pivot to novel astronomical and scientific phenomena."
+      "pattern": "Static Animal Factoids",
+      "evidence": "Simple biological trivia such as 'Octopuses Have THREE Hearts' (when not paired with aggressive hooks or narrative tension) plateau quickly compared to space/physics content.",
+      "action": "Pivot animal content strictly toward cinematic survival, horror-tinged micro-stories, or extreme evolutionary anomalies rather than basic trivia."
     }
   ],
   "next_video": {
-    "category": "what-if scenarios",
-    "hook_style": "Second-person visceral consequence hook",
-    "concept": "What If You Got Within 1,000 Kilometers of a Magnetar?",
-    "opening_direction": "Start with immediate sensory dread: 'If you drift within 1,000 kilometers of this dead star, you won't suffocate or burn—your actual atoms will be torn in half.'",
-    "twist_direction": "Reveal that the magnetic field is so unfathomably strong it dissolves your nervous system's electrical currents before you even realize you've crossed the threshold.",
-    "duration_seconds": 21,
-    "posting_window": "12:30 - 13:30 UTC",
-    "reason": "Leverages the proven high-engagement 'What If' cosmic hazard framework using a brand new, terrifying subject (Magnetar / extreme magnetic physics) that FACTVERSE has never covered.",
+    "category": "space",
+    "hook_style": "hypothetical_danger",
+    "concept": "What Happens If You Fall Into the Coldest Known Object in the Universe (The Boomerang Nebula)",
+    "opening_direction": "Start inside absolute zero, demonstrating instantly how human breath freezes and shatters in a fraction of a second.",
+    "twist_direction": "Reveal that this nebula is actually colder than the background radiation of space itself, sucking thermal energy out of anything that enters it faster than liquid nitrogen.",
+    "duration_seconds": 15,
+    "posting_window": "12:00 PM - 3:00 PM EST",
+    "reason": "Leverages the proven high-performing 'What If' and extreme temperature/space mechanics niche that yields top-tier views and like rates.",
     "fresh_topic_constraints": [
-      "Must not reference TrES-2b, 55 Cancri e, Gliese 436b, J1407b, or WASP-76b",
-      "Focus purely on a magnetar's atomic-level destruction rather than generic space vacuum"
+      "Must focus specifically on the Boomerang Nebula, avoiding previously used planets or stars like TrES-2b or Venus.",
+      "Must not reuse phrasing from past titles.",
+      "Strictly factual astrophysical description without fictional framing."
     ]
   },
-  "experiment": "Test opening with an explicit tactile consequence ('your atoms stretch into needles') within the first 1.5 seconds versus a question hook, measuring retention past the 5-second mark.",
-  "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-11-20T03:38:07.124682+00:00"
+  "experiment": "Test a 15-second high-velocity space 'What If' scenario against a historical storytelling micro-drama to determine if the audience preference for extreme space physics holds dominance over historical mysteries.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-11-20T13:20:00.510199+00:00"
 }
