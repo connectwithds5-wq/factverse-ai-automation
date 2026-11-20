@@ -1,47 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of the recent data reveals that extreme cosmic scenarios, planetary physics ('What If' and bizarre weather on exoplanets), and high-contrast space anomalies are driving the highest views-per-day and engagement metrics (likes-per-view). Specifically, videos featuring hypothetical planetary destruction, extreme weather conditions on alien worlds (diamonds, liquid metal, dark matter planets), and timeline/physics anomalies are outperforming traditional static factoids by a wide margin. Engagement spikes notably on content that combines speculative danger ('What If You Fell Into...') with exotic space environments.",
+  "overall_summary": "Analysis of the deduplicated FACTVERSE performance data highlights a clear viewer preference for extreme space scenarios, cosmic 'what-if' formatting, and bizarre planetary extremes. Videos featuring high-stakes hypothetical planetary conditions (e.g., liquid diamond planets, burning ice worlds, and dark exoplanets) coupled with high-curiosity hooks generated the strongest views-per-day and engagement metrics (likes/comments), significantly outperforming older, traditional static fact formats.",
   "winning_patterns": [
     {
-      "pattern": "Hypothetical Planetary Immersion ('What If You Fell Into...')",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) show exceptional views-per-day and like rates relative to older, static format facts.",
-      "action": "Double down on high-stakes 'What If' planetary survival scenarios blending physics and exotic materials."
+      "pattern": "Extreme Space 'What If' / Hypothetical Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,029 views), 'What If You Fell Into the Planet of Burning Ice?' (972 views), and 'What If You Fell Into the Darkest Planet?' (829 views) achieved the highest overall views and robust engagement among recent uploads.",
+      "action": "Double down on cinematic space 'what-if' scenarios involving extreme physical environments that stimulate high visual imagination and visceral curiosity."
     },
     {
-      "pattern": "Bizarre Alien Weather / Exotic Planet Phenomena",
-      "evidence": "Titles detailing extreme atmospheric conditions such as 'This Planet Rains Supersonic Rubies!' (725 views) and 'The Planet Darker Than Coal: TrES-2b' (1,031 views, 36 likes) demonstrate strong immediate hook retention.",
-      "action": "Produce more short-form deep dives into extreme, counter-intuitive exoplanet physics and meteorological anomalies."
+      "pattern": "Bizarre Planetary Physics & Extreme Weather",
+      "evidence": "Titles detailing surreal planetary conditions such as TrES-2b ('The Planet Darker Than Coal', 1,031 views), Venus day length (981 views), and supersonic ruby rain (725 views) drove exceptional retention and engagement.",
+      "action": "Continue producing short-form segments focusing on counterintuitive planetary weather, impossible materials, and extreme astrophysical anomalies."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Low-Stakes Psychology or Memory Trivia",
-      "evidence": "Topics centered around mild psychological tricks or memory facts like 'Your Brain Can Create Fake Memories' generated very low traction (5 to 53 views, 0 likes across multiple re-runs).",
-      "action": "Deprioritize standard psychology micro-facts unless framed through an extreme, high-conflict neurological survival or mystery angle."
+      "pattern": "Standard Psychological Trivia & Earworms",
+      "evidence": "Content centered around psychological tricks and songs stuck in the head (e.g., 'The Real Reason Songs Get Stuck In Your Head', 17 views; 'Your Brain Can Create Fake Memories', 5 views) severely underperformed in recent velocity.",
+      "action": "Deprioritize standard psychological trivia and earworm topics in favor of high-visual-potential science, space, and cinematic narrative concepts."
     },
     {
-      "pattern": "Static Animal Factoids",
-      "evidence": "Simple biological trivia such as 'Octopuses Have THREE Hearts' (when not paired with aggressive hooks or narrative tension) plateau quickly compared to space/physics content.",
-      "action": "Pivot animal content strictly toward cinematic survival, horror-tinged micro-stories, or extreme evolutionary anomalies rather than basic trivia."
+      "pattern": "Low-Stakes Static Animal Facts",
+      "evidence": "Basic animal facts with minimal narrative stakes (e.g., simple octopus or jellyfish facts) showed low view velocity compared to high-concept space and earth mystery hooks.",
+      "action": "Pivot animal content toward cinematic survival or extreme evolutionary anomalies rather than simple listicle-style biology facts."
     }
   ],
   "next_video": {
-    "category": "space",
-    "hook_style": "hypothetical_danger",
-    "concept": "What Happens If You Fall Into the Coldest Known Object in the Universe (The Boomerang Nebula)",
-    "opening_direction": "Start inside absolute zero, demonstrating instantly how human breath freezes and shatters in a fraction of a second.",
-    "twist_direction": "Reveal that this nebula is actually colder than the background radiation of space itself, sucking thermal energy out of anything that enters it faster than liquid nitrogen.",
-    "duration_seconds": 15,
-    "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Leverages the proven high-performing 'What If' and extreme temperature/space mechanics niche that yields top-tier views and like rates.",
+    "category": "Space & Cosmic Mysteries",
+    "hook_style": "High-stakes sensory 'What If' survival hook",
+    "concept": "Surviving on a rogue planet hurtling through interstellar space with no sun, powered entirely by planetary core heat and glowing neon rivers of liquid nitrogen.",
+    "opening_direction": "Start mid-action falling onto a frozen landscape illuminated only by glowing alien rivers, immediately asking what happens when a world has no star to orbit.",
+    "twist_direction": "Reveal that the planet isn't actually cold on the inside—its core is powered by an unnatural gravitational friction that keeps the subterranean oceans boiling.",
+    "duration_seconds": 21,
+    "posting_window": "12:00 PM - 2:00 PM UTC",
+    "reason": "Capitalizes on the proven high-performing 'What If' space format and planetary survival hooks that drive top-tier views and high engagement in the channel's current window.",
     "fresh_topic_constraints": [
-      "Must focus specifically on the Boomerang Nebula, avoiding previously used planets or stars like TrES-2b or Venus.",
-      "Must not reuse phrasing from past titles.",
-      "Strictly factual astrophysical description without fictional framing."
+      "Must not feature diamond planets, burning ice worlds, or TrES-2b",
+      "Must focus on a rogue interstellar planet concept not previously covered",
+      "Keep pacing tight with continuous visual escalation"
     ]
   },
-  "experiment": "Test a 15-second high-velocity space 'What If' scenario against a historical storytelling micro-drama to determine if the audience preference for extreme space physics holds dominance over historical mysteries.",
+  "experiment": "Test a 21-second space survival 'what-if' scenario featuring a rogue interstellar planet against the baseline of standard exoplanet fact videos to measure impact on average view duration and like-to-view ratios.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-20T13:20:00.510199+00:00"
+  "generated_at": "2026-11-20T21:22:50.372435+00:00"
 }
