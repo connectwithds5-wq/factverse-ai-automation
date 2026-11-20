@@ -1,47 +1,46 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of 47 deduplicated Shorts reveals that visceral, second-person immersive survival scenarios ('What If You Fell Into...') and extreme cosmic phenomena generate the highest view velocity and engagement (averaging 700-1,050+ views, 20-38 likes, and multiple comments). In contrast, repetitive basic psychology trivia ('fake memories', 'songs stuck in head') and dry acoustic/astronomy trivia ('space is silent') consistently underperform, stagnating below 100 views.",
+  "overall_summary": "Analysis of 47 unique Shorts reveals that speculative cosmic survival scenarios ('What If You Fell Into...') and extreme planetary anomalies consistently outperform all other formats, generating channel highs between 700 to 1,050+ views and 2.5% to 3.7% like rates. Conversely, short psychology trivia and duplicate re-uploads consistently stall below 100 views.",
   "winning_patterns": [
     {
-      "pattern": "Second-Person Extreme Environment Survival ('What If You Fell Into...')",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet' (1,029 views, 38 likes), 'What If You Fell Into the Darkest Planet' (829 views, 15 likes), and 'What If You Fell Into the Planet of Burning Ice' (972 views, 18 likes) lead the channel in both total reach and engagement.",
-      "action": "Anchor future videos in immersive physical jeopardy, placing the viewer directly into lethal, visually dramatic planetary and cosmic environments."
+      "pattern": "Second-person hazard immersion ('What If You Fell Into [Extreme Cosmic Body]?')",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) led engagement and viewer velocity.",
+      "action": "Adopt second-person sensory immersion hooks framed around lethal, mind-bending cosmic hazards with 19–21 second runtimes."
     },
     {
-      "pattern": "Visually Extreme Exotic Space Anomalies",
-      "evidence": "'The Planet Darker Than Coal' (1,031 views, 36 likes) and 'This Planet Rains Supersonic Rubies' (725 views, 25 likes) sharply outperform static trivia by delivering mind-bending visual contrasts.",
-      "action": "Feature singular, high-contrast astrophysical entities with striking cinematic imagery (e.g., crushing pressures, liquid metals, extreme gravity)."
+      "pattern": "Lethal/Bizarre planetary physics with stark sensory contrasts",
+      "evidence": "Titles featuring extreme tactile physics ('Burning Ice' at 1,057 views, 'Darker Than Coal' at 1,031 views, 'Supersonic Rubies' at 725 views) dominate top percentiles.",
+      "action": "Highlight sensory juxtapositions (e.g., solid vs. melting, hyper-dense vs. magnetic) in the opening 2 seconds."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Repetitive Mind & Brain Trivia",
-      "evidence": "Multiple uploads of 'Your Brain Can Create Fake Memories' (5-53 views), 'Songs Stuck In Your Head' (17-71 views), and 'Your Brain Is Hiding This From You' (38 views) consistently flatline.",
-      "action": "Cease standard psychology factoids unless tied to a high-stakes survival or dark historical mystery narrative."
+      "pattern": "Abstract cognitive psychology trivia",
+      "evidence": "Videos covering memory or mind tricks ('Your Brain Can Create Fake Memories' at 5–53 views across multiple iterations, 'Your Brain Is Hiding This' at 38 views, 'Songs Stuck In Your Head' at 17–71 views) repeatedly flopped.",
+      "action": "Deprioritize standalone psychology facts unless framed through high-stakes survival or dark psychological micro-drama."
     },
     {
-      "pattern": "Recycled Abstract Astronomy Questions",
-      "evidence": "'Why Space Is Completely Silent' was uploaded multiple times across dates, plateauing between 34 and 220 views with minimal interaction.",
-      "action": "Eliminate low-stakes textbook physics questions lacking immediate visual or sensory peril."
+      "pattern": "Identical concept duplication / spamming re-uploads",
+      "evidence": "Repeated uploads of 'Octopuses Have THREE Hearts' and 'Why Space Is Completely Silent' decayed in impressions down to 34–118 views without viewer retention gains.",
+      "action": "Never re-upload the same entity; pivot to novel astronomical and scientific phenomena."
     }
   ],
   "next_video": {
     "category": "what-if scenarios",
-    "hook_style": "Visceral sensory second-person immersion",
-    "concept": "What If You Fell Into Jupiter's Metallic Hydrogen Ocean?",
-    "opening_direction": "Instantly plunge the viewer into Jupiter's swirling amber clouds at 100,000 mph, with audio of structural hull stress and visual altitude readings plunging rapidly.",
-    "twist_direction": "Instead of hitting solid ground, the atmospheric pressure turns gas into an ocean of glowing liquid metallic hydrogen that conducts electricity like liquid copper.",
+    "hook_style": "Second-person visceral consequence hook",
+    "concept": "What If You Got Within 1,000 Kilometers of a Magnetar?",
+    "opening_direction": "Start with immediate sensory dread: 'If you drift within 1,000 kilometers of this dead star, you won't suffocate or burn—your actual atoms will be torn in half.'",
+    "twist_direction": "Reveal that the magnetic field is so unfathomably strong it dissolves your nervous system's electrical currents before you even realize you've crossed the threshold.",
     "duration_seconds": 21,
-    "posting_window": "12:00 PM - 02:00 PM UTC",
-    "reason": "Leverages the channel's highest-converting hook structure ('What If You Fell Into...') on a brand-new, visually spectacular subject not yet covered in the channel's archive.",
+    "posting_window": "12:30 - 13:30 UTC",
+    "reason": "Leverages the proven high-engagement 'What If' cosmic hazard framework using a brand new, terrifying subject (Magnetar / extreme magnetic physics) that FACTVERSE has never covered.",
     "fresh_topic_constraints": [
-      "Do not cover TrES-2b, 55 Cancri e, WASP-76b, Gliese 436b, or HD 189733b",
-      "Do not reuse diamond rain, glass rain, or ruby rain",
-      "Focus specifically on the descent through Jupiter's layers to its metallic hydrogen core"
+      "Must not reference TrES-2b, 55 Cancri e, Gliese 436b, J1407b, or WASP-76b",
+      "Focus purely on a magnetar's atomic-level destruction rather than generic space vacuum"
     ]
   },
-  "experiment": "Test whether displaying a real-time depth and atmospheric pressure HUD overlay on screen increases average percentage viewed (APV) by 15% compared to standard documentary voiceover styling.",
+  "experiment": "Test opening with an explicit tactile consequence ('your atoms stretch into needles') within the first 1.5 seconds versus a question hook, measuring retention past the 5-second mark.",
   "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-11-19T22:21:59.883115+00:00"
+  "generated_at": "2026-11-20T03:38:07.124682+00:00"
 }
