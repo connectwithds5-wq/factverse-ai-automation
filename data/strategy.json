@@ -1,47 +1,51 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Deduplication and recency weighting of the FACTVERSE dataset reveal clear performance stratification across niches. Space and extreme planetary scenarios dominate the top-performing tier, particularly when framed through hypothetical curiosity ('What If You Fell Into...') or extreme planetary phenomena. Specifically, videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes), 'The Planet Darker Than Coal: TrES-2b' (1,031 views, 36 likes), and 'Venus Has a Day Longer Than Its Year' (981 views, 21 likes) significantly outperform older standard historical or biological facts. Engagement metrics (likes-per-view) are highest on extreme astronomical 'what-if' hooks and bizarre physical anomalies.",
+  "overall_summary": "Analysis of the deduplicated performance metrics highlights a clear preference for extreme cosmic phenomena, specific 'What If' planetary scenarios, and comparative timeline hooks. Videos focused on unusual space conditions (such as planetary weather anomalies and hypothetical environmental immersion) and surprising biological longevity comparisons generate the strongest view velocities and engagement rates, particularly when leveraging curiosity-gap framing.",
   "winning_patterns": [
     {
-      "pattern": "Extreme Space & Planetary What-If Scenarios",
-      "evidence": "Videos focusing on hypothetical falls into exotic worlds ('What If You Fell Into a Liquid Diamond Planet?', 'What If You Fell Into the Planet of Burning Ice?') generate high views and strong like-to-view ratios (>3.7% like rate).",
-      "action": "Double down on surreal astronomical scenarios, specifically targeting extreme physical environments and hypothetical human interaction with bizarre celestial bodies."
+      "pattern": "Hypothetical Planetary Immersion ('What If You Fell Into...')",
+      "evidence": "Videos like IYuce8vaU3Y ('What If You Fell Into a Liquid Diamond Planet?') and 8KEl0_pJ_68 ('What If You Fell Into the Planet of Burning Ice?') achieved high view counts (970-1030+ views) with superior like-to-view ratios compared to older straightforward facts.",
+      "action": "Continue producing high-stakes hypothetical planetary survival and environmental immersion scenarios using vivid, tactile adjectives."
     },
     {
-      "pattern": "Mind-Bending Cosmic Superlatives",
-      "evidence": "Titles featuring extreme planetary anomalies ('The Planet Darker Than Coal: TrES-2b', 'This Planet Rains Supersonic Rubies!') consistently drive high views (700-1000+ views) compared to generic space facts.",
-      "action": "Structure hooks around counterintuitive, visually striking planetary conditions (e.g., extreme weather, bizarre compositions, or impossible physics in space)."
+      "pattern": "Extreme Cosmic Anomalies & Weather",
+      "evidence": "QXuqYERlqSo ('This Planet Rains Supersonic Rubies!') and v1rrcZLdp4U ('The Planet Darker Than Coal: TrES-2b') outperformed standard space facts by pairing unusual physical states with strong visual descriptors.",
+      "action": "Prioritize lesser-known exoplanets with bizarre meteorological or optical properties (e.g., extreme pressure, unusual reflectivity, bizarre atmospheric chemistry)."
+    },
+    {
+      "pattern": "Comparative Deep-Time Hooks",
+      "evidence": "A9Qa-RmuOr0 ('Venus Has a Day Longer Than Its Year') and similar temporal paradox hooks showed strong retention and engagement metrics.",
+      "action": "Use counter-intuitive time measurements or cross-species/planetary age comparisons (e.g., geological time vs. biological existence) in titles."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Low-Engagement Psychological & Memory Tricks",
-      "evidence": "Topics centered around psychological facts ('Your Brain Can Create Fake Memories', 'The Psychological Trick to Stop Songs Stuck in Your Head') show very low view velocity (often under 60-70 views) and poor engagement.",
-      "action": "Deprioritize standard human psychology and memory hacks unless tied to a high-concept sci-fi or dark mystery angle."
+      "pattern": "Generic Psychological Factoids",
+      "evidence": "Videos focusing on standard psychological tricks (e.g., ef3ND4qiRHc, 5AN7LUgqarc) consistently underperformed in both views-per-day and overall interaction rates compared to space and extreme earth science.",
+      "action": "Deprioritize abstract psychological micro-facts unless framed as high-urgency behavioral anomalies."
     },
     {
-      "pattern": "Repetitive Biological Quick Facts",
-      "evidence": "Shorter animal facts like 'Octopuses Have THREE Hearts' published multiple times without a strong narrative hook show stagnant or declining performance over repeated tracking cycles.",
-      "action": "Avoid simple textbook animal stats; if covering animals, pivot to cinematic animal survival or extreme prehistoric/evolutionary paradoxes."
+      "pattern": "Overused Animal Trivia",
+      "evidence": "Repeated basic animal facts (e.g., AXAfwrzzEdU, 1Bm0zw_qAAg on octopuses) showed declining incremental velocity in recent collection windows.",
+      "action": "Shift animal content toward cinematic survival, deep-sea horror, or prehistoric evolutionary oddities rather than basic anatomy listicles."
     }
   ],
   "next_video": {
-    "category": "Space & Astronomy What-If",
-    "hook_style": "Hypothetical sensory immersion with a counterintuitive physical law",
-    "concept": "What happens if you stepped onto a rogue planet drifting through empty space with no star?",
-    "opening_direction": "Start with total absolute darkness and an immediate question about breathing frozen air in pitch blackness.",
-    "twist_direction": "Reveal that the core is actually boiling hot, turning the surface into an underground ocean of liquid nitrogen and boiling magma.",
-    "duration_seconds": 15,
-    "posting_window": "12:00 PM - 2:00 PM EST",
-    "reason": "Capitalizes on the proven high performance of 'What If' planetary scenarios and dark cosmic phenomena (outperforming TrES-2b and diamond planet videos).",
+    "category": "Space / Extreme Science",
+    "hook_style": "Hypothetical Sensory Immersion",
+    "concept": "Walking on the 'Scream Star' (A hyper-dense neutron star that rings like a bell under gravitational stress)",
+    "opening_direction": "Start with the terrifying sound of a solid surface that vibrates at frequencies capable of shattering human bone.",
+    "twist_direction": "Reveal that the ground you are standing on isn't rock, but degenerate matter packed so tightly a single teaspoon weighs billions of tons.",
+    "duration_seconds": 21,
+    "posting_window": "12:00 UTC - 14:00 UTC",
+    "reason": "Capitalizes on the proven high performance of extreme space scenarios and tactile sensory hooks while introducing a completely fresh astronomical phenomenon not found in the historical data.",
     "fresh_topic_constraints": [
-      "Must not feature diamonds, ice planets, molten iron, or standard black holes.",
-      "Must explore rogue planets/interstellar wanderers.",
-      "Avoid repeating previously used titles or phrasing."
+      "Must not feature black holes, diamonds, liquid metal rain, or standard planets previously covered.",
+      "Must focus on extreme physics/acoustic anomalies in stellar remnants."
     ]
   },
-  "experiment": "A/B test a pure existential space 'What If' scenario against a cinematic historical micro-mystery to determine if astronomical curiosity continues to outpace earthly history across view-velocity metrics.",
+  "experiment": "Test a 21-second high-pacing edit structure combining an extreme sensory audio hook in the first 2 seconds directly with a scale comparison graphic, measuring viewer retention against standard 16-second factual shorts.",
   "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-21T18:08:46.864652+00:00"
+  "generated_at": "2026-11-21T23:30:22.331766+00:00"
 }
