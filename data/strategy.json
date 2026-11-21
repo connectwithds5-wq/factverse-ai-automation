@@ -1,47 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Analysis of 47 deduplicated Shorts reveals that first-person high-stakes 'What If You Fell Into...' cosmic hazard concepts and extreme planetary survival scenarios drive peak retention and engagement (800-1,050+ views, up to 3.7% like ratio). Conversely, over-recycled neuroscience trivia ('fake memories', 'songs stuck in head') and repeated re-uploads completely flatline below 100 views.",
-  "winning_patterns": [
-    {
-      "pattern": "First-Person 'What If You Fell Into / Visited' Extreme Cosmic Environments",
-      "evidence": "Titles using visceral what-if immersion like 'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (972 views, 18 likes) dramatically outperform third-person trivia.",
-      "action": "Frame cosmic and extreme science phenomena through direct second-person sensory survival scenarios ('What If You...')."
-    },
-    {
-      "pattern": "Bizarre Planetary Physics & Extreme Contrast Hooks",
-      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,031 views, 36 likes) and 'This Planet Rains Supersonic Rubies!' (725 views, 25 likes) consistently beat standard animal or biology facts.",
-      "action": "Pair a paradoxical material or extreme physical state (e.g., solid liquid metal, diamond oceans, light-absorbing atmospheres) with high-contrast visual pacing."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Repetitive Neuroscience & Abstract Psychology Hooks",
-      "evidence": "'Your Brain Can Create Fake Memories' was published 4 times across different days and consistently flopped with 5, 10, and 53 views; 'Your Brain Is Hiding This From You' gained only 38 views.",
-      "action": "Halt generic text-heavy brain psychology facts unless tied to a high-stakes visual survival or mystery micro-story."
-    },
-    {
-      "pattern": "Redundant Exact-Title Re-uploads",
-      "evidence": "Multiple uploads of identical topics ('Why Space Is Completely Silent', 'Octopuses Have THREE Hearts') saw severe decay upon repeated posting.",
-      "action": "Enforce strict deduplication in production pipelines; never reuse published topics without a completely distinct angle or fresh narrative."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "what-if scenarios",
-    "hook_style": "Visceral sensory-consequence hook",
-    "concept": "What If You Approached a Magnetar (Dead Star with the Universe's Strongest Magnetic Field)",
-    "opening_direction": "Instant POV descent toward a glowing, pulsing magnetar with the hook: 'If you stepped within 600 miles of this dead star, you wouldn't burn—your atomic structure would literally be erased.'",
-    "twist_direction": "Reveal that before physical collision, its magnetic field pulls electrons into needles, dissolving human DNA and neural bioelectricity in under a millisecond.",
-    "duration_seconds": 21,
-    "posting_window": "12:30 - 13:30 UTC",
-    "reason": "Aligns directly with top-tier channel performers (21-second exoplanet/extreme space survival what-ifs) while introducing a totally unaddressed, highly cinematic cosmic entity.",
-    "fresh_topic_constraints": [
-      "Do not reference diamond planets, burning ice, coal planets, or raining glass",
-      "Keep focus strictly on a Magnetar and atomic dissolution mechanics",
-      "Maintain immersive first-person survival perspective throughout"
-    ]
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "duration_seconds": 15,
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test whether framing extreme space hazards as cinematic micro-survival horror ('Surviving a Magnetar') yields a higher like-per-view ratio (>4.0%) compared to traditional exoplanet fact delivery.",
-  "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-11-21T02:38:55.842667+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-11-21T11:30:06.867114+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-11-21T11:30:06.867137+00:00"
 }
