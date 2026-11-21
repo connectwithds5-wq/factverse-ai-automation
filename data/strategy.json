@@ -1,21 +1,47 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Deduplication and recency weighting of the FACTVERSE dataset reveal clear performance stratification across niches. Space and extreme planetary scenarios dominate the top-performing tier, particularly when framed through hypothetical curiosity ('What If You Fell Into...') or extreme planetary phenomena. Specifically, videos like 'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes), 'The Planet Darker Than Coal: TrES-2b' (1,031 views, 36 likes), and 'Venus Has a Day Longer Than Its Year' (981 views, 21 likes) significantly outperform older standard historical or biological facts. Engagement metrics (likes-per-view) are highest on extreme astronomical 'what-if' hooks and bizarre physical anomalies.",
+  "winning_patterns": [
+    {
+      "pattern": "Extreme Space & Planetary What-If Scenarios",
+      "evidence": "Videos focusing on hypothetical falls into exotic worlds ('What If You Fell Into a Liquid Diamond Planet?', 'What If You Fell Into the Planet of Burning Ice?') generate high views and strong like-to-view ratios (>3.7% like rate).",
+      "action": "Double down on surreal astronomical scenarios, specifically targeting extreme physical environments and hypothetical human interaction with bizarre celestial bodies."
+    },
+    {
+      "pattern": "Mind-Bending Cosmic Superlatives",
+      "evidence": "Titles featuring extreme planetary anomalies ('The Planet Darker Than Coal: TrES-2b', 'This Planet Rains Supersonic Rubies!') consistently drive high views (700-1000+ views) compared to generic space facts.",
+      "action": "Structure hooks around counterintuitive, visually striking planetary conditions (e.g., extreme weather, bizarre compositions, or impossible physics in space)."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Low-Engagement Psychological & Memory Tricks",
+      "evidence": "Topics centered around psychological facts ('Your Brain Can Create Fake Memories', 'The Psychological Trick to Stop Songs Stuck in Your Head') show very low view velocity (often under 60-70 views) and poor engagement.",
+      "action": "Deprioritize standard human psychology and memory hacks unless tied to a high-concept sci-fi or dark mystery angle."
+    },
+    {
+      "pattern": "Repetitive Biological Quick Facts",
+      "evidence": "Shorter animal facts like 'Octopuses Have THREE Hearts' published multiple times without a strong narrative hook show stagnant or declining performance over repeated tracking cycles.",
+      "action": "Avoid simple textbook animal stats; if covering animals, pivot to cinematic animal survival or extreme prehistoric/evolutionary paradoxes."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "category": "Space & Astronomy What-If",
+    "hook_style": "Hypothetical sensory immersion with a counterintuitive physical law",
+    "concept": "What happens if you stepped onto a rogue planet drifting through empty space with no star?",
+    "opening_direction": "Start with total absolute darkness and an immediate question about breathing frozen air in pitch blackness.",
+    "twist_direction": "Reveal that the core is actually boiling hot, turning the surface into an underground ocean of liquid nitrogen and boiling magma.",
     "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "posting_window": "12:00 PM - 2:00 PM EST",
+    "reason": "Capitalizes on the proven high performance of 'What If' planetary scenarios and dark cosmic phenomena (outperforming TrES-2b and diamond planet videos).",
+    "fresh_topic_constraints": [
+      "Must not feature diamonds, ice planets, molten iron, or standard black holes.",
+      "Must explore rogue planets/interstellar wanderers.",
+      "Avoid repeating previously used titles or phrasing."
+    ]
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-11-21T11:30:06.867114+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-11-21T11:30:06.867137+00:00"
+  "experiment": "A/B test a pure existential space 'What If' scenario against a cinematic historical micro-mystery to determine if astronomical curiosity continues to outpace earthly history across view-velocity metrics.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-11-21T18:08:46.864652+00:00"
 }
