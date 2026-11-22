@@ -1,21 +1,42 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Deduplicated performance analysis reveals that 'What If' hypothetical space scenarios and extreme planetary anomalies (such as liquid diamond worlds, extreme dark exoplanets, and extreme time/physics quirks) generate the highest view velocity, likes-per-view, and sustained engagement compared to standard biological facts or historical mysteries.",
+  "winning_patterns": [
+    {
+      "pattern": "Hypothetical 'What If' Space Scenarios",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Darkest Planet?' (YlDuGu1vzAg) achieved over 800-1,000+ views rapidly with exceptionally high like ratios.",
+      "action": "Double down on cinematic hypothetical space physics scenarios ('What if you fell into...') using high-contrast visual hooks."
+    },
+    {
+      "pattern": "Extreme Exoplanet Weather/Properties",
+      "evidence": "Titles detailing impossible physical environments like 'The Planet Darker Than Coal' (v1rrcZLdp4U) and 'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0) outperform generic space facts.",
+      "action": "Continue producing short-form deep dives into bizarre, visually striking exoplanets with extreme atmospheric conditions."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Repetitive Biological Micro-Facts",
+      "evidence": "Topics covering basic animal stats (e.g., octopus hearts) or generic psychological tricks received lower view counts and zero engagement compared to space anomalies.",
+      "action": "Deprioritize standard animal/brain facts unless framed through a high-stakes survival or extreme-anomaly lens."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "category": "Space & Astronomy",
+    "hook_style": "Hypothetical danger scenario",
+    "concept": "What happens to your body if you step onto the rogue planet moving at millions of miles per hour?",
+    "opening_direction": "Start inside total pitch blackness with the sound of a rushing wind that isn't air.",
+    "twist_direction": "Reveal that the ground you are standing on is completely untethered to any star system, hurtling through the void.",
     "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "posting_window": "12:00 PM - 3:00 PM EST",
+    "reason": "Capitalizes on the proven high-performing 'What If' and extreme exoplanet anomaly formats while introducing a fresh cosmic phenomenon.",
+    "fresh_topic_constraints": [
+      "Must not feature diamonds, rain, sharks, or black holes.",
+      "Must focus strictly on rogue interstellar planetary motion.",
+      "Must maintain factual astrophysical accuracy."
+    ]
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-11-22T03:22:50.885391+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-11-22T03:22:50.885415+00:00"
+  "experiment": "Test a 15-second high-velocity space 'What If' scenario with an immediate immersive sound effect hook in the first 0.5 seconds to measure impact on initial viewer retention.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-11-22T11:45:19.743965+00:00"
 }
