@@ -1,41 +1,55 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Analysis of deduplicated YouTube Shorts performance for FACTVERSE shows a decisive dominance by high-concept space and astronomy topics, specifically 'What If' planetary scenarios and extreme cosmic anomalies. Videos focusing on surreal planetary environments (e.g., liquid diamond planets, burning ice, extreme dark worlds) significantly outperform general biological trivia or standard psychological facts in views-per-day and engagement metrics like likes-per-view.",
+  "overall_summary": "Deduplicated analysis of 47 unique Shorts reveals an overwhelming viewer preference for extreme cosmic exploration, specifically first-person immersive 'What If You Fell Into...' hypotheticals and paradoxical exoplanet environments, generating 800–1,050+ views and 3.5%+ like ratios. Conversely, recycled basic psychology facts (e.g., fake memories, earworms) and duplicate uploads consistently flop below 60 views with zero engagement. Increasing duration to the 19–21 second range with narrative progression clearly drives superior algorithmic distribution over short 12–15 second clips.",
   "winning_patterns": [
     {
-      "pattern": "Hypothetical Planetary Immersion ('What If You Fell Into...')",
-      "evidence": "Videos like IYuce8vaU3Y ('What If You Fell Into a Liquid Diamond Planet?') and 8KEl0_pJ_68 ('What If You Fell Into the Planet of Burning Ice?') garnered over 970-1,000+ views with high like-to-view ratios compared to older, static fact listings.",
-      "action": "Double down on hypothetical space disaster/immersion scenarios using sensory-rich, counterintuitive planetary hazards."
+      "pattern": "First-Person Hypothetical Hooks ('What If You Fell Into...')",
+      "evidence": "Videos using this exact framing averaged 830+ views with peak engagement ('Liquid Diamond Planet' with 1,029 views, 38 likes, 2 comments; 'Planet of Burning Ice' with 972 views, 18 likes).",
+      "action": "Standardize the high-stakes speculative immersion format for exoplanet and extreme science topics."
     },
     {
-      "pattern": "Extreme Cosmic Anomalies & Rare Material Weather",
-      "evidence": "QXuqYERlqSo ('This Planet Rains Supersonic Rubies!') and v1rrcZLdp4U ('The Planet Darker Than Coal: TrES-2b') achieved rapid velocity over 700-1,000 views, showing strong viewer retention affinity for bizarre physical laws in space.",
-      "action": "Continue producing extreme weather and bizarre material phenomena on newly discovered exoplanets not yet covered on the channel."
+      "pattern": "Sensory & Physical Paradox Concepts",
+      "evidence": "'The Planet of Burning Ice' reached 1,057 views; 'Venus Has a Day Longer Than Its Year' hit 981 views and 21 likes as the top recent post.",
+      "action": "Center hooks around physics violations or mind-bending environmental extremes that challenge common intuition."
+    },
+    {
+      "pattern": "19–21 Second Narrative Structure",
+      "evidence": "Top 5 performers are all 19–21 seconds, allowing sufficient time for sensory scene-setting, scientific explanation, and a twist payoff.",
+      "action": "Set default target duration between 19 and 21 seconds."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Low-Stakes Psychological & Standard Animal Facts",
-      "evidence": "Videos like 5AN7LUgqarc ('Your Brain Can Create Fake Memories') and AXAfwrzzEdU ('Octopuses Have THREE Hearts') stagnated between 50-180 lifetime views with near-zero comments and minimal engagement momentum.",
-      "action": "Pivot away from generic psychological life hacks and common biology trivia unless paired with a highly counterintuitive, cinematic survival hook."
+      "pattern": "Direct Topic Duplication & Re-uploading",
+      "evidence": "Republishing 'Your Brain Can Create Fake Memories' dropped views from 53 down to 5 and 10; duplicate 'Space Is Completely Silent' dropped from 220 to 34.",
+      "action": "Ban re-uploading identical topics; strictly enforce novel subjects with zero overlap with published history."
+    },
+    {
+      "pattern": "Dry Psychological / Brain Factoids",
+      "evidence": "Brain trivia ('Your Brain Is Hiding This From You', 'The Real Reason Songs Get Stuck In Your Head') stagnated between 17 and 38 views with 0 likes.",
+      "action": "Retire generic psychology lists unless reframed as high-stakes mystery micro-narratives."
     }
   ],
   "next_video": {
-    "category": "space",
-    "hook_style": "hypothetical_disaster",
-    "concept": "What If You Fell Into a Rogue Planet Traversing Interstellar Space?",
-    "opening_direction": "Start in pitch darkness at absolute zero, instantly stripping away light and warmth to shock the viewer's senses.",
-    "twist_direction": "Reveal that without a star, the planet's core is heated entirely by immense radioactive pressure, creating subsurface boiling oceans beneath miles of solid nitrogen ice.",
+    "category": "what-if scenarios",
+    "hook_style": "Sensory First-Person Threat",
+    "concept": "What If You Were Abandoned on a Rogue Planet drifting alone in interstellar space?",
+    "opening_direction": "Immediate visceral sensory drop: 'If you stepped out onto a rogue planet, your eyes wouldn't see black—they would see nothing.'",
+    "twist_direction": "Reveal that beneath the absolute zero surface of perpetual darkness, tidal geothermal friction creates sub-surface oceans warmer than Earth's, where alien life could thrive in total pitch black.",
     "duration_seconds": 21,
-    "posting_window": "12:00 PM - 3:00 PM EST",
-    "reason": "Capitalizes on the proven high performance of 'What If' planetary scenarios and extreme cold/dark cosmic environments while introducing a completely fresh scientific subject (rogue planets).",
+    "posting_window": "12:30 - 13:30 UTC",
+    "reason": "Leverages the proven high-engagement 'What If' exoplanet immersion pattern that drove all 1,000+ view videos, while introducing an entirely untouched, eerie celestial archetype (orphan worlds/rogue planets) to avoid channel fatigue.",
     "fresh_topic_constraints": [
-      "Must not mention diamond planets, burning ice, glass rain, or molten iron.",
-      "Must feature a completely new celestial body type (rogue planet/interstellar wanderer)."
+      "No diamond planets (55 Cancri e)",
+      "No burning ice (Gliese 436 b)",
+      "No glass or iron rain (HD 189733b, WASP-76b)",
+      "No pitch black coal planet (TrES-2b)",
+      "No ruby rain (HAT-P-7b)",
+      "No Saturn ring comparisons"
     ]
   },
-  "experiment": "Test a 21-second narrative pacing structure on a brand-new space anomaly topic with zero branding in the first 2 seconds to maximize audience retention during the initial hook phase.",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-22T19:53:31.661335+00:00"
+  "experiment": "Test the word 'Stranded' vs 'Fell Into' in the visual on-screen text to evaluate whether survival-mystery framing drives higher swipe-through rates than passive entry framing.",
+  "model_used": "gemini-3.8-flash",
+  "generated_at": "2026-11-23T01:01:11.023872+00:00"
 }
