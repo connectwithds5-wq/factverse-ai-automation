@@ -1,21 +1,47 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Deduplication and recent performance analysis reveal that space-based 'What If' scenarios and extreme planetary facts (specifically involving extreme conditions like diamond planets and unique cosmic objects) generate the highest views-per-day and engagement metrics (likes/views and comments/views). Older or less interactive topics such as psychological tricks and simple animal facts show significantly lower velocity.",
+  "winning_patterns": [
+    {
+      "pattern": "Hypothetical Space Survival ('What If You Fell Into...')",
+      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) lead in views and likes-per-view compared to standard static facts.",
+      "action": "Double down on hypothetical immersive space scenarios involving extreme planetary environments."
+    },
+    {
+      "pattern": "Bizarre Planetary Conditions & Extreme Matter",
+      "evidence": "Titles detailing surreal phenomena such as 'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0) and 'The Planet Darker Than Coal' (v1rrcZLdp4U) capture immediate attention and high organic traction.",
+      "action": "Focus future scripts on rare, counterintuitive physical properties of celestial bodies."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Generic Brain/Psychology Tips",
+      "evidence": "Videos focusing on memory creation and songs stuck in your head (e.g., ef3ND4qiRHc, 5AN7LUgqarc) maintain very low views and near-zero engagement.",
+      "action": "Deprioritize psychological trivia in favor of high-performing space and physics content."
+    },
+    {
+      "pattern": "Basic Biological Facts",
+      "evidence": "Simple animal anatomy facts like 'Octopuses Have THREE Hearts' (AXAfwrzzEdU) yield lower relative velocity compared to high-concept space themes.",
+      "action": "Shift animal-related content toward cinematic survival or extreme evolutionary anomalies rather than basic trivia."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
+    "category": "space",
+    "hook_style": "What If scenario",
+    "concept": "Falling into a rogue planet hurtling through interstellar space with no star to warm it",
+    "opening_direction": "Start in pitch darkness where temperatures drop instantly to absolute zero before you even hit the surface.",
+    "twist_direction": "Reveal that the planet is entirely liquid nitrogen oceans kept moving by a hidden internal nuclear core.",
     "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "posting_window": "12:00 PM - 3:00 PM EST",
+    "reason": "Capitalizes on the proven high-performing 'What If' and extreme planetary environment winning patterns.",
+    "fresh_topic_constraints": [
+      "Do not use diamonds, ice, or glass as the primary planetary material",
+      "Must be an entirely new celestial body not mentioned in previous logs",
+      "Avoid repeating phrasing from previous planetary titles"
+    ]
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-11-25T13:16:11.675190+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-11-25T13:16:11.675214+00:00"
+  "experiment": "Test a 15-second pacing structure with a zero-second cold open question on an extreme astrophysics concept to benchmark retention against 21-second formats.",
+  "model_used": "gemini-3.5-flash-lite",
+  "generated_at": "2026-11-25T22:42:38.290121+00:00"
 }
