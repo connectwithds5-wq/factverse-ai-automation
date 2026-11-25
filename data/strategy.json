@@ -1,47 +1,21 @@
 {
-  "confidence": "HIGH",
+  "confidence": "MEDIUM",
   "data_points": 1500,
-  "overall_summary": "Analysis of the deduplicated performance metrics highlights a dominant trend: extreme cosmic curiosity and planetary 'What If' scenarios (particularly extreme exoplanets and weird physics) drive the highest views-per-day, likes, and engagement ratios. Videos focusing on surreal cosmic environments (e.g., liquid diamond planets, dark planets, and weird weather on other worlds) significantly outperform standard psychological tricks or historical mysteries in this dataset. Recent content published in late September and October (e.g., Venus day/year facts and hypothetical planet falls) shows strong velocity compared to older September material.",
-  "winning_patterns": [
-    {
-      "pattern": "Extreme Exoplanet & Cosmic 'What If' Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) with 1,029 views and 38 likes, and 'The Planet Darker Than Coal: TrES-2b' (v1rrcZLdp4U) with 1,031 views, demonstrate superior view and engagement velocity.",
-      "action": "Double down on high-concept space exploration, bizarre exoplanet weather, and hypothetical physics scenarios."
-    },
-    {
-      "pattern": "Mind-Bending Comparative Scaling Hooks",
-      "evidence": "Titles featuring counter-intuitive comparisons or stark contrasts (e.g., 'Venus Has a Day Longer Than Its Year' or 'Why Your Head Is Older Than Your Feet') generate strong initial curiosity and healthy like ratios.",
-      "action": "Continue utilizing comparative time/scale hooks that challenge basic human intuition."
-    }
-  ],
-  "weak_patterns": [
-    {
-      "pattern": "Low-Engagement Psychological Tricks & Common Animal Facts",
-      "evidence": "Standard animal trivia ('Octopuses Have THREE Hearts') and basic brain hacks ('Your Brain Can Create Fake Memories') showed flat engagement and lower view counts on older iterations.",
-      "action": "Pivot away from standard, overdone textbook facts unless paired with a highly disruptive, lesser-known narrative hook."
-    },
-    {
-      "pattern": "Under-performing Historical/Scientific Mysteries",
-      "evidence": "Vague historical or archaeological mysteries without a clear visualization or visceral stakes (e.g., 'The 2,000-Year-Old Mystery Science Can't Solve') had stagnant viewership.",
-      "action": "Inject high-stakes cinematic storytelling or intense visual imagery if revisiting history or mystery topics."
-    }
-  ],
+  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
+  "winning_patterns": [],
+  "weak_patterns": [],
   "next_video": {
-    "category": "Space",
-    "hook_style": "Visceral Hypothetical Survival / Cosmic Phenomenon",
-    "concept": "What Happens If You Step Onto a Planet Made Entirely of Boiling Ice?",
-    "opening_direction": "Start mid-action with the sound of cracking glaciers and a bold sensory warning about temperatures hotter than an oven combined with solid ice.",
-    "twist_direction": "Reveal that extreme gravitational pressure keeps the boiling water completely solid, creating a nightmare physics paradox.",
+    "category": "mind blowing science facts",
+    "hook_style": "unexpected question",
+    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
+    "opening_direction": "Start with the surprising result, not the explanation.",
+    "twist_direction": "End with the detail that changes how viewers see the fact.",
     "duration_seconds": 15,
-    "posting_window": "12:00 PM - 3:00 PM UTC",
-    "reason": "Capitalizes on the proven high-performing 'What If' space format and the successful 'burning ice / extreme planet' naming convention while exploring a completely fresh celestial body.",
-    "fresh_topic_constraints": [
-      "Must not use previously covered planets like TrES-2b, Venus, or generic diamond/glass rain planets.",
-      "Must avoid recycling exact titles from the published history log.",
-      "Focus on dynamic kinetic text and high-contrast space visuals to maximize 15-second retention."
-    ]
+    "posting_window": "18:00 - 22:00 IST",
+    "reason": "Use broad-interest science while the channel establishes a performance baseline."
   },
-  "experiment": "Test a fast-paced 15-second kinetic text intro on a high-concept space 'What If' video to measure if early drop-off decreases compared to standard 21-second structural pacing.",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-25T02:39:57.556065+00:00"
+  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
+  "updated_at": "2026-11-25T13:16:11.675190+00:00",
+  "model_used": "deterministic-fallback",
+  "generated_at": "2026-11-25T13:16:11.675214+00:00"
 }
