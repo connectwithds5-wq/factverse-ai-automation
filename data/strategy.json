@@ -1,47 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Deduplication of the hourly observation records reveals 28 unique videos. Performance heavily skews toward space and planetary anomaly content published within late September and early October 2026. Specifically, 'What If' speculative scenarios and extreme planetary attributes (e.g., Venus day length, liquid diamond planets, burning ice, dark planets) generate the highest views-per-day and engagement metrics (likes/comments per view). Conversely, psychological tricks, mundane animal facts, and older September content show flat or negligible recent velocity.",
+  "overall_summary": "Exoplanet extremes and first-person immersive hypothetical hooks ('What If You Fell Into...') represent the channel's highest-performing content, generating 800-1,000+ views and 3-4% like engagement rates at 19-21 seconds duration. Conversely, generic psychology micro-facts ('Your Brain...') and duplicate re-uploads consistently underperform below 50 views.",
   "winning_patterns": [
     {
-      "pattern": "Speculative 'What If' Planetary Scenarios",
-      "evidence": "Videos like 'What If You Fell Into a Liquid Diamond Planet?' (IYuce8vaU3Y) and 'What If You Fell Into the Planet of Burning Ice?' (8KEl0_pJ_68) achieved over 970 to 1,029 views quickly with high engagement ratios (up to 38 likes).",
-      "action": "Double down on high-stakes, physics-bending 'What If' scenarios involving extreme cosmic bodies."
+      "pattern": "First-Person Survival Hypotheses ('What If You Fell Into...')",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (974 views, 18 likes) dramatically outperform third-person expository titles.",
+      "action": "Frame extreme cosmic and planetary phenomena as high-stakes personal survival simulations."
     },
     {
-      "pattern": "Bizarre Astronomical Extremes & Anomalies",
-      "evidence": "Titles featuring impossible-sounding facts like 'Venus Has a Day Longer Than Its Year' (A9Qa-RmuOr0) and 'The Planet Darker Than Coal' (v1rrcZLdp4U) drove over 980 to 1,032 views with robust like counts.",
-      "action": "Continue sourcing bizarre, counter-intuitive real-world space facts that immediately challenge common assumptions."
+      "pattern": "Bizarre Planetary Extremes at 19-21s Duration",
+      "evidence": "Videos like 'The Planet Darker Than Coal' (1,032 views, 36 likes, 21s) and 'Venus Has a Day Longer Than Its Year' (981 views, 21 likes, 19s) show strong viewer retention and engagement compared to sub-16s videos.",
+      "action": "Maintain optimal runtime between 19 and 22 seconds, allowing sufficient time for a sensory hook, escalating stakes, and a surprising punchline."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Mundane Animal Facts",
-      "evidence": "Videos focusing on standard animal trivia (e.g., 'Octopuses Have THREE Hearts', 'The Only Animal That Can Live Forever') garnered lower velocity and sparse engagement outside of isolated outliers.",
-      "action": "Deprioritize standard standalone animal facts unless framed within a high-stakes cinematic survival or extreme mystery context."
+      "pattern": "Abstract Neuroscience & Memory Facts",
+      "evidence": "'Your Brain Can Create Fake Memories' received 5-53 views across multiple uploads with zero likes or comments; 'Your Brain Is Hiding This From You' stalled at 38 views.",
+      "action": "Phase out passive psychological factoid shorts unless tied to high-stakes visual micro-dramas."
     },
     {
-      "pattern": "Psychological Tricks & Micro-tips",
-      "evidence": "Content regarding psychological tricks (e.g., 'The Psychological Trick to Stop Songs Stuck in Your Head') generated minimal traction (71 views) compared to cosmic phenomena.",
-      "action": "Pause standard self-help or basic psychology tips to focus resources on top-performing space and mystery niches."
+      "pattern": "Direct Topic Cannibalization & Repetitive Re-uploads",
+      "evidence": "Titles like 'Why Space Is Completely Silent' and 'Octopuses Have THREE Hearts' were re-uploaded multiple times, dropping from early traction to near-zero momentum.",
+      "action": "Enforce strict single-instance topic coverage and prioritize untouched subject entities."
     }
   ],
   "next_video": {
-    "category": "Space & Astronomy",
-    "hook_style": "High-stakes speculative physical sensory hook",
-    "concept": "What Happens If You Step Foot on a Rogue Planet Floating Through Deep Intergalactic Space with No Star?",
-    "opening_direction": "Start with total pitch blackness and absolute sub-zero temperature, forcing the viewer to imagine free-floating in the endless void lightyears from any sun.",
-    "twist_direction": "Reveal that despite having no star, the planet's core is powered by radioactive decay hot enough to maintain an underground liquid ocean beneath miles of ice.",
+    "category": "what-if scenarios",
+    "hook_style": "Second-person visceral plunge hook",
+    "concept": "What happens if you descend into Jupiter's theoretical ocean of liquid metallic hydrogen.",
+    "opening_direction": "Visual drops directly through Jupiter's swirling orange clouds into pitch-black supercritical fluid while a robotic altimeter glitches.",
+    "twist_direction": "Reveal that miles beneath the cloud deck, the intense pressure converts hydrogen into an electric liquid metal sea that acts like a planet-sized battery.",
     "duration_seconds": 21,
-    "posting_window": "12:00 PM - 2:00 PM UTC",
-    "reason": "Leans directly into the proven high-performing 'What If' and extreme planetary anomaly formats while exploring a completely fresh astronomical concept not yet present in the published history.",
+    "posting_window": "12:00 PM - 02:00 PM UTC",
+    "reason": "Leverages the proven 'What If You Fell Into...' format while introducing an entirely novel, visually shocking celestial biome never featured in FACTVERSE history.",
     "fresh_topic_constraints": [
-      "Must not use diamond, glass, iron, or ruby rain themes",
-      "Must not cover Venus, TrES-2b, or J1407b",
-      "Must introduce an entirely new celestial body class (Rogue Intergalactic Planet)"
+      "Do not feature WASP-76b, HD 189733b, 55 Cancri e, TrES-2b, or Gliese 436b",
+      "Do not recycle diamond rain or glass rain hooks",
+      "Focus strictly on metallic hydrogen and Jupiter's internal abyss"
     ]
   },
-  "experiment": "Test a 21-second narrative structure opening with a visceral physical sensation ('What if you froze instantly...') paired with a dynamic text overlay tracking temperature drop to measure retention impact on deep-space survival concepts.",
-  "model_used": "gemini-3.5-flash-lite",
-  "generated_at": "2026-11-27T09:50:16.099553+00:00"
+  "experiment": "Test whether framing a Solar System giant (Jupiter's core) using the exoplanet survival formula ('What If You Fell Into...') achieves comparable ~1,000-view velocity while improving comment conversion above 0.3%.",
+  "model_used": "gemini-3.8-flash",
+  "generated_at": "2026-11-27T19:36:58.744843+00:00"
 }
