@@ -1,21 +1,44 @@
 {
-  "confidence": "MEDIUM",
+  "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "FACTVERSE is still collecting baseline data. Test distinct fact categories, story formats and hooks before making strong conclusions.",
-  "winning_patterns": [],
-  "weak_patterns": [],
+  "overall_summary": "Analysis across 47 deduplicated Shorts reveals a distinct performance divide. The channel's strongest drivers are extreme exoplanet and extreme cosmic 'What If You Fell Into...' simulation hooks (consistently generating 800–1,050+ views and 20–38 likes per video, with 21-second runtimes). Conversely, recycled low-stakes psychology facts, repetitive biology snippets, and duplicate re-uploads (e.g., repeating 'Octopuses Have THREE Hearts' or 'Why Space Is Completely Silent') suffer severe algorithmic decay, averaging under 100 views and near-zero engagement.",
+  "winning_patterns": [
+    {
+      "pattern": "First-Person Survival / 'What If You Fell Into...' Extreme Celestial Phenomena",
+      "evidence": "Titles using 'What If You Fell Into...' (IYuce8vaU3Y at 1,029 views, 38 likes; 8KEl0_pJ_68 at 974 views, 18 likes; YlDuGu1vzAg at 829 views, 15 likes) massively outperform descriptive fact titles.",
+      "action": "Adopt visceral second-person survival framing ('What If You...') paired with extreme, hostile cosmic or planetary environments at optimal 20-21 second runtimes."
+    },
+    {
+      "pattern": "Sensory Hyperbolic Exoplanet Wonders",
+      "evidence": "'The Planet Darker Than Coal' (v1,032 views, 36 likes) and 'This Planet Rains Supersonic Rubies' (725 views, 25 likes) hold the highest like-to-view ratios (>3.5%).",
+      "action": "Highlight sensory and tangible planetary anomalies (liquid gem rain, absolute darkness, kinetic atmospheric extremes) with rich cinematic visualization."
+    }
+  ],
+  "weak_patterns": [
+    {
+      "pattern": "Repetitive Trivia Re-uploads & Generic Brain Psychology",
+      "evidence": "Multiple uploads of 'Your Brain Can Create Fake Memories' (5 to 53 views) and 'Why Space Is Completely Silent' (34 to 220 views) generate virtually zero comments and negligible likes.",
+      "action": "Completely halt identical/rephrased re-uploads; retire generic human brain trivia unless framed through high-stakes psychological survival or micro-mystery."
+    }
+  ],
   "next_video": {
-    "category": "mind blowing science facts",
-    "hook_style": "unexpected question",
-    "concept": "A surprising, well-established science fact with a curiosity-gap opening and a strong final reveal.",
-    "opening_direction": "Start with the surprising result, not the explanation.",
-    "twist_direction": "End with the detail that changes how viewers see the fact.",
-    "duration_seconds": 15,
-    "posting_window": "18:00 - 22:00 IST",
-    "reason": "Use broad-interest science while the channel establishes a performance baseline."
+    "category": "what-if scenarios",
+    "hook_style": "Visceral sensory second-person survival hook",
+    "concept": "What would happen to your body if you drifted within 1,000 kilometers of a Magnetar—the universe's deadliest magnetic monster.",
+    "opening_direction": "Start mid-action with a visual of a ship's instruments going berserk against a shimmering ultraviolet dead star: 'If you ever got within 1,000 miles of a magnetar, you wouldn't be crushed or burned—your atoms would literally dissolve.'",
+    "twist_direction": "Reveal that its magnetic field is so violent it stretches your electron clouds into needles, snapping your nervous system's bioelectric current and instantly wiping out molecular structure before you even touch it.",
+    "duration_seconds": 21,
+    "posting_window": "12:00 PM - 02:00 PM UTC",
+    "reason": "Directly mirrors the channel's top-tier 1,000+ view exoplanet/cosmic survival archetype while introducing an entirely novel entity (Magnetar / extreme physics) not yet covered in the channel's archive.",
+    "fresh_topic_constraints": [
+      "No diamond planets (55 Cancri e / liquid diamond)",
+      "No burning ice (Gliese 436b)",
+      "No glass rain sideways (HD 189733b)",
+      "No dark coal planet (TrES-2b)",
+      "No repeat shark vs tree trivia or fake memory brain facts"
+    ]
   },
-  "experiment": "Test a non-generic science hook against the previous category and compare views and engagement.",
-  "updated_at": "2026-11-26T15:30:51.678915+00:00",
-  "model_used": "deterministic-fallback",
-  "generated_at": "2026-11-26T15:30:51.678928+00:00"
+  "experiment": "Test substituting exoplanet survival with an ultra-compact stellar remnant (Magnetar) using the proven 21-second 'What If You Fell Into...' pacing to determine if extreme astrophysics matches the exoplanet engagement benchmark.",
+  "model_used": "gemini-3.8-flash",
+  "generated_at": "2026-11-27T00:42:33.468503+00:00"
 }
