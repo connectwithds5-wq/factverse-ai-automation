@@ -1,47 +1,47 @@
 {
   "confidence": "HIGH",
   "data_points": 1500,
-  "overall_summary": "Exoplanet extremes and first-person immersive hypothetical hooks ('What If You Fell Into...') represent the channel's highest-performing content, generating 800-1,000+ views and 3-4% like engagement rates at 19-21 seconds duration. Conversely, generic psychology micro-facts ('Your Brain...') and duplicate re-uploads consistently underperform below 50 views.",
+  "overall_summary": "First-person immersive exoplanet exploration and 'What If You Fell Into...' extreme environment survival scenarios heavily dominate channel viewership and engagement (800-1,000+ views, 3-4% like-to-view ratios). In contrast, generic psychology facts, repeated identical trivia uploads, and abstract space sound/memory facts systematically stagnate below 100 views.",
   "winning_patterns": [
     {
-      "pattern": "First-Person Survival Hypotheses ('What If You Fell Into...')",
-      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (974 views, 18 likes) dramatically outperform third-person expository titles.",
-      "action": "Frame extreme cosmic and planetary phenomena as high-stakes personal survival simulations."
+      "pattern": "First-person visceral survival scenarios on extreme celestial bodies ('What If You Fell Into...')",
+      "evidence": "'What If You Fell Into a Liquid Diamond Planet?' (1,029 views, 38 likes) and 'What If You Fell Into the Planet of Burning Ice?' (974 views, 18 likes) yield the highest raw traffic and engagement.",
+      "action": "Adopt cinematic first-person hypothetical journey hooks exploring extreme physics and hostile environments."
     },
     {
-      "pattern": "Bizarre Planetary Extremes at 19-21s Duration",
-      "evidence": "Videos like 'The Planet Darker Than Coal' (1,032 views, 36 likes, 21s) and 'Venus Has a Day Longer Than Its Year' (981 views, 21 likes, 19s) show strong viewer retention and engagement compared to sub-16s videos.",
-      "action": "Maintain optimal runtime between 19 and 22 seconds, allowing sufficient time for a sensory hook, escalating stakes, and a surprising punchline."
+      "pattern": "High-contrast paradox titles highlighting extreme planetary conditions",
+      "evidence": "'The Planet Darker Than Coal: TrES-2b' (1,032 views, 36 likes) and 'The Planet of Burning Ice Will Break Your Brain!' (1,057 views, 8 likes) outperformed typical fact shorts by 5x-10x.",
+      "action": "Lead with tangible sensory paradoxes (e.g., metallic oceans, crushing magnetic fields, solid gas)."
     }
   ],
   "weak_patterns": [
     {
-      "pattern": "Abstract Neuroscience & Memory Facts",
-      "evidence": "'Your Brain Can Create Fake Memories' received 5-53 views across multiple uploads with zero likes or comments; 'Your Brain Is Hiding This From You' stalled at 38 views.",
-      "action": "Phase out passive psychological factoid shorts unless tied to high-stakes visual micro-dramas."
+      "pattern": "Repetitive generic brain and psychology trivia",
+      "evidence": "Multiple iterations of 'Your Brain Can Create Fake Memories' (5, 10, 53 views) and 'Songs Stuck in Your Head' (17, 71 views) consistently failed to gain traction.",
+      "action": "Retire worn-out psychology listicle topics and focus on visceral, high-stakes curiosity."
     },
     {
-      "pattern": "Direct Topic Cannibalization & Repetitive Re-uploads",
-      "evidence": "Titles like 'Why Space Is Completely Silent' and 'Octopuses Have THREE Hearts' were re-uploaded multiple times, dropping from early traction to near-zero momentum.",
-      "action": "Enforce strict single-instance topic coverage and prioritize untouched subject entities."
+      "pattern": "Re-uploading duplicate topics without substantive visual or narrative elevation",
+      "evidence": "'Why Space Is Completely Silent' repeated three times achieved only 34 to 220 views with minimal interaction.",
+      "action": "Enforce strict uniqueness rules; explore novel astronomical and environmental phenomena instead of looping staples."
     }
   ],
   "next_video": {
-    "category": "what-if scenarios",
-    "hook_style": "Second-person visceral plunge hook",
-    "concept": "What happens if you descend into Jupiter's theoretical ocean of liquid metallic hydrogen.",
-    "opening_direction": "Visual drops directly through Jupiter's swirling orange clouds into pitch-black supercritical fluid while a robotic altimeter glitches.",
-    "twist_direction": "Reveal that miles beneath the cloud deck, the intense pressure converts hydrogen into an electric liquid metal sea that acts like a planet-sized battery.",
+    "category": "what-if scenarios / space",
+    "hook_style": "First-person sensory jeopardy ('What if you fell into...')",
+    "concept": "What would actually happen to a human body falling through Jupiter's supercritical metallic hydrogen ocean.",
+    "opening_direction": "Instant plunge: show a spacesuit plummeting past swirling ammonia stormclouds straight into pitch-black crushing atmospheric pressure.",
+    "twist_direction": "Reveal that the gas does not hit a solid surface; instead, pressure forces hydrogen to liquefy into an ocean of glowing liquid metal where gravity tears atoms apart.",
     "duration_seconds": 21,
-    "posting_window": "12:00 PM - 02:00 PM UTC",
-    "reason": "Leverages the proven 'What If You Fell Into...' format while introducing an entirely novel, visually shocking celestial biome never featured in FACTVERSE history.",
+    "posting_window": "12:00 - 14:00 UTC",
+    "reason": "Leverages the channel's proven high-performing 'What If You Fell Into...' framing while introducing an iconic Solar System mystery that FACTVERSE has not yet covered.",
     "fresh_topic_constraints": [
-      "Do not feature WASP-76b, HD 189733b, 55 Cancri e, TrES-2b, or Gliese 436b",
-      "Do not recycle diamond rain or glass rain hooks",
-      "Focus strictly on metallic hydrogen and Jupiter's internal abyss"
+      "Do not cover TrES-2b, 55 Cancri e, Gliese 436b, Venus, or WASP-76b",
+      "Do not repeat diamond rain, burning ice, or glass rain tropes",
+      "Focus strictly on metallic hydrogen and Jupiter's hidden core physics"
     ]
   },
-  "experiment": "Test whether framing a Solar System giant (Jupiter's core) using the exoplanet survival formula ('What If You Fell Into...') achieves comparable ~1,000-view velocity while improving comment conversion above 0.3%.",
+  "experiment": "Test whether framing extreme planetary physics around a Solar System giant (Jupiter's interior) delivers higher immediate retention and engagement than distant exoplanets.",
   "model_used": "gemini-3.8-flash",
-  "generated_at": "2026-11-27T19:36:58.744843+00:00"
+  "generated_at": "2026-11-28T02:54:24.688471+00:00"
 }
